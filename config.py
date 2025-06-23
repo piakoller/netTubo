@@ -23,7 +23,7 @@ DATA_ROOT_DIR = Path(
 # TUBO_EXCEL_FILE_PATH = DATA_ROOT_DIR / "tubo-DLBCL-v2.xlsx"
 # TUBO_EXCEL_FILE_PATH = DATA_ROOT_DIR / "tubo-DLBCL-v2_modified.xlsx"
 # TUBO_EXCEL_FILE_PATH = DATA_ROOT_DIR / "NET/NET Tubo.xlsx"
-TUBO_EXCEL_FILE_PATH = "/home/pia/projects/netTubo/data/NET Tubo v2.xlsx"
+TUBO_EXCEL_FILE_PATH = DATA_ROOT_DIR / "NET Tubo v2.xlsx"
 
 REPORT_DIR = "generated_report"
 REPORT_FILE_TYPE = "md"

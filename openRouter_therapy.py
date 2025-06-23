@@ -1,179 +1,173 @@
+# openRouter_therapy.py
+
 import argparse
+import json
 import logging
 import os
-import json
 import requests
+import time
 from pathlib import Path
 from dotenv import load_dotenv
-from typing import Any, List, Optional, Dict
-from langchain_core.language_models.base import BaseLanguageModel
-from langchain_core.callbacks.manager import CallbackManagerForLLMRun
-from langchain_core.outputs import LLMResult, Generation
+import pandas as pd
 
-import config
-from shared_logic import LLM_TEMPERATURE, run_processing_pipeline
+from config import LLM_TEMPERATURE, MAX_TOKENS, TUBO_EXCEL_FILE_PATH
+from shared_logic import (
+    format_patient_data_for_prompt,
+    load_structured_guidelines,
+    format_guidelines_for_prompt,
+    build_prompt,
+    PATIENT_FIELDS_FOR_PROMPT,
+    GUIDELINE_SOURCE_DIR,
+    _sanitize_filename
+)
 
 load_dotenv()
-
-DEFAULT_OPENROUTER_MODEL = "google/gemma-2-9b-it:free"
-API_KEY = os.getenv("OPENROUTER_API_KEY")
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-
-# --- Configuration for this specific script ---
 logger = logging.getLogger("run_openrouter")
+logging.basicConfig(level=logging.INFO)
 
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+DEFAULT_OPENROUTER_MODEL = "google/gemini-2.5-flash-lite-preview-06-17"
+API_KEY = os.getenv("OPENROUTER_API_KEY")
+SYSTEM_MESSAGE = "Du bist ein hilfreicher medizinischer Assistent für ein Tumorboard."
 
-class OpenRouterLLM(BaseLanguageModel):
-    """LangChain-compatible wrapper for calling OpenRouter API."""
-
-    def __init__(self, model_name: str, temperature: float, api_key: str, **kwargs):
-        super().__init__(**kwargs)
-        self.model = model_name
-        self.temperature = temperature
-        self.api_key = api_key
-
-    @property
-    def _llm_type(self) -> str:
-        """Return identifier of llm type."""
-        return "openrouter"
-
-    def _generate(
-        self,
-        prompts: List[str],
-        stop: Optional[List[str]] = None,
-        run_manager: Optional[CallbackManagerForLLMRun] = None,
-        **kwargs: Any,
-    ) -> LLMResult:
-        """Generate responses for the given prompts."""
-        generations = []
-        
-        for prompt in prompts:
-            try:
-                response_text = self._call_api(prompt)
-                generations.append([Generation(text=response_text)])
-            except Exception as e:
-                logger.error(f"Error generating response: {e}")
-                generations.append([Generation(text=f"Error: {str(e)}")])
-        
-        return LLMResult(generations=generations)
-
-    def _call_api(self, prompt: str) -> str:
-        """Make the actual API call to OpenRouter."""
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://yourproject.local",
-            "X-Title": "NetTubo Therapy"
-        }
-
-        data = {
-            "model": self.model,
-            "temperature": self.temperature,
-            "messages": [
-                {"role": "system", "content": "You are a helpful medical assistant."},
-                {"role": "user", "content": prompt}
-            ]
-        }
-
+def call_openrouter_api(model: str, prompt: str, api_key: str, temperature: float, max_tokens: int, system_message: str = SYSTEM_MESSAGE, max_retries: int = 3) -> str:
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "HTTP-Referer": "https://github.com/piakoller/netTubo",
+        "X-Title": "NET Tumorboard Assistant",
+        "Content-Type": "application/json"
+    }
+    
+    data = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": prompt}
+        ],
+        "max_tokens": max_tokens,  # Füge eine maximale Token-Länge hinzu
+        "temperature": temperature,
+        "stop": ["</begründung>"] 
+    }
+    
+    for attempt in range(max_retries):
         try:
-            response = requests.post(OPENROUTER_URL, headers=headers, data=json.dumps(data))
+            logger.debug(f"Attempt {attempt + 1}: Calling OpenRouter API")
+            # Debug-Logging hinzufügen
+            logger.debug(f"Request URL: {OPENROUTER_URL}")
+            logger.debug(f"Request Headers: {headers}")
+            logger.debug(f"Request Data: {json.dumps(data, indent=2)}")
             
-            # Debug logging
-            logger.debug(f"Response status code: {response.status_code}")
+            response = requests.post(
+                OPENROUTER_URL,
+                headers=headers,
+                json=data,
+                timeout=30  # Timeout hinzufügen
+            )
             
-            if response.status_code != 200:
-                logger.error(f"API Error: {response.status_code} - {response.text}")
-                try:
-                    error_data = response.json()
-                    logger.error(f"Error details: {json.dumps(error_data, indent=2)}")
-                except:
-                    pass
-                raise Exception(f"API call failed with status {response.status_code}: {response.text}")
+            # # Debug-Logging für die Antwort
+            # logger.info(f"Response Status Code: {response.status_code}")
+            # logger.debug(f"Response Headers: {dict(response.headers)}")
             
+            if response.status_code == 400:
+                error_message = response.json() if response.text else "No error details available"
+                logger.error(f"Bad Request Error. Details: {error_message}")
+                return f"ERROR: Bad Request - {error_message}"
+            
+            if response.status_code == 401:
+                logger.error("Authentication failed. Please check your API key.")
+                return "ERROR: Authentication failed - invalid API key"
+            
+            response.raise_for_status()
             response_json = response.json()
-            return response_json["choices"][0]["message"]["content"]
             
+            if "choices" in response_json and len(response_json["choices"]) > 0:
+                return response_json["choices"][0]["message"]["content"]
+            else:
+                logger.error(f"Unexpected API response structure: {response_json}")
+                return "ERROR: Unexpected API response structure"
+                
         except requests.exceptions.RequestException as e:
-            logger.error(f"Request failed: {e}")
-            raise Exception(f"Request failed: {e}")
-
-    def invoke(self, prompt: str) -> str:
-        """Invoke method for direct string prompts (backward compatibility)."""
-        return self._call_api(prompt)
-
-    # Required for BaseLanguageModel but not used in our case
-    async def _agenerate(
-        self,
-        prompts: List[str],
-        stop: Optional[List[str]] = None,
-        run_manager: Optional[CallbackManagerForLLMRun] = None,
-        **kwargs: Any,
-    ) -> LLMResult:
-        """Async generate - not implemented for this simple wrapper."""
-        raise NotImplementedError("Async generation not implemented")
-
+            logger.error(f"OpenRouter API request failed (attempt {attempt+1}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON response (attempt {attempt+1}): {e}")
+            logger.error(f"Raw response: {response.text}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.error(f"Unexpected error (attempt {attempt+1}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+    
+    return "ERROR: OpenRouter API call failed after all retries"
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate recommendations using the OpenRouter API.")
-    parser.add_argument(
-        "--llm_model", type=str, default=DEFAULT_OPENROUTER_MODEL,
-        help=f"OpenRouter model to use. Default: {DEFAULT_OPENROUTER_MODEL}"
-    )
-    parser.add_argument(
-        "--patient_data_file", type=Path, default=None,
-        help="Optional: Path to the patient data Excel file. Overrides the default from config."
-    )
-    parser.add_argument(
-        "--output_file", type=Path, default=None,
-        help="Path to save the JSON results. If not set, a filename is auto-generated."
-    )
-    parser.add_argument(
-        "--clinical_info_modified", action="store_true",
-        help="Flag that context was modified. Set automatically if --patient_data_file is used."
-    )
+    parser = argparse.ArgumentParser(description="Generate therapy recommendations using OpenRouter API (no LangChain).")
+    parser.add_argument("--llm_model", type=str, default=DEFAULT_OPENROUTER_MODEL)
+    parser.add_argument("--patient_data_file", type=Path, default=None)
+    parser.add_argument("--output_file", type=Path, default=None)
+    parser.add_argument("--clinical_info_modified", action="store_true")
     args = parser.parse_args()
 
     if not API_KEY:
-        logger.error("OPENROUTER_API_KEY environment variable not set. Please set it to your API key.")
-        return
-
-    # Validate API key format
-    if not API_KEY.startswith("sk-or-v1-"):
-        logger.error("Invalid API key format. OpenRouter API keys should start with 'sk-or-v1-'")
+        logger.error("OPENROUTER_API_KEY not set in .env")
         return
 
     is_modified = args.clinical_info_modified
-    if args.patient_data_file:
-        patient_file = args.patient_data_file
-        if not is_modified:
-            logger.info("Using a custom patient data file, so 'clinical_info_modified' is automatically set to True.")
-            is_modified = True
-    else:
-        patient_file = Path(config.TUBO_EXCEL_FILE_PATH)
+    patient_file = args.patient_data_file or Path(TUBO_EXCEL_FILE_PATH)
+    if args.patient_data_file and not is_modified:
+        logger.info("Custom patient file used -> setting clinical_info_modified=True")
+        is_modified = True
 
-    try:
-        logger.info(f"Initializing OpenRouter model: {args.llm_model}")
-        llm = OpenRouterLLM(
-            model_name=args.llm_model,
-            temperature=LLM_TEMPERATURE,
-            api_key=API_KEY
-        )
-        # Test prompt
-        logger.info("Testing connection with simple prompt...")
-        test_response = llm.invoke("Hi!")
-        logger.info(f"Test prompt response: {test_response[:60]}...")
-    except Exception as e:
-        logger.error(f"Failed to connect to OpenRouter model '{args.llm_model}'.", exc_info=True)
+    structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
+    guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
+
+    df_patients = pd.read_excel(str(patient_file))
+    if df_patients is None or df_patients.empty:
+        logger.error(f"No patient data loaded from {patient_file}. Exiting.")
         return
 
-    run_processing_pipeline(
-        llm=llm,
-        llm_model_name=args.llm_model,
-        patient_data_file=patient_file,
-        output_file=args.output_file,
-        is_clinical_info_modified=is_modified
-    )
+    all_results = []
+    patient_ids = [pid for pid in df_patients["ID"].unique() if pid and str(pid).strip()]
+    total_patients = len(patient_ids)
+    logger.info(f"Found {total_patients} unique patients to process.")
 
+    for i, patient_id in enumerate(patient_ids, 1):
+        logger.info(f"--- Processing patient {i}/{total_patients} (ID: {patient_id}) ---")
+        patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
+        patient_dict = patient_row.to_dict()
+        patient_data_string = format_patient_data_for_prompt(patient_dict, PATIENT_FIELDS_FOR_PROMPT)
+        structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
+        guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
+        prompt = build_prompt(patient_data_string, guidelines_context_string)
+        raw_response = call_openrouter_api(
+            model=args.llm_model,
+            prompt=prompt,
+            api_key=API_KEY,
+            temperature=LLM_TEMPERATURE,
+            max_tokens=MAX_TOKENS
+        )
+        all_results.append({
+            "patient_id": str(patient_id),
+            "patient_data_source_file": patient_file.name,
+            "timestamp_processed": time.strftime("%Y-%m-%dT%H:%M:%S"),
+            "llm_model_used": args.llm_model,
+            "clinical_info_modified": is_modified,
+            "llm_input": {
+                "prompt_text": prompt,
+                "attachments_used": loaded_files
+            },
+            "llm_raw_output": raw_response,
+            "error": None if not raw_response.startswith("ERROR") else raw_response
+        })
+        time.sleep(1)
+
+    output_file = args.output_file or (Path("data_for_evaluation/singleprompt") / f"singleprompt_{_sanitize_filename(args.llm_model)}_modified_{is_modified}.json")
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(all_results, f, indent=2, ensure_ascii=False)
+    logger.info(f"Processing complete. All {len(all_results)} results saved to: {output_file}")
 
 if __name__ == "__main__":
     main()

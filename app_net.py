@@ -120,6 +120,27 @@ def extract_llm_input_sections(llm_input_text: str) -> dict:
     
     return sections
 
+def extract_section(text: str, tag: str) -> str:
+    """Extract content between XML-like tags or get remaining content for 'begründung'"""
+    if tag in ["beurteilung", "therapieempfehlung"]:
+        # Normale Extraktion für Beurteilung und Therapieempfehlung
+        start_tag = f"<{tag}>"
+        end_tag = f"</{tag}>"
+        try:
+            start = text.index(start_tag) + len(start_tag)
+            end = text.index(end_tag)
+            return text[start:end].strip()
+        except ValueError:
+            return ""
+    elif tag == "begründung":
+        # Für Begründung: Nimm alles nach </therapieempfehlung>
+        try:
+            split_pos = text.index("</therapieempfehlung>") + len("</therapieempfehlung>")
+            return text[split_pos:].strip()
+        except ValueError:
+            return ""
+    return ""
+
 def display_variant_content(variant_data: dict, variant_key: str, patient_id: str):
     """Display content for a variant"""
     entry = variant_data['entry']
@@ -130,26 +151,20 @@ def display_variant_content(variant_data: dict, variant_key: str, patient_id: st
     # Extract recommendation components
     final_rec, think_block, raw_output, llm_input = extract_recommendation_from_entry(entry)
     
-   # LLM Input
+    # LLM Input
     if llm_input and llm_input.strip() != "{}":
         with st.expander("LLM Input", expanded=False):
-            # parse llm_input string to dict if it's a JSON string
             if isinstance(llm_input, str):
-                import json
                 try:
                     llm_input = json.loads(llm_input)
                 except json.JSONDecodeError:
                     st.error("Fehler beim Parsen von llm_input als JSON.")
                     llm_input = {}
-
-            # get inner content from 'llm_input' field
-            # llm_input_sections = llm_input.get("prompt_text", {})
-            # print(llm_input_sections)
             
             prompt_text = llm_input.get("prompt_text")
             if prompt_text:
                 st.markdown("**Prompt Text:**")
-                st.code(f"```\n{prompt_text}\n```")
+                st.code(f"{prompt_text}")
 
             patient_info = llm_input.get("patient_information")
             if patient_info:
@@ -160,25 +175,38 @@ def display_variant_content(variant_data: dict, variant_key: str, patient_id: st
             if attachments:
                 st.markdown("**Attached Documents:**")
                 st.markdown(f"```\n{attachments}\n```")
-
     else:
         st.info("No LLM Input available.")
-    
-    # Think Block / Raw Output
-    if think_block:
-        with st.expander("Raw LLM Output", expanded=False):
-            st.markdown(f"```\n{think_block}\n```")
+
+    # Raw Output sections
+    if raw_output:
+        # Extract and display each section
+        beurteilung = extract_section(raw_output, "beurteilung")
+        therapieempfehlung = extract_section(raw_output, "therapieempfehlung")
+        begruendung = extract_section(raw_output, "begründung")
+
+        # Display sections in expandable containers
+        with st.expander("Beurteilung", expanded=True):
+            st.markdown(beurteilung)
+        
+        with st.expander("Therapieempfehlung", expanded=True):
+            st.markdown(therapieempfehlung)
+        
+        with st.expander("Begründung", expanded=True):
+            st.markdown(begruendung)
     else:
-        st.info("No raw output available.")
+        st.info("No raw output sections available.")
     
-    # Final recommendation display
-    st.text_area(
-        f"Final Recommendation - {variant_key}",
-        final_rec,
-        height=300,
-        disabled=True,
-        key=f"display_{variant_key}_{patient_id}_{hash(filename)}"
-    )
+    # Final recommendation display (if different from raw output)
+    if final_rec and final_rec != raw_output:
+        with st.expander("Final Processed Recommendation", expanded=False):
+            st.text_area(
+                f"Final Recommendation - {variant_key}",
+                final_rec,
+                height=300,
+                disabled=True,
+                key=f"display_{variant_key}_{patient_id}_{hash(filename)}"
+            )
     
     return final_rec
 

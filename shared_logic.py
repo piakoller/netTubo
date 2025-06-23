@@ -2,6 +2,7 @@
 
 import json
 import logging
+import warnings
 import re
 import time
 from datetime import datetime
@@ -11,6 +12,9 @@ from typing import Dict, List, Optional, Tuple
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.schema.language_model import BaseLanguageModel
+
+warnings.filterwarnings("ignore", message=".*ScriptRunContext.*")
+logging.getLogger("streamlit").setLevel(logging.ERROR)
 
 # --- Project-specific Imports (ensure they are in PYTHONPATH) ---
 try:
@@ -52,11 +56,15 @@ def _sanitize_tag_name(filename: str) -> str:
     name = re.sub(r'[^\w_]', '', name)
     return name.lower()
 
-
 def load_structured_guidelines(guideline_dir: Path) -> Tuple[Dict[str, Dict[str, str]], List[str]]:
     """Recursively finds guideline files and organizes them by their source subdirectory."""
     structured_docs: Dict[str, Dict[str, str]] = {}
     loaded_files: List[str] = []
+    
+    if not guideline_dir.exists():
+        logger.warning(f"Guidelines directory {guideline_dir} does not exist")
+        return structured_docs, loaded_files
+        
     for item in sorted(guideline_dir.iterdir()):
         source_name = item.name.lower()
         files_to_load = []
@@ -76,6 +84,116 @@ def load_structured_guidelines(guideline_dir: Path) -> Tuple[Dict[str, Dict[str,
             except Exception as e:
                 logger.error(f"Error reading file {file}: {e}")
     return structured_docs, loaded_files
+
+def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:
+    """Formats patient data into a string for the LLM prompt."""
+    lines = ["Patienteninformationen:"]
+    field_map = {k.lower(): k for k in patient_row.keys()}  # Create case-insensitive field mapping
+    
+    for field in fields:
+        actual_field = field_map.get(field.lower())  # Try to find the actual field name
+        if actual_field:
+            value = patient_row.get(actual_field)
+            if value and str(value).strip():
+                field_name_pretty = field.replace("_", " ").title()
+                lines.append(f"- {field_name_pretty}: {str(value)}")
+    return "\n".join(lines)
+
+def build_prompt(patient_data_string: str, guidelines_context_string: str) -> str:
+    """Builds the complete prompt with patient data and guidelines."""
+    return f"""
+Du bist ein KI-Assistent, der eine Beurteilung und Therapieempfehlung für Patienten eines Tumorboards erstellen soll.
+Deine Aufgabe ist es, die gegebenen Patienteninformationen zu analysieren, die bereitgestellten medizinischen Leitlinien zu konsultieren und eine fundierte Empfehlung auf Deutsch abzugeben.
+
+**Wichtige Regeln für deine Antwort:**
+- Formuliere deine Beurteilung und Therapieempfehlung auf Deutsch.
+- Stelle sicher, dass deine Antwort gut strukturiert, klar und präzise ist.
+-  **Antworte ausschließlich auf Basis der Informationen in `<patient_information>` und `<guidelines_context>`. Verwende kein externes Wissen.**
+-  **Erfinde niemals Fakten, Diagnosen oder Testergebnisse, die nicht explizit im Kontext erwähnt werden.**
+-  Begründe deine Empfehlung mit klaren Verweisen auf die relevanten Leitlinien oder Studien (nenne die Quelle und das spezifische Dokument) und individuelle Patientenfaktoren.
+- Verwende medizinische Fachbegriffe angemessen, aber erkläre komplexe Konzepte so, dass sie für ein medizinisches Fachpublikum verständlich sind.
+- Deine finale Ausgabe sollte nur aus den Inhalten innerhalb der <beurteilung>, <therapieempfehlung> und <begründung> Tags bestehen. Wiederhole nicht den Scratchpad oder andere Zwischenschritte.
+
+<patient_information>
+{patient_data_string}
+</patient_information>
+
+{guidelines_context_string}
+
+Strukturiere deine finale Antwort wie folgt:
+
+{TAG_ASSESSMENT}
+[Hier deine ausführliche Beurteilung der Patientensituation einfügen]
+{TAG_ASSESSMENT.replace('<', '</')}
+
+{TAG_RECOMMENDATION}
+[Hier deine detaillierte Therapieempfehlung einfügen]
+{TAG_RECOMMENDATION.replace('<', '</')}
+
+{TAG_RATIONALE}
+[Hier eine Begründung für deine Empfehlung basierend auf den Leitlinien und Patientenfaktoren einfügen]
+{TAG_RATIONALE.replace('<', '</')}
+
+"""
+
+def generate_single_recommendation(
+    patient_data_dict: Dict,
+    llm: BaseLanguageModel
+) -> Tuple[Optional[Dict], Optional[str], Optional[str], Optional[float], Dict]:
+    """Generates a single therapy recommendation for a patient using a provided LLM instance."""
+    # Get patient ID in a case-insensitive way
+    patient_id = next((str(v) for k, v in patient_data_dict.items() 
+                      if k.lower() == "id"), "unknown")
+    
+    patient_data_string = format_patient_data_for_prompt(patient_data_dict, PATIENT_FIELDS_FOR_PROMPT)
+    structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
+    guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
+
+    if not guidelines_context_string:
+        logger.warning(f"No guideline context could be loaded for patient {patient_id}. Proceeding without it.")
+
+    # Use the build_prompt function instead of the template string
+    formatted_prompt = build_prompt(patient_data_string, guidelines_context_string)
+    
+    prompt = PromptTemplate(
+        template=formatted_prompt,
+        input_variables=[]  # No input variables needed as we've already formatted the prompt
+    )
+
+    chain = prompt | llm
+
+    llm_input_for_log = {
+        "prompt_text": formatted_prompt,
+        "attachments_used": loaded_files,
+        "llm_kwargs": getattr(config, "MODEL_KWARGS", {})
+    }
+
+    start_time = time.perf_counter()
+    
+    try:
+        logger.info(f"Generating recommendation for Patient ID {patient_id}. Attached files: {', '.join(loaded_files) or 'None'}")
+        
+        response = chain.invoke({})  # Empty dict since we've pre-formatted the prompt
+        duration = time.perf_counter() - start_time
+        
+        if hasattr(response, 'content'):
+            raw_response = response.content.strip()
+        elif isinstance(response, str):
+            raw_response = response.strip()
+        elif isinstance(response, dict) and 'text' in response:
+            raw_response = response['text'].strip()
+        else:
+            raw_response = str(response).strip()
+        
+        parsed_response = _parse_llm_response(raw_response)
+        
+        return parsed_response, raw_response, None, duration, llm_input_for_log
+        
+    except Exception as e:
+        duration = time.perf_counter() - start_time
+        error_msg = f"LLM generation failed: {e}"
+        logger.error(error_msg, exc_info=True)
+        return None, None, error_msg, duration, llm_input_for_log
 
 
 def format_guidelines_for_prompt(structured_docs: Dict[str, Dict[str, str]]) -> str:
@@ -120,86 +238,6 @@ def _parse_llm_response(response_text: str) -> Dict[str, Optional[str]]:
 def _sanitize_filename(name: str) -> str:
     """Replaces characters in a string to make it a valid filename component."""
     return name.replace(":", "_").replace("/", "_").replace(".", "_")
-
-
-def generate_single_recommendation(
-    patient_data_dict: Dict,
-    llm: BaseLanguageModel
-) -> Tuple[Optional[Dict], Optional[str], Optional[str], Optional[float], Dict]:
-    """Generates a single therapy recommendation for a patient using a provided LLM instance."""
-    patient_data_string = format_patient_data_for_prompt(patient_data_dict, PATIENT_FIELDS_FOR_PROMPT)
-    structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
-    guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
-
-    if not guidelines_context_string:
-        logger.warning(f"No guideline context could be loaded for patient {patient_data_dict.get('id')}. Proceeding without it.")
-
-    prompt_template_str = """
-Du bist ein KI-Assistent, der eine Beurteilung und Therapieempfehlung für Patienten eines Tumorboards erstellen soll.
-Deine Aufgabe ist es, die gegebenen Patienteninformationen zu analysieren, die bereitgestellten medizinischen Leitlinien zu konsultieren und eine fundierte Empfehlung auf Deutsch abzugeben.
-
-**Wichtige Regeln für deine Antwort:**
-1.  **Antworte ausschließlich auf Basis der Informationen in `<patient_information>` und `<guidelines_context>`. Verwende kein externes Wissen.**
-2.  **Erfinde niemals Fakten, Diagnosen oder Testergebnisse, die nicht explizit im Kontext erwähnt werden.**
-3.  Wenn eine für die Empfehlung wichtige Information fehlt, weise in deiner Beurteilung explizit darauf hin
-
-<patient_information>
-{patient_data_string}
-</patient_information>
-{guidelines_context_string}
-
-<scratchpad>
-- Wichtigste Punkte aus den Patienteninformationen
-- Relevante Abschnitte aus Leitlinien
-- Vorläufige Beurteilung der Patientensituation
-- Mögliche Therapieoptionen
-- Argumente für und gegen verschiedene Therapieansätze
-</scratchpad>
-
-<beurteilung>
-[Hier deine ausführliche Beurteilung der Patientensituation einfügen]
-</beurteilung>
-<therapieempfehlung>
-[Hier deine detaillierte Therapieempfehlung einfügen]
-</therapieempfehlung>
-<begründung>
-[Hier eine Begründung für deine Empfehlung basierend auf den Leitlinien und Patientenfaktoren einfügen]
-</begründung>
-"""
-    prompt = PromptTemplate(
-        template=prompt_template_str,
-        input_variables=["patient_data_string", "guidelines_context_string"]
-    )
-
-    chain = LLMChain(llm=llm, prompt=prompt)
-    template_input = {
-    "patient_data_string": patient_data_string,
-    "guidelines_context_string": guidelines_context_string
-    }
-
-    llm_input_for_log = {
-        "prompt_text": prompt.format(**template_input),
-        "attachments_used": loaded_files,
-        "llm_kwargs": config.MODEL_KWARGS
-    }
-
-    start_time = time.perf_counter()
-    
-    try:
-        logger.info(f"Generating recommendation for Patient ID {patient_data_dict.get('ID')}. Attached files: {', '.join(loaded_files) or 'None'}")
-        response = chain.invoke(template_input, **config.MODEL_KWARGS)
-        duration = time.perf_counter() - start_time
-        raw_response = response.get("text", "").strip()
-        parsed_response = _parse_llm_response(raw_response)
-        # if not parsed_response.get("recommendation"):
-        #      logger.warning(f"Could not extract recommendation from response for patient {patient_data_dict.get('ID')}.")
-        return parsed_response, raw_response, None, duration, llm_input_for_log
-    except Exception as e:
-        duration = time.perf_counter() - start_time
-        error_msg = f"LLM generation failed: {e}"
-        logger.error(error_msg, exc_info=True)
-        return None, None, error_msg, duration, llm_input_for_log
-
 
 def run_processing_pipeline(
     llm: BaseLanguageModel,
@@ -253,3 +291,5 @@ def run_processing_pipeline(
         logger.info(f"Processing complete. All {len(all_results)} results saved to: {output_file}")
     except Exception as e:
         logger.error(f"Failed to write results to {output_file}: {e}", exc_info=True)
+
+    return all_results

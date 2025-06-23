@@ -10,7 +10,7 @@ def load_patient_data(file_path: str) -> pd.DataFrame | None:
     """Loads patient data from the specified Excel file."""
     logger.info(f"Attempting to load patient data from: {file_path}")
     try:
-        df = pd.read_excel(file_path, skiprows=8)
+        df = pd.read_excel(file_path)
         if df.empty:
             logger.warning(f"Excel file loaded but is empty (or empty after skipping rows): {file_path}")
             st.warning("Die geladene Excel-Datei ist leer oder enthält keine Daten nach dem Überspringen der Kopfzeilen.")
