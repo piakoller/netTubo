@@ -26,7 +26,7 @@ logger = logging.getLogger("run_openrouter")
 logging.basicConfig(level=logging.INFO)
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-DEFAULT_OPENROUTER_MODEL = "google/gemini-2.5-flash-lite-preview-06-17"
+DEFAULT_OPENROUTER_MODEL = "google/gemini-2.5-pro"
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 SYSTEM_MESSAGE = "Du bist ein hilfreicher medizinischer Assistent für ein Tumorboard."
 

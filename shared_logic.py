@@ -32,7 +32,7 @@ LLM_TEMPERATURE = 0.0
 # Data Directories
 BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
 EVAL_DATA_DIR = BASE_PROJECT_DIR / "data_for_evaluation/single_prompt"
-GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/mds/"
+GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/mds/ESMO"
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
