@@ -32,7 +32,8 @@ LLM_TEMPERATURE = 0.0
 # Data Directories
 BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
 EVAL_DATA_DIR = BASE_PROJECT_DIR / "data_for_evaluation/single_prompt"
-GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/mds/ESMO"
+# using only one ESMO and one ENET Guideline as Context!!
+GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/data_singleprompt/mds"
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
@@ -122,17 +123,17 @@ Deine Aufgabe ist es, die gegebenen Patienteninformationen zu analysieren, die b
 
 Strukturiere deine finale Antwort wie folgt:
 
-{TAG_ASSESSMENT}
+<beurteilung>
 [Hier deine ausführliche Beurteilung der Patientensituation einfügen]
-{TAG_ASSESSMENT.replace('<', '</')}
+</beurteilung>
 
-{TAG_RECOMMENDATION}
+<therapieempfehlung>
 [Hier deine detaillierte Therapieempfehlung einfügen]
-{TAG_RECOMMENDATION.replace('<', '</')}
+</therapieempfehlung>
 
-{TAG_RATIONALE}
+<begründung>
 [Hier eine Begründung für deine Empfehlung basierend auf den Leitlinien und Patientenfaktoren einfügen]
-{TAG_RATIONALE.replace('<', '</')}
+</begründung>
 
 """
 
