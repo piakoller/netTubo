@@ -163,7 +163,7 @@ def main():
         })
         time.sleep(1)
 
-    output_file = args.output_file or (Path("./data_for_evaluation/singleprompt") / f"singleprompt_{_sanitize_filename(args.llm_model)}.json")
+    output_file = args.output_file or (Path("./data_for_evaluation/singleprompt") / f"singleprompt_{_sanitize_filename(args.llm_model)}_modified_{is_modified}.json")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)

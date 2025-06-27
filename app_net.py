@@ -3,6 +3,7 @@ import pandas as pd
 import logging
 from datetime import datetime
 import json
+import re
 
 # Import your own modules
 from utils import (
@@ -292,9 +293,10 @@ if selected_patient_id and selected_llm_model:
             
             for idx, (variant_key, variant_data) in enumerate(sp_variants.items()):
                 with sp_cols[idx]:
-                    modifier = "Modified" if variant_data['is_modified'] else "Standard"
-                    st.markdown(f"**{modifier} Clinical Info**")
-                    
+                    match = re.search(r'prompt_v(\d+)', variant_data['filename'])
+                    prompt_version = f"Prompt v{match.group(1)}" if match else "Unknown Prompt"
+                    st.markdown(f"**{prompt_version} Clinical Info**")
+                   
                     final_rec = display_variant_content(variant_data, variant_key, selected_patient_id)
                     
                     if final_rec and final_rec.strip():
@@ -310,8 +312,9 @@ if selected_patient_id and selected_llm_model:
             
             for idx, (variant_key, variant_data) in enumerate(ma_variants.items()):
                 with ma_cols[idx]:
-                    modifier = "Modified" if variant_data['is_modified'] else "Standard"
-                    st.markdown(f"**{modifier} Clinical Info**")
+                    match = re.search(r'prompt_v(\d+)', variant_data['filename'])
+                    prompt_version = f"Prompt v{match.group(1)}" if match else "Unknown Prompt"
+                    st.markdown(f"**{prompt_version} Clinical Info**")
                     
                     final_rec = display_variant_content(variant_data, variant_key, selected_patient_id)
                     

@@ -103,25 +103,34 @@ def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:
 def build_prompt(patient_data_string: str, guidelines_context_string: str) -> str:
     """Builds the complete prompt with patient data and guidelines."""
     return f"""
-Du bist ein KI-Assistent, der eine Beurteilung und Therapieempfehlung für Patienten eines Tumorboards erstellen soll.
-Deine Aufgabe ist es, die gegebenen Patienteninformationen zu analysieren, die bereitgestellten medizinischen Leitlinien zu konsultieren und eine fundierte Empfehlung auf Deutsch abzugeben.
+Du bist ein KI-Assistent, der eine Beurteilung und Therapieempfehlung für Patienten eines Tumorboards erstellen soll. Deine Aufgabe ist es, die gegebenen Patienteninformationen zu analysieren, die bereitgestellten medizinischen Leitlinien zu konsultieren und eine fundierte Empfehlung auf Deutsch abzugeben.
 
-**Wichtige Regeln für deine Antwort:**
-- Formuliere deine Beurteilung und Therapieempfehlung auf Deutsch.
-- Stelle sicher, dass deine Antwort gut strukturiert, klar und präzise ist.
--  **Antworte ausschließlich auf Basis der Informationen in `<patient_information>` und `<guidelines_context>`. Verwende kein externes Wissen.**
--  **Erfinde niemals Fakten, Diagnosen oder Testergebnisse, die nicht explizit im Kontext erwähnt werden.**
--  Begründe deine Empfehlung mit klaren Verweisen auf die relevanten Leitlinien oder Studien (nenne die Quelle und das spezifische Dokument) und individuelle Patientenfaktoren.
-- Verwende medizinische Fachbegriffe angemessen, aber erkläre komplexe Konzepte so, dass sie für ein medizinisches Fachpublikum verständlich sind.
-- Deine finale Ausgabe sollte nur aus den Inhalten innerhalb der <beurteilung>, <therapieempfehlung> und <begründung> Tags bestehen. Wiederhole nicht den Scratchpad oder andere Zwischenschritte.
-
+Hier sind die Patienteninformationen:
 <patient_information>
 {patient_data_string}
 </patient_information>
 
+Hier sind die relevanten medizinischen Leitlinien:
+<guidelines_context>
 {guidelines_context_string}
+</guidelines_context>
 
-Strukturiere deine finale Antwort wie folgt:
+Analysiere sorgfältig die Patienteninformationen und die medizinischen Leitlinien. Berücksichtige dabei alle relevanten Faktoren wie Diagnose, Krankheitsstadium, bisherige Behandlungen, Komorbiditäten und persönliche Umstände des Patienten.
+
+Strukturiere deine Antwort in drei Teile:
+1. Beurteilung: Eine ausführliche Einschätzung der Patientensituation
+2. Therapieempfehlung: Eine detaillierte Empfehlung für die weitere Behandlung
+3. Begründung: Eine Erklärung deiner Empfehlung basierend auf den Leitlinien und individuellen Patientenfaktoren
+
+Wichtige Regeln für deine Antwort:
+- Formuliere deine Beurteilung und Therapieempfehlung auf Deutsch.
+- Stelle sicher, dass deine Antwort gut strukturiert, klar und präzise ist.
+- Antworte ausschließlich auf Basis der Informationen in <patient_information> und <guidelines_context>. Verwende kein externes Wissen.
+- Erfinde niemals Fakten, Diagnosen oder Testergebnisse, die nicht explizit im Kontext erwähnt werden.
+- Begründe deine Empfehlung mit klaren Verweisen auf die relevanten Leitlinien oder Studien (nenne die Quelle und das spezifische Dokument) und individuelle Patientenfaktoren.
+- Verwende medizinische Fachbegriffe angemessen, aber erkläre komplexe Konzepte so, dass sie für ein medizinisches Fachpublikum verständlich sind.
+
+Gib deine finale Antwort in folgendem Format aus:
 
 <beurteilung>
 [Hier deine ausführliche Beurteilung der Patientensituation einfügen]
@@ -134,6 +143,8 @@ Strukturiere deine finale Antwort wie folgt:
 <begründung>
 [Hier eine Begründung für deine Empfehlung basierend auf den Leitlinien und Patientenfaktoren einfügen]
 </begründung>
+
+Deine finale Ausgabe sollte nur aus den Inhalten innerhalb der <beurteilung>, <therapieempfehlung> und <begründung> Tags bestehen.
 
 """
 

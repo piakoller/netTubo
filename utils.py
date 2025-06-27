@@ -11,11 +11,12 @@ from typing import Dict, List, Tuple, Optional
 load_dotenv()
 
 MONGO_URI = os.environ.get("MONGO_URI")
+# MONGO_URI = os.getenv("MONGO_URI")
 
 try:
     client = MongoClient(MONGO_URI) if MONGO_URI else None
-    db = client["llmTubo_eval_db"] if client else None
-    collection = db["expert_evaluations_net"] if db else None
+    db = client["llmTubo_eval_db"] if client is not None else None
+    collection = db["expert_evaluations_net"] if db is not None else None
 except Exception as e:
     client = None
     db = None
@@ -122,44 +123,50 @@ def get_data_for_patient(patient_id: str) -> Dict[str, dict]:
     
     return patient_data
 
-def parse_filename_to_components(filename: str) -> Tuple[Optional[str], Optional[str], Optional[bool]]:
+def parse_filename_to_components(filename: str) -> Tuple[Optional[str], Optional[str], Optional[str]]:
     try:
         name_without_ext = filename.rsplit('.json', 1)[0]
         
         # 1. Determine Approach based on directory
         approach = None
-        if any('singleprompt' in part.lower() for part in filename.split(os.sep)):
+        if 'singleprompt' in filename.lower():
             approach = "SinglePrompt"
-        elif any('multiagent' in part.lower() for part in filename.split(os.sep)):
+        elif 'multiagent' in filename.lower():
             approach = "MultiAgent"
         
-        # 2. Determine Modification Status
-        is_modified = None
-        if '_modified_True' in name_without_ext:
-            is_modified = True
-        elif '_modified_False' in name_without_ext:
-            is_modified = False
-        
-        # 3. Extract LLM Model (the part between the prefix and the suffix)
+        # 2. Extract prompt version (e.g. "prompt_v1")
+        prompt_version = None
+        if '_prompt_' in name_without_ext:
+            prompt_version = name_without_ext.split('_prompt_')[-1]
+            prompt_version = f"prompt_v{prompt_version}" if not prompt_version.startswith("v") else prompt_version
+        else:
+            # Optional fallback for older modified files
+            if '_modified_True' in name_without_ext:
+                prompt_version = "modified"
+            elif '_modified_False' in name_without_ext:
+                prompt_version = "standard"
+
+        # 3. Extract LLM model
         llm_model = None
-        # Define possible prefixes that come before the model name
         prefixes = ['structured_guideline_', 'singleprompt_', 'multiagent_']
-        # Define the suffix that comes after the model name
-        suffix = '_modified_'
         
         for prefix in prefixes:
             if name_without_ext.startswith(prefix):
                 start_idx = len(prefix)
-                end_idx = name_without_ext.find(suffix, start_idx)
-                if end_idx != -1:
-                    llm_model = name_without_ext[start_idx:end_idx]
-                    break # Found it, no need to check other prefixes
-        
-        if not all([llm_model, approach, is_modified is not None]):
-            logger.warning(f"Could not fully parse filename: {filename}. Got: model={llm_model}, approach={approach}, modified={is_modified}")
+                if '_prompt_' in name_without_ext:
+                    end_idx = name_without_ext.find('_prompt_', start_idx)
+                elif '_modified_' in name_without_ext:
+                    end_idx = name_without_ext.find('_modified_', start_idx)
+                else:
+                    end_idx = len(name_without_ext)
+                llm_model = name_without_ext[start_idx:end_idx]
+                break
 
-        return llm_model, approach, is_modified
+        if not all([llm_model, approach, prompt_version]):
+            logger.warning(f"Could not fully parse filename: {filename}. Got: model={llm_model}, approach={approach}, prompt_version={prompt_version}")
         
+        return llm_model, approach, prompt_version
+
     except Exception as e:
         logger.error(f"Error parsing filename {filename}: {e}")
         return None, None, None
@@ -180,15 +187,15 @@ def get_variants_for_patient_and_model(patient_id: str, llm_model: str) -> Dict[
     variants = {}
     
     for filename, entry in patient_data.items():
-        parsed_llm, approach, is_modified = parse_filename_to_components(filename)
+        parsed_llm, approach, prompt_version = parse_filename_to_components(filename)
         
-        if parsed_llm == llm_model and approach is not None and is_modified is not None:
-            variant_key = f"{approach}_{'Modified' if is_modified else 'Standard'}"
+        if parsed_llm == llm_model and approach and prompt_version:
+            variant_key = f"{approach}_{prompt_version}"
             variants[variant_key] = {
                 'filename': filename,
                 'entry': entry,
                 'approach': approach,
-                'is_modified': is_modified
+                'prompt_version': prompt_version
             }
     
     return variants
@@ -239,7 +246,7 @@ def save_comparative_evaluation(patient_id: str, llm_model_evaluated: str, evalu
             json.dump(evaluation_data, f, indent=2, ensure_ascii=False)
         logger.info(f"Comparative evaluation saved locally to: {filepath}")
         
-        if client and db and collection:
+        if client is not None and db is not None and collection is not None:
             try:
                 mongo_document = {
                     "patient_id": patient_id,

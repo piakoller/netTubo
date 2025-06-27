@@ -1,0 +1,15 @@
+{
+  "evaluation_timestamp": "2025-06-27T12:51:03.526329",
+  "evaluations_per_variant": {
+    "SinglePrompt_v1": {
+      "clinical_accuracy": 1,
+      "guideline_adherence": 1,
+      "overall_quality": 1,
+      "comments": "test"
+    }
+  },
+  "overall_comments_for_llm_patient": "test",
+  "source_files": {
+    "SinglePrompt_v1": "singleprompt_google_gemini-2_5-pro_prompt_v1.json"
+  }
+}
