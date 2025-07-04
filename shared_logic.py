@@ -34,6 +34,7 @@ BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
 EVAL_DATA_DIR = BASE_PROJECT_DIR / "data_for_evaluation/single_prompt"
 # using only one ESMO and one ENET Guideline as Context!!
 GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/data_singleprompt/mds"
+PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
@@ -49,6 +50,12 @@ TAG_RATIONALE = "<begründung>"
 setup_logging()
 logger = logging.getLogger("shared_logic")
 
+def get_prompt_version_from_path(prompt_path: Path) -> str:
+    """Extract prompt version from prompt file path."""
+    match = re.search(r'prompt_v(\d+)\.txt$', str(prompt_path))
+    return f"v{match.group(1)}" if match else "unknown"
+
+PROMPT_VERSION = get_prompt_version_from_path(PROMPT_FILE_PATH)
 
 def _sanitize_tag_name(filename: str) -> str:
     """Converts a filename into a valid, clean XML-like tag name."""
@@ -102,51 +109,22 @@ def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:
 
 def build_prompt(patient_data_string: str, guidelines_context_string: str) -> str:
     """Builds the complete prompt with patient data and guidelines."""
-    return f"""
-Du bist ein KI-Assistent, der eine Beurteilung und Therapieempfehlung für Patienten eines Tumorboards erstellen soll. Deine Aufgabe ist es, die gegebenen Patienteninformationen zu analysieren, die bereitgestellten medizinischen Leitlinien zu konsultieren und eine fundierte Empfehlung auf Deutsch abzugeben.
 
-Hier sind die Patienteninformationen:
-<patient_information>
-{patient_data_string}
-</patient_information>
+    # Read the prompt template from the file
+    PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
+    try:
+        with open(PROMPT_FILE_PATH, "r", encoding="utf-8") as f:
+            prompt_template = f.read()
+    except Exception as e:
+        logger.error(f"Failed to read the prompt file {PROMPT_FILE_PATH}: {e}")
+        raise
 
-Hier sind die relevanten medizinischen Leitlinien:
-<guidelines_context>
-{guidelines_context_string}
-</guidelines_context>
-
-Analysiere sorgfältig die Patienteninformationen und die medizinischen Leitlinien. Berücksichtige dabei alle relevanten Faktoren wie Diagnose, Krankheitsstadium, bisherige Behandlungen, Komorbiditäten und persönliche Umstände des Patienten.
-
-Strukturiere deine Antwort in drei Teile:
-1. Beurteilung: Eine ausführliche Einschätzung der Patientensituation
-2. Therapieempfehlung: Eine detaillierte Empfehlung für die weitere Behandlung
-3. Begründung: Eine Erklärung deiner Empfehlung basierend auf den Leitlinien und individuellen Patientenfaktoren
-
-Wichtige Regeln für deine Antwort:
-- Formuliere deine Beurteilung und Therapieempfehlung auf Deutsch.
-- Stelle sicher, dass deine Antwort gut strukturiert, klar und präzise ist.
-- Antworte ausschließlich auf Basis der Informationen in <patient_information> und <guidelines_context>. Verwende kein externes Wissen.
-- Erfinde niemals Fakten, Diagnosen oder Testergebnisse, die nicht explizit im Kontext erwähnt werden.
-- Begründe deine Empfehlung mit klaren Verweisen auf die relevanten Leitlinien oder Studien (nenne die Quelle und das spezifische Dokument) und individuelle Patientenfaktoren.
-- Verwende medizinische Fachbegriffe angemessen, aber erkläre komplexe Konzepte so, dass sie für ein medizinisches Fachpublikum verständlich sind.
-
-Gib deine finale Antwort in folgendem Format aus:
-
-<beurteilung>
-[Hier deine ausführliche Beurteilung der Patientensituation einfügen]
-</beurteilung>
-
-<therapieempfehlung>
-[Hier deine detaillierte Therapieempfehlung einfügen]
-</therapieempfehlung>
-
-<begründung>
-[Hier eine Begründung für deine Empfehlung basierend auf den Leitlinien und Patientenfaktoren einfügen]
-</begründung>
-
-Deine finale Ausgabe sollte nur aus den Inhalten innerhalb der <beurteilung>, <therapieempfehlung> und <begründung> Tags bestehen.
-
-"""
+    # Format the prompt with the provided variables
+    formatted_prompt = prompt_template.format(
+        patient_data_string=patient_data_string,
+        guidelines_context_string=guidelines_context_string
+    )
+    return formatted_prompt
 
 def generate_single_recommendation(
     patient_data_dict: Dict,

@@ -10,8 +10,9 @@ from typing import Dict, List, Tuple, Optional
 
 load_dotenv()
 
-MONGO_URI = os.environ.get("MONGO_URI")
-# MONGO_URI = os.getenv("MONGO_URI")
+# MONGO_URI = os.environ.get("MONGO_URI")
+MONGO_URI = os.getenv("MONGO_URI")
+print(f"MONGO_URI: {MONGO_URI}")
 
 try:
     client = MongoClient(MONGO_URI) if MONGO_URI else None
@@ -248,9 +249,12 @@ def save_comparative_evaluation(patient_id: str, llm_model_evaluated: str, evalu
         
         if client is not None and db is not None and collection is not None:
             try:
+                prompt_version = evaluation_data.get("prompt_version", None)
+
                 mongo_document = {
                     "patient_id": patient_id,
                     "llm_model": llm_model_evaluated,
+                    "prompt_version": prompt_version,
                     "expert_name": expert_name,
                     "timestamp": timestamp,
                     "evaluation_data": evaluation_data,

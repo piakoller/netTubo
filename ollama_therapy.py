@@ -16,10 +16,12 @@ from shared_logic import (
     build_prompt,
     PATIENT_FIELDS_FOR_PROMPT,
     GUIDELINE_SOURCE_DIR,
-    _sanitize_filename
+    _sanitize_filename,
+    PROMPT_VERSION
 )
 
-DEFAULT_OLLAMA_MODEL = "hf.co/unsloth/medgemma-27b-text-it-GGUF:Q4_K_M"
+# DEFAULT_OLLAMA_MODEL = "hf.co/unsloth/medgemma-27b-text-it-GGUF:Q4_K_M"
+DEFAULT_OLLAMA_MODEL = "gemma3:27b"
 OLLAMA_HOST = "http://localhost:11434"
 logger = logging.getLogger("run_ollama")
 logging.basicConfig(level=logging.INFO)
@@ -66,15 +68,10 @@ def main():
     parser.add_argument("--llm_model", type=str, default=DEFAULT_OLLAMA_MODEL)
     parser.add_argument("--patient_data_file", type=Path, default=None)
     parser.add_argument("--output_file", type=Path, default=None)
-    parser.add_argument("--clinical_info_modified", action="store_true")
+    
     args = parser.parse_args()
 
-    is_modified = args.clinical_info_modified
     patient_file = args.patient_data_file or Path(config.TUBO_EXCEL_FILE_PATH)
-    if args.patient_data_file and not is_modified:
-        logger.info("Custom patient file used -> setting clinical_info_modified=True")
-        is_modified = True
-
     structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
     guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
 
@@ -93,8 +90,6 @@ def main():
         patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
         patient_dict = patient_row.to_dict()
         patient_data_string = format_patient_data_for_prompt(patient_dict, PATIENT_FIELDS_FOR_PROMPT)
-        structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
-        guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
         prompt = build_prompt(patient_data_string, guidelines_context_string)
         raw_response = call_ollama_api(
             model=args.llm_model,
@@ -105,7 +100,7 @@ def main():
             "patient_data_source_file": patient_file.name,
             "timestamp_processed": time.strftime("%Y-%m-%dT%H:%M:%S"),
             "llm_model_used": args.llm_model,
-            "clinical_info_modified": is_modified,
+            "prompt_version": PROMPT_VERSION,
             "llm_input": {
                 "prompt_text": prompt,
                 "attachments_used": loaded_files
@@ -115,7 +110,11 @@ def main():
         })
         time.sleep(1)
 
-    output_file = args.output_file or (Path("./data_for_evaluation/singleprompt") / f"singleprompt_{_sanitize_filename(args.llm_model)}_modified_{is_modified}.json")
+    output_file = args.output_file or (
+        Path("./data_for_evaluation/singleprompt") / 
+        f"singleprompt_{_sanitize_filename(args.llm_model)}_prompt_{PROMPT_VERSION}.json"
+    )
+    
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)

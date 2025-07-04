@@ -18,7 +18,8 @@ from shared_logic import (
     build_prompt,
     PATIENT_FIELDS_FOR_PROMPT,
     GUIDELINE_SOURCE_DIR,
-    _sanitize_filename
+    _sanitize_filename,
+    PROMPT_VERSION
 )
 
 load_dotenv()
@@ -114,11 +115,7 @@ def main():
         logger.error("OPENROUTER_API_KEY not set in .env")
         return
 
-    is_modified = args.clinical_info_modified
     patient_file = args.patient_data_file or Path(TUBO_EXCEL_FILE_PATH)
-    if args.patient_data_file and not is_modified:
-        logger.info("Custom patient file used -> setting clinical_info_modified=True")
-        is_modified = True
 
     structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
     guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
@@ -153,7 +150,7 @@ def main():
             "patient_data_source_file": patient_file.name,
             "timestamp_processed": time.strftime("%Y-%m-%dT%H:%M:%S"),
             "llm_model_used": args.llm_model,
-            "clinical_info_modified": is_modified,
+            "prompt_version": PROMPT_VERSION,
             "llm_input": {
                 "prompt_text": prompt,
                 "attachments_used": loaded_files
@@ -163,7 +160,7 @@ def main():
         })
         time.sleep(1)
 
-    output_file = args.output_file or (Path("./data_for_evaluation/singleprompt") / f"singleprompt_{_sanitize_filename(args.llm_model)}_modified_{is_modified}.json")
+    output_file = args.output_file or (Path("./data_for_evaluation/singleprompt") / f"singleprompt_{_sanitize_filename(args.llm_model)}_prompt_{PROMPT_VERSION}.json")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)

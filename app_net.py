@@ -249,13 +249,13 @@ if not llm_model_options:
 
 selected_llm_model = st.sidebar.selectbox("2. Select LLM Model:", options=llm_model_options)
 
-# Check if already evaluated
-if st.session_state.expert_name and selected_patient_id and selected_llm_model:
-    already_evaluated = check_if_evaluated(selected_patient_id, selected_llm_model, st.session_state.expert_name)
-    if already_evaluated:
-        st.sidebar.warning("⚠️ You have already evaluated this patient-LLM combination.")
-    else:
-        st.sidebar.success("✅ Ready for evaluation!")
+# # Check if already evaluated
+# if st.session_state.expert_name and selected_patient_id and selected_llm_model:
+#     already_evaluated = check_if_evaluated(selected_patient_id, selected_llm_model, st.session_state.expert_name)
+#     if already_evaluated:
+#         st.sidebar.warning("⚠️ You have already evaluated this patient-LLM combination.")
+#     else:
+#         st.sidebar.success("✅ Ready for evaluation!")
 
 # --- MAIN CONTENT ---
 if selected_patient_id and selected_llm_model:
