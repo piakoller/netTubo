@@ -32,9 +32,14 @@ LLM_TEMPERATURE = 0.0
 # Data Directories
 BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
 EVAL_DATA_DIR = BASE_PROJECT_DIR / "data_for_evaluation/single_prompt"
-# using only one ESMO and one ENET Guideline as Context!!
-GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/data_singleprompt/mds"
-PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
+# 1.0 using only one ESMO and one ENET Guideline as Context!!
+GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/1-0_data_singleprompt/mds"
+
+# 1.1 adding one press release and one newer study to the context
+ADDITIONAL_CONTEXT = BASE_PROJECT_DIR / "data/guidelines/1-1_data_singleprompt"
+
+# PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
+PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2_1-1.txt"
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
@@ -52,8 +57,8 @@ logger = logging.getLogger("shared_logic")
 
 def get_prompt_version_from_path(prompt_path: Path) -> str:
     """Extract prompt version from prompt file path."""
-    match = re.search(r'prompt_v(\d+)\.txt$', str(prompt_path))
-    return f"v{match.group(1)}" if match else "unknown"
+    match = re.search(r'prompt_(v\d+(?:_[\d-]+)?)\.txt$', str(prompt_path))
+    return match.group(1) if match else "unknown"
 
 PROMPT_VERSION = get_prompt_version_from_path(PROMPT_FILE_PATH)
 
@@ -64,33 +69,51 @@ def _sanitize_tag_name(filename: str) -> str:
     name = re.sub(r'[^\w_]', '', name)
     return name.lower()
 
-def load_structured_guidelines(guideline_dir: Path) -> Tuple[Dict[str, Dict[str, str]], List[str]]:
-    """Recursively finds guideline files and organizes them by their source subdirectory."""
+def load_structured_guidelines(guideline_dir: Path, additional_dir: Optional[Path] = None) -> Tuple[Dict[str, Dict[str, str]], List[str]]:
+    """
+    Recursively finds guideline files and organizes them by their source subdirectory.
+    
+    Args:
+        guideline_dir: Primary directory containing guideline files
+        additional_dir: Optional additional directory with more guidelines
+    """
     structured_docs: Dict[str, Dict[str, str]] = {}
     loaded_files: List[str] = []
     
-    if not guideline_dir.exists():
-        logger.warning(f"Guidelines directory {guideline_dir} does not exist")
-        return structured_docs, loaded_files
-        
-    for item in sorted(guideline_dir.iterdir()):
-        source_name = item.name.lower()
-        files_to_load = []
-        if item.is_dir():
-            structured_docs[source_name] = {}
-            files_to_load = list(item.glob("*.md")) + list(item.glob("*.mds"))
-        elif item.is_file() and item.suffix in ['.md', '.mds']:
-            source_name = "root"
-            if source_name not in structured_docs:
-                structured_docs[source_name] = {}
-            files_to_load = [item]
-        for file in sorted(files_to_load):
-            try:
-                content = file.read_text(encoding='utf-8')
-                structured_docs[source_name][file.name] = content
-                loaded_files.append(str(file.relative_to(guideline_dir.parent)))
-            except Exception as e:
-                logger.error(f"Error reading file {file}: {e}")
+    # Helper function to process a directory
+    def process_directory(dir_path: Path, base_dir: Path) -> None:
+        if not dir_path.exists():
+            logger.warning(f"Guidelines directory {dir_path} does not exist")
+            return
+            
+        for item in sorted(dir_path.iterdir()):
+            source_name = item.name.lower()
+            files_to_load = []
+            if item.is_dir():
+                if source_name not in structured_docs:
+                    structured_docs[source_name] = {}
+                files_to_load = list(item.glob("*.md")) + list(item.glob("*.mds"))
+            elif item.is_file() and item.suffix in ['.md', '.mds']:
+                source_name = "root"
+                if source_name not in structured_docs:
+                    structured_docs[source_name] = {}
+                files_to_load = [item]
+            
+            for file in sorted(files_to_load):
+                try:
+                    content = file.read_text(encoding='utf-8')
+                    structured_docs[source_name][file.name] = content
+                    loaded_files.append(str(file.relative_to(base_dir.parent)))
+                except Exception as e:
+                    logger.error(f"Error reading file {file}: {e}")
+    
+    # Process primary directory
+    process_directory(guideline_dir, guideline_dir)
+    
+    # Process additional directory if provided
+    if additional_dir:
+        process_directory(additional_dir, additional_dir)
+    
     return structured_docs, loaded_files
 
 def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:

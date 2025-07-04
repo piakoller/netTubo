@@ -293,9 +293,9 @@ if selected_patient_id and selected_llm_model:
             
             for idx, (variant_key, variant_data) in enumerate(sp_variants.items()):
                 with sp_cols[idx]:
-                    match = re.search(r'prompt_v(\d+)', variant_data['filename'])
-                    prompt_version = f"Prompt v{match.group(1)}" if match else "Unknown Prompt"
-                    st.markdown(f"**{prompt_version} Clinical Info**")
+                    match = re.search(r'prompt_(v\d+(?:_[\d-]+)?)\.json', variant_data['filename'])
+                    prompt_version = f"Prompt {match.group(1)}" if match else "Unknown Prompt"
+                    st.markdown(f"**{prompt_version}**")
                    
                     final_rec = display_variant_content(variant_data, variant_key, selected_patient_id)
                     

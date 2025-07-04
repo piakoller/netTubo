@@ -18,6 +18,7 @@ from shared_logic import (
     build_prompt,
     PATIENT_FIELDS_FOR_PROMPT,
     GUIDELINE_SOURCE_DIR,
+    ADDITIONAL_CONTEXT,
     _sanitize_filename,
     PROMPT_VERSION
 )
@@ -116,8 +117,15 @@ def main():
         return
 
     patient_file = args.patient_data_file or Path(TUBO_EXCEL_FILE_PATH)
-
-    structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
+    if ADDITIONAL_CONTEXT:
+        structured_guidelines, loaded_files = load_structured_guidelines(
+            guideline_dir=GUIDELINE_SOURCE_DIR,
+            additional_dir=ADDITIONAL_CONTEXT
+        )
+    else:
+        structured_guidelines, loaded_files = load_structured_guidelines(
+            guideline_dir=GUIDELINE_SOURCE_DIR
+        )
     guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
 
     df_patients = pd.read_excel(str(patient_file))
@@ -135,7 +143,7 @@ def main():
         patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
         patient_dict = patient_row.to_dict()
         patient_data_string = format_patient_data_for_prompt(patient_dict, PATIENT_FIELDS_FOR_PROMPT)
-        structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
+        prompt = build_prompt(patient_data_string, guidelines_context_string)
         guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
         prompt = build_prompt(patient_data_string, guidelines_context_string)
         raw_response = call_openrouter_api(
