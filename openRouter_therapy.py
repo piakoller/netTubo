@@ -19,6 +19,7 @@ from shared_logic import (
     PATIENT_FIELDS_FOR_PROMPT,
     GUIDELINE_SOURCE_DIR,
     ADDITIONAL_CONTEXT,
+    NEW_NET_EVIDENCE,
     _sanitize_filename,
     PROMPT_VERSION
 )
@@ -120,7 +121,12 @@ def main():
     if ADDITIONAL_CONTEXT:
         structured_guidelines, loaded_files = load_structured_guidelines(
             guideline_dir=GUIDELINE_SOURCE_DIR,
-            additional_dir=ADDITIONAL_CONTEXT
+            additional_dir=ADDITIONAL_CONTEXT,
+        )
+    if NEW_NET_EVIDENCE:
+        structured_guidelines, loaded_files = load_structured_guidelines(
+            guideline_dir=GUIDELINE_SOURCE_DIR,
+            new_net_evidence=NEW_NET_EVIDENCE
         )
     else:
         structured_guidelines, loaded_files = load_structured_guidelines(

@@ -30,20 +30,25 @@ except ImportError as e:
 LLM_TEMPERATURE = 0.0
 
 # Data Directories
-BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
+BASE_PROJECT_DIR = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo")
 EVAL_DATA_DIR = BASE_PROJECT_DIR / "data_for_evaluation/single_prompt"
+
 # 1.0 using only one ESMO and one ENET Guideline as Context!!
 GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/1-0_data_singleprompt/mds"
 
 # 1.1 adding one press release and one newer study to the context
 ADDITIONAL_CONTEXT = BASE_PROJECT_DIR / "data/guidelines/1-1_data_singleprompt"
 
+# 1.2 Manual search of relevant studies of N studies <= context size
+NEW_NET_EVIDENCE = False
+# NEW_NET_EVIDENCE = "../New_NET_evidence/mds"
+
 # PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
-PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2_1-1.txt"
+PROMPT_FILE_PATH = BASE_PROJECT_DIR / "../prompts/prompt_v3_1-1.txt"
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
-    "id", "beschreibung", "tumorboard_datum", "main_diagnosis_text", "Fragestellung"
+    "id", "tumorboard_datum", "main_diagnosis_text", "Fragestellung"
 ]
 
 # Constants for prompt tags
