@@ -134,7 +134,6 @@ def build_prompt(patient_data_string: str, guidelines_context_string: str) -> st
     """Builds the complete prompt with patient data and guidelines."""
 
     # Read the prompt template from the file
-    PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
     try:
         with open(PROMPT_FILE_PATH, "r", encoding="utf-8") as f:
             prompt_template = f.read()
@@ -208,21 +207,19 @@ def generate_single_recommendation(
         logger.error(error_msg, exc_info=True)
         return None, None, error_msg, duration, llm_input_for_log
 
-
 def format_guidelines_for_prompt(structured_docs: Dict[str, Dict[str, str]]) -> str:
     """Formats the structured guideline dictionary into a nested XML-like string."""
     if not structured_docs: return ""
     context_parts = ["<guidelines_context>"]
     for source, files in structured_docs.items():
-        source_tag = f"{source}_guidelines" if source != "root" else "general_guidelines"
-        context_parts.append(f"  <{source_tag}>")
+        source_tag = f"{source}"
+        context_parts.append(f"<{source_tag}>")
         for filename, content in files.items():
             file_tag = _sanitize_tag_name(filename)
-            context_parts.append(f"    <{file_tag}>\n{content}\n    </{file_tag}>")
+            context_parts.append(f"<{file_tag}>\n{content}\n</{file_tag}>")
         context_parts.append(f"  </{source_tag}>")
     context_parts.append("</guidelines_context>")
     return "\n".join(context_parts)
-
 
 def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:
     """Formats patient data into a string for the LLM prompt."""
