@@ -17,8 +17,8 @@ MODEL_KWARGS = {
 
 # --- File Paths & Directories ---
 DATA_ROOT_DIR = Path(
-    # "/home/pia/projects/netTubo/data"
-    "C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/data"
+    "/home/pia/projects/netTubo/data"
+    # "C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/data"
 )
 
 # TUBO_EXCEL_FILE_PATH = DATA_ROOT_DIR / "tubo-DLBCL-v2.xlsx"
