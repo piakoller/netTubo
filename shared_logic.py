@@ -30,19 +30,24 @@ except ImportError as e:
 LLM_TEMPERATURE = 0.0
 
 # Data Directories
-# BASE_PROJECT_DIR = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo")
-BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
+BASE_PROJECT_DIR = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo")
+# BASE_PROJECT_DIR = Path("/home/pia/projects/netTubo")
 
-EVAL_DATA_DIR = BASE_PROJECT_DIR / "data_for_evaluation/single_prompt"
+EVAL_DATA_DIR = BASE_PROJECT_DIR / "netTubo/data_for_evaluation/single_prompt"
 
 # 1.0 using only one ESMO and one ENET Guideline as Context!!
-GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "data/guidelines/1-0_data_singleprompt/mds"
+GUIDELINE_SOURCE_DIR = BASE_PROJECT_DIR / "netTubo/data/guidelines/1-0_data_singleprompt/mds"
 
 # 1.1 adding one press release and one newer study to the context
-ADDITIONAL_CONTEXT = BASE_PROJECT_DIR / "data/guidelines/1-1_data_singleprompt"
+ADDITIONAL_CONTEXT = False
+# ADDITIONAL_CONTEXT = BASE_PROJECT_DIR / "data/guidelines/1-1_data_singleprompt"
 
-# PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v2.txt"
-PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-1.txt"
+# 1.2 Manual search of relevant studies of N studies <= context size
+# NEW_NET_EVIDENCE = False
+NEW_NET_EVIDENCE = BASE_PROJECT_DIR / "New_NET_evidence/New_NET_evidence/mds"
+
+# PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-1.txt"
+PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-2.txt"
 print(f'Promptversion: {PROMPT_FILE_PATH}')
 
 # Patient data fields to include in the prompt
@@ -86,6 +91,7 @@ def load_structured_guidelines(guideline_dir: Path, additional_dir: Optional[Pat
     
     # Helper function to process a directory
     def process_directory(dir_path: Path, base_dir: Path) -> None:
+        dir_path = Path(dir_path)
         if not dir_path.exists():
             logger.warning(f"Guidelines directory {dir_path} does not exist")
             return
@@ -163,7 +169,17 @@ def generate_single_recommendation(
     
     patient_data_string = format_patient_data_for_prompt(patient_data_dict, PATIENT_FIELDS_FOR_PROMPT)
     structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
-    guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
+
+    additional_structured = None
+    if NEW_NET_EVIDENCE:
+        additional_structured, additional_loaded_files = load_structured_guidelines(Path(NEW_NET_EVIDENCE))
+        loaded_files.extend(additional_loaded_files)
+
+    guidelines_context_string = format_guidelines_for_prompt(
+        structured_docs=structured_guidelines,
+        additional_structured_docs=additional_structured,
+        additional_dir=Path(NEW_NET_EVIDENCE) if NEW_NET_EVIDENCE else None
+    )
 
     if not guidelines_context_string:
         logger.warning(f"No guideline context could be loaded for patient {patient_id}. Proceeding without it.")
@@ -211,18 +227,32 @@ def generate_single_recommendation(
         logger.error(error_msg, exc_info=True)
         return None, None, error_msg, duration, llm_input_for_log
 
-def format_guidelines_for_prompt(structured_docs: Dict[str, Dict[str, str]]) -> str:
-    """Formats the structured guideline dictionary into a nested XML-like string."""
-    if not structured_docs: return ""
+def format_guidelines_for_prompt(
+    structured_docs: Dict[str, Dict[str, str]],
+    additional_structured_docs: Optional[Dict[str, Dict[str, str]]] = None,
+    additional_dir: Optional[Path] = None
+) -> str:
+    """Formats both main and additional structured guideline dictionaries into XML-like tagged text."""
     context_parts = ["<guidelines_context>"]
+    
+    # Add guidelines from the main guideline_dir
     for source, files in structured_docs.items():
-        source_tag = f"{source}"
-        context_parts.append(f"<{source_tag}>")
         for filename, content in files.items():
             file_tag = _sanitize_tag_name(filename)
             context_parts.append(f"<{file_tag}>\n{content}\n</{file_tag}>")
-        context_parts.append(f"  </{source_tag}>")
+    
     context_parts.append("</guidelines_context>")
+
+    # Add NEW_NET_EVIDENCE context with individual file tags
+    if additional_structured_docs and additional_dir:
+        context_parts.append("<new_net_evidence>")
+        for source, files in additional_structured_docs.items():
+            for filename, content in files.items():
+                # Use the original filename (without extension) as tag, preserving spaces and hyphens
+                file_tag = Path(filename).stem
+                context_parts.append(f"<{file_tag}>\n{content}\n</{file_tag}>")
+        context_parts.append("</new_net_evidence>")
+
     return "\n".join(context_parts)
 
 def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:
