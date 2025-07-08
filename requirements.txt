@@ -4,4 +4,5 @@ openpyxl
 numpy>=1.23.0
 geopy
 pymongo
-dotenv
+python-dotenv
+requests>=2.25.0
