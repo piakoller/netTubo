@@ -44,7 +44,7 @@ ADDITIONAL_CONTEXT = False
 
 # 1.2 Manual search of relevant studies of N studies <= context size
 # NEW_NET_EVIDENCE = False
-NEW_NET_EVIDENCE = BASE_PROJECT_DIR / "New_NET_evidence/New_NET_evidence/mds"
+NEW_NET_EVIDENCE = BASE_PROJECT_DIR / "New_NET_evidence/mds_docling"
 
 # PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-1.txt"
 PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-2.txt"

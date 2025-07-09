@@ -1,31 +1,28 @@
 import os
-import fitz  # PyMuPDF
+from docling.document_converter import DocumentConverter
 
 def convert_pdf_to_md(pdf_path, md_path):
-    text = ""
     try:
-        doc = fitz.open(pdf_path)
-        for page_num in range(doc.page_count):
-            page = doc.load_page(page_num)
-            text += page.get_text()
-            # Optional: Füge einen Trennstrich zwischen den Seiten ein
-            if page_num < doc.page_count - 1:
-                text += "\n---\n"
-        doc.close()
+        # Initialize docling converter
+        converter = DocumentConverter()
+        
+        # Convert PDF to document
+        result = converter.convert(pdf_path)
+        
+        # Extract markdown text
+        markdown_text = result.document.export_to_markdown()
 
         # Stelle sicher, dass das Zielverzeichnis existiert
         os.makedirs(os.path.dirname(md_path), exist_ok=True)
 
         # Speichere den extrahierten Text als MD-Datei
         with open(md_path, "w", encoding="utf-8") as f:
-            f.write(text)
+            f.write(markdown_text)
 
         print(f"Erfolgreich konvertiert: '{pdf_path}' zu '{md_path}'")
 
-    except fitz.FileDataError:
-        print(f"Fehler: '{pdf_path}' ist keine gültige PDF-Datei oder ist beschädigt.")
     except FileNotFoundError:
-         print(f"Fehler: Die Datei '{pdf_path}' wurde nicht gefunden.")
+        print(f"Fehler: Die Datei '{pdf_path}' wurde nicht gefunden.")
     except Exception as e:
         print(f"Ein unerwarteter Fehler ist aufgetreten bei '{pdf_path}': {e}")
 
@@ -89,10 +86,10 @@ def find_and_convert_pdfs(input_folders, output_base_dir, search_subfolders=True
 # --- Konfiguration ---
 
 input_folders_to_process = [
-    '../New_NET_evidence/pdf'
+    '../New_NET_evidence'
 ]
 
-output_markdown_base_directory = '../New_NET_evidence/mds'
+output_markdown_base_directory = '../New_NET_evidence/mds_docling'
 
 # Sollen auch Unterordner in den input_folders_to_process durchsucht werden?
 search_subdirectories = True
