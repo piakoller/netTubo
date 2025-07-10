@@ -23,7 +23,6 @@ try:
     from logging_setup import setup_logging
 except ImportError as e:
     print(f"Error importing project modules: {e}")
-    print("Please run this script from the project root or ensure 'llmRecom' is in your PYTHONPATH.")
     exit(1)
 
 # --- Shared Configuration ---

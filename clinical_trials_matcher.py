@@ -16,10 +16,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass
-import re
 import sys
-import urllib.parse
-from urllib.parse import urljoin, urlparse
 
 # Add the current directory to Python path to import shared_logic
 sys.path.append(str(Path(__file__).parent))
@@ -36,6 +33,8 @@ logger = logging.getLogger(__name__)
 if not OPENROUTER_API_KEY:
     logger.warning("OPENROUTER_API_KEY not set. Please set it as an environment variable.")
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+
+MIN_RELEVANCE_SCORE = 0.6
 
 class LLMStudyMatcher:
     """Uses an LLM to match patients with clinical studies."""
@@ -60,7 +59,7 @@ class LLMStudyMatcher:
                 {"role": "user", "content": prompt}
             ],
             "max_tokens": 1000,
-            "temperature": 0.1
+            "temperature": 0.0
         }
         
         for attempt in range(max_retries):
@@ -104,12 +103,13 @@ class LLMStudyMatcher:
         eligibility = protocol.get("eligibilityModule", {})
         
         study_title = identification.get("briefTitle", "")
-        study_summary = identification.get("briefSummary", "")
-        study_conditions = "; ".join(conditions)
-        study_interventions = "; ".join([interv.get("name", "") for interv in interventions])
-        eligibility_criteria = eligibility.get("eligibilityCriteria", "")
+        # Get detailed description from descriptionModule for comprehensive evaluation
+        description_module = protocol.get("descriptionModule", {})
+        study_summary = description_module.get("briefSummary", "")
+        detailed_description = description_module.get("detailedDescription", "")
         
-        # Create prompt for LLM evaluation
+        # For LLM evaluation, we use the detailed description for comprehensive comparison
+        # Create prompt for LLM evaluation using detailed description
         prompt = f"""
 Du bist Facharzt für Onkologie, Facharzt für Endokrinologie und Facharzt für Nuklearmedizin. Bewerte, ob die folgende klinische Studie für den Patienten relevant sein könnte.
 
@@ -117,16 +117,13 @@ Du bist Facharzt für Onkologie, Facharzt für Endokrinologie und Facharzt für 
 
 STUDIE INFORMATION:
 - Titel: {study_title}
-- Bedingungen: {study_conditions}
-- Interventionen: {study_interventions}
-- Zusammenfassung: {study_summary[:500]}...
-- Einschlusskriterien: {eligibility_criteria[:500]}...
+- Beschreibung: {detailed_description}
 
 WICHTIGER HINWEIS:
 Der Patient hat eine bestimmte Diagnose, aber die konkrete Behandlungsmethode ist noch NICHT festgelegt. Die Behandlung soll erst in einem zweiten Schritt basierend auf den gefundenen relevanten Studien entschieden werden.
 
 AUFGABE:
-Bewerte die Relevanz dieser Studie für den Patienten auf einer Skala von 0.0 bis 1.0, wobei:
+Bewerte die Relevanz dieser Studie für den Patienten basierend auf der detaillierten Beschreibung auf einer Skala von 0.0 bis 1.0, wobei:
 - 0.0 = Völlig irrelevant (andere Erkrankung, völlig unpassend)
 - 0.3 = Teilweise relevant (ähnliche Erkrankung oder verwandte Indikation)
 - 0.6 = Relevant (passende Erkrankung, Studie könnte für Behandlungsentscheidung hilfreich sein)
@@ -134,14 +131,14 @@ Bewerte die Relevanz dieser Studie für den Patienten auf einer Skala von 0.0 bi
 - 1.0 = Ideal geeignet (perfekte Übereinstimmung mit Diagnose und Patientencharakteristika)
 
 Berücksichtige HAUPTSÄCHLICH:
-1. Übereinstimmung der Diagnose/Erkrankung mit der Studienindikation
-2. Passung der Einschlusskriterien zum Patientenprofil
-3. Relevanz der Studie für die Behandlungsentscheidung
-4. Stadium/Schweregrad der Erkrankung (falls erkennbar)
+1. Übereinstimmung der Diagnose/Erkrankung mit der Studienindikation aus der detaillierten Beschreibung
+2. Relevanz der Studie für die Behandlungsentscheidung basierend auf der detaillierten Beschreibung
+3. Passung der beschriebenen Patientenpopulation zum gegebenen Patienten
+4. Spezifische Einschlusskriterien und Studiendesign aus der detaillierten Beschreibung
 
 Antworte im folgenden Format:
 RELEVANZ_SCORE: [0.0-1.0]
-BEGRÜNDUNG: [Detaillierte Erklärung der Relevanz basierend auf Diagnose-Matching und Potenzial für Behandlungsentscheidung]
+BEGRÜNDUNG: [Detaillierte Erklärung der Relevanz basierend auf Diagnose-Matching mit der detaillierten Beschreibung]
 """
 
         try:
@@ -352,14 +349,14 @@ class PatientStudyMatcher:
         
     def find_relevant_studies(self, 
                             patient_data: Dict, 
-                            min_relevance_score: float = 0.3,
+                            min_relevance_score: float = MIN_RELEVANCE_SCORE,
                             max_studies: int = 50) -> List[ClinicalTrialMatch]:
         """
         Find relevant clinical trials for a patient using LLM evaluation.
         
         Args:
             patient_data: Patient information dictionary
-            min_relevance_score: Minimum relevance score to include study (increased from 0.1 to 0.3)
+            min_relevance_score: Minimum relevance score to include study
             max_studies: Maximum number of studies to return
             
         Returns:
@@ -419,6 +416,7 @@ class PatientStudyMatcher:
                     outcomes_module = protocol.get("outcomesModule", {})
                     sponsor_module = protocol.get("sponsorCollaboratorsModule", {})
                     contacts_module = protocol.get("contactsLocationsModule", {})
+                    description_module = protocol.get("descriptionModule", {})
                     
                     # Extract locations
                     locations = []
@@ -432,11 +430,11 @@ class PatientStudyMatcher:
                     
                     # Download publication information if downloader is available
                     publications_info = None
-                    if self.pub_downloader:
-                        logger.info(f"Downloading publications for study {nct_id}")
-                        publications_info = self.pub_downloader.download_publication_info(
-                            nct_id, identification.get("briefTitle", "")
-                        )
+                    # if self.pub_downloader:
+                    #     logger.info(f"Downloading publications for study {nct_id}")
+                    #     publications_info = self.pub_downloader.download_publication_info(
+                    #         nct_id, identification.get("briefTitle", "")
+                    #     )
                     
                     match = ClinicalTrialMatch(
                         nct_id=nct_id,
@@ -447,8 +445,8 @@ class PatientStudyMatcher:
                         intervention="; ".join([
                             interv.get("name", "") for interv in interventions_module.get("interventions", [])
                         ]),
-                        brief_summary=identification.get("briefSummary", ""),
-                        detailed_description=identification.get("detailedDescription", ""),
+                        brief_summary=description_module.get("briefSummary", ""),
+                        detailed_description=description_module.get("detailedDescription", ""),
                         eligibility_criteria=eligibility_module.get("eligibilityCriteria", ""),
                         start_date=status_module.get("startDateStruct", {}).get("date", ""),
                         completion_date=status_module.get("completionDateStruct", {}).get("date", ""),
@@ -522,13 +520,13 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
             report.append(f"   Summary: {summary}")
         
         # Add publication information if available
-        if match.publications and match.publications.get('publications_found', 0) > 0:
-            report.append(f"   Publications Found: {match.publications['publications_found']}")
-            for i, pub in enumerate(match.publications['publications'][:2], 1):  # Show first 2 publications
-                report.append(f"     {i}. {pub['title']} ({pub['year']})")
-                report.append(f"        PMID: {pub['pmid']} | Journal: {pub['journal']}")
-        elif match.publications:
-            report.append(f"   Publications: No publications found")
+        # if match.publications and match.publications.get('publications_found', 0) > 0:
+        #     report.append(f"   Publications Found: {match.publications['publications_found']}")
+        #     for i, pub in enumerate(match.publications['publications'][:2], 1):  # Show first 2 publications
+        #         report.append(f"     {i}. {pub['title']} ({pub['year']})")
+        #         report.append(f"        PMID: {pub['pmid']} | Journal: {pub['journal']}")
+        # elif match.publications:
+        #     report.append(f"   Publications: No publications found")
         
         report.append("-"*40)
     
@@ -583,7 +581,8 @@ def main():
     api = ClinicalTrialsAPI(rate_limit_delay=1.0)
     llm_matcher = LLMStudyMatcher(OPENROUTER_API_KEY)
     # llm_matcher = LLMStudyMatcher(OPENROUTER_API_KEY, model="google/gemini-2.5-pro-exp-03-25")
-    pub_downloader = PublicationDownloader(OUTPUT_DIR)
+    # pub_downloader = PublicationDownloader(OUTPUT_DIR)  # Commented out
+    pub_downloader = None  # Disabled publication downloading
     matcher = PatientStudyMatcher(api, llm_matcher, pub_downloader)
     
     # Load patient data
@@ -613,7 +612,7 @@ def main():
             # Find relevant studies using LLM evaluation
             matches = matcher.find_relevant_studies(
                 patient_data, 
-                min_relevance_score=0.3,  # Higher threshold since LLM provides better scoring
+                min_relevance_score=MIN_RELEVANCE_SCORE,  # Higher threshold since LLM provides better scoring
                 max_studies=15  # Fewer studies but higher quality
             )
             
@@ -633,7 +632,7 @@ def main():
                 "patient_data": patient_data,
                 "matches_found": len(matches),
                 "llm_evaluation_method": OPENROUTER_MODEL,
-                "min_relevance_score": 0.3,
+                "min_relevance_score": MIN_RELEVANCE_SCORE,
                 "matches": [
                     {
                         "nct_id": match.nct_id,
@@ -672,15 +671,15 @@ def main():
     
     # Calculate score distribution and publication statistics
     all_scores = []
-    total_publications = 0
-    studies_with_publications = 0
+    # total_publications = 0  # Commented out since publications are disabled
+    # studies_with_publications = 0  # Commented out since publications are disabled
     
     for result in all_results:
         for match in result["matches"]:
             all_scores.append(match["relevance_score"])
-            if match.get("publications") and match["publications"].get("publications_found", 0) > 0:
-                total_publications += match["publications"]["publications_found"]
-                studies_with_publications += 1
+            # if match.get("publications") and match["publications"].get("publications_found", 0) > 0:
+            #     total_publications += match["publications"]["publications_found"]
+            #     studies_with_publications += 1
     
     avg_score = sum(all_scores) / len(all_scores) if all_scores else 0
     high_relevance_count = len([s for s in all_scores if s >= 0.7])
@@ -694,15 +693,16 @@ def main():
         f"Average studies per patient: {avg_matches:.1f}",
         f"Average relevance score: {avg_score:.3f}",
         f"High relevance studies (≥0.7): {high_relevance_count}",
-        f"Studies with publications: {studies_with_publications}/{total_matches}",
-        f"Total publications downloaded: {total_publications}",
-        f"Publications directory: {OUTPUT_DIR}/publications",
+        # f"Studies with publications: {studies_with_publications}/{total_matches}",  # Commented out - publications disabled
+        # f"Total publications downloaded: {total_publications}",  # Commented out - publications disabled
+        # f"Publications directory: {OUTPUT_DIR}/publications",  # Commented out - publications disabled
         f"Evaluation method: LLM-based semantic matching",
         f"Results saved to: {OUTPUT_DIR}",
         f"Summary data: {summary_file}",
         "="*80,
         "Note: Studies were evaluated using AI to assess relevance",
-        "based on patient diagnosis and clinical context."
+        "based on patient diagnosis and clinical context.",
+        "Publication downloading is currently disabled."
     ]
     
     print("\n".join(summary_report))
@@ -925,3 +925,6 @@ class PublicationDownloader:
                     abstract = pub['abstract'][:300] + "..." if len(pub['abstract']) > 300 else pub['abstract']
                     f.write(f"   Abstract: {abstract}\n")
                 f.write("\n" + "-"*40 + "\n")
+
+if __name__ == "__main__":
+    main()

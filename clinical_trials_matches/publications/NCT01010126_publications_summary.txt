@@ -1,0 +1,41 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT01010126
+================================================================================
+Study Title: Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer
+Search Date: 2025-07-09 15:51:32
+Publications Found: 3
+
+--------------------------------------------------------------------------------
+
+1. A phase II study of bevacizumab and temsirolimus in advanced extra-pancreatic neuroendocrine tumors.
+   PMID: 37702588
+   Authors: Sonia M Abuzakhm, Vineeth Sukrithan, Briant Fruth
+   Journal: Endocrine-related cancer
+   Year: 2023
+   DOI: 10.1530/ERC-22-0301
+   URL: https://pubmed.ncbi.nlm.nih.gov/37702588/
+   Abstract: We assessed the efficacy and safety of combining bevacizumab with temsirolimus in patients with advanced extra-pancreatic neuroendocrine tumors. This NCI-sponsored multicenter, open-label, phase II study (NCT01010126) enrolled patients with advanced, recurrent, or metastatic extra-pancreatic neuroen...
+
+----------------------------------------
+
+2. Multicenter Phase II Trial of Temsirolimus and Bevacizumab in Pancreatic Neuroendocrine Tumors.
+   PMID: 25488966
+   Authors: Timothy J Hobday, Rui Qin, Diane Reidy-Lagunes
+   Journal: Journal of clinical oncology : official journal of the American Society of Clinical Oncology
+   Year: 2015
+   DOI: 10.1200/JCO.2014.56.2082
+   URL: https://pubmed.ncbi.nlm.nih.gov/25488966/
+   Abstract: There are few effective therapies for pancreatic neuroendocrine tumors (PNETs). Recent placebo-controlled phase III trials of the mammalian target of rapamycin (mTOR) inhibitor everolimus and the vascular endothelial growth factor (VEGF)/platelet-derived growth factor receptor inhibitor sunitinib ha...
+
+----------------------------------------
+
+3. A phase II trial of bevacizumab plus temsirolimus in patients with advanced hepatocellular carcinoma.
+   PMID: 25318437
+   Authors: Jennifer J Knox, Rui Qin, Jonathan R Strosberg
+   Journal: Investigational new drugs
+   Year: 2015
+   DOI: 10.1007/s10637-014-0169-3
+   URL: https://pubmed.ncbi.nlm.nih.gov/25318437/
+   Abstract: There is strong rationale to combine temsirolimus (TEM) with Bevacizumab (BEV) for patients with advanced HCC.A modified two-stage Simon phase II trial was performed with plans to advance to stage 2 if more than 2 patients had confirmed PR or &gt;18 patients were progression free at 6 months out of ...
+
+----------------------------------------
