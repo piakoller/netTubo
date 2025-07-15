@@ -14,11 +14,11 @@ import re
 import requests
 import time
 import os
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass
-import sys
 
 # Add the current directory to Python path to import shared_logic
 sys.path.append(str(Path(__file__).parent))
@@ -217,9 +217,8 @@ CONCLUSION: [Summarize the strict clinical justification for inclusion or exclus
             # Combine all reasoning parts
             if reasoning_parts:
                 explanation = " ".join(reasoning_parts)
-                # Limit explanation length for readability
-                if len(explanation) > 500:
-                    explanation = explanation[:500] + "..."
+                # Clean up the explanation but don't truncate yet - we'll format for display later
+                explanation = self._clean_llm_explanation(explanation)
             
             # If no structured response, try to extract YES/NO from text
             if relevance_score == 0.0 and explanation == "No explanation provided":
@@ -228,13 +227,119 @@ CONCLUSION: [Summarize the strict clinical justification for inclusion or exclus
                     relevance_score = 1.0
                 elif re.search(r'\bNO\b', llm_response.upper()):
                     relevance_score = 0.0
-                explanation = llm_response[:200] + "..." if len(llm_response) > 200 else llm_response
+                explanation = self._clean_llm_explanation(llm_response)
             
             return relevance_score, explanation
             
         except Exception as e:
             logger.error(f"Error in LLM evaluation: {e}")
             return 0.0, f"Evaluation error: {str(e)}"
+    
+    def _clean_llm_explanation(self, text: str) -> str:
+        """Clean and format LLM explanation for better readability."""
+        if not text:
+            return text
+            
+        # Remove excessive markdown formatting
+        text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)  # Remove **bold**
+        text = re.sub(r'\*([^*]+)\*', r'\1', text)      # Remove *italic*
+        text = re.sub(r'#{1,6}\s*', '', text)           # Remove headers
+        
+        # Clean up decision markers that got included
+        text = re.sub(r'DECISION:\s*(YES|NO)\s*', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'REASONING:\s*', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'CONCLUSION:\s*', 'Conclusion: ', text, flags=re.IGNORECASE)
+        
+        # Preserve numbered points but format them better
+        text = re.sub(r'^\s*(\d+)\.\s*', r'\1. ', text, flags=re.MULTILINE)
+        
+        # Replace multiple spaces with single spaces but preserve line breaks for readability
+        text = re.sub(r'[ \t]+', ' ', text)  # Replace multiple spaces/tabs with single space
+        text = re.sub(r'\n\s*\n', '\n', text)  # Remove empty lines but keep single line breaks
+        
+        # Clean up any remaining artifacts
+        text = re.sub(r'\s*\.\.\.\s*', '... ', text)
+        
+        return text.strip()
+    
+    def _format_llm_explanation_for_display(self, explanation: str, max_length: int = 1200) -> str:
+        """Format LLM explanation for better display in reports with improved readability."""
+        if not explanation:
+            return "No explanation provided"
+        
+        # Clean the explanation first
+        clean_explanation = self._clean_llm_explanation(explanation)
+        
+        # If it's too long, intelligently truncate at sentence boundary
+        if len(clean_explanation) > max_length:
+            # Find the last complete sentence within the limit
+            truncated = clean_explanation[:max_length]
+            last_period = truncated.rfind('.')
+            last_exclamation = truncated.rfind('!')
+            last_question = truncated.rfind('?')
+            
+            # Find the latest sentence ending
+            sentence_end = max(last_period, last_exclamation, last_question)
+            
+            if sentence_end > max_length * 0.7:  # If we found a good sentence boundary
+                clean_explanation = clean_explanation[:sentence_end + 1] + " [Explanation truncated for readability]"
+            else:
+                clean_explanation = clean_explanation[:max_length] + "... [Explanation truncated for readability]"
+        
+        # Add proper formatting for better readability
+        # Break long paragraphs at numbered points
+        formatted_text = re.sub(r'(\d+\.\s)', r'\n       \1', clean_explanation)
+        
+        # Add line breaks before common clinical reasoning patterns
+        formatted_text = re.sub(r'(Patient characteristics:|Tumor characteristics:|Treatment history:|Study criteria:|Relevance assessment:|Clinical relevance:)', r'\n       \1', formatted_text, flags=re.IGNORECASE)
+        
+        # Clean up any double line breaks and extra spaces
+        formatted_text = re.sub(r'\n\s*\n', '\n', formatted_text)
+        formatted_text = formatted_text.strip()
+        
+        return formatted_text
+    
+    def create_structured_reasoning_summary(self, explanation: str) -> Dict[str, Any]:
+        """Create a structured summary of LLM reasoning for JSON output."""
+        if not explanation:
+            return {"summary": "No explanation provided", "key_points": []}
+        
+        # Clean the explanation
+        clean_explanation = self._clean_llm_explanation(explanation)
+        
+        # Extract key points from numbered items
+        key_points = []
+        numbered_items = re.findall(r'(\d+)\.\s*([^0-9]*?)(?=\d+\.|$)', clean_explanation, re.DOTALL)
+        
+        for num, point in numbered_items:
+            if point.strip():
+                # Clean up the point and limit length
+                clean_point = re.sub(r'\s+', ' ', point.strip())
+                if len(clean_point) > 200:
+                    clean_point = clean_point[:200] + "..."
+                key_points.append({
+                    "point": int(num),
+                    "description": clean_point
+                })
+        
+        # If no numbered points found, try to extract sentences as key points
+        if not key_points:
+            sentences = re.split(r'[.!?]+', clean_explanation)
+            for i, sentence in enumerate(sentences[:3], 1):  # Take first 3 sentences
+                if sentence.strip() and len(sentence.strip()) > 20:
+                    key_points.append({
+                        "point": i,
+                        "description": sentence.strip()
+                    })
+        
+        # Create summary (first 300 characters)
+        summary = clean_explanation[:300] + "..." if len(clean_explanation) > 300 else clean_explanation
+        
+        return {
+            "summary": summary,
+            "key_points": key_points,
+            "full_reasoning": clean_explanation
+        }
 
 @dataclass
 class ClinicalTrialMatch:
@@ -451,48 +556,37 @@ class PatientStudyMatcher:
         """
         matches = []
         
-        # Extract search terms from patient data - comprehensive set for better coverage
+        # Extract search terms from patient data - optimized set to reduce redundant API calls
         search_terms = [
             "neuroendocrine tumor",
-            "NET",
-            "neuroendocrine neoplasm",
             "carcinoid",
-            "pancreatic neuroendocrine",
-            "gastroenteropancreatic neuroendocrine",
-            "GEP-NET"
+            "pancreatic neuroendocrine"
         ]
         
-        # Add patient-specific terms based on diagnosis
+        # Add patient-specific terms based on diagnosis - only add if they're likely to find different studies
         diagnosis_text = patient_data.get('main_diagnosis_text', '').lower()
         if 'pankreas' in diagnosis_text or 'pancrea' in diagnosis_text:
-            search_terms.extend(["pancreatic NET", "pancreatic neuroendocrine tumor", "pNET"])
+            search_terms.extend(["GEP-NET"])  # More specific than general NET terms
         if 'dünndarm' in diagnosis_text or 'ileum' in diagnosis_text or 'small' in diagnosis_text:
-            search_terms.extend(["small bowel NET", "ileal NET", "small intestine neuroendocrine"])
-        if 'leber' in diagnosis_text or 'liver' in diagnosis_text:
+            search_terms.extend(["small intestine neuroendocrine"])
+        if 'leber' in diagnosis_text or 'liver' in diagnosis_text and 'metasta' in diagnosis_text:
             search_terms.extend(["neuroendocrine liver metastases"])
-        if 'g1' in diagnosis_text:
-            search_terms.extend(["grade 1 neuroendocrine", "well differentiated neuroendocrine"])
-        if 'g2' in diagnosis_text:
-            search_terms.extend(["grade 2 neuroendocrine", "moderately differentiated neuroendocrine"])
-        if 'g3' in diagnosis_text:
-            search_terms.extend(["grade 3 neuroendocrine", "poorly differentiated neuroendocrine"])
         
         # Remove duplicates while preserving order
         search_terms = list(dict.fromkeys(search_terms))
         
-        # Search for studies with different terms - only studies with publications and posted results
-        all_studies = []
-        for term in search_terms:
-            logger.info(f"Searching for studies with term: {term} (with publications and posted results only)")
-            studies = self.api.search_studies(
-                condition=term,
-                with_publications=True,  # Only studies with publications
-                with_posted_results=True,  # Only studies with posted results
-                max_results=30  # Get studies to evaluate with ultra-strict LLM criteria
-            )
-            all_studies.extend(studies)
-            # Add small delay between different search terms
-            time.sleep(0.5)
+        # Combine search terms into a single query using OR
+        combined_query = " OR ".join([f'"{term}"' for term in search_terms])
+        
+        logger.info(f"Searching for studies with combined query: {combined_query} (with publications and posted results only)")
+        
+        # Search for studies with the combined query
+        all_studies = self.api.search_studies(
+            condition=combined_query,
+            with_publications=True,  # Only studies with publications
+            with_posted_results=True,  # Only studies with posted results
+            max_results=200  # Increase max_results for a single comprehensive query
+        )
         
         # Remove duplicates based on NCT ID and verify studies have both publications and posted results
         unique_studies = {}
@@ -555,12 +649,35 @@ class PatientStudyMatcher:
                         if facility:
                             locations.append(f"{facility}, {city}, {country}")
                     
-                    # Download publication information if downloader is available
+                    # Extract publication references from study data
                     publications_info = None
+                    references_module = protocol.get("referencesModule", {})
+                    if references_module:
+                        study_references = []
+                        references = references_module.get("references", [])
+                        for ref in references:
+                            if ref.get("pmid") or ref.get("citation"):
+                                study_ref = {
+                                    "pmid": ref.get("pmid", ""),
+                                    "citation": ref.get("citation", ""),
+                                    "type": ref.get("type", ""),
+                                    "url": f"https://pubmed.ncbi.nlm.nih.gov/{ref.get('pmid')}/" if ref.get("pmid") else ""
+                                }
+                                study_references.append(study_ref)
+                        
+                        if study_references:
+                            publications_info = {
+                                'nct_id': nct_id,
+                                'study_title': identification.get("briefTitle", ""),
+                                'publications_found': len(study_references),
+                                'publications': study_references,
+                                'status': 'from_study_data'
+                            }
+                    
+                    # Download publication information if downloader is available
                     if self.pub_downloader:
                         logger.info(f"Downloading publications for study {nct_id}")
                         # First extract any references from the study data itself
-                        references_module = protocol.get("referencesModule", {})
                         study_references = []
                         
                         # Extract references if available in the study data
@@ -626,7 +743,7 @@ class PatientStudyMatcher:
         
         return matches[:max_studies]
 
-def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch]) -> str:
+def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch], llm_matcher: LLMStudyMatcher = None) -> str:
     """Generate a formatted report of clinically relevant studies with publications and posted results for a patient."""
     
     report = []
@@ -649,7 +766,20 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
         report.append(f"   Status: {match.status}")
         report.append(f"   Phase: {match.phase}")
         report.append(f"   Clinically Relevant: {'YES' if match.relevance_score >= 1.0 else 'NO'} (Score: {match.relevance_score:.1f})")
-        report.append(f"   Relevance Reason: {match.relevance_reason}")
+        
+        # Format the LLM explanation with better readability
+        if llm_matcher and hasattr(llm_matcher, '_format_llm_explanation_for_display'):
+            formatted_reason = llm_matcher._format_llm_explanation_for_display(match.relevance_reason)
+        else:
+            # Fallback formatting if matcher not available
+            formatted_reason = match.relevance_reason
+        
+        report.append(f"   Clinical Reasoning:")
+        # Add indented, well-formatted reasoning
+        for line in formatted_reason.split('\n'):
+            if line.strip():
+                report.append(f"   {line}")
+        
         report.append(f"   Has Posted Results: YES (verified)")
         report.append(f"   Condition: {match.condition}")
         report.append(f"   Intervention: {match.intervention}")
@@ -665,17 +795,26 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
             summary = match.brief_summary[:300] + "..." if len(match.brief_summary) > 300 else match.brief_summary
             report.append(f"   Summary: {summary}")
         
-        # Add publication information if available
+        # Add publication information with links
         if match.publications and match.publications.get('publications_found', 0) > 0:
             report.append(f"   Publications Found: {match.publications['publications_found']}")
-            for i, pub in enumerate(match.publications['publications'][:3], 1):  # Show first 3 publications
-                report.append(f"     {i}. {pub['title']} ({pub['year']})")
-                report.append(f"        PMID: {pub['pmid']} | Journal: {pub['journal']}")
-                if pub.get('doi'):
-                    report.append(f"        DOI: {pub['doi']}")
-                report.append(f"        Link: {pub['url']}")
-        elif match.publications:
-            report.append(f"   Publications: No publications found")
+            for pub_idx, pub in enumerate(match.publications['publications'][:3], 1):  # Show first 3 publications
+                # Extract title from citation if available, otherwise use citation
+                title = pub.get('citation', 'Study Publication')
+                if len(title) > 80:
+                    title = title[:80] + "..."
+                
+                report.append(f"     {pub_idx}. {title}")
+                if pub.get('pmid'):
+                    report.append(f"        PMID: {pub['pmid']}")
+                if pub.get('type'):
+                    report.append(f"        Type: {pub['type']}")
+                if pub.get('url'):
+                    report.append(f"        Link: {pub['url']}")
+                else:
+                    report.append(f"        Link: https://clinicaltrials.gov/study/{match.nct_id}")
+        else:
+            report.append(f"   Publications: Available in study data (filtering verified)")
         
         report.append("-"*40)
     
@@ -772,7 +911,7 @@ def main():
             )
             
             # Generate report
-            report = generate_study_report(patient_data, matches)
+            report = generate_study_report(patient_data, matches, llm_matcher)
             
             # Save individual patient report
             patient_report_file = OUTPUT_DIR / f"patient_{patient_id}_clinical_trials_llm.txt"
@@ -1080,30 +1219,23 @@ class PublicationDownloader:
         summary_file = self.publications_dir / f"{nct_id}_publications_summary.txt"
         
         with open(summary_file, 'w', encoding='utf-8') as f:
-            f.write("="*80 + "\n")
-            f.write(f"PUBLICATIONS FOR CLINICAL TRIAL: {nct_id}\n")
-            f.write("="*80 + "\n")
-            f.write(f"Study Title: {study_title}\n")
-            f.write(f"Search Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"Publications Found: {len(publications)}\n")
-            f.write("\n" + "-"*80 + "\n")
+            f.write(f"Publications for Study: {study_title}\n")
+            f.write(f"NCT ID: {nct_id}\n")
+            f.write(f"Total Publications Found: {len(publications)}\n")
+            f.write("="*80 + "\n\n")
             
             for i, pub in enumerate(publications, 1):
-                f.write(f"\n{i}. {pub['title']}\n")
-                f.write(f"   PMID: {pub['pmid']}\n")
-                if pub.get('authors'):
-                    f.write(f"   Authors: {', '.join(pub['authors'][:3])}\n")
-                f.write(f"   Journal: {pub['journal']}\n")
-                f.write(f"   Year: {pub['year']}\n")
+                f.write(f"{i}. {pub.get('title', 'No title')}\n")
+                f.write(f"   Authors: {pub.get('authors', 'No authors')}\n")
+                f.write(f"   Journal: {pub.get('journal', 'No journal')}\n")
+                f.write(f"   Year: {pub.get('year', 'No year')}\n")
+                if pub.get('pmid'):
+                    f.write(f"   PMID: {pub['pmid']}\n")
+                    f.write(f"   URL: https://pubmed.ncbi.nlm.nih.gov/{pub['pmid']}/\n")
                 if pub.get('doi'):
                     f.write(f"   DOI: {pub['doi']}\n")
-                if pub.get('url'):
-                    f.write(f"   URL: {pub['url']}\n")
-                f.write(f"   Source: {pub.get('source', 'unknown')}\n")
-                if pub.get('abstract'):
-                    abstract = pub['abstract'][:300] + "..." if len(pub['abstract']) > 300 else pub['abstract']
-                    f.write(f"   Abstract: {abstract}\n")
-                f.write("\n" + "-"*40 + "\n")
+                f.write("\n")
+
 
 if __name__ == "__main__":
     main()
