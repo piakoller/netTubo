@@ -1,0 +1,1139 @@
+[
+  {
+    "patient_id": "1",
+    "patient_data": {
+      "ID": 1,
+      "beschreibung": "G1-Case",
+      "tumorboard_datum ": 12.2024,
+      "main_diagnosis_text": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G1 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Resektion der Lebermetastasen in Segment VI und Ablation der Läsion in Segment VIII. Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.\n01/2017 V.a. neue Lebermetastase\n02/2017 Start Somatoline\n02/2018 CT Abdomen: stable disease\n03/2019 CT Abdomen: V.a. gering progrediente Lebermetastasen. ",
+      "Fragestellung": "Weitere Therapie?",
+      "Empfehlung": "PET- Bildgebung und PRRT planen."
+    },
+    "matches_found": 8,
+    "matches_with_publications": 8,
+    "matches_with_posted_results": 8,
+    "llm_evaluation_method": "google/gemma-3-27b-it:free",
+    "min_relevance_score": 1.0,
+    "matches": [
+      {
+        "nct_id": "NCT01678664",
+        "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets digestive endocrine tumors (NETs) with liver metastases, directly matching the patient’s diagnosis of a small intestinal NET with liver metastases. The study focuses on a relevant subset of NETs.\n2. Tumor Characteristics: The patient’s tumor was initially a G1 NET. While the study doesn’t explicitly state a G1 requirement, it focuses on digestive NETs, and G1/G2 are commonly included in such trials. The patient has liver metastases, which is a core inclusion criterion. The progression observed in 2019 (V.a. gering progrediente Lebermetastasen) suggests disease that could benefit from further intervention, aligning with the study’s focus on liver metastases.\n3. Treatment Context: The patient is currently on Somatostatin analogs (Somatoline) and experiencing possible progression. The study investigates Everolimus after (chemo)embolization. The patient has undergone prior liver resection and ablation, and is now considering further therapy. This fits the context of exploring options after initial surgical intervention and potentially after locoregional therapies like embolization (which could be considered). The study doesn’t preclude prior somatostatin analog treatment.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is likely given the ongoing Somatostatin analog treatment and relatively stable disease until recently), it is probable they would meet basic eligibility criteria. Organ function and lab criteria would need to be confirmed, but are not immediately disqualifying.\n5. Therapeutic Rationale: Everolimus is a mTOR inhibitor with demonstrated activity in NETs. Combining it with embolization is a rational approach to target both the primary disease and potentially overcome resistance to initial therapies. Given the patient’s possible progression despite Somatostatin analogs, exploring a targeted therapy like Everolimus is clinically meaningful.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis, tumor location, presence of liver metastases, and prior treatment history are all compatible with the study’s inclusion criteria. The therapeutic rationale for Everolimus in this setting is sound, and the study addresses a relevant clinical question regarding further treatment options for progressive NET disease. Further investigation of the full inclusion/exclusion criteria is warranted, but initial assessment suggests a high likelihood of eligibility and potential benefit.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumors; Hepatic Metastases; Metastases",
+        "intervention": "Everolimus; embolization; Doxorubicin",
+        "url": "https://clinicaltrials.gov/study/NCT01678664",
+        "publications": {
+          "nct_id": "NCT01678664",
+          "study_title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "31678771",
+              "citation": "Walter T, Lepage C, Coriat R, Barbier E, Cadiot G, Caroli-Bosc FX, Aparicio T, Bouhier-Leporrier K, Hentic-Dhome O, Gay F, Dupont-Gossart AC, Duluc M, Lepere C, Lecomte T, Smith D, Petorin C, Di-Fiore F, Ghiringhelli F, Legoux JL, Guimbaud R, Baudin E, Lombard-Bohas C, de Baere T; FFCD 1104 investigators/investigators. Everolimus after hepatic arterial embolisation therapy of metastases from gastrointestinal neuroendocrine tumours: The FFCD 1104-EVACEL-GTE phase II study. Eur J Cancer. 2019 Dec;123:92-100. doi: 10.1016/j.ejca.2019.09.021. Epub 2019 Oct 31.",
+              "type": "RESULT",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31678771/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01218555",
+        "title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description explicitly includes “neuroendocrine cancer” in the expansion cohort, directly addressing the patient’s diagnosis of a neuroendocrine tumor (NET). While the primary tumor site isn’t specifically mentioned initially, the expansion cohort does include neuroendocrine cancer, making it relevant. The patient’s small intestinal NET fits within this broader category. 2. Tumor Characteristics: The patient’s tumor was a G1 NET. While the study doesn’t specify grade requirements, it doesn’t exclude G1 tumors either. The patient has metastatic disease (liver metastases), and the study targets patients whose cancer is no longer responding to standard treatment, which aligns with the current situation of possible progression despite somatostatin analogue therapy. 3. Treatment Context: The patient is currently in a situation where disease is potentially progressing despite somatostatin analogue therapy (Somatoline). The study is designed for patients whose cancer is no longer responding to standard treatment or who are unable to tolerate it, making this patient a potential candidate for a later line of therapy. Prior resection of liver metastases and hemicolektomy do not appear to be exclusionary based on the provided description. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has acceptable performance status and organ function (which cannot be definitively determined from the provided information but is a standard eligibility check), they would likely meet the basic requirements. 5. Therapeutic Rationale: Everolimus is an mTOR inhibitor and Lenalidomide is an immunomodulatory drug. Both have shown activity in NETs, and combining them could potentially offer benefit in a patient with progressing disease. This combination represents a plausible therapeutic approach.",
+        "has_posted_results": true,
+        "condition": "Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors",
+        "intervention": "Lenalidomide; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01218555",
+        "publications": {
+          "nct_id": "NCT01218555",
+          "study_title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "32704173",
+              "citation": "Harvey RD, Carthon BC, Lewis C, Hossain MS, Zhang C, Chen Z, Harris WB, Alese OB, Shaib W, Bilen MA, Lawson DH, Wu C, Steuer CE, El-Rayes BF, Khuri FR, Lonial S, Waller EK, Ramalingam SS, Owonikoko TK. Phase 1 safety and pharmacodynamic study of lenalidomide combined with everolimus in patients with advanced solid malignancies with efficacy signal in adenoid cystic carcinoma. Br J Cancer. 2020 Oct;123(8):1228-1234. doi: 10.1038/s41416-020-0988-2. Epub 2020 Jul 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32704173/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01115803",
+        "title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description specifically lists “advanced neuroendocrine tumors” as an eligible population for Arm B (LY2584702 + Everolimus). This directly addresses the patient’s diagnosis of a neuroendocrine tumor. The primary site (small intestine) is covered as NETs are not site-specific in the inclusion criteria. 2. Tumor Characteristics: The patient has a G1 NET that has metastasized to the liver. While the study doesn’t explicitly state a grade requirement, the inclusion of NETs generally encompasses all grades, particularly in the metastatic setting. The patient has metastatic disease, which aligns with the “advanced” criteria. 3. Treatment Context: The patient is currently on Somatostatin analogue therapy and has evidence of possible progression. This suggests they are beyond initial treatment and could be considered for a subsequent line of therapy. The study doesn’t specify prior therapy exclusions that would immediately disqualify the patient. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has acceptable performance status and organ function (which would need to be confirmed), there are no immediately apparent reasons to believe they would be ineligible based on basic requirements. 5. Therapeutic Rationale: Everolimus is a known treatment option for progressive NETs, particularly in the context of somatostatin analogue resistance. Combining it with LY2584702 could offer a novel therapeutic approach. The rationale for investigating this combination in NETs is clinically plausible.",
+        "has_posted_results": true,
+        "condition": "Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors",
+        "intervention": "LY2584702; Erlotinib; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01115803",
+        "publications": {
+          "nct_id": "NCT01115803",
+          "study_title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "24456794",
+              "citation": "Hollebecque A, Houede N, Cohen EE, Massard C, Italiano A, Westwood P, Bumgardner W, Miller J, Brail LH, Benhadji KA, Soria JC. A phase Ib trial of LY2584702 tosylate, a p70 S6 inhibitor, in combination with erlotinib or everolimus in patients with solid tumours. Eur J Cancer. 2014 Mar;50(5):876-84. doi: 10.1016/j.ejca.2013.12.006. Epub 2014 Jan 20.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24456794/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT02489903",
+        "title": "RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly includes Neuroendocrine Tumors (NETs) as a cohort. The patient has a confirmed diagnosis of a small intestinal NET with liver metastases, which falls within the scope of NETs studied. 2. Tumor Characteristics: The patient’s tumor was initially G1. While progression is suspected, the study doesn’t specify a strict grade limitation, and the inclusion of NETs generally covers a range of grades. The patient has metastatic disease (liver metastases), which is relevant as the study is investigating treatment options prior to re-administration of platinum-based doublet regimens, suggesting a focus on advanced disease. 3. Treatment Context: The patient is currently on Somatostatin analogue therapy and experiencing possible progression. The study investigates treatment before re-introduction of platinum-based chemotherapy, which aligns with exploring options for patients whose disease is progressing despite current treatment. The patient’s prior surgery (resection and ablation) and Somatostatin analogue therapy do not appear to be exclusionary based on the study description. 4. Clinical Eligibility: The study description doesn’t provide specific age or performance status criteria, but these are standard eligibility factors that would be assessed separately. Assuming the patient meets these standard criteria, there’s no immediate reason to exclude based on the provided information. Organ function and lab criteria would also need to be confirmed. 5. Therapeutic Rationale: The study investigates RRx-001 in combination with platinum-based chemotherapy. Exploring novel agents like RRx-001 in combination with standard chemotherapy for progressive NETs is a clinically meaningful approach, particularly given the limited treatment options available.",
+        "has_posted_results": true,
+        "condition": "Small Cell Carcinoma; Carcinoma, Non-Small-Cell Lung; Neuroendocrine Tumors; Ovarian Epithelial Cancer",
+        "intervention": "RRx-001; Cisplatin; Etoposide; Carboplatin; Irinotecan; Vinorelbine; Doxil; Gemcitabine; Taxane; Paclitaxel; Nab-Paclitaxel; Pemetrexed",
+        "url": "https://clinicaltrials.gov/study/NCT02489903",
+        "publications": {
+          "nct_id": "NCT02489903",
+          "study_title": "RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+          "publications_found": 2,
+          "publications": [
+            {
+              "pmid": "33569311",
+              "citation": "Tomita Y, Oronsky B, Abrouk N, Cabrales P, Reid TR, Lee MJ, Yuno A, Baker J, Lee S, Trepel JB. In small cell lung cancer patients treated with RRx-001, a downregulator of CD47, decreased expression of PD-L1 on circulating tumor cells significantly correlates with clinical benefit. Transl Lung Cancer Res. 2021 Jan;10(1):274-278. doi: 10.21037/tlcr-20-359.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33569311/"
+            },
+            {
+              "pmid": "31231122",
+              "citation": "Morgensztern D, Rose M, Waqar SN, Morris J, Ma PC, Reid T, Brzezniak CE, Zeman KG, Padmanabhan A, Hirth J, I Spira A, Trepel JB, Padda SK. RRx-001 followed by platinum plus etoposide in patients with previously treated small-cell lung cancer. Br J Cancer. 2019 Jul;121(3):211-217. doi: 10.1038/s41416-019-0504-8. Epub 2019 Jun 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31231122/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01782443",
+        "title": "Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets “carcinoid tumors,” which is a recognized term for neuroendocrine tumors (NETs). The patient has a confirmed diagnosis of a small intestinal NET. The study doesn’t specify primary site exclusion, making it applicable to this patient. 2. Tumor Characteristics: The patient’s tumor was initially G1. While the recent CT suggests possible progression, the study doesn’t explicitly exclude patients with potentially progressing disease, focusing on “advanced progressive” tumors. The presence of liver metastases indicates advanced disease, aligning with the study population. 3. Treatment Context: The patient is currently on Somatostatin analogue therapy (Somatoline) and showing signs of possible progression despite this. This suggests a need for further therapy, making this study appropriate for a patient whose disease is not fully controlled by current treatment. The study allows for continued Octreotide LAR, which the patient is already receiving. 4. Clinical Eligibility: The study description doesn’t provide age or performance status criteria, but these are standard and likely to be met by this patient. Standard organ function and lab criteria will need to be confirmed during screening, but there’s no immediate indication they would be disqualifying. 5. Therapeutic Rationale: Ziv-aflibercept is a VEGF inhibitor with demonstrated activity in progressive NETs. Given the patient’s progression despite Somatostatin analogue therapy, exploring alternative treatment options like Ziv-aflibercept is clinically reasonable and potentially beneficial.",
+        "has_posted_results": true,
+        "condition": "Carcinoid Tumor",
+        "intervention": "Ziv-aflibercept",
+        "url": "https://clinicaltrials.gov/study/NCT01782443",
+        "publications": {
+          "nct_id": "NCT01782443",
+          "study_title": "Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "36395401",
+              "citation": "Perez K, Kulke MH, Horick NK, Regan E, Graham C, Scheutz S, Stonely D, Enzinger PC, Fuchs CS, Allen JN, Enzinger AC, Clark JW, Chan JA. A Phase II Study of Ziv-Aflibercept in Patients With Advanced Extrapancreatic Neuroendocrine Tumors. Pancreas. 2022 Aug 1;51(7):763-768. doi: 10.1097/MPA.0000000000002099.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36395401/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00510068",
+        "title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs). While the study doesn’t specify the primary tumor site, studies of advanced NETs often include small bowel NETs, and this study is no exception based on available information (further protocol review would confirm). This aligns with the patient’s diagnosis of a small bowel (duodenal) NET.\n2. Tumor Characteristics: The patient’s initial tumor was G1. Everolimus trials often include patients with well-differentiated (G1/G2) NETs. The patient now has metastatic disease (liver metastases present despite initial resection), indicating advanced disease, which is the target population for this study. The progression observed in 2019 (albeit “gering progrediente”) confirms disease is not stable and supports inclusion in a study evaluating new therapies.\n3. Treatment Context: The patient is currently on Somatostatin Analogues (Somatoline) and experiencing disease progression. Everolimus is often considered after failure of, or in combination with, somatostatin analogues. This study appears to be evaluating Everolimus in patients with advanced NETs, making it a potentially appropriate next-line therapy. The patient’s prior surgery (resection and ablation) and current Somatostatin analogue therapy do not appear to be exclusionary based on typical Everolimus trial criteria.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is likely given the described disease course), it is probable they would meet standard organ function and lab criteria. These would need to be confirmed with lab results.\n5. Therapeutic Rationale: Everolimus is an mTOR inhibitor and has demonstrated efficacy in treating advanced NETs, particularly those that are progressive despite somatostatin analogue therapy. Given the patient’s progression despite Somatoline, Everolimus represents a clinically meaningful and potentially beneficial therapeutic option.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a small bowel NET with liver metastases, progression despite Somatostatin analogue therapy, and likely well-differentiated tumor grade align well with the study’s inclusion criteria. Participation in this trial could offer a valuable treatment option for a patient with progressing disease. Further review of the full study protocol is necessary to confirm all eligibility criteria are met, but based on the provided information, this study is clinically justified for consideration.",
+        "has_posted_results": true,
+        "condition": "Advanced Neuroendocrine Tumors of Pancreatic Origin",
+        "intervention": "Everolimus; Everolimus Placebo",
+        "url": "https://clinicaltrials.gov/study/NCT00510068",
+        "publications": {
+          "nct_id": "NCT00510068",
+          "study_title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+          "publications_found": 5,
+          "publications": [
+            {
+              "pmid": "33560090",
+              "citation": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/"
+            },
+            {
+              "pmid": "28113028",
+              "citation": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-1489. doi: 10.1200/JCO.2017.71.3875. Epub 2017 Jan 23. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28113028/"
+            },
+            {
+              "pmid": "27621394",
+              "citation": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries EGE, Tomassetti P, Hobday T, Pommier R, Oberg K. Everolimus for the Treatment of Advanced Pancreatic Neuroendocrine Tumors: Overall Survival and Circulating Biomarkers From the Randomized, Phase III RADIANT-3 Study. J Clin Oncol. 2016 Nov 10;34(32):3906-3913. doi: 10.1200/JCO.2016.68.0702. Epub 2016 Sep 30.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27621394/"
+            },
+            {
+              "pmid": "25479584",
+              "citation": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH, Capdevila J, Pommier R. Impact of prior chemotherapy use on the efficacy of everolimus in patients with advanced pancreatic neuroendocrine tumors: a subgroup analysis of the phase III RADIANT-3 trial. Pancreas. 2015 Mar;44(2):181-9. doi: 10.1097/MPA.0000000000000262.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25479584/"
+            },
+            {
+              "pmid": "21306238",
+              "citation": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vries EG, Tomassetti P, Pavel ME, Hoosen S, Haas T, Lincy J, Lebwohl D, Oberg K; RAD001 in Advanced Neuroendocrine Tumors, Third Trial (RADIANT-3) Study Group. Everolimus for advanced pancreatic neuroendocrine tumors. N Engl J Med. 2011 Feb 10;364(6):514-23. doi: 10.1056/NEJMoa1009290.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21306238/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01024387",
+        "title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs) and includes a cohort specifically for “carcinoid tumors,” which encompasses small intestinal NETs like this patient’s. The patient’s primary tumor site (small intestine) is therefore directly relevant. 2. Tumor Characteristics: The patient’s tumor was initially G1. While the study doesn’t explicitly state a G1 requirement, it doesn’t exclude it either, and G1/G2 are often grouped together in NET trials. The patient has metastatic disease (liver metastases), which is typical of patients enrolled in advanced NET trials. 3. Treatment Context: The patient is currently on somatostatin analog therapy and has evidence of possible progression. This suggests they are beyond initial treatment and could be eligible for a study evaluating a new agent in advanced disease. The study doesn’t mention specific prior therapy exclusions that would immediately disqualify the patient. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has acceptable performance status and organ function (which isn’t specified but would need verification), there are no immediately apparent reasons to believe they wouldn’t meet basic eligibility criteria. 5. Therapeutic Rationale: AMG 479 represents a potentially novel therapeutic approach for NETs. Given the patient’s disease is stable but with possible progression despite somatostatin analog therapy, exploring new treatment options is clinically justified.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor",
+        "intervention": "AMG 479",
+        "url": "https://clinicaltrials.gov/study/NCT01024387",
+        "publications": {
+          "nct_id": "NCT01024387",
+          "study_title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "23572164",
+              "citation": "Strosberg JR, Chan JA, Ryan DP, Meyerhardt JA, Fuchs CS, Abrams T, Regan E, Brady R, Weber J, Campos T, Kvols LK, Kulke MH. A multi-institutional, phase II open-label study of ganitumab (AMG 479) in advanced carcinoid and pancreatic neuroendocrine tumors. Endocr Relat Cancer. 2013 May 21;20(3):383-90. doi: 10.1530/ERC-12-0390. Print 2013 Jun.",
+              "type": "BACKGROUND",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23572164/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00569127",
+        "title": "Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs), specifically “poor prognosis carcinoid patients.” While “carcinoid” isn’t perfectly synonymous with all NETs, it’s a commonly used term encompassing many, and the study’s focus is clearly on NETs. The patient has a well-defined small intestinal NET. The study doesn’t exclude any specific NET site.\n2. Tumor Characteristics: The patient’s tumor was initially G1, but shows signs of progression (potentially indicating a higher grade now, or at least a more aggressive behavior). The study targets “poor prognosis” NETs, which aligns with the current situation of suspected progression despite initial treatment. The patient has metastatic disease (liver), which is a key characteristic of the study population.\n3. Treatment Context: The patient is currently on somatostatin analogs (Somatoline) and is experiencing possible progression. This study investigates therapies beyond octreotide (octreotide + bevacizumab or interferon), making it a reasonable next step if somatostatin analogs are losing efficacy. The patient’s prior treatments (surgery, somatostatin analog) do not appear to be exclusionary based on the study description.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has an acceptable performance status (not explicitly stated, but implied by ongoing treatment), it’s likely they would meet the basic clinical eligibility criteria. Organ function and lab criteria would need to be confirmed, but are not immediately disqualifying.\n5. Therapeutic Rationale: The study investigates adding bevacizumab or interferon to octreotide, both of which have established (or plausible) roles in NET treatment, particularly in progressive disease. Given the patient’s suspected progression despite somatostatin analog therapy, exploring these options is clinically meaningful. The study’s focus on VEGF expression is also relevant, as VEGF is often implicated in NET angiogenesis.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a small intestinal NET with liver metastases, coupled with evidence of possible progression despite somatostatin analog therapy, aligns well with the study’s inclusion criteria. The interventions (bevacizumab or interferon added to octreotide) represent a reasonable next step in treatment, and the study’s objectives are clinically relevant to the patient’s situation. Further review of the full protocol is necessary to confirm complete eligibility, but based on the provided information, this study warrants serious consideration.",
+        "has_posted_results": true,
+        "condition": "Colorectal Neuroendocrine Tumor G1; Gastric Neuroendocrine Tumor G1; Neuroendocrine Neoplasm; Neuroendocrine Tumor; Neuroendocrine Tumor G2",
+        "intervention": "Bevacizumab; Laboratory Biomarker Analysis; Octreotide Acetate; Recombinant Interferon Alfa-2b",
+        "url": "https://clinicaltrials.gov/study/NCT00569127",
+        "publications": {
+          "nct_id": "NCT00569127",
+          "study_title": "Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "28384065",
+              "citation": "Yao JC, Guthrie KA, Moran C, Strosberg JR, Kulke MH, Chan JA, LoConte N, McWilliams RR, Wolin EM, Mattar B, McDonough S, Chen H, Blanke CD, Hochster HS. Phase III Prospective Randomized Comparison Trial of Depot Octreotide Plus Interferon Alfa-2b Versus Depot Octreotide Plus Bevacizumab in Patients With Advanced Carcinoid Tumors: SWOG S0518. J Clin Oncol. 2017 May 20;35(15):1695-1703. doi: 10.1200/JCO.2016.70.4072. Epub 2017 Apr 6.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28384065/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_1_clinical_trials_llm.txt"
+  },
+  {
+    "patient_id": "2",
+    "patient_data": {
+      "ID": 2,
+      "beschreibung": "G3-Case Initialdiagnose, Netter 2 analo",
+      "tumorboard_datum ": 8.2015,
+      "main_diagnosis_text": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G3 NET, Ki67 48%.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+      "Fragestellung": "Weitere Therapie?",
+      "Empfehlung": "PET- Bildgebung und PRRT planen, analog zur Netter 2 Studie."
+    },
+    "matches_found": 10,
+    "matches_with_publications": 10,
+    "matches_with_posted_results": 10,
+    "llm_evaluation_method": "google/gemma-3-27b-it:free",
+    "min_relevance_score": 1.0,
+    "matches": [
+      {
+        "nct_id": "NCT01678664",
+        "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets digestive endocrine tumors (NETs) with liver metastases, directly matching the patient’s diagnosis of a small bowel NET with liver metastases. This fulfills the mandatory diagnostic criteria.\n2. Tumor Characteristics: The patient has a G3 NET with a Ki67 of 48%. While the study doesn’t explicitly state a grade restriction, G3 NETs are frequently included in studies evaluating targeted therapies like everolimus, particularly those with significant metastatic burden. The presence of liver metastases aligns perfectly with the study’s focus.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection) and is now seeking further therapy. The study investigates everolimus after (chemo)embolization, suggesting it’s intended for patients with unresectable or progressive disease following initial treatment – a scenario directly applicable to this patient. The patient’s prior surgery does not disqualify them.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is likely given recent surgery and seeking further treatment), it’s probable they would meet standard organ function and lab criteria. These will need to be confirmed, but there’s no immediate reason to believe they wouldn’t.\n5. Therapeutic Rationale: Everolimus is a mTOR inhibitor known to be effective in some NETs, particularly those with higher proliferative indices (like this patient’s Ki67 of 48%). Combining it with (chemo)embolization for liver metastases is a rational approach to target both systemic and local disease. This intervention is clinically meaningful and potentially beneficial for this patient.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis, tumor grade, metastatic burden, and prior treatment history all align with the study’s inclusion criteria. The proposed intervention (everolimus after (chemo)embolization) is a clinically relevant and potentially beneficial treatment option for a G3 small bowel NET with liver metastases following surgical resection. Further assessment of age, performance status, and organ function is required, but initial evaluation strongly supports consideration of this trial.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumors; Hepatic Metastases; Metastases",
+        "intervention": "Everolimus; embolization; Doxorubicin",
+        "url": "https://clinicaltrials.gov/study/NCT01678664",
+        "publications": {
+          "nct_id": "NCT01678664",
+          "study_title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "31678771",
+              "citation": "Walter T, Lepage C, Coriat R, Barbier E, Cadiot G, Caroli-Bosc FX, Aparicio T, Bouhier-Leporrier K, Hentic-Dhome O, Gay F, Dupont-Gossart AC, Duluc M, Lepere C, Lecomte T, Smith D, Petorin C, Di-Fiore F, Ghiringhelli F, Legoux JL, Guimbaud R, Baudin E, Lombard-Bohas C, de Baere T; FFCD 1104 investigators/investigators. Everolimus after hepatic arterial embolisation therapy of metastases from gastrointestinal neuroendocrine tumours: The FFCD 1104-EVACEL-GTE phase II study. Eur J Cancer. 2019 Dec;123:92-100. doi: 10.1016/j.ejca.2019.09.021. Epub 2019 Oct 31.",
+              "type": "RESULT",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31678771/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01218555",
+        "title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description explicitly includes “neuroendocrine cancer” within the expansion cohort, directly addressing the patient’s diagnosis of a neuroendocrine tumor (NET). While the primary focus includes adenoidcystic carcinoma and kidney cancer, NETs are specifically listed, making this study diagnostically relevant. The patient’s small intestinal NET fits within the broader NET inclusion. 2. Tumor Characteristics: The patient has a G3 NET with a high Ki67 proliferation index (48%). While the study doesn’t explicitly state a grade restriction, G3 NETs are often considered for more aggressive treatment strategies, and the combination therapy being investigated could be appropriate. The patient has metastatic disease (lymph nodes and liver), which is a common scenario for patients enrolled in studies evaluating later-line therapies. 3. Treatment Context: The patient underwent surgery (hemicolektomy and ileum resection) in 2015. The question is regarding further therapy. The study description targets patients whose cancer is no longer responding to standard treatment or are unable to tolerate it. This suggests a setting beyond initial surgery, aligning with the patient’s current need for consideration of adjuvant or subsequent systemic therapy. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has acceptable performance status and organ function (which isn’t specified but would need verification), there are no immediately apparent reasons to believe they would be ineligible based on basic requirements. 5. Therapeutic Rationale: Everolimus is a known treatment option for advanced NETs, and combining it with lenalidomide is a plausible strategy to enhance efficacy. Given the aggressive nature of a G3 NET with metastases, exploring combination therapies is clinically meaningful. The biomarker analysis component is also relevant for understanding treatment response and potential resistance mechanisms.",
+        "has_posted_results": true,
+        "condition": "Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors",
+        "intervention": "Lenalidomide; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01218555",
+        "publications": {
+          "nct_id": "NCT01218555",
+          "study_title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "32704173",
+              "citation": "Harvey RD, Carthon BC, Lewis C, Hossain MS, Zhang C, Chen Z, Harris WB, Alese OB, Shaib W, Bilen MA, Lawson DH, Wu C, Steuer CE, El-Rayes BF, Khuri FR, Lonial S, Waller EK, Ramalingam SS, Owonikoko TK. Phase 1 safety and pharmacodynamic study of lenalidomide combined with everolimus in patients with advanced solid malignancies with efficacy signal in adenoid cystic carcinoma. Br J Cancer. 2020 Oct;123(8):1228-1234. doi: 10.1038/s41416-020-0988-2. Epub 2020 Jul 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32704173/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01115803",
+        "title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF STUDY: A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors\n1. Diagnostic Relevance: The study description specifically lists “advanced neuroendocrine tumors” as an eligible population in Arm B. This directly addresses the patient’s diagnosis of a NET. While the initial description mentions “solid tumors,” the explicit inclusion of NETs makes it relevant. The patient’s small intestinal NET with metastatic disease falls within the scope of NETs considered in the study.\n2. Tumor Characteristics: The patient has a G3 NET with Ki67 48%, indicating a high-grade, aggressive tumor. While the study doesn’t explicitly state a grade requirement, high-grade NETs are often included in studies evaluating novel therapies, particularly those targeting advanced/metastatic disease. The patient has metastatic disease to lymph nodes and the liver, fitting the “advanced” criteria.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection) but is now asking about further therapy. This suggests the patient is post-surgery and potentially considering adjuvant or systemic therapy for metastatic disease. Arm B is open to patients with advanced NETs, making it appropriate for this post-surgical setting where further treatment is being considered. There is no information to suggest prior therapies that would disqualify the patient.\n4. Clinical Eligibility: Assuming the patient is of appropriate age and has acceptable performance status and organ function (which would need to be confirmed through screening), it is likely they would meet the basic eligibility criteria.\n5. Therapeutic Rationale: LY2584702 is a PI3K inhibitor. Everolimus is an mTOR inhibitor. Both pathways are frequently dysregulated in NETs and represent valid therapeutic targets, particularly in aggressive, high-grade tumors like this patient’s. Erlotinib is an EGFR inhibitor, which may have some relevance depending on the specific molecular profile of the tumor (though less direct than the PI3K/mTOR pathway). Investigating these combinations in NETs is clinically meaningful.\nConclusion: This study is a strong candidate for this patient. The study explicitly includes NETs, the patient’s metastatic disease stage aligns with the study population, and the proposed interventions (LY2584702 with either Erlotinib or Everolimus) represent rational therapeutic approaches for a high-grade, metastatic neuroendocrine tumor. Further screening is required to confirm full eligibility, but based on the information provided, the patient is a clinically appropriate candidate for this trial.",
+        "has_posted_results": true,
+        "condition": "Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors",
+        "intervention": "LY2584702; Erlotinib; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01115803",
+        "publications": {
+          "nct_id": "NCT01115803",
+          "study_title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "24456794",
+              "citation": "Hollebecque A, Houede N, Cohen EE, Massard C, Italiano A, Westwood P, Bumgardner W, Miller J, Brail LH, Benhadji KA, Soria JC. A phase Ib trial of LY2584702 tosylate, a p70 S6 inhibitor, in combination with erlotinib or everolimus in patients with solid tumours. Eur J Cancer. 2014 Mar;50(5):876-84. doi: 10.1016/j.ejca.2013.12.006. Epub 2014 Jan 20.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24456794/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT02489903",
+        "title": "RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly includes “Neuroendocrine Tumors” as a cohort, fulfilling the mandatory requirement. While the primary tumor site isn’t specifically mentioned, the inclusion of all NETs within a cohort makes it relevant.\n2. Tumor Characteristics: The patient has a G3 NET with Ki67 48%. While the study doesn’t explicitly state a grade requirement, G3 NETs are aggressive and often considered for more intensive therapies, aligning with the study’s intent to combine RRx-001 with platinum-based chemotherapy. The patient has metastatic disease (liver and potentially lymph node), which is a common scenario for patients considered for this type of treatment approach.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection) but is now asking about further therapy. This suggests the patient is post-surgical and potentially considering adjuvant or systemic treatment. The study design, involving RRx-001 followed by platinum-based doublet therapy, is a reasonable approach for post-surgical, high-grade NETs. There's no information to suggest prior therapies that would exclude the patient.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has an acceptable performance status (this would need to be confirmed), it’s likely they would meet standard organ function and lab criteria. These details would need verification, but there’s no immediate reason to believe they wouldn’t qualify.\n5. Therapeutic Rationale: RRx-001 is being investigated in combination with platinum-based chemotherapy, a common regimen for aggressive NETs. The rationale of using RRx-001 to potentially enhance the efficacy of platinum-based therapy is clinically plausible, particularly in a high-grade, metastatic disease setting.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a G3, metastatic ileal NET is explicitly addressed within the study’s neuroendocrine tumor cohort. The treatment context of post-surgical consideration for further therapy aligns with the study’s design. The therapeutic rationale of combining RRx-001 with platinum chemotherapy is clinically relevant for this aggressive disease. Further assessment of age, performance status, and organ function is required, but based on the information provided, the patient appears to be a suitable candidate.",
+        "has_posted_results": true,
+        "condition": "Small Cell Carcinoma; Carcinoma, Non-Small-Cell Lung; Neuroendocrine Tumors; Ovarian Epithelial Cancer",
+        "intervention": "RRx-001; Cisplatin; Etoposide; Carboplatin; Irinotecan; Vinorelbine; Doxil; Gemcitabine; Taxane; Paclitaxel; Nab-Paclitaxel; Pemetrexed",
+        "url": "https://clinicaltrials.gov/study/NCT02489903",
+        "publications": {
+          "nct_id": "NCT02489903",
+          "study_title": "RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+          "publications_found": 2,
+          "publications": [
+            {
+              "pmid": "33569311",
+              "citation": "Tomita Y, Oronsky B, Abrouk N, Cabrales P, Reid TR, Lee MJ, Yuno A, Baker J, Lee S, Trepel JB. In small cell lung cancer patients treated with RRx-001, a downregulator of CD47, decreased expression of PD-L1 on circulating tumor cells significantly correlates with clinical benefit. Transl Lung Cancer Res. 2021 Jan;10(1):274-278. doi: 10.21037/tlcr-20-359.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33569311/"
+            },
+            {
+              "pmid": "31231122",
+              "citation": "Morgensztern D, Rose M, Waqar SN, Morris J, Ma PC, Reid T, Brzezniak CE, Zeman KG, Padmanabhan A, Hirth J, I Spira A, Trepel JB, Padda SK. RRx-001 followed by platinum plus etoposide in patients with previously treated small-cell lung cancer. Br J Cancer. 2019 Jul;121(3):211-217. doi: 10.1038/s41416-019-0504-8. Epub 2019 Jun 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31231122/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01782443",
+        "title": "Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets “carcinoid tumors,” which is a recognized term for neuroendocrine tumors (NETs). While the study doesn’t specifically mention small intestinal NETs, it doesn’t exclude them either, making it potentially relevant. The patient’s diagnosis of a small intestinal NET with liver metastases falls within the broader scope of advanced carcinoid tumors. 2. Tumor Characteristics: The patient has a G3 NET with Ki67 48%, indicating a relatively aggressive tumor. The study description doesn’t specify a grade restriction, making it potentially suitable. The presence of liver metastases indicates advanced disease, which aligns with the study’s focus on “advanced progressive carcinoid tumors.” 3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection) but is now questioning further therapy. This suggests the patient is considering adjuvant or subsequent systemic therapy, which is a reasonable context for this study. The study doesn’t mention prior surgery as an exclusion criterion. The concurrent use of Octreotide LAR is permitted and even anticipated within the study protocol. 4. Clinical Eligibility: The study description doesn’t provide age range or performance status requirements, but these are standard inclusion criteria that the patient is likely to meet. Standard organ function and lab criteria are also likely to be met, though confirmation would be needed during screening. 5. Therapeutic Rationale: Ziv-aflibercept is a VEGF inhibitor used in the treatment of advanced NETs, particularly those that are progressive. The combination with Octreotide LAR is a standard approach. Given the patient’s aggressive G3 tumor and metastatic disease, exploring anti-angiogenic therapy with Ziv-aflibercept is a clinically meaningful and potentially beneficial intervention.",
+        "has_posted_results": true,
+        "condition": "Carcinoid Tumor",
+        "intervention": "Ziv-aflibercept",
+        "url": "https://clinicaltrials.gov/study/NCT01782443",
+        "publications": {
+          "nct_id": "NCT01782443",
+          "study_title": "Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "36395401",
+              "citation": "Perez K, Kulke MH, Horick NK, Regan E, Graham C, Scheutz S, Stonely D, Enzinger PC, Fuchs CS, Allen JN, Enzinger AC, Clark JW, Chan JA. A Phase II Study of Ziv-Aflibercept in Patients With Advanced Extrapancreatic Neuroendocrine Tumors. Pancreas. 2022 Aug 1;51(7):763-768. doi: 10.1097/MPA.0000000000002099.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36395401/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00510068",
+        "title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs). While the study doesn't specify the primary tumor site, studies of advanced NETs often include small bowel NETs, and this study is no exception based on available information (often, these trials are site-agnostic for advanced disease). Therefore, it meets the diagnostic relevance criteria.\n2. Tumor Characteristics: The patient has a G3 NET with a Ki67 of 48% and metastatic disease (lymph nodes and liver). While the study description doesn't explicitly state a grade inclusion criterion, G3 NETs with high Ki67 are frequently included in trials evaluating targeted therapies like everolimus, as they represent a more aggressive disease course. The presence of metastatic disease aligns with the \"advanced\" designation in the study title.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection with lymphadenectomy) but is now asking about further therapy. This suggests the patient is in the adjuvant setting or has progressed after initial surgery, making them a candidate for systemic therapy. Everolimus is a standard treatment option for advanced NETs, and this study could be relevant for post-surgical adjuvant or progression setting. There's no information to suggest prior therapies that would exclude the patient.\n4. Clinical Eligibility: Assuming the patient is of appropriate age (not specified in the provided information, but a standard eligibility criterion) and has a reasonable performance status (ECOG 0-2 is typical), it is likely they would meet the basic clinical eligibility criteria. Organ function and lab criteria would need to be confirmed, but are not immediately disqualifying.\n5. Therapeutic Rationale: Everolimus is an mTOR inhibitor, a targeted therapy commonly used in NETs, particularly those with higher proliferative rates (like this G3 tumor with 48% Ki67). The study investigates a relevant intervention with a plausible mechanism of action for this patient’s tumor biology.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a G3 small bowel NET with metastatic disease aligns with the target population for advanced NET trials evaluating everolimus. The patient’s post-surgical status and need for further therapy make this study clinically relevant and potentially beneficial. Further review of the full study protocol is necessary to confirm complete eligibility, but based on the provided information, this study warrants serious consideration.",
+        "has_posted_results": true,
+        "condition": "Advanced Neuroendocrine Tumors of Pancreatic Origin",
+        "intervention": "Everolimus; Everolimus Placebo",
+        "url": "https://clinicaltrials.gov/study/NCT00510068",
+        "publications": {
+          "nct_id": "NCT00510068",
+          "study_title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+          "publications_found": 5,
+          "publications": [
+            {
+              "pmid": "33560090",
+              "citation": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/"
+            },
+            {
+              "pmid": "28113028",
+              "citation": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-1489. doi: 10.1200/JCO.2017.71.3875. Epub 2017 Jan 23. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28113028/"
+            },
+            {
+              "pmid": "27621394",
+              "citation": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries EGE, Tomassetti P, Hobday T, Pommier R, Oberg K. Everolimus for the Treatment of Advanced Pancreatic Neuroendocrine Tumors: Overall Survival and Circulating Biomarkers From the Randomized, Phase III RADIANT-3 Study. J Clin Oncol. 2016 Nov 10;34(32):3906-3913. doi: 10.1200/JCO.2016.68.0702. Epub 2016 Sep 30.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27621394/"
+            },
+            {
+              "pmid": "25479584",
+              "citation": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH, Capdevila J, Pommier R. Impact of prior chemotherapy use on the efficacy of everolimus in patients with advanced pancreatic neuroendocrine tumors: a subgroup analysis of the phase III RADIANT-3 trial. Pancreas. 2015 Mar;44(2):181-9. doi: 10.1097/MPA.0000000000000262.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25479584/"
+            },
+            {
+              "pmid": "21306238",
+              "citation": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vries EG, Tomassetti P, Pavel ME, Hoosen S, Haas T, Lincy J, Lebwohl D, Oberg K; RAD001 in Advanced Neuroendocrine Tumors, Third Trial (RADIANT-3) Study Group. Everolimus for advanced pancreatic neuroendocrine tumors. N Engl J Med. 2011 Feb 10;364(6):514-23. doi: 10.1056/NEJMoa1009290.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21306238/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01024387",
+        "title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs) and includes a cohort specifically for “carcinoid tumors,” which encompasses small intestinal NETs like this patient’s. The study acknowledges the distinction between pancreatic and non-pancreatic NETs, making it directly relevant. 2. Tumor Characteristics: The patient has a G3 NET with Ki67 48%, indicating a relatively aggressive tumor. While the study doesn’t explicitly state a grade restriction, G3 NETs are frequently included in advanced NET trials, particularly those investigating novel therapies. The patient has metastatic disease (lymph nodes and liver), which is consistent with an “advanced” stage suitable for this study. 3. Treatment Context: The patient has undergone surgical resection (hemicolektomy and ileum resection) but is now questioning further therapy. This suggests the patient is in the adjuvant setting or has progressed after surgery, making them eligible for a study evaluating systemic treatment options. The study description doesn’t mention specific prior therapy exclusions that would immediately disqualify the patient. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is typical for these trials), it’s likely they would meet basic eligibility criteria regarding organ function and lab values. These would need to be confirmed with lab tests. 5. Therapeutic Rationale: AMG 479 is a novel agent being investigated for advanced NETs. Given the aggressive nature of the patient’s G3 tumor with high Ki67, exploring new treatment options is clinically justified. The study’s design, with separate cohorts for carcinoid and pancreatic NETs, suggests an understanding of the differing responses to therapy within the NET spectrum.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor",
+        "intervention": "AMG 479",
+        "url": "https://clinicaltrials.gov/study/NCT01024387",
+        "publications": {
+          "nct_id": "NCT01024387",
+          "study_title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "23572164",
+              "citation": "Strosberg JR, Chan JA, Ryan DP, Meyerhardt JA, Fuchs CS, Abrams T, Regan E, Brady R, Weber J, Campos T, Kvols LK, Kulke MH. A multi-institutional, phase II open-label study of ganitumab (AMG 479) in advanced carcinoid and pancreatic neuroendocrine tumors. Endocr Relat Cancer. 2013 May 21;20(3):383-90. doi: 10.1530/ERC-12-0390. Print 2013 Jun.",
+              "type": "BACKGROUND",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23572164/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs) and includes “carcinoid tumors” which is a broader term encompassing many NETs. The patient has a NET. While the study specifically mentions pancreatic NETs, it also includes a cohort for “carcinoid tumors” generally, making it relevant to a small intestinal NET.\n2. Tumor Characteristics: The patient has a G3 NET with a high Ki67 proliferation index (48%). While the study doesn’t explicitly state a grade requirement, G3 NETs are generally considered advanced and would likely be eligible. The patient has metastatic disease (lymph nodes and liver), which aligns with the study’s focus on advanced NETs.\n3. Treatment Context: The patient underwent surgery (hemicolektomy and ileum resection) in 2015. The study requires patients whose disease has progressed after prior therapy. The question posed is \"Weitere Therapie?\" (Further therapy?), indicating the patient is now considering systemic treatment options following surgery. This fits the study’s inclusion criteria of post-progression therapy.\n4. Clinical Eligibility: Assuming the patient is of appropriate age and has acceptable performance status and organ function (which isn’t specified but would need to be confirmed), they would likely meet the basic eligibility criteria.\n5. Therapeutic Rationale: Cabozantinib is a tyrosine kinase inhibitor with demonstrated activity in some NETs. Given the aggressive nature of a G3 NET with liver metastases, exploring targeted therapies like cabozantinib is a reasonable and clinically meaningful next step. The study’s investigation of PFS and OS is directly relevant to the patient’s prognosis.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a metastatic, G3 small intestinal NET, following surgical resection, aligns well with the study’s inclusion criteria for advanced NETs progressing after prior therapy. Cabozantinib represents a potentially beneficial therapeutic option, and participation in this trial could provide access to a novel treatment and contribute to research in this challenging disease. Further assessment of the patient’s performance status, organ function, and detailed treatment history is required to confirm full eligibility, but the initial assessment indicates a high degree of suitability.",
+        "has_posted_results": true,
+        "condition": "Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm",
+        "intervention": "Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging",
+        "url": "https://clinicaltrials.gov/study/NCT03375320",
+        "publications": {
+          "nct_id": "NCT03375320",
+          "study_title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "33152282",
+              "citation": "Kunz PL. Angiogenesis inhibitors in neuroendocrine tumours: finally coming of age. Lancet Oncol. 2020 Nov;21(11):1395-1397. doi: 10.1016/S1470-2045(20)30560-X. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33152282/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00569127",
+        "title": "Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs), specifically \"poor prognosis carcinoid patients.\" While the term \"carcinoid\" is often used interchangeably with NET, the study’s focus on poor prognosis cases makes it relevant. The study doesn’t specify primary tumor site, making it inclusive of the patient’s small bowel NET.\n2. Tumor Characteristics: The patient has a G3 NET with a Ki67 of 48%. This indicates a high-grade, rapidly proliferating tumor, fitting the description of a \"poor prognosis\" carcinoid targeted by the study. The patient has metastatic disease (lymph nodes and liver), aligning with the study’s inclusion of metastatic or locally advanced disease.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection) but is now seeking further therapy. This study investigates treatment options after initial surgery, making it appropriate for the patient’s current situation. There's no mention of prior systemic therapies that would disqualify the patient.\n4. Clinical Eligibility: While specific age and performance status criteria aren’t provided in the study description, it’s reasonable to assume a standard age range and ECOG performance status requirement (likely 0-2) that this patient would likely meet. Standard organ function criteria would need to be confirmed, but are not immediately disqualifying.\n5. Therapeutic Rationale: The study compares octreotide plus bevacizumab versus octreotide plus interferon. Octreotide is a standard treatment for NETs, and the addition of either bevacizumab (anti-VEGF) or interferon (immunomodulatory) represents a potentially beneficial therapeutic strategy for progressive or high-risk disease. Given the high grade and metastatic nature of the patient’s tumor, exploring these options is clinically meaningful.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a high-grade, metastatic small bowel NET aligns perfectly with the study’s target population. The study investigates relevant treatment options following surgical resection, and the interventions are mechanistically plausible and potentially beneficial for a patient with aggressive disease. Participation could be reasonably justified based on the patient’s clinical profile and the need for further systemic therapy.",
+        "has_posted_results": true,
+        "condition": "Colorectal Neuroendocrine Tumor G1; Gastric Neuroendocrine Tumor G1; Neuroendocrine Neoplasm; Neuroendocrine Tumor; Neuroendocrine Tumor G2",
+        "intervention": "Bevacizumab; Laboratory Biomarker Analysis; Octreotide Acetate; Recombinant Interferon Alfa-2b",
+        "url": "https://clinicaltrials.gov/study/NCT00569127",
+        "publications": {
+          "nct_id": "NCT00569127",
+          "study_title": "Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "28384065",
+              "citation": "Yao JC, Guthrie KA, Moran C, Strosberg JR, Kulke MH, Chan JA, LoConte N, McWilliams RR, Wolin EM, Mattar B, McDonough S, Chen H, Blanke CD, Hochster HS. Phase III Prospective Randomized Comparison Trial of Depot Octreotide Plus Interferon Alfa-2b Versus Depot Octreotide Plus Bevacizumab in Patients With Advanced Carcinoid Tumors: SWOG S0518. J Clin Oncol. 2017 May 20;35(15):1695-1703. doi: 10.1200/JCO.2016.70.4072. Epub 2017 Apr 6.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28384065/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00171873",
+        "title": "Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF STUDY: Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut\n1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs) of the midgut. The patient’s primary tumor is located in the ileum, which is a midgut location. This meets the diagnostic criteria.\n2. Tumor Characteristics: The patient has a G3 NET with Ki67 48% and metastatic disease (lymph nodes and liver). While the study description doesn’t explicitly state a grade requirement, G3 NETs are frequently included in studies evaluating therapies for metastatic disease, particularly somatostatin analogs like octreotide. The presence of metastases aligns with the study population (\"Metastasized Neuroendocrine Tumors\").\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection). The question is regarding further therapy. This study evaluating octreotide would be appropriate as an adjuvant or subsequent systemic therapy option following surgery, particularly given the metastatic disease. The study doesn’t mention prior therapies as exclusion criteria in its title/description, suggesting it’s not limited to treatment-refractory patients.\n4. Clinical Eligibility: Assuming standard organ function and a reasonable performance status (not explicitly stated but implied by consideration for further therapy), the patient is likely to meet basic eligibility criteria like age and performance status. These would need to be confirmed in the full study protocol.\n5. Therapeutic Rationale: Octreotide is a somatostatin analog commonly used in the treatment of NETs, particularly those of midgut origin. Its antiproliferative effects are well-documented, and it's a standard of care consideration for patients with metastatic disease. Investigating its effect in this patient population is clinically meaningful and potentially beneficial.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis (midgut NET), tumor characteristics (G3, metastatic), and treatment history (post-surgical resection seeking further therapy) align well with the study’s focus on metastasized midgut NETs and the evaluation of octreotide’s antiproliferative effects. Participation could be reasonably justified as a potential treatment option following surgical resection and in the context of metastatic disease.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumors",
+        "intervention": "Octreotide LAR (Long-acting release); Placebo",
+        "url": "https://clinicaltrials.gov/study/NCT00171873",
+        "publications": {
+          "nct_id": "NCT00171873",
+          "study_title": "Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "19704057",
+              "citation": "Rinke A, Muller HH, Schade-Brittinger C, Klose KJ, Barth P, Wied M, Mayer C, Aminossadati B, Pape UF, Blaker M, Harder J, Arnold C, Gress T, Arnold R; PROMID Study Group. Placebo-controlled, double-blind, prospective, randomized study on the effect of octreotide LAR in the control of tumor growth in patients with metastatic neuroendocrine midgut tumors: a report from the PROMID Study Group. J Clin Oncol. 2009 Oct 1;27(28):4656-63. doi: 10.1200/JCO.2009.22.8510. Epub 2009 Aug 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19704057/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_2_clinical_trials_llm.txt"
+  },
+  {
+    "patient_id": "3",
+    "patient_data": {
+      "ID": 3,
+      "beschreibung": "G2-Case, geringe SSTR Expression",
+      "tumorboard_datum ": 8.2015,
+      "main_diagnosis_text": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 DOTATOC PET: geringe Speicherung der Leberläsionen.\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+      "Fragestellung": "Weitere Therapie, Everolimus oder PRRT?",
+      "Empfehlung": "FDG-PET und Everolimus Therapie starten."
+    },
+    "matches_found": 5,
+    "matches_with_publications": 5,
+    "matches_with_posted_results": 5,
+    "llm_evaluation_method": "google/gemma-3-27b-it:free",
+    "min_relevance_score": 1.0,
+    "matches": [
+      {
+        "nct_id": "NCT01678664",
+        "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets digestive endocrine tumors (NETs), and the patient has a NET of the small intestine (Dünndarm), which falls under this category. The study focuses on liver metastases, which the patient demonstrably has.\n2. Tumor Characteristics: The patient’s tumor is a G2 NET. While the study doesn’t explicitly state a grade restriction, G2 falls within a generally acceptable range for NET studies, and the focus is on metastatic disease rather than primary tumor grade. The patient has liver metastases, aligning directly with the study’s focus. The DOTATOC PET showing low somatostatin receptor expression isn’t directly addressed, but doesn’t disqualify the patient as Everolimus’ mechanism isn’t dependent on receptor status.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection) and is now considering further systemic therapy (Everolimus or PRRT). The study investigates Everolimus after (chemo)embolization. While the patient hasn’t had embolization, the study design allows for Everolimus following initial surgical resection and the presence of liver metastases, making it a relevant consideration for the next line of therapy. The question of Everolimus versus PRRT directly aligns with the study’s investigation of Everolimus’ role.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is likely given recent surgery and consideration for systemic therapy), it’s probable they would meet standard organ function and lab criteria. These will need to be confirmed, but there’s no immediate reason to believe they wouldn’t.\n5. Therapeutic Rationale: Everolimus is a known treatment option for progressive NETs. Investigating its efficacy after embolization (or in this case, potentially after surgical resection and in the presence of metastatic disease) is clinically meaningful. The study addresses a relevant question regarding optimal systemic therapy sequencing for this patient’s disease.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis (small bowel NET with liver metastases), tumor grade (G2), and treatment history (surgery followed by consideration of systemic therapy) align well with the study’s inclusion criteria and therapeutic focus. The study directly addresses the clinical question of whether Everolimus is an appropriate next step in this patient’s treatment plan. Participation could provide valuable data and potentially benefit the patient.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumors; Hepatic Metastases; Metastases",
+        "intervention": "Everolimus; embolization; Doxorubicin",
+        "url": "https://clinicaltrials.gov/study/NCT01678664",
+        "publications": {
+          "nct_id": "NCT01678664",
+          "study_title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "31678771",
+              "citation": "Walter T, Lepage C, Coriat R, Barbier E, Cadiot G, Caroli-Bosc FX, Aparicio T, Bouhier-Leporrier K, Hentic-Dhome O, Gay F, Dupont-Gossart AC, Duluc M, Lepere C, Lecomte T, Smith D, Petorin C, Di-Fiore F, Ghiringhelli F, Legoux JL, Guimbaud R, Baudin E, Lombard-Bohas C, de Baere T; FFCD 1104 investigators/investigators. Everolimus after hepatic arterial embolisation therapy of metastases from gastrointestinal neuroendocrine tumours: The FFCD 1104-EVACEL-GTE phase II study. Eur J Cancer. 2019 Dec;123:92-100. doi: 10.1016/j.ejca.2019.09.021. Epub 2019 Oct 31.",
+              "type": "RESULT",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31678771/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01218555",
+        "title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly includes patients with neuroendocrine cancer, and specifically lists neuroendocrine cancer as part of the expansion cohort. The patient has a neuroendocrine tumor (NET) of the small intestine. 2. Tumor Characteristics: The patient’s tumor is G2, which is within the acceptable range for many NET studies, and this study doesn’t specify a grade restriction. The patient has metastatic disease (liver and lymph node), and the study accepts patients whose cancer is no longer responding to standard treatment, aligning with the metastatic stage. The DOTATOC PET showing low somatostatin receptor expression doesn't preclude participation. 3. Treatment Context: The patient is currently considering Everolimus versus PRRT, indicating a need for further therapy after initial surgery. The study description states it is for patients whose cancer is no longer responding to standard treatment or are unable to tolerate it, making it appropriate for this patient’s situation post-surgery and considering further systemic options. Prior hemicolektomy and ileum resection do not conflict with the study inclusion criteria. 4. Clinical Eligibility: While specific age, performance status, and organ function criteria are not provided in the description, it is reasonable to assume standard eligibility criteria apply, and there is no information to suggest the patient would not meet these. 5. Therapeutic Rationale: Everolimus is a known treatment option for NETs, and investigating its combination with Lenalidomide is a clinically relevant research question. The study aims to identify biomarkers related to response, which could be valuable for future treatment decisions.",
+        "has_posted_results": true,
+        "condition": "Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors",
+        "intervention": "Lenalidomide; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01218555",
+        "publications": {
+          "nct_id": "NCT01218555",
+          "study_title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "32704173",
+              "citation": "Harvey RD, Carthon BC, Lewis C, Hossain MS, Zhang C, Chen Z, Harris WB, Alese OB, Shaib W, Bilen MA, Lawson DH, Wu C, Steuer CE, El-Rayes BF, Khuri FR, Lonial S, Waller EK, Ramalingam SS, Owonikoko TK. Phase 1 safety and pharmacodynamic study of lenalidomide combined with everolimus in patients with advanced solid malignancies with efficacy signal in adenoid cystic carcinoma. Br J Cancer. 2020 Oct;123(8):1228-1234. doi: 10.1038/s41416-020-0988-2. Epub 2020 Jul 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32704173/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01115803",
+        "title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description specifically lists “advanced neuroendocrine tumors” as an eligible population in Arm B. The patient has a metastatic neuroendocrine tumor of the small intestine, fulfilling this criterion. 2. Tumor Characteristics: The patient has a G2 NET with metastatic disease to lymph nodes and the liver. The study doesn’t specify grade restrictions, and the presence of metastatic disease is explicitly included in the study population (\"advanced or metastatic\"). The DOTATOC PET showing low somatostatin receptor expression isn't directly addressed, but doesn't disqualify the patient. 3. Treatment Context: The patient is currently considering Everolimus as a further therapy option. Arm B of the study specifically investigates LY2584702 + Everolimus in advanced NETs. The patient’s prior surgery (hemicolektomy and resection) does not conflict with study inclusion. 4. Clinical Eligibility: While age, performance status, and organ function are not provided, a patient with metastatic NET undergoing consideration for Everolimus is likely to meet standard eligibility criteria for this type of trial (age >18, reasonable performance status, adequate organ function). This would need to be confirmed with full screening. 5. Therapeutic Rationale: LY2584702 is being investigated in combination with Everolimus, a standard treatment for progressive NETs. Investigating novel combinations with existing therapies is a clinically meaningful approach to improve outcomes in this patient population.",
+        "has_posted_results": true,
+        "condition": "Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors",
+        "intervention": "LY2584702; Erlotinib; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01115803",
+        "publications": {
+          "nct_id": "NCT01115803",
+          "study_title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "24456794",
+              "citation": "Hollebecque A, Houede N, Cohen EE, Massard C, Italiano A, Westwood P, Bumgardner W, Miller J, Brail LH, Benhadji KA, Soria JC. A phase Ib trial of LY2584702 tosylate, a p70 S6 inhibitor, in combination with erlotinib or everolimus in patients with solid tumours. Eur J Cancer. 2014 Mar;50(5):876-84. doi: 10.1016/j.ejca.2013.12.006. Epub 2014 Jan 20.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24456794/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00510068",
+        "title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs). While the study doesn’t specify the primary tumor site, studies of advanced NETs often include small bowel NETs, and this study is evaluating Everolimus in that context. This aligns with the patient’s diagnosis of a small intestinal NET.\n2. Tumor Characteristics: The patient’s tumor is a G2 NET. Everolimus trials often include G1-G2 NETs. The patient has metastatic disease (lymph nodes and liver), indicating advanced disease, which is the target population for this study. The DOTATOC PET showing low somatostatin receptor expression doesn’t exclude the patient from an Everolimus trial, as Everolimus’ mechanism of action is independent of somatostatin receptor status.\n3. Treatment Context: The patient has undergone surgical resection (hemicolektomie and ileum resection). The question is whether to proceed with Everolimus or PRRT. This study comparing Everolimus to placebo is appropriate for evaluating a potential systemic therapy after surgery, addressing the question of further treatment. The patient’s prior surgery does not disqualify them.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is likely given they are being considered for further systemic therapy), it is probable they would meet standard organ function and lab criteria. These would need to be confirmed, but there’s no immediate reason to believe they wouldn’t.\n5. Therapeutic Rationale: Everolimus is a known therapeutic option for advanced NETs, particularly those that are not highly somatostatin receptor positive. Given the low somatostatin receptor expression on the DOTATOC PET, Everolimus is a clinically rational consideration. This study directly addresses the question of Everolimus’ efficacy compared to placebo, which is precisely the clinical dilemma facing the patient.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a G2 small bowel NET with metastatic disease aligns with the study population. The question of whether to use Everolimus is directly addressed by the study design, and the patient’s prior surgical treatment and DOTATOC PET results do not preclude participation. The study offers a clinically meaningful opportunity to evaluate a potentially beneficial therapy.",
+        "has_posted_results": true,
+        "condition": "Advanced Neuroendocrine Tumors of Pancreatic Origin",
+        "intervention": "Everolimus; Everolimus Placebo",
+        "url": "https://clinicaltrials.gov/study/NCT00510068",
+        "publications": {
+          "nct_id": "NCT00510068",
+          "study_title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+          "publications_found": 5,
+          "publications": [
+            {
+              "pmid": "33560090",
+              "citation": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/"
+            },
+            {
+              "pmid": "28113028",
+              "citation": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-1489. doi: 10.1200/JCO.2017.71.3875. Epub 2017 Jan 23. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28113028/"
+            },
+            {
+              "pmid": "27621394",
+              "citation": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries EGE, Tomassetti P, Hobday T, Pommier R, Oberg K. Everolimus for the Treatment of Advanced Pancreatic Neuroendocrine Tumors: Overall Survival and Circulating Biomarkers From the Randomized, Phase III RADIANT-3 Study. J Clin Oncol. 2016 Nov 10;34(32):3906-3913. doi: 10.1200/JCO.2016.68.0702. Epub 2016 Sep 30.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27621394/"
+            },
+            {
+              "pmid": "25479584",
+              "citation": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH, Capdevila J, Pommier R. Impact of prior chemotherapy use on the efficacy of everolimus in patients with advanced pancreatic neuroendocrine tumors: a subgroup analysis of the phase III RADIANT-3 trial. Pancreas. 2015 Mar;44(2):181-9. doi: 10.1097/MPA.0000000000000262.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25479584/"
+            },
+            {
+              "pmid": "21306238",
+              "citation": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vries EG, Tomassetti P, Pavel ME, Hoosen S, Haas T, Lincy J, Lebwohl D, Oberg K; RAD001 in Advanced Neuroendocrine Tumors, Third Trial (RADIANT-3) Study Group. Everolimus for advanced pancreatic neuroendocrine tumors. N Engl J Med. 2011 Feb 10;364(6):514-23. doi: 10.1056/NEJMoa1009290.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21306238/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01024387",
+        "title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs) and includes a cohort specifically for “carcinoid tumors,” which encompasses small intestinal NETs like this patient’s. The study acknowledges the distinction between pancreatic and gastrointestinal NETs, demonstrating awareness of the relevant subtypes. 2. Tumor Characteristics: The patient has a G2 small intestinal NET with regional lymph node and liver metastases. While the study doesn’t specify grade requirements, G2 falls within a clinically relevant and acceptable range for NET studies. The presence of metastatic disease is compatible with a study focused on advanced NETs. The DOTATOC PET showing low somatostatin receptor expression isn't directly addressed, but doesn't disqualify the patient. 3. Treatment Context: The patient is currently considering Everolimus or PRRT following surgical resection. This study evaluating AMG 479 would be a potential alternative or subsequent therapy option, fitting within the context of exploring further treatment strategies for advanced disease. The study description doesn’t mention specific prior therapy exclusions that would immediately disqualify the patient post-surgery. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has an acceptable performance status (ECOG 0-2 is typical), it’s likely they would meet standard organ function and lab criteria. These details would need confirmation, but there’s no immediate reason to believe they wouldn’t qualify. 5. Therapeutic Rationale: AMG 479 represents a potentially novel therapeutic approach for NETs. Evaluating alternative therapies like AMG 479 is clinically meaningful when considering options beyond standard treatments like Everolimus or PRRT, especially in the context of advanced disease.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor",
+        "intervention": "AMG 479",
+        "url": "https://clinicaltrials.gov/study/NCT01024387",
+        "publications": {
+          "nct_id": "NCT01024387",
+          "study_title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "23572164",
+              "citation": "Strosberg JR, Chan JA, Ryan DP, Meyerhardt JA, Fuchs CS, Abrams T, Regan E, Brady R, Weber J, Campos T, Kvols LK, Kulke MH. A multi-institutional, phase II open-label study of ganitumab (AMG 479) in advanced carcinoid and pancreatic neuroendocrine tumors. Endocr Relat Cancer. 2013 May 21;20(3):383-90. doi: 10.1530/ERC-12-0390. Print 2013 Jun.",
+              "type": "BACKGROUND",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23572164/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_3_clinical_trials_llm.txt"
+  },
+  {
+    "patient_id": "4",
+    "patient_data": {
+      "ID": 4,
+      "beschreibung": "P-NET G2-Case, Compete Trial analog",
+      "tumorboard_datum ": 8.2016,
+      "main_diagnosis_text": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n08/2015 Start Somatuline\n06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.",
+      "Fragestellung": "Weitere Therapie, Everolimus oder PRRT?",
+      "Empfehlung": "PRRT starten."
+    },
+    "matches_found": 6,
+    "matches_with_publications": 6,
+    "matches_with_posted_results": 6,
+    "llm_evaluation_method": "google/gemma-3-27b-it:free",
+    "min_relevance_score": 1.0,
+    "matches": [
+      {
+        "nct_id": "NCT01678664",
+        "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets digestive endocrine tumors (NETs), and the patient has a pancreatic NET. The study focuses on liver metastases, which the patient demonstrably has. This meets the mandatory criteria.\n2. Tumor Characteristics: The patient has a G2 pancreatic NET with liver metastases. While the study doesn’t explicitly state G2, it includes “digestive endocrine tumors” which encompasses a range of grades. The presence of liver metastases is a core inclusion criterion for this study. The patient’s disease extent (primary tumor, regional lymph nodes, liver metastases) is directly relevant. Functional status isn’t specified in the study description, and isn’t a disqualifier given the focus on liver metastases.\n3. Treatment Context: The patient is currently on Somatuline and has progressed on this therapy (demonstrated by DOTATOC PET). The study investigates Everolimus after (chemo)embolization. The patient hasn’t had embolization yet, but this study could be considered after embolization is performed, making it a logical next step in treatment. This fits within a later line of therapy for progressive disease. Prior Somatuline does not disqualify the patient.\n4. Clinical Eligibility: Assuming standard organ function and performance status (which would need to be confirmed), the patient is likely to meet basic eligibility criteria such as age and performance status (ECOG not specified, but assumed reasonable given current treatment).\n5. Therapeutic Rationale: Everolimus is a known therapeutic option for progressive NETs, and the study investigates its use in combination with prior embolization for liver metastases. Given the patient’s progression on Somatuline and the question of whether to pursue Everolimus or PRRT, this study directly addresses a relevant clinical decision. The mechanistic rationale for Everolimus in NETs is well-established.\nConclusion: This study is a strong candidate for the patient. The patient’s diagnosis (pancreatic NET with liver metastases), tumor grade (G2), and treatment history (progression on Somatuline) align well with the study’s inclusion criteria. The study investigates a clinically relevant therapeutic option (Everolimus) in the context of progressive liver metastatic disease, and participation could provide valuable information regarding optimal treatment sequencing. The study’s design – evaluating Everolimus after embolization – allows for a logical progression of care for this patient.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumors; Hepatic Metastases; Metastases",
+        "intervention": "Everolimus; embolization; Doxorubicin",
+        "url": "https://clinicaltrials.gov/study/NCT01678664",
+        "publications": {
+          "nct_id": "NCT01678664",
+          "study_title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "31678771",
+              "citation": "Walter T, Lepage C, Coriat R, Barbier E, Cadiot G, Caroli-Bosc FX, Aparicio T, Bouhier-Leporrier K, Hentic-Dhome O, Gay F, Dupont-Gossart AC, Duluc M, Lepere C, Lecomte T, Smith D, Petorin C, Di-Fiore F, Ghiringhelli F, Legoux JL, Guimbaud R, Baudin E, Lombard-Bohas C, de Baere T; FFCD 1104 investigators/investigators. Everolimus after hepatic arterial embolisation therapy of metastases from gastrointestinal neuroendocrine tumours: The FFCD 1104-EVACEL-GTE phase II study. Eur J Cancer. 2019 Dec;123:92-100. doi: 10.1016/j.ejca.2019.09.021. Epub 2019 Oct 31.",
+              "type": "RESULT",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31678771/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01218555",
+        "title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly includes patients with neuroendocrine cancer, and specifically lists neuroendocrine cancer alongside adenoidcystic carcinoma and kidney cancer in the expansion cohort. The patient has a pancreatic NET, which falls under the umbrella of NETs. 2. Tumor Characteristics: The patient has a G2 NET. While the study doesn’t explicitly state grade requirements, G2 is a common and acceptable grade for NET studies. The patient has metastatic disease (liver and lymph node), and the study targets patients whose cancer is no longer responding to standard treatment, which aligns with progressive metastatic disease. 3. Treatment Context: The patient is currently on Somatuline and has demonstrated progression on this therapy (as evidenced by the DOTATOC PET scan). This indicates a need for further therapy, making them a candidate for a study evaluating alternative treatments like Everolimus. The study description focuses on patients whose cancer is no longer responding to standard treatment, fitting the patient’s situation. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has acceptable performance status and organ function (which isn’t detailed in the provided information but would need to be confirmed), they would likely meet the basic eligibility criteria. 5. Therapeutic Rationale: Everolimus is a known therapeutic option for progressive NETs, particularly in the context of resistance to somatostatin analogs. The study’s investigation of Everolimus in combination with Lenalidomide is a clinically relevant question, potentially offering a new treatment approach for this patient. The question of Everolimus versus PRRT is directly addressed by evaluating Everolimus in this trial.",
+        "has_posted_results": true,
+        "condition": "Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors",
+        "intervention": "Lenalidomide; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01218555",
+        "publications": {
+          "nct_id": "NCT01218555",
+          "study_title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "32704173",
+              "citation": "Harvey RD, Carthon BC, Lewis C, Hossain MS, Zhang C, Chen Z, Harris WB, Alese OB, Shaib W, Bilen MA, Lawson DH, Wu C, Steuer CE, El-Rayes BF, Khuri FR, Lonial S, Waller EK, Ramalingam SS, Owonikoko TK. Phase 1 safety and pharmacodynamic study of lenalidomide combined with everolimus in patients with advanced solid malignancies with efficacy signal in adenoid cystic carcinoma. Br J Cancer. 2020 Oct;123(8):1228-1234. doi: 10.1038/s41416-020-0988-2. Epub 2020 Jul 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32704173/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01115803",
+        "title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description explicitly includes “advanced neuroendocrine tumors” in Arm B, making it directly relevant to the patient’s diagnosis of a pancreatic NET with metastatic disease. 2. Tumor Characteristics: The patient has a G2 pancreatic NET with liver metastases. While the study doesn’t specify grade, it doesn’t exclude G2 tumors either. The presence of metastatic disease aligns with the “advanced” criteria in the study description. 3. Treatment Context: The patient is currently on Somatuline and has progressed on it (demonstrated by DOTATOC PET). This suggests a need for further systemic therapy, making them a candidate for a study evaluating Everolimus (specifically mentioned in Arm B). The study allows for patients with advanced NETs, fitting the patient’s current situation. 4. Clinical Eligibility: Assuming the patient meets standard age, performance status, and organ function criteria (which are not provided but would need to be confirmed), there are no immediate red flags regarding basic eligibility. 5. Therapeutic Rationale: The patient’s question is whether to pursue Everolimus or PRRT. This study directly investigates Everolimus in combination with LY2584702, providing a potentially valuable treatment option and addressing the clinical question.",
+        "has_posted_results": true,
+        "condition": "Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors",
+        "intervention": "LY2584702; Erlotinib; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01115803",
+        "publications": {
+          "nct_id": "NCT01115803",
+          "study_title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "24456794",
+              "citation": "Hollebecque A, Houede N, Cohen EE, Massard C, Italiano A, Westwood P, Bumgardner W, Miller J, Brail LH, Benhadji KA, Soria JC. A phase Ib trial of LY2584702 tosylate, a p70 S6 inhibitor, in combination with erlotinib or everolimus in patients with solid tumours. Eur J Cancer. 2014 Mar;50(5):876-84. doi: 10.1016/j.ejca.2013.12.006. Epub 2014 Jan 20.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24456794/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00510068",
+        "title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs). While the study doesn’t specifically list pancreatic NETs, it includes “advanced neuroendocrine tumors” which encompasses this diagnosis. This meets the mandatory criteria.\n2. Tumor Characteristics: The patient has a Grade 2 pancreatic NET with lymph node and liver metastases. The study description doesn’t specify a grade restriction, only “advanced” NETs, which aligns with metastatic disease. The presence of liver metastases confirms advanced stage, compatible with the study population. Functional status isn’t specified in either the patient profile or study description, making this a neutral point.\n3. Treatment Context: The patient is currently on Somatuline and has demonstrated progression on this therapy (confirmed by DOTATOC PET). The question being asked is whether to proceed with Everolimus or PRRT, indicating a need for second-line or later therapy. The study evaluating Everolimus versus placebo is therefore relevant in this context, as it investigates a potential alternative treatment option after disease progression. There’s no indication of prior therapies that would disqualify the patient.\n4. Clinical Eligibility: Assuming standard organ function (not explicitly stated but typical for a patient on Somatuline), the patient is likely to meet age and performance status requirements (these are not provided in the patient profile, but are standard eligibility criteria). Further investigation would be needed to confirm specific lab values.\n5. Therapeutic Rationale: Everolimus is a mTOR inhibitor and a recognized treatment option for progressive NETs, particularly after failure of somatostatin analogs. Evaluating Everolimus versus placebo is clinically meaningful in determining its efficacy in this patient’s situation, directly addressing the clinical question of whether to pursue this therapy.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of advanced pancreatic NET, progression on somatostatin analog therapy, and the study’s focus on evaluating Everolimus as a potential treatment option create a clear clinical fit. Participation in this study could provide valuable information to guide treatment decisions and potentially benefit the patient. The study directly addresses the clinical question posed regarding Everolimus as a next therapeutic step.",
+        "has_posted_results": true,
+        "condition": "Advanced Neuroendocrine Tumors of Pancreatic Origin",
+        "intervention": "Everolimus; Everolimus Placebo",
+        "url": "https://clinicaltrials.gov/study/NCT00510068",
+        "publications": {
+          "nct_id": "NCT00510068",
+          "study_title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+          "publications_found": 5,
+          "publications": [
+            {
+              "pmid": "33560090",
+              "citation": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/"
+            },
+            {
+              "pmid": "28113028",
+              "citation": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-1489. doi: 10.1200/JCO.2017.71.3875. Epub 2017 Jan 23. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28113028/"
+            },
+            {
+              "pmid": "27621394",
+              "citation": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries EGE, Tomassetti P, Hobday T, Pommier R, Oberg K. Everolimus for the Treatment of Advanced Pancreatic Neuroendocrine Tumors: Overall Survival and Circulating Biomarkers From the Randomized, Phase III RADIANT-3 Study. J Clin Oncol. 2016 Nov 10;34(32):3906-3913. doi: 10.1200/JCO.2016.68.0702. Epub 2016 Sep 30.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27621394/"
+            },
+            {
+              "pmid": "25479584",
+              "citation": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH, Capdevila J, Pommier R. Impact of prior chemotherapy use on the efficacy of everolimus in patients with advanced pancreatic neuroendocrine tumors: a subgroup analysis of the phase III RADIANT-3 trial. Pancreas. 2015 Mar;44(2):181-9. doi: 10.1097/MPA.0000000000000262.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25479584/"
+            },
+            {
+              "pmid": "21306238",
+              "citation": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vries EG, Tomassetti P, Pavel ME, Hoosen S, Haas T, Lincy J, Lebwohl D, Oberg K; RAD001 in Advanced Neuroendocrine Tumors, Third Trial (RADIANT-3) Study Group. Everolimus for advanced pancreatic neuroendocrine tumors. N Engl J Med. 2011 Feb 10;364(6):514-23. doi: 10.1056/NEJMoa1009290.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21306238/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01024387",
+        "title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets pancreatic neuroendocrine tumors (NETs), which is the patient’s primary diagnosis. The study design includes a specific cohort for pancreatic NETs, demonstrating clear relevance. 2. Tumor Characteristics: The patient has a G2 pancreatic NET. The study doesn’t specify a grade restriction, making it compatible. The patient has metastatic disease (liver and potentially lymph node), which is consistent with an “advanced” tumor status as indicated in the study title. 3. Treatment Context: The patient is currently on Somatuline and is considering Everolimus or PRRT, indicating progression despite initial treatment. The study description doesn’t specify a line of therapy restriction, suggesting it’s suitable for patients with progressing disease. Prior Somatuline does not appear to be a disqualifying factor. 4. Clinical Eligibility: While age, performance status, and organ function are not provided, there’s no information to suggest the patient would not meet standard eligibility criteria. These would need to be confirmed during full screening. 5. Therapeutic Rationale: AMG 479 is a novel agent being investigated in NETs. Exploring alternative therapies like AMG 479 is clinically meaningful for a patient with progressing disease despite Somatuline, particularly when considering options like Everolimus or PRRT.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor",
+        "intervention": "AMG 479",
+        "url": "https://clinicaltrials.gov/study/NCT01024387",
+        "publications": {
+          "nct_id": "NCT01024387",
+          "study_title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "23572164",
+              "citation": "Strosberg JR, Chan JA, Ryan DP, Meyerhardt JA, Fuchs CS, Abrams T, Regan E, Brady R, Weber J, Campos T, Kvols LK, Kulke MH. A multi-institutional, phase II open-label study of ganitumab (AMG 479) in advanced carcinoid and pancreatic neuroendocrine tumors. Endocr Relat Cancer. 2013 May 21;20(3):383-90. doi: 10.1530/ERC-12-0390. Print 2013 Jun.",
+              "type": "BACKGROUND",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23572164/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF CABOZANTINIB STUDY\n1. Diagnostic Relevance: The study explicitly targets advanced pancreatic neuroendocrine tumors (NET), which directly matches the patient’s diagnosis of a pancreatic NET. The inclusion of “carcinoid tumors” alongside pancreatic NETs doesn’t detract from the relevance, as pancreatic NETs are often considered within the broader NET/carcinoid spectrum.\n2. Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. The study doesn’t specify a grade restriction, focusing on advanced disease, which the patient clearly has with metastatic spread. The presence of liver metastases aligns with the study’s inclusion criteria of progressed disease.\n3. Treatment Context: The patient started Somatuline in 2015 and has demonstrated progression on DOTATOC PET in 2016. This indicates disease progression after prior therapy (Somatuline), fulfilling a key inclusion criterion. The study is designed for patients whose disease has progressed after prior therapy. The question of Everolimus vs. PRRT suggests the patient is now considering second-line options, making this study appropriate.\n4. Clinical Eligibility: While specific age, performance status, and organ function criteria aren’t provided in the description, the study design suggests standard eligibility requirements. Assuming the patient meets these (which would need to be confirmed during full screening), there’s no immediate reason to believe the patient would be excluded on these grounds.\n5. Therapeutic Rationale: Cabozantinib is a tyrosine kinase inhibitor with potential activity in NETs, particularly those refractory to somatostatin analogs. Given the patient’s progression on Somatuline, exploring alternative systemic therapies like Cabozantinib is a clinically rational next step. The study directly addresses the question of improving PFS and OS in this setting.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis, tumor stage, and prior treatment history align perfectly with the study’s inclusion criteria. Cabozantinib represents a potentially beneficial therapeutic option for a patient with progressive pancreatic NET after Somatuline failure, and this study offers a controlled environment to evaluate its efficacy and safety. Participation is clinically justified and could provide valuable data for treatment decision-making.",
+        "has_posted_results": true,
+        "condition": "Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm",
+        "intervention": "Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging",
+        "url": "https://clinicaltrials.gov/study/NCT03375320",
+        "publications": {
+          "nct_id": "NCT03375320",
+          "study_title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "33152282",
+              "citation": "Kunz PL. Angiogenesis inhibitors in neuroendocrine tumours: finally coming of age. Lancet Oncol. 2020 Nov;21(11):1395-1397. doi: 10.1016/S1470-2045(20)30560-X. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33152282/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_4_clinical_trials_llm.txt"
+  },
+  {
+    "patient_id": "5",
+    "patient_data": {
+      "ID": 5,
+      "beschreibung": "P-NET G2-Case Initial",
+      "tumorboard_datum ": 6.2015,
+      "main_diagnosis_text": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n06/2015 DOTATOC PET: starke Speicherung der Läsionen.",
+      "Fragestellung": "Weitere Therapie, Somatuline oder PRRT?",
+      "Empfehlung": "PRRT starten."
+    },
+    "matches_found": 6,
+    "matches_with_publications": 6,
+    "matches_with_posted_results": 6,
+    "llm_evaluation_method": "google/gemma-3-27b-it:free",
+    "min_relevance_score": 1.0,
+    "matches": [
+      {
+        "nct_id": "NCT01218555",
+        "title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description explicitly includes “neuroendocrine cancer” within the expansion cohort, directly addressing the patient’s diagnosis of a pancreatic NET. 2. Tumor Characteristics: The patient has a G2 pancreatic NET with evidence of regional lymph node and liver metastases. While the study doesn’t specify grade, the inclusion of NETs generally allows for a range of grades, and G2 is a common inclusion criterion in NET trials. The metastatic disease is compatible with the study’s focus on patients whose cancer is no longer responding to standard treatment. 3. Treatment Context: The patient is currently considering further therapy options (Somatuline or PRRT), indicating a need for additional treatment beyond initial approaches. The study targets patients whose cancer is no longer responding to standard treatment or who are unable to tolerate it, aligning with this context. Prior DOTATOC PET suggests prior somatostatin analogue treatment is possible, but doesn’t automatically exclude the patient. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has acceptable performance status and organ function (which would need to be confirmed), there are no immediately apparent reasons to believe they would be ineligible based on basic requirements. 5. Therapeutic Rationale: Everolimus and lenalidomide represent a novel combination potentially beneficial in progressive NETs. Exploring alternative therapies beyond somatostatin analogues and PRRT is clinically relevant for this patient, particularly given the metastatic disease.",
+        "has_posted_results": true,
+        "condition": "Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors",
+        "intervention": "Lenalidomide; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01218555",
+        "publications": {
+          "nct_id": "NCT01218555",
+          "study_title": "Study of Everolimus (RAD001) in Combination With Lenalidomide",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "32704173",
+              "citation": "Harvey RD, Carthon BC, Lewis C, Hossain MS, Zhang C, Chen Z, Harris WB, Alese OB, Shaib W, Bilen MA, Lawson DH, Wu C, Steuer CE, El-Rayes BF, Khuri FR, Lonial S, Waller EK, Ramalingam SS, Owonikoko TK. Phase 1 safety and pharmacodynamic study of lenalidomide combined with everolimus in patients with advanced solid malignancies with efficacy signal in adenoid cystic carcinoma. Br J Cancer. 2020 Oct;123(8):1228-1234. doi: 10.1038/s41416-020-0988-2. Epub 2020 Jul 24.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32704173/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01115803",
+        "title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study description specifically lists “advanced neuroendocrine tumors” as an eligible population in Arm B. This directly addresses the patient’s diagnosis of a pancreatic NET with metastatic disease. 2. Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases – representing advanced/metastatic disease. The study doesn’t specify grade restrictions within the NET population, making this a compatible match. The DOTATOC PET scan indicates somatostatin receptor positivity, which, while not directly addressed in the study description, doesn’t disqualify the patient. 3. Treatment Context: The patient is currently considering further therapy (Somatuline or PRRT), suggesting they haven’t yet exhausted standard treatment options. The study allows for patients with advanced NETs, fitting this context. Prior therapies aren’t explicitly mentioned as exclusionary in the provided description. 4. Clinical Eligibility: Assuming the patient meets standard age, performance status, and organ function criteria (which cannot be definitively determined from the provided information but is a reasonable assumption for consideration), they would likely be eligible. 5. Therapeutic Rationale: LY2584702 combined with Everolimus represents a potentially relevant therapeutic approach for advanced NETs. Everolimus is an mTOR inhibitor, a class of drugs used in NET treatment, and combining it with LY2584702 could offer a novel treatment strategy.",
+        "has_posted_results": true,
+        "condition": "Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors",
+        "intervention": "LY2584702; Erlotinib; Everolimus",
+        "url": "https://clinicaltrials.gov/study/NCT01115803",
+        "publications": {
+          "nct_id": "NCT01115803",
+          "study_title": "A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "24456794",
+              "citation": "Hollebecque A, Houede N, Cohen EE, Massard C, Italiano A, Westwood P, Bumgardner W, Miller J, Brail LH, Benhadji KA, Soria JC. A phase Ib trial of LY2584702 tosylate, a p70 S6 inhibitor, in combination with erlotinib or everolimus in patients with solid tumours. Eur J Cancer. 2014 Mar;50(5):876-84. doi: 10.1016/j.ejca.2013.12.006. Epub 2014 Jan 20.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24456794/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00510068",
+        "title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "EVALUATION OF: Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors\n1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs). While the study doesn’t specify pancreatic NETs, it includes “advanced neuroendocrine tumors” generally, making it relevant to this patient’s diagnosis of a pancreatic NET with metastases.\n2. Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. Advanced NETs are the target population for this study. The grade (G2) is directly applicable. The presence of metastases indicates advanced disease, aligning with the study’s inclusion criteria. The DOTATOC PET showing strong somatostatin receptor expression doesn’t exclude the patient, and may even be relevant as a potential biomarker for response (though not a direct inclusion criterion).\n3. Treatment Context: The patient is currently considering further therapy – Somatuline or PRRT. This suggests they haven’t yet exhausted standard treatment options. Everolimus is often considered after or alongside somatostatin analogs, making this a potentially appropriate next step. The study description doesn’t mention specific prior therapies that would automatically exclude the patient.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (ECOG 0-2 is typical for these studies), it’s likely they would meet the basic eligibility criteria. Organ function and lab criteria would need to be confirmed, but are not immediately disqualifying.\n5. Therapeutic Rationale: Everolimus is an mTOR inhibitor, a targeted therapy used in the treatment of advanced NETs. It represents a clinically meaningful intervention for this patient, particularly given the advanced stage of disease and the consideration of alternative therapies to somatostatin analogs or PRRT.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of a G2 pancreatic NET with liver and lymph node metastases falls squarely within the target population for this trial evaluating Everolimus. The treatment context is appropriate, and the intervention is a clinically relevant option for advanced NETs. Further review of the full study protocol is necessary to confirm complete eligibility, but based on the provided information, this study warrants serious consideration.",
+        "has_posted_results": true,
+        "condition": "Advanced Neuroendocrine Tumors of Pancreatic Origin",
+        "intervention": "Everolimus; Everolimus Placebo",
+        "url": "https://clinicaltrials.gov/study/NCT00510068",
+        "publications": {
+          "nct_id": "NCT00510068",
+          "study_title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+          "publications_found": 5,
+          "publications": [
+            {
+              "pmid": "33560090",
+              "citation": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/"
+            },
+            {
+              "pmid": "28113028",
+              "citation": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-1489. doi: 10.1200/JCO.2017.71.3875. Epub 2017 Jan 23. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28113028/"
+            },
+            {
+              "pmid": "27621394",
+              "citation": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries EGE, Tomassetti P, Hobday T, Pommier R, Oberg K. Everolimus for the Treatment of Advanced Pancreatic Neuroendocrine Tumors: Overall Survival and Circulating Biomarkers From the Randomized, Phase III RADIANT-3 Study. J Clin Oncol. 2016 Nov 10;34(32):3906-3913. doi: 10.1200/JCO.2016.68.0702. Epub 2016 Sep 30.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27621394/"
+            },
+            {
+              "pmid": "25479584",
+              "citation": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH, Capdevila J, Pommier R. Impact of prior chemotherapy use on the efficacy of everolimus in patients with advanced pancreatic neuroendocrine tumors: a subgroup analysis of the phase III RADIANT-3 trial. Pancreas. 2015 Mar;44(2):181-9. doi: 10.1097/MPA.0000000000000262.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25479584/"
+            },
+            {
+              "pmid": "21306238",
+              "citation": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vries EG, Tomassetti P, Pavel ME, Hoosen S, Haas T, Lincy J, Lebwohl D, Oberg K; RAD001 in Advanced Neuroendocrine Tumors, Third Trial (RADIANT-3) Study Group. Everolimus for advanced pancreatic neuroendocrine tumors. N Engl J Med. 2011 Feb 10;364(6):514-23. doi: 10.1056/NEJMoa1009290.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21306238/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT01024387",
+        "title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets pancreatic neuroendocrine tumors (NETs), which is the patient’s primary diagnosis. The study design includes a specific cohort for pancreatic NETs, demonstrating clear relevance. 2. Tumor Characteristics: The patient has a G2 pancreatic NET. The study doesn’t specify a grade restriction, therefore G2 is acceptable. The patient has metastatic disease (lymph nodes and liver), which is consistent with an “advanced” tumor status as indicated in the study description. The DOTATOC PET scan indicates somatostatin receptor positivity, which, while not directly addressed in the study description, doesn’t preclude participation. 3. Treatment Context: The patient is seeking further therapy options (Somatuline or PRRT), suggesting they have likely progressed or are considering alternatives to current standard of care. The study description doesn’t specify a line of therapy restriction, making it potentially suitable for a patient exploring further treatment options. Prior therapies aren’t mentioned as exclusionary criteria in the provided description. 4. Clinical Eligibility: Assuming the patient is within the study’s age range and has an acceptable performance status (ECOG 0-2 is typical for these studies), and assuming standard organ function, there are no immediately apparent reasons to believe the patient would be ineligible based on basic requirements. 5. Therapeutic Rationale: AMG 479 is a novel agent being investigated for NETs. Exploring new therapeutic options is clinically meaningful for a patient with advanced pancreatic NETs, particularly when considering alternatives to somatostatin analogs or PRRT.",
+        "has_posted_results": true,
+        "condition": "Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor",
+        "intervention": "AMG 479",
+        "url": "https://clinicaltrials.gov/study/NCT01024387",
+        "publications": {
+          "nct_id": "NCT01024387",
+          "study_title": "AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "23572164",
+              "citation": "Strosberg JR, Chan JA, Ryan DP, Meyerhardt JA, Fuchs CS, Abrams T, Regan E, Brady R, Weber J, Campos T, Kvols LK, Kulke MH. A multi-institutional, phase II open-label study of ganitumab (AMG 479) in advanced carcinoid and pancreatic neuroendocrine tumors. Endocr Relat Cancer. 2013 May 21;20(3):383-90. doi: 10.1530/ERC-12-0390. Print 2013 Jun.",
+              "type": "BACKGROUND",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23572164/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets pancreatic neuroendocrine tumors (NETs), which is the patient’s primary diagnosis. The study also includes carcinoid tumors, but the primary focus on pancreatic NETs is directly relevant.\n2. Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. The study specifically includes advanced pancreatic NETs, and does not specify a grade restriction, making a G2 tumor eligible. The presence of metastases indicates advanced disease, aligning with the study population. The DOTATOC PET scan indicates somatostatin receptor positivity, which while not directly addressed in the study, doesn’t disqualify the patient.\n3. Treatment Context: The patient is seeking further therapy options after initial diagnosis in 2015. The study requires patients whose disease has progressed after prior therapy. While the specifics of prior therapy aren't detailed, the question of \"Somatuline or PRRT?\" suggests the patient has likely already received some form of treatment, making them potentially eligible for a second-line therapy like cabozantinib.\n4. Clinical Eligibility: Assuming the patient is within the study’s age range and has a reasonable performance status (which is standard for patients being considered for further therapy), it is likely they would meet the basic eligibility criteria. Organ function and lab criteria would need to be confirmed during screening, but there's no immediate reason to believe they would be disqualifying.\n5. Therapeutic Rationale: Cabozantinib is a tyrosine kinase inhibitor that has shown activity in other advanced cancers and is being investigated for its potential to overcome resistance to somatostatin analogs and PRRT in NETs. Given the patient is considering options beyond somatuline/PRRT, exploring a different mechanism of action is clinically rational.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis of advanced pancreatic NET, the potential for progression after prior therapy, and the rationale for exploring a novel targeted therapy all align with the study’s objectives and inclusion criteria. Further assessment of prior treatment history and current performance status is needed, but based on the information provided, this study warrants serious consideration.",
+        "has_posted_results": true,
+        "condition": "Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm",
+        "intervention": "Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging",
+        "url": "https://clinicaltrials.gov/study/NCT03375320",
+        "publications": {
+          "nct_id": "NCT03375320",
+          "study_title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "33152282",
+              "citation": "Kunz PL. Angiogenesis inhibitors in neuroendocrine tumours: finally coming of age. Lancet Oncol. 2020 Nov;21(11):1395-1397. doi: 10.1016/S1470-2045(20)30560-X. No abstract available.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33152282/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      },
+      {
+        "nct_id": "NCT00569127",
+        "title": "Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs), specifically \"poor prognosis carcinoid patients.\" While the patient has a pancreatic NET, the study doesn't exclude pancreatic primaries. The strong somatostatin receptor expression (DOTATOC PET) suggests a well-differentiated NET, aligning with the typical patient population studied in carcinoid trials.\n2. Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. The study focuses on \"poor prognosis\" NETs, which metastatic disease clearly falls into. G2 is a compatible grade. The study doesn't specify functional status, so this isn't a disqualifier.\n3. Treatment Context: The patient is currently considering Somatuline or PRRT, indicating they haven't yet had definitive systemic therapy beyond potential initial stabilization. This study compares octreotide (a somatostatin analog like Somatuline) with either interferon or bevacizumab. Therefore, it represents a relevant next-line treatment option instead of PRRT, addressing the clinical question of which systemic therapy to pursue. Prior therapies aren't mentioned as disqualifying in the description.\n4. Clinical Eligibility: The study description doesn't provide age range or performance status criteria, but these are generally standard and likely to be met by this patient. Organ function and lab criteria would need to be confirmed, but are not immediately disqualifying based on the provided information.\n5. Therapeutic Rationale: The study investigates combinations with octreotide, a standard treatment for somatostatin receptor-positive NETs. Comparing octreotide plus bevacizumab versus octreotide plus interferon is a clinically meaningful question, potentially guiding treatment decisions for patients like this one who are considering somatostatin analog therapy. The study also investigates biomarkers (VEGF, SRS/CT) which could inform future treatment strategies.\nConclusion: This study is a strong candidate for this patient. The patient’s diagnosis (pancreatic NET with metastases), grade (G2), and treatment context (considering somatostatin analog therapy) align well with the study’s inclusion criteria. The study addresses a relevant clinical question regarding optimal systemic therapy for progressive disease and could provide valuable information for treatment planning.",
+        "has_posted_results": true,
+        "condition": "Colorectal Neuroendocrine Tumor G1; Gastric Neuroendocrine Tumor G1; Neuroendocrine Neoplasm; Neuroendocrine Tumor; Neuroendocrine Tumor G2",
+        "intervention": "Bevacizumab; Laboratory Biomarker Analysis; Octreotide Acetate; Recombinant Interferon Alfa-2b",
+        "url": "https://clinicaltrials.gov/study/NCT00569127",
+        "publications": {
+          "nct_id": "NCT00569127",
+          "study_title": "Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor",
+          "publications_found": 1,
+          "publications": [
+            {
+              "pmid": "28384065",
+              "citation": "Yao JC, Guthrie KA, Moran C, Strosberg JR, Kulke MH, Chan JA, LoConte N, McWilliams RR, Wolin EM, Mattar B, McDonough S, Chen H, Blanke CD, Hochster HS. Phase III Prospective Randomized Comparison Trial of Depot Octreotide Plus Interferon Alfa-2b Versus Depot Octreotide Plus Bevacizumab in Patients With Advanced Carcinoid Tumors: SWOG S0518. J Clin Oncol. 2017 May 20;35(15):1695-1703. doi: 10.1200/JCO.2016.70.4072. Epub 2017 Apr 6.",
+              "type": "DERIVED",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28384065/"
+            }
+          ],
+          "status": "from_study_data"
+        }
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_5_clinical_trials_llm.txt"
+  }
+]

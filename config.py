@@ -1,5 +1,8 @@
 # config.py
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # --- LLM Configuration ---
 # LLM_MODEL = "qwen3:32b"
@@ -14,6 +17,10 @@ MODEL_KWARGS = {
     "num_ctx": NUM_CTX,
 }
 
+# --- OpenRouter API Configuration ---
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_MODEL = "google/gemma-3-27b-it:free"  # Free model for testing
 
 # --- File Paths & Directories ---
 DATA_ROOT_DIR = Path(

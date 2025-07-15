@@ -1,0 +1,977 @@
+[
+  {
+    "patient_id": "1",
+    "patient_data": {
+      "ID": 1,
+      "beschreibung": "G1-Case",
+      "tumorboard_datum ": 12.2024,
+      "main_diagnosis_text": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G1 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Resektion der Lebermetastasen in Segment VI und Ablation der Läsion in Segment VIII. Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.\n01/2017 V.a. neue Lebermetastase\n02/2017 Start Somatoline\n02/2018 CT Abdomen: stable disease\n03/2019 CT Abdomen: V.a. gering progrediente Lebermetastasen. ",
+      "Fragestellung": "Weitere Therapie?",
+      "Empfehlung": "PET- Bildgebung und PRRT planen."
+    },
+    "matches_found": 20,
+    "matches": [
+      {
+        "nct_id": "NCT04754425",
+        "title": "Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 1.0,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Bone; Condition match: Metastatic Prostate Adenocarcinoma; Condition match: Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Eligibility match: metastatic; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT04754425"
+      },
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Neoplasm; Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Condition match: Metastatic Lung Neuroendocrine Neoplasm; Condition match: Metastatic Lung Neuroendocrine Tumor; Condition match: Metastatic Pancreatic Neuroendocrine Neoplasm; Condition match: Metastatic Pancreatic Neuroendocrine Tumor; Condition match: Metastatic Thymus Neuroendocrine Neoplasm; Relevant intervention: cabozantinib; Eligibility match: metastatic; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT03375320"
+      },
+      {
+        "nct_id": "NCT02713763",
+        "title": "Efficacy of Rechallenge With Sunitinib in Metastatic Pancreatic Neuroendocrine Tumor Previously Failed to Sunitinib",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.7500000000000001,
+        "relevance_reason": "Condition match: Pancreatic Neuroendocrine Tumour Metastatic; Title match: metastatic; Relevant intervention: sunitinib; Eligibility match: metastatic; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT02713763"
+      },
+      {
+        "nct_id": "NCT01204476",
+        "title": "Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.7000000000000001,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Relevant intervention: octreotide; Relevant intervention: everolimus; Eligibility match: metastatic; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT01204476"
+      },
+      {
+        "nct_id": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.7000000000000001,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lanreotide; Relevant intervention: everolimus; Relevant intervention: sunitinib; Eligibility match: metastatic; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT05477576"
+      },
+      {
+        "nct_id": "NCT00093782",
+        "title": "Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.55,
+        "relevance_reason": "Condition match: Metastatic Gastrointestinal Carcinoid Tumor; Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00093782"
+      },
+      {
+        "nct_id": "NCT05040360",
+        "title": "Testing the Use of Chemotherapy After Surgery for High-Risk Pancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.49999999999999994,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Liver; Relevant intervention: temozolomide; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05040360"
+      },
+      {
+        "nct_id": "NCT05048901",
+        "title": "Cabozantinib and Lanreotide as Treatment for Gastroenteropancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "relevance_score": 0.39999999999999997,
+        "relevance_reason": "Relevant intervention: lanreotide; Relevant intervention: cabozantinib; Eligibility match: metastatic; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT05048901"
+      },
+      {
+        "nct_id": "NCT04949282",
+        "title": "Spanish Series of Patients Treated With the Radionuclide Lutetium177",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04949282"
+      },
+      {
+        "nct_id": "NCT01262235",
+        "title": "A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: NET; Eligibility match: grade 1",
+        "url": "https://clinicaltrials.gov/study/NCT01262235"
+      },
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01010126"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00454363"
+      },
+      {
+        "nct_id": "NCT05884255",
+        "title": "An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lutetium; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05884255"
+      },
+      {
+        "nct_id": "NCT04977596",
+        "title": "Related Studies of Imaging Features and Prognosis Between Pancreatic Neuroendocrine Tumors and Pancreatic Cancer",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: CT",
+        "url": "https://clinicaltrials.gov/study/NCT04977596"
+      },
+      {
+        "nct_id": "NCT05734430",
+        "title": "Genetics of Appendix Cancer Study",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Appendix Cancer Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05734430"
+      },
+      {
+        "nct_id": "NCT03452774",
+        "title": "SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Cancer, Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03452774"
+      },
+      {
+        "nct_id": "NCT04711135",
+        "title": "Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.3,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate",
+        "url": "https://clinicaltrials.gov/study/NCT04711135"
+      },
+      {
+        "nct_id": "NCT02955069",
+        "title": "Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02955069"
+      },
+      {
+        "nct_id": "NCT00602082",
+        "title": "Capecitabine and Streptozocin With or Without Cisplatin in Treating Patients With Unresectable or Metastatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00602082"
+      },
+      {
+        "nct_id": "NCT00339131",
+        "title": "ULTRATRACE Iobenguane I 131 in Patients With Malignant Pheochromocytoma, Paraganglioma, or Metastatic Carcinoid",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00339131"
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_1_clinical_trials.txt"
+  },
+  {
+    "patient_id": "2",
+    "patient_data": {
+      "ID": 2,
+      "beschreibung": "G3-Case Initialdiagnose, Netter 2 analo",
+      "tumorboard_datum ": 8.2015,
+      "main_diagnosis_text": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G3 NET, Ki67 48%.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+      "Fragestellung": "Weitere Therapie?",
+      "Empfehlung": "PET- Bildgebung und PRRT planen, analog zur Netter 2 Studie."
+    },
+    "matches_found": 20,
+    "matches": [
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Neoplasm; Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Condition match: Metastatic Lung Neuroendocrine Neoplasm; Condition match: Metastatic Lung Neuroendocrine Tumor; Condition match: Metastatic Pancreatic Neuroendocrine Neoplasm; Condition match: Metastatic Pancreatic Neuroendocrine Tumor; Condition match: Metastatic Thymus Neuroendocrine Neoplasm; Relevant intervention: cabozantinib; Eligibility match: metastatic; Eligibility match: grade 3",
+        "url": "https://clinicaltrials.gov/study/NCT03375320"
+      },
+      {
+        "nct_id": "NCT04754425",
+        "title": "Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.95,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Bone; Condition match: Metastatic Prostate Adenocarcinoma; Condition match: Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04754425"
+      },
+      {
+        "nct_id": "NCT02713763",
+        "title": "Efficacy of Rechallenge With Sunitinib in Metastatic Pancreatic Neuroendocrine Tumor Previously Failed to Sunitinib",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.7000000000000001,
+        "relevance_reason": "Condition match: Pancreatic Neuroendocrine Tumour Metastatic; Title match: metastatic; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02713763"
+      },
+      {
+        "nct_id": "NCT01204476",
+        "title": "Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.65,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Relevant intervention: octreotide; Relevant intervention: everolimus; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01204476"
+      },
+      {
+        "nct_id": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.65,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lanreotide; Relevant intervention: everolimus; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05477576"
+      },
+      {
+        "nct_id": "NCT00093782",
+        "title": "Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.55,
+        "relevance_reason": "Condition match: Metastatic Gastrointestinal Carcinoid Tumor; Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00093782"
+      },
+      {
+        "nct_id": "NCT05040360",
+        "title": "Testing the Use of Chemotherapy After Surgery for High-Risk Pancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.49999999999999994,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Liver; Relevant intervention: temozolomide; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05040360"
+      },
+      {
+        "nct_id": "NCT04949282",
+        "title": "Spanish Series of Patients Treated With the Radionuclide Lutetium177",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04949282"
+      },
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01010126"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00454363"
+      },
+      {
+        "nct_id": "NCT05048901",
+        "title": "Cabozantinib and Lanreotide as Treatment for Gastroenteropancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lanreotide; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05048901"
+      },
+      {
+        "nct_id": "NCT05884255",
+        "title": "An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lutetium; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05884255"
+      },
+      {
+        "nct_id": "NCT04977596",
+        "title": "Related Studies of Imaging Features and Prognosis Between Pancreatic Neuroendocrine Tumors and Pancreatic Cancer",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: CT",
+        "url": "https://clinicaltrials.gov/study/NCT04977596"
+      },
+      {
+        "nct_id": "NCT02955069",
+        "title": "Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.3,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic; Eligibility match: grade 3",
+        "url": "https://clinicaltrials.gov/study/NCT02955069"
+      },
+      {
+        "nct_id": "NCT01262235",
+        "title": "A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: NET",
+        "url": "https://clinicaltrials.gov/study/NCT01262235"
+      },
+      {
+        "nct_id": "NCT05734430",
+        "title": "Genetics of Appendix Cancer Study",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Appendix Cancer Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05734430"
+      },
+      {
+        "nct_id": "NCT03452774",
+        "title": "SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Cancer, Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03452774"
+      },
+      {
+        "nct_id": "NCT04711135",
+        "title": "Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.3,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate",
+        "url": "https://clinicaltrials.gov/study/NCT04711135"
+      },
+      {
+        "nct_id": "NCT00602082",
+        "title": "Capecitabine and Streptozocin With or Without Cisplatin in Treating Patients With Unresectable or Metastatic Neuroendocrine Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00602082"
+      },
+      {
+        "nct_id": "NCT00339131",
+        "title": "ULTRATRACE Iobenguane I 131 in Patients With Malignant Pheochromocytoma, Paraganglioma, or Metastatic Carcinoid",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00339131"
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_2_clinical_trials.txt"
+  },
+  {
+    "patient_id": "3",
+    "patient_data": {
+      "ID": 3,
+      "beschreibung": "G2-Case, geringe SSTR Expression",
+      "tumorboard_datum ": 8.2015,
+      "main_diagnosis_text": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 DOTATOC PET: geringe Speicherung der Leberläsionen.\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+      "Fragestellung": "Weitere Therapie, Everolimus oder PRRT?",
+      "Empfehlung": "FDG-PET und Everolimus Therapie starten."
+    },
+    "matches_found": 20,
+    "matches": [
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Neoplasm; Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Condition match: Metastatic Lung Neuroendocrine Neoplasm; Condition match: Metastatic Lung Neuroendocrine Tumor; Condition match: Metastatic Pancreatic Neuroendocrine Neoplasm; Condition match: Metastatic Pancreatic Neuroendocrine Tumor; Condition match: Metastatic Thymus Neuroendocrine Neoplasm; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03375320"
+      },
+      {
+        "nct_id": "NCT04754425",
+        "title": "Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.95,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Bone; Condition match: Metastatic Prostate Adenocarcinoma; Condition match: Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04754425"
+      },
+      {
+        "nct_id": "NCT02713763",
+        "title": "Efficacy of Rechallenge With Sunitinib in Metastatic Pancreatic Neuroendocrine Tumor Previously Failed to Sunitinib",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.7000000000000001,
+        "relevance_reason": "Condition match: Pancreatic Neuroendocrine Tumour Metastatic; Title match: metastatic; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02713763"
+      },
+      {
+        "nct_id": "NCT01204476",
+        "title": "Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.65,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Relevant intervention: octreotide; Relevant intervention: everolimus; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01204476"
+      },
+      {
+        "nct_id": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.65,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lanreotide; Relevant intervention: everolimus; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05477576"
+      },
+      {
+        "nct_id": "NCT00093782",
+        "title": "Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.55,
+        "relevance_reason": "Condition match: Metastatic Gastrointestinal Carcinoid Tumor; Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00093782"
+      },
+      {
+        "nct_id": "NCT05040360",
+        "title": "Testing the Use of Chemotherapy After Surgery for High-Risk Pancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.49999999999999994,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Liver; Relevant intervention: temozolomide; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05040360"
+      },
+      {
+        "nct_id": "NCT05987176",
+        "title": "Comparison of Adjuvant Treatment With 177Lu-DOTATATE to Best Supportive Care in Patients After Resection of Neuroendocrine Liver Metastases",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.39999999999999997,
+        "relevance_reason": "Condition match: Neuroendocrine Tumor Grade 2; Eligibility match: grade 2; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05987176"
+      },
+      {
+        "nct_id": "NCT04949282",
+        "title": "Spanish Series of Patients Treated With the Radionuclide Lutetium177",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04949282"
+      },
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01010126"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00454363"
+      },
+      {
+        "nct_id": "NCT05048901",
+        "title": "Cabozantinib and Lanreotide as Treatment for Gastroenteropancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lanreotide; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05048901"
+      },
+      {
+        "nct_id": "NCT05884255",
+        "title": "An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lutetium; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05884255"
+      },
+      {
+        "nct_id": "NCT04977596",
+        "title": "Related Studies of Imaging Features and Prognosis Between Pancreatic Neuroendocrine Tumors and Pancreatic Cancer",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: CT",
+        "url": "https://clinicaltrials.gov/study/NCT04977596"
+      },
+      {
+        "nct_id": "NCT01262235",
+        "title": "A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: NET",
+        "url": "https://clinicaltrials.gov/study/NCT01262235"
+      },
+      {
+        "nct_id": "NCT05734430",
+        "title": "Genetics of Appendix Cancer Study",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Appendix Cancer Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05734430"
+      },
+      {
+        "nct_id": "NCT01548482",
+        "title": "Trebananib And Temsirolimus in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Title match: metastatic; Eligibility match: grade 2; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01548482"
+      },
+      {
+        "nct_id": "NCT03452774",
+        "title": "SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Cancer, Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03452774"
+      },
+      {
+        "nct_id": "NCT04711135",
+        "title": "Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.3,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate",
+        "url": "https://clinicaltrials.gov/study/NCT04711135"
+      },
+      {
+        "nct_id": "NCT02955069",
+        "title": "Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02955069"
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_3_clinical_trials.txt"
+  },
+  {
+    "patient_id": "4",
+    "patient_data": {
+      "ID": 4,
+      "beschreibung": "P-NET G2-Case, Compete Trial analog",
+      "tumorboard_datum ": 8.2016,
+      "main_diagnosis_text": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n08/2015 Start Somatuline\n06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.",
+      "Fragestellung": "Weitere Therapie, Everolimus oder PRRT?",
+      "Empfehlung": "PRRT starten."
+    },
+    "matches_found": 20,
+    "matches": [
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Neoplasm; Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Condition match: Metastatic Lung Neuroendocrine Neoplasm; Condition match: Metastatic Lung Neuroendocrine Tumor; Condition match: Metastatic Pancreatic Neuroendocrine Neoplasm; Condition match: Metastatic Pancreatic Neuroendocrine Tumor; Condition match: Metastatic Thymus Neuroendocrine Neoplasm; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03375320"
+      },
+      {
+        "nct_id": "NCT04754425",
+        "title": "Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.95,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Bone; Condition match: Metastatic Prostate Adenocarcinoma; Condition match: Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04754425"
+      },
+      {
+        "nct_id": "NCT02713763",
+        "title": "Efficacy of Rechallenge With Sunitinib in Metastatic Pancreatic Neuroendocrine Tumor Previously Failed to Sunitinib",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.7000000000000001,
+        "relevance_reason": "Condition match: Pancreatic Neuroendocrine Tumour Metastatic; Title match: metastatic; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02713763"
+      },
+      {
+        "nct_id": "NCT01204476",
+        "title": "Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.65,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Relevant intervention: octreotide; Relevant intervention: everolimus; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01204476"
+      },
+      {
+        "nct_id": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.65,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lanreotide; Relevant intervention: everolimus; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05477576"
+      },
+      {
+        "nct_id": "NCT00093782",
+        "title": "Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.55,
+        "relevance_reason": "Condition match: Metastatic Gastrointestinal Carcinoid Tumor; Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00093782"
+      },
+      {
+        "nct_id": "NCT05040360",
+        "title": "Testing the Use of Chemotherapy After Surgery for High-Risk Pancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.49999999999999994,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Liver; Relevant intervention: temozolomide; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05040360"
+      },
+      {
+        "nct_id": "NCT05987176",
+        "title": "Comparison of Adjuvant Treatment With 177Lu-DOTATATE to Best Supportive Care in Patients After Resection of Neuroendocrine Liver Metastases",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.39999999999999997,
+        "relevance_reason": "Condition match: Neuroendocrine Tumor Grade 2; Eligibility match: grade 2; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05987176"
+      },
+      {
+        "nct_id": "NCT04949282",
+        "title": "Spanish Series of Patients Treated With the Radionuclide Lutetium177",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04949282"
+      },
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01010126"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00454363"
+      },
+      {
+        "nct_id": "NCT05048901",
+        "title": "Cabozantinib and Lanreotide as Treatment for Gastroenteropancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lanreotide; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05048901"
+      },
+      {
+        "nct_id": "NCT05884255",
+        "title": "An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lutetium; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05884255"
+      },
+      {
+        "nct_id": "NCT04977596",
+        "title": "Related Studies of Imaging Features and Prognosis Between Pancreatic Neuroendocrine Tumors and Pancreatic Cancer",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: CT",
+        "url": "https://clinicaltrials.gov/study/NCT04977596"
+      },
+      {
+        "nct_id": "NCT01262235",
+        "title": "A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: NET",
+        "url": "https://clinicaltrials.gov/study/NCT01262235"
+      },
+      {
+        "nct_id": "NCT05734430",
+        "title": "Genetics of Appendix Cancer Study",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Appendix Cancer Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05734430"
+      },
+      {
+        "nct_id": "NCT01548482",
+        "title": "Trebananib And Temsirolimus in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Title match: metastatic; Eligibility match: grade 2; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01548482"
+      },
+      {
+        "nct_id": "NCT03452774",
+        "title": "SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Cancer, Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03452774"
+      },
+      {
+        "nct_id": "NCT04711135",
+        "title": "Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.3,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate",
+        "url": "https://clinicaltrials.gov/study/NCT04711135"
+      },
+      {
+        "nct_id": "NCT02955069",
+        "title": "Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02955069"
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_4_clinical_trials.txt"
+  },
+  {
+    "patient_id": "5",
+    "patient_data": {
+      "ID": 5,
+      "beschreibung": "P-NET G2-Case Initial",
+      "tumorboard_datum ": 6.2015,
+      "main_diagnosis_text": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n06/2015 DOTATOC PET: starke Speicherung der Läsionen.",
+      "Fragestellung": "Weitere Therapie, Somatuline oder PRRT?",
+      "Empfehlung": "PRRT starten."
+    },
+    "matches_found": 20,
+    "matches": [
+      {
+        "nct_id": "NCT03375320",
+        "title": "Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 1.0,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Neoplasm; Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Condition match: Metastatic Lung Neuroendocrine Neoplasm; Condition match: Metastatic Lung Neuroendocrine Tumor; Condition match: Metastatic Pancreatic Neuroendocrine Neoplasm; Condition match: Metastatic Pancreatic Neuroendocrine Tumor; Condition match: Metastatic Thymus Neuroendocrine Neoplasm; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03375320"
+      },
+      {
+        "nct_id": "NCT04754425",
+        "title": "Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.95,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Bone; Condition match: Metastatic Prostate Adenocarcinoma; Condition match: Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04754425"
+      },
+      {
+        "nct_id": "NCT02713763",
+        "title": "Efficacy of Rechallenge With Sunitinib in Metastatic Pancreatic Neuroendocrine Tumor Previously Failed to Sunitinib",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.7000000000000001,
+        "relevance_reason": "Condition match: Pancreatic Neuroendocrine Tumour Metastatic; Title match: metastatic; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02713763"
+      },
+      {
+        "nct_id": "NCT01204476",
+        "title": "Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.65,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Relevant intervention: octreotide; Relevant intervention: everolimus; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01204476"
+      },
+      {
+        "nct_id": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.65,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lanreotide; Relevant intervention: everolimus; Relevant intervention: sunitinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05477576"
+      },
+      {
+        "nct_id": "NCT00093782",
+        "title": "Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.55,
+        "relevance_reason": "Condition match: Metastatic Gastrointestinal Carcinoid Tumor; Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00093782"
+      },
+      {
+        "nct_id": "NCT05040360",
+        "title": "Testing the Use of Chemotherapy After Surgery for High-Risk Pancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.49999999999999994,
+        "relevance_reason": "Condition match: Metastatic Malignant Neoplasm in the Liver; Relevant intervention: temozolomide; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05040360"
+      },
+      {
+        "nct_id": "NCT05987176",
+        "title": "Comparison of Adjuvant Treatment With 177Lu-DOTATATE to Best Supportive Care in Patients After Resection of Neuroendocrine Liver Metastases",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.39999999999999997,
+        "relevance_reason": "Condition match: Neuroendocrine Tumor Grade 2; Eligibility match: grade 2; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05987176"
+      },
+      {
+        "nct_id": "NCT04949282",
+        "title": "Spanish Series of Patients Treated With the Radionuclide Lutetium177",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT04949282"
+      },
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01010126"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.35,
+        "relevance_reason": "Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT00454363"
+      },
+      {
+        "nct_id": "NCT05048901",
+        "title": "Cabozantinib and Lanreotide as Treatment for Gastroenteropancreatic Neuroendocrine Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: lanreotide; Relevant intervention: cabozantinib; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05048901"
+      },
+      {
+        "nct_id": "NCT05884255",
+        "title": "An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "relevance_score": 0.35,
+        "relevance_reason": "Relevant intervention: octreotide; Relevant intervention: lutetium; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05884255"
+      },
+      {
+        "nct_id": "NCT04977596",
+        "title": "Related Studies of Imaging Features and Prognosis Between Pancreatic Neuroendocrine Tumors and Pancreatic Cancer",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: CT",
+        "url": "https://clinicaltrials.gov/study/NCT04977596"
+      },
+      {
+        "nct_id": "NCT01262235",
+        "title": "A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: NET",
+        "url": "https://clinicaltrials.gov/study/NCT01262235"
+      },
+      {
+        "nct_id": "NCT05734430",
+        "title": "Genetics of Appendix Cancer Study",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Appendix Cancer Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT05734430"
+      },
+      {
+        "nct_id": "NCT01548482",
+        "title": "Trebananib And Temsirolimus in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "relevance_score": 0.3,
+        "relevance_reason": "Title match: metastatic; Eligibility match: grade 2; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT01548482"
+      },
+      {
+        "nct_id": "NCT03452774",
+        "title": "SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "relevance_score": 0.3,
+        "relevance_reason": "Condition match: Cancer, Metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT03452774"
+      },
+      {
+        "nct_id": "NCT04711135",
+        "title": "Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "relevance_score": 0.3,
+        "relevance_reason": "Relevant intervention: lutetium; Relevant intervention: dotatate",
+        "url": "https://clinicaltrials.gov/study/NCT04711135"
+      },
+      {
+        "nct_id": "NCT02955069",
+        "title": "Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "relevance_score": 0.25,
+        "relevance_reason": "Title match: metastatic; Eligibility match: metastatic",
+        "url": "https://clinicaltrials.gov/study/NCT02955069"
+      }
+    ],
+    "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_5_clinical_trials.txt"
+  }
+]

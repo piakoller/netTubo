@@ -9,9 +9,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-from langchain.chains import LLMChain
-from langchain.prompts import PromptTemplate
-from langchain.schema.language_model import BaseLanguageModel
+# Langchain dependencies temporarily disabled for clinical_trials_matcher.py
+# from langchain.prompts import PromptTemplate
+# from langchain.schema.language_model import BaseLanguageModel
 
 warnings.filterwarnings("ignore", message=".*ScriptRunContext.*")
 logging.getLogger("streamlit").setLevel(logging.ERROR)
@@ -23,7 +23,6 @@ try:
     from logging_setup import setup_logging
 except ImportError as e:
     print(f"Error importing project modules: {e}")
-    print("Please run this script from the project root or ensure 'llmRecom' is in your PYTHONPATH.")
     exit(1)
 
 # --- Shared Configuration ---
@@ -48,7 +47,7 @@ NEW_NET_EVIDENCE = BASE_PROJECT_DIR / "New_NET_evidence/mds_docling"
 
 # PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-1.txt"
 PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-2.txt"
-print(f'Promptversion: {PROMPT_FILE_PATH}')
+# print(f'Promptversion: {PROMPT_FILE_PATH}')
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
@@ -158,74 +157,75 @@ def build_prompt(patient_data_string: str, guidelines_context_string: str) -> st
     )
     return formatted_prompt
 
-def generate_single_recommendation(
-    patient_data_dict: Dict,
-    llm: BaseLanguageModel
-) -> Tuple[Optional[Dict], Optional[str], Optional[str], Optional[float], Dict]:
-    """Generates a single therapy recommendation for a patient using a provided LLM instance."""
-    # Get patient ID in a case-insensitive way
-    patient_id = next((str(v) for k, v in patient_data_dict.items() 
-                      if k.lower() == "id"), "unknown")
-    
-    patient_data_string = format_patient_data_for_prompt(patient_data_dict, PATIENT_FIELDS_FOR_PROMPT)
-    structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
-
-    additional_structured = None
-    if NEW_NET_EVIDENCE:
-        additional_structured, additional_loaded_files = load_structured_guidelines(Path(NEW_NET_EVIDENCE))
-        loaded_files.extend(additional_loaded_files)
-
-    guidelines_context_string = format_guidelines_for_prompt(
-        structured_docs=structured_guidelines,
-        additional_structured_docs=additional_structured,
-        additional_dir=Path(NEW_NET_EVIDENCE) if NEW_NET_EVIDENCE else None
-    )
-
-    if not guidelines_context_string:
-        logger.warning(f"No guideline context could be loaded for patient {patient_id}. Proceeding without it.")
-
-    # Use the build_prompt function instead of the template string
-    formatted_prompt = build_prompt(patient_data_string, guidelines_context_string)
-    
-    prompt = PromptTemplate(
-        template=formatted_prompt,
-        input_variables=[]  # No input variables needed as we've already formatted the prompt
-    )
-
-    chain = prompt | llm
-
-    llm_input_for_log = {
-        "prompt_text": formatted_prompt,
-        "attachments_used": loaded_files,
-        "llm_kwargs": getattr(config, "MODEL_KWARGS", {})
-    }
-
-    start_time = time.perf_counter()
-    
-    try:
-        logger.info(f"Generating recommendation for Patient ID {patient_id}. Attached files: {', '.join(loaded_files) or 'None'}")
-        
-        response = chain.invoke({})  # Empty dict since we've pre-formatted the prompt
-        duration = time.perf_counter() - start_time
-        
-        if hasattr(response, 'content'):
-            raw_response = response.content.strip()
-        elif isinstance(response, str):
-            raw_response = response.strip()
-        elif isinstance(response, dict) and 'text' in response:
-            raw_response = response['text'].strip()
-        else:
-            raw_response = str(response).strip()
-        
-        parsed_response = _parse_llm_response(raw_response)
-        
-        return parsed_response, raw_response, None, duration, llm_input_for_log
-        
-    except Exception as e:
-        duration = time.perf_counter() - start_time
-        error_msg = f"LLM generation failed: {e}"
-        logger.error(error_msg, exc_info=True)
-        return None, None, error_msg, duration, llm_input_for_log
+# Langchain-dependent function temporarily disabled
+# def generate_single_recommendation(
+#     patient_data_dict: Dict,
+#     llm: BaseLanguageModel
+# ) -> Tuple[Optional[Dict], Optional[str], Optional[str], Optional[float], Dict]:
+#     """Generates a single therapy recommendation for a patient using a provided LLM instance."""
+#     # Get patient ID in a case-insensitive way
+#     patient_id = next((str(v) for k, v in patient_data_dict.items() 
+#                       if k.lower() == "id"), "unknown")
+#     
+#     patient_data_string = format_patient_data_for_prompt(patient_data_dict, PATIENT_FIELDS_FOR_PROMPT)
+#     structured_guidelines, loaded_files = load_structured_guidelines(GUIDELINE_SOURCE_DIR)
+# 
+#     additional_structured = None
+#     if NEW_NET_EVIDENCE:
+#         additional_structured, additional_loaded_files = load_structured_guidelines(Path(NEW_NET_EVIDENCE))
+#         loaded_files.extend(additional_loaded_files)
+# 
+#     guidelines_context_string = format_guidelines_for_prompt(
+#         structured_docs=structured_guidelines,
+#         additional_structured_docs=additional_structured,
+#         additional_dir=Path(NEW_NET_EVIDENCE) if NEW_NET_EVIDENCE else None
+#     )
+# 
+#     if not guidelines_context_string:
+#         logger.warning(f"No guideline context could be loaded for patient {patient_id}. Proceeding without it.")
+# 
+#     # Use the build_prompt function instead of the template string
+#     formatted_prompt = build_prompt(patient_data_string, guidelines_context_string)
+#     
+#     prompt = PromptTemplate(
+#         template=formatted_prompt,
+#         input_variables=[]  # No input variables needed as we've already formatted the prompt
+#     )
+# 
+#     chain = prompt | llm
+# 
+#     llm_input_for_log = {
+#         "prompt_text": formatted_prompt,
+#         "attachments_used": loaded_files,
+#         "llm_kwargs": getattr(config, "MODEL_KWARGS", {})
+#     }
+# 
+#     start_time = time.perf_counter()
+#     
+#     try:
+#         logger.info(f"Generating recommendation for Patient ID {patient_id}. Attached files: {', '.join(loaded_files) or 'None'}")
+#         
+#         response = chain.invoke({})  # Empty dict since we've pre-formatted the prompt
+#         duration = time.perf_counter() - start_time
+#         
+#         if hasattr(response, 'content'):
+#             raw_response = response.content.strip()
+#         elif isinstance(response, str):
+#             raw_response = response.strip()
+#         elif isinstance(response, dict) and 'text' in response:
+#             raw_response = response['text'].strip()
+#         else:
+#             raw_response = str(response).strip()
+#         
+#         parsed_response = _parse_llm_response(raw_response)
+#         
+#         return parsed_response, raw_response, None, duration, llm_input_for_log
+#         
+#     except Exception as e:
+#         duration = time.perf_counter() - start_time
+#         error_msg = f"LLM generation failed: {e}"
+#         logger.error(error_msg, exc_info=True)
+#         return None, None, error_msg, duration, llm_input_for_log
 
 def format_guidelines_for_prompt(
     structured_docs: Dict[str, Dict[str, str]],
@@ -283,57 +283,58 @@ def _sanitize_filename(name: str) -> str:
     """Replaces characters in a string to make it a valid filename component."""
     return name.replace(":", "_").replace("/", "_").replace(".", "_")
 
-def run_processing_pipeline(
-    llm: BaseLanguageModel,
-    llm_model_name: str,
-    patient_data_file: Path,
-    output_file: Optional[Path] = None,
-    is_clinical_info_modified: bool = False
-):
-    """Main function to run the single-prompt processing pipeline with a given LLM."""
-    logger.info(f"Starting processing with LLM: {llm_model_name}, Patient Data: {patient_data_file.name}")
-
-    if not output_file:
-        sanitized_model_name = _sanitize_filename(llm_model_name)
-        filename = f"singleprompt_{sanitized_model_name}_modified_{is_clinical_info_modified}.json"
-        output_file = EVAL_DATA_DIR / filename
-    
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    logger.info(f"Output will be saved to: {output_file}")
-
-    df_patients = load_patient_data(str(patient_data_file))
-    if df_patients is None or df_patients.empty:
-        logger.error(f"No patient data loaded from {patient_data_file}. Exiting.")
-        return
-
-    all_results = []
-    patient_ids = [pid for pid in df_patients["ID"].unique() if pid and str(pid).strip()]
-    total_patients = len(patient_ids)
-    logger.info(f"Found {total_patients} unique patients to process.")
-
-    for i, patient_id in enumerate(patient_ids, 1):
-        logger.info(f"--- Processing patient {i}/{total_patients} (ID: {patient_id}) ---")
-        patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
-        patient_dict = patient_row.to_dict()
-        parsed_rec, raw_resp, error, duration, llm_input = generate_single_recommendation(patient_dict, llm)
-        all_results.append({
-            "patient_id": str(patient_id),
-            "patient_data_source_file": patient_data_file.name,
-            "timestamp_processed": datetime.now().isoformat(),
-            "llm_model_used": llm_model_name,
-            "clinical_info_modified": is_clinical_info_modified,
-            "llm_input": llm_input,
-            "llm_raw_output": raw_resp,
-            "llm_parsed_output": parsed_rec,
-            "llm_generation_time_s": f"{duration:.4f}" if duration else None,
-            "error": error
-        })
-    
-    try:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(all_results, f, indent=2, ensure_ascii=False)
-        logger.info(f"Processing complete. All {len(all_results)} results saved to: {output_file}")
-    except Exception as e:
-        logger.error(f"Failed to write results to {output_file}: {e}", exc_info=True)
+# Langchain-dependent function temporarily disabled
+# def run_processing_pipeline(
+#     llm: BaseLanguageModel,
+#     llm_model_name: str,
+#     patient_data_file: Path,
+#     output_file: Optional[Path] = None,
+#     is_clinical_info_modified: bool = False
+# ):
+#     """Main function to run the single-prompt processing pipeline with a given LLM."""
+#     logger.info(f"Starting processing with LLM: {llm_model_name}, Patient Data: {patient_data_file.name}")
+# 
+#     if not output_file:
+#         sanitized_model_name = _sanitize_filename(llm_model_name)
+#         filename = f"singleprompt_{sanitized_model_name}_modified_{is_clinical_info_modified}.json"
+#         output_file = EVAL_DATA_DIR / filename
+#     
+#     output_file.parent.mkdir(parents=True, exist_ok=True)
+#     logger.info(f"Output will be saved to: {output_file}")
+# 
+#     df_patients = load_patient_data(str(patient_data_file))
+#     if df_patients is None or df_patients.empty:
+#         logger.error(f"No patient data loaded from {patient_data_file}. Exiting.")
+#         return
+# 
+#     all_results = []
+#     patient_ids = [pid for pid in df_patients["ID"].unique() if pid and str(pid).strip()]
+#     total_patients = len(patient_ids)
+#     logger.info(f"Found {total_patients} unique patients to process.")
+# 
+#     for i, patient_id in enumerate(patient_ids, 1):
+#         logger.info(f"--- Processing patient {i}/{total_patients} (ID: {patient_id}) ---")
+#         patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
+#         patient_dict = patient_row.to_dict()
+#         parsed_rec, raw_resp, error, duration, llm_input = generate_single_recommendation(patient_dict, llm)
+#         all_results.append({
+#             "patient_id": str(patient_id),
+#             "patient_data_source_file": patient_data_file.name,
+#             "timestamp_processed": datetime.now().isoformat(),
+#             "llm_model_used": llm_model_name,
+#             "clinical_info_modified": is_clinical_info_modified,
+#             "llm_input": llm_input,
+#             "llm_raw_output": raw_resp,
+#             "llm_parsed_output": parsed_rec,
+#             "llm_generation_time_s": f"{duration:.4f}" if duration else None,
+#             "error": error
+#         })
+#     
+#     try:
+#         with open(output_file, 'w', encoding='utf-8') as f:
+#             json.dump(all_results, f, indent=2, ensure_ascii=False)
+#         logger.info(f"Processing complete. All {len(all_results)} results saved to: {output_file}")
+#     except Exception as e:
+#         logger.error(f"Failed to write results to {output_file}: {e}", exc_info=True)
 
     return all_results

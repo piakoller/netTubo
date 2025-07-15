@@ -1,0 +1,315 @@
+================================================================================
+CLINICAL TRIALS MATCHING REPORT
+================================================================================
+
+Patient ID: 5
+Diagnosis: NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)
+CT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+06/2015 DOTATOC PET: starke Speicherung der Läsionen.
+Clinical Question: Weitere Therapie, Somatuline oder PRRT?
+Report generated: 2025-07-08 14:37:52
+
+Found 20 relevant clinical trials
+--------------------------------------------------------------------------------
+
+1. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT03375320
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE3
+   Relevance Score: 1.000
+   Relevance Reason: Condition match: Metastatic Digestive System Neuroendocrine Neoplasm; Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Condition match: Metastatic Lung Neuroendocrine Neoplasm; Condition match: Metastatic Lung Neuroendocrine Tumor; Condition match: Metastatic Pancreatic Neuroendocrine Neoplasm; Condition match: Metastatic Pancreatic Neuroendocrine Tumor; Condition match: Metastatic Thymus Neuroendocrine Neoplasm; Relevant intervention: cabozantinib; Eligibility match: metastatic
+   Condition: Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm
+   Intervention: Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2018-10-26
+   Completion Date: 2025-11-22
+   Locations: Katmai Oncology Group, Anchorage, United States; Kingman Regional Medical Center, Kingman, United States; Mayo Clinic Hospital in Arizona, Phoenix, United States
+   URL: https://clinicaltrials.gov/study/NCT03375320
+----------------------------------------
+
+2. Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer
+   NCT ID: NCT04754425
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.950
+   Relevance Reason: Condition match: Metastatic Malignant Neoplasm in the Bone; Condition match: Metastatic Prostate Adenocarcinoma; Condition match: Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Eligibility match: metastatic
+   Condition: Castration-Resistant Prostate Carcinoma; Castration-Resistant Prostate Carcinoma Refractory to Second-Generation Androgen Receptor Axis-Targeted Agents; Metastatic Malignant Neoplasm in the Bone; Metastatic Prostate Adenocarcinoma; Metastatic Prostate Small Cell Neuroendocrine Carcinoma; Stage IV Prostate Cancer AJCC v8; Stage IVA Prostate Cancer AJCC v8; Stage IVB Prostate Cancer AJCC v8
+   Intervention: Biopsy; Biospecimen Collection; Erdafitinib
+   Sponsor: M.D. Anderson Cancer Center
+   Start Date: 2021-07-15
+   Completion Date: 2026-06-30
+   Locations: M D Anderson Cancer Center, Houston, United States
+   URL: https://clinicaltrials.gov/study/NCT04754425
+----------------------------------------
+
+3. Efficacy of Rechallenge With Sunitinib in Metastatic Pancreatic Neuroendocrine Tumor Previously Failed to Sunitinib
+   NCT ID: NCT02713763
+   Status: COMPLETED
+   Phase: PHASE2
+   Relevance Score: 0.700
+   Relevance Reason: Condition match: Pancreatic Neuroendocrine Tumour Metastatic; Title match: metastatic; Relevant intervention: sunitinib; Eligibility match: metastatic
+   Condition: Pancreatic Neuroendocrine Tumour Metastatic
+   Intervention: Sunitinib
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2017-02-14
+   Completion Date: 2019-10-23
+   Locations: Hospital Universitario Central de Asturias, Oviedo, Spain; Hospital Universitario Valle de Hebrón, Barcelona, Spain; Hospital Reina Sofía, Córdoba, Spain
+   URL: https://clinicaltrials.gov/study/NCT02713763
+----------------------------------------
+
+4. Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma
+   NCT ID: NCT01204476
+   Status: COMPLETED
+   Phase: PHASE1
+   Relevance Score: 0.650
+   Relevance Reason: Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Relevant intervention: octreotide; Relevant intervention: everolimus; Eligibility match: metastatic
+   Condition: Gastrin-Producing Neuroendocrine Tumor; Lung Carcinoid Tumor; Metastatic Digestive System Neuroendocrine Tumor G1; Pancreatic Glucagonoma; Pancreatic Insulinoma; Pancreatic Polypeptide Tumor; Paraganglioma; Recurrent Digestive System Neuroendocrine Tumor G1; Recurrent Merkel Cell Carcinoma; Recurrent Pancreatic Neuroendocrine Carcinoma; Regional Digestive System Neuroendocrine Tumor G1; Somatostatin-Producing Neuroendocrine Tumor; Stage III Merkel Cell Carcinoma; Stage IV Merkel Cell Carcinoma; Thyroid Gland Medullary Carcinoma
+   Intervention: Cixutumumab; Everolimus; Laboratory Biomarker Analysis; Octreotide Acetate; Pharmacological Study
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2010-10
+   Completion Date: 
+   Locations: M D Anderson Cancer Center, Houston, United States
+   URL: https://clinicaltrials.gov/study/NCT01204476
+----------------------------------------
+
+5. Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy
+   NCT ID: NCT05477576
+   Status: RECRUITING
+   Phase: PHASE3
+   Relevance Score: 0.650
+   Relevance Reason: Relevant intervention: octreotide; Relevant intervention: lanreotide; Relevant intervention: everolimus; Relevant intervention: sunitinib; Eligibility match: metastatic
+   Condition: GEP-NET; Gastroenteropancreatic Neuroendocrine Tumor; Gastroenteropancreatic Neuroendocrine Tumor Disease; Neuroendocrine Tumors; Carcinoid; Carcinoid Tumor; Pancreatic NET
+   Intervention: RYZ101; Everolimus; Sunitinib; Octreotide; Lanreotide
+   Sponsor: RayzeBio, Inc.
+   Start Date: 2022-03-24
+   Completion Date: 2028-07
+   Locations: Research Facility, Phoenix, United States; Research Facility, Duarte, United States; Research Facility, Irvine, United States
+   URL: https://clinicaltrials.gov/study/NCT05477576
+----------------------------------------
+
+6. Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma
+   NCT ID: NCT00093782
+   Status: COMPLETED
+   Phase: PHASE2
+   Relevance Score: 0.550
+   Relevance Reason: Condition match: Metastatic Gastrointestinal Carcinoid Tumor; Title match: metastatic; Eligibility match: metastatic
+   Condition: Metastatic Gastrointestinal Carcinoid Tumor; Pulmonary Carcinoid Tumor; Recurrent Gastrointestinal Carcinoid Tumor; Recurrent Islet Cell Carcinoma
+   Intervention: temsirolimus; laboratory biomarker analysis
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2003-12
+   Completion Date: 2011-04
+   Locations: Princess Margaret Hospital Phase 2 Consortium, Toronto, Canada
+   URL: https://clinicaltrials.gov/study/NCT00093782
+----------------------------------------
+
+7. Testing the Use of Chemotherapy After Surgery for High-Risk Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT05040360
+   Status: RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.500
+   Relevance Reason: Condition match: Metastatic Malignant Neoplasm in the Liver; Relevant intervention: temozolomide; Eligibility match: metastatic
+   Condition: Metastatic Malignant Neoplasm in the Liver; Pancreatic Neuroendocrine Tumor; Stage I Pancreatic Neuroendocrine Tumor AJCC v8; Stage II Pancreatic Neuroendocrine Tumor AJCC v8; Stage III Pancreatic Neuroendocrine Tumor AJCC v8
+   Intervention: Capecitabine; Temozolomide
+   Sponsor: SWOG Cancer Research Network
+   Start Date: 2022-05-05
+   Completion Date: 2027-03-31
+   Locations: Anchorage Associates in Radiation Medicine, Anchorage, United States; Anchorage Radiation Therapy Center, Anchorage, United States; Alaska Breast Care and Surgery LLC, Anchorage, United States
+   URL: https://clinicaltrials.gov/study/NCT05040360
+----------------------------------------
+
+8. Comparison of Adjuvant Treatment With 177Lu-DOTATATE to Best Supportive Care in Patients After Resection of Neuroendocrine Liver Metastases
+   NCT ID: NCT05987176
+   Status: RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.400
+   Relevance Reason: Condition match: Neuroendocrine Tumor Grade 2; Eligibility match: grade 2; Eligibility match: metastatic
+   Condition: Neuroendocrine Tumor G1 (NET G1)/Carcinoid; Neuroendocrine Tumor Grade 2; Neuroendocrine Tumors; Liver Metastases; Gastroenteropancreatic Neuroendocrine Tumor; Gastroenteropancreatic Neuroendocrine Neoplasm
+   Intervention: Lutathera
+   Sponsor: Imperial College London
+   Start Date: 2024-08-02
+   Completion Date: 2029-03-30
+   Locations: Imperial College Healthcare NHS Trust, London, United Kingdom
+   URL: https://clinicaltrials.gov/study/NCT05987176
+----------------------------------------
+
+9. Spanish Series of Patients Treated With the Radionuclide Lutetium177
+   NCT ID: NCT04949282
+   Status: RECRUITING
+   Phase: N/A
+   Relevance Score: 0.350
+   Relevance Reason: Relevant intervention: lutetium; Relevant intervention: dotatate; Eligibility match: metastatic
+   Condition: Neuroendocrine Tumors; Intestinal Neoplasms; Pancreatic Neoplasms; Stomach Neoplasms; Neuroectodermal Tumors; Neoplasms, Germ Cell and Embryonal; Neoplasms by Histologic Type; Neoplasms; Neoplasms, Nerve Tissue; Gastrointestinal Neoplasms; Digestive System Neoplasms; Neoplasms by Site; Endocrine Gland Neoplasms; Digestive System Diseases; Gastrointestinal Disease; Intestinal Diseases; Pancreatic Disease; Endocrine System Diseases
+   Intervention: Lutetium [177Lu] oxodotreotide/dotatate; Lutetium [177Lu] oxodotreotide/dotatate
+   Sponsor: Sociedad Española de Medicina Nuclear e Imagen Molecular
+   Start Date: 2021-05-10
+   Completion Date: 2035-12-31
+   Locations: Hospital Clínico Universitario de Santiago, Santiago De Compostela, Spain; Hospital Universitario Virgen de las Nieves, Granada, Spain; Hospital Universitario Central de Asturias, Oviedo, Spain
+   URL: https://clinicaltrials.gov/study/NCT04949282
+----------------------------------------
+
+10. Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer
+   NCT ID: NCT01010126
+   Status: COMPLETED
+   Phase: PHASE2
+   Relevance Score: 0.350
+   Relevance Reason: Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic
+   Condition: Adult Hepatocellular Carcinoma; Advanced Adult Hepatocellular Carcinoma; Endometrial Serous Adenocarcinoma; Localized Non-Resectable Adult Liver Carcinoma; Lung Carcinoid Tumor; Malignant Pancreatic Gastrinoma; Malignant Pancreatic Glucagonoma; Malignant Pancreatic Insulinoma; Malignant Pancreatic Somatostatinoma; Metastatic Digestive System Neuroendocrine Tumor G1; Ovarian Carcinosarcoma; Ovarian Endometrioid Adenocarcinoma; Ovarian Seromucinous Carcinoma; Ovarian Serous Surface Papillary Adenocarcinoma; Pancreatic Alpha Cell Adenoma; Pancreatic Beta Cell Adenoma; Pancreatic Delta Cell Adenoma; Pancreatic G-Cell Adenoma; Pancreatic Polypeptide Tumor; Recurrent Adult Liver Carcinoma; Recurrent Digestive System Neuroendocrine Tumor G1; Recurrent Fallopian Tube Carcinoma; Recurrent Ovarian Carcinoma; Recurrent Pancreatic Neuroendocrine Carcinoma; Recurrent Primary Peritoneal Carcinoma; Recurrent Uterine Corpus Carcinoma; Regional Digestive System Neuroendocrine Tumor G1; Stage IIIA Fallopian Tube Cancer; Stage IIIA Ovarian Cancer; Stage IIIA Primary Peritoneal Cancer; Stage IIIA Uterine Corpus Cancer; Stage IIIB Fallopian Tube Cancer; Stage IIIB Ovarian Cancer; Stage IIIB Primary Peritoneal Cancer; Stage IIIB Uterine Corpus Cancer; Stage IIIC Fallopian Tube Cancer; Stage IIIC Ovarian Cancer; Stage IIIC Primary Peritoneal Cancer; Stage IIIC Uterine Corpus Cancer; Stage IV Fallopian Tube Cancer; Stage IV Ovarian Cancer; Stage IV Primary Peritoneal Cancer; Stage IVA Uterine Corpus Cancer; Stage IVB Uterine Corpus Cancer; Uterine Carcinosarcoma
+   Intervention: Bevacizumab; Temsirolimus
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2009-09-08
+   Completion Date: 2017-03-13
+   Locations: Mayo Clinic in Arizona, Scottsdale, United States; Tower Cancer Research Foundation, Beverly Hills, United States; City of Hope Comprehensive Cancer Center, Duarte, United States
+   URL: https://clinicaltrials.gov/study/NCT01010126
+----------------------------------------
+
+11. Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer
+   NCT ID: NCT00454363
+   Status: COMPLETED
+   Phase: PHASE2
+   Relevance Score: 0.350
+   Relevance Reason: Condition match: Metastatic Digestive System Neuroendocrine Tumor G1; Eligibility match: metastatic
+   Condition: Gastrin-Producing Neuroendocrine Tumor; Lung Carcinoid Tumor; Metastatic Digestive System Neuroendocrine Tumor G1; Multiple Endocrine Neoplasia Type 1; Pancreatic Glucagonoma; Pancreatic Insulinoma; Pancreatic Polypeptide Tumor; Recurrent Digestive System Neuroendocrine Tumor G1; Recurrent Pancreatic Neuroendocrine Carcinoma; Regional Digestive System Neuroendocrine Tumor G1; Somatostatin-Producing Neuroendocrine Tumor
+   Intervention: Laboratory Biomarker Analysis; Pazopanib Hydrochloride; Pharmacological Study
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2007-03
+   Completion Date: 2014-12
+   Locations: Massachusetts General Hospital Cancer Center, Boston, United States; Dana-Farber Cancer Institute, Boston, United States; M D Anderson Cancer Center, Houston, United States
+   URL: https://clinicaltrials.gov/study/NCT00454363
+----------------------------------------
+
+12. Cabozantinib and Lanreotide as Treatment for Gastroenteropancreatic Neuroendocrine Tumors
+   NCT ID: NCT05048901
+   Status: RECRUITING
+   Phase: PHASE1
+   Relevance Score: 0.350
+   Relevance Reason: Relevant intervention: lanreotide; Relevant intervention: cabozantinib; Eligibility match: metastatic
+   Condition: Neuroendocrine Tumors,Gastroenteropancreatic
+   Intervention: Cabozantinib; Lanreotide
+   Sponsor: National Health Research Institutes, Taiwan
+   Start Date: 2021-09-17
+   Completion Date: 2026-12-31
+   Locations: Changhua Christian Hospital, Changhua, Taiwan; Chang Gung Medical Foundation, Kaohsiung, Taiwan; Kaohsiung Medical University Chung-Ho Memorial Hospital, Kaohsiung, Taiwan
+   URL: https://clinicaltrials.gov/study/NCT05048901
+----------------------------------------
+
+13. An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.
+   NCT ID: NCT05884255
+   Status: RECRUITING
+   Phase: PHASE3
+   Relevance Score: 0.350
+   Relevance Reason: Relevant intervention: octreotide; Relevant intervention: lutetium; Eligibility match: metastatic
+   Condition: Advanced Gastroenteropancreatic Neuroendocrine Tumor
+   Intervention: Lutetium (177Lu) Oxodotreotide Injection；long-acting Octreotide; long-acting Octreotide.
+   Sponsor: Jiangsu HengRui Medicine Co., Ltd.
+   Start Date: 2023-07-06
+   Completion Date: 2030-10
+   Locations: Tianjin University Cancer Institute and Hospital, Tianjin, China
+   URL: https://clinicaltrials.gov/study/NCT05884255
+----------------------------------------
+
+14. Related Studies of Imaging Features and Prognosis Between Pancreatic Neuroendocrine Tumors and Pancreatic Cancer
+   NCT ID: NCT04977596
+   Status: COMPLETED
+   Phase: N/A
+   Relevance Score: 0.300
+   Relevance Reason: Condition match: CT
+   Condition: Neuroendocrine Tumor of Pancreas; Carcinoma, Pancreatic; CT
+   Intervention: No intervention
+   Sponsor: Second Affiliated Hospital, School of Medicine, Zhejiang University
+   Start Date: 2012-01-01
+   Completion Date: 2019-06-25
+   Locations: Second Affiliated Hospital of Zhejiang University School of Medicine, Hangzhou, China
+   URL: https://clinicaltrials.gov/study/NCT04977596
+----------------------------------------
+
+15. A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients
+   NCT ID: NCT01262235
+   Status: COMPLETED
+   Phase: PHASE1
+   Relevance Score: 0.300
+   Relevance Reason: Condition match: NET
+   Condition: Cancer; Neuroendocrine Tumors; NET; Adrenocortical Carcinoma; ACC
+   Intervention: TKM-080301
+   Sponsor: Arbutus Biopharma Corporation
+   Start Date: 2010-12
+   Completion Date: 2015-08
+   Locations: Scottsdale Healthcare Research Institute, Scottsdale, United States; Mayo Clinic Arizona, Scottsdale, United States; Moffitt Cancer Center, Tampa, United States
+   URL: https://clinicaltrials.gov/study/NCT01262235
+----------------------------------------
+
+16. Genetics of Appendix Cancer Study
+   NCT ID: NCT05734430
+   Status: RECRUITING
+   Phase: N/A
+   Relevance Score: 0.300
+   Relevance Reason: Condition match: Appendix Cancer Metastatic
+   Condition: Appendix Cancer; Appendiceal Cancer; Appendiceal Neoplasms; Appendiceal Mucinous Neoplasm; Appendiceal Adenocarcinoma; Appendiceal Carcinoid Tumor; Appendiceal Neoplasm Malignant Secondary; Appendix Adenocarcinoma; Appendix Mucinous Neoplasm; Appendix Tumor; Appendix Cancer Metastatic; Appendix NET; Low-Grade Appendix Mucinous Neoplasm; High Grade Appendix Mucinous Neoplasm; High Grade Appendix Mucinous Adenocarcinoma
+   Intervention: Genetic profiling; Retrospective tissue procurement
+   Sponsor: Andreana Holowatyj, PhD, MSCI
+   Start Date: 2022-11-11
+   Completion Date: 2034-11
+   Locations: Vanderbilt-Ingram Cancer Center, Nashville, United States
+   URL: https://clinicaltrials.gov/study/NCT05734430
+----------------------------------------
+
+17. Trebananib And Temsirolimus in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery
+   NCT ID: NCT01548482
+   Status: COMPLETED
+   Phase: PHASE1
+   Relevance Score: 0.300
+   Relevance Reason: Title match: metastatic; Eligibility match: grade 2; Eligibility match: metastatic
+   Condition: Adult Solid Neoplasm; Lung Carcinoid Tumor; Recurrent Digestive System Neuroendocrine Tumor G1; Recurrent Renal Cell Carcinoma; Recurrent Uterine Corpus Sarcoma; Stage III Renal Cell Cancer; Stage IIIB Uterine Sarcoma; Stage IIIC Uterine Sarcoma; Stage IV Renal Cell Cancer; Stage IVA Uterine Sarcoma; Stage IVB Uterine Sarcoma
+   Intervention: Laboratory Biomarker Analysis; Pharmacological Study; Temsirolimus; Trebananib
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2012-03
+   Completion Date: 2014-01
+   Locations: BCCA-Vancouver Cancer Centre, Vancouver, Canada; Juravinski Cancer Centre at Hamilton Health Sciences, Hamilton, Canada; University Health Network-Princess Margaret Hospital, Toronto, Canada
+   URL: https://clinicaltrials.gov/study/NCT01548482
+----------------------------------------
+
+18. SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry
+   NCT ID: NCT03452774
+   Status: RECRUITING
+   Phase: N/A
+   Relevance Score: 0.300
+   Relevance Reason: Condition match: Cancer, Metastatic
+   Condition: Cancer, Metastatic; Cancer; Cancer of Pancreas; Cancer of Liver; Cancer of Stomach; Cancer Liver; Cancer of Rectum; Cancer of Kidney; Cancer of Esophagus; Cancer of Cervix; Cancer of Colon; Cancer of Larynx; Cancer, Lung; Cancer, Breast; Cancer, Advanced; Cancer Prostate; Cancer of Neck; Cancer of Skin; Neuroendocrine Tumors; Carcinoma; Mismatch Repair Deficiency; BRCA Gene Rearrangement; Non Hodgkin Lymphoma; Leukemia; Non Small Cell Lung Cancer; Cholangiocarcinoma; Glioblastoma; Central Nervous System Tumor; Melanoma; Urothelial Carcinoma; Bladder Cancer; Ovarian Cancer; Endometrial Cancer; Testicular Cancer; Breast Cancer; COVID; Myelofibrosis; Myeloproliferative Neoplasm; Myeloproliferative Disorders; Follicular Lymphoma; Mantle Cell Lymphoma; Marginal Zone Lymphoma; Myelodysplastic Syndromes
+   Intervention: Clinical Trial Matching
+   Sponsor: Massive Bio, Inc.
+   Start Date: 2018-01-01
+   Completion Date: 2027-06
+   Locations: Massive Bio, Inc, New York, United States
+   URL: https://clinicaltrials.gov/study/NCT03452774
+----------------------------------------
+
+19. Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs
+   NCT ID: NCT04711135
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.300
+   Relevance Reason: Relevant intervention: lutetium; Relevant intervention: dotatate
+   Condition: Gastroenteropancreatic Neuroendocrine Tumors; Pheochromocytoma; Paraganglioma
+   Intervention: Lutetium [177Lu] oxodotreotide/dotatate
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2022-08-31
+   Completion Date: 2034-05-07
+   Locations: University of Kentucky, Lexington, United States; Cincinnati Children's Hospital, Cincinnati, United States; Children's Hospital of Philadelphia, Philadelphia, United States
+   URL: https://clinicaltrials.gov/study/NCT04711135
+----------------------------------------
+
+20. Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)
+   NCT ID: NCT02955069
+   Status: COMPLETED
+   Phase: PHASE2
+   Relevance Score: 0.250
+   Relevance Reason: Title match: metastatic; Eligibility match: metastatic
+   Condition: Well-differentiated Non-functional NET of Thoracic Origin; Well-differentiated Non-functional NET of Gastrointestinal Origin; Well-differentiated Non-functional NET of Pancreatic Origin; Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma
+   Intervention: PDR001
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2017-02-14
+   Completion Date: 2020-05-13
+   Locations: City of Hope National Medical Center, Duarte, United States; Rocky Mountain Cancer Centers SC-2, Denver, United States; H Lee Moffitt Cancer Center and Research Institute, Tampa, United States
+   URL: https://clinicaltrials.gov/study/NCT02955069
+----------------------------------------
