@@ -3,12 +3,13 @@
 ClinicalTrials.gov API Patient-Study Matching System
 
 This script queries the ClinicalTrials.gov API to find relevant clinical trials
-for patients based on their diagnosis and clinical characteristics.
+for patients based on their diagnosis and characteristics.
 It can find both active and completed studies.
 """
 
 import json
 import logging
+import re
 import requests
 import time
 import os
@@ -34,7 +35,7 @@ if not OPENROUTER_API_KEY:
     logger.warning("OPENROUTER_API_KEY not set. Please set it as an environment variable.")
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 
-MIN_RELEVANCE_SCORE = 0.6
+MIN_RELEVANCE_SCORE = 1.0  # Ultra-strict: Only perfect matches (YES decisions) are included
 
 class LLMStudyMatcher:
     """Uses an LLM to match patients with clinical studies."""
@@ -58,7 +59,7 @@ class LLMStudyMatcher:
             "messages": [
                 {"role": "user", "content": prompt}
             ],
-            "max_tokens": 1000,
+            "max_tokens": 1500,  # Increased for detailed structured analysis
             "temperature": 0.0
         }
         
@@ -111,34 +112,81 @@ class LLMStudyMatcher:
         # For LLM evaluation, we use the detailed description for comprehensive comparison
         # Create prompt for LLM evaluation using detailed description
         prompt = f"""
-Du bist Facharzt für Onkologie, Facharzt für Endokrinologie und Facharzt für Nuklearmedizin. Bewerte, ob die folgende klinische Studie für den Patienten relevant sein könnte.
+You are a leading NET specialist with 25+ years in oncology/endocrinology. Your reputation depends on PERFECT patient-study matching. You ONLY recommend studies where the patient is the IDEAL candidate with ZERO uncertainty. A single mismatch = immediate NO.
 
+PATIENT PROFILE:
 {patient_data_formatted}
 
-STUDIE INFORMATION:
-- Titel: {study_title}
-- Beschreibung: {detailed_description}
+STUDY TO EVALUATE:
+Title: {study_title}
+Description: {detailed_description}
 
-WICHTIGER HINWEIS:
-Der Patient hat eine bestimmte Diagnose, aber die konkrete Behandlungsmethode ist noch NICHT festgelegt. Die Behandlung soll erst in einem zweiten Schritt basierend auf den gefundenen relevanten Studien entschieden werden.
+CRITICAL EVALUATION FRAMEWORK - ALL 6 CRITERIA MUST BE PERFECT:
 
-AUFGABE:
-Bewerte die Relevanz dieser Studie für den Patienten basierend auf der detaillierten Beschreibung auf einer Skala von 0.0 bis 1.0, wobei:
-- 0.0 = Völlig irrelevant (andere Erkrankung, völlig unpassend)
-- 0.3 = Teilweise relevant (ähnliche Erkrankung oder verwandte Indikation)
-- 0.6 = Relevant (passende Erkrankung, Studie könnte für Behandlungsentscheidung hilfreich sein)
-- 0.9 = Hochrelevant (sehr gut passende Erkrankung und Patientenprofil)
-- 1.0 = Ideal geeignet (perfekte Übereinstimmung mit Diagnose und Patientencharakteristika)
+1. EXACT DIAGNOSTIC MATCH (Zero Tolerance):
+   ✓ Study MUST target patient's precise NET subtype, location, and characteristics
+   ✗ REJECT: "solid tumors", "all NETs", "gastrointestinal cancers" - too broad
+   ✗ REJECT: Wrong anatomical site (pancreatic ≠ small bowel ≠ lung NET)
+   ✗ REJECT: Different functional status if specified in patient data
 
-Berücksichtige HAUPTSÄCHLICH:
-1. Übereinstimmung der Diagnose/Erkrankung mit der Studienindikation aus der detaillierten Beschreibung
-2. Relevanz der Studie für die Behandlungsentscheidung basierend auf der detaillierten Beschreibung
-3. Passung der beschriebenen Patientenpopulation zum gegebenen Patienten
-4. Spezifische Einschlusskriterien und Studiendesign aus der detaillierten Beschreibung
+2. PRECISE TUMOR CHARACTERISTICS:
+   ✓ Grade (G1/G2/G3) must match exactly if specified
+   ✓ Stage/extent (localized/regional/metastatic) must align perfectly
+   ✓ Ki-67 index range must be compatible if mentioned
+   ✗ REJECT: Any mismatch in tumor biology or staging
 
-Antworte im folgenden Format:
-RELEVANZ_SCORE: [0.0-1.0]
-BEGRÜNDUNG: [Detaillierte Erklärung der Relevanz basierend auf Diagnose-Matching mit der detaillierten Beschreibung]
+3. TREATMENT HISTORY ALIGNMENT:
+   ✓ First-line studies ONLY for treatment-naive patients
+   ✓ Salvage therapy studies ONLY for appropriately pre-treated patients
+   ✓ Prior treatment requirements must match patient's exact history
+   ✗ REJECT: Treatment line mismatch (e.g., 3rd-line study for untreated patient)
+
+4. DEMOGRAPHIC & CLINICAL FIT:
+   ✓ Age range must clearly include patient
+   ✓ Performance status requirements must be met
+   ✓ Organ function criteria must be satisfied
+   ✗ REJECT: Any demographic exclusion or borderline eligibility
+
+5. BIOMARKER & MOLECULAR REQUIREMENTS:
+   ✓ Required biomarkers must be confirmed in patient
+   ✓ Somatostatin receptor status must align if specified
+   ✗ REJECT: Unconfirmed biomarker requirements or molecular mismatches
+
+6. THERAPEUTIC APPROPRIATENESS:
+   ✓ Intervention must be optimal next step for THIS patient
+   ✓ Study must address patient's current clinical need precisely
+   ✓ Clear therapeutic rationale for this specific case
+   ✗ REJECT: Experimental approach when standard therapy available
+
+IMMEDIATE REJECTION TRIGGERS:
+• Non-NET cancers mentioned in any context
+• Wrong NET primary site or subtype
+• Pediatric studies for adults (or vice versa)
+• Phase I studies for standard-therapy candidates
+• "Solid tumor" basket studies
+• Geographic restrictions excluding patient
+• Unmet biomarker requirements
+• Treatment line incompatibility
+• Age/performance status exclusions
+• "Advanced refractory" for early-stage patients
+
+DECISION LOGIC:
+- Start with NO as default
+- Require PERFECT match on ALL 6 criteria
+- Any uncertainty = NO
+- Any missing information = NO
+- Would you stake your medical license on enrolling this patient? If not, answer NO
+
+STRUCTURED ANALYSIS REQUIRED:
+DECISION: [YES/NO]
+REASONING: 
+1. Diagnostic Match: [Exact match/mismatch details]
+2. Tumor Characteristics: [Grade/stage/biology alignment]
+3. Treatment History: [Line compatibility assessment]
+4. Demographics/Clinical: [Age/PS/organ function fit]
+5. Biomarkers: [Required markers and patient status]
+6. Therapeutic Benefit: [Why this study is/isn't optimal for patient]
+CONCLUSION: [Final justification for YES/NO decision]
 """
 
         try:
@@ -148,35 +196,59 @@ BEGRÜNDUNG: [Detaillierte Erklärung der Relevanz basierend auf Diagnose-Matchi
                 logger.error(f"LLM evaluation failed: {llm_response}")
                 return 0.0, "LLM evaluation failed"
             
-            # Parse LLM response
+            # Parse LLM response - handle both old and new structured formats
             relevance_score = 0.0
             explanation = "No explanation provided"
             
             lines = llm_response.split('\n')
-            for line in lines:
-                if line.startswith("RELEVANZ_SCORE:"):
-                    try:
-                        score_text = line.split(":", 1)[1].strip()
-                        relevance_score = float(score_text)
-                        relevance_score = max(0.0, min(1.0, relevance_score))  # Clamp to 0-1
-                    except (ValueError, IndexError):
-                        logger.warning(f"Could not parse relevance score from: {line}")
-                        
-                elif line.startswith("BEGRÜNDUNG:"):
-                    explanation = line.split(":", 1)[1].strip()
+            reasoning_started = False
+            reasoning_parts = []
             
-            # If no structured response, try to extract score from text
-            if relevance_score == 0.0 and explanation == "No explanation provided":
-                import re
-                score_match = re.search(r'(\d+\.?\d*)', llm_response)
-                if score_match:
+            for line in lines:
+                if line.startswith("DECISION:"):
                     try:
-                        relevance_score = float(score_match.group(1))
-                        if relevance_score > 1.0:
-                            relevance_score = relevance_score / 10.0  # Convert 8.5 to 0.85
-                        relevance_score = max(0.0, min(1.0, relevance_score))
-                    except ValueError:
-                        pass
+                        decision_text = line.split(":", 1)[1].strip().upper()
+                        # Remove markdown formatting (**, *, _, `, etc.) and extract YES/NO
+                        clean_decision = re.sub(r'[*_`~#]', '', decision_text).strip()
+                        
+                        # Convert YES/NO to numerical score: YES = 1.0, NO = 0.0
+                        if "YES" in clean_decision:
+                            relevance_score = 1.0
+                            logger.debug(f"Parsed decision as YES from: {line}")
+                        elif "NO" in clean_decision:
+                            relevance_score = 0.0
+                            logger.debug(f"Parsed decision as NO from: {line}")
+                        else:
+                            logger.warning(f"Could not parse decision from: {line} (cleaned: {clean_decision})")
+                    except (ValueError, IndexError):
+                        logger.warning(f"Could not parse decision from: {line}")
+                        
+                elif line.startswith("REASONING:"):
+                    reasoning_started = True
+                    reasoning_text = line.split(":", 1)[1].strip()
+                    if reasoning_text:
+                        reasoning_parts.append(reasoning_text)
+                elif reasoning_started and line.strip():
+                    # Continue collecting reasoning text until we hit a new section or end
+                    if not line.startswith(("DECISION:", "CONCLUSION:")):
+                        reasoning_parts.append(line.strip())
+                    else:
+                        reasoning_started = False
+                        
+            # Combine all reasoning parts
+            if reasoning_parts:
+                explanation = " ".join(reasoning_parts)
+                # Limit explanation length for readability
+                if len(explanation) > 500:
+                    explanation = explanation[:500] + "..."
+            
+            # If no structured response, try to extract YES/NO from text
+            if relevance_score == 0.0 and explanation == "No explanation provided":
+                # Look for YES or NO in the response
+                if re.search(r'\bYES\b', llm_response.upper()):
+                    relevance_score = 1.0
+                elif re.search(r'\bNO\b', llm_response.upper()):
+                    relevance_score = 0.0
                 explanation = llm_response[:200] + "..." if len(llm_response) > 200 else llm_response
             
             return relevance_score, explanation
@@ -356,7 +428,7 @@ class PatientStudyMatcher:
         
         Args:
             patient_data: Patient information dictionary
-            min_relevance_score: Minimum relevance score to include study
+            min_relevance_score: Minimum score to include study (1.0 = perfect match only)
             max_studies: Maximum number of studies to return
             
         Returns:
@@ -377,7 +449,7 @@ class PatientStudyMatcher:
             studies = self.api.search_studies(
                 condition=term,
                 status=["RECRUITING", "ACTIVE_NOT_RECRUITING", "COMPLETED", "TERMINATED"],
-                max_results=30  # Get more studies to evaluate with LLM
+                max_results=30  # Get studies to evaluate with ultra-strict LLM criteria
             )
             all_studies.extend(studies)
             # Add small delay between different search terms
@@ -402,7 +474,7 @@ class PatientStudyMatcher:
                 # Use LLM to calculate relevance
                 score, reason = self.llm_matcher.evaluate_study_relevance(patient_data, study)
                 
-                logger.info(f"Study {nct_id} - Relevance Score: {score:.3f}")
+                logger.info(f"Study {nct_id} - Decision: {'YES' if score >= 1.0 else 'NO'} (Score: {score:.1f})")
                 
                 if score >= min_relevance_score:
                     # Extract study details
@@ -477,16 +549,16 @@ class PatientStudyMatcher:
         # Sort by relevance score (highest first)
         matches.sort(key=lambda x: x.relevance_score, reverse=True)
         
-        logger.info(f"Found {len(matches)} relevant studies (score >= {min_relevance_score})")
+        logger.info(f"Found {len(matches)} PERFECT MATCH studies (ultra-strict criteria, score >= {min_relevance_score})")
         
         return matches[:max_studies]
 
 def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch]) -> str:
-    """Generate a formatted report of relevant studies for a patient."""
+    """Generate a formatted report of PERFECT MATCH studies for a patient (ultra-strict criteria)."""
     
     report = []
     report.append("="*80)
-    report.append("CLINICAL TRIALS MATCHING REPORT")
+    report.append("CLINICAL TRIALS PERFECT MATCHES REPORT (ULTRA-STRICT CRITERIA)")
     report.append("="*80)
     
     # Patient information
@@ -503,7 +575,7 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
         report.append(f"   NCT ID: {match.nct_id}")
         report.append(f"   Status: {match.status}")
         report.append(f"   Phase: {match.phase}")
-        report.append(f"   Relevance Score: {match.relevance_score:.3f}")
+        report.append(f"   Perfect Match: {'YES' if match.relevance_score >= 1.0 else 'NO'} (Score: {match.relevance_score:.1f})")
         report.append(f"   Relevance Reason: {match.relevance_reason}")
         report.append(f"   Condition: {match.condition}")
         report.append(f"   Intervention: {match.intervention}")
@@ -612,8 +684,8 @@ def main():
             # Find relevant studies using LLM evaluation
             matches = matcher.find_relevant_studies(
                 patient_data, 
-                min_relevance_score=MIN_RELEVANCE_SCORE,  # Higher threshold since LLM provides better scoring
-                max_studies=15  # Fewer studies but higher quality
+                min_relevance_score=MIN_RELEVANCE_SCORE,  # Ultra-strict threshold: only perfect matches (YES decisions)
+                max_studies=15  # Fewer studies but ultra-strict quality
             )
             
             # Generate report
@@ -624,7 +696,7 @@ def main():
             with open(patient_report_file, 'w', encoding='utf-8') as f:
                 f.write(report)
             
-            logger.info(f"Found {len(matches)} relevant studies for patient {patient_id}")
+            logger.info(f"Found {len(matches)} PERFECT MATCH studies for patient {patient_id} using ultra-strict criteria")
             
             # Store results for summary
             patient_result = {
@@ -682,17 +754,16 @@ def main():
             #     studies_with_publications += 1
     
     avg_score = sum(all_scores) / len(all_scores) if all_scores else 0
-    high_relevance_count = len([s for s in all_scores if s >= 0.7])
+    high_relevance_count = len([s for s in all_scores if s >= 1.0])  # Perfect matches only
     
     summary_report = [
         "="*80,
-        "LLM-BASED CLINICAL TRIALS MATCHING SUMMARY",
+        "LLM-BASED CLINICAL TRIALS PERFECT MATCHING SUMMARY (ULTRA-STRICT)",
         "="*80,
         f"Total patients processed: {len(all_results)}",
         f"Total studies found: {total_matches}",
         f"Average studies per patient: {avg_matches:.1f}",
-        f"Average relevance score: {avg_score:.3f}",
-        f"High relevance studies (≥0.7): {high_relevance_count}",
+        f"Perfect matches (ultra-strict): {high_relevance_count} (all matches are perfect fits)",
         # f"Studies with publications: {studies_with_publications}/{total_matches}",  # Commented out - publications disabled
         # f"Total publications downloaded: {total_publications}",  # Commented out - publications disabled
         # f"Publications directory: {OUTPUT_DIR}/publications",  # Commented out - publications disabled

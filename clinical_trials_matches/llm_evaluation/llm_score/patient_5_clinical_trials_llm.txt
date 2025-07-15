@@ -1,0 +1,261 @@
+================================================================================
+CLINICAL TRIALS MATCHING REPORT
+================================================================================
+
+Patient ID: 5
+Diagnosis: NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)
+CT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+06/2015 DOTATOC PET: starke Speicherung der Läsionen.
+Clinical Question: Weitere Therapie, Somatuline oder PRRT?
+Report generated: 2025-07-10 12:30:34
+
+Found 15 relevant clinical trials
+--------------------------------------------------------------------------------
+
+1. Dosimetry Based PRRT Versus Standard Dose PRRT With Lu-177-DOTATOC in NEN Patients
+   NCT ID: NCT04917484
+   Status: RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.900
+   Relevance Reason: Die Studie ist für diesen Patienten hochrelevant. Der Patient leidet an einem neuroendokrinen Tumor (NET) des Pankreas mit Lymphknoten- und Lebermetastasen, was exakt der Patientenpopulation entspricht, die in der Studie untersucht wird. Die Studie vergleicht zwei PRRT-Strategien (Dosimetry-Based vs. Standard Dose) mit Lu-177-DOTATOC, was die aktuelle Fragestellung des Patienten – Somatuline oder PRRT – direkt adressiert. Der Patient hat bereits eine DOTATOC-PET-Untersuchung gehabt, die eine starke Speicherung in den Läsionen zeigte, was ihn zu einem geeigneten Kandidaten für eine PRRT-Therapie macht. Die Studie könnte somit entscheidend bei der Wahl der optimalen PRRT-Strategie helfen. Da die Behandlungsmethode noch nicht festgelegt ist und die Studie eine direkte Vergleichbarkeit verschiedener PRRT-Ansätze bietet, ist sie für die Behandlungsentscheidung von großem Wert. Die Informationen deuten darauf hin, dass die Studie sich auf Patienten mit NEN (neuroendokrinen Neoplasien) konzentriert, was die Diagnose des Patienten eindeutig einschließt.
+   Condition: Neuroendocrine Neoplasm
+   Intervention: Lu-177-DOTA-Octreotide
+   Sponsor: Tine Gregersen, MD
+   Start Date: 2020-02-01
+   Completion Date: 2026-12
+   Locations: Aarhus University Hospital, department of Nuclear medicine and PET centre, Aarhus, Denmark
+   URL: https://clinicaltrials.gov/study/NCT04917484
+   Summary: In this study, we want to randomize patients with neuroendocrine neoplasms (NENs) who are eligible for peptide receptor radionuclide therapy (PRRT), to either standard PRRT consisting of 4 treatments with 7.4 GBq Lu-177-DOTATOC (standard arm) or 4 treatments with individualized doses of Lu-177-DOTAT...
+----------------------------------------
+
+2. 177Lu-DOTATATE Modified Delivery Based on Individualized Dosimetry
+   NCT ID: NCT06395402
+   Status: RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.900
+   Relevance Reason: Die Studie ist für diesen Patienten hochrelevant. Der Patient leidet an einem neuroendokrinen Tumor (NET) des Pankreas mit Lymphknoten- und Lebermetastasen, was exakt der Indikation für die Behandlung mit Lutetium-177-DOTATATE (Lutathera) entspricht, die in der Studie untersucht wird. Der DOTATOC PET Scan zeigt eine starke Speicherung der Läsionen, was ein positives Prädiktivmerkmal für eine erfolgreiche Therapie mit DOTATATE darstellt.
+   Condition: Neuroendocrine Tumors; Neuroendocrine Tumor Grade 1; Neuroendocrine Tumor Grade 2
+   Intervention: Lutetium Lu 177 dotatate therapy
+   Sponsor: University of Iowa
+   Start Date: 2024-05-03
+   Completion Date: 2029-12-31
+   Locations: Holden Comprehensive Cancer Center at the University of Iowa, Iowa City, United States
+   URL: https://clinicaltrials.gov/study/NCT06395402
+   Summary: The goal of this study is to learn if individualized dosimetry-based prescribing of Lutetium-177 DOTATATE (Lutathera, Novartis Pharmaceuticals) improves treatment outcomes for adults with unresectable neuroendocrine tumors. To investigate this, study participants will:
+
+* Undergo Somatostatin Recept...
+----------------------------------------
+
+3. Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET
+   NCT ID: NCT06784752
+   Status: RECRUITING
+   Phase: PHASE3
+   Relevance Score: 0.900
+   Relevance Reason: Die Studie ist für diesen Patienten hochrelevant.
+   Condition: Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)
+   Intervention: [177Lu]Lu-DOTA-TATE; Octreotide LAR
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2025-05-30
+   Completion Date: 2034-01-05
+   Locations: Highlands Oncology Group, Fayetteville, United States; Rocky Mountain Cancer Centers, Denver, United States; Piedmont Hematology And Oncology, Winston-Salem, United States
+   URL: https://clinicaltrials.gov/study/NCT06784752
+   Summary: The purpose of the current study is to evaluate the efficacy and safety of \[177Lu\]Lu-DOTA-TATE plus octreotide long-acting release (LAR) versus octreotide LAR alone in newly diagnosed patients with somatostatin receptor positive (SSTR+), well differentiated Grade1 and Grade 2 (G1 and G2) (Ki-67 \<...
+----------------------------------------
+
+4. Study of Pembrolizumab With Lanreotide Depot for Gastroenteropancreatic Neuroendocrine Tumors
+   NCT ID: NCT03043664
+   Status: COMPLETED
+   Phase: PHASE1
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie "Study of Pembrolizumab With Lanreotide Depot for Gastroenteropancreatic Neuroendocrine Tumors" ist für diesen Patienten hochrelevant.
+   Condition: Gastroenteropancreatic Neuroendocrine Tumors
+   Intervention: Lanreotide; Pembrolizumab
+   Sponsor: Duke University
+   Start Date: 2017-07-01
+   Completion Date: 2022-06-07
+   Locations: Duke University Medical Center, Durham, United States; Lexington Medical Center, Columbia, United States
+   URL: https://clinicaltrials.gov/study/NCT03043664
+   Summary: This study is for patients with non-resectable, recurrent, or metastatic well or moderately differentiated gastroenteropancreatic neuroendocrine tumors (GEP-NETs).
+
+The study will be conducted in two stages: 1) Safety Run-In and 2) Expanded Cohort.
+
+1. Safety run-in: The first stage will include a s...
+----------------------------------------
+
+5. Post-Authorization Long-Term Safety Study of LUTATHERA
+   NCT ID: NCT03691064
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: N/A
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie "Post-Authorization Long-Term Safety Study of LUTATHERA" ist für diesen Patienten hochrelevant. Hier ist die detaillierte Begründung:
+   Condition: Neuroendocrine Tumors
+   Intervention: LUTATHERA
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2018-11-28
+   Completion Date: 2028-06-30
+   Locations: Banner MD Anderson Cancer Center, Phoenix, United States; The Ohio State University Wexner Medical Center, Portland, United States; Oregon Health & Sciences University Hospital, Portland, United States
+   URL: https://clinicaltrials.gov/study/NCT03691064
+   Summary: Study to assess the long-term safety of LUTATHERA for the labeled indication (SmPC/USPI).
+----------------------------------------
+
+6. Testing the Effectiveness of an Anti-cancer Drug, Triapine, When Used With Targeted Radiation-based Treatment (Lutetium Lu 177 Dotatate), Compared to Lutetium Lu 177 Dotatate Alone for Metastatic Neuroendocrine Tumors
+   NCT ID: NCT05724108
+   Status: RECRUITING
+   Phase: PHASE2
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie ist für den Patienten sehr relevant. Der Patient leidet an einem neuroendokrinen Tumor (NET) des Pankreas mit Lymphknoten- und Lebermetastasen, was exakt der Zielpopulation der Studie entspricht ("Metastatic Neuroendocrine Tumors"). Der Patient hat bereits eine DOTATOC PET-Untersuchung erhalten, die eine starke Speicherung in den Läsionen zeigte, was ihn zu einem geeigneten Kandidaten für eine Therapie mit Lutetium Lu 177 Dotatate macht, welches in der Studie als Standardtherapie (Arm 2) und in Kombination mit Triapine (Arm 1) untersucht wird.
+   Condition: Metastatic Neuroendocrine Tumor
+   Intervention: Biospecimen Collection; Computed Tomography; Lutetium Lu 177 Dotatate; Magnetic Resonance Imaging; Triapine
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2023-08-30
+   Completion Date: 2025-09-30
+   Locations: City of Hope Comprehensive Cancer Center, Duarte, United States; UCI Health - Chao Family Comprehensive Cancer Center and Ambulatory Care, Irvine, United States; UC Irvine Health/Chao Family Comprehensive Cancer Center, Orange, United States
+   URL: https://clinicaltrials.gov/study/NCT05724108
+   Summary: This phase II trial compares the effect of adding triapine to lutetium Lu 177 dotatate versus lutetium Lu 177 dotatate alone (standard therapy) in shrinking tumors or slowing tumor growth in patients with neuroendocrine tumors that have spread from where they first started (primary site) to other pl...
+----------------------------------------
+
+7. Combined Beta- Plus Auger Electron Therapy Using a Novel Somatostatin Receptor Subtype 2 Antagonist Labelled With Terbium-161 (161Tb-DOTA-LM3)
+   NCT ID: NCT05359146
+   Status: RECRUITING
+   Phase: EARLY_PHASE1
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie ist für den Patienten sehr relevant. Der Patient leidet an einem Pankreas-NET mit Lymphknoten- und Lebermetastasen, was direkt in die Studienindikation (Neuroendocrine Neoplasia's, insbesondere GEP-NETs) fällt. Die Studie vergleicht eine neue PRRT-Methode (161Tb-DOTA-LM3) mit dem aktuellen Standard (177Lu-DOTATOC), und der Patient steht gerade vor der Entscheidung, welche dieser Therapien er erhalten soll (Somatuline oder PRRT).
+   Condition: Neuroendocrine Neoplasia's (NENs); Gastroenteropancreatic Neuroendocrine Tumour (GEP-NET)
+   Intervention: 161Tb-DOTA-LM3; 177Lu-DOTATOC
+   Sponsor: University Hospital, Basel, Switzerland
+   Start Date: 2023-03-28
+   Completion Date: 2025-12
+   Locations: Division of Nuclear Medicine, University Hospital Basel, Basel, Switzerland
+   URL: https://clinicaltrials.gov/study/NCT05359146
+   Summary: The goal of this phase 0 proof-of concept study is to measure the therapeutic index (tumour to dose-limiting-organ dose ratios) of 161Tb-DOTA-LM3 in comparison to the current standard 177Lu-DOTATOC in the same gastroenteropancreatic neuroendocrine tumour (GEP-NET) patients in a randomized, cross-ove...
+----------------------------------------
+
+8. Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy
+   NCT ID: NCT05477576
+   Status: RECRUITING
+   Phase: PHASE3
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie scheint für den Patienten hochrelevant zu sein. Hier ist die detaillierte Begründung:
+   Condition: GEP-NET; Gastroenteropancreatic Neuroendocrine Tumor; Gastroenteropancreatic Neuroendocrine Tumor Disease; Neuroendocrine Tumors; Carcinoid; Carcinoid Tumor; Pancreatic NET
+   Intervention: RYZ101; Everolimus; Sunitinib; Octreotide; Lanreotide
+   Sponsor: RayzeBio, Inc.
+   Start Date: 2022-03-24
+   Completion Date: 2028-07
+   Locations: Research Facility, Phoenix, United States; Research Facility, Duarte, United States; Research Facility, Irvine, United States
+   URL: https://clinicaltrials.gov/study/NCT05477576
+   Summary: This study aims to determine the safety, pharmacokinetics (PK) and recommended Phase 3 dose (RP3D) of RYZ101 in Part 1, and the safety, efficacy, and PK of RYZ101 compared with investigator-selected standard of care (SoC) therapy in Part 2 in subjects with inoperable, advanced, well-differentiated, ...
+----------------------------------------
+
+9. 68Ga-DOTATOC Radio-Guided Surgery With β-Probe in GEP-NET
+   NCT ID: NCT05448157
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: N/A
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie ist für den Patienten sehr relevant. Der Patient hat ein Pankreas-NET mit Leber- und Lymphknotenmetastasen (G2, 2015), was direkt in die Studienindikation für gastro-entero-pankreatische neuroendokrine Tumore (GEP-NETs) fällt. Die Studie untersucht die Verwendung einer Beta-Sonde in Kombination mit 68Ga-DOTATOC PET/CT, um die präzise Lokalisierung von Tumoren und Metastasen während der Operation zu verbessern.
+   Condition: Neuroendocrine Tumor Carcinoid; Neuroendocrine Tumor of Pancreas; Gep Net
+   Intervention: 
+   Sponsor: European Institute of Oncology
+   Start Date: 2022-05-12
+   Completion Date: 2023-12-12
+   Locations: IRCCS Istituto Europeo di Oncologia S.r.l., Milan, Italy
+   URL: https://clinicaltrials.gov/study/NCT05448157
+   Summary: In gastro-entero-pancreatic neuroendocrine tumors (GEP-NETs), radical surgery provides good long-term outcome and low recurrence rates. In GEP-NETs the actual surgical planning is established on the ground of preoperative morphology images (CT scan), and functional imaging using CT/PET with 68Ga-DOT...
+----------------------------------------
+
+10. A Post Marketing Surveillance on Lutathera® in Patients With Somatostatin Receptor Positive Gastroenteropancreatic Neuroendocrine Tumor in Korea
+   NCT ID: NCT04946305
+   Status: COMPLETED
+   Phase: N/A
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie scheint für den Patienten hochrelevant zu sein. Hier ist die Begründung:
+   Condition: Somatostatin Receptor-positive GEP-NET
+   Intervention: Lutathera
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2022-05-10
+   Completion Date: 2024-07-08
+   Locations: Novartis Investigative Site, Seongnam Si, Korea, Republic of; Novartis Investigative Site, Seoul, Korea, Republic of; Novartis Investigative Site, Seoul, Korea, Republic of
+   URL: https://clinicaltrials.gov/study/NCT04946305
+   Summary: This is a prospective, open-label, multi-center, non-comparative, non-interventional observational study to assess safety and effectiveness of Lutathera in patients with somatostatin receptor-positive GEP-NET in the real-world setting in Korea.
+----------------------------------------
+
+11. A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients
+   NCT ID: NCT01262235
+   Status: COMPLETED
+   Phase: PHASE1
+   Relevance Score: 0.800
+   Relevance Reason: Die Studie "A Dose Finding Study of TKM-080301 Infusion in Neuroendocrine Tumors (NET) and Adrenocortical Carcinoma (ACC) Patients" ist für diesen Patienten hochrelevant.
+   Condition: Cancer; Neuroendocrine Tumors; NET; Adrenocortical Carcinoma; ACC
+   Intervention: TKM-080301
+   Sponsor: Arbutus Biopharma Corporation
+   Start Date: 2010-12
+   Completion Date: 2015-08
+   Locations: Scottsdale Healthcare Research Institute, Scottsdale, United States; Mayo Clinic Arizona, Scottsdale, United States; Moffitt Cancer Center, Tampa, United States
+   URL: https://clinicaltrials.gov/study/NCT01262235
+   Summary: This study will be a Phase I/II, open-label, non-randomized, dose-finding trial conducted at multiple clinical centers. The study is designed to determine the safety, tolerability and PK of TKM-080301 in adult patients with solid tumors or lymphomas that are refractory to standard therapy or for who...
+----------------------------------------
+
+12. Phase III Study of Surufatinib in Treating Advanced Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT02589821
+   Status: COMPLETED
+   Phase: PHASE3
+   Relevance Score: 0.700
+   Relevance Reason: Die Studie zur Behandlung von fortgeschrittenen Pankreas-Neuroendokrinen Tumoren (pNET) ist für diesen Patienten relevant. Der Patient hat ein pNET des Pankreas (G2) mit Lymphknoten- und Lebermetastasen, was eindeutig in den Bereich der "Advanced Pancreatic Neuroendocrine Tumors" fällt, die in der Studie untersucht werden.
+   Condition: Neuroendocrine Tumors
+   Intervention: Surufatinib; Placebo
+   Sponsor: Hutchison Medipharma Limited
+   Start Date: 2015-12-07
+   Completion Date: 2022-07-07
+   Locations: Peking Union Medical College Hospital, Beijing, China; the 307 Hospital of People's Liberation Army, Beijing, China; Beijing Cancer Hospital, Beijing, China
+   URL: https://clinicaltrials.gov/study/NCT02589821
+   Summary: A randomized, double-blind, placebo controlled, multi-center Phase III study to assess the efficacy of Surufatinib 300 mg once a day in treating advanced pancreatic neuroendocrine tumors.
+----------------------------------------
+
+13. Open-label Study of Surufatinib in Japanese Patients
+   NCT ID: NCT05077384
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE1
+   Relevance Score: 0.700
+   Relevance Reason: Die Studie zeigt eine moderate bis hohe Relevanz für den Patienten.
+   Condition: Neuroendocrine Tumors; Non-hematologic Malignancy
+   Intervention: Surufatinib
+   Sponsor: Hutchmed
+   Start Date: 2021-09-02
+   Completion Date: 2024-12
+   Locations: Kyushu University Hospital, Fukuoka, Japan; Fukuoka Sanno Hospital, Fukuoka, Japan; Kagawa University Hospital, Kagawa, Japan
+   URL: https://clinicaltrials.gov/study/NCT05077384
+   Summary: This is a phase 1/2, open-label, multi-centre study of surufatinib in patients with unresectable, locally advanced, or recurrent nonhematologic malignancies who do not respond or are intolerant to standard of care.
+----------------------------------------
+
+14. Nivolumab With Ipilimumab in Subjects With Neuroendocrine Tumors
+   NCT ID: NCT03420521
+   Status: TERMINATED
+   Phase: PHASE2
+   Relevance Score: 0.700
+   Relevance Reason: Die Studie scheint für den Patienten relevant zu sein, wenn auch nicht perfekt passend.
+   Condition: Neuroendocrine Tumors; Carcinoid Tumor
+   Intervention: Nivolumab; Ipilimumab
+   Sponsor: Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins
+   Start Date: 2018-03-09
+   Completion Date: 2021-11-24
+   Locations: Johns Hopkins Medical Institution, Baltimore, United States
+   URL: https://clinicaltrials.gov/study/NCT03420521
+   Summary: This is a single arm open-label design study looking at Nivolumab plus Ipilimumab in patients with Advanced Neuroendocrine Tumors. Patients will be dosed Nivolumab 240mg IV over 60 minutes every 2 weeks (Q2W) and Ipilimumab 1mg/kg IV over 30 minutes every 6 weeks (Q6W). One cycle will include 3 dose...
+----------------------------------------
+
+15. Mobile Application to Collect PRO Data in NET Patients
+   NCT ID: NCT04324502
+   Status: RECRUITING
+   Phase: N/A
+   Relevance Score: 0.700
+   Relevance Reason: Die Studie ist für den Patienten relevant, wenn auch nicht perfekt passend. Der Patient leidet an einem Pankreas-NET mit Lymphknoten- und Lebermetastasen, was direkt in den Studienfokus von Neuroendokrinen Tumoren (NET) fällt. Die Studie zielt darauf ab, Patient Reported Outcomes (PROs) und Lebensqualität während der Behandlung zu erfassen, was für die Behandlungsentscheidung zwischen Somatuline und PRRT sehr wertvoll sein könnte.
+   Condition: Neuroendocrine Neoplasms (Tumours)
+   Intervention: 
+   Sponsor: King's College Hospital NHS Trust
+   Start Date: 2020-07-20
+   Completion Date: 2026-07
+   Locations: King's College Hospital, London, United Kingdom
+   URL: https://clinicaltrials.gov/study/NCT04324502
+   Summary: Observational trial to assess the feasibility of monitoring patient reporting symptoms via mobile devices
+----------------------------------------
