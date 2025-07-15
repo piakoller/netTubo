@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 from typing import Dict, List, Tuple, Any
 
-import docling  # Using docling instead of PyMuPDF
+from docling.document_converter import DocumentConverter  # Using docling for PDF processing
 from data_loader import load_patient_data
 from shared_logic import format_patient_data_for_prompt, PATIENT_FIELDS_FOR_PROMPT
 from config import OPENROUTER_API_KEY, OPENROUTER_API_URL, OPENROUTER_MODEL
@@ -28,12 +28,16 @@ logger = logging.getLogger(__name__)
 class AbstractProcessor:
     """Handles PDF processing and abstract extraction."""
 
+    def __init__(self):
+        """Initialize the document converter."""
+        self.converter = DocumentConverter()
+
     def extract_text_from_pdf(self, pdf_path: Path) -> str:
         """Extracts all text from a given PDF file using docling."""
         try:
-            # Assuming docling provides a simple interface to read PDF text
-            doc = docling.read(str(pdf_path))
-            return doc.text
+            # Use DocumentConverter to process the PDF
+            result = self.converter.convert(str(pdf_path))
+            return result.document.export_to_text()
         except Exception as e:
             logger.error(f"Could not read PDF {pdf_path} with docling: {e}")
             return ""
