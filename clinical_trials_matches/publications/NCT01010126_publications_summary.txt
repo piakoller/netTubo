@@ -1,0 +1,40 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT01010126
+================================================================================
+Study Title: Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer
+Search Date: 2025-07-15 14:06:56
+Publications Found: 3
+
+--------------------------------------------------------------------------------
+
+1. Hobday TJ, Qin R, Reidy-Lagunes D, Moore MJ, Strosberg J, Kaubisch A, Shah M, Kindler HL, Lenz HJ, C...
+   PMID: 25488966
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/25488966/
+   Source: study_data
+   Abstract: Hobday TJ, Qin R, Reidy-Lagunes D, Moore MJ, Strosberg J, Kaubisch A, Shah M, Kindler HL, Lenz HJ, Chen H, Erlichman C. Multicenter Phase II Trial of Temsirolimus and Bevacizumab in Pancreatic Neuroendocrine Tumors. J Clin Oncol. 2015 May 10;33(14):1551-6. doi: 10.1200/JCO.2014.56.2082. Epub 2014 De...
+
+----------------------------------------
+
+2. Knox JJ, Qin R, Strosberg JR, Tan B, Kaubisch A, El-Khoueiry AB, Bekaii-Saab TS, Rousey SR, Chen HX,...
+   PMID: 25318437
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/25318437/
+   Source: study_data
+   Abstract: Knox JJ, Qin R, Strosberg JR, Tan B, Kaubisch A, El-Khoueiry AB, Bekaii-Saab TS, Rousey SR, Chen HX, Erlichman C. A phase II trial of bevacizumab plus temsirolimus in patients with advanced hepatocellular carcinoma. Invest New Drugs. 2015 Feb;33(1):241-6. doi: 10.1007/s10637-014-0169-3. Epub 2014 Oc...
+
+----------------------------------------
+
+3. A phase II study of bevacizumab and temsirolimus in advanced extra-pancreatic neuroendocrine tumors.
+   PMID: 37702588
+   Authors: Sonia M Abuzakhm, Vineeth Sukrithan, Briant Fruth
+   Journal: Endocrine-related cancer
+   Year: 2023
+   DOI: 10.1530/ERC-22-0301
+   URL: https://pubmed.ncbi.nlm.nih.gov/37702588/
+   Source: pubmed_search
+   Abstract: We assessed the efficacy and safety of combining bevacizumab with temsirolimus in patients with advanced extra-pancreatic neuroendocrine tumors. This NCI-sponsored multicenter, open-label, phase II study (NCT01010126) enrolled patients with advanced, recurrent, or metastatic extra-pancreatic neuroen...
+
+----------------------------------------

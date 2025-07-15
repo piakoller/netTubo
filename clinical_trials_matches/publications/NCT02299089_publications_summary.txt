@@ -1,0 +1,18 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT02299089
+================================================================================
+Study Title: Phase II Study of Subcutaneous Inj. Depot of Octreotide in Patients With Acromegaly and Neuroendocrine Tumours (NETs)
+Search Date: 2025-07-15 13:45:54
+Publications Found: 1
+
+--------------------------------------------------------------------------------
+
+1. Pavel M, Borson-Chazot F, Cailleux A, Horsch D, Lahner H, Pivonello R, Tauchmanova L, Darstein C, Ol...
+   PMID: 30535537
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/30535537/
+   Source: study_data
+   Abstract: Pavel M, Borson-Chazot F, Cailleux A, Horsch D, Lahner H, Pivonello R, Tauchmanova L, Darstein C, Olsson H, Tiberg F, Ferone D. Octreotide SC depot in patients with acromegaly and functioning neuroendocrine tumors: a phase 2, multicenter study. Cancer Chemother Pharmacol. 2019 Feb;83(2):375-385. doi...
+
+----------------------------------------

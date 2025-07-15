@@ -1,5 +1,5 @@
 ================================================================================
-CLINICAL TRIALS PERFECT MATCHES REPORT (ULTRA-STRICT CRITERIA)
+CLINICAL TRIALS MATCHES REPORT (STUDIES WITH PUBLICATIONS AND POSTED RESULTS ONLY)
 ================================================================================
 
 Patient ID: 2
@@ -9,39 +9,432 @@ Koloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm o
 
 07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.
 Clinical Question: Weitere Therapie?
-Report generated: 2025-07-14 16:22:48
+Report generated: 2025-07-15 14:08:01
 
-Found 2 relevant clinical trials
+Found 15 relevant clinical trials (with publications and posted results)
 --------------------------------------------------------------------------------
 
-1. Combination of Lanreotide Autogel 120mg and Temozolomide in Progressive GEP-NET
-   NCT ID: NCT02231762
+1. Impact of Ga-68 DOTATOC PET-CT Imaging in Management of Neuroendocrine Tumors
+   NCT ID: NCT02441062
    Status: COMPLETED
    Phase: PHASE2
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** Exact match. The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors). The patient has a NET of the small intestine (Dünndarm), which falls under GEP-NET. No broader, unacceptable terms like "solid tumors" are present. 2. **Tumor Characteristics:** Precise alignment. The patient’s tumor is G3 with a Ki67 of 48%. While the study description doesn’t *explicitly* state a Ki67 range, G3 NETs generally have high Ki67 proliferation indices, making...
-   Condition: Gastroenteropancreatic Neuroendocrine Tumors
-   Intervention: Lanreotide Autogel 120 mg; Temozolomide (TMZ)
-   Sponsor: Ipsen
-   Start Date: 2014-10
-   Completion Date: 2017-06
-   Locations: Vienna General Hospital, Vienna, Austria; Zentralklinik Bad Berka, Bad Berka, Germany; Charité University Hospital, Berlin, Germany
-   URL: https://clinicaltrials.gov/study/NCT02231762
-   Summary: The purpose of the study is to evaluate the efficacy and tolerability of the combination of Lanreotide Autogel 120 mg and Temozolomide in patients with progressive gastro-entero-pancreatic neuroendocrine tumours (GEP-NET) graded as G1 or G2 (G1/G2). All progressive tumours classified according to Re...
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+## NET Clinical Trial Evaluation
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study explicitly targets patients with histologically proven neuroendocrine tumors (NETs), which ...
+   Has Posted Results: YES (verified)
+   Condition: Neuroendocrine Tumors; Carcinoid Tumors; Neuroblastoma; Medulloblastoma
+   Intervention: 68Ga-DOTATOC PET/CT
+   Sponsor: Sue O'Dorisio
+   Start Date: 2015-09
+   Completion Date: 2020-01-20
+   Locations: University of Iowa Hospitals and Clinics, Iowa City, United States
+   URL: https://clinicaltrials.gov/study/NCT02441062
+   Summary: Participants in this study have been diagnosed with a tumor such as a carcinoid, neuroendocrine tumor, neuroblastoma, Ewing's sarcoma, or brain tumor that has cells which carry somatostatin receptors.
+
+The purpose of this research study is to see if the tumor can be identified using a special proced...
+   Publications Found: 1
+     1. Menda Y, Ponto LL, Schultz MK, Zamba GK, Watkins GL, Bushnell DL, Madsen MT, Sunderland JJ, Graham M... (N/A)
+        PMID: 23587853 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/23587853/
 ----------------------------------------
 
-2. 68Ga-DOTATOC Radio-Guided Surgery With β-Probe in GEP-NET
-   NCT ID: NCT05448157
-   Status: ACTIVE_NOT_RECRUITING
-   Phase: N/A
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically focuses on GEP-NETs, and the patient has a well-defined small intestine NET (SI-NET), a subtype of GEP-NET. The location (small bowel) is perfectly aligned. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G3 NET with a Ki67 of 48%, indicating a relatively aggressive tumor. The study doesn’t specify a grade exclusion, and the high Ki67 is *compatible* with the study population seeking improved surgical r...
-   Condition: Neuroendocrine Tumor Carcinoid; Neuroendocrine Tumor of Pancreas; Gep Net
-   Intervention: 
-   Sponsor: European Institute of Oncology
-   Start Date: 2022-05-12
-   Completion Date: 2023-12-12
-   Locations: IRCCS Istituto Europeo di Oncologia S.r.l., Milan, Italy
-   URL: https://clinicaltrials.gov/study/NCT05448157
-   Summary: In gastro-entero-pancreatic neuroendocrine tumors (GEP-NETs), radical surgery provides good long-term outcome and low recurrence rates. In GEP-NETs the actual surgical planning is established on the ground of preoperative morphology images (CT scan), and functional imaging using CT/PET with 68Ga-DOT...
+2. Rovalpituzumab Tesirine in Delta-Like Protein 3-Expressing Advanced Solid Tumors
+   NCT ID: NCT02709889
+   Status: TERMINATED
+   Phase: PHASE1
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## NET Clinical Trial Evaluation - Rovalpituzumab Tesirine
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study explicitly includes “high-grade gastroenteropancreatic neuroendocr...
+   Has Posted Results: YES (verified)
+   Condition: Malignant Melanoma; Medullary Thyroid Cancer; Glioblastoma; Large-Cell Neuroendocrine Carcinoma; Neuroendocrine Prostate Cancer; High Grade Gastroenteropancreatic Neuroendocrine Carcinoma; Other Neuroendocrine Carcinoma; Other Solid Tumors
+   Intervention: Rovalpituzumab tesirine; Dexamethasone
+   Sponsor: AbbVie
+   Start Date: 2016-09-23
+   Completion Date: 2019-08-27
+   Locations: Banner MD Anderson Cancer Ctr /ID# 155424, Gilbert, United States; Mayo Clinic - Scottsdale /ID# 155419, Scottsdale, United States; University of California, Los Angeles /ID# 155429, Los Angeles, United States
+   URL: https://clinicaltrials.gov/study/NCT02709889
+   Summary: The primary objective of this study is to assess the safety and tolerability of rovalpituzumab tesirine in subjects with specific delta-like protein 3-expressing advanced solid tumors.
+   Publications Found: 2
+     1. Xie H, Kaye FJ, Isse K, Sun Y, Ramoth J, French DM, Flotte TJ, Luo Y, Saunders LR, Mansfield AS. Del... (N/A)
+        PMID: 32372416 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/32372416/
+     2. A phase I/II study of rovalpituzumab tesirine in delta-like 3-expressing advanced solid tumors. (2021)
+        PMID: 34354225 | Journal: NPJ precision oncology
+        DOI: 10.1038/s41698-021-00214-y
+        Link: https://pubmed.ncbi.nlm.nih.gov/34354225/
+----------------------------------------
+
+3. PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies
+   NCT ID: NCT03365791
+   Status: COMPLETED
+   Phase: PHASE2
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+## NET Clinical Trial Evaluation
+
+**DECISION:** YES
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study explicitly includes “Advanced well-differentiated neuroendocrine tumors” as one of its seve...
+   Has Posted Results: YES (verified)
+   Condition: Small Cell Lung Cancer; Gastric Adenocarcinoma; Esophageal Adenocarcinoma; Castration Resistant Prostate Adenocarcinoma; Soft Tissue Sarcoma; Ovarian Adenocarcinoma; Advanced Well-differentiated Neuroendocrine Tumors; Diffuse Large B Cell Lymphoma
+   Intervention: PDR001; LAG525
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2018-01-24
+   Completion Date: 2020-09-17
+   Locations: California Pacific Medical Center Drug Shipment (2), San Francisco, United States; Hematology Oncology Associates of the Treasure Coast, Port Saint Lucie, United States; University Cancer and Blood Center, LLC, Athens, United States
+   URL: https://clinicaltrials.gov/study/NCT03365791
+   Summary: The purpose of this signal seeking study is to determine whether treatment with PDR001 and LAG525 demonstrates sufficient efficacy in advanced malignancies to warrant further study.
+   Publications: No publications found
+----------------------------------------
+
+4. Study Escalating Doses of PM01183 in Combination With Fixed Doxorubicin in Patients With Specific Advanced Unresectable Solid Tumors
+   NCT ID: NCT01970540
+   Status: COMPLETED
+   Phase: PHASE1
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+## NET Clinical Trial Evaluation
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study *specifically* includes neuroendocrine tumors (NETs) in its expansion cohort, making it hig...
+   Has Posted Results: YES (verified)
+   Condition: Endometrial Adenocarcinomas; Neuroendocrine Tumors; Small-cell Lung Cancer With Less Than 2 Prior Cytotoxic-containing Lines of Therapy
+   Intervention: lurbinectedin (PM01183); Doxorubicin
+   Sponsor: PharmaMar
+   Start Date: 2011-05-25
+   Completion Date: 2017-08-09
+   Locations: Hospital Universitari Vall D'Hebron, Barcelona, Spain; Centro Oncológico Md Anderson International España, Madrid, Spain; Hospital Ramón Y Cajal, Madrid, Spain
+   URL: https://clinicaltrials.gov/study/NCT01970540
+   Summary: Phase I Multicenter, Open-label, Clinical and Pharmacokinetic Study of PM01183 in Combination with Fixed Doxorubicin in Non- Heavily Pretreated Patients with Selected Advanced Solid Tumors to determine the maximum tolerated dose (MTD) and the recommended dose (RD) of PM01183 in combination with doxo...
+   Publications Found: 1
+     1. Olmedo ME, Forster M, Moreno V, Lopez-Criado MP, Brana I, Flynn M, Doger B, de Miguel M, Lopez-Vilar... (N/A)
+        PMID: 33704620 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/33704620/
+----------------------------------------
+
+5. Clinical and Translational Study of MK-0646 in Patients With Metastatic Neuroendocrine Tumors (NET)
+   NCT ID: NCT00610129
+   Status: COMPLETED
+   Phase: PHASE2
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## NET Clinical Trial Evaluation - MK-0646 in Metastatic NETs
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study explicitly targets patients with *Metastatic Neuroendocrine Tum...
+   Has Posted Results: YES (verified)
+   Condition: Neuroendocrine Tumors; Metastatic Neuroendocrine Tumors
+   Intervention: MK-0646
+   Sponsor: Memorial Sloan Kettering Cancer Center
+   Start Date: 2008-01
+   Completion Date: 2010-01
+   Locations: Memorial Sloan-Kettering at Basking Ridge, Basking Ridge, United States; Memorial Sloan-Kettering Cancer Center @ Suffolk, Commack, United States; Memorial Sloan-Kettering Cancer Center, New York, United States
+   URL: https://clinicaltrials.gov/study/NCT00610129
+   Summary: The purpose of this study is to test a new drug for neuroendocrine tumors. We think that this new drug may help control your tumor.
+
+MK-0646 is a monoclonal antibody. An antibody is a protein that is able to attach to specific target on cancer cells. This target helps the cancer cells grow and divid...
+   Publications: No publications found
+----------------------------------------
+
+6. Ribociclib in Treating Patients With Advanced Neuroendocrine Tumors of Foregut Origin
+   NCT ID: NCT02420691
+   Status: COMPLETED
+   Phase: PHASE2
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+
+## NET Clinical Trial Evaluation
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study focuses on advanced neuroendocrine tumors (NETs) of foregut origin. The patient has a NET ...
+   Has Posted Results: YES (verified)
+   Condition: Advanced Digestive System Neuroendocrine Neoplasm; Duodenal Neuroendocrine Tumor G1; Functional Pancreatic Neuroendocrine Tumor; Gastric Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Nonfunctional Pancreatic Neuroendocrine Tumor; Thymus Neoplasm
+   Intervention: Laboratory Biomarker Analysis; Pharmacological Study; Ribociclib
+   Sponsor: M.D. Anderson Cancer Center
+   Start Date: 2015-08-25
+   Completion Date: 2019-06-05
+   Locations: M D Anderson Cancer Center, Houston, United States
+   URL: https://clinicaltrials.gov/study/NCT02420691
+   Summary: This phase II trial studies how well ribociclib works in treating patients with neuroendocrine tumors of the foregut, which includes the thymus, lung, stomach, and pancreas, that have spread to other places in the body and usually cannot be cured or controlled with treatment (advanced tumors). Riboc...
+   Publications: No publications found
+----------------------------------------
+
+7. Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)
+   NCT ID: NCT01524783
+   Status: COMPLETED
+   Phase: PHASE3
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+
+## NET Clinical Trial Evaluation
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study explicitly targets advanced Neuroendocrine Tumors (NETs) of GI or lung origin. This patien...
+   Has Posted Results: YES (verified)
+   Condition: Advanced NET of GI Origin; Advanced NET of Lung Origin; Neuroendocrine Tumors
+   Intervention: Everolimus; Placebo; Best suportive care (BSC)
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2012-03-30
+   Completion Date: 2020-08-07
+   Locations: University of California San Diego - Moores Cancer Center Regulatory, La Jolla, United States; Scripps Clinic Regulatory, La Jolla, United States; Cedars Sinai Medical Center SC, Los Angeles, United States
+   URL: https://clinicaltrials.gov/study/NCT01524783
+   Summary: The purpose of this study is to compare the antitumor activity of everolimus plus best supportive care versus placebo plus best supportive care in patients with progressive nonfunctional neuroendocrine tumor (NET) of gastrointestinal (GI) or lung origin without a history of, or current symptoms of c...
+   Publications Found: 5
+     1. Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S... (N/A)
+        PMID: 33560090 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/33560090/
+     2. Buzzoni R, Carnaghi C, Strosberg J, Fazio N, Singh S, Herbst F, Ridolfi A, Pavel ME, Wolin EM, Valle... (N/A)
+        PMID: 29081664 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/29081664/
+     3. Fazio N, Buzzoni R, Delle Fave G, Tesselaar ME, Wolin E, Van Cutsem E, Tomassetti P, Strosberg J, Vo... (N/A)
+        PMID: 29055056 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/29055056/
+----------------------------------------
+
+8. TELESTAR (Telotristat Etiprate for Somatostatin Analogue Not Adequately Controlled Carcinoid Syndrome)
+   NCT ID: NCT01677910
+   Status: COMPLETED
+   Phase: PHASE3
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## TELESTAR Study Evaluation – NET Patient
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study targets patients with carcinoid syndrome, which is a common manifestation of neuro...
+   Has Posted Results: YES (verified)
+   Condition: Carcinoid Syndrome
+   Intervention: Telotristat etiprate; Placebo-matching telotristat etiprate
+   Sponsor: Lexicon Pharmaceuticals
+   Start Date: 2013-01-08
+   Completion Date: 2016-03-21
+   Locations: Lexicon Investigational Site, Mobile, United States; Lexicon Investigational Site, Palo Alto, United States; Lexicon Investigational Site, San Francisco, United States
+   URL: https://clinicaltrials.gov/study/NCT01677910
+   Summary: The primary objective of the study is to confirm that at least 1 or more doses of telotristat etiprate compared to placebo is effective in reducing the number of daily bowel movements (BMs) from baseline averaged over the 12-week double-blind portion (Treatment Period) of the trial in patients not a...
+   Publications Found: 6
+     1. Srirajaskanthan R, Pavel M, Kulke M, Clement D, Houchard A, Keeber L, Weickert MO. Weight Maintenanc... (N/A)
+        PMID: 34598813 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/34598813/
+     2. Fust K, Maschio M, Kohli M, Singh S, Pritchard DM, Marteau F, Myrenfors P, Feuilly M. A Budget Impac... (N/A)
+        PMID: 32157590 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/32157590/
+     3. Dillon JS, Kulke MH, Horsch D, Anthony LB, Warner RRP, Bergsland E, Welin S, O'Dorisio TM, Kunz PL, ... (N/A)
+        PMID: 32146619 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/32146619/
+----------------------------------------
+
+9. Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors
+   NCT ID: NCT01782443
+   Status: COMPLETED
+   Phase: PHASE2
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+
+## NET Clinical Trial Evaluation
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study specifically targets “Advanced Progressive Carcinoid Tumors”. While the description doesn’...
+   Has Posted Results: YES (verified)
+   Condition: Carcinoid Tumor
+   Intervention: Ziv-aflibercept
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2013-02-13
+   Completion Date: 2021-12-26
+   Locations: Massachusetts General Hospital, Boston, United States; Brigham and Women's Hospital, Boston, United States; Dana-Farber Cancer Institute, Boston, United States
+   URL: https://clinicaltrials.gov/study/NCT01782443
+   Summary: This research study is a Phase II clinical trial, which tests the safety and effectiveness of an investigational drug to learn whether the drug works in treating a specific cancer. "Investigational" means that the drug, Ziv-aflibercept, is being studied. It also means that the FDA has not yet approv...
+   Publications Found: 1
+     1. Perez K, Kulke MH, Horick NK, Regan E, Graham C, Scheutz S, Stonely D, Enzinger PC, Fuchs CS, Allen ... (N/A)
+        PMID: 36395401 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/36395401/
+----------------------------------------
+
+10. Open Label Extension Study of Conatumumab and Ganitumab (AMG 479)
+   NCT ID: NCT01327612
+   Status: COMPLETED
+   Phase: PHASE2
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## NET Clinical Trial Evaluation - Conatumumab & Ganitumab
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study doesn’t explicitly state NET inclusion, focusing on solid tumors. ...
+   Has Posted Results: YES (verified)
+   Condition: Advanced Solid Tumors; Carcinoid; Colorectal Cancer; Locally Advanced; Lymphoma; Metastatic Cancer; Non-Small Cell Lung Cancer; Sarcoma; Solid Tumors
+   Intervention: Modified FOLFOX6; Conatumumab; Ganitumab; Bevacizumab
+   Sponsor: Amgen
+   Start Date: 2011-03-03
+   Completion Date: 2020-02-05
+   Locations: Research Site, Duarte, United States; Research Site, La Jolla, United States; Research Site, Denver, United States
+   URL: https://clinicaltrials.gov/study/NCT01327612
+   Summary: The purpose of this protocol is to allow continued treatment with conatumumab and/or ganitumab, with or without chemotherapy, to participants who completed a separate Amgen-sponsored conatumumab or ganitumab study without disease progression whose previous studies were closed.
+   Publications: No publications found
+----------------------------------------
+
+11. Efficacy and Safety of Pasireotide Long Acting Release vs. Octreotide Long Acting Release in Patients With Metastatic Carcinoid Disease
+   NCT ID: NCT00690430
+   Status: COMPLETED
+   Phase: PHASE3
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## NET Clinical Trial Evaluation
+
+**PATIENT PROFILE SUMMARY:** Patient has metastatic small bowel NET (ileum), diagnosed in 2015, with lymph node and liver metastases. Tumor is G3 with a high Ki67 of ...
+   Has Posted Results: YES (verified)
+   Condition: Symptomatic Refractory Resistant Carcinoid Disease
+   Intervention: Pasireotide; Octreotide
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2008-04
+   Completion Date: 2012-04
+   Locations: Scottsdale Healthcare/TGen Clinical Research Service TGen Clinical Research Service, Scottsdale, United States; University of Arizona / Arizona Cancer Center, Tucson, United States; Loma Linda University Dept. of Loma Linda CancerCent, Loma Linda, United States
+   URL: https://clinicaltrials.gov/study/NCT00690430
+   Summary: The purpose of this randomized, multicenter, Phase III study was to compare the efficacy of paseriotide LAR and octreotide LAR in patients whose disease-related symptoms are inadequately controlled by currently available somatostatin analogues.
+   Publications: No publications found
+----------------------------------------
+
+12. A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours
+   NCT ID: NCT01578239
+   Status: COMPLETED
+   Phase: PHASE3
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+
+## NET Clinical Trial Evaluation
+
+**DECISION: YES**
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study specifically targets midgut carcinoid tumors, which is precisely the type of NET this pati...
+   Has Posted Results: YES (verified)
+   Condition: Carcinoid Tumor of the Small Bowel; Neuroendocrine Tumour
+   Intervention: Octreotide LAR; 177Lu-DOTA0-Tyr3-Octreotate
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2012-09-06
+   Completion Date: 2021-01-18
+   Locations: Cedars-Sinai Medical Center Samuel Oschin Cancer Center, Los Angeles, United States; Stanford Cancer Center, Palo Alto, United States; Moffitt Cancer Center, Tampa, United States
+   URL: https://clinicaltrials.gov/study/NCT01578239
+   Summary: This was a multicenter, stratified, open, randomized, comparator-controlled, parallel-group phase III study comparing treatment with Lutathera plus best supportive care (30 mg Octreotide LAR) to treatment with high dose (60 mg) Octreotide LAR in participants with metastasized or locally advanced, in...
+   Publications Found: 4
+     1. Strosberg JR, Caplin ME, Kunz PL, Ruszniewski PB, Bodei L, Hendifar A, Mittra E, Wolin EM, Yao JC, P... (N/A)
+        PMID: 34793718 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/34793718/
+     2. Strosberg J, Kunz PL, Hendifar A, Yao J, Bushnell D, Kulke MH, Baum RP, Caplin M, Ruszniewski P, Del... (N/A)
+        PMID: 32123969 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/32123969/
+     3. Strosberg J, Wolin E, Chasen B, Kulke M, Bushnell D, Caplin M, Baum RP, Kunz P, Hobday T, Hendifar A... (N/A)
+        PMID: 29878866 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/29878866/
+----------------------------------------
+
+13. An Efficacy and Safety Study of Somatuline Depot (Lanreotide) Injection to Treat Carcinoid Syndrome
+   NCT ID: NCT00774930
+   Status: COMPLETED
+   Phase: PHASE3
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## NET Clinical Trial Eligibility Evaluation
+
+**DECISION:** YES
+
+**REASONING:**
+
+1. **Diagnostic Relevance:** The study targets patients with carcinoid syndrome, which is a common manifestation of neu...
+   Has Posted Results: YES (verified)
+   Condition: Carcinoid Syndrome
+   Intervention: Lanreotide; Placebo
+   Sponsor: Ipsen
+   Start Date: 2009-05
+   Completion Date: 2015-12
+   Locations: VA Greater Los Angeles Health Care System, Los Angeles, United States; David Geffen School of Medicine at UCLA, Los Angeles, United States; Stanford Cancer Center, Stanford, United States
+   URL: https://clinicaltrials.gov/study/NCT00774930
+   Summary: The purpose of this study was to determine whether monthly deep subcutaneous (s.c.) injections of lanreotide Autogel (Somatuline Depot) were effective and safe in controlling diarrhoea and flushing by reducing the usage of s.c. short-acting octreotide as a rescue medication to control symptoms in su...
+   Publications Found: 2
+     1. Vinik AI, Wolin EM, Liyanage N, Gomez-Panzani E, Fisher GA; ELECT Study Group *. EVALUATION OF LANRE... (N/A)
+        PMID: 27214300 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/27214300/
+     2. Blot K, Duchateau L, Lescrauwaet B, Liyanage N, Ray D, Mirakhur B, Vinik AI. A Patient-Reported Outc... (N/A)
+        PMID: 31754316 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/31754316/
+----------------------------------------
+
+14. Study of Telotristat Etiprate (LX1606) in Participants With Symptomatic Carcinoid Syndrome
+   NCT ID: NCT01104415
+   Status: COMPLETED
+   Phase: PHASE2
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: 
+## NET Clinical Trial Evaluation
+
+**PATIENT PROFILE SUMMARY:** Patient has a G3 midgut neuroendocrine tumor (NET) of the small intestine (ileum) diagnosed in 2015, with lymph node and liver metastase...
+   Has Posted Results: YES (verified)
+   Condition: Carcinoid Syndrome
+   Intervention: Telotristat etiprate
+   Sponsor: Lexicon Pharmaceuticals
+   Start Date: 2010-06-15
+   Completion Date: 2014-02-12
+   Locations: Lexicon Investigational Site, Bad Berka, Germany; Lexicon Investigational Site, Berlin, Germany; Lexicon Investigational Site, Halle, Germany
+   URL: https://clinicaltrials.gov/study/NCT01104415
+   Summary: The purpose of the study is to evaluate the safety and tolerability of orally administered telotristat etiprate (LX1606) in participants with symptomatic carcinoid syndrome.
+   Publications Found: 1
+     1. Pavel M, Horsch D, Caplin M, Ramage J, Seufferlein T, Valle J, Banks P, Lapuerta P, Sands A, Zambrow... (N/A)
+        PMID: 25636046 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/25636046/
+----------------------------------------
+
+15. Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT00510068
+   Status: COMPLETED
+   Phase: PHASE3
+   Clinically Relevant: YES (Score: 1.0)
+   Relevance Reason: ## NET Clinical Trial Evaluation
+
+**PATIENT PROFILE SUMMARY:** Patient has a G3 midgut NET (small bowel, ileum) diagnosed in 2015 with lymph node and liver metastases. They underwent surgical resectio...
+   Has Posted Results: YES (verified)
+   Condition: Advanced Neuroendocrine Tumors of Pancreatic Origin
+   Intervention: Everolimus; Everolimus Placebo
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2007-07
+   Completion Date: 2014-03
+   Locations: University of South Alabama / Mitchell Cancer Institute Deptof Mitchell Cancer Inst(2), Mobile, United States; Pacific Cancer Medical Center, Inc., Anaheim, United States; Cedars Sinai Medical Center SC-2, Los Angeles, United States
+   URL: https://clinicaltrials.gov/study/NCT00510068
+   Summary: The purpose of this study was to evaluate progression free survival in those participants assigned everolimus 10 mg/day plus Best Supportive Care versus those assigned to placebo plus Best Supportive Care in Advanced Neuroendocrine Tumors of pancreatic origin.
+   Publications Found: 5
+     1. Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S... (N/A)
+        PMID: 33560090 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/33560090/
+     2. Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-148... (N/A)
+        PMID: 28113028 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/28113028/
+     3. Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries... (N/A)
+        PMID: 27621394 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/27621394/
 ----------------------------------------

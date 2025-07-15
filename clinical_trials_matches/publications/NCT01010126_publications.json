@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT01010126",
+  "study_title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+  "search_date": "2025-07-15T14:06:56.562640",
+  "publications_found": 3,
+  "publications": [
+    {
+      "pmid": "25488966",
+      "title": "Hobday TJ, Qin R, Reidy-Lagunes D, Moore MJ, Strosberg J, Kaubisch A, Shah M, Kindler HL, Lenz HJ, C...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Hobday TJ, Qin R, Reidy-Lagunes D, Moore MJ, Strosberg J, Kaubisch A, Shah M, Kindler HL, Lenz HJ, Chen H, Erlichman C. Multicenter Phase II Trial of Temsirolimus and Bevacizumab in Pancreatic Neuroendocrine Tumors. J Clin Oncol. 2015 May 10;33(14):1551-6. doi: 10.1200/JCO.2014.56.2082. Epub 2014 Dec 8.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25488966/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "25318437",
+      "title": "Knox JJ, Qin R, Strosberg JR, Tan B, Kaubisch A, El-Khoueiry AB, Bekaii-Saab TS, Rousey SR, Chen HX,...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Knox JJ, Qin R, Strosberg JR, Tan B, Kaubisch A, El-Khoueiry AB, Bekaii-Saab TS, Rousey SR, Chen HX, Erlichman C. A phase II trial of bevacizumab plus temsirolimus in patients with advanced hepatocellular carcinoma. Invest New Drugs. 2015 Feb;33(1):241-6. doi: 10.1007/s10637-014-0169-3. Epub 2014 Oct 16.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25318437/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "37702588",
+      "title": "A phase II study of bevacizumab and temsirolimus in advanced extra-pancreatic neuroendocrine tumors.",
+      "authors": [
+        "Sonia M Abuzakhm",
+        "Vineeth Sukrithan",
+        "Briant Fruth"
+      ],
+      "journal": "Endocrine-related cancer",
+      "year": "2023",
+      "doi": "10.1530/ERC-22-0301",
+      "abstract": "We assessed the efficacy and safety of combining bevacizumab with temsirolimus in patients with advanced extra-pancreatic neuroendocrine tumors. This NCI-sponsored multicenter, open-label, phase II study (NCT01010126) enrolled patients with advanced, recurrent, or metastatic extra-pancreatic neuroendocrine tumors. All patients were treated with temsirolimus and bevacizumab until disease progression or unacceptable toxicity. Temsirolimus 25 mg was administered i.v. on days 1, 8, 15, and 22 and bevacizumab 10 mg/kg i.v. on days 1 and 15 of a 4-week cycle. Discontinuation of temsirolimus or bevacizumab did not require discontinuation of the other agent. The primary endpoints were objective response rate and 6-month progression-free survival rate. Fifty-nine patients were enrolled in this study, and 54 were evaluated for efficacy and adverse events. While median progression-free survival was 7.1 months, the median duration of treatment with temsirolimus was 3.9 months and that with bevacizumab was 3.5 months. The objective response rate of combination therapy was 2%, and 6-month progression-free survival was 48%. The most frequently reported grade 3-4 adverse events included fatigue (13%), hypertension (13%), and bleeding (13%). Close to 54% of the patients discontinued treatment due to adverse events, refusal of further treatment, or treatment delays. Three deaths occurred in the study, of which two were due to treatment-related bowel perforations. Given the minimal efficacy and increased toxicity seen with the combination of bevacizumab and temsirolimus, we do not recommend the use of this regimen in patients with advanced extra-pancreatic neuroendocrine tumors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37702588/",
+      "source": "pubmed_search"
+    }
+  ]
+}

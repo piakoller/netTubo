@@ -1,0 +1,68 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT01677910
+================================================================================
+Study Title: TELESTAR (Telotristat Etiprate for Somatostatin Analogue Not Adequately Controlled Carcinoid Syndrome)
+Search Date: 2025-07-15 14:01:19
+Publications Found: 6
+
+--------------------------------------------------------------------------------
+
+1. Srirajaskanthan R, Pavel M, Kulke M, Clement D, Houchard A, Keeber L, Weickert MO. Weight Maintenanc...
+   PMID: 34598813
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/34598813/
+   Source: study_data
+   Abstract: Srirajaskanthan R, Pavel M, Kulke M, Clement D, Houchard A, Keeber L, Weickert MO. Weight Maintenance up to 48 Weeks in Patients With Carcinoid Syndrome Treated With Telotristat Ethyl: Pooled Data From the Open-Label Extensions of the Phase III Clinical Trials TELESTAR and TELECAST. Clin Ther. 2021 ...
+
+----------------------------------------
+
+2. Fust K, Maschio M, Kohli M, Singh S, Pritchard DM, Marteau F, Myrenfors P, Feuilly M. A Budget Impac...
+   PMID: 32157590
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/32157590/
+   Source: study_data
+   Abstract: Fust K, Maschio M, Kohli M, Singh S, Pritchard DM, Marteau F, Myrenfors P, Feuilly M. A Budget Impact Model of the Addition of Telotristat Ethyl Treatment to the Standard of Care in Patients with Uncontrolled Carcinoid Syndrome. Pharmacoeconomics. 2020 Jun;38(6):607-618. doi: 10.1007/s40273-020-0089...
+
+----------------------------------------
+
+3. Dillon JS, Kulke MH, Horsch D, Anthony LB, Warner RRP, Bergsland E, Welin S, O'Dorisio TM, Kunz PL, ...
+   PMID: 32146619
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/32146619/
+   Source: study_data
+   Abstract: Dillon JS, Kulke MH, Horsch D, Anthony LB, Warner RRP, Bergsland E, Welin S, O'Dorisio TM, Kunz PL, McKee C, Lapuerta P, Banks P, Pavel M. Time to Sustained Improvement in Bowel Movement Frequency with Telotristat Ethyl: Analyses of Phase III Studies in Carcinoid Syndrome. J Gastrointest Cancer. 202...
+
+----------------------------------------
+
+4. Hudgens S, Ramage J, Kulke M, Bergsland E, Anthony L, Caplin M, Oberg K, Pavel M, Gable J, Banks P, ...
+   PMID: 31655936
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/31655936/
+   Source: study_data
+   Abstract: Hudgens S, Ramage J, Kulke M, Bergsland E, Anthony L, Caplin M, Oberg K, Pavel M, Gable J, Banks P, Yang QM, Lapuerta P. Evaluation of meaningful change in bowel movement frequency for patients with carcinoid syndrome. J Patient Rep Outcomes. 2019 Oct 26;3(1):64. doi: 10.1186/s41687-019-0153-y.
+
+----------------------------------------
+
+5. Cella D, Beaumont JL, Hudgens S, Marteau F, Feuilly M, Houchard A, Lapuerta P, Ramage J, Pavel M, Ho...
+   PMID: 30477789
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/30477789/
+   Source: study_data
+   Abstract: Cella D, Beaumont JL, Hudgens S, Marteau F, Feuilly M, Houchard A, Lapuerta P, Ramage J, Pavel M, Horsch D, Kulke MH. Relationship Between Symptoms and Health-related Quality-of-life Benefits in Patients With Carcinoid Syndrome: Post Hoc Analyses From TELESTAR. Clin Ther. 2018 Dec;40(12):2006-2020.e...
+
+----------------------------------------
+
+6. Weickert MO, Kaltsas G, Horsch D, Lapuerta P, Pavel M, Valle JW, Caplin ME, Bergsland E, Kunz PL, An...
+   PMID: 29724499
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/29724499/
+   Source: study_data
+   Abstract: Weickert MO, Kaltsas G, Horsch D, Lapuerta P, Pavel M, Valle JW, Caplin ME, Bergsland E, Kunz PL, Anthony LB, Grande E, Oberg K, Welin S, Lombard-Bohas C, Ramage JK, Kittur A, Yang QM, Kulke MH. Changes in Weight Associated With Telotristat Ethyl in the Treatment of Carcinoid Syndrome. Clin Ther. 20...
+
+----------------------------------------

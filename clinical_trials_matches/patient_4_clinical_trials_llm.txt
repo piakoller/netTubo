@@ -1,5 +1,5 @@
 ================================================================================
-CLINICAL TRIALS PERFECT MATCHES REPORT (ULTRA-STRICT CRITERIA)
+CLINICAL TRIALS PERFECT MATCHES REPORT (STUDIES WITH PUBLICATIONS AND POSTED RESULTS ONLY)
 ================================================================================
 
 Patient ID: 4
@@ -10,9 +10,9 @@ CT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.
 08/2015 Start Somatuline
 06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.
 Clinical Question: Weitere Therapie, Everolimus oder PRRT?
-Report generated: 2025-07-14 17:21:30
+Report generated: 2025-07-15 13:26:26
 
-Found 5 relevant clinical trials
+Found 1 relevant clinical trials (with publications and posted results)
 --------------------------------------------------------------------------------
 
 1. PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies
@@ -20,7 +20,8 @@ Found 5 relevant clinical trials
    Status: COMPLETED
    Phase: PHASE2
    Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort for "Advanced well-differentiated neuroendocrine tumors." The patient has a pancreatic NET (NET des Pankreas) with metastatic disease, fitting this inclusion criterion. This is a precise match, not a broad "NET" category. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with lymph node and liver metastases. The study doesn’t specify grade requirements within the NET cohort, only ...
+   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort for "Advanced well-differentiated neuroendocrine tumors." The patient has a pancreatic NET (NET des Pankreas) with metastatic disease, fitting this inclusion criterion. This is a precise match, not a broad "NET" category. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with lymph node and liver metastases. The study doesn't specify a grade restriction within the advanced NET coh...
+   Has Posted Results: YES (verified)
    Condition: Small Cell Lung Cancer; Gastric Adenocarcinoma; Esophageal Adenocarcinoma; Castration Resistant Prostate Adenocarcinoma; Soft Tissue Sarcoma; Ovarian Adenocarcinoma; Advanced Well-differentiated Neuroendocrine Tumors; Diffuse Large B Cell Lymphoma
    Intervention: PDR001; LAG525
    Sponsor: Novartis Pharmaceuticals
@@ -29,68 +30,5 @@ Found 5 relevant clinical trials
    Locations: California Pacific Medical Center Drug Shipment (2), San Francisco, United States; Hematology Oncology Associates of the Treasure Coast, Port Saint Lucie, United States; University Cancer and Blood Center, LLC, Athens, United States
    URL: https://clinicaltrials.gov/study/NCT03365791
    Summary: The purpose of this signal seeking study is to determine whether treatment with PDR001 and LAG525 demonstrates sufficient efficacy in advanced malignancies to warrant further study.
-----------------------------------------
-
-2. Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma
-   NCT ID: NCT01204476
-   Status: COMPLETED
-   Phase: PHASE1
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically targets “advanced neuroendocrine tumors,” and the patient has a pancreatic NET (Neuroendocrine Tumor) with liver and lymph node metastases – a clear case of advanced disease. The study doesn’t broaden to “all NETs” or other cancers. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 pancreatic NET with metastatic disease (liver and lymph nodes). The study includes “low to intermediate grade neuroendocri...
-   Condition: Gastrin-Producing Neuroendocrine Tumor; Lung Carcinoid Tumor; Metastatic Digestive System Neuroendocrine Tumor G1; Pancreatic Glucagonoma; Pancreatic Insulinoma; Pancreatic Polypeptide Tumor; Paraganglioma; Recurrent Digestive System Neuroendocrine Tumor G1; Recurrent Merkel Cell Carcinoma; Recurrent Pancreatic Neuroendocrine Carcinoma; Regional Digestive System Neuroendocrine Tumor G1; Somatostatin-Producing Neuroendocrine Tumor; Stage III Merkel Cell Carcinoma; Stage IV Merkel Cell Carcinoma; Thyroid Gland Medullary Carcinoma
-   Intervention: Cixutumumab; Everolimus; Laboratory Biomarker Analysis; Octreotide Acetate; Pharmacological Study
-   Sponsor: National Cancer Institute (NCI)
-   Start Date: 2010-10
-   Completion Date: 
-   Locations: M D Anderson Cancer Center, Houston, United States
-   URL: https://clinicaltrials.gov/study/NCT01204476
-   Summary: This phase I trial studies the side effects and best dose of cixutumumab when given together with everolimus and octreotide acetate in treating patients with advanced low- or intermediate-grade neuroendocrine cancer. Monoclonal antibodies, such as cixutumumab, may find tumor cells and help carry tum...
-----------------------------------------
-
-3. A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs
-   NCT ID: NCT05459844
-   Status: ACTIVE_NOT_RECRUITING
-   Phase: PHASE3
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors). The patient has a pancreatic NET (NET des Pankreas), fulfilling the primary site requirement. This is a precise match, not a broad categorization. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s tumor is G2. The study stratification *includes* G2 NETs. The patient has metastatic disease (lymph node and liver metastases), which aligns with the ...
-   Condition: Neuroendocrine Tumors
-   Intervention: Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR
-   Sponsor: Sinotau Pharmaceutical Group
-   Start Date: 2022-08-31
-   Completion Date: 2028-12
-   Locations: Chinese PLA General Hospital, Beijing, China; The First Afilliated Hospital of Fujian Medical University, Fuzhou, China; The First Affiliated Hospital of Xiamen University, Xiamen, China
-   URL: https://clinicaltrials.gov/study/NCT05459844
-   Summary: This was a multicenter, stratified, open, randomized, comparator-controlled, parallel-group phase III study comparing treatment with Lutetium\[177Lu\] Oxodotreotide Injection to high dose (60 mg) Octreotide LAR in patients with unresectable or metastatic, progressive, well differentiated (G1 and G2)...
-----------------------------------------
-
-4. Combined Beta- Plus Auger Electron Therapy Using a Novel Somatostatin Receptor Subtype 2 Antagonist Labelled With Terbium-161 (161Tb-DOTA-LM3)
-   NCT ID: NCT05359146
-   Status: RECRUITING
-   Phase: EARLY_PHASE1
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically targets neuroendocrine neoplasia’s (NENs), with a focus on gastroenteropancreatic neuroendocrine tumours (GEP-NETs). The patient has a pancreatic NET (NET des Pankreas), fulfilling the diagnostic criteria. The study’s focus on SST2 overexpression is relevant as Somatuline was initiated, indicating presumed SST2 positivity. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 pancreatic NET with regional l...
-   Condition: Neuroendocrine Neoplasia's (NENs); Gastroenteropancreatic Neuroendocrine Tumour (GEP-NET)
-   Intervention: 161Tb-DOTA-LM3; 177Lu-DOTATOC
-   Sponsor: University Hospital, Basel, Switzerland
-   Start Date: 2023-03-28
-   Completion Date: 2025-12
-   Locations: Division of Nuclear Medicine, University Hospital Basel, Basel, Switzerland
-   URL: https://clinicaltrials.gov/study/NCT05359146
-   Summary: The goal of this phase 0 proof-of concept study is to measure the therapeutic index (tumour to dose-limiting-organ dose ratios) of 161Tb-DOTA-LM3 in comparison to the current standard 177Lu-DOTATOC in the same gastroenteropancreatic neuroendocrine tumour (GEP-NET) patients in a randomized, cross-ove...
-----------------------------------------
-
-5. Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET
-   NCT ID: NCT06784752
-   Status: RECRUITING
-   Phase: PHASE3
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** Exact match. The study specifically targets Grade 1 and Grade 2 Advanced GEP-NETs. The patient has a Grade 2 NET of the pancreas (a GEP-NET). The presence of liver metastases confirms an advanced stage. 2. **Tumor Characteristics:** Perfect alignment. The patient’s tumor is Grade 2, which is explicitly included in the study criteria. The patient has metastatic disease (liver metastases), aligning with the “Advanced” designation in the study title. While Ki-67 isn't provi...
-   Condition: Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)
-   Intervention: [177Lu]Lu-DOTA-TATE; Octreotide LAR
-   Sponsor: Novartis Pharmaceuticals
-   Start Date: 2025-05-30
-   Completion Date: 2034-01-05
-   Locations: Highlands Oncology Group, Fayetteville, United States; Rocky Mountain Cancer Centers, Denver, United States; Piedmont Hematology And Oncology, Winston-Salem, United States
-   URL: https://clinicaltrials.gov/study/NCT06784752
-   Summary: The purpose of the current study is to evaluate the efficacy and safety of \[177Lu\]Lu-DOTA-TATE plus octreotide long-acting release (LAR) versus octreotide LAR alone in newly diagnosed patients with somatostatin receptor positive (SSTR+), well differentiated Grade1 and Grade 2 (G1 and G2) (Ki-67 \<...
+   Publications: No publications found
 ----------------------------------------

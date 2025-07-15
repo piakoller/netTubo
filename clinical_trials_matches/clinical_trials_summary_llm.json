@@ -9,7 +9,9 @@
       "Fragestellung": "Weitere Therapie?",
       "Empfehlung": "PET- Bildgebung und PRRT planen."
     },
-    "matches_found": 6,
+    "matches_found": 1,
+    "matches_with_publications": 1,
+    "matches_with_posted_results": 1,
     "llm_evaluation_method": "google/gemma-3-27b-it:free",
     "min_relevance_score": 1.0,
     "matches": [
@@ -20,70 +22,17 @@
         "phase": "PHASE2",
         "relevance_score": 1.0,
         "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort for \"Advanced well-differentiated neuroendocrine tumors.\" The patient has a well-differentiated NET (G1) of the small intestine with metastatic disease, aligning perfectly with the cohort description. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s tumor is G1, and has metastasized to lymph nodes and the liver – fitting the “advanced” criteria within the study. While Ki-67 isn’t provided, ...",
+        "has_posted_results": true,
         "condition": "Small Cell Lung Cancer; Gastric Adenocarcinoma; Esophageal Adenocarcinoma; Castration Resistant Prostate Adenocarcinoma; Soft Tissue Sarcoma; Ovarian Adenocarcinoma; Advanced Well-differentiated Neuroendocrine Tumors; Diffuse Large B Cell Lymphoma",
         "intervention": "PDR001; LAG525",
         "url": "https://clinicaltrials.gov/study/NCT03365791",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05459844",
-        "title": "A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** Exact match. The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors), and the patient has a NET of the duodenum (small intestine – a GEP site) with liver metastases. This aligns perfectly. 2. **Tumor Characteristics:** The patient’s tumor was initially G1. The study stratification includes G1 and G2 NETs, therefore the patient’s grade is compatible. The patient has metastatic disease (liver metastases), which is appropriate for this study d...",
-        "condition": "Neuroendocrine Tumors",
-        "intervention": "Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT05459844",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT04579679",
-        "title": "Open-Label Surufatinib in European Patients With NET",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort (Cohort B) for NET of small bowel origin, which perfectly matches the patient’s diagnosis of a small bowel NET (Dünndarm NET). This is a precise anatomical match. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The study targets low- to intermediate-grade (G1 or G2) well-differentiated NETs. The patient’s initial tumor was G1. While there's mention of possible progression in 2019, the study *allows* for...",
-        "condition": "Neuroendocrine Tumours; Neuroendocrine Tumour of the Lung; Small Intestinal NET",
-        "intervention": "Surufatinib",
-        "url": "https://clinicaltrials.gov/study/NCT04579679",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05359146",
-        "title": "Combined Beta- Plus Auger Electron Therapy Using a Novel Somatostatin Receptor Subtype 2 Antagonist Labelled With Terbium-161 (161Tb-DOTA-LM3)",
-        "status": "RECRUITING",
-        "phase": "EARLY_PHASE1",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets neuroendocrine neoplasms (NENs), and the patient has a well-defined small bowel NET (Dünndarm NET) with metastases. This aligns perfectly with the study’s inclusion criteria. The study focuses on gastroenteropancreatic NETs (GEP-NETs), which encompasses the patient’s small bowel primary. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s initial tumor was G1. While the current status regarding grade is...",
-        "condition": "Neuroendocrine Neoplasia's (NENs); Gastroenteropancreatic Neuroendocrine Tumour (GEP-NET)",
-        "intervention": "161Tb-DOTA-LM3; 177Lu-DOTATOC",
-        "url": "https://clinicaltrials.gov/study/NCT05359146",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05448157",
-        "title": "68Ga-DOTATOC Radio-Guided Surgery With β-Probe in GEP-NET",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "N/A",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets GEP-NETs, and the patient has a well-documented small intestine NET (SI-NET), a subtype of GEP-NET. The location (duodenum/ileum) is directly relevant. The study focuses on improving surgical resection of these tumors, aligning with the patient's situation. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s initial tumor was G1. While the current status indicates possible progression, the study doesn’t...",
-        "condition": "Neuroendocrine Tumor Carcinoid; Neuroendocrine Tumor of Pancreas; Gep Net",
-        "intervention": "",
-        "url": "https://clinicaltrials.gov/study/NCT05448157",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT06784752",
-        "title": "Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** Exact match. The study specifically targets Grade 1 and Grade 2 Advanced GEP-NETs. The patient has a Grade 1 NET of the small intestine (Dünndarm) with metastatic disease, fitting the study’s inclusion criteria perfectly. No broader cancer types are mentioned. 2. **Tumor Characteristics:** Perfect alignment. The patient’s tumor is a Grade 1 NET with metastatic disease to the liver and lymph nodes. The study explicitly includes Grade 1 and Grade 2 tumors. While progressio...",
-        "condition": "Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)",
-        "intervention": "[177Lu]Lu-DOTA-TATE; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT06784752",
-        "publications": null
+        "publications": {
+          "nct_id": "NCT03365791",
+          "study_title": "PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies",
+          "publications_found": 0,
+          "publications": [],
+          "status": "no_publications_found"
+        }
       }
     ],
     "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_1_clinical_trials_llm.txt"
@@ -98,35 +47,12 @@
       "Fragestellung": "Weitere Therapie?",
       "Empfehlung": "PET- Bildgebung und PRRT planen, analog zur Netter 2 Studie."
     },
-    "matches_found": 2,
+    "matches_found": 0,
+    "matches_with_publications": 0,
+    "matches_with_posted_results": 0,
     "llm_evaluation_method": "google/gemma-3-27b-it:free",
     "min_relevance_score": 1.0,
-    "matches": [
-      {
-        "nct_id": "NCT02231762",
-        "title": "Combination of Lanreotide Autogel 120mg and Temozolomide in Progressive GEP-NET",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** Exact match. The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors). The patient has a NET of the small intestine (Dünndarm), which falls under GEP-NET. No broader, unacceptable terms like \"solid tumors\" are present. 2. **Tumor Characteristics:** Precise alignment. The patient’s tumor is G3 with a Ki67 of 48%. While the study description doesn’t *explicitly* state a Ki67 range, G3 NETs generally have high Ki67 proliferation indices, making...",
-        "condition": "Gastroenteropancreatic Neuroendocrine Tumors",
-        "intervention": "Lanreotide Autogel 120 mg; Temozolomide (TMZ)",
-        "url": "https://clinicaltrials.gov/study/NCT02231762",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05448157",
-        "title": "68Ga-DOTATOC Radio-Guided Surgery With β-Probe in GEP-NET",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "N/A",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically focuses on GEP-NETs, and the patient has a well-defined small intestine NET (SI-NET), a subtype of GEP-NET. The location (small bowel) is perfectly aligned. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G3 NET with a Ki67 of 48%, indicating a relatively aggressive tumor. The study doesn’t specify a grade exclusion, and the high Ki67 is *compatible* with the study population seeking improved surgical r...",
-        "condition": "Neuroendocrine Tumor Carcinoid; Neuroendocrine Tumor of Pancreas; Gep Net",
-        "intervention": "",
-        "url": "https://clinicaltrials.gov/study/NCT05448157",
-        "publications": null
-      }
-    ],
+    "matches": [],
     "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_2_clinical_trials_llm.txt"
   },
   {
@@ -139,57 +65,87 @@
       "Fragestellung": "Weitere Therapie, Everolimus oder PRRT?",
       "Empfehlung": "FDG-PET und Everolimus Therapie starten."
     },
-    "matches_found": 4,
+    "matches_found": 1,
+    "matches_with_publications": 1,
+    "matches_with_posted_results": 1,
     "llm_evaluation_method": "google/gemma-3-27b-it:free",
     "min_relevance_score": 1.0,
     "matches": [
-      {
-        "nct_id": "NCT05459844",
-        "title": "A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors). The patient has a NET of the duodenum (small intestine – part of the GEP), with confirmed metastasis. This is a direct and precise match. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s tumor is G2, and the study stratifies by G1 or G2, making this a perfect match. The patient has metastatic disease (lymph node and liver), which is consistent ...",
-        "condition": "Neuroendocrine Tumors",
-        "intervention": "Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT05459844",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT04579679",
-        "title": "Open-Label Surufatinib in European Patients With NET",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort (Cohort B) for NET of small bowel origin, which perfectly matches the patient’s diagnosis of a small bowel (ileum) NET. This is a precise match, avoiding broader categories like “all NETs”. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The study targets low- to intermediate-grade (Grade 1 or Grade 2) well-differentiated NETs. The patient’s tumor was diagnosed as G2, fitting within the study’s inclusio...",
-        "condition": "Neuroendocrine Tumours; Neuroendocrine Tumour of the Lung; Small Intestinal NET",
-        "intervention": "Surufatinib",
-        "url": "https://clinicaltrials.gov/study/NCT04579679",
-        "publications": null
-      },
       {
         "nct_id": "NCT01524783",
         "title": "Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)",
         "status": "COMPLETED",
         "phase": "PHASE3",
         "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets advanced Neuroendocrine Tumors (NET) of GI origin, which perfectly aligns with the patient’s diagnosis of a small bowel (Dünndarm) NET. The study inclusion criteria explicitly cover the patient’s primary tumor site. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with metastatic disease (lymph nodes and liver). The study includes patients with advanced NETs, and doesn’t exclude G2 tumors....",
+        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets advanced Neuroendocrine Tumors (NET) of GI origin, which perfectly aligns with the patient’s diagnosis of a small bowel (Dünndarm) NET. The study inclusion criteria explicitly cover the patient’s primary tumor site. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with metastatic disease (lymph node and liver metastases). The study includes patients with advanced NETs, and doesn't exclude ...",
+        "has_posted_results": true,
         "condition": "Advanced NET of GI Origin; Advanced NET of Lung Origin; Neuroendocrine Tumors",
         "intervention": "Everolimus; Placebo; Best suportive care (BSC)",
         "url": "https://clinicaltrials.gov/study/NCT01524783",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT06784752",
-        "title": "Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** Exact match. The study specifically targets Grade 1 and Grade 2 Advanced GEP-NETs. The patient has a Grade 2 NET of the small intestine (Dünndarm), which falls under GEP-NET. The presence of liver metastases confirms it's an advanced case. 2. **Tumor Characteristics:** Perfect alignment. The patient’s tumor is Grade 2, matching the study criteria. The presence of lymph node and liver metastases indicates advanced/metastatic disease, aligning with the study’s inclusion cr...",
-        "condition": "Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)",
-        "intervention": "[177Lu]Lu-DOTA-TATE; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT06784752",
-        "publications": null
+        "publications": {
+          "nct_id": "NCT01524783",
+          "study_title": "Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)",
+          "publications_found": 5,
+          "publications": [
+            {
+              "pmid": "33560090",
+              "title": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S...",
+              "authors": [],
+              "journal": "From Clinical Trial Data",
+              "year": "N/A",
+              "doi": null,
+              "abstract": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/",
+              "source": "study_data"
+            },
+            {
+              "pmid": "29081664",
+              "title": "Buzzoni R, Carnaghi C, Strosberg J, Fazio N, Singh S, Herbst F, Ridolfi A, Pavel ME, Wolin EM, Valle...",
+              "authors": [],
+              "journal": "From Clinical Trial Data",
+              "year": "N/A",
+              "doi": null,
+              "abstract": "Buzzoni R, Carnaghi C, Strosberg J, Fazio N, Singh S, Herbst F, Ridolfi A, Pavel ME, Wolin EM, Valle JW, Oh DY, Yao JC, Pommier R. Impact of prior therapies on everolimus activity: an exploratory analysis of RADIANT-4. Onco Targets Ther. 2017 Oct 16;10:5013-5030. doi: 10.2147/OTT.S142087. eCollection 2017.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29081664/",
+              "source": "study_data"
+            },
+            {
+              "pmid": "29055056",
+              "title": "Fazio N, Buzzoni R, Delle Fave G, Tesselaar ME, Wolin E, Van Cutsem E, Tomassetti P, Strosberg J, Vo...",
+              "authors": [],
+              "journal": "From Clinical Trial Data",
+              "year": "N/A",
+              "doi": null,
+              "abstract": "Fazio N, Buzzoni R, Delle Fave G, Tesselaar ME, Wolin E, Van Cutsem E, Tomassetti P, Strosberg J, Voi M, Bubuteishvili-Pacaud L, Ridolfi A, Herbst F, Tomasek J, Singh S, Pavel M, Kulke MH, Valle JW, Yao JC. Everolimus in advanced, progressive, well-differentiated, non-functional neuroendocrine tumors: RADIANT-4 lung subgroup analysis. Cancer Sci. 2018 Jan;109(1):174-181. doi: 10.1111/cas.13427. Epub 2017 Nov 9.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29055056/",
+              "source": "study_data"
+            },
+            {
+              "pmid": "28838862",
+              "title": "Pavel ME, Singh S, Strosberg JR, Bubuteishvili-Pacaud L, Degtyarev E, Neary MP, Carnaghi C, Tomasek ...",
+              "authors": [],
+              "journal": "From Clinical Trial Data",
+              "year": "N/A",
+              "doi": null,
+              "abstract": "Pavel ME, Singh S, Strosberg JR, Bubuteishvili-Pacaud L, Degtyarev E, Neary MP, Carnaghi C, Tomasek J, Wolin E, Raderer M, Lahner H, Valle JW, Pommier R, Van Cutsem E, Tesselaar MET, Fave GD, Buzzoni R, Hunger M, Eriksson J, Cella D, Ricci JF, Fazio N, Kulke MH, Yao JC. Health-related quality of life for everolimus versus placebo in patients with advanced, non-functional, well-differentiated gastrointestinal or lung neuroendocrine tumours (RADIANT-4): a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial. Lancet Oncol. 2017 Oct;18(10):1411-1422. doi: 10.1016/S1470-2045(17)30471-0. Epub 2017 Aug 30.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28838862/",
+              "source": "study_data"
+            },
+            {
+              "pmid": "26703889",
+              "title": "Yao JC, Fazio N, Singh S, Buzzoni R, Carnaghi C, Wolin E, Tomasek J, Raderer M, Lahner H, Voi M, Pac...",
+              "authors": [],
+              "journal": "From Clinical Trial Data",
+              "year": "N/A",
+              "doi": null,
+              "abstract": "Yao JC, Fazio N, Singh S, Buzzoni R, Carnaghi C, Wolin E, Tomasek J, Raderer M, Lahner H, Voi M, Pacaud LB, Rouyrre N, Sachs C, Valle JW, Fave GD, Van Cutsem E, Tesselaar M, Shimada Y, Oh DY, Strosberg J, Kulke MH, Pavel ME; RAD001 in Advanced Neuroendocrine Tumours, Fourth Trial (RADIANT-4) Study Group. Everolimus for the treatment of advanced, non-functional neuroendocrine tumours of the lung or gastrointestinal tract (RADIANT-4): a randomised, placebo-controlled, phase 3 study. Lancet. 2016 Mar 5;387(10022):968-977. doi: 10.1016/S0140-6736(15)00817-X. Epub 2015 Dec 17.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26703889/",
+              "source": "study_data"
+            }
+          ],
+          "status": "success",
+          "info_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\publications\\NCT01524783_publications.json"
+        }
       }
     ],
     "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_3_clinical_trials_llm.txt"
@@ -204,7 +160,9 @@
       "Fragestellung": "Weitere Therapie, Everolimus oder PRRT?",
       "Empfehlung": "PRRT starten."
     },
-    "matches_found": 5,
+    "matches_found": 1,
+    "matches_with_publications": 1,
+    "matches_with_posted_results": 1,
     "llm_evaluation_method": "google/gemma-3-27b-it:free",
     "min_relevance_score": 1.0,
     "matches": [
@@ -214,59 +172,18 @@
         "status": "COMPLETED",
         "phase": "PHASE2",
         "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort for \"Advanced well-differentiated neuroendocrine tumors.\" The patient has a pancreatic NET (NET des Pankreas) with metastatic disease, fitting this inclusion criterion. This is a precise match, not a broad \"NET\" category. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with lymph node and liver metastases. The study doesn’t specify grade requirements within the NET cohort, only ...",
+        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort for \"Advanced well-differentiated neuroendocrine tumors.\" The patient has a pancreatic NET (NET des Pankreas) with metastatic disease, fitting this inclusion criterion. This is a precise match, not a broad \"NET\" category. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with lymph node and liver metastases. The study doesn't specify a grade restriction within the advanced NET coh...",
+        "has_posted_results": true,
         "condition": "Small Cell Lung Cancer; Gastric Adenocarcinoma; Esophageal Adenocarcinoma; Castration Resistant Prostate Adenocarcinoma; Soft Tissue Sarcoma; Ovarian Adenocarcinoma; Advanced Well-differentiated Neuroendocrine Tumors; Diffuse Large B Cell Lymphoma",
         "intervention": "PDR001; LAG525",
         "url": "https://clinicaltrials.gov/study/NCT03365791",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT01204476",
-        "title": "Cixutumumab, Everolimus, and Octreotide Acetate in Treating Patients With Advanced Low to Intermediate Grade Neuroendocrine Carcinoma",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets “advanced neuroendocrine tumors,” and the patient has a pancreatic NET (Neuroendocrine Tumor) with liver and lymph node metastases – a clear case of advanced disease. The study doesn’t broaden to “all NETs” or other cancers. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 pancreatic NET with metastatic disease (liver and lymph nodes). The study includes “low to intermediate grade neuroendocri...",
-        "condition": "Gastrin-Producing Neuroendocrine Tumor; Lung Carcinoid Tumor; Metastatic Digestive System Neuroendocrine Tumor G1; Pancreatic Glucagonoma; Pancreatic Insulinoma; Pancreatic Polypeptide Tumor; Paraganglioma; Recurrent Digestive System Neuroendocrine Tumor G1; Recurrent Merkel Cell Carcinoma; Recurrent Pancreatic Neuroendocrine Carcinoma; Regional Digestive System Neuroendocrine Tumor G1; Somatostatin-Producing Neuroendocrine Tumor; Stage III Merkel Cell Carcinoma; Stage IV Merkel Cell Carcinoma; Thyroid Gland Medullary Carcinoma",
-        "intervention": "Cixutumumab; Everolimus; Laboratory Biomarker Analysis; Octreotide Acetate; Pharmacological Study",
-        "url": "https://clinicaltrials.gov/study/NCT01204476",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05459844",
-        "title": "A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors). The patient has a pancreatic NET (NET des Pankreas), fulfilling the primary site requirement. This is a precise match, not a broad categorization. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s tumor is G2. The study stratification *includes* G2 NETs. The patient has metastatic disease (lymph node and liver metastases), which aligns with the ...",
-        "condition": "Neuroendocrine Tumors",
-        "intervention": "Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT05459844",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05359146",
-        "title": "Combined Beta- Plus Auger Electron Therapy Using a Novel Somatostatin Receptor Subtype 2 Antagonist Labelled With Terbium-161 (161Tb-DOTA-LM3)",
-        "status": "RECRUITING",
-        "phase": "EARLY_PHASE1",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets neuroendocrine neoplasia’s (NENs), with a focus on gastroenteropancreatic neuroendocrine tumours (GEP-NETs). The patient has a pancreatic NET (NET des Pankreas), fulfilling the diagnostic criteria. The study’s focus on SST2 overexpression is relevant as Somatuline was initiated, indicating presumed SST2 positivity. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 pancreatic NET with regional l...",
-        "condition": "Neuroendocrine Neoplasia's (NENs); Gastroenteropancreatic Neuroendocrine Tumour (GEP-NET)",
-        "intervention": "161Tb-DOTA-LM3; 177Lu-DOTATOC",
-        "url": "https://clinicaltrials.gov/study/NCT05359146",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT06784752",
-        "title": "Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** Exact match. The study specifically targets Grade 1 and Grade 2 Advanced GEP-NETs. The patient has a Grade 2 NET of the pancreas (a GEP-NET). The presence of liver metastases confirms an advanced stage. 2. **Tumor Characteristics:** Perfect alignment. The patient’s tumor is Grade 2, which is explicitly included in the study criteria. The patient has metastatic disease (liver metastases), aligning with the “Advanced” designation in the study title. While Ki-67 isn't provi...",
-        "condition": "Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)",
-        "intervention": "[177Lu]Lu-DOTA-TATE; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT06784752",
-        "publications": null
+        "publications": {
+          "nct_id": "NCT03365791",
+          "study_title": "PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies",
+          "publications_found": 0,
+          "publications": [],
+          "status": "no_publications_found"
+        }
       }
     ],
     "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_4_clinical_trials_llm.txt"
@@ -281,59 +198,12 @@
       "Fragestellung": "Weitere Therapie, Somatuline oder PRRT?",
       "Empfehlung": "PRRT starten."
     },
-    "matches_found": 4,
+    "matches_found": 0,
+    "matches_with_publications": 0,
+    "matches_with_posted_results": 0,
     "llm_evaluation_method": "google/gemma-3-27b-it:free",
     "min_relevance_score": 1.0,
-    "matches": [
-      {
-        "nct_id": "NCT03365791",
-        "title": "PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort for \"Advanced well-differentiated neuroendocrine tumors.\" The patient has a pancreatic NET (NET des Pankreas) with metastases, fitting within this cohort. This is a precise match, not a broad \"NET\" inclusion. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with lymph node and liver metastases. The study description doesn't specify grade requirements within the NET cohort, only \"...",
-        "condition": "Small Cell Lung Cancer; Gastric Adenocarcinoma; Esophageal Adenocarcinoma; Castration Resistant Prostate Adenocarcinoma; Soft Tissue Sarcoma; Ovarian Adenocarcinoma; Advanced Well-differentiated Neuroendocrine Tumors; Diffuse Large B Cell Lymphoma",
-        "intervention": "PDR001; LAG525",
-        "url": "https://clinicaltrials.gov/study/NCT03365791",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05459844",
-        "title": "A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets GEP-NETs, and the patient has a pancreatic NET (a GEP-NET). The description explicitly mentions pancreatic primary site as a stratification factor. This is a perfect diagnostic match. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET, and the study stratifies by G1 or G2. The patient has metastatic disease (lymph node and liver metastases), which aligns with the study population seeking fur...",
-        "condition": "Neuroendocrine Tumors",
-        "intervention": "Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT05459844",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT05359146",
-        "title": "Combined Beta- Plus Auger Electron Therapy Using a Novel Somatostatin Receptor Subtype 2 Antagonist Labelled With Terbium-161 (161Tb-DOTA-LM3)",
-        "status": "RECRUITING",
-        "phase": "EARLY_PHASE1",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** [Exact match] The study specifically targets neuroendocrine neoplasia’s (NENs), with a focus on gastroenteropancreatic neuroendocrine tumours (GEP-NETs). The patient has a pancreatic NET (NET des Pankreas), fulfilling the diagnostic criteria. The mention of intestinal and lung NETs doesn’t disqualify the patient as it’s a broader inclusion within NENs. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with regional lymph node and live...",
-        "condition": "Neuroendocrine Neoplasia's (NENs); Gastroenteropancreatic Neuroendocrine Tumour (GEP-NET)",
-        "intervention": "161Tb-DOTA-LM3; 177Lu-DOTATOC",
-        "url": "https://clinicaltrials.gov/study/NCT05359146",
-        "publications": null
-      },
-      {
-        "nct_id": "NCT06784752",
-        "title": "Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "relevance_score": 1.0,
-        "relevance_reason": "1. **Diagnostic Match:** Exact match. The study specifically targets Grade 1 and Grade 2 Advanced GEP-NETs. The patient has a Grade 2 NET of the pancreas (a GEP-NET), with documented metastatic disease. This aligns perfectly. 2. **Tumor Characteristics:** Perfect alignment. The patient’s tumor is Grade 2 and has metastasized to lymph nodes and the liver – fitting the “Advanced” criteria of the study. No Ki-67 information is provided, but it’s not a requirement for inclusion. 3. **Treatment Histo...",
-        "condition": "Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)",
-        "intervention": "[177Lu]Lu-DOTA-TATE; Octreotide LAR",
-        "url": "https://clinicaltrials.gov/study/NCT06784752",
-        "publications": null
-      }
-    ],
+    "matches": [],
     "report_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials_matches\\patient_5_clinical_trials_llm.txt"
   }
 ]

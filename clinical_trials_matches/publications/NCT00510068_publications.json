@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT00510068",
+  "study_title": "Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors",
+  "search_date": "2025-07-15T14:04:37.026918",
+  "publications_found": 5,
+  "publications": [
+    {
+      "pmid": "33560090",
+      "title": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33560090/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "28113028",
+      "title": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-148...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 May 1;35(13):1488-1489. doi: 10.1200/JCO.2017.71.3875. Epub 2017 Jan 23. No abstract available.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28113028/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "27621394",
+      "title": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, Capdevila J, de Vries EGE, Tomassetti P, Hobday T, Pommier R, Oberg K. Everolimus for the Treatment of Advanced Pancreatic Neuroendocrine Tumors: Overall Survival and Circulating Biomarkers From the Randomized, Phase III RADIANT-3 Study. J Clin Oncol. 2016 Nov 10;34(32):3906-3913. doi: 10.1200/JCO.2016.68.0702. Epub 2016 Sep 30.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27621394/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "25479584",
+      "title": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Lombard-Bohas C, Yao JC, Hobday T, Van Cutsem E, Wolin EM, Panneerselvam A, Stergiopoulos S, Shah MH, Capdevila J, Pommier R. Impact of prior chemotherapy use on the efficacy of everolimus in patients with advanced pancreatic neuroendocrine tumors: a subgroup analysis of the phase III RADIANT-3 trial. Pancreas. 2015 Mar;44(2):181-9. doi: 10.1097/MPA.0000000000000262.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25479584/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "21306238",
+      "title": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vrie...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Yao JC, Shah MH, Ito T, Bohas CL, Wolin EM, Van Cutsem E, Hobday TJ, Okusaka T, Capdevila J, de Vries EG, Tomassetti P, Pavel ME, Hoosen S, Haas T, Lincy J, Lebwohl D, Oberg K; RAD001 in Advanced Neuroendocrine Tumors, Third Trial (RADIANT-3) Study Group. Everolimus for advanced pancreatic neuroendocrine tumors. N Engl J Med. 2011 Feb 10;364(6):514-23. doi: 10.1056/NEJMoa1009290.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21306238/",
+      "source": "study_data"
+    }
+  ]
+}

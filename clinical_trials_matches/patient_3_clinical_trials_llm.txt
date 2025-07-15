@@ -1,5 +1,5 @@
 ================================================================================
-CLINICAL TRIALS PERFECT MATCHES REPORT (ULTRA-STRICT CRITERIA)
+CLINICAL TRIALS PERFECT MATCHES REPORT (STUDIES WITH PUBLICATIONS AND POSTED RESULTS ONLY)
 ================================================================================
 
 Patient ID: 3
@@ -10,49 +10,18 @@ Koloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm o
 07/2015 DOTATOC PET: geringe Speicherung der Leberläsionen.
 07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.
 Clinical Question: Weitere Therapie, Everolimus oder PRRT?
-Report generated: 2025-07-14 16:52:38
+Report generated: 2025-07-15 13:23:49
 
-Found 4 relevant clinical trials
+Found 1 relevant clinical trials (with publications and posted results)
 --------------------------------------------------------------------------------
 
-1. A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs
-   NCT ID: NCT05459844
-   Status: ACTIVE_NOT_RECRUITING
-   Phase: PHASE3
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically targets GEP-NETs (Gastroenteropancreatic Neuroendocrine Tumors). The patient has a NET of the duodenum (small intestine – part of the GEP), with confirmed metastasis. This is a direct and precise match. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient’s tumor is G2, and the study stratifies by G1 or G2, making this a perfect match. The patient has metastatic disease (lymph node and liver), which is consistent ...
-   Condition: Neuroendocrine Tumors
-   Intervention: Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR
-   Sponsor: Sinotau Pharmaceutical Group
-   Start Date: 2022-08-31
-   Completion Date: 2028-12
-   Locations: Chinese PLA General Hospital, Beijing, China; The First Afilliated Hospital of Fujian Medical University, Fuzhou, China; The First Affiliated Hospital of Xiamen University, Xiamen, China
-   URL: https://clinicaltrials.gov/study/NCT05459844
-   Summary: This was a multicenter, stratified, open, randomized, comparator-controlled, parallel-group phase III study comparing treatment with Lutetium\[177Lu\] Oxodotreotide Injection to high dose (60 mg) Octreotide LAR in patients with unresectable or metastatic, progressive, well differentiated (G1 and G2)...
-----------------------------------------
-
-2. Open-Label Surufatinib in European Patients With NET
-   NCT ID: NCT04579679
-   Status: COMPLETED
-   Phase: PHASE2
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically includes a cohort (Cohort B) for NET of small bowel origin, which perfectly matches the patient’s diagnosis of a small bowel (ileum) NET. This is a precise match, avoiding broader categories like “all NETs”. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The study targets low- to intermediate-grade (Grade 1 or Grade 2) well-differentiated NETs. The patient’s tumor was diagnosed as G2, fitting within the study’s inclusio...
-   Condition: Neuroendocrine Tumours; Neuroendocrine Tumour of the Lung; Small Intestinal NET
-   Intervention: Surufatinib
-   Sponsor: Hutchmed
-   Start Date: 2021-08-13
-   Completion Date: 2024-10-15
-   Locations: University of Alabama, Birmingham (UAB), Birmingham, United States; University of California Irvine Medical Center UCIMC - H.H. Chao Comprehensive Digestive Disease Center CDDC, Orange, United States; Emory University, Winship Cancer Institute, Atlanta, United States
-   URL: https://clinicaltrials.gov/study/NCT04579679
-   Summary: This is a Phase 2, open-label, multi-centre study of surufatinib in patients with low to intermediate grade (Grade 1 or Grade 2), well-differentiated neuroendocrine tumours (NETs).
-----------------------------------------
-
-3. Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)
+1. Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)
    NCT ID: NCT01524783
    Status: COMPLETED
    Phase: PHASE3
    Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically targets advanced Neuroendocrine Tumors (NET) of GI origin, which perfectly aligns with the patient’s diagnosis of a small bowel (Dünndarm) NET. The study inclusion criteria explicitly cover the patient’s primary tumor site. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with metastatic disease (lymph nodes and liver). The study includes patients with advanced NETs, and doesn’t exclude G2 tumors....
+   Relevance Reason: 1. **Diagnostic Match:** [Exact match] The study specifically targets advanced Neuroendocrine Tumors (NET) of GI origin, which perfectly aligns with the patient’s diagnosis of a small bowel (Dünndarm) NET. The study inclusion criteria explicitly cover the patient’s primary tumor site. 2. **Tumor Characteristics:** [Grade/stage/biology alignment] The patient has a G2 NET with metastatic disease (lymph node and liver metastases). The study includes patients with advanced NETs, and doesn't exclude ...
+   Has Posted Results: YES (verified)
    Condition: Advanced NET of GI Origin; Advanced NET of Lung Origin; Neuroendocrine Tumors
    Intervention: Everolimus; Placebo; Best suportive care (BSC)
    Sponsor: Novartis Pharmaceuticals
@@ -61,20 +30,14 @@ Found 4 relevant clinical trials
    Locations: University of California San Diego - Moores Cancer Center Regulatory, La Jolla, United States; Scripps Clinic Regulatory, La Jolla, United States; Cedars Sinai Medical Center SC, Los Angeles, United States
    URL: https://clinicaltrials.gov/study/NCT01524783
    Summary: The purpose of this study is to compare the antitumor activity of everolimus plus best supportive care versus placebo plus best supportive care in patients with progressive nonfunctional neuroendocrine tumor (NET) of gastrointestinal (GI) or lung origin without a history of, or current symptoms of c...
-----------------------------------------
-
-4. Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET
-   NCT ID: NCT06784752
-   Status: RECRUITING
-   Phase: PHASE3
-   Perfect Match: YES (Score: 1.0)
-   Relevance Reason: 1. **Diagnostic Match:** Exact match. The study specifically targets Grade 1 and Grade 2 Advanced GEP-NETs. The patient has a Grade 2 NET of the small intestine (Dünndarm), which falls under GEP-NET. The presence of liver metastases confirms it's an advanced case. 2. **Tumor Characteristics:** Perfect alignment. The patient’s tumor is Grade 2, matching the study criteria. The presence of lymph node and liver metastases indicates advanced/metastatic disease, aligning with the study’s inclusion cr...
-   Condition: Somatostatin Receptor Positive (SSTR+); Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET)
-   Intervention: [177Lu]Lu-DOTA-TATE; Octreotide LAR
-   Sponsor: Novartis Pharmaceuticals
-   Start Date: 2025-05-30
-   Completion Date: 2034-01-05
-   Locations: Highlands Oncology Group, Fayetteville, United States; Rocky Mountain Cancer Centers, Denver, United States; Piedmont Hematology And Oncology, Winston-Salem, United States
-   URL: https://clinicaltrials.gov/study/NCT06784752
-   Summary: The purpose of the current study is to evaluate the efficacy and safety of \[177Lu\]Lu-DOTA-TATE plus octreotide long-acting release (LAR) versus octreotide LAR alone in newly diagnosed patients with somatostatin receptor positive (SSTR+), well differentiated Grade1 and Grade 2 (G1 and G2) (Ki-67 \<...
+   Publications Found: 5
+     1. Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S... (N/A)
+        PMID: 33560090 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/33560090/
+     2. Buzzoni R, Carnaghi C, Strosberg J, Fazio N, Singh S, Herbst F, Ridolfi A, Pavel ME, Wolin EM, Valle... (N/A)
+        PMID: 29081664 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/29081664/
+     3. Fazio N, Buzzoni R, Delle Fave G, Tesselaar ME, Wolin E, Van Cutsem E, Tomassetti P, Strosberg J, Vo... (N/A)
+        PMID: 29055056 | Journal: From Clinical Trial Data
+        Link: https://pubmed.ncbi.nlm.nih.gov/29055056/
 ----------------------------------------

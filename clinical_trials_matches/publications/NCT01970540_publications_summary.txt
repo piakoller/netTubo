@@ -1,0 +1,18 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT01970540
+================================================================================
+Study Title: Study Escalating Doses of PM01183 in Combination With Fixed Doxorubicin in Patients With Specific Advanced Unresectable Solid Tumors
+Search Date: 2025-07-15 13:59:20
+Publications Found: 1
+
+--------------------------------------------------------------------------------
+
+1. Olmedo ME, Forster M, Moreno V, Lopez-Criado MP, Brana I, Flynn M, Doger B, de Miguel M, Lopez-Vilar...
+   PMID: 33704620
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/33704620/
+   Source: study_data
+   Abstract: Olmedo ME, Forster M, Moreno V, Lopez-Criado MP, Brana I, Flynn M, Doger B, de Miguel M, Lopez-Vilarino JA, Nunez R, Kahatt C, Cullell-Young M, Zeaiter A, Calvo E. Efficacy and safety of lurbinectedin and doxorubicin in relapsed small cell lung cancer. Results from an expansion cohort of a phase I s...
+
+----------------------------------------

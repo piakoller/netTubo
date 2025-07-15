@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT01578239",
+  "study_title": "A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours",
+  "search_date": "2025-07-15T14:03:04.526890",
+  "publications_found": 4,
+  "publications": [
+    {
+      "pmid": "34793718",
+      "title": "Strosberg JR, Caplin ME, Kunz PL, Ruszniewski PB, Bodei L, Hendifar A, Mittra E, Wolin EM, Yao JC, P...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Strosberg JR, Caplin ME, Kunz PL, Ruszniewski PB, Bodei L, Hendifar A, Mittra E, Wolin EM, Yao JC, Pavel ME, Grande E, Van Cutsem E, Seregni E, Duarte H, Gericke G, Bartalotta A, Mariani MF, Demange A, Mutevelic S, Krenning EP; NETTER-1 investigators. 177Lu-Dotatate plus long-acting octreotide versus high-dose long-acting octreotide in patients with midgut neuroendocrine tumours (NETTER-1): final overall survival and long-term safety results from an open-label, randomised, controlled, phase 3 trial. Lancet Oncol. 2021 Dec;22(12):1752-1763. doi: 10.1016/S1470-2045(21)00572-6. Epub 2021 Nov 15.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34793718/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "32123969",
+      "title": "Strosberg J, Kunz PL, Hendifar A, Yao J, Bushnell D, Kulke MH, Baum RP, Caplin M, Ruszniewski P, Del...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Strosberg J, Kunz PL, Hendifar A, Yao J, Bushnell D, Kulke MH, Baum RP, Caplin M, Ruszniewski P, Delpassand E, Hobday T, Verslype C, Benson A, Srirajaskanthan R, Pavel M, Mora J, Berlin J, Grande E, Reed N, Seregni E, Paganelli G, Severi S, Morse M, Metz DC, Ansquer C, Courbon F, Al-Nahhas A, Baudin E, Giammarile F, Taieb D, Mittra E, Wolin E, O'Dorisio TM, Lebtahi R, Deroose CM, Grana CM, Bodei L, Oberg K, Polack BD, He B, Mariani MF, Gericke G, Santoro P, Erion JL, Ravasi L, Krenning E; NETTER-1 study group. Impact of liver tumour burden, alkaline phosphatase elevation, and target lesion size on treatment outcomes with 177Lu-Dotatate: an analysis of the NETTER-1 study. Eur J Nucl Med Mol Imaging. 2020 Sep;47(10):2372-2382. doi: 10.1007/s00259-020-04709-x. Epub 2020 Mar 2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32123969/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "29878866",
+      "title": "Strosberg J, Wolin E, Chasen B, Kulke M, Bushnell D, Caplin M, Baum RP, Kunz P, Hobday T, Hendifar A...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Strosberg J, Wolin E, Chasen B, Kulke M, Bushnell D, Caplin M, Baum RP, Kunz P, Hobday T, Hendifar A, Oberg K, Sierra ML, Thevenet T, Margalet I, Ruszniewski P, Krenning E; NETTER-1 Study Group. Health-Related Quality of Life in Patients With Progressive Midgut Neuroendocrine Tumors Treated With 177Lu-Dotatate in the Phase III NETTER-1 Trial. J Clin Oncol. 2018 Sep 1;36(25):2578-2584. doi: 10.1200/JCO.2018.78.5865. Epub 2018 Jun 7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29878866/",
+      "source": "study_data"
+    },
+    {
+      "pmid": "28076709",
+      "title": "Strosberg J, El-Haddad G, Wolin E, Hendifar A, Yao J, Chasen B, Mittra E, Kunz PL, Kulke MH, Jacene ...",
+      "authors": [],
+      "journal": "From Clinical Trial Data",
+      "year": "N/A",
+      "doi": null,
+      "abstract": "Strosberg J, El-Haddad G, Wolin E, Hendifar A, Yao J, Chasen B, Mittra E, Kunz PL, Kulke MH, Jacene H, Bushnell D, O'Dorisio TM, Baum RP, Kulkarni HR, Caplin M, Lebtahi R, Hobday T, Delpassand E, Van Cutsem E, Benson A, Srirajaskanthan R, Pavel M, Mora J, Berlin J, Grande E, Reed N, Seregni E, Oberg K, Lopera Sierra M, Santoro P, Thevenet T, Erion JL, Ruszniewski P, Kwekkeboom D, Krenning E; NETTER-1 Trial Investigators. Phase 3 Trial of 177Lu-Dotatate for Midgut Neuroendocrine Tumors. N Engl J Med. 2017 Jan 12;376(2):125-135. doi: 10.1056/NEJMoa1607427.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28076709/",
+      "source": "study_data"
+    }
+  ]
+}

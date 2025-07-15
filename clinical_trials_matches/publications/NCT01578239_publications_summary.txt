@@ -1,0 +1,48 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT01578239
+================================================================================
+Study Title: A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours
+Search Date: 2025-07-15 14:03:04
+Publications Found: 4
+
+--------------------------------------------------------------------------------
+
+1. Strosberg JR, Caplin ME, Kunz PL, Ruszniewski PB, Bodei L, Hendifar A, Mittra E, Wolin EM, Yao JC, P...
+   PMID: 34793718
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/34793718/
+   Source: study_data
+   Abstract: Strosberg JR, Caplin ME, Kunz PL, Ruszniewski PB, Bodei L, Hendifar A, Mittra E, Wolin EM, Yao JC, Pavel ME, Grande E, Van Cutsem E, Seregni E, Duarte H, Gericke G, Bartalotta A, Mariani MF, Demange A, Mutevelic S, Krenning EP; NETTER-1 investigators. 177Lu-Dotatate plus long-acting octreotide versu...
+
+----------------------------------------
+
+2. Strosberg J, Kunz PL, Hendifar A, Yao J, Bushnell D, Kulke MH, Baum RP, Caplin M, Ruszniewski P, Del...
+   PMID: 32123969
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/32123969/
+   Source: study_data
+   Abstract: Strosberg J, Kunz PL, Hendifar A, Yao J, Bushnell D, Kulke MH, Baum RP, Caplin M, Ruszniewski P, Delpassand E, Hobday T, Verslype C, Benson A, Srirajaskanthan R, Pavel M, Mora J, Berlin J, Grande E, Reed N, Seregni E, Paganelli G, Severi S, Morse M, Metz DC, Ansquer C, Courbon F, Al-Nahhas A, Baudin...
+
+----------------------------------------
+
+3. Strosberg J, Wolin E, Chasen B, Kulke M, Bushnell D, Caplin M, Baum RP, Kunz P, Hobday T, Hendifar A...
+   PMID: 29878866
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/29878866/
+   Source: study_data
+   Abstract: Strosberg J, Wolin E, Chasen B, Kulke M, Bushnell D, Caplin M, Baum RP, Kunz P, Hobday T, Hendifar A, Oberg K, Sierra ML, Thevenet T, Margalet I, Ruszniewski P, Krenning E; NETTER-1 Study Group. Health-Related Quality of Life in Patients With Progressive Midgut Neuroendocrine Tumors Treated With 177...
+
+----------------------------------------
+
+4. Strosberg J, El-Haddad G, Wolin E, Hendifar A, Yao J, Chasen B, Mittra E, Kunz PL, Kulke MH, Jacene ...
+   PMID: 28076709
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/28076709/
+   Source: study_data
+   Abstract: Strosberg J, El-Haddad G, Wolin E, Hendifar A, Yao J, Chasen B, Mittra E, Kunz PL, Kulke MH, Jacene H, Bushnell D, O'Dorisio TM, Baum RP, Kulkarni HR, Caplin M, Lebtahi R, Hobday T, Delpassand E, Van Cutsem E, Benson A, Srirajaskanthan R, Pavel M, Mora J, Berlin J, Grande E, Reed N, Seregni E, Oberg...
+
+----------------------------------------

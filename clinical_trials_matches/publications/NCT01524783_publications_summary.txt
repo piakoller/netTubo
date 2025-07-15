@@ -1,0 +1,58 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT01524783
+================================================================================
+Study Title: Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)
+Search Date: 2025-07-15 14:00:36
+Publications Found: 5
+
+--------------------------------------------------------------------------------
+
+1. Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S...
+   PMID: 33560090
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/33560090/
+   Source: study_data
+   Abstract: Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke MH, Pavel M, Singh S. Markers of Systemic Inflammation in Neuroendocrine Tumors: A Pooled Analysis of the RADIANT-3 and RADIANT-4 Studies. Pancreas. 2021 Feb 1;50(2):130-137. doi: 10.1097/MPA.0000000000001745.
+
+----------------------------------------
+
+2. Buzzoni R, Carnaghi C, Strosberg J, Fazio N, Singh S, Herbst F, Ridolfi A, Pavel ME, Wolin EM, Valle...
+   PMID: 29081664
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/29081664/
+   Source: study_data
+   Abstract: Buzzoni R, Carnaghi C, Strosberg J, Fazio N, Singh S, Herbst F, Ridolfi A, Pavel ME, Wolin EM, Valle JW, Oh DY, Yao JC, Pommier R. Impact of prior therapies on everolimus activity: an exploratory analysis of RADIANT-4. Onco Targets Ther. 2017 Oct 16;10:5013-5030. doi: 10.2147/OTT.S142087. eCollectio...
+
+----------------------------------------
+
+3. Fazio N, Buzzoni R, Delle Fave G, Tesselaar ME, Wolin E, Van Cutsem E, Tomassetti P, Strosberg J, Vo...
+   PMID: 29055056
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/29055056/
+   Source: study_data
+   Abstract: Fazio N, Buzzoni R, Delle Fave G, Tesselaar ME, Wolin E, Van Cutsem E, Tomassetti P, Strosberg J, Voi M, Bubuteishvili-Pacaud L, Ridolfi A, Herbst F, Tomasek J, Singh S, Pavel M, Kulke MH, Valle JW, Yao JC. Everolimus in advanced, progressive, well-differentiated, non-functional neuroendocrine tumor...
+
+----------------------------------------
+
+4. Pavel ME, Singh S, Strosberg JR, Bubuteishvili-Pacaud L, Degtyarev E, Neary MP, Carnaghi C, Tomasek ...
+   PMID: 28838862
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/28838862/
+   Source: study_data
+   Abstract: Pavel ME, Singh S, Strosberg JR, Bubuteishvili-Pacaud L, Degtyarev E, Neary MP, Carnaghi C, Tomasek J, Wolin E, Raderer M, Lahner H, Valle JW, Pommier R, Van Cutsem E, Tesselaar MET, Fave GD, Buzzoni R, Hunger M, Eriksson J, Cella D, Ricci JF, Fazio N, Kulke MH, Yao JC. Health-related quality of lif...
+
+----------------------------------------
+
+5. Yao JC, Fazio N, Singh S, Buzzoni R, Carnaghi C, Wolin E, Tomasek J, Raderer M, Lahner H, Voi M, Pac...
+   PMID: 26703889
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/26703889/
+   Source: study_data
+   Abstract: Yao JC, Fazio N, Singh S, Buzzoni R, Carnaghi C, Wolin E, Tomasek J, Raderer M, Lahner H, Voi M, Pacaud LB, Rouyrre N, Sachs C, Valle JW, Fave GD, Van Cutsem E, Tesselaar M, Shimada Y, Oh DY, Strosberg J, Kulke MH, Pavel ME; RAD001 in Advanced Neuroendocrine Tumours, Fourth Trial (RADIANT-4) Study G...
+
+----------------------------------------

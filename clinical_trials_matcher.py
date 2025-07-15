@@ -4,7 +4,8 @@ ClinicalTrials.gov API Patient-Study Matching System
 
 This script queries the ClinicalTrials.gov API to find relevant clinical trials
 for patients based on their diagnosis and characteristics.
-It can find both active and completed studies.
+It filters for studies that have both posted results AND publications, ensuring
+high-quality evidence-based trial matches.
 """
 
 import json
@@ -35,7 +36,7 @@ if not OPENROUTER_API_KEY:
     logger.warning("OPENROUTER_API_KEY not set. Please set it as an environment variable.")
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 
-MIN_RELEVANCE_SCORE = 1.0  # Ultra-strict: Only perfect matches (YES decisions) are included
+MIN_RELEVANCE_SCORE = 1.0  # Include clinically relevant matches (YES decisions)
 
 class LLMStudyMatcher:
     """Uses an LLM to match patients with clinical studies."""
@@ -112,7 +113,7 @@ class LLMStudyMatcher:
         # For LLM evaluation, we use the detailed description for comprehensive comparison
         # Create prompt for LLM evaluation using detailed description
         prompt = f"""
-You are a leading NET specialist with 25+ years in oncology/endocrinology. Your reputation depends on PERFECT patient-study matching. You ONLY recommend studies where the patient is the IDEAL candidate with ZERO uncertainty. A single mismatch = immediate NO.
+You are a highly experienced specialist in neuroendocrine tumors (NETs), tasked with rigorously evaluating clinical trial eligibility for a specific patient. Your goal is to identify only those studies that are **clearly relevant and appropriate** for the patient's diagnosis, tumor biology, and treatment status. Avoid speculative matches and exclude marginally relevant studies.
 
 PATIENT PROFILE:
 {patient_data_formatted}
@@ -121,74 +122,52 @@ STUDY TO EVALUATE:
 Title: {study_title}
 Description: {detailed_description}
 
-CRITICAL EVALUATION FRAMEWORK - ALL 6 CRITERIA MUST BE PERFECT:
+STRICT EVALUATION FRAMEWORK – Apply the following filters carefully and conservatively. A study must meet **all core criteria** to be considered suitable.
 
-1. EXACT DIAGNOSTIC MATCH (Zero Tolerance):
-   ✓ Study MUST target patient's precise NET subtype, location, and characteristics
-   ✗ REJECT: "solid tumors", "all NETs", "gastrointestinal cancers" - too broad
-   ✗ REJECT: Wrong anatomical site (pancreatic ≠ small bowel ≠ lung NET)
-   ✗ REJECT: Different functional status if specified in patient data
+1. DIAGNOSTIC RELEVANCE (MANDATORY):
+   ✓ The study must **explicitly target neuroendocrine tumors (NETs)**.
+   ✓ Patient's **primary tumor site** must be included in the study population, or the study must allow **all NET sites**.
+   ✗ Studies referring only to general "solid tumors" are **not acceptable** unless NETs are **specifically listed**.
+   ✗ Do not include studies with vague or inferred inclusion of NETs.
 
-2. PRECISE TUMOR CHARACTERISTICS:
-   ✓ Grade (G1/G2/G3) must match exactly if specified
-   ✓ Stage/extent (localized/regional/metastatic) must align perfectly
-   ✓ Ki-67 index range must be compatible if mentioned
-   ✗ REJECT: Any mismatch in tumor biology or staging
+2. TUMOR CHARACTERISTICS (STRICT MATCHING):
+   ✓ Tumor **grade** must match exactly or fall within a clearly accepted adjacent category (e.g., G1–G2).
+   ✓ Tumor **stage or extent** must be explicitly compatible with the study population.
+   ✓ Functional status (e.g., hormone-secreting tumors) must be aligned if relevant.
+   ✗ Exclude if patient's tumor characteristics deviate significantly from those described in the study.
 
-3. TREATMENT HISTORY ALIGNMENT:
-   ✓ First-line studies ONLY for treatment-naive patients
-   ✓ Salvage therapy studies ONLY for appropriately pre-treated patients
-   ✓ Prior treatment requirements must match patient's exact history
-   ✗ REJECT: Treatment line mismatch (e.g., 3rd-line study for untreated patient)
+3. TREATMENT CONTEXT (HISTORICAL COMPATIBILITY):
+   ✓ The **line of therapy** must match the patient’s current treatment status (e.g., first-line, refractory).
+   ✓ Patient must not have received **prior therapies that conflict** with study exclusion criteria.
+   ✓ Study should be appropriate for either current disease state or well-defined future treatment planning.
+   ✗ Exclude if prior treatments disqualify the patient.
 
-4. DEMOGRAPHIC & CLINICAL FIT:
-   ✓ Age range must clearly include patient
-   ✓ Performance status requirements must be met
-   ✓ Organ function criteria must be satisfied
-   ✗ REJECT: Any demographic exclusion or borderline eligibility
+4. CLINICAL ELIGIBILITY (BASIC REQUIREMENTS):
+   ✓ Patient must fall within the **study’s age range**.
+   ✓ Patient’s **performance status** must meet the study minimum (e.g., ECOG 0–2).
+   ✓ Patient must likely meet standard **organ function and lab criteria**.
+   ✗ Exclude if any major eligibility requirement is unlikely to be met.
 
-5. BIOMARKER & MOLECULAR REQUIREMENTS:
-   ✓ Required biomarkers must be confirmed in patient
-   ✓ Somatostatin receptor status must align if specified
-   ✗ REJECT: Unconfirmed biomarker requirements or molecular mismatches
+5. THERAPEUTIC RATIONALE (CLINICAL VALUE):
+   ✓ The **intervention** must be mechanistically or clinically relevant to this NET type.
+   ✓ The study must address a question that is **meaningful and plausible** for the patient’s subtype.
+   ✗ Exclude if the study investigates interventions irrelevant to the patient’s tumor biology or treatment needs.
 
-6. THERAPEUTIC APPROPRIATENESS:
-   ✓ Intervention must be optimal next step for THIS patient
-   ✓ Study must address patient's current clinical need precisely
-   ✓ Clear therapeutic rationale for this specific case
-   ✗ REJECT: Experimental approach when standard therapy available
-
-IMMEDIATE REJECTION TRIGGERS:
-• Non-NET cancers mentioned in any context
-• Wrong NET primary site or subtype
-• Pediatric studies for adults (or vice versa)
-• Phase I studies for standard-therapy candidates
-• "Solid tumor" basket studies
-• Geographic restrictions excluding patient
-• Unmet biomarker requirements
-• Treatment line incompatibility
-• Age/performance status exclusions
-• "Advanced refractory" for early-stage patients
-
-DECISION LOGIC:
-- Start with NO as default
-- Require PERFECT match on ALL 6 criteria
-- Any uncertainty = NO
-- Any missing information = NO
-- Would you stake your medical license on enrolling this patient? If not, answer NO
+DECISION RULE:
+→ Only include studies where the patient is a **strong candidate** and where participation could be **reasonably justified based on clinical fit**. Do not include studies with speculative or borderline relevance.
 
 STRUCTURED ANALYSIS REQUIRED:
 DECISION: [YES/NO]
-REASONING: 
-1. Diagnostic Match: [Exact match/mismatch details]
-2. Tumor Characteristics: [Grade/stage/biology alignment]
-3. Treatment History: [Line compatibility assessment]
-4. Demographics/Clinical: [Age/PS/organ function fit]
-5. Biomarkers: [Required markers and patient status]
-6. Therapeutic Benefit: [Why this study is/isn't optimal for patient]
-CONCLUSION: [Final justification for YES/NO decision]
-"""
 
+REASONING:
+1. Diagnostic Relevance: [Does the study population clearly match the patient’s NET subtype and location?]
+2. Tumor Characteristics: [Do grade, stage, and functional status align precisely or within acceptable bounds?]
+3. Treatment Context: [Is the therapy line and prior treatment history fully compatible?]
+4. Clinical Eligibility: [Would this patient realistically meet all major eligibility criteria?]
+5. Therapeutic Rationale: [Would the intervention be clinically meaningful and potentially beneficial?]
+
+CONCLUSION: [Summarize the strict clinical justification for inclusion or exclusion.]
+"""
         try:
             llm_response = self.call_llm(prompt)
             
@@ -301,8 +280,9 @@ class ClinicalTrialsAPI:
     def search_studies(self, 
                       condition: str, 
                       intervention: Optional[str] = None,
-                      status: Optional[List[str]] = None,
                       phase: Optional[List[str]] = None,
+                      with_publications: bool = True,
+                      with_posted_results: bool = True,
                       max_results: int = 100) -> List[Dict]:
         """
         Search for clinical trials based on condition and other criteria.
@@ -310,8 +290,9 @@ class ClinicalTrialsAPI:
         Args:
             condition: Medical condition (e.g., "neuroendocrine tumor", "NET")
             intervention: Intervention/treatment (e.g., "PRRT", "everolimus")
-            status: Study status (e.g., ["RECRUITING", "ACTIVE_NOT_RECRUITING", "COMPLETED"])
             phase: Study phases (e.g., ["PHASE1", "PHASE2", "PHASE3"])
+            with_publications: If True, only return studies with publications
+            with_posted_results: If True, only return studies with posted results
             max_results: Maximum number of results to return
             
         Returns:
@@ -325,17 +306,12 @@ class ClinicalTrialsAPI:
         if intervention:
             query_parts.append(f"AREA[InterventionName]{intervention}")
             
-        if status:
-            # Convert status to proper format
-            status_mapping = {
-                "RECRUITING": "Recruiting",
-                "ACTIVE_NOT_RECRUITING": "Active, not recruiting", 
-                "COMPLETED": "Completed",
-                "TERMINATED": "Terminated"
-            }
-            mapped_statuses = [status_mapping.get(s, s) for s in status]
-            status_query = " OR ".join([f'AREA[OverallStatus]"{s}"' for s in mapped_statuses])
-            query_parts.append(f"({status_query})")
+        # Filter by studies with publications (remove hasResults from query as it may not be supported)
+        if with_publications:
+            query_parts.append("AREA[ReferencesModule]NOT MISSING")
+        
+        # Note: We'll filter for posted results after retrieving studies since 
+        # hasResults:true might not be supported in the API query syntax
         
         query_string = " AND ".join(query_parts)
         
@@ -368,8 +344,27 @@ class ClinicalTrialsAPI:
             data = response.json()
             studies = data.get("studies", [])
             
+            # Filter studies based on our criteria after retrieval
+            filtered_studies = []
+            for study in studies:
+                # Check if study has publications (if required)
+                has_publications = True
+                if with_publications:
+                    references_section = study.get("protocolSection", {}).get("referencesModule")
+                    has_publications = references_section is not None and len(references_section) > 0
+                
+                # Check if study has posted results (if required)
+                has_posted_results = True
+                if with_posted_results:
+                    has_posted_results = study.get("hasResults", False)
+                
+                # Include study if it meets our criteria
+                if has_publications and has_posted_results:
+                    filtered_studies.append(study)
+            
             logger.info(f"Found {len(studies)} studies for condition: {condition}")
-            return studies
+            logger.info(f"After filtering (publications: {with_publications}, posted results: {with_posted_results}): {len(filtered_studies)} studies")
+            return filtered_studies
             
         except requests.exceptions.RequestException as e:
             logger.error(f"Error searching studies: {e}")
@@ -385,8 +380,28 @@ class ClinicalTrialsAPI:
                 if response.status_code == 200:
                     data = response.json()
                     studies = data.get("studies", [])
+                    
+                    # Apply the same filtering logic to fallback results
+                    filtered_studies = []
+                    for study in studies:
+                        # Check if study has publications (if required)
+                        has_publications = True
+                        if with_publications:
+                            references_section = study.get("protocolSection", {}).get("referencesModule")
+                            has_publications = references_section is not None and len(references_section) > 0
+                        
+                        # Check if study has posted results (if required)
+                        has_posted_results = True
+                        if with_posted_results:
+                            has_posted_results = study.get("hasResults", False)
+                        
+                        # Include study if it meets our criteria
+                        if has_publications and has_posted_results:
+                            filtered_studies.append(study)
+                    
                     logger.info(f"Basic search found {len(studies)} studies")
-                    return studies
+                    logger.info(f"After filtering: {len(filtered_studies)} studies")
+                    return filtered_studies
             except Exception as fallback_error:
                 logger.error(f"Fallback search also failed: {fallback_error}")
             
@@ -436,33 +451,73 @@ class PatientStudyMatcher:
         """
         matches = []
         
-        # Extract search terms from patient data - simplified set for broader search
+        # Extract search terms from patient data - comprehensive set for better coverage
         search_terms = [
             "neuroendocrine tumor",
-            "NET"
+            "NET",
+            "neuroendocrine neoplasm",
+            "carcinoid",
+            "pancreatic neuroendocrine",
+            "gastroenteropancreatic neuroendocrine",
+            "GEP-NET"
         ]
         
-        # Search for studies with different terms
+        # Add patient-specific terms based on diagnosis
+        diagnosis_text = patient_data.get('main_diagnosis_text', '').lower()
+        if 'pankreas' in diagnosis_text or 'pancrea' in diagnosis_text:
+            search_terms.extend(["pancreatic NET", "pancreatic neuroendocrine tumor", "pNET"])
+        if 'dünndarm' in diagnosis_text or 'ileum' in diagnosis_text or 'small' in diagnosis_text:
+            search_terms.extend(["small bowel NET", "ileal NET", "small intestine neuroendocrine"])
+        if 'leber' in diagnosis_text or 'liver' in diagnosis_text:
+            search_terms.extend(["neuroendocrine liver metastases"])
+        if 'g1' in diagnosis_text:
+            search_terms.extend(["grade 1 neuroendocrine", "well differentiated neuroendocrine"])
+        if 'g2' in diagnosis_text:
+            search_terms.extend(["grade 2 neuroendocrine", "moderately differentiated neuroendocrine"])
+        if 'g3' in diagnosis_text:
+            search_terms.extend(["grade 3 neuroendocrine", "poorly differentiated neuroendocrine"])
+        
+        # Remove duplicates while preserving order
+        search_terms = list(dict.fromkeys(search_terms))
+        
+        # Search for studies with different terms - only studies with publications and posted results
         all_studies = []
         for term in search_terms:
-            logger.info(f"Searching for studies with term: {term}")
+            logger.info(f"Searching for studies with term: {term} (with publications and posted results only)")
             studies = self.api.search_studies(
                 condition=term,
-                status=["RECRUITING", "ACTIVE_NOT_RECRUITING", "COMPLETED", "TERMINATED"],
+                with_publications=True,  # Only studies with publications
+                with_posted_results=True,  # Only studies with posted results
                 max_results=30  # Get studies to evaluate with ultra-strict LLM criteria
             )
             all_studies.extend(studies)
             # Add small delay between different search terms
             time.sleep(0.5)
         
-        # Remove duplicates based on NCT ID
+        # Remove duplicates based on NCT ID and verify studies have both publications and posted results
         unique_studies = {}
         for study in all_studies:
             nct_id = study.get("protocolSection", {}).get("identificationModule", {}).get("nctId")
-            if nct_id and nct_id not in unique_studies:
+            
+            # Check if study has publications
+            references_section = study.get("protocolSection", {}).get("referencesModule")
+            has_publications = references_section is not None and len(references_section) > 0
+            
+            # Check if study has posted results (hasResults field is at the root level)
+            has_posted_results = study.get("hasResults", False)
+            
+            if nct_id and nct_id not in unique_studies and has_publications and has_posted_results:
                 unique_studies[nct_id] = study
+                logger.debug(f"Study {nct_id} has both publications and posted results - including in evaluation")
+            elif nct_id and not (has_publications and has_posted_results):
+                missing_criteria = []
+                if not has_publications:
+                    missing_criteria.append("publications")
+                if not has_posted_results:
+                    missing_criteria.append("posted results")
+                logger.debug(f"Study {nct_id} missing {', '.join(missing_criteria)} - excluding from evaluation")
         
-        logger.info(f"Found {len(unique_studies)} unique studies to evaluate")
+        logger.info(f"Found {len(unique_studies)} unique studies with both publications and posted results to evaluate")
         
         # Use LLM to evaluate each study
         evaluated_count = 0
@@ -502,11 +557,29 @@ class PatientStudyMatcher:
                     
                     # Download publication information if downloader is available
                     publications_info = None
-                    # if self.pub_downloader:
-                    #     logger.info(f"Downloading publications for study {nct_id}")
-                    #     publications_info = self.pub_downloader.download_publication_info(
-                    #         nct_id, identification.get("briefTitle", "")
-                    #     )
+                    if self.pub_downloader:
+                        logger.info(f"Downloading publications for study {nct_id}")
+                        # First extract any references from the study data itself
+                        references_module = protocol.get("referencesModule", {})
+                        study_references = []
+                        
+                        # Extract references if available in the study data
+                        if references_module:
+                            references = references_module.get("references", [])
+                            for ref in references:
+                                if ref.get("pmid") or ref.get("citation"):
+                                    study_ref = {
+                                        "pmid": ref.get("pmid", ""),
+                                        "citation": ref.get("citation", ""),
+                                        "type": ref.get("type", ""),
+                                        "url": f"https://pubmed.ncbi.nlm.nih.gov/{ref.get('pmid')}/" if ref.get("pmid") else ""
+                                    }
+                                    study_references.append(study_ref)
+                        
+                        # Then search PubMed for additional publications
+                        publications_info = self.pub_downloader.download_publication_info(
+                            nct_id, identification.get("briefTitle", ""), study_references
+                        )
                     
                     match = ClinicalTrialMatch(
                         nct_id=nct_id,
@@ -549,16 +622,16 @@ class PatientStudyMatcher:
         # Sort by relevance score (highest first)
         matches.sort(key=lambda x: x.relevance_score, reverse=True)
         
-        logger.info(f"Found {len(matches)} PERFECT MATCH studies (ultra-strict criteria, score >= {min_relevance_score})")
+        logger.info(f"Found {len(matches)} clinically relevant studies with publications and posted results (score >= {min_relevance_score})")
         
         return matches[:max_studies]
 
 def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch]) -> str:
-    """Generate a formatted report of PERFECT MATCH studies for a patient (ultra-strict criteria)."""
+    """Generate a formatted report of clinically relevant studies with publications and posted results for a patient."""
     
     report = []
     report.append("="*80)
-    report.append("CLINICAL TRIALS PERFECT MATCHES REPORT (ULTRA-STRICT CRITERIA)")
+    report.append("CLINICAL TRIALS MATCHES REPORT (STUDIES WITH PUBLICATIONS AND POSTED RESULTS ONLY)")
     report.append("="*80)
     
     # Patient information
@@ -567,7 +640,7 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
     report.append(f"Clinical Question: {patient_data.get('Fragestellung', 'Not specified')}")
     report.append(f"Report generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
-    report.append(f"\nFound {len(matches)} relevant clinical trials")
+    report.append(f"\nFound {len(matches)} relevant clinical trials (with publications and posted results)")
     report.append("-"*80)
     
     for i, match in enumerate(matches, 1):
@@ -575,8 +648,9 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
         report.append(f"   NCT ID: {match.nct_id}")
         report.append(f"   Status: {match.status}")
         report.append(f"   Phase: {match.phase}")
-        report.append(f"   Perfect Match: {'YES' if match.relevance_score >= 1.0 else 'NO'} (Score: {match.relevance_score:.1f})")
+        report.append(f"   Clinically Relevant: {'YES' if match.relevance_score >= 1.0 else 'NO'} (Score: {match.relevance_score:.1f})")
         report.append(f"   Relevance Reason: {match.relevance_reason}")
+        report.append(f"   Has Posted Results: YES (verified)")
         report.append(f"   Condition: {match.condition}")
         report.append(f"   Intervention: {match.intervention}")
         report.append(f"   Sponsor: {match.sponsor}")
@@ -592,13 +666,16 @@ def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch])
             report.append(f"   Summary: {summary}")
         
         # Add publication information if available
-        # if match.publications and match.publications.get('publications_found', 0) > 0:
-        #     report.append(f"   Publications Found: {match.publications['publications_found']}")
-        #     for i, pub in enumerate(match.publications['publications'][:2], 1):  # Show first 2 publications
-        #         report.append(f"     {i}. {pub['title']} ({pub['year']})")
-        #         report.append(f"        PMID: {pub['pmid']} | Journal: {pub['journal']}")
-        # elif match.publications:
-        #     report.append(f"   Publications: No publications found")
+        if match.publications and match.publications.get('publications_found', 0) > 0:
+            report.append(f"   Publications Found: {match.publications['publications_found']}")
+            for i, pub in enumerate(match.publications['publications'][:3], 1):  # Show first 3 publications
+                report.append(f"     {i}. {pub['title']} ({pub['year']})")
+                report.append(f"        PMID: {pub['pmid']} | Journal: {pub['journal']}")
+                if pub.get('doi'):
+                    report.append(f"        DOI: {pub['doi']}")
+                report.append(f"        Link: {pub['url']}")
+        elif match.publications:
+            report.append(f"   Publications: No publications found")
         
         report.append("-"*40)
     
@@ -610,19 +687,26 @@ def test_api_connection():
     
     print("Testing ClinicalTrials.gov API connection...")
     
-    # Test with a simple, common condition
-    test_studies = api.search_studies("cancer", max_results=5)
+    # Test with a simple, common condition (no filtering for initial test)
+    test_studies = api.search_studies("cancer", with_publications=False, with_posted_results=False, max_results=5)
     
     if test_studies:
         print(f"✅ API connection successful! Found {len(test_studies)} studies for 'cancer'")
+        
+        # Now test with filtering
+        print("\nTesting with publications and posted results filtering...")
+        filtered_studies = api.search_studies("cancer", with_publications=True, with_posted_results=True, max_results=5)
+        print(f"✅ Filtering working! Found {len(filtered_studies)} studies with publications and posted results")
         
         # Show first study as example
         if test_studies:
             first_study = test_studies[0]
             protocol = first_study.get("protocolSection", {})
             identification = protocol.get("identificationModule", {})
+            has_results = first_study.get("hasResults", False)
             print(f"Example study: {identification.get('briefTitle', 'No title')}")
             print(f"NCT ID: {identification.get('nctId', 'No ID')}")
+            print(f"Has posted results: {has_results}")
         return True
     else:
         print("❌ API connection failed!")
@@ -649,12 +733,11 @@ def main():
     # Create output directory
     OUTPUT_DIR.mkdir(exist_ok=True)
     
-    # Initialize API, LLM matcher, publication downloader, and patient matcher
+    # Initialize API, LLM matcher, and patient matcher (no publication downloading)
     api = ClinicalTrialsAPI(rate_limit_delay=1.0)
     llm_matcher = LLMStudyMatcher(OPENROUTER_API_KEY)
     # llm_matcher = LLMStudyMatcher(OPENROUTER_API_KEY, model="google/gemini-2.5-pro-exp-03-25")
-    # pub_downloader = PublicationDownloader(OUTPUT_DIR)  # Commented out
-    pub_downloader = None  # Disabled publication downloading
+    pub_downloader = None  # Disable publication downloading
     matcher = PatientStudyMatcher(api, llm_matcher, pub_downloader)
     
     # Load patient data
@@ -684,8 +767,8 @@ def main():
             # Find relevant studies using LLM evaluation
             matches = matcher.find_relevant_studies(
                 patient_data, 
-                min_relevance_score=MIN_RELEVANCE_SCORE,  # Ultra-strict threshold: only perfect matches (YES decisions)
-                max_studies=15  # Fewer studies but ultra-strict quality
+                min_relevance_score=MIN_RELEVANCE_SCORE,  # Include clinically relevant matches (YES decisions)
+                max_studies=15  # Studies with good clinical relevance
             )
             
             # Generate report
@@ -696,13 +779,15 @@ def main():
             with open(patient_report_file, 'w', encoding='utf-8') as f:
                 f.write(report)
             
-            logger.info(f"Found {len(matches)} PERFECT MATCH studies for patient {patient_id} using ultra-strict criteria")
+            logger.info(f"Found {len(matches)} clinically relevant studies with publications and posted results for patient {patient_id}")
             
             # Store results for summary
             patient_result = {
                 "patient_id": str(patient_id),
                 "patient_data": patient_data,
                 "matches_found": len(matches),
+                "matches_with_publications": len(matches),  # All matches have publications (filtered)
+                "matches_with_posted_results": len(matches),  # All matches have posted results (filtered)
                 "llm_evaluation_method": OPENROUTER_MODEL,
                 "min_relevance_score": MIN_RELEVANCE_SCORE,
                 "matches": [
@@ -713,6 +798,7 @@ def main():
                         "phase": match.phase,
                         "relevance_score": match.relevance_score,
                         "relevance_reason": match.relevance_reason,
+                        "has_posted_results": True,  # All matches have posted results (filtered)
                         "condition": match.condition,
                         "intervention": match.intervention,
                         "url": match.url,
@@ -741,43 +827,37 @@ def main():
     total_matches = sum(result["matches_found"] for result in all_results)
     avg_matches = total_matches / len(all_results) if all_results else 0
     
-    # Calculate score distribution and publication statistics
+    # Calculate score distribution (no publication statistics since downloads are disabled)
     all_scores = []
-    # total_publications = 0  # Commented out since publications are disabled
-    # studies_with_publications = 0  # Commented out since publications are disabled
     
     for result in all_results:
         for match in result["matches"]:
             all_scores.append(match["relevance_score"])
-            # if match.get("publications") and match["publications"].get("publications_found", 0) > 0:
-            #     total_publications += match["publications"]["publications_found"]
-            #     studies_with_publications += 1
     
     avg_score = sum(all_scores) / len(all_scores) if all_scores else 0
-    high_relevance_count = len([s for s in all_scores if s >= 1.0])  # Perfect matches only
+    relevant_count = len([s for s in all_scores if s >= 1.0])  # Clinically relevant matches
     
     summary_report = [
         "="*80,
-        "LLM-BASED CLINICAL TRIALS PERFECT MATCHING SUMMARY (ULTRA-STRICT)",
+        "LLM-BASED CLINICAL TRIALS MATCHING SUMMARY (STUDIES WITH PUBLICATIONS AND POSTED RESULTS ONLY)",
         "="*80,
         f"Total patients processed: {len(all_results)}",
-        f"Total studies found: {total_matches}",
+        f"Total studies found: {total_matches} (all with publications and posted results)",
         f"Average studies per patient: {avg_matches:.1f}",
-        f"Perfect matches (ultra-strict): {high_relevance_count} (all matches are perfect fits)",
-        # f"Studies with publications: {studies_with_publications}/{total_matches}",  # Commented out - publications disabled
-        # f"Total publications downloaded: {total_publications}",  # Commented out - publications disabled
-        # f"Publications directory: {OUTPUT_DIR}/publications",  # Commented out - publications disabled
+        f"Clinically relevant matches: {relevant_count} (all matches are clinically relevant)",
+        f"Studies with posted results: {total_matches}/{total_matches} (100% - filtering requirement)",
+        f"Studies with publications: {total_matches}/{total_matches} (100% - filtering requirement)",
         f"Evaluation method: LLM-based semantic matching",
         f"Results saved to: {OUTPUT_DIR}",
         f"Summary data: {summary_file}",
         "="*80,
-        "Note: Studies were evaluated using AI to assess relevance",
-        "based on patient diagnosis and clinical context.",
-        "Publication downloading is currently disabled."
+        "Note: Only studies with publications AND posted results were evaluated using AI",
+        "to assess clinical relevance based on patient diagnosis and clinical context.",
+        "Publication downloading was disabled for faster processing."
     ]
     
     print("\n".join(summary_report))
-    logger.info("LLM-based clinical trials matching completed successfully")
+    logger.info("LLM-based clinical trials matching (studies with publications and posted results) completed successfully")
 
 class PublicationDownloader:
     """Downloads publications related to clinical trials."""
@@ -917,13 +997,38 @@ class PublicationDownloader:
             logger.error(f"Error fetching PubMed details: {e}")
             return []
     
-    def download_publication_info(self, nct_id: str, study_title: str) -> Dict:
+    def download_publication_info(self, nct_id: str, study_title: str, study_references: List[Dict] = None) -> Dict:
         """Download publication information for a study."""
         try:
-            # Search for publications
-            publications = self.search_pubmed_for_study(nct_id, study_title)
+            all_publications = []
             
-            if not publications:
+            # Add study references if provided
+            if study_references:
+                for ref in study_references:
+                    publication = {
+                        'pmid': ref.get('pmid', 'N/A'),
+                        'title': ref.get('citation', 'Study Reference')[:100] + '...' if len(ref.get('citation', '')) > 100 else ref.get('citation', 'Study Reference'),
+                        'authors': [],
+                        'journal': 'From Clinical Trial Data',
+                        'year': 'N/A',
+                        'doi': None,
+                        'abstract': ref.get('citation', ''),
+                        'url': ref.get('url', f"https://pubmed.ncbi.nlm.nih.gov/{ref.get('pmid')}/" if ref.get('pmid') else ""),
+                        'source': 'study_data'
+                    }
+                    all_publications.append(publication)
+            
+            # Search for additional publications in PubMed
+            pubmed_publications = self.search_pubmed_for_study(nct_id, study_title)
+            
+            # Add PubMed publications, avoiding duplicates by PMID
+            existing_pmids = {pub.get('pmid') for pub in all_publications if pub.get('pmid') and pub.get('pmid') != 'N/A'}
+            for pub in pubmed_publications:
+                if pub.get('pmid') not in existing_pmids:
+                    pub['source'] = 'pubmed_search'
+                    all_publications.append(pub)
+            
+            if not all_publications:
                 return {
                     'nct_id': nct_id,
                     'study_title': study_title,
@@ -938,23 +1043,23 @@ class PublicationDownloader:
                 'nct_id': nct_id,
                 'study_title': study_title,
                 'search_date': datetime.now().isoformat(),
-                'publications_found': len(publications),
-                'publications': publications
+                'publications_found': len(all_publications),
+                'publications': all_publications
             }
             
             with open(pub_info_file, 'w', encoding='utf-8') as f:
                 json.dump(pub_data, f, indent=2, ensure_ascii=False)
             
             # Also save a readable text summary
-            self._save_publication_summary(nct_id, study_title, publications)
+            self._save_publication_summary(nct_id, study_title, all_publications)
             
-            logger.info(f"Found and saved {len(publications)} publications for study {nct_id}")
+            logger.info(f"Found and saved {len(all_publications)} publications for study {nct_id}")
             
             return {
                 'nct_id': nct_id,
                 'study_title': study_title,
-                'publications_found': len(publications),
-                'publications': publications,
+                'publications_found': len(all_publications),
+                'publications': all_publications,
                 'status': 'success',
                 'info_file': str(pub_info_file)
             }
@@ -986,13 +1091,16 @@ class PublicationDownloader:
             for i, pub in enumerate(publications, 1):
                 f.write(f"\n{i}. {pub['title']}\n")
                 f.write(f"   PMID: {pub['pmid']}\n")
-                f.write(f"   Authors: {', '.join(pub['authors'][:3])}\n")
+                if pub.get('authors'):
+                    f.write(f"   Authors: {', '.join(pub['authors'][:3])}\n")
                 f.write(f"   Journal: {pub['journal']}\n")
                 f.write(f"   Year: {pub['year']}\n")
-                if pub['doi']:
+                if pub.get('doi'):
                     f.write(f"   DOI: {pub['doi']}\n")
-                f.write(f"   URL: {pub['url']}\n")
-                if pub['abstract']:
+                if pub.get('url'):
+                    f.write(f"   URL: {pub['url']}\n")
+                f.write(f"   Source: {pub.get('source', 'unknown')}\n")
+                if pub.get('abstract'):
                     abstract = pub['abstract'][:300] + "..." if len(pub['abstract']) > 300 else pub['abstract']
                     f.write(f"   Abstract: {abstract}\n")
                 f.write("\n" + "-"*40 + "\n")

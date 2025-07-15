@@ -1,0 +1,28 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT03972488
+================================================================================
+Study Title: Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET
+Search Date: 2025-07-15 14:07:11
+Publications Found: 2
+
+--------------------------------------------------------------------------------
+
+1. Singh S, Halperin D, Myrehaug S, Herrmann K, Pavel M, Kunz PL, Chasen B, Tafuto S, Lastoria S, Capde...
+   PMID: 38851203
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/38851203/
+   Source: study_data
+   Abstract: Singh S, Halperin D, Myrehaug S, Herrmann K, Pavel M, Kunz PL, Chasen B, Tafuto S, Lastoria S, Capdevila J, Garcia-Burillo A, Oh DY, Yoo C, Halfdanarson TR, Falk S, Folitar I, Zhang Y, Aimone P, de Herder WW, Ferone D; all the NETTER-2 Trial Investigators. [177Lu]Lu-DOTA-TATE plus long-acting octreo...
+
+----------------------------------------
+
+2. Jungels C, Deleporte A. State of the art and future directions in the systemic treatment of neuroend...
+   PMID: 33973550
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/33973550/
+   Source: study_data
+   Abstract: Jungels C, Deleporte A. State of the art and future directions in the systemic treatment of neuroendocrine neoplasms. Curr Opin Oncol. 2021 Jul 1;33(4):378-385. doi: 10.1097/CCO.0000000000000740.
+
+----------------------------------------

@@ -1,0 +1,30 @@
+================================================================================
+PUBLICATIONS FOR CLINICAL TRIAL: NCT02709889
+================================================================================
+Study Title: Rovalpituzumab Tesirine in Delta-Like Protein 3-Expressing Advanced Solid Tumors
+Search Date: 2025-07-15 14:09:27
+Publications Found: 2
+
+--------------------------------------------------------------------------------
+
+1. Xie H, Kaye FJ, Isse K, Sun Y, Ramoth J, French DM, Flotte TJ, Luo Y, Saunders LR, Mansfield AS. Del...
+   PMID: 32372416
+   Journal: From Clinical Trial Data
+   Year: N/A
+   URL: https://pubmed.ncbi.nlm.nih.gov/32372416/
+   Source: study_data
+   Abstract: Xie H, Kaye FJ, Isse K, Sun Y, Ramoth J, French DM, Flotte TJ, Luo Y, Saunders LR, Mansfield AS. Delta-Like Protein 3 Expression and Targeting in Merkel Cell Carcinoma. Oncologist. 2020 Sep;25(9):810-817. doi: 10.1634/theoncologist.2019-0877. Epub 2020 May 14.
+
+----------------------------------------
+
+2. A phase I/II study of rovalpituzumab tesirine in delta-like 3-expressing advanced solid tumors.
+   PMID: 34354225
+   Authors: Aaron S Mansfield, David S Hong, Christine L Hann
+   Journal: NPJ precision oncology
+   Year: 2021
+   DOI: 10.1038/s41698-021-00214-y
+   URL: https://pubmed.ncbi.nlm.nih.gov/34354225/
+   Source: pubmed_search
+   Abstract: Delta-like protein 3 (DLL3) is highly expressed in solid tumors, including neuroendocrine carcinomas/neuroendocrine tumors (NEC/NET). Rovalpituzumab tesirine (Rova-T) is a DLL3-targeting antibody-drug conjugate. Patients with NECs and other advanced DLL3-expressing tumors were enrolled in this phase...
+
+----------------------------------------
