@@ -31,37 +31,30 @@ def convert_pdf_to_md(pdf_path, md_path):
     except Exception as e:
         print(f"❌ Ein unerwarteter Fehler ist aufgetreten bei '{os.path.basename(pdf_path)}': {e}")
 
-def find_and_convert_pdfs(input_folders, output_base_dir, search_subfolders=True):
+def find_and_convert_pdfs(input_folders, output_base_dir=None, search_subfolders=True):
     if not input_folders:
         print("Keine Eingabeordner angegeben.")
         return
 
     print(f"Starte Konvertierung von PDFs in MDs...")
     print(f"Eingabeordner: {input_folders}")
-    print(f"Zielordner für MDs: {output_base_dir}")
     print(f"Unterordner durchsuchen: {'Ja' if search_subfolders else 'Nein'}")
     print("-" * 30)
 
-    # Stelle sicher, dass der Basis-Zielordner existiert
-    os.makedirs(output_base_dir, exist_ok=True)
-
-    # First pass: Count total number of PDF files
+    # First pass: Count total number of PDF files across all patient folders
     total_pdfs = 0
     for input_folder in input_folders:
         if not os.path.isdir(input_folder):
             continue
         
-        if search_subfolders:
-            for root, dirs, files in os.walk(input_folder):
-                total_pdfs += sum(1 for file in files if file.lower().endswith('.pdf'))
-        else:
-            try:
-                for file in os.listdir(input_folder):
-                    pdf_path = os.path.join(input_folder, file)
-                    if os.path.isfile(pdf_path) and file.lower().endswith('.pdf'):
+        # Look for patient_* folders
+        for item in os.listdir(input_folder):
+            patient_folder_path = os.path.join(input_folder, item)
+            if os.path.isdir(patient_folder_path) and item.startswith('patient_'):
+                # Count PDFs in this patient folder
+                for file in os.listdir(patient_folder_path):
+                    if file.lower().endswith('.pdf'):
                         total_pdfs += 1
-            except Exception:
-                pass
     
     print(f"Gefunden: {total_pdfs} PDF-Dateien zum Konvertieren")
     print("-" * 30)
@@ -76,23 +69,22 @@ def find_and_convert_pdfs(input_folders, output_base_dir, search_subfolders=True
 
         print(f"Verarbeite Ordner: '{input_folder}'")
 
-        # Bestimme den Namen des Eingabeordners, um ihn im Zielpfad zu verwenden
-        input_folder_name = os.path.basename(input_folder)
-
-        if search_subfolders:
-            # Durchsuche den Ordnerbaum
-            for root, dirs, files in os.walk(input_folder):
-                # Bestimme den relativen Pfad vom ursprünglichen Eingabeordner zum aktuellen Unterordner
-                relative_path = os.path.relpath(root, input_folder)
-
-                for file in files:
+        # Look for patient_* folders
+        for item in os.listdir(input_folder):
+            patient_folder_path = os.path.join(input_folder, item)
+            if os.path.isdir(patient_folder_path) and item.startswith('patient_'):
+                print(f"\nVerarbeite Patient-Ordner: '{item}'")
+                
+                # Create mds subfolder in the patient folder
+                mds_output_folder = os.path.join(patient_folder_path, 'mds')
+                os.makedirs(mds_output_folder, exist_ok=True)
+                
+                # Process all PDF files in the patient folder
+                for file in os.listdir(patient_folder_path):
                     if file.lower().endswith('.pdf'):
-                        pdf_path = os.path.join(root, file)
-                        # Erstelle den entsprechenden Zielpfad im Ausgabeordner
-                        # output_base_dir / input_folder_name / relative_path / pdf_filename.md
+                        pdf_path = os.path.join(patient_folder_path, file)
                         md_filename = os.path.splitext(file)[0] + '.md'
-                        output_folder = os.path.join(output_base_dir, input_folder_name, relative_path)
-                        md_path = os.path.join(output_folder, md_filename)
+                        md_path = os.path.join(mds_output_folder, md_filename)
 
                         # Show overall progress before conversion
                         converted_count += 1
@@ -100,41 +92,21 @@ def find_and_convert_pdfs(input_folders, output_base_dir, search_subfolders=True
                         print(f"\n📊 Datei {converted_count}/{total_pdfs} ({percentage:.1f}%)")
                         
                         convert_pdf_to_md(pdf_path, md_path)
-        else:
-            # Nur Dateien im obersten Level des Eingabeordners durchsuchen
-            try:
-                for file in os.listdir(input_folder):
-                    pdf_path = os.path.join(input_folder, file)
-                    if os.path.isfile(pdf_path) and file.lower().endswith('.pdf'):
-                        # Erstelle den entsprechenden Zielpfad im Ausgabeordner
-                        # output_base_dir / input_folder_name / pdf_filename.md
-                        md_filename = os.path.splitext(file)[0] + '.md'
-                        output_folder = os.path.join(output_base_dir, input_folder_name)
-                        md_path = os.path.join(output_folder, md_filename)
-
-                        # Show overall progress before conversion
-                        converted_count += 1
-                        percentage = (converted_count / total_pdfs) * 100
-                        print(f"\n📊 Datei {converted_count}/{total_pdfs} ({percentage:.1f}%)")
-                        
-                        convert_pdf_to_md(pdf_path, md_path)
-            except Exception as e:
-                 print(f"Fehler beim Auflisten von Dateien in '{input_folder}': {e}")
 
 
 # --- Konfiguration ---
 
 input_folders_to_process = [
-    '../knowledge_base'
+    './clinical_trials_matches/publications'
 ]
 
-output_markdown_base_directory = '../mds'
+output_markdown_base_directory = None  # Will be set dynamically per patient folder
 
 # Sollen auch Unterordner in den input_folders_to_process durchsucht werden?
 search_subdirectories = True
 
 # --- Skript ausführen ---
 if __name__ == "__main__":
-    find_and_convert_pdfs(input_folders_to_process, output_markdown_base_directory, search_subdirectories)
+    find_and_convert_pdfs(input_folders_to_process, search_subfolders=search_subdirectories)
     print("-" * 30)
     print("Konvertierung abgeschlossen.")
