@@ -16,6 +16,8 @@ from shared_logic import (
     load_structured_guidelines,
     format_guidelines_for_prompt,
     build_prompt,
+    load_patient_publications,
+    format_patient_publications_for_prompt,
     PATIENT_FIELDS_FOR_PROMPT,
     GUIDELINE_SOURCE_DIR,
     ADDITIONAL_CONTEXT,
@@ -149,9 +151,14 @@ def main():
         patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
         patient_dict = patient_row.to_dict()
         patient_data_string = format_patient_data_for_prompt(patient_dict, PATIENT_FIELDS_FOR_PROMPT)
-        prompt = build_prompt(patient_data_string, guidelines_context_string)
-        guidelines_context_string = format_guidelines_for_prompt(structured_guidelines)
-        prompt = build_prompt(patient_data_string, guidelines_context_string)
+        
+        # Load patient-specific publications
+        patient_publications, patient_pub_files = load_patient_publications(str(patient_id))
+        patient_publications_string = format_patient_publications_for_prompt(patient_publications)
+        
+        # Build prompt with patient-specific publications
+        prompt = build_prompt(patient_data_string, guidelines_context_string, patient_publications_string)
+        
         raw_response = call_openrouter_api(
             model=args.llm_model,
             prompt=prompt,
@@ -167,7 +174,8 @@ def main():
             "prompt_version": PROMPT_VERSION,
             "llm_input": {
                 "prompt_text": prompt,
-                "attachments_used": loaded_files
+                "attachments_used": loaded_files,
+                "patient_publications_used": patient_pub_files
             },
             "llm_raw_output": raw_response,
             "error": None if not raw_response.startswith("ERROR") else raw_response

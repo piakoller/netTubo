@@ -46,7 +46,7 @@ ADDITIONAL_CONTEXT = False
 NEW_NET_EVIDENCE = BASE_PROJECT_DIR / "New_NET_evidence/mds_docling"
 
 # PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-1.txt"
-PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-2.txt"
+PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_2-0.txt"
 # print(f'Promptversion: {PROMPT_FILE_PATH}')
 
 # Patient data fields to include in the prompt
@@ -139,8 +139,8 @@ def format_patient_data_for_prompt(patient_row: Dict, fields: List[str]) -> str:
                 lines.append(f"- {field_name_pretty}: {str(value)}")
     return "\n".join(lines)
 
-def build_prompt(patient_data_string: str, guidelines_context_string: str) -> str:
-    """Builds the complete prompt with patient data and guidelines."""
+def build_prompt(patient_data_string: str, guidelines_context_string: str, patient_publications_string: str = "") -> str:
+    """Builds the complete prompt with patient data, guidelines, and patient-specific publications."""
 
     # Read the prompt template from the file
     try:
@@ -150,11 +150,19 @@ def build_prompt(patient_data_string: str, guidelines_context_string: str) -> st
         logger.error(f"Failed to read the prompt file {PROMPT_FILE_PATH}: {e}")
         raise
 
-    # Format the prompt with the provided variables
+    # Format the prompt with the provided variables first
     formatted_prompt = prompt_template.format(
         patient_data_string=patient_data_string,
         guidelines_context_string=guidelines_context_string
     )
+    
+    # Add patient publications section if available - insert after guidelines_context section
+    if patient_publications_string:
+        formatted_prompt = formatted_prompt.replace(
+            "</guidelines_context>",
+            "</guidelines_context>\n\nHier sind die patientenspezifischen Publikationen und Studien:\n" + patient_publications_string
+        )
+
     return formatted_prompt
 
 # Langchain-dependent function temporarily disabled
@@ -338,3 +346,56 @@ def _sanitize_filename(name: str) -> str:
 #         logger.error(f"Failed to write results to {output_file}: {e}", exc_info=True)
 
     return all_results
+
+def load_patient_publications(patient_id: str, base_publications_dir: Optional[Path] = None) -> Tuple[Dict[str, str], List[str]]:
+    """
+    Load patient-specific publications from mds folder.
+    
+    Args:
+        patient_id: The patient ID (e.g., "1", "2", etc.)
+        base_publications_dir: Base directory containing patient folders. If None, uses default.
+    
+    Returns:
+        Tuple of (publications_dict, loaded_files_list)
+    """
+    if base_publications_dir is None:
+        base_publications_dir = BASE_PROJECT_DIR / "netTubo" / "clinical_trials_matches" / "publications"
+    
+    patient_folder = base_publications_dir / f"patient_{patient_id}" / "mds"
+    publications = {}
+    loaded_files = []
+    
+    if not patient_folder.exists():
+        logger.warning(f"Patient publications folder not found: {patient_folder}")
+        return publications, loaded_files
+    
+    logger.info(f"Loading patient-specific publications from: {patient_folder}")
+    
+    # Load all markdown files in the patient's mds folder
+    for md_file in patient_folder.glob("*.md"):
+        try:
+            with open(md_file, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+                if content:
+                    publications[md_file.name] = content
+                    loaded_files.append(str(md_file))
+                    logger.debug(f"Loaded patient publication: {md_file.name}")
+        except Exception as e:
+            logger.error(f"Failed to load patient publication {md_file}: {e}")
+    
+    logger.info(f"Loaded {len(publications)} patient-specific publications for patient {patient_id}")
+    return publications, loaded_files
+
+def format_patient_publications_for_prompt(publications: Dict[str, str]) -> str:
+    """Format patient-specific publications for inclusion in the prompt."""
+    if not publications:
+        return ""
+    
+    context_parts = ["<patient_publications>"]
+    
+    for filename, content in publications.items():
+        file_tag = _sanitize_tag_name(filename)
+        context_parts.append(f"<{file_tag}>\n{content}\n</{file_tag}>")
+    
+    context_parts.append("</patient_publications>")
+    return "\n".join(context_parts)
