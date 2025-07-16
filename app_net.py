@@ -211,11 +211,58 @@ def display_variant_content(variant_data: dict, variant_key: str, patient_id: st
     
     return final_rec
 
+def get_available_prompt_versions(variants: dict) -> list:
+    """Extract available prompt versions from variants"""
+    prompt_versions = set()
+    
+    for variant_key, variant_data in variants.items():
+        filename = variant_data['filename']
+        approach = variant_data['approach']
+        
+        if approach == 'SinglePrompt':
+            # Extract version from SinglePrompt filenames like "singleprompt_..._prompt_v3_1-1.json"
+            match = re.search(r'prompt_(v\d+(?:_[\d-]+)?)\.json', filename)
+            if match:
+                prompt_versions.add(match.group(1))
+    
+    # Sort versions naturally (v1, v2, v3_1-1, v3_1-2, etc.)
+    def version_sort_key(version):
+        # Remove 'v' prefix and split by underscores and hyphens
+        parts = version[1:].replace('_', '.').replace('-', '.').split('.')
+        return [int(x) if x.isdigit() else x for x in parts]
+    
+    return sorted(list(prompt_versions), key=version_sort_key)
+
+def filter_variants_by_prompt_versions(variants: dict, selected_versions: list) -> dict:
+    """Filter variants based on selected prompt versions"""
+    if not selected_versions:
+        return variants
+    
+    filtered_variants = {}
+    
+    for variant_key, variant_data in variants.items():
+        filename = variant_data['filename']
+        approach = variant_data['approach']
+        include_variant = False
+        
+        if approach == 'SinglePrompt':
+            # Check SinglePrompt filenames
+            match = re.search(r'prompt_(v\d+(?:_[\d-]+)?)\.json', filename)
+            if match and match.group(1) in selected_versions:
+                include_variant = True
+        
+        if include_variant:
+            filtered_variants[variant_key] = variant_data
+    
+    return filtered_variants
+
 # Initialize session state
 if 'expert_name' not in st.session_state:
     st.session_state.expert_name = ""
 if 'selected_patient_id' not in st.session_state:
     st.session_state.selected_patient_id = None
+if 'selected_prompt_versions' not in st.session_state:
+    st.session_state.selected_prompt_versions = []
 
 # --- SIDEBAR ---
 st.sidebar.title("Navigation & Settings")
@@ -249,6 +296,40 @@ if not llm_model_options:
 
 selected_llm_model = st.sidebar.selectbox("2. Select LLM Model:", options=llm_model_options)
 
+# Get variants to determine available prompt versions
+if selected_patient_id and selected_llm_model:
+    variants = get_variants_for_patient_and_model(selected_patient_id, selected_llm_model)
+    available_prompt_versions = get_available_prompt_versions(variants)
+    
+    if available_prompt_versions:
+        # Add prompt version selection
+        st.sidebar.markdown("---")
+        st.sidebar.markdown("**3. Select Prompt Versions to Compare:**")
+        
+        # Initialize selected versions if empty or contains unavailable versions
+        if not st.session_state.selected_prompt_versions or not all(v in available_prompt_versions for v in st.session_state.selected_prompt_versions):
+            st.session_state.selected_prompt_versions = available_prompt_versions.copy()
+        
+        selected_prompt_versions = st.sidebar.multiselect(
+            "Choose which prompt versions to display:",
+            options=available_prompt_versions,
+            default=st.session_state.selected_prompt_versions,
+            key="prompt_version_selector"
+        )
+        
+        # Update session state
+        st.session_state.selected_prompt_versions = selected_prompt_versions
+        
+        # Validate that at least one version is selected
+        if not selected_prompt_versions:
+            st.sidebar.error("Please select at least one prompt version to display.")
+            st.stop()
+    else:
+        selected_prompt_versions = []
+        st.sidebar.warning("No prompt versions found for this patient-LLM combination.")
+else:
+    selected_prompt_versions = []
+
 # # Check if already evaluated
 # if st.session_state.expert_name and selected_patient_id and selected_llm_model:
 #     already_evaluated = check_if_evaluated(selected_patient_id, selected_llm_model, st.session_state.expert_name)
@@ -258,7 +339,7 @@ selected_llm_model = st.sidebar.selectbox("2. Select LLM Model:", options=llm_mo
 #         st.sidebar.success("✅ Ready for evaluation!")
 
 # --- MAIN CONTENT ---
-if selected_patient_id and selected_llm_model:
+if selected_patient_id and selected_llm_model and selected_prompt_versions:
     
     # Display patient information
     st.subheader("Patient Information")
@@ -268,10 +349,17 @@ if selected_patient_id and selected_llm_model:
     st.markdown("---")
     
     # Get variants for this patient and LLM model
-    variants = get_variants_for_patient_and_model(selected_patient_id, selected_llm_model)
+    all_variants = get_variants_for_patient_and_model(selected_patient_id, selected_llm_model)
+    
+    if not all_variants:
+        st.error(f"No variants found for Patient {selected_patient_id} and LLM {selected_llm_model}")
+        st.stop()
+    
+    # Filter variants by selected prompt versions
+    variants = filter_variants_by_prompt_versions(all_variants, selected_prompt_versions)
     
     if not variants:
-        st.error(f"No variants found for Patient {selected_patient_id} and LLM {selected_llm_model}")
+        st.warning(f"No variants found for the selected prompt versions: {', '.join(selected_prompt_versions)}")
         st.stop()
     
     form_eval_data_storage = {}
@@ -281,14 +369,19 @@ if selected_patient_id and selected_llm_model:
     
     with st.form(key=form_key):
         st.subheader(f"LLM: `{selected_llm_model}` - Recommendation Variants & Your Evaluation")
+        
+        # Show which prompt versions are currently displayed
+        if len(selected_prompt_versions) > 1:
+            st.info(f"📋 Displaying prompt versions: **{', '.join(selected_prompt_versions)}**")
+        else:
+            st.info(f"📋 Displaying prompt version: **{selected_prompt_versions[0]}**")
 
-        # Group variants by approach
+        # Filter to only show SinglePrompt variants
         sp_variants = {k: v for k, v in variants.items() if v['approach'] == 'SinglePrompt'}
-        ma_variants = {k: v for k, v in variants.items() if v['approach'] == 'MultiAgent'}
         
         # --- Single-Prompt Section ---
         if sp_variants:
-            st.markdown("#### Single-Prompt Approach")
+            st.markdown("#### Prompt Variants")
             sp_cols = st.columns(len(sp_variants))
             
             for idx, (variant_key, variant_data) in enumerate(sp_variants.items()):
@@ -304,35 +397,20 @@ if selected_patient_id and selected_llm_model:
                         render_evaluation_widgets(variant_key, selected_patient_id, form_eval_data_storage, form_key)
                     else:
                         st.info("No recommendation available for evaluation.")
+        else:
+            st.warning("No Single-Prompt variants found for the selected prompt versions.")
         
-        # --- Multi-Agent Section ---
-        if ma_variants:
-            st.markdown("#### Multi-Agent Approach")
-            ma_cols = st.columns(len(ma_variants))
-            
-            for idx, (variant_key, variant_data) in enumerate(ma_variants.items()):
-                with ma_cols[idx]:
-                    match = re.search(r'prompt_v(\d+)', variant_data['filename'])
-                    prompt_version = f"Prompt v{match.group(1)}" if match else "Unknown Prompt"
-                    st.markdown(f"**{prompt_version} Clinical Info**")
-                    
-                    final_rec = display_variant_content(variant_data, variant_key, selected_patient_id)
-                    
-                    if final_rec and final_rec.strip():
-                        form_eval_data_storage[variant_key] = {}
-                        render_evaluation_widgets(variant_key, selected_patient_id, form_eval_data_storage, form_key)
-                    else:
-                        st.info("No recommendation available for evaluation.")
-        
-        st.markdown(f"\n**💬 Overall Comments for this LLM's ({selected_llm_model}) Performance on Patient {selected_patient_id}**")
+        st.markdown(f"\n**💬 Overall Comments for {selected_llm_model} on Patient {selected_patient_id}** (Versions: {', '.join(selected_prompt_versions)})")
         overall_comments_for_llm_patient_input = st.text_area(
             "General comments:",
             height=100, 
-            key=f"gen_comments_llm_pat_{selected_patient_id}_{selected_llm_model}"
+            key=f"gen_comments_llm_pat_{selected_patient_id}_{selected_llm_model}",
+            help=f"Comments about {selected_llm_model}'s performance across prompt versions: {', '.join(selected_prompt_versions)}"
         )
 
         # Submit button for the entire form
-        submitted_form = st.form_submit_button(f"Submit All Evaluations for LLM: {selected_llm_model} on Patient: {selected_patient_id}")
+        versions_text = " & ".join(selected_prompt_versions)
+        submitted_form = st.form_submit_button(f"Submit Evaluation: {selected_llm_model} ({versions_text}) - Patient {selected_patient_id}")
 
         if submitted_form:
             # Check if expert name is provided
@@ -344,6 +422,7 @@ if selected_patient_id and selected_llm_model:
             else:
                 evaluation_payload = {
                     "evaluation_timestamp": datetime.now().isoformat(),
+                    "prompt_versions_evaluated": selected_prompt_versions,
                     "evaluations_per_variant": form_eval_data_storage, 
                     "overall_comments_for_llm_patient": overall_comments_for_llm_patient_input,
                     "source_files": {k: v['filename'] for k, v in variants.items() if k in form_eval_data_storage}
@@ -362,4 +441,4 @@ if selected_patient_id and selected_llm_model:
                     st.error("Failed to save evaluation. Check console/logs.")
 
 else:
-    st.info("Select a Patient ID and LLM Model from the sidebar, and enter your name to begin.")
+    st.info("Select a Patient ID, LLM Model, and Prompt Versions from the sidebar, and enter your name to begin.")

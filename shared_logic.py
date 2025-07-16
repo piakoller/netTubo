@@ -47,7 +47,7 @@ NEW_NET_EVIDENCE = BASE_PROJECT_DIR / "New_NET_evidence/mds_docling"
 
 # PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_1-1.txt"
 PROMPT_FILE_PATH = BASE_PROJECT_DIR / "prompts/prompt_v3_2-0.txt"
-# print(f'Promptversion: {PROMPT_FILE_PATH}')
+print(f'Promptversion: {PROMPT_FILE_PATH}')
 
 # Patient data fields to include in the prompt
 PATIENT_FIELDS_FOR_PROMPT = [
