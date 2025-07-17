@@ -1,0 +1,207 @@
+{
+  "1": {
+    "patient_diagnosis": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G1 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Resektion der Lebermetastasen in Segment VI und Ablation der Läsion in Segment VIII. Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.\n01/2017 V.a. neue Lebermetastase\n02/2017 Start Somatoline\n02/2018 CT Abdomen: stable disease\n03/2019 CT Abdomen: V.a. gering progrediente Lebermetastasen. ",
+    "match_count": 10,
+    "top_matches": [
+      {
+        "nct_id": "NCT01967537",
+        "title": "Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 55 - NET condition match; Small intestine NET match; Liver metastases match; Completed PHASE2 study; 3 publications"
+      },
+      {
+        "nct_id": "NCT01524783",
+        "title": "Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 50 - NET condition match; Small intestine NET match; Completed PHASE3 study; 5 publications"
+      },
+      {
+        "nct_id": "NCT01578239",
+        "title": "A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 47 - NET condition match; Small intestine NET match; Completed PHASE3 study; 4 publications"
+      },
+      {
+        "nct_id": "NCT00171873",
+        "title": "Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 44 - NET condition match; Small intestine NET match; Completed PHASE3 study; 1 publications"
+      },
+      {
+        "nct_id": "NCT00427349",
+        "title": "AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 44 - NET condition match; Small intestine NET match; Completed PHASE2 study; 1 publications"
+      }
+    ]
+  },
+  "2": {
+    "patient_diagnosis": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G3 NET, Ki67 48%.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+    "match_count": 10,
+    "top_matches": [
+      {
+        "nct_id": "NCT01967537",
+        "title": "Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 55 - NET condition match; Small intestine NET match; Liver metastases match; Completed PHASE2 study; 3 publications"
+      },
+      {
+        "nct_id": "NCT01524783",
+        "title": "Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 50 - NET condition match; Small intestine NET match; Completed PHASE3 study; 5 publications"
+      },
+      {
+        "nct_id": "NCT01578239",
+        "title": "A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 47 - NET condition match; Small intestine NET match; Completed PHASE3 study; 4 publications"
+      },
+      {
+        "nct_id": "NCT00171873",
+        "title": "Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 44 - NET condition match; Small intestine NET match; Completed PHASE3 study; 1 publications"
+      },
+      {
+        "nct_id": "NCT00427349",
+        "title": "AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 44 - NET condition match; Small intestine NET match; Completed PHASE2 study; 1 publications"
+      }
+    ]
+  },
+  "3": {
+    "patient_diagnosis": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 DOTATOC PET: geringe Speicherung der Leberläsionen.\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+    "match_count": 10,
+    "top_matches": [
+      {
+        "nct_id": "NCT01967537",
+        "title": "Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 55 - NET condition match; Small intestine NET match; Liver metastases match; Completed PHASE2 study; 3 publications"
+      },
+      {
+        "nct_id": "NCT01524783",
+        "title": "Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 50 - NET condition match; Small intestine NET match; Completed PHASE3 study; 5 publications"
+      },
+      {
+        "nct_id": "NCT01578239",
+        "title": "A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 47 - NET condition match; Small intestine NET match; Completed PHASE3 study; 4 publications"
+      },
+      {
+        "nct_id": "NCT00171873",
+        "title": "Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut",
+        "phase": "PHASE3",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 44 - NET condition match; Small intestine NET match; Completed PHASE3 study; 1 publications"
+      },
+      {
+        "nct_id": "NCT00427349",
+        "title": "AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 44 - NET condition match; Small intestine NET match; Completed PHASE2 study; 1 publications"
+      }
+    ]
+  },
+  "4": {
+    "patient_diagnosis": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n08/2015 Start Somatuline\n06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.",
+    "match_count": 10,
+    "top_matches": [
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 62 - NET condition match; Pancreatic NET match; Liver metastases match; Low-grade NET match; Completed PHASE2 study; 2 publications"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 62 - NET condition match; Pancreatic NET match; Liver metastases match; Low-grade NET match; Completed PHASE2 study; 1 publications"
+      },
+      {
+        "nct_id": "NCT00113360",
+        "title": "RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 60 - NET condition match; Pancreatic NET match; Liver metastases match; Low-grade NET match; Completed PHASE2 study"
+      },
+      {
+        "nct_id": "NCT03034200",
+        "title": "Phase 2 Study of ONC201 in Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 58 - NET condition match; Pancreatic NET match; Liver metastases match; Completed PHASE2 study; 8 publications"
+      },
+      {
+        "nct_id": "NCT01967537",
+        "title": "Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 55 - NET condition match; Pancreatic NET match; Liver metastases match; Completed PHASE2 study; 3 publications"
+      }
+    ]
+  },
+  "5": {
+    "patient_diagnosis": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n06/2015 DOTATOC PET: starke Speicherung der Läsionen.",
+    "match_count": 10,
+    "top_matches": [
+      {
+        "nct_id": "NCT01010126",
+        "title": "Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 62 - NET condition match; Pancreatic NET match; Liver metastases match; Low-grade NET match; Completed PHASE2 study; 2 publications"
+      },
+      {
+        "nct_id": "NCT00454363",
+        "title": "Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 62 - NET condition match; Pancreatic NET match; Liver metastases match; Low-grade NET match; Completed PHASE2 study; 1 publications"
+      },
+      {
+        "nct_id": "NCT00113360",
+        "title": "RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 60 - NET condition match; Pancreatic NET match; Liver metastases match; Low-grade NET match; Completed PHASE2 study"
+      },
+      {
+        "nct_id": "NCT03034200",
+        "title": "Phase 2 Study of ONC201 in Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 58 - NET condition match; Pancreatic NET match; Liver metastases match; Completed PHASE2 study; 8 publications"
+      },
+      {
+        "nct_id": "NCT01967537",
+        "title": "Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "relevance": "Relevance: 55 - NET condition match; Pancreatic NET match; Liver metastases match; Completed PHASE2 study; 3 publications"
+      }
+    ]
+  }
+}

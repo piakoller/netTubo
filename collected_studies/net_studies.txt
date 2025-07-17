@@ -1,0 +1,331 @@
+================================================================================
+COLLECTED CLINICAL TRIALS REPORT
+================================================================================
+Collection Date: 2025-07-16 16:03:27
+Total Studies: 18
+Filter Criteria: Studies with publications AND posted results
+--------------------------------------------------------------------------------
+
+1. Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors
+   NCT ID: NCT01678664
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Hepatic Metastases; Metastases
+   Intervention: Everolimus; embolization; Doxorubicin
+   Sponsor: Federation Francophone de Cancerologie Digestive
+   Start Date: 2012-12
+   Completion Date: 2019-04
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01678664
+   Summary: Determine wether 24 months treatment with everolimus prolongs progression free survival rate (based on a central assessment) after embolisation ou chemoembolisation for liver metastases.
+
+* H0 a 24 months progression free survival rate less than 35% is unacceptable
+* H1 a 24 months progression free ...
+   Locations: CHU - Hôtel Dieu, Angers, France; Hôpital Avicenne, Bobigny, France; Hôpital Saint André, Bordeaux, France
+              ... and 15 more locations
+----------------------------------------
+
+2. Study of Everolimus (RAD001) in Combination With Lenalidomide
+   NCT ID: NCT01218555
+   Status: COMPLETED
+   Phase: PHASE1
+   Condition: Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors
+   Intervention: Lenalidomide; Everolimus
+   Sponsor: Emory University
+   Start Date: 2010-09-09
+   Completion Date: 2020-11-05
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01218555
+   Summary: The purpose of this study is to study the combination of two anticancer drugs, everolimus (RAD001) and lenalidomide in patients whose cancer is no longer responding to standard treatment or patients who are unable to tolerate the standard treatment for their cancer.
+   Locations: Grady Health System, Atlanta, United States; Emory University Winship Cancer Institute, Atlanta, United States
+----------------------------------------
+
+3. A Safety and Efficacy Study of CC-90011 in Participants With Relapsed and/or Refractory Solid Tumors and Non-Hodgkin's Lymphomas
+   NCT ID: NCT02875223
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Lymphoma, Non-Hodgkin; Neoplasms
+   Intervention: CC-90011; Rifampicin; Itraconazole
+   Sponsor: Celgene
+   Start Date: 2016-08-31
+   Completion Date: 2024-03-25
+   Has Posted Results: True
+   Publications Count: 2
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT02875223
+   Summary: Study CC-90011-ST-001 is an open-label, Phase 1, dose escalation and expansion, First-In-Human (FIH) clinical study of CC-90011 in subjects with advanced unresectable solid tumors (enriched for grade 2 NENs, grade 2 NETs and NECs) and R/R NHL (MZL, including extranodal MZL \[EMZL\], splenic MZL \[SM...
+   Locations: Local Institution - 101, Dijon, France; Local Institution - 102, Marseille Cedex 9, France; Local Institution - 100, Villejuif Cedex, France
+              ... and 12 more locations
+----------------------------------------
+
+4. A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors
+   NCT ID: NCT01115803
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors
+   Intervention: LY2584702; Erlotinib; Everolimus
+   Sponsor: Eli Lilly and Company
+   Start Date: 2010-03
+   Completion Date: 2011-06
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01115803
+   Summary: Study I3G-MC-JGCB (JGCB) is a multicenter, nonrandomized, open-label, dose-escalation Phase 1b study of LY2584702 in combination with either erlotinib or everolimus.
+   Locations: For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician., Chicago, United States; For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician., Bordeaux, France; For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician., Villejuif, France
+----------------------------------------
+
+5. RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)
+   NCT ID: NCT02489903
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Small Cell Carcinoma; Carcinoma, Non-Small-Cell Lung; Neuroendocrine Tumors; Ovarian Epithelial Cancer
+   Intervention: RRx-001; Cisplatin; Etoposide; Carboplatin; Irinotecan; Vinorelbine; Doxil; Gemcitabine; Taxane; Paclitaxel; Nab-Paclitaxel; Pemetrexed
+   Sponsor: EpicentRx, Inc.
+   Start Date: 2015-06
+   Completion Date: 2021-12-06
+   Has Posted Results: True
+   Publications Count: 2
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT02489903
+   Summary: This study is designed to explore the potential of the epigenetic agent RRx-001 to sensitize patients who previously received and now have failed a platinum based doublet regimen. RRx-001 is administered with autologous blood once weekly followed by or in combination with reintroduction of platinum-...
+   Locations: Stanford University, Palo Alto, United States; VA Connecticut Cancer Center, West Haven, United States; Memorial Hospital of South Bend, South Bend, United States
+              ... and 7 more locations
+----------------------------------------
+
+6. Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE
+   NCT ID: NCT03673943
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Neuroendocrine Tumors
+   Intervention: 64Cu-DOTATATE
+   Sponsor: Radiomedix, Inc.
+   Start Date: 2018-08-23
+   Completion Date: 2019-08-07
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT03673943
+   Summary: This is an open-label, single-dose, single-arm, single-center imaging study using DOTATATE peptide, labelled with the 64Cu tracer.
+   Locations: Excel Diagnostics and Nuclear Oncology Center, Houston, United States
+----------------------------------------
+
+7. Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors
+   NCT ID: NCT01782443
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Carcinoid Tumor
+   Intervention: Ziv-aflibercept
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2013-02-13
+   Completion Date: 2021-12-26
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01782443
+   Summary: This research study is a Phase II clinical trial, which tests the safety and effectiveness of an investigational drug to learn whether the drug works in treating a specific cancer. "Investigational" means that the drug, Ziv-aflibercept, is being studied. It also means that the FDA has not yet approv...
+   Locations: Massachusetts General Hospital, Boston, United States; Brigham and Women's Hospital, Boston, United States; Dana-Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+8. Open Label Extension Study of Conatumumab and Ganitumab (AMG 479)
+   NCT ID: NCT01327612
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Advanced Solid Tumors; Carcinoid; Colorectal Cancer; Locally Advanced; Lymphoma; Metastatic Cancer; Non-Small Cell Lung Cancer; Sarcoma; Solid Tumors
+   Intervention: Modified FOLFOX6; Conatumumab; Ganitumab; Bevacizumab
+   Sponsor: Amgen
+   Start Date: 2011-03-03
+   Completion Date: 2020-02-05
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01327612
+   Summary: The purpose of this protocol is to allow continued treatment with conatumumab and/or ganitumab, with or without chemotherapy, to participants who completed a separate Amgen-sponsored conatumumab or ganitumab study without disease progression whose previous studies were closed.
+   Locations: Research Site, Duarte, United States; Research Site, La Jolla, United States; Research Site, Denver, United States
+              ... and 9 more locations
+----------------------------------------
+
+9. Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT00510068
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Advanced Neuroendocrine Tumors of Pancreatic Origin
+   Intervention: Everolimus; Everolimus Placebo
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2007-07
+   Completion Date: 2014-03
+   Has Posted Results: True
+   Publications Count: 5
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT00510068
+   Summary: The purpose of this study was to evaluate progression free survival in those participants assigned everolimus 10 mg/day plus Best Supportive Care versus those assigned to placebo plus Best Supportive Care in Advanced Neuroendocrine Tumors of pancreatic origin.
+   Locations: University of South Alabama / Mitchell Cancer Institute Deptof Mitchell Cancer Inst(2), Mobile, United States; Pacific Cancer Medical Center, Inc., Anaheim, United States; Cedars Sinai Medical Center SC-2, Los Angeles, United States
+              ... and 79 more locations
+----------------------------------------
+
+10. TELESTAR (Telotristat Etiprate for Somatostatin Analogue Not Adequately Controlled Carcinoid Syndrome)
+   NCT ID: NCT01677910
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Carcinoid Syndrome
+   Intervention: Telotristat etiprate; Placebo-matching telotristat etiprate
+   Sponsor: Lexicon Pharmaceuticals
+   Start Date: 2013-01-08
+   Completion Date: 2016-03-21
+   Has Posted Results: True
+   Publications Count: 6
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01677910
+   Summary: The primary objective of the study is to confirm that at least 1 or more doses of telotristat etiprate compared to placebo is effective in reducing the number of daily bowel movements (BMs) from baseline averaged over the 12-week double-blind portion (Treatment Period) of the trial in patients not a...
+   Locations: Lexicon Investigational Site, Mobile, United States; Lexicon Investigational Site, Palo Alto, United States; Lexicon Investigational Site, San Francisco, United States
+              ... and 72 more locations
+----------------------------------------
+
+11. AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT01024387
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor
+   Intervention: AMG 479
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2010-03
+   Completion Date: 2017-01
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT01024387
+   Summary: The purpose of this research study is to determine the effectiveness of AMG 479 against carcinoid and pancreatic neuroendocrine tumors. AMG 479 is an antibody that is made in the laboratory. Antibodies are highly specific proteins produced by the body's immune system that recognize foreign substance...
+   Locations: H. Lee Moffitt Cancer Center, Tampa, United States; Massachusetts General Hospital, Boston, United States; Dana-Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+12. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT03375320
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE3
+   Condition: Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm
+   Intervention: Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2018-10-26
+   Completion Date: 2025-11-22
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT03375320
+   Summary: This phase III trial studies cabozantinib to see how well it works compared with placebo in treating patients with neuroendocrine or carcinoid tumors that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). Cabozantinib is a chemotherap...
+   Locations: Katmai Oncology Group, Anchorage, United States; Kingman Regional Medical Center, Kingman, United States; Mayo Clinic Hospital in Arizona, Phoenix, United States
+              ... and 433 more locations
+----------------------------------------
+
+13. Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor
+   NCT ID: NCT00569127
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE3
+   Condition: Colorectal Neuroendocrine Tumor G1; Gastric Neuroendocrine Tumor G1; Neuroendocrine Neoplasm; Neuroendocrine Tumor; Neuroendocrine Tumor G2
+   Intervention: Bevacizumab; Laboratory Biomarker Analysis; Octreotide Acetate; Recombinant Interferon Alfa-2b
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2007-12-01
+   Completion Date: 2026-01-31
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT00569127
+   Summary: This randomized phase III trial studies octreotide acetate and recombinant interferon alfa-2b to see how well it works compared to octreotide acetate and bevacizumab in treating patients with high-risk neuroendocrine tumors that have spread to other places in the body (metastatic) or spread from whe...
+   Locations: Providence Hospital, Mobile, United States; Fairbanks Memorial Hospital, Fairbanks, United States; Mercy Hospital Fort Smith, Fort Smith, United States
+              ... and 493 more locations
+----------------------------------------
+
+14. Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut
+   NCT ID: NCT00171873
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Neuroendocrine Tumors
+   Intervention: Octreotide LAR (Long-acting release); Placebo
+   Sponsor: Carmen Schade-Brittinger
+   Start Date: 2001-09
+   Completion Date: 2013-12
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT00171873
+   Summary: Placebo-controlled prospective randomized phase III study to investigate the antiproliferative effect of octreotide in patients with metastasized neuroendocrine tumors of the midgut
+   Locations: Novartis Investigative Site, Bochum, Germany; Novartis Investigative Site, Dresden, Germany; Novartis Investigative Site, Halle, Germany
+              ... and 7 more locations
+----------------------------------------
+
+15. Clinical and Translational Study of MK-0646 in Patients With Metastatic Neuroendocrine Tumors (NET)
+   NCT ID: NCT00610129
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Metastatic Neuroendocrine Tumors
+   Intervention: MK-0646
+   Sponsor: Memorial Sloan Kettering Cancer Center
+   Start Date: 2008-01
+   Completion Date: 2010-01
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT00610129
+   Summary: The purpose of this study is to test a new drug for neuroendocrine tumors. We think that this new drug may help control your tumor.
+
+MK-0646 is a monoclonal antibody. An antibody is a protein that is able to attach to specific target on cancer cells. This target helps the cancer cells grow and divid...
+   Locations: Memorial Sloan-Kettering at Basking Ridge, Basking Ridge, United States; Memorial Sloan-Kettering Cancer Center @ Suffolk, Commack, United States; Memorial Sloan-Kettering Cancer Center, New York, United States
+              ... and 2 more locations
+----------------------------------------
+
+16. OPALINE : A Study Of Morbidity And Mortality At 2 Years
+   NCT ID: NCT02264665
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Pancreatic Neuroendocrine Tumor, Well Differentiated and Progressive
+   Intervention: sunitinib; everolimus; chemotherapies recommended in france
+   Sponsor: Pfizer
+   Start Date: 2015-05-12
+   Completion Date: 2019-11-18
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT02264665
+   Summary: A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
+   Locations: CHU d'Amiens, Amiens, France; CHU d'Angers, Angers, France; Hopital Saint-Andre, Bordeaux, France
+              ... and 32 more locations
+----------------------------------------
+
+17. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+   NCT ID: NCT00428220
+   Status: COMPLETED
+   Phase: NA
+   Condition: Metastatic Breast Cancer; Advanced Breast Cancer; Metastatic Castration Resistant Prostate Cancer; Metastatic Renal Cell Cancer; Non-Small Cell Lung Cancer; Thyroid Cancer; Advanced/Metastatic Non-Small Cell Lung Cancer; Advanced Gastric Cancer; Gastrointestinal Stromal Tumor; Hepatocellular Carcinoma; Pancreatic Islet Cell Carcinoma; Pancreatic Neuroendocrine Tumor
+   Intervention: sunitinib
+   Sponsor: Pfizer
+   Start Date: 2007-07
+   Completion Date: 2014-09
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT00428220
+   Summary: This is a study using sunitinib for patients ending treatment on a previous sunitinib malate protocol to continue to receive sunitinib. The patient must have been enrolled in one of the following studies: A6181030, A6181064, A6181078, A6181087, A6181094, A6181107, A6181108, A6181110, A6181111, A6181...
+   Locations: Emory University, Winship Cancer Institute, Atlanta, United States; Investigational Drug Service, Atlanta, United States; The Emory Clinic, Atlanta, United States
+              ... and 110 more locations
+----------------------------------------
+
+18. Lithium for Low-Grade Neuroendocrine Tumors
+   NCT ID: NCT00501540
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors
+   Intervention: Lithium Carbonate
+   Sponsor: University of Wisconsin, Madison
+   Start Date: 2007-07
+   Completion Date: 2009-06
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: combined_patient_search
+   URL: https://clinicaltrials.gov/study/NCT00501540
+   Summary: The purpose of this study is to learn more about the effectiveness and side effects of lithium treatment for subjects with low-grade neuroendocrine tumors.
+   Locations: University of Wisconsin Paul P. Carbone Comprehensive Cancer Center, Madison, United States
+----------------------------------------
+

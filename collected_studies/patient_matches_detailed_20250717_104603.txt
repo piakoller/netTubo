@@ -1,0 +1,372 @@
+================================================================================
+QUICK PATIENT-STUDY MATCHING REPORT
+================================================================================
+Generated: 2025-07-17 10:46:03
+Total patients: 5
+
+PATIENT 1
+----------------------------------------
+Diagnosis: NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)
+Koloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G1 NET.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+07/2015 Resektion der Lebermetastasen in Segment VI und Ablation der Läsion in Segment VIII. Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.
+01/2017 V.a. neue Lebermetastase
+02/2017 Start Somatoline
+02/2018 CT Abdomen: stable disease
+03/2019 CT Abdomen: V.a. gering progrediente Lebermetastasen. 
+Relevant studies found: 20
+
+  1. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+     NCT ID: NCT00428220
+     Phase: NA | Status: COMPLETED
+     Relevance: 29 - NET condition match; Small intestine NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT00428220
+
+  2. A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours
+     NCT ID: NCT01578239
+     Phase: PHASE3 | Status: COMPLETED
+     Relevance: 28 - NET condition match; Small intestine NET match; Completed study; PHASE3 study; 4 publications
+     URL: https://clinicaltrials.gov/study/NCT01578239
+
+  3. Liposomal Irinotecan, Fluorouracil and Leucovorin in Treating Patients With Refractory Advanced High Grade Neuroendocrine Cancer of Gastrointestinal, Unknown, or Pancreatic Origin
+     NCT ID: NCT03736720
+     Phase: PHASE2 | Status: TERMINATED
+     Relevance: 27 - NET condition match; Small intestine NET match; Liver metastases match; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT03736720
+
+  4. Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut
+     NCT ID: NCT00171873
+     Phase: PHASE3 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Small intestine NET match; Completed study; PHASE3 study
+     URL: https://clinicaltrials.gov/study/NCT00171873
+
+  5. AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors
+     NCT ID: NCT00427349
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Small intestine NET match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00427349
+
+  6. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+     NCT ID: NCT03034200
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Liver metastases match; Completed study; PHASE2 study; 8 publications
+     URL: https://clinicaltrials.gov/study/NCT03034200
+
+  7. Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors
+     NCT ID: NCT01967537
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Liver metastases match; Completed study; PHASE2 study; 3 publications
+     URL: https://clinicaltrials.gov/study/NCT01967537
+
+  8. Phase 1/2 Study of the Highly-selective RET Inhibitor, Pralsetinib (BLU-667), in Participants With Thyroid Cancer, Non-Small Cell Lung Cancer, and Other Advanced Solid Tumors
+     NCT ID: NCT03037385
+     Phase: PHASE1 | Status: COMPLETED
+     Relevance: 25 - NET condition match; Small intestine NET match; Completed study; 4 publications
+     URL: https://clinicaltrials.gov/study/NCT03037385
+
+  9. RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma
+     NCT ID: NCT00113360
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 24 - NET condition match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00113360
+
+  10. A Study to Assess the Safety and the Efficacy of the Combination of TH-302 and Sunitinib in Neuroendocrine Pancreatic Tumours
+     NCT ID: NCT02402062
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 24 - NET condition match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT02402062
+
+
+================================================================================
+
+PATIENT 2
+----------------------------------------
+Diagnosis: NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)
+Koloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G3 NET, Ki67 48%.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.
+Relevant studies found: 20
+
+  1. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+     NCT ID: NCT00428220
+     Phase: NA | Status: COMPLETED
+     Relevance: 29 - NET condition match; Small intestine NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT00428220
+
+  2. A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours
+     NCT ID: NCT01578239
+     Phase: PHASE3 | Status: COMPLETED
+     Relevance: 28 - NET condition match; Small intestine NET match; Completed study; PHASE3 study; 4 publications
+     URL: https://clinicaltrials.gov/study/NCT01578239
+
+  3. Liposomal Irinotecan, Fluorouracil and Leucovorin in Treating Patients With Refractory Advanced High Grade Neuroendocrine Cancer of Gastrointestinal, Unknown, or Pancreatic Origin
+     NCT ID: NCT03736720
+     Phase: PHASE2 | Status: TERMINATED
+     Relevance: 27 - NET condition match; Small intestine NET match; Liver metastases match; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT03736720
+
+  4. Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut
+     NCT ID: NCT00171873
+     Phase: PHASE3 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Small intestine NET match; Completed study; PHASE3 study
+     URL: https://clinicaltrials.gov/study/NCT00171873
+
+  5. AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors
+     NCT ID: NCT00427349
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Small intestine NET match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00427349
+
+  6. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+     NCT ID: NCT03034200
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Liver metastases match; Completed study; PHASE2 study; 8 publications
+     URL: https://clinicaltrials.gov/study/NCT03034200
+
+  7. Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors
+     NCT ID: NCT01967537
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Liver metastases match; Completed study; PHASE2 study; 3 publications
+     URL: https://clinicaltrials.gov/study/NCT01967537
+
+  8. Phase 1/2 Study of the Highly-selective RET Inhibitor, Pralsetinib (BLU-667), in Participants With Thyroid Cancer, Non-Small Cell Lung Cancer, and Other Advanced Solid Tumors
+     NCT ID: NCT03037385
+     Phase: PHASE1 | Status: COMPLETED
+     Relevance: 25 - NET condition match; Small intestine NET match; Completed study; 4 publications
+     URL: https://clinicaltrials.gov/study/NCT03037385
+
+  9. RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma
+     NCT ID: NCT00113360
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 24 - NET condition match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00113360
+
+  10. A Study to Assess the Safety and the Efficacy of the Combination of TH-302 and Sunitinib in Neuroendocrine Pancreatic Tumours
+     NCT ID: NCT02402062
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 24 - NET condition match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT02402062
+
+
+================================================================================
+
+PATIENT 3
+----------------------------------------
+Diagnosis: NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)
+Koloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G2 NET.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+07/2015 DOTATOC PET: geringe Speicherung der Leberläsionen.
+07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.
+Relevant studies found: 20
+
+  1. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+     NCT ID: NCT00428220
+     Phase: NA | Status: COMPLETED
+     Relevance: 29 - NET condition match; Small intestine NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT00428220
+
+  2. A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours
+     NCT ID: NCT01578239
+     Phase: PHASE3 | Status: COMPLETED
+     Relevance: 28 - NET condition match; Small intestine NET match; Completed study; PHASE3 study; 4 publications
+     URL: https://clinicaltrials.gov/study/NCT01578239
+
+  3. Liposomal Irinotecan, Fluorouracil and Leucovorin in Treating Patients With Refractory Advanced High Grade Neuroendocrine Cancer of Gastrointestinal, Unknown, or Pancreatic Origin
+     NCT ID: NCT03736720
+     Phase: PHASE2 | Status: TERMINATED
+     Relevance: 27 - NET condition match; Small intestine NET match; Liver metastases match; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT03736720
+
+  4. Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut
+     NCT ID: NCT00171873
+     Phase: PHASE3 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Small intestine NET match; Completed study; PHASE3 study
+     URL: https://clinicaltrials.gov/study/NCT00171873
+
+  5. AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors
+     NCT ID: NCT00427349
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Small intestine NET match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00427349
+
+  6. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+     NCT ID: NCT03034200
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Liver metastases match; Completed study; PHASE2 study; 8 publications
+     URL: https://clinicaltrials.gov/study/NCT03034200
+
+  7. Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors
+     NCT ID: NCT01967537
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 26 - NET condition match; Liver metastases match; Completed study; PHASE2 study; 3 publications
+     URL: https://clinicaltrials.gov/study/NCT01967537
+
+  8. Phase 1/2 Study of the Highly-selective RET Inhibitor, Pralsetinib (BLU-667), in Participants With Thyroid Cancer, Non-Small Cell Lung Cancer, and Other Advanced Solid Tumors
+     NCT ID: NCT03037385
+     Phase: PHASE1 | Status: COMPLETED
+     Relevance: 25 - NET condition match; Small intestine NET match; Completed study; 4 publications
+     URL: https://clinicaltrials.gov/study/NCT03037385
+
+  9. RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma
+     NCT ID: NCT00113360
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 24 - NET condition match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00113360
+
+  10. A Study to Assess the Safety and the Efficacy of the Combination of TH-302 and Sunitinib in Neuroendocrine Pancreatic Tumours
+     NCT ID: NCT02402062
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 24 - NET condition match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT02402062
+
+
+================================================================================
+
+PATIENT 4
+----------------------------------------
+Diagnosis: NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)
+CT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+08/2015 Start Somatuline
+06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.
+Relevant studies found: 20
+
+  1. RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma
+     NCT ID: NCT00113360
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00113360
+
+  2. A Study to Assess the Safety and the Efficacy of the Combination of TH-302 and Sunitinib in Neuroendocrine Pancreatic Tumours
+     NCT ID: NCT02402062
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT02402062
+
+  3. Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer
+     NCT ID: NCT01010126
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT01010126
+
+  4. Study of MK-2206 in Patients With Metastatic Neuroendocrine Tumors (NET)
+     NCT ID: NCT01169649
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT01169649
+
+  5. Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer
+     NCT ID: NCT00454363
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00454363
+
+  6. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+     NCT ID: NCT03375320
+     Phase: PHASE3 | Status: ACTIVE_NOT_RECRUITING
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Active study; PHASE3 study
+     URL: https://clinicaltrials.gov/study/NCT03375320
+
+  7. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+     NCT ID: NCT00428220
+     Phase: NA | Status: COMPLETED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT00428220
+
+  8. OPALINE : A Study Of Morbidity And Mortality At 2 Years
+     NCT ID: NCT02264665
+     Phase: N/A | Status: COMPLETED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT02264665
+
+  9. The Safety And Efficacy Of Sunitinib In Chinese Patients With Progressive Advanced Or Metastatic Well-Differentiated Unresectable Pancreatic Neuroendocrine Tumors
+     NCT ID: NCT02282059
+     Phase: N/A | Status: COMPLETED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT02282059
+
+  10. A Study Evaluating Lanreotide as Maintenance Therapy in Patients With Non-Resectable Duodeno-Pancreatic Neuroendocrine Tumors (REMINET)
+     NCT ID: NCT02288377
+     Phase: PHASE2 | Status: TERMINATED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; PHASE2 study; 3 publications
+     URL: https://clinicaltrials.gov/study/NCT02288377
+
+
+================================================================================
+
+PATIENT 5
+----------------------------------------
+Diagnosis: NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)
+CT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.
+07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.
+
+06/2015 DOTATOC PET: starke Speicherung der Läsionen.
+Relevant studies found: 20
+
+  1. RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma
+     NCT ID: NCT00113360
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00113360
+
+  2. A Study to Assess the Safety and the Efficacy of the Combination of TH-302 and Sunitinib in Neuroendocrine Pancreatic Tumours
+     NCT ID: NCT02402062
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT02402062
+
+  3. Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer
+     NCT ID: NCT01010126
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT01010126
+
+  4. Study of MK-2206 in Patients With Metastatic Neuroendocrine Tumors (NET)
+     NCT ID: NCT01169649
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT01169649
+
+  5. Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer
+     NCT ID: NCT00454363
+     Phase: PHASE2 | Status: COMPLETED
+     Relevance: 32 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study; PHASE2 study
+     URL: https://clinicaltrials.gov/study/NCT00454363
+
+  6. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+     NCT ID: NCT03375320
+     Phase: PHASE3 | Status: ACTIVE_NOT_RECRUITING
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Active study; PHASE3 study
+     URL: https://clinicaltrials.gov/study/NCT03375320
+
+  7. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+     NCT ID: NCT00428220
+     Phase: NA | Status: COMPLETED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT00428220
+
+  8. OPALINE : A Study Of Morbidity And Mortality At 2 Years
+     NCT ID: NCT02264665
+     Phase: N/A | Status: COMPLETED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT02264665
+
+  9. The Safety And Efficacy Of Sunitinib In Chinese Patients With Progressive Advanced Or Metastatic Well-Differentiated Unresectable Pancreatic Neuroendocrine Tumors
+     NCT ID: NCT02282059
+     Phase: N/A | Status: COMPLETED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; Completed study
+     URL: https://clinicaltrials.gov/study/NCT02282059
+
+  10. A Study Evaluating Lanreotide as Maintenance Therapy in Patients With Non-Resectable Duodeno-Pancreatic Neuroendocrine Tumors (REMINET)
+     NCT ID: NCT02288377
+     Phase: PHASE2 | Status: TERMINATED
+     Relevance: 29 - NET condition match; Pancreatic NET match; Liver metastases match; PHASE2 study; 3 publications
+     URL: https://clinicaltrials.gov/study/NCT02288377
+
+
+================================================================================
+
