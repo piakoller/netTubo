@@ -9,178 +9,138 @@ CT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.
 
 06/2015 DOTATOC PET: starke Speicherung der Läsionen.
 Clinical Question: Weitere Therapie, Somatuline oder PRRT?
-Report generated: 2025-07-15 15:47:21
+Report generated: 2025-07-17 16:44:09
 
-Found 6 relevant clinical trials (with publications and posted results)
+Found 5 relevant clinical trials (with publications and posted results)
 --------------------------------------------------------------------------------
 
-1. Study of Everolimus (RAD001) in Combination With Lenalidomide
-   NCT ID: NCT01218555
+1. Study Escalating Doses of PM01183 in Combination With Fixed Doxorubicin in Patients With Specific Advanced Unresectable Solid Tumors
+   NCT ID: NCT01970540
    Status: COMPLETED
    Phase: PHASE1
    Clinically Relevant: YES (Score: 1.0)
    Clinical Reasoning:
-   1. Diagnostic Relevance: The study description explicitly includes “neuroendocrine cancer” within the expansion cohort, directly addressing the patient’s diagnosis of a pancreatic NET. 
-          2. 
-          Tumor Characteristics: The patient has a G2 pancreatic NET with evidence of regional lymph node and liver metastases. While the study doesn’t specify grade, the inclusion of NETs generally allows for a range of grades, and G2 is a common inclusion criterion in NET trials. The metastatic disease is compatible with the study’s focus on patients whose cancer is no longer responding to standard treatment. 
-          3. Treatment Context: The patient is currently considering further therapy options (Somatuline or PRRT), indicating a need for additional treatment beyond initial approaches. The study targets patients whose cancer is no longer responding to standard treatment or who are unable to tolerate it, aligning with this context. Prior DOTATOC PET suggests prior somatostatin analogue treatment is possible, but doesn’t automatically exclude the patient. 
-          4. [Explanation truncated for readability]
+   This study is clinically relevant for the patient. The inclusion criteria explicitly list 'Gastroenteropancreatic neuroendocrine tumors' which directly matches the patient's diagnosis of a pancreatic NET. The patient's age is likely within the 18-75 range, and assuming a reasonable ECOG PS (≤1), they would likely meet the inclusion criteria. The combination of lurbinectedin and doxorubicin could be a potential treatment option to consider alongside somatuline or PRRT, especially given the progression of the disease with liver and lymph node metastases. The study is completed, has published results, and therefore meets the quality criteria.
    Has Posted Results: YES (verified)
-   Condition: Solid Organ Malignancies; Adenoidcystic Carcinoma; Neuroendocrine Tumors
-   Intervention: Lenalidomide; Everolimus
-   Sponsor: Emory University
-   Start Date: 2010-09-09
-   Completion Date: 2020-11-05
-   Locations: Grady Health System, Atlanta, United States; Emory University Winship Cancer Institute, Atlanta, United States
-   URL: https://clinicaltrials.gov/study/NCT01218555
-   Summary: The purpose of this study is to study the combination of two anticancer drugs, everolimus (RAD001) and lenalidomide in patients whose cancer is no longer responding to standard treatment or patients who are unable to tolerate the standard treatment for their cancer.
+   Condition: Endometrial Adenocarcinomas; Neuroendocrine Tumors; Small-cell Lung Cancer With Less Than 2 Prior Cytotoxic-containing Lines of Therapy
+   Intervention: lurbinectedin (PM01183); Doxorubicin
+   Sponsor: PharmaMar
+   Start Date: 2011-05-25
+   Completion Date: 2017-08-09
+   Locations: Hospital Universitari Vall D'Hebron, Barcelona, Spain; Centro Oncológico Md Anderson International España, Madrid, Spain; Hospital Ramón Y Cajal, Madrid, Spain
+   URL: https://clinicaltrials.gov/study/NCT01970540
+   Summary: Phase I Multicenter, Open-label, Clinical and Pharmacokinetic Study of PM01183 in Combination with Fixed Doxorubicin in Non- Heavily Pretreated Patients with Selected Advanced Solid Tumors to determine the maximum tolerated dose (MTD) and the recommended dose (RD) of PM01183 in combination with doxo...
    Publications Found: 1
-     1. Harvey RD, Carthon BC, Lewis C, Hossain MS, Zhang C, Chen Z, Harris WB, Alese OB...
-        PMID: 32704173
+     1. Olmedo ME, Forster M, Moreno V, Lopez-Criado MP, Brana I, Flynn M, Doger B, de M...
+        PMID: 33704620
         Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/32704173/
+        Link: https://pubmed.ncbi.nlm.nih.gov/33704620/
 ----------------------------------------
 
-2. A Study of LY2584702 With Erlotinib or Everolimus in Participants With Solid Tumors
-   NCT ID: NCT01115803
+2. A Safety and Efficacy Study of CC-90011 in Participants With Relapsed and/or Refractory Solid Tumors and Non-Hodgkin's Lymphomas
+   NCT ID: NCT02875223
    Status: TERMINATED
    Phase: PHASE1
    Clinically Relevant: YES (Score: 1.0)
    Clinical Reasoning:
-   1. Diagnostic Relevance: The study description specifically lists “advanced neuroendocrine tumors” as an eligible population in Arm B. This directly addresses the patient’s diagnosis of a pancreatic NET with metastatic disease. 
-          2. 
-          Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases – representing advanced/metastatic disease. The study doesn’t specify grade restrictions within the NET population, making this a compatible match. The DOTATOC PET scan indicates somatostatin receptor positivity, which, while not directly addressed in the study description, doesn’t disqualify the patient. 
-          3. Treatment Context: The patient is currently considering further therapy (Somatuline or PRRT), suggesting they haven’t yet exhausted standard treatment options. The study allows for patients with advanced NETs, fitting this context. Prior therapies aren’t explicitly mentioned as exclusionary in the provided description. 
-          4. [Explanation truncated for readability]
+   This study appears clinically relevant for the patient. The study explicitly includes grade 2 NETs, which matches the patient’s diagnosis of a G2 NET of the pancreas. The inclusion criteria of advanced/unresectable tumors aligns with the patient’s metastatic disease. While the patient’s ECOG and age are unknown, the study requires ECOG 0-1, which is a reasonable assumption. The intervention, CC-90011, represents a novel therapy that could be considered for relapsed/refractory disease, addressing the clinical question of alternative therapies to somatuline or PRRT. Finally, the study has published results in peer-reviewed journals, indicating good scientific quality.
    Has Posted Results: YES (verified)
-   Condition: Metastases, Neoplasm; Carcinoma, Non-small Cell Lung; Renal Cell Carcinoma; Neuroendocrine Tumors
-   Intervention: LY2584702; Erlotinib; Everolimus
-   Sponsor: Eli Lilly and Company
-   Start Date: 2010-03
-   Completion Date: 2011-06
-   Locations: For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician., Chicago, United States; For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician., Bordeaux, France; For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician., Villejuif, France
-   URL: https://clinicaltrials.gov/study/NCT01115803
-   Summary: Study I3G-MC-JGCB (JGCB) is a multicenter, nonrandomized, open-label, dose-escalation Phase 1b study of LY2584702 in combination with either erlotinib or everolimus.
-   Publications Found: 1
-     1. Hollebecque A, Houede N, Cohen EE, Massard C, Italiano A, Westwood P, Bumgardner...
-        PMID: 24456794
+   Condition: Lymphoma, Non-Hodgkin; Neoplasms
+   Intervention: CC-90011; Rifampicin; Itraconazole
+   Sponsor: Celgene
+   Start Date: 2016-08-31
+   Completion Date: 2024-03-25
+   Locations: Local Institution - 101, Dijon, France; Local Institution - 102, Marseille Cedex 9, France; Local Institution - 100, Villejuif Cedex, France
+   URL: https://clinicaltrials.gov/study/NCT02875223
+   Summary: Study CC-90011-ST-001 is an open-label, Phase 1, dose escalation and expansion, First-In-Human (FIH) clinical study of CC-90011 in subjects with advanced unresectable solid tumors (enriched for grade 2 NENs, grade 2 NETs and NECs) and R/R NHL (MZL, including extranodal MZL \[EMZL\], splenic MZL \[SM...
+   Publications Found: 2
+     1. Hollebecque A, Salvagni S, Plummer R, Isambert N, Niccoli P, Capdevila J, Curigl...
+        PMID: 33046517
+        Type: BACKGROUND
+        Link: https://pubmed.ncbi.nlm.nih.gov/33046517/
+     2. Hollebecque A, Salvagni S, Plummer R, Niccoli P, Capdevila J, Curigliano G, More...
+        PMID: 35737639
         Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/24456794/
+        Link: https://pubmed.ncbi.nlm.nih.gov/35737639/
 ----------------------------------------
 
-3. Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors
-   NCT ID: NCT00510068
+3. A Study Of The Efficacy And Safety Of Sunitinib In Patients With Advanced Well-Differentiated Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT01525550
    Status: COMPLETED
-   Phase: PHASE3
+   Phase: PHASE4
    Clinically Relevant: YES (Score: 1.0)
    Clinical Reasoning:
-   EVALUATION OF: Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors
-          1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs). While the study doesn’t specify pancreatic NETs, it includes “advanced neuroendocrine tumors” generally, making it relevant to this patient’s diagnosis of a pancreatic NET with metastases.
-          2. 
-          Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. Advanced NETs are the target population for this study. The grade (G2) is directly applicable. The presence of metastases indicates advanced disease, aligning with the study’s inclusion criteria. The DOTATOC PET showing strong somatostatin receptor expression doesn’t exclude the patient, and may even be relevant as a potential biomarker for response (though not a direct inclusion criterion).
-          3. Treatment Context: The patient is currently considering further therapy – Somatuline or PRRT. This suggests they haven’t yet exhausted standard treatment options. Everolimus is often considered after or alongside somatostatin analogs, making this a potentially appropriate next step. [Explanation truncated for readability]
+   This study appears clinically relevant for the patient. The study specifically focuses on well-differentiated pancreatic neuroendocrine tumors, which matches the patient’s G2 NET diagnosis. While the patient’s prior therapies and ECOG status are unknown, the exclusion criteria regarding prior tyrosine kinase inhibitors or mTOR inhibitors don't immediately rule the patient out, and the disease progression criteria could apply given the 2015 diagnosis and current need for further therapy. Sunitinib is a potentially useful treatment option to consider alongside somatuline or PRRT. The study is completed, has published results, and a publication exists, indicating good scientific quality.
    Has Posted Results: YES (verified)
-   Condition: Advanced Neuroendocrine Tumors of Pancreatic Origin
-   Intervention: Everolimus; Everolimus Placebo
-   Sponsor: Novartis Pharmaceuticals
-   Start Date: 2007-07
-   Completion Date: 2014-03
-   Locations: University of South Alabama / Mitchell Cancer Institute Deptof Mitchell Cancer Inst(2), Mobile, United States; Pacific Cancer Medical Center, Inc., Anaheim, United States; Cedars Sinai Medical Center SC-2, Los Angeles, United States
-   URL: https://clinicaltrials.gov/study/NCT00510068
-   Summary: The purpose of this study was to evaluate progression free survival in those participants assigned everolimus 10 mg/day plus Best Supportive Care versus those assigned to placebo plus Best Supportive Care in Advanced Neuroendocrine Tumors of pancreatic origin.
-   Publications Found: 5
-     1. Chan DL, Yao JC, Carnaghi C, Buzzoni R, Herbst F, Ridolfi A, Strosberg J, Kulke ...
-        PMID: 33560090
+   Condition: Well-differentiated Pancreatic Neuroendocrine Tumor
+   Intervention: sunitinib
+   Sponsor: Pfizer
+   Start Date: 2012-06-06
+   Completion Date: 2018-07-26
+   Locations: Univeristy of California, Orange, United States; Columbia University Medical Center, New York, United States; Barwon Health - University Hospital Geelong, Geelong, Australia
+   URL: https://clinicaltrials.gov/study/NCT01525550
+   Summary: The purpose of this study is to confirm the safety and efficacy of sunitinib in subjects with unresectable pancreatic neuroendocrine tumors.
+   Publications Found: 1
+     1. Fazio N, Kulke M, Rosbrook B, Fernandez K, Raymond E. Updated Efficacy and Safet...
+        PMID: 33411058
         Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/33560090/
-     2. Yao JC, Voi M, Lincy J, Pavel M. Reply to V. Amoroso et al. J Clin Oncol. 2017 M...
-        PMID: 28113028
-        Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/28113028/
-     3. Yao JC, Pavel M, Lombard-Bohas C, Van Cutsem E, Voi M, Brandt U, He W, Chen D, C...
-        PMID: 27621394
-        Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/27621394/
+        Link: https://pubmed.ncbi.nlm.nih.gov/33411058/
 ----------------------------------------
 
-4. AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors
-   NCT ID: NCT01024387
+4. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+   NCT ID: NCT03034200
    Status: COMPLETED
    Phase: PHASE2
    Clinically Relevant: YES (Score: 1.0)
    Clinical Reasoning:
-   1. Diagnostic Relevance: The study explicitly targets pancreatic neuroendocrine tumors (NETs), which is the patient’s primary diagnosis. The study design includes a specific cohort for pancreatic NETs, demonstrating clear relevance. 
-          2. 
-          Tumor Characteristics: The patient has a G2 pancreatic NET. The study doesn’t specify a grade restriction, therefore G2 is acceptable. The patient has metastatic disease (lymph nodes and liver), which is consistent with an “advanced” tumor status as indicated in the study description. The DOTATOC PET scan indicates somatostatin receptor positivity, which, while not directly addressed in the study description, doesn’t preclude participation. 
-          3. Treatment Context: The patient is seeking further therapy options (Somatuline or PRRT), suggesting they have likely progressed or are considering alternatives to current standard of care. The study description doesn’t specify a line of therapy restriction, making it potentially suitable for a patient exploring further treatment options. Prior therapies aren’t mentioned as exclusionary criteria in the provided description. 
-          4. [Explanation truncated for readability]
+   This study appears clinically relevant for the patient. The study explicitly includes patients with neuroendocrine tumors, and the patient has a pancreatic NET with metastases. The inclusion criteria do not immediately rule the patient out – there’s no age limit specified that would exclude them, prior therapies are allowed, and the requirement for detectable lesions is met. While ECOG/Karnofsky is not specified for the patient, the study requires a performance status ≥60%, which is reasonable to assume the patient might meet. ONC201 represents a potentially useful alternative treatment option to somatuline or PRRT, and the study has published results in peer-reviewed journals, indicating good scientific quality.
    Has Posted Results: YES (verified)
-   Condition: Neuroendocrine Tumor; Carcinoid Tumor; Pancreatic Neuroendocrine Tumor
-   Intervention: AMG 479
-   Sponsor: Dana-Farber Cancer Institute
-   Start Date: 2010-03
-   Completion Date: 2017-01
-   Locations: H. Lee Moffitt Cancer Center, Tampa, United States; Massachusetts General Hospital, Boston, United States; Dana-Farber Cancer Institute, Boston, United States
-   URL: https://clinicaltrials.gov/study/NCT01024387
-   Summary: The purpose of this research study is to determine the effectiveness of AMG 479 against carcinoid and pancreatic neuroendocrine tumors. AMG 479 is an antibody that is made in the laboratory. Antibodies are highly specific proteins produced by the body's immune system that recognize foreign substance...
-   Publications Found: 1
-     1. Strosberg JR, Chan JA, Ryan DP, Meyerhardt JA, Fuchs CS, Abrams T, Regan E, Brad...
-        PMID: 23572164
+   Condition: Recurrent Neuroendocrine Tumor; Metastatic Neuroendocrine Tumor
+   Intervention: ONC201
+   Sponsor: Peter Anderson
+   Start Date: 2017-08-02
+   Completion Date: 2023-05-19
+   Locations: Cleveland Clinic Pediatric and Taussig Cancer Institute, Case Comprehensive Cancer Center, United States
+   URL: https://clinicaltrials.gov/study/NCT03034200
+   Summary: The purpose of this study is to learn if a new drug, ONC201 can make tumors become smaller or go away completely. Investigators also want to learn if ONC201 can prevent new deposits of cancer from appearing in new places in participants (metastases). A phase 2 study of ONC201 in PC-PG (pheochromocyt...
+   Publications Found: 8
+     1. Allen JE, Krigsfeld G, Mayes PA, Patel L, Dicker DT, Patel AS, Dolloff NG, Messa...
+        PMID: 23390247
         Type: BACKGROUND
-        Link: https://pubmed.ncbi.nlm.nih.gov/23572164/
+        Link: https://pubmed.ncbi.nlm.nih.gov/23390247/
+     2. Allen JE, Krigsfeld G, Patel L, Mayes PA, Dicker DT, Wu GS, El-Deiry WS. Identif...
+        PMID: 25927855
+        Type: BACKGROUND
+        Link: https://pubmed.ncbi.nlm.nih.gov/25927855/
+     3. Allen JE, Prabhu VV, Talekar M, van den Heuvel AP, Lim B, Dicker DT, Fritz JL, B...
+        PMID: 25681273
+        Type: BACKGROUND
+        Link: https://pubmed.ncbi.nlm.nih.gov/25681273/
 ----------------------------------------
 
-5. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
-   NCT ID: NCT03375320
+5. Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET
+   NCT ID: NCT03972488
    Status: ACTIVE_NOT_RECRUITING
    Phase: PHASE3
    Clinically Relevant: YES (Score: 1.0)
    Clinical Reasoning:
-   1. Diagnostic Relevance: The study explicitly targets pancreatic neuroendocrine tumors (NETs), which is the patient’s primary diagnosis. The study also includes carcinoid tumors, but the primary focus on pancreatic NETs is directly relevant.
-          2. 
-          Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. The study specifically includes advanced pancreatic NETs, and does not specify a grade restriction, making a G2 tumor eligible. The presence of metastases indicates advanced disease, aligning with the study population. The DOTATOC PET scan indicates somatostatin receptor positivity, which while not directly addressed in the study, doesn’t disqualify the patient.
-          3. Treatment Context: The patient is seeking further therapy options after initial diagnosis in 
-          2015. The study requires patients whose disease has progressed after prior therapy. While the specifics of prior therapy aren't detailed, the question of "Somatuline or PRRT?" suggests the patient has likely already received some form of treatment, making them potentially eligible for a second-line therapy like cabozantinib.
-          4. [Explanation truncated for readability]
+   This study appears clinically relevant for the patient. The patient has a G2 pancreatic NET with liver metastases, which falls within the GEP-NET inclusion criteria of the study. While the patient's ECOG and age are unknown, the study requires a KPS ≥ 60 (equivalent to ECOG 0-1) and includes patients ≥ 15 years old, so these are not immediately disqualifying. The patient’s DOTATOC PET scan indicates somatostatin receptor expression, fulfilling a key inclusion criterion. The study investigates Lutathera, a PRRT therapy, which directly addresses the clinical question of whether to pursue Somatuline or PRRT. The study is a Phase 3 trial with published results, indicating good scientific quality.
    Has Posted Results: YES (verified)
-   Condition: Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm
-   Intervention: Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging
-   Sponsor: National Cancer Institute (NCI)
-   Start Date: 2018-10-26
-   Completion Date: 2025-11-22
-   Locations: Katmai Oncology Group, Anchorage, United States; Kingman Regional Medical Center, Kingman, United States; Mayo Clinic Hospital in Arizona, Phoenix, United States
-   URL: https://clinicaltrials.gov/study/NCT03375320
-   Summary: This phase III trial studies cabozantinib to see how well it works compared with placebo in treating patients with neuroendocrine or carcinoid tumors that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). Cabozantinib is a chemotherap...
-   Publications Found: 1
-     1. Kunz PL. Angiogenesis inhibitors in neuroendocrine tumours: finally coming of ag...
-        PMID: 33152282
+   Condition: Gastro-enteropancreatic Neuroendocrine Tumor
+   Intervention: Lutathera; 30 mg Octreotide long acting repeatable (LAR) (Sandostatin LAR Depot); 2.5% Lys-Arg sterile amino acid solution; High dose 60 mg octreotide long-acting repeatable
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2020-01-08
+   Completion Date: 2027-10-29
+   Locations: Yale Cancer Center, New Haven, United States; USF - H. Lee Moffitt Cancer Center and Research Institute, Tampa, United States; University of Iowa Hospitals and Clinics - Oncology, Iowa City, United States
+   URL: https://clinicaltrials.gov/study/NCT03972488
+   Summary: The aim of NETTER-2 was to determine if Lutathera in combination with long-acting octreotide prolongs progression free survival (PFS) in gastroenteropancreatic neuroendocrine tumor (GEP-NET) patients with high proliferation rate tumors (G2 and G3), when given as a first line treatment compared to tr...
+   Publications Found: 2
+     1. Singh S, Halperin D, Myrehaug S, Herrmann K, Pavel M, Kunz PL, Chasen B, Tafuto ...
+        PMID: 38851203
+        Type: RESULT
+        Link: https://pubmed.ncbi.nlm.nih.gov/38851203/
+     2. Jungels C, Deleporte A. State of the art and future directions in the systemic t...
+        PMID: 33973550
         Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/33152282/
-----------------------------------------
-
-6. Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor
-   NCT ID: NCT00569127
-   Status: ACTIVE_NOT_RECRUITING
-   Phase: PHASE3
-   Clinically Relevant: YES (Score: 1.0)
-   Clinical Reasoning:
-   1. Diagnostic Relevance: The study explicitly targets neuroendocrine tumors (NETs), specifically "poor prognosis carcinoid patients." While the patient has a pancreatic NET, the study doesn't exclude pancreatic primaries. The strong somatostatin receptor expression (DOTATOC PET) suggests a well-differentiated NET, aligning with the typical patient population studied in carcinoid trials.
-          2. 
-          Tumor Characteristics: The patient has a G2 pancreatic NET with lymph node and liver metastases. The study focuses on "poor prognosis" NETs, which metastatic disease clearly falls into. G2 is a compatible grade. The study doesn't specify functional status, so this isn't a disqualifier.
-          3. Treatment Context: The patient is currently considering Somatuline or PRRT, indicating they haven't yet had definitive systemic therapy beyond potential initial stabilization. This study compares octreotide (a somatostatin analog like Somatuline) with either interferon or bevacizumab. Therefore, it represents a relevant next-line treatment option instead of PRRT, addressing the clinical question of which systemic therapy to pursue. Prior therapies aren't mentioned as disqualifying in the description.
-          4. [Explanation truncated for readability]
-   Has Posted Results: YES (verified)
-   Condition: Colorectal Neuroendocrine Tumor G1; Gastric Neuroendocrine Tumor G1; Neuroendocrine Neoplasm; Neuroendocrine Tumor; Neuroendocrine Tumor G2
-   Intervention: Bevacizumab; Laboratory Biomarker Analysis; Octreotide Acetate; Recombinant Interferon Alfa-2b
-   Sponsor: National Cancer Institute (NCI)
-   Start Date: 2007-12-01
-   Completion Date: 2026-01-31
-   Locations: Providence Hospital, Mobile, United States; Fairbanks Memorial Hospital, Fairbanks, United States; Mercy Hospital Fort Smith, Fort Smith, United States
-   URL: https://clinicaltrials.gov/study/NCT00569127
-   Summary: This randomized phase III trial studies octreotide acetate and recombinant interferon alfa-2b to see how well it works compared to octreotide acetate and bevacizumab in treating patients with high-risk neuroendocrine tumors that have spread to other places in the body (metastatic) or spread from whe...
-   Publications Found: 1
-     1. Yao JC, Guthrie KA, Moran C, Strosberg JR, Kulke MH, Chan JA, LoConte N, McWilli...
-        PMID: 28384065
-        Type: DERIVED
-        Link: https://pubmed.ncbi.nlm.nih.gov/28384065/
+        Link: https://pubmed.ncbi.nlm.nih.gov/33973550/
 ----------------------------------------
