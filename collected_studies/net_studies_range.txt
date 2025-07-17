@@ -1,0 +1,971 @@
+================================================================================
+COLLECTED CLINICAL TRIALS REPORT
+================================================================================
+Collection Date: 2025-07-17 13:45:19
+Total Studies: 54
+Filter Criteria: Studies with publications AND posted results
+--------------------------------------------------------------------------------
+
+1. Neoantigen Vaccine Plus Locally Administered Ipilimumab and Systemic Nivolumab in Advanced Melanoma
+   NCT ID: NCT03929029
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE1
+   Condition: Cutaneous Melanoma
+   Intervention: Nivolumab (480 mg infusion); NeoVax plus Montanide; Ipilimumab
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2020-11-11
+   Completion Date: 2028-09-30
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03929029
+   Summary: This research study is investigating a new type of personalized neoantigen vaccine, NeoVax, plus Montanide® in combination with Ipilimumab (Yervoy™) and Nivolumab (Opdivo®) as a possible treatment for cutaneous melanoma.
+
+The drugs involved in this study are:
+
+* Personalized Neoantigen Vaccine
+* Pol...
+   Locations: Dana Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+2. FLX475 in Combination With Ipilimumab in Advanced Melanoma
+   NCT ID: NCT04894994
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Advanced Melanoma
+   Intervention: FLX475; Ipilimumab
+   Sponsor: RAPT Therapeutics, Inc.
+   Start Date: 2021-09-03
+   Completion Date: 2022-09-13
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04894994
+   Summary: This clinical trial is a Phase 2, open-label study to determine the anti-tumor activity of FLX475 in combination with ipilimumab in subjects with advanced melanoma previously treated with an anti-programmed cell death 1 (anti-PD-1) or anti-programmed cell death ligand 1 (anti-PD-L1) agent.
+
+The stud...
+   Locations: University of California, Los Angeles, Los Angeles, United States; Moffitt Cancer Center, Tampa, United States; Washington University School of Medicine St. Louis, Saint Louis, United States
+              ... and 1 more locations
+----------------------------------------
+
+3. A Study to Compare How Effective is Encorafenib Plus Binimetinib in Real-world and Clinical Trial Settings
+   NCT ID: NCT05954546
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Metastatic Melanoma
+   Intervention: Enco+bini
+   Sponsor: Pfizer
+   Start Date: 2023-07-21
+   Completion Date: 2023-12-31
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05954546
+   Summary: Brief summary The purpose of this study is to compare how effective, encorafenib plus binimetinib is in the real-world and clinical trial settings. And produce results to show that combining data on encorafenib plus binimetinib from both the real-world and clinical trial settings is possible for fut...
+   Locations: Pfizer, New York, United States
+----------------------------------------
+
+4. Safety and Efficacy of Selinexor in Combination With Pembrolizumab in Recurrent Advanced Melanoma
+   NCT ID: NCT04768881
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Locally Advanced Unresectable or Metastatic Melanoma
+   Intervention: Selinexor; Pembrolizumab
+   Sponsor: Karyopharm Therapeutics Inc
+   Start Date: 2021-05-12
+   Completion Date: 2023-09-22
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04768881
+   Summary: Approximately 40 participants with locally advanced or metastatic melanoma will be enrolled in 20 sites in the United States into 1 of the following 2 arms: Primary resistance to initial checkpoint inhibitor (CPI) therapy in Arm A and Acquired resistance to initial CPI therapy in Arm B. Participants...
+   Locations: UCLA, Los Angeles, United States; TOI Clinical Research, Pasadena, United States; BRCR Global, Plantation, United States
+              ... and 10 more locations
+----------------------------------------
+
+5. Safety and Efficacy of XmAb18087 ± Pembrolizumab in Advanced Merkel Cell Carcinoma or Extensive-stage Small Cell Lung Cancer
+   NCT ID: NCT04590781
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Merkel Cell Carcinoma; Small Cell Lung Cancer
+   Intervention: XmAb18087; XmAb18087 ± Pembrolizumab
+   Sponsor: Xencor, Inc.
+   Start Date: 2021-05-10
+   Completion Date: 2022-03-24
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04590781
+   Summary: This is a Phase 1b/2, multiple-dose study designed to describe safety and efficacy, and to assess PK and immunogenicity of XmAb18087 monotherapy and in combination with pembrolizumab in participants with metastatic Merkel cell (MCC) or locoregional MCC that has recurred after locoregional therapy wi...
+   Locations: City of Hope, Duarte, United States; USC/Norris Comprehensive Cancer Center, Los Angeles, United States; Dartmouth Hitchcock Medical Center, Lebanon, United States
+              ... and 4 more locations
+----------------------------------------
+
+6. Safety and Efficacy in Participants With Metastatic BRAF-mutant Melanoma Treated With Encorafenib With and Without Binimetinib in Combination With Nivolumab and Low-dose Ipilimuma
+   NCT ID: NCT04655157
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Melanoma
+   Intervention: encorafenib; nivolumab; ipilimumab; binimetinib
+   Sponsor: Jason J. Luke, MD
+   Start Date: 2021-05-28
+   Completion Date: 2022-09-20
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04655157
+   Summary: Patients with unresectable or metastatic BRAF-mutant melanoma high-risk patients will be given 450 mg orally (PO) daily (QD) plus binimetinib 45 mg PO twice daily (BID) together with nivolumab administered intravenously (IV) at 3mg/kg and ipilimumab administered IV at 1 mg/kg every 3 weeks for 4 dos...
+   Locations: UPMC Hillman Cancer Center, Pittsburgh, United States
+----------------------------------------
+
+7. Tipifarnib for the Treatment of Advanced Solid Tumors, Lymphoma, or Histiocytic Disorders With HRAS Gene Alterations, a Pediatric MATCH Treatment Trial
+   NCT ID: NCT04284774
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Malignant Solid Neoplasm; Recurrent Adrenal Gland Pheochromocytoma; Recurrent Ectomesenchymoma; Recurrent Ependymoma; Recurrent Ewing Sarcoma; Recurrent Hepatoblastoma; Recurrent Kidney Wilms Tumor; Recurrent Langerhans Cell Histiocytosis; Recurrent Malignant Germ Cell Tumor; Recurrent Malignant Glioma; Recurrent Medulloblastoma; Recurrent Melanoma; Recurrent Neuroblastoma; Recurrent Non-Hodgkin Lymphoma; Recurrent Osteosarcoma; Recurrent Peripheral Primitive Neuroectodermal Tumor; Recurrent Rhabdoid Tumor; Recurrent Rhabdoid Tumor of the Kidney; Recurrent Rhabdomyosarcoma; Recurrent Soft Tissue Sarcoma; Recurrent Thyroid Gland Carcinoma; Recurrent WHO Grade 2 Glioma; Refractory Adrenal Gland Pheochromocytoma; Refractory Ependymoma; Refractory Ewing Sarcoma; Refractory Hepatoblastoma; Refractory Langerhans Cell Histiocytosis; Refractory Malignant Germ Cell Tumor; Refractory Malignant Glioma; Refractory Medulloblastoma; Refractory Melanoma; Refractory Neuroblastoma; Refractory Non-Hodgkin Lymphoma; Refractory Osteosarcoma; Refractory Peripheral Primitive Neuroectodermal Tumor; Refractory Rhabdoid Tumor; Refractory Rhabdoid Tumor of the Kidney; Refractory Rhabdomyosarcoma; Refractory Soft Tissue Sarcoma; Refractory Thyroid Gland Carcinoma; Refractory WHO Grade 2 Glioma
+   Intervention: Tipifarnib
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2020-10-13
+   Completion Date: 2027-09-30
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04284774
+   Summary: This phase II pediatric MATCH trial studies how well tipifarnib works in treating patients with solid tumors that have recurred or spread to other places in the body (advanced), lymphoma, or histiocytic disorders, that have a genetic alteration in the gene HRAS. Tipifarnib may block the growth of ca...
+   Locations: Children's Hospital of Alabama, Birmingham, United States; Providence Alaska Medical Center, Anchorage, United States; Banner Children's at Desert, Mesa, United States
+              ... and 169 more locations
+----------------------------------------
+
+8. Bioequivalence Binimetinib 3 x 15 mg and 45 mg Formulations
+   NCT ID: NCT05810740
+   Status: COMPLETED
+   Phase: PHASE1
+   Condition: Melanoma; BRAF V600 Mutation; Unresectable Melanoma; Metastatic Melanoma
+   Intervention: Binimetinib 15 MG; Binimetinib 45 MG
+   Sponsor: Pierre Fabre Medicament
+   Start Date: 2022-08-31
+   Completion Date: 2023-01-18
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05810740
+   Summary: The current commercially available MEKTOVI® (binimetinib) 15 mg tablets are provided as immediate release film-coated tablets for oral administration. For the treatment of adult patients with unresectable or metastatic melanoma with BRAF V600 mutation, the recommended dosing regimen is 45 mg twice d...
+   Locations: Biotrial, Rennes, France
+----------------------------------------
+
+9. Trial of Cabozantinib Plus Atezolizumab in Advanced and Progressive Neoplasms of the Endocrine System. The CABATEN Study
+   NCT ID: NCT04400474
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumor; Anaplastic Thyroid Cancer; Adenocarcinoma; Pheochromocytoma; Paraganglioma
+   Intervention: Cabozantinib 40 mg
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2020-10-07
+   Completion Date: 2023-12-15
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04400474
+   Summary: CABATEN is a multicohort phase II study of cabozantinib plus atezolizumab in advanced and progressive tumors from endocrine system.
+
+The primary objective is to assess the efficacy of cabozantinib plus atezolizumab combination by means of radiological objective response rate (ORR) evaluated followin...
+   Locations: Hospital Germans Trias i Pujol - ICO Badalona, Badalona, Spain; Hospital Duran i Reynals - ICO L'Hospitalet, L'Hospitalet de Llobregat, Spain; Hospital General Universitario Elche, Alicante, Spain
+              ... and 12 more locations
+----------------------------------------
+
+10. A Study to Compare Nivolumab Administered Subcutaneously vs Intravenous in Melanoma Participants Following Complete Resection
+   NCT ID: NCT05297565
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Melanoma
+   Intervention: Nivolumab/rHuPH20; Nivolumab
+   Sponsor: Bristol-Myers Squibb
+   Start Date: 2022-08-02
+   Completion Date: 2024-02-08
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05297565
+   Summary: The purpose of this study is to assess the safety and tolerability of subcutaneous nivolumab vs intravenous nivolumab in participants with completely resected Stage IIIA/B/C/D or Stage IV melanoma.
+   Locations: Local Institution - 0004, Fort Wayne, United States; Local Institution - 0044, Knoxville, United States; Local Institution - 0038, Coffs Harbour, Australia
+              ... and 13 more locations
+----------------------------------------
+
+11. Next Generation Sequencing-Based Stratification of Front Line Treatment of HighGrade Neuroendocrine Carcinoma
+   NCT ID: NCT04452292
+   Status: COMPLETED
+   Phase: NA
+   Condition: Large-Cell Neuroendocrine Carcinoma
+   Intervention: Treatment Specific for Non-Small Cell Carcinoma/Adenocarcinoma; Treatment for Small Cell Lung Cancer
+   Sponsor: Charles Kunos
+   Start Date: 2021-09-14
+   Completion Date: 2023-03-14
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04452292
+   Summary: PRECISION-NEC is a single-center, open-label, pilot feasibility study of molecularly defined subtypes of metastatic high-grade neuroendocrine carcinoma (HG-NEC). The hypothesis is that HG-NEC (excluding small cell carcinoma) can be segregated based on mutational analysis and that next generation seq...
+   Locations: Markey Cancer Center, University of Kentucky, Lexington, United States
+----------------------------------------
+
+12. Defactinib and VS-6766 for the Treatment of Patients With Metastatic Uveal Melanoma
+   NCT ID: NCT04720417
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Metastatic Uveal Melanoma
+   Intervention: Defactinib Hydrochloride; Raf/MEK Inhibitor VS-6766; Biopsy
+   Sponsor: Thomas Jefferson University
+   Start Date: 2021-01-26
+   Completion Date: 2024-04-30
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04720417
+   Summary: This phase II trial studies the effect of combining defactinib and VS-6766 in treating patients with uveal melanoma that has spread to other places in the body (metastatic). The way cells communicate with one another (different cell signaling pathways) are overactive in uveal melanoma tumor cells. G...
+   Locations: Sidney Kimmel Cancer Center at Thomas Jefferson University, Philadelphia, United States
+----------------------------------------
+
+13. Safety and Efficacy Study of Pembrolizumab (MK-3475) Combined With Lenvatinib (MK-7902/E7080) as First-line Intervention in Adults With Advanced Melanoma (MK-7902-003/E7080-G000-312/LEAP-003)-China Extension Study
+   NCT ID: NCT04889118
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Malignant Melanoma
+   Intervention: Pembrolizumab; Lenvatinib; Placebo for lenvatinib
+   Sponsor: Merck Sharp & Dohme LLC
+   Start Date: 2020-07-14
+   Completion Date: 2024-11-01
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04889118
+   Summary: The purpose of the China Extension study is to assess the safety and efficacy of pembrolizumab (MK-3475) combined with lenvatinib (MK-7902/E7080) compared to pembrolizumab alone (with placebo for lenvatinib) as first-line treatment in Chinese participants with no prior systemic therapy for their adv...
+   Locations: Beijing Cancer Hospital (0601), Beijing, China; Fujian Provincial Cancer Hospital ( Site 0612), Fuzhou, China; Sun Yat-Sen University Cancer Center (0602), Guangzhou, China
+              ... and 8 more locations
+----------------------------------------
+
+14. Antiandrogen Therapy, Abiraterone Acetate, and Prednisone With or Without Neutron Radiation Therapy in Treating Patients With Prostate Cancer
+   NCT ID: NCT03649841
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Castration-Sensitive Prostate Carcinoma; Metastatic Malignant Neoplasm in the Bone; Metastatic Prostate Carcinoma; Prostate Adenocarcinoma; Prostate Small Cell Neuroendocrine Carcinoma; Stage IV Prostate Cancer AJCC v8; Stage IVA Prostate Cancer AJCC v8; Stage IVB Prostate Cancer AJCC v8
+   Intervention: Antiandrogen Therapy; Abiraterone Acetate; Prednisone; Radiation Therapy
+   Sponsor: University of Washington
+   Start Date: 2020-06-29
+   Completion Date: 2023-02-01
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03649841
+   Summary: This phase II trial studies how well antiandrogen therapy, abiraterone acetate, and prednisone with or without neutron radiation therapy work in treating patients with prostate cancer. Hormone therapy such as antiandrogen therapy may fight prostate cancer by blocking the production and interfering w...
+   Locations: Fred Hutch/University of Washington Cancer Consortium, Seattle, United States
+----------------------------------------
+
+15. Efficacy, Safety, and Tolerability of Gebasaxturev (V937) Administered Intravenously or Intratumorally With Pembrolizumab (MK-3475) Versus Pembrolizumab Alone in Participants With Advanced/Metastatic Melanoma (V937-011)
+   NCT ID: NCT04152863
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Advanced/Metastatic Melanoma
+   Intervention: Gebasaxturev IV; Gebasaxturev ITu; Pembrolizumab
+   Sponsor: Merck Sharp & Dohme LLC
+   Start Date: 2020-06-05
+   Completion Date: 2023-07-12
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04152863
+   Summary: This is a Phase 2 study to assess the efficacy, safety, and tolerability of gebasaxturev administered both intratumorally (ITu) and intravenously (IV) as combination therapy with pembrolizumab (MK-3475) versus pembrolizumab alone in anti-programmed cell death ligand 1 (anti-PD-L1)-treatment-naive pa...
+   Locations: Henry Ford Hospital ( Site 0008), Detroit, United States; Rutgers Cancer Institute of New Jersey ( Site 0002), New Brunswick, United States; Providence Portland Medical Center [Portland, OR] ( Site 0005), Portland, United States
+              ... and 27 more locations
+----------------------------------------
+
+16. A Study of Ceralasertib Monotherapy and Ceralasertib Plus Durvalumab in Patients With Melanoma and Resistance to PD-(L)1 Inhibition
+   NCT ID: NCT05061134
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Melanoma
+   Intervention: Ceralasertib; Durvalumab
+   Sponsor: AstraZeneca
+   Start Date: 2022-08-31
+   Completion Date: 2026-11-02
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05061134
+   Summary: Main study: This is an open-label, phase 2 study that aims to evaluate the efficacy and safety/tolerability of ceralasertib, when administered as monotherapy and in combination with durvalumab in participants with unresectable or advanced melanoma and primary or secondary resistance to PD-(L)1 inhib...
+   Locations: Research Site, Los Angeles, United States; Research Site, Sacramento, United States; Research Site, San Francisco, United States
+              ... and 63 more locations
+----------------------------------------
+
+17. Incidence of Melanoma and Non-melanoma Skin Cancer in People With Vitiligo
+   NCT ID: NCT04969419
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Vitiligo; Melanoma (Skin); Nonmelanoma Skin Cancer; Squamous Cell Carcinoma; Basal Cell Carcinoma; Actinic Keratoses
+   Intervention: Exposure of skin cancer of interest
+   Sponsor: Momentum Data
+   Start Date: 2021-06-18
+   Completion Date: 2023-04-04
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04969419
+   Summary: This study examines melanoma and nonmelanoma skin cancer in people diagnosed with vitiligo compared to matched controls.
+   Locations: Momentum Data Ltd, London, United Kingdom
+----------------------------------------
+
+18. Testing Dabrafenib and Trametinib With or Without Hydroxychloroquine in Stage IIIC or IV BRAF V600E/K Melanoma
+   NCT ID: NCT04527549
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Clinical Stage IV Cutaneous Melanoma AJCC v8; Locally Advanced Melanoma; Pathologic Stage IIIC Cutaneous Melanoma AJCC v8; Pathologic Stage IV Cutaneous Melanoma AJCC v8; Unresectable Melanoma
+   Intervention: Dabrafenib mesylate; Hydroxychloroquine; Placebo Administration; Trametinib dimethyl sulfoxide
+   Sponsor: ECOG-ACRIN Cancer Research Group
+   Start Date: 2021-06-01
+   Completion Date: 2024-01-08
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04527549
+   Summary: This phase II trial investigates how well adding hydroxychloroquine to the standard treatment of dabrafenib and trametinib works to overcome resistance and delay disease progression in treating patients with stage IIIC or IV BRAF V600E/K melanoma. Hydroxychloroquine may cause cell death in tumor cel...
+   Locations: Anchorage Associates in Radiation Medicine, Anchorage, United States; Anchorage Radiation Therapy Center, Anchorage, United States; Alaska Breast Care and Surgery LLC, Anchorage, United States
+              ... and 196 more locations
+----------------------------------------
+
+19. Adoptive Cell Transfer of Autologous Tumor Infiltrating Lymphocytes and High-Dose Interleukin 2 in Select Solid Tumors
+   NCT ID: NCT03991741
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Metastatic Melanoma; Locally Advanced Refractory/Recurrent Melanoma; Metastatic Head and Neck Cancer; Locally Advanced Refractory/Recurrent Head and Neck Cancer
+   Intervention: Autologous Tumor Infiltrating Lymphocytes; High-Dose Interleukin 2
+   Sponsor: Gregory Daniels
+   Start Date: 2020-10-07
+   Completion Date: 2023-01-26
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03991741
+   Summary: To determine whether special tumor fighting cells that is taken from participants' tumors and grown in the laboratory and then given back to the participant will fight the participant's cancer when their immune system is suppressed from attacking these special tumor fighting cells.
+   Locations: UC San Diego Moores Cancer Center, La Jolla, United States
+----------------------------------------
+
+20. Troriluzole or Placebo Plus Ipi Plus Nivo in Mel Brain Mets
+   NCT ID: NCT04899921
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Melanoma; Metastatic Melanoma
+   Intervention: Ipilimumab; Nivolumab; Troriluzole; Placebo
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2021-06-30
+   Completion Date: 2023-05-29
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04899921
+   Summary: The purpose of this research is to test the safety and effectiveness of the investigational combination of Troriluzole, ipilimumab, and nivolumab, and to learn whether this combination works in treating melanoma that has spread to the brain.
+   Locations: Massachusetts General Hospital, Boston, United States; Dana Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+21. Comparative Effectiveness of Targeted Therapies in BRAF Positive Metastatic Melanoma in the US
+   NCT ID: NCT05260684
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Melanoma
+   Intervention: Encorafenib; Binimetinib; Vemurafenib; Cobimetinib; Dabrafenib; Trametinib
+   Sponsor: Pfizer
+   Start Date: 2022-01-17
+   Completion Date: 2023-12-31
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05260684
+   Summary: This study aims to compare real-world effectiveness of BRAF/MEK inhibitors in BRAF-mutant metastatic melanoma patients in the United States by line of therapy.
+
+The Flatiron Health electronic health record (EHR) data from US cancer clinics will be used for this retrospective database analysis.
+   Locations: Pfizer Investigational Site, New York, United States
+----------------------------------------
+
+22. Study to Assess the Efficacy and Safety of Lanreotide Autogel® in Chinese Participants With GEP-NETs
+   NCT ID: NCT04852679
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Gastroenteropancreatic Neuroendocrine Tumor
+   Intervention: Lanreotide autogel
+   Sponsor: Ipsen
+   Start Date: 2021-05-24
+   Completion Date: 2023-01-13
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04852679
+   Summary: This study will be conducted to support the registration of the lanreotide Autogel 120 mg formulation in China for the treatment of GEP-NETs and treatment of clinical symptoms of NETs.
+
+The study will include a screening period of up to 4 weeks followed by a 48-week intervention period. After comple...
+   Locations: Cancer Hospital Chinese Academy of Sciences, Beijing, China; Beijing Cancer Hospital, Beijing, China; Peking University Third Hospital, Beijing, China
+              ... and 11 more locations
+----------------------------------------
+
+23. UV1 Vaccination Plus Nivolumab and Ipilimumab in Treatment of Melanoma
+   NCT ID: NCT04382664
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Malignant Melanoma
+   Intervention: UV1; Sargramostim; Ipilimumab; Nivolumab
+   Sponsor: Ultimovacs ASA
+   Start Date: 2020-05-27
+   Completion Date: 2024-04-10
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04382664
+   Summary: This is a randomized, open label study to investigate efficacy and safety of UV1 vaccination in combination with nivolumab and ipilimumab as first line treatment of adult patients with histologically confirmed unresectable metastatic melanoma.
+   Locations: Mayo Clinic Hospital, Phoenix, United States; Highlands Oncology Group, Fayetteville, United States; University of California Irvine Health, Orange, United States
+              ... and 34 more locations
+----------------------------------------
+
+24. Tiragolumab Plus Atezolizumab Versus Atezolizumab in the Treatment of Stage II Melanoma Patients Who Are ctDNA-positive Following Resection
+   NCT ID: NCT05060003
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Stage II Melanoma
+   Intervention: Atezolizumab; Tiragolumab; Signatera Assay
+   Sponsor: Washington University School of Medicine
+   Start Date: 2022-11-08
+   Completion Date: 2023-11-27
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05060003
+   Summary: This study's hypothesis is that patients with stage II melanoma who test positive for circulating tumor DNA are at a higher risk for recurrence and therefore adjuvant treatment is justified. In this study, the blood of consenting and eligible patients will be tested for ctDNA and those patients who ...
+   Locations: Washington University School of Medicine, Saint Louis, United States
+----------------------------------------
+
+25. Nivolumab Plus Axitinib in Patients With Anti-PD1 Refractory Advanced Melanoma
+   NCT ID: NCT04493203
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Advanced Melanoma; Unresectable Melanoma
+   Intervention: Nivolumab; Axitinib
+   Sponsor: Yana Najjar
+   Start Date: 2020-12-18
+   Completion Date: 2025-04-12
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04493203
+   Summary: This is Phase II trial of nivolumab plus axitinib for patients with unresectable stage III or IV melanoma who have progressed on prior anti-PD1 therapy with or without concomitant anti-CTLA4 therapy. Patients will receive treatment with nivolumab 480 mg intravenously every 4 weeks and axitinib 5 mg ...
+   Locations: UPMC Hillman Cancer Center, Pittsburgh, United States
+----------------------------------------
+
+26. Study of Ipilimumab, Nivolumab, and Cabozantinib in Patients With Cutaneous Melanoma
+   NCT ID: NCT05200143
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Refractory Cutaneous Melanoma
+   Intervention: Ipilimumab; Nivolumab; Cabozantinib
+   Sponsor: Providence Health & Services
+   Start Date: 2022-06-08
+   Completion Date: 2024-07-23
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05200143
+   Summary: The primary objective of this clinical trial is to evaluate the clinical efficacy and progression free survival of the triplet combination of ipilimumab + nivolumab + cabozantinib in patients with anti-PD-1/PD-L1 refractory metastatic cutaneous melanoma.
+   Locations: Providence Portland Medical Center, Portland, United States
+----------------------------------------
+
+27. Nivolumab Plus Relatlimab in Patients With Metastatic Uveal Melanoma
+   NCT ID: NCT04552223
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Metastatic Uveal Melanoma
+   Intervention: Nivolumab; Relatlimab
+   Sponsor: Jose Lutzky, MD
+   Start Date: 2020-11-10
+   Completion Date: 2026-01-04
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04552223
+   Summary: The purpose of this research is to test if a combination treatment of nivolumab and relatlimab will result in tumor reduction in patients with metastatic uveal melanoma.
+   Locations: University of Miami Sylvester Comprehensive Cancer Center, Miami, United States
+----------------------------------------
+
+28. Testing Treatment With Encorafenib and Binimetinib Before Surgery for Melanoma With Lymph Node Involvement
+   NCT ID: NCT04221438
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Melanoma of Unknown Primary; Metastatic Malignant Neoplasm in Lymph Node; Pathologic Stage IIIB Cutaneous Melanoma AJCC v8; Pathologic Stage IIIC Cutaneous Melanoma AJCC v8; Pathologic Stage IIID Cutaneous Melanoma AJCC v8; Recurrent Cutaneous Melanoma
+   Intervention: Binimetinib; Conventional Surgery; Encorafenib; Fluorothymidine F-18
+   Sponsor: ECOG-ACRIN Cancer Research Group
+   Start Date: 2021-09-22
+   Completion Date: 2025-01-31
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04221438
+   Summary: This phase II trial studies how well encorafenib and binimetinib work before surgery in treating patients with BRAF V600-mutated stage IIIB-D melanoma that has spread to the lymph nodes. Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell gr...
+   Locations: Los Angeles County-USC Medical Center, Los Angeles, United States; USC / Norris Comprehensive Cancer Center, Los Angeles, United States; University of Michigan Comprehensive Cancer Center, Ann Arbor, United States
+              ... and 7 more locations
+----------------------------------------
+
+29. Telotristat With Lutathera in Neuroendocrine Tumors
+   NCT ID: NCT04543955
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors
+   Intervention: Telotristat (Low-Dose); Telotristat (High-Dose)
+   Sponsor: Lowell Anthony, MD
+   Start Date: 2021-09-13
+   Completion Date: 2022-06-03
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04543955
+   Summary: This trial will test the hypothesis that Telotristat treatment increases the antitumor efficacy of Lutetium Lu 177 Dotatate therapy in neuroendocrine tumors (NETs).
+   Locations: Markey Cancer Center, Lexington, United States
+----------------------------------------
+
+30. A Study of Adjuvant Pembrolizumab/Vibostolimab (MK-7684A) Versus Pembrolizumab for Resected High-Risk Melanoma in Participants With High-Risk Stage II-IV Melanoma (MK-7684A-010/KEYVIBE-010)
+   NCT ID: NCT05665595
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE3
+   Condition: Melanoma
+   Intervention: Pembrolizumab/Vibostolimab; Pembrolizumab
+   Sponsor: Merck Sharp & Dohme LLC
+   Start Date: 2023-01-19
+   Completion Date: 2025-08-27
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05665595
+   Summary: The primary purpose of this study is to compare pembrolizumab/vibostolimab to pembrolizumab with respect to recurrence-free survival (RFS). The primary hypothesis is that pembrolizumab/vibostolimab is superior to pembrolizumab with respect to RFS as assessed by the investigator in participants with ...
+   Locations: Moores Cancer Center ( Site 0116), La Jolla, United States; The Angeles Clinic and Research Institute - West Los Angeles Office ( Site 0123), Los Angeles, United States; UCLA Hematology/Oncology - Westwood (Building 100) ( Site 0131), Los Angeles, United States
+              ... and 202 more locations
+----------------------------------------
+
+31. Apalutamide Plus Cetrelimab in Patients With Treatment-Emergent Small Cell Neuroendocrine Prostate Cancer
+   NCT ID: NCT04926181
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Small Cell Neuroendocrine Carcinoma; Prostate Cancer; Small Cell Carcinoma
+   Intervention: Apalutamide; Cetrelimab
+   Sponsor: Rahul Aggarwal
+   Start Date: 2022-03-16
+   Completion Date: 2024-03-31
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04926181
+   Summary: Despite the low androgen receptor (AR) transcriptional activity of treatment-emergent small cell neuroendocrine prostate cancer, there is persistent AR expression observed in the majority of treatment-emergent small-cell neuroendocrine prostate cancer (t-SCNC) biopsies. This indicates that epigeneti...
+   Locations: University of California, San Francisco, San Francisco, United States
+----------------------------------------
+
+32. A Study to Find the Best Dose of ASP5354 to Show Lymph Nodes in People With Breast Cancer or Melanoma During Surgery
+   NCT ID: NCT05457842
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Sentinel Lymph Node Biopsy; Breast Cancer; Melanoma
+   Intervention: pudexacianinium chloride
+   Sponsor: Astellas Pharma Inc
+   Start Date: 2022-08-10
+   Completion Date: 2022-09-20
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05457842
+   Summary: This study was for women with breast cancer and for adults with melanoma. Breast cancer was a type of cancer when cells in the breast turn into cancer cells, which might grow out of control. Melanoma was a type of skin cancer that starts in cells called melanocytes. These cells made a substance call...
+   Locations: UCI Irvine Health-Chao Family Comprehensive Cancer Center Cancer, Orange, United States
+----------------------------------------
+
+33. Post-Authorization Safety Study (PASS) of LysaKare® in Adult Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET) Patients
+   NCT ID: NCT04524442
+   Status: COMPLETED
+   Phase: PHASE4
+   Condition: Gastroenteropancreatic Neuroendocrine Tumors
+   Intervention: arginine/lysine
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2021-01-25
+   Completion Date: 2023-11-18
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04524442
+   Summary: The purpose of the study was to evaluate the effect of arginine/lysine solution administration on serum potassium levels. A systematic assessment of serum potassium levels was performed during infusion and up to 24 hours post start of infusion compared to baseline.
+   Locations: Istituto Europeo di Oncologia, Milan, Italy; Erasmus University Medical Center, Rotterdam, Netherlands; Gammed-Centrum Diagnostyczno-Lecznicze, Warsaw, Poland
+              ... and 4 more locations
+----------------------------------------
+
+34. Dual-Tracer Theranostic PET
+   NCT ID: NCT05680675
+   Status: COMPLETED
+   Phase: NA
+   Condition: Neuroendocrine Tumors; Prostate Cancer
+   Intervention: Single-Tracer FDG PET/CT Exam; Single-Tracer Cu64-DOTATATE PET/CT Exam; Single-Tracer Ga68-DOTATATE PET/CT Exam; Single-Tracer PSMA PET/CT Exam
+   Sponsor: University of Utah
+   Start Date: 2022-12-08
+   Completion Date: 2024-06-04
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05680675
+   Summary: This study is designed to obtain positron emission tomography with x-ray computed tomography (PET/CT) imaging data with each tracer pair, providing the imaging data needed to develop new simultaneous dual-tracer imaging techniques and processing algorithms for these tracer pairs.
+   Locations: Huntsman Cancer Institute, Salt Lake City, United States
+----------------------------------------
+
+35. Diagnostic Precision of the AI Tool Dermalyzer to Identify Malignant Melanomas in Subjects Seeking Primary Care for Melanoma-suspected Cutaneous Lesions
+   NCT ID: NCT05172232
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Malignant Melanoma
+   Intervention: Dermalyzer
+   Sponsor: Linkoeping University
+   Start Date: 2022-05-02
+   Completion Date: 2023-01-23
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05172232
+   Summary: Dermalyzer is a device intended to be used as a decision support system for assessing cutaneous lesions suspected of being melanomas. The input from the device is not intended to be used as the sole source of information for diagnosis. Intended to be used by medical professionals. The service does n...
+   Locations: Region Östergötland Primary Care, Linköping, Sweden; Region Stockholm Primary Care, Stockholm, Sweden; Region Kalmar and Kronoberg, Växjö, Sweden
+----------------------------------------
+
+36. Nutrition in Gastroenteropancreatic Neuroendocrine Tumor
+   NCT ID: NCT04986085
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Gastroenteropancreatic Neuroendocrine Tumor
+   Intervention: 
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2021-02-24
+   Completion Date: 2024-02-23
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04986085
+   Summary: It is well known that the prevalence of malnutrition or risk of malnutrition in cancer patients is high, as well as its impact on different parameters such as hospitalization, survival or response to certain treatments. In patients with gastroenteropancreatic (GEP) neuroendocrine tumors (NET), due t...
+   Locations: Hospital Universitario Virgen de la Arrixaca, El Palmar, Spain; Hospital Universitario Vall d´Hebron, Barcelona, Spain; Hospital Universitario Reina Sofia, Córdoba, Spain
+              ... and 13 more locations
+----------------------------------------
+
+37. Effects of Itraconazole and Rifampin on the Blood Tazemetostat Levels
+   NCT ID: NCT04537715
+   Status: COMPLETED
+   Phase: PHASE1
+   Condition: All Malignancies; Advanced Malignancies; Hematologic Malignancy; Solid Tumor; Follicular Lymphoma (FL); Non-Hodgkin Lymphoma (NHL); Diffuse Large B-Cell Lymphoma (DLBCL); Epithelioid Sarcoma (ES); Synovial Sarcoma; Renal Medullary Carcinoma; Mesothelioma; Rhabdoid Tumor
+   Intervention: Tazemetostat; Itraconazole; Tazemetostat; Rifampin
+   Sponsor: Epizyme, Inc.
+   Start Date: 2020-04-23
+   Completion Date: 2023-04-03
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04537715
+   Summary: The participants of this study will have advanced malignancies (also known as advanced cancer). The main aim of this trial will be to study the blood levels (known as pharmacokinetics) of the tazemtostat (the study drug) when administered in combination with another drug.
+
+Part 1 of the study will e...
+   Locations: California Cancer Associates for Research and Excellence, Inc. (cCARE), Encinitas, United States; The Angeles Clinic and Research Institute, Los Angeles, United States; Northwestern University-Robert H. Lurie Comprehensive Cancer Center, Chicago, United States
+              ... and 7 more locations
+----------------------------------------
+
+38. A Home-Based Approach Study to Evaluate the Efficacy and Safety of Alectinib in Locally-Advanced or Metastatic ALK-Positive Solid Tumors
+   NCT ID: NCT04644315
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Neoplasms; Colorectal Neoplasms; Melanoma; Pancreatic Neoplasms; Sarcoma; Ovarian Neoplasms; Brain Neoplasms; Thyroid Neoplasms; Neuroendocrine Tumors; Cholangiocarcinoma; Salivary Gland Neoplasms; Head and Neck Neoplasms; Thyroid Cancer, Papillary; Lymphoma, Large-Cell, Anaplastic; Neoplasms by Site; Respiratory Tract Neoplasms; Thoracic Neoplasms; Respiratory Tract Diseases; Carcinoma, Bronchogenic; Bronchial Neoplasms; Intestinal Neoplasms; Gastrointestinal Neoplasms; Digestive System Neoplasms; Digestive System Diseases; Gastrointestinal Diseases; Colonic Diseases; Intestinal Diseases; Central Nervous System
+   Intervention: Alectinib
+   Sponsor: Hoffmann-La Roche
+   Start Date: 2021-05-24
+   Completion Date: 2022-05-16
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04644315
+   Summary: This study will evaluate the efficacy and safety of alectinib in participants with Anaplastic Lymphoma Kinase (ALK)-positive locally advanced or metastatic solid tumors other than lung cancer.
+   Locations: Science 37, Inc, Culver City, United States; Science 37-Basem; Dept 004- Basem, Culver City, United States; Science 37-Beg; Dept 001 Dr. M. Beg, Culver City, United States
+              ... and 26 more locations
+----------------------------------------
+
+39. Olaparib (LYNPARZA) Plus Durvalumab (IMFINZI) in EGFR-Mutated Adenocarcinomas That Transform to Small Cell Lung Cancer (SCLC) and Other Neuroendocrine Tumors
+   NCT ID: NCT04538378
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: EGFR-Mutated Non-Small-Cell Lung Carcinoma; Small Cell/Neuroendocrine
+   Intervention: Olaparib; Durvalumab; EKG; Tumor biopsy; CT chest, abdomen and pelvis; MRI chest, abdomen and pelvis
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2021-07-07
+   Completion Date: 2024-02-27
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04538378
+   Summary: Background:
+
+Lung cancers with epidermal growth factor receptor (EGFR) mutations may develop resistance to therapies targeting this protein by evolving/being transformed into small cell or neuroendocrine cancers. There are no standard treatments for it. Researchers want to see if a new combination o...
+   Locations: National Institutes of Health Clinical Center, Bethesda, United States
+----------------------------------------
+
+40. Wearable Device Intervention to Improve Sun Behaviors in Melanoma Survivors
+   NCT ID: NCT03927742
+   Status: COMPLETED
+   Phase: NA
+   Condition: Melanoma (Skin)
+   Intervention: Shade + app with messaging; Shape + app without messaging
+   Sponsor: University of Minnesota
+   Start Date: 2020-06-09
+   Completion Date: 2022-10-31
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03927742
+   Summary: Over 5 million new cases of skin cancer are diagnosed in the United States each year, more than all other cancers combined. Most of these cases are caused by excess exposure to ultraviolet radiation from the sun and artificial sources such as indoor tanning. Melanoma, approximately 87,000 of the ann...
+   Locations: University of Minnesota, Minneapolis, United States
+----------------------------------------
+
+41. Pixatimod (PG545) Plus Nivolumab in PD-1 Relapsed/Refractory Metastatic Melanoma and NSCLC and With Nivolumab and Low-dose Cyclophosphamide in MSS Metastatic Colorectal Carcinoma (mCRC)
+   NCT ID: NCT05061017
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: NSCLC; Metastatic Colorectal Carcinoma; Refractory Melanoma
+   Intervention: Pixatimod; Nivolumab; Cyclophosphamide (low dose)
+   Sponsor: Diwakar Davar
+   Start Date: 2021-12-09
+   Completion Date: 2024-03-18
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05061017
+   Summary: The primary goal of this trial is to assess clinical response to nivolumab and pixatimod, and, nivolumab, pixatimod and cyclophosphamide in three separate patient cohorts. Cohort 1: MSS mCRC in combination with low-dose cyclophosphamide, Cohort 2: PD-1 relapsed/refractory melanoma, and Cohort 3: PD-...
+   Locations: UPMC Hillman Cancer Center, Pittsburgh, United States
+----------------------------------------
+
+42. Study of PAC-1 and Entrectinib for Patients With Metastatic Uveal Melanoma
+   NCT ID: NCT04589832
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Uveal Melanoma
+   Intervention: PAC-1; Entrectinib
+   Sponsor: Arkadiusz Z. Dudek, MD
+   Start Date: 2021-01-11
+   Completion Date: 2022-06-24
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04589832
+   Summary: Single arm study with dose escalation Phase Ib cohort followed by a Phase II cohort. PAC-1 (PO) will be given daily on Days 1 through 21 of each cycle (28-day cycle). Entrectinib (PO) will be given daily on Days 1 through 28 of each cycle. Response will be evaluated after every 2 cycles. Treatment w...
+   Locations: HealthPartners Institute Regions Cancer Care Center, Minneapolis, United States
+----------------------------------------
+
+43. Neoadjuvant Immunotherapy With Tavo + Electroporation in Combination With Nivo. in Melanoma Patients
+   NCT ID: NCT04526730
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Melanoma
+   Intervention: Tavo; Nivolumab; OncoSec Medical Electroporation Therapy System
+   Sponsor: H. Lee Moffitt Cancer Center and Research Institute
+   Start Date: 2020-12-22
+   Completion Date: 2028-06-15
+   Has Posted Results: True
+   Publications Count: 2
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04526730
+   Summary: This is a Phase 2 open-label, single-arm study of neoadjuvant treatment of intratumoral tavo-EP plus nivolumab IV infusion. Eligible participants will be those with pathological diagnosis of operable locally-regionally advanced melanoma.
+   Locations: Moffitt Cancer Center, Tampa, United States
+----------------------------------------
+
+44. Surufatinib in Combination With Tislelizumab in Subjects With Advanced Solid Tumors
+   NCT ID: NCT04579757
+   Status: TERMINATED
+   Phase: PHASE1
+   Condition: Metastatic Solid Tumor; Colorectal Cancer; Neuroendocrine Tumors; Small Cell Lung Cancer; Gastric Cancer; Soft Tissue Sarcoma; Anaplastic Thyroid Cancer
+   Intervention: Surufatinib and Tislelizumab _ Part 1; Surufatinib and Tislelizumab _ Part 2
+   Sponsor: Hutchmed
+   Start Date: 2021-03-05
+   Completion Date: 2024-08-27
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04579757
+   Summary: This open-label, phase Ib/II study of surufatinib in combination with tislelizumab will evaluate the safety, tolerability, PK and efficacy in patients with advanced solid tumors. The study consists of 2 parts - dose finding (Part 1) and dose expansion (Part 2).
+   Locations: Arizona Oncology Associated, PC-HOPE, Tucson, United States; City of Hope, Duarte, United States; Rocky Mountain Cancer Centers Midtown, Denver, United States
+              ... and 15 more locations
+----------------------------------------
+
+45. Targeted Melanoma Detection With Skin Self-Examination During COVID-19 Restricted Physician Access
+   NCT ID: NCT04420273
+   Status: COMPLETED
+   Phase: NA
+   Condition: Melanoma
+   Intervention: SSE educational intervention; Active control:Healthy Living
+   Sponsor: Northwestern University
+   Start Date: 2020-07-02
+   Completion Date: 2021-03-01
+   Has Posted Results: True
+   Publications Count: 2
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04420273
+   Summary: The purpose of this study is to reduce melanoma mortality by improving early detection of melanoma with skin self-examination (SSE) among people who self-identify as being at risk and seek care for a concerning mole. Because women are more likely than men to perform SSE, women who are engaged in hea...
+   Locations: Northwestern University Feinberg School of Medicine Department of Dermatology, Chicago, United States
+----------------------------------------
+
+46. Microscopic Fluorescence-guided Vestibular Schwannoma Resection Using Fluorescein Sodium and YELLOW 560
+   NCT ID: NCT04351373
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Vestibular Schwannoma
+   Intervention: Fluorescein Sodium; YELLOW560 filter
+   Sponsor: Mayo Clinic
+   Start Date: 2021-10-06
+   Completion Date: 2022-05-25
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04351373
+   Summary: The purpose of this study is to see if there is benefit to using an IV contrast called AK-Fluor® and a microscope filter called YELLOW560 when surgically removing a vestibular schwannoma, Meningioma, Head and Neck Paraganglioma, or Head and Neck Schwannoma.
+   Locations: Mayo Clinic in Rochester, Rochester, United States
+----------------------------------------
+
+47. Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs
+   NCT ID: NCT04711135
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Gastroenteropancreatic Neuroendocrine Tumors; Pheochromocytoma; Paraganglioma
+   Intervention: Lutetium [177Lu] oxodotreotide/dotatate
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2022-08-31
+   Completion Date: 2034-05-07
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04711135
+   Summary: This is a multicenter, open-label, single-arm study to evaluate the safety and dosimetry of Lutathera in adolescent patients 12 to \<18 years old with somatostatin receptor positive GEP-NETs and PPGLs. The study will enroll at least 8 patients in the GEP-NET cohort and as many adolescents with PPGL ...
+   Locations: University of Kentucky, Lexington, United States; Cincinnati Children's Hospital, Cincinnati, United States; Children's Hospital of Philadelphia, Philadelphia, United States
+              ... and 4 more locations
+----------------------------------------
+
+48. Phase 1 Safety Study of Encorafenib in Chinese Patients With Advanced Metastatic BRAF V600E Mutant Solid Tumors
+   NCT ID: NCT05003622
+   Status: COMPLETED
+   Phase: PHASE1
+   Condition: BRAF V600E Unresectable or Metastatic Melanoma; BRAF V600E Metastatic NSCLC; Melanoma
+   Intervention: Encorafenib
+   Sponsor: Pierre Fabre Medicament
+   Start Date: 2021-09-27
+   Completion Date: 2022-05-06
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05003622
+   Summary: This is a phase 1, multicenter, open-label, single-arm study to investigate the safety and tolerability of encorafenib 300 mg once daily (QD) monotherapy in adult Chinese participants with B-RAF Proto-oncogene, Serine/threonine Kinase V600E (BRAF V600E) mutant advanced solid tumors (unresectable met...
+   Locations: Sun Yat-sen University Cancer Center, Guangzhou, China
+----------------------------------------
+
+49. A Study of SEA-CD40 Given With Other Drugs in Cancers
+   NCT ID: NCT04993677
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Melanoma; Carcinoma, Non-Small- Cell Lung
+   Intervention: SEA-CD40; pembrolizumab (KEYTRUDA®); pemetrexed; carboplatin
+   Sponsor: Seagen Inc.
+   Start Date: 2021-10-06
+   Completion Date: 2024-11-25
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04993677
+   Summary: This trial is being done to see if an experimental drug (SEA-CD40) works when it's given with other cancer drugs to treat some types of cancer. It will also study side effects from the drug.
+
+There are 2 parts in this trial. In one part, participants have melanoma that has come back after treatment ...
+   Locations: Highlands Oncology Group, Springdale, United States; The Angeles Clinic and Research Institute, Los Angeles, United States; California Pacific Medical Center Research Institute/Sutter Medical Centre, San Francisco, United States
+              ... and 26 more locations
+----------------------------------------
+
+50. Study to Compare Adjuvant Immunotherapy of Bempegaldesleukin Combined With Nivolumab Versus Nivolumab After Complete Resection of Melanoma in Patients at High Risk for Recurrence
+   NCT ID: NCT04410445
+   Status: TERMINATED
+   Phase: PHASE3
+   Condition: Melanoma; Melanoma Stage III; Melanoma Stage IV; Melanoma (Skin)
+   Intervention: Bempegaldesleukin; Nivolumab
+   Sponsor: Nektar Therapeutics
+   Start Date: 2020-07-27
+   Completion Date: 2022-09-22
+   Has Posted Results: True
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04410445
+   Summary: The main purpose of this study is to compare the efficacy of bempegaldesleukin plus nivolumab versus nivolumab in patients with completely resected Stage IIIA/B/C/D, or Stage IV cutaneous melanoma who are at high risk for recurrence.
+   Locations: Honor Health, Scottsdale, United States; Banner MD Anderson Cancer Center, Little Rock, United States; Kaiser Foundation Hospital, Inpatient Pharmacy, Anaheim, United States
+              ... and 209 more locations
+----------------------------------------
+
+51. Lurbinectedin Monotherapy in Participants With Advanced or Metastatic Solid Tumors
+   NCT ID: NCT05126433
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Advanced Solid Tumor; Metastatic Solid Tumor; Urothelial Cancer; Poorly Differentiated Neuroendocrine Carcinomas; Homologous Recombination Deficient-Positive Malignancies Agnostic
+   Intervention: Lurbinectedin
+   Sponsor: Jazz Pharmaceuticals
+   Start Date: 2022-03-03
+   Completion Date: 2023-12-20
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05126433
+   Summary: This is an open-label, multicenter, phase 2 study of lurbinectedin monotherapy in participants with advanced (metastatic and/or unresectable) solid tumors.
+   Locations: Stanford Cancer Center, Stanford, United States; Eastern Connecticut Hematology and Oncology, Norwich, United States; Florida Cancer Specialists, Fort Myers, United States
+              ... and 14 more locations
+----------------------------------------
+
+52. CMP-001 in Combination With Nivolumab in Subjects With Advanced Melanoma
+   NCT ID: NCT04698187
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Melanoma; Advanced Melanoma; Metastatic Melanoma; Unresectable Melanoma
+   Intervention: CMP-001; Nivolumab
+   Sponsor: Regeneron Pharmaceuticals
+   Start Date: 2021-03-11
+   Completion Date: 2024-02-05
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04698187
+   Summary: CMP-001-010 is a Phase 2 study of CMP-001 intratumoral (IT) and nivolumab intravenous (IV) administered to participants with refractory unresectable or metastatic melanoma.
+
+The primary objective of the study is to determine confirmed objective response with CMP-001 in combination with nivolumab in ...
+   Locations: Mayo Clinic, Phoenix, United States; City of Hope National Medical Center, Robert Kang, MD, Duarte, United States; UCLA Hematology-Oncology, Los Angeles, United States
+              ... and 22 more locations
+----------------------------------------
+
+53. Nivolumab in Combination With Talazoparib in Melanoma and Mutations in BRCA or BRCA-ness Genes
+   NCT ID: NCT04187833
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Metastatic or Unresectable Melanoma
+   Intervention: Nivolumab; Talazoparib
+   Sponsor: Case Comprehensive Cancer Center
+   Start Date: 2020-06-05
+   Completion Date: 2023-10-13
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04187833
+   Summary: The purpose of this study is to evaluate how effective the study drugs, nivolumab (also known as Opdivo®) and talazoparib (also known as Talzenna®) are when given as a combination treatment for unresectable or metastatic melanoma. The study team wants to know the effectiveness of these drugs togethe...
+   Locations: Cleveland Clinic Taussig Cancer institute, Case Comprehensive Cancer Center, Cleveland, United States
+----------------------------------------
+
+54. Role of Proton Pump Inhibitors on the Postoperative Course Following Pancreaticoduodenectomy
+   NCT ID: NCT05251233
+   Status: TERMINATED
+   Phase: PHASE2
+   Condition: Pancreatic Cancer; Pancreas Cancer; Ampullary Cancer; Pancreas Neuroendocrine Tumor; Pancreatitis; Distal Extrahepatic Cholangiocarcinoma; Duodenal Cancer
+   Intervention: Placebo; Pantoprazole
+   Sponsor: Washington University School of Medicine
+   Start Date: 2022-04-21
+   Completion Date: 2024-06-29
+   Has Posted Results: True
+   Publications Count: 0
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05251233
+   Summary: The purpose of this study is to prospectively determine the effects of administering proton pump inhibitors (PPIs) following pancreaticoduodenectomy on postoperative outcomes. The findings of this study will help in avoiding the widespread use of PPIs during the immediate postoperative period follow...
+   Locations: Washington University School of Medicine, Saint Louis, United States
+----------------------------------------
+

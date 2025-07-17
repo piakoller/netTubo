@@ -14,7 +14,7 @@ import time
 import logging
 import requests
 import re
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass, asdict
@@ -24,100 +24,9 @@ sys.path.append(str(Path(__file__).parent))
 
 from clinical_trials_matcher import ClinicalTrialsAPI
 
-try:
-    from geopy.geocoders import Nominatim
-    from geopy.distance import geodesic
-    GEOPY_AVAILABLE = True
-except ImportError:
-    print("Warning: geopy not available. Location-based scoring will be disabled.")
-    GEOPY_AVAILABLE = False
-
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
-
-class LocationScorer:
-    """Handles geographic distance calculations for study location scoring."""
-    
-    def __init__(self):
-        # Bern, Switzerland coordinates
-        self.bern_coordinates = (46.9479, 7.4474)
-        self.geocoder = Nominatim(user_agent="net_tubo_study_collector") if GEOPY_AVAILABLE else None
-        self.location_cache = {}  # Cache for geocoded locations
-        
-    def get_coordinates(self, location_string: str) -> Optional[Tuple[float, float]]:
-        """Get coordinates for a location string with caching."""
-        if not GEOPY_AVAILABLE or not location_string:
-            return None
-            
-        # Clean the location string
-        clean_location = location_string.split(',')[0:2]  # Take facility and city
-        clean_location = ', '.join(clean_location).strip()
-        
-        if clean_location in self.location_cache:
-            return self.location_cache[clean_location]
-        
-        try:
-            location = self.geocoder.geocode(clean_location, timeout=5)
-            if location:
-                coords = (location.latitude, location.longitude)
-                self.location_cache[clean_location] = coords
-                return coords
-            else:
-                self.location_cache[clean_location] = None
-                return None
-        except Exception as e:
-            logger.debug(f"Geocoding failed for {clean_location}: {e}")
-            self.location_cache[clean_location] = None
-            return None
-    
-    def calculate_distance(self, location_string: str) -> Optional[float]:
-        """Calculate distance from Bern to given location in kilometers."""
-        coordinates = self.get_coordinates(location_string)
-        if coordinates:
-            try:
-                distance = geodesic(self.bern_coordinates, coordinates).kilometers
-                return distance
-            except Exception as e:
-                logger.debug(f"Distance calculation failed: {e}")
-                return None
-        return None
-    
-    def score_location_proximity(self, locations: List[str]) -> Tuple[int, str]:
-        """
-        Score location proximity to Bern.
-        
-        Args:
-            locations: List of location strings
-            
-        Returns:
-            Tuple of (score, description)
-        """
-        if not locations or not GEOPY_AVAILABLE:
-            return 0, "No location data"
-        
-        distances = []
-        for location in locations[:5]:  # Check first 5 locations to avoid API limits
-            distance = self.calculate_distance(location)
-            if distance is not None:
-                distances.append(distance)
-        
-        if not distances:
-            return 0, "Could not geocode locations"
-        
-        min_distance = min(distances)
-        
-        # Scoring based on distance ranges
-        if min_distance <= 50:  # Within 50km (Switzerland/neighboring regions)
-            return 20, f"Very close ({min_distance:.0f}km)"
-        elif min_distance <= 200:  # Within 200km (Central Europe)
-            return 15, f"Close ({min_distance:.0f}km)"
-        elif min_distance <= 500:  # Within 500km (Europe)
-            return 10, f"Moderate distance ({min_distance:.0f}km)"
-        elif min_distance <= 1000:  # Within 1000km (Extended Europe)
-            return 5, f"Far ({min_distance:.0f}km)"
-        else:  # Very far
-            return 2, f"Very far ({min_distance:.0f}km)"
 
 @dataclass
 class StudyRecord:
@@ -141,6 +50,8 @@ class StudyRecord:
     has_posted_results: bool
     has_publications: bool
     publications_count: int
+    publications: List[Dict]  # Store full publication details
+    recent_publications_count: int  # Publications from April 2020 onwards
     search_terms_matched: List[str]
 
 class StudyCollector:
@@ -150,30 +61,22 @@ class StudyCollector:
         self.api = api
         self.output_dir = output_dir
         self.output_dir.mkdir(exist_ok=True)
-        
-        # Default strict matching parameters
-        self.min_relevance_score = 25
-        self.max_matches_per_patient = 10
-        
-        # Initialize location scorer
-        self.location_scorer = LocationScorer()
-        
-    def collect_net_studies_simple(self) -> List[StudyRecord]:
+               
+    def collect_net_studies_simple(self, filter_recent_publications: bool = False) -> List[StudyRecord]:
         """
-        Simple API call to collect Neuroendocrine Tumour studies with posted results.
-        Uses direct API query: AREA[ConditionSearch]("Neuroendocrine Tumour") AND (AREA[HasResults] true)
+        Simple API call to collect Neuroendocrine Tumor studies with posted results.
+        Uses direct API query: AREA[ConditionSearch](Neuroendocrine Tumors) AND (AREA[HasResults] true)
+        
+        Args:
+            filter_recent_publications: If True, only return studies with publications from 2020 onwards
         
         Returns:
             List of StudyRecord objects
         """
         all_studies = []
         
-        # More restrictive query - only Phase 2/3 completed studies with multiple publications
-        query = '''AREA[ConditionSearch]("Neuroendocrine Tumour") AND 
-                   (AREA[HasResults] true) AND 
-                   (AREA[ReferencesModule]NOT MISSING) AND
-                   (AREA[Phase] ("PHASE2" OR "PHASE3")) AND
-                   (AREA[OverallStatus] ("COMPLETED" OR "ACTIVE_NOT_RECRUITING"))'''
+        # Query for NET studies with results and publications
+        query = 'AREA[ConditionSearch](Neuroendocrine Tumors) AND (AREA[HasResults] true)'
         
         logger.info(f"Using simple API call with query: {query}")
         
@@ -215,6 +118,11 @@ class StudyCollector:
             return []
         
         logger.info(f"Collected {len(all_studies)} studies using simple API call")
+        
+        # Filter by recent publications if requested
+        if filter_recent_publications:
+            all_studies = self.filter_studies_with_recent_publications(all_studies)
+        
         return all_studies
     
     def _process_study(self, study: Dict, search_term: str) -> Optional[StudyRecord]:
@@ -237,13 +145,39 @@ class StudyCollector:
             if not nct_id:
                 return None
             
-            # Check publications
+            # Check publications and filter by date
             has_publications = False
             publications_count = 0
+            recent_publications_count = 0
+            publications = []
+            cutoff_date = date(2020, 1, 1)  # January 2020
+            
             if references_module:
                 references = references_module.get("references", [])
                 publications_count = len(references)
                 has_publications = publications_count > 0
+                
+                # Analyze each publication for date
+                for ref in references:
+                    pub_info = {
+                        'citation': ref.get('citation', ''),
+                        'pmid': ref.get('pmid', ''),
+                        'type': ref.get('type', ''),
+                        'date': None,
+                        'is_recent': False
+                    }
+                    
+                    # Try to extract publication date from citation
+                    citation = ref.get('citation', '')
+                    pub_date = self._extract_publication_date(citation)
+                    
+                    if pub_date:
+                        pub_info['date'] = pub_date.isoformat()  # Convert to string for JSON serialization
+                        if pub_date >= cutoff_date:
+                            pub_info['is_recent'] = True
+                            recent_publications_count += 1
+                    
+                    publications.append(pub_info)
             
             # Check posted results
             has_posted_results = study.get("hasResults", False)
@@ -284,6 +218,8 @@ class StudyCollector:
                 has_posted_results=has_posted_results,
                 has_publications=has_publications,
                 publications_count=publications_count,
+                publications=publications,
+                recent_publications_count=recent_publications_count,
                 search_terms_matched=[search_term]
             )
             
@@ -375,8 +311,6 @@ class StudyCollector:
         
         # Extract patient characteristics for matching
         diagnosis = patient_data.get('main_diagnosis_text', '').lower()
-        tumor_location = patient_data.get('tumor_location', '').lower()
-        patient_age = patient_data.get('age', 0)
         
         logger.info(f"Quick matching for patient with diagnosis: {diagnosis}")
         
@@ -471,14 +405,8 @@ class StudyCollector:
                 relevance_score += 2
                 match_reasons.append(f"{study.publications_count} publications")
             
-            # LOCATION PROXIMITY SCORING (NEW FEATURE)
-            location_score, location_desc = self.location_scorer.score_location_proximity(study.locations)
-            if location_score > 0:
-                relevance_score += location_score
-                match_reasons.append(f"Location: {location_desc}")
-            
-            # MUCH HIGHER threshold for inclusion (only high-quality matches)
-            if relevance_score >= self.min_relevance_score:
+            # Basic threshold for inclusion - much lower than before
+            if relevance_score >= 10:
                 # Add match info to study record copy
                 study_copy = StudyRecord(
                     nct_id=study.nct_id,
@@ -500,15 +428,17 @@ class StudyCollector:
                     has_posted_results=study.has_posted_results,
                     has_publications=study.has_publications,
                     publications_count=study.publications_count,
+                    publications=study.publications,
+                    recent_publications_count=study.recent_publications_count,
                     search_terms_matched=[f"Relevance: {relevance_score} - {'; '.join(match_reasons)}"]
                 )
                 matched_studies.append(study_copy)
         
-        # Sort by relevance score (highest first) and limit to fewer, higher-quality matches
+        # Sort by relevance score (highest first) 
         matched_studies.sort(key=lambda x: int(x.search_terms_matched[0].split(':')[1].split(' -')[0]), reverse=True)
         
-        logger.info(f"Found {len(matched_studies)} high-relevance studies (strict criteria)")
-        return matched_studies[:self.max_matches_per_patient]  # Return top matches based on strictness setting
+        logger.info(f"Found {len(matched_studies)} relevant studies")
+        return matched_studies[:20]  # Return top 20 matches
     
     def batch_match_patients(self, studies: List[StudyRecord], patient_data_file: str) -> Dict:
         """
@@ -612,238 +542,89 @@ class StudyCollector:
         logger.info(f"Patient matches saved to:")
         logger.info(f"  Summary: {summary_file}")
         logger.info(f"  Detailed: {report_file}")
-    
-    def collect_net_studies_with_strictness(self, strictness_level: str = "medium") -> List[StudyRecord]:
+            
+    def _extract_publication_date(self, citation: str) -> Optional[date]:
         """
-        Collect NET studies with different levels of strictness.
+        Extract publication date from citation string.
         
         Args:
-            strictness_level: "loose", "medium", "strict", or "ultra_strict"
+            citation: Citation string from the API
             
         Returns:
-            List of StudyRecord objects
+            Date object if found, None otherwise
         """
+        if not citation:
+            return None
         
-        if strictness_level == "loose":
-            # Original query - all studies with results and publications
-            query = 'AREA[ConditionSearch]("Neuroendocrine Tumour") AND (AREA[HasResults] true) AND (AREA[ReferencesModule]NOT MISSING)'
-            logger.info("Using LOOSE criteria: All NET studies with results and publications")
-            
-        elif strictness_level == "medium":
-            # Medium strictness - Phase 2/3 only, any status
-            query = '''AREA[ConditionSearch]("Neuroendocrine Tumour") AND 
-                       (AREA[HasResults] true) AND 
-                       (AREA[ReferencesModule]NOT MISSING) AND
-                       (AREA[Phase] ("PHASE2" OR "PHASE3"))'''
-            logger.info("Using MEDIUM criteria: Phase 2/3 NET studies with results and publications")
-            
-        elif strictness_level == "strict":
-            # Current strict query - Phase 2/3, completed/active only
-            query = '''AREA[ConditionSearch]("Neuroendocrine Tumour") AND 
-                       (AREA[HasResults] true) AND 
-                       (AREA[ReferencesModule]NOT MISSING) AND
-                       (AREA[Phase] ("PHASE2" OR "PHASE3")) AND
-                       (AREA[OverallStatus] ("COMPLETED" OR "ACTIVE_NOT_RECRUITING"))'''
-            logger.info("Using STRICT criteria: Completed/Active Phase 2/3 NET studies with results and publications")
-            
-        elif strictness_level == "ultra_strict":
-            # Ultra strict - Phase 3 completed only, multiple publications
-            query = '''AREA[ConditionSearch]("Neuroendocrine Tumour") AND 
-                       (AREA[HasResults] true) AND 
-                       (AREA[ReferencesModule]NOT MISSING) AND
-                       (AREA[Phase] "PHASE3") AND
-                       (AREA[OverallStatus] "COMPLETED")'''
-            logger.info("Using ULTRA-STRICT criteria: Completed Phase 3 NET studies only")
-            
-        else:
-            raise ValueError(f"Unknown strictness level: {strictness_level}")
+        # Common date patterns in citations
+        date_patterns = [
+            r'(\d{4})\s+(\w{3})\s+(\d{1,2})',  # 2021 Jan 15
+            r'(\d{4})\s+(\w{3,9})\s+(\d{1,2})',  # 2021 January 15
+            r'(\d{4})\s+(\w{3})',  # 2021 Jan
+            r'(\d{4})\s+(\w{3,9})',  # 2021 January
+            r'\b(\d{4})\b',  # Just year: 2021
+        ]
         
-        logger.info(f"Query: {query}")
-        
-        try:
-            # Make API call
-            url = f"{self.api.BASE_URL}/studies"
-            params = {
-                "format": "json",
-                "pageSize": 1000,
-                "query.term": query
-            }
-            
-            response = requests.get(url, params=params, timeout=30)
-            response.raise_for_status()
-            
-            data = response.json()
-            studies = data.get("studies", [])
-            
-            logger.info(f"Found {len(studies)} studies with {strictness_level} criteria")
-            
-            # Process studies
-            all_studies = []
-            for study in studies:
-                study_record = self._process_study(study, f"{strictness_level}_search")
-                if study_record:
-                    all_studies.append(study_record)
-                    
-        except requests.exceptions.RequestException as e:
-            logger.error(f"API request failed: {e}")
-            return []
-        except Exception as e:
-            logger.error(f"Error in {strictness_level} search: {e}")
-            return []
-        
-        logger.info(f"Collected {len(all_studies)} studies using {strictness_level} criteria")
-        return all_studies
-    
-    def set_matching_strictness(self, strictness_level: str):
-        """Set the strictness level for patient matching."""
-        if strictness_level == "loose":
-            self.min_relevance_score = 5
-            self.max_matches_per_patient = 20
-        elif strictness_level == "medium":
-            self.min_relevance_score = 15
-            self.max_matches_per_patient = 15
-        elif strictness_level == "strict":
-            self.min_relevance_score = 25
-            self.max_matches_per_patient = 10
-        elif strictness_level == "ultra_strict":
-            self.min_relevance_score = 35
-            self.max_matches_per_patient = 5
-        else:
-            # Default to strict
-            self.min_relevance_score = 25
-            self.max_matches_per_patient = 10
-
-    def analyze_study_locations(self, studies: List[StudyRecord]) -> Dict:
-        """
-        Analyze the geographic distribution of study locations.
-        
-        Args:
-            studies: List of studies to analyze
-            
-        Returns:
-            Dictionary with location analysis
-        """
-        location_analysis = {
-            'total_studies': len(studies),
-            'studies_with_locations': 0,
-            'distance_distribution': {},
-            'closest_studies': [],
-            'countries': {},
-            'cities': {}
+        month_map = {
+            'jan': 1, 'january': 1,
+            'feb': 2, 'february': 2,
+            'mar': 3, 'march': 3,
+            'apr': 4, 'april': 4,
+            'may': 5,
+            'jun': 6, 'june': 6,
+            'jul': 7, 'july': 7,
+            'aug': 8, 'august': 8,
+            'sep': 9, 'september': 9,
+            'oct': 10, 'october': 10,
+            'nov': 11, 'november': 11,
+            'dec': 12, 'december': 12
         }
         
-        if not GEOPY_AVAILABLE:
-            location_analysis['error'] = "Geopy not available for location analysis"
-            return location_analysis
+        for pattern in date_patterns:
+            match = re.search(pattern, citation, re.IGNORECASE)
+            if match:
+                try:
+                    year = int(match.group(1))
+                    
+                    if len(match.groups()) >= 2:
+                        month_str = match.group(2).lower()
+                        month = month_map.get(month_str, 1)
+                    else:
+                        month = 1
+                    
+                    if len(match.groups()) >= 3:
+                        day = int(match.group(3))
+                    else:
+                        day = 1
+                    
+                    return date(year, month, day)
+                    
+                except (ValueError, IndexError):
+                    continue
         
-        logger.info("Analyzing study locations relative to Bern, Switzerland...")
+        return None
+
+    def filter_studies_with_recent_publications(self, studies: List[StudyRecord]) -> List[StudyRecord]:
+        """
+        Filter studies to only include those with publications from 2020 onwards.
+        
+        Args:
+            studies: List of all studies
+            
+        Returns:
+            List of studies with recent publications
+        """
+        recent_studies = []
         
         for study in studies:
-            if study.locations:
-                location_analysis['studies_with_locations'] += 1
-                
-                # Analyze each location
-                for location_str in study.locations[:3]:  # Limit to first 3 locations
-                    # Extract country and city
-                    parts = location_str.split(', ')
-                    if len(parts) >= 3:
-                        city = parts[1].strip()
-                        country = parts[2].strip()
-                        
-                        # Count countries and cities
-                        location_analysis['countries'][country] = location_analysis['countries'].get(country, 0) + 1
-                        location_analysis['cities'][city] = location_analysis['cities'].get(city, 0) + 1
-                
-                # Calculate distance to closest location
-                location_score, location_desc = self.location_scorer.score_location_proximity(study.locations)
-                
-                # Extract distance from description
-                distance_km = None
-                if "km)" in location_desc:
-                    try:
-                        distance_km = float(location_desc.split('(')[1].split('km')[0])
-                    except:
-                        pass
-                
-                if distance_km is not None:
-                    # Categorize by distance
-                    if distance_km <= 50:
-                        category = "Very close (≤50km)"
-                    elif distance_km <= 200:
-                        category = "Close (≤200km)"
-                    elif distance_km <= 500:
-                        category = "Moderate (≤500km)"
-                    elif distance_km <= 1000:
-                        category = "Far (≤1000km)"
-                    else:
-                        category = "Very far (>1000km)"
-                    
-                    location_analysis['distance_distribution'][category] = \
-                        location_analysis['distance_distribution'].get(category, 0) + 1
-                    
-                    # Track closest studies
-                    location_analysis['closest_studies'].append({
-                        'nct_id': study.nct_id,
-                        'title': study.title[:60] + "...",
-                        'distance_km': distance_km,
-                        'location_desc': location_desc,
-                        'phase': study.phase,
-                        'status': study.status
-                    })
+            if study.recent_publications_count > 0:
+                recent_studies.append(study)
+                logger.debug(f"Study {study.nct_id} has {study.recent_publications_count} recent publications")
         
-        # Sort closest studies by distance
-        location_analysis['closest_studies'].sort(key=lambda x: x['distance_km'])
-        location_analysis['closest_studies'] = location_analysis['closest_studies'][:10]  # Top 10 closest
-        
-        # Sort countries and cities by frequency
-        location_analysis['countries'] = dict(sorted(location_analysis['countries'].items(), 
-                                                   key=lambda x: x[1], reverse=True)[:10])
-        location_analysis['cities'] = dict(sorted(location_analysis['cities'].items(), 
-                                                key=lambda x: x[1], reverse=True)[:10])
-        
-        return location_analysis
+        logger.info(f"Filtered to {len(recent_studies)} studies with publications from 2020 onwards (from {len(studies)} total)")
+        return recent_studies
+
     
-    def print_location_analysis(self, location_analysis: Dict):
-        """Print a formatted location analysis report."""
-        print("\n" + "="*80)
-        print("STUDY LOCATION ANALYSIS (Relative to Bern, Switzerland)")
-        print("="*80)
-        
-        if 'error' in location_analysis:
-            print(f"❌ {location_analysis['error']}")
-            return
-        
-        total = location_analysis['total_studies']
-        with_locations = location_analysis['studies_with_locations']
-        
-        print(f"📍 Studies with location data: {with_locations}/{total} ({100*with_locations/total:.1f}%)")
-        
-        # Distance distribution
-        print(f"\n🌍 Distance Distribution:")
-        for category, count in location_analysis['distance_distribution'].items():
-            percentage = 100 * count / with_locations if with_locations > 0 else 0
-            print(f"   {category:<20}: {count:>3} studies ({percentage:>5.1f}%)")
-        
-        # Top countries
-        print(f"\n🌎 Top Countries:")
-        for country, count in list(location_analysis['countries'].items())[:5]:
-            print(f"   {country:<20}: {count:>3} studies")
-        
-        # Top cities
-        print(f"\n🏙️ Top Cities:")
-        for city, count in list(location_analysis['cities'].items())[:5]:
-            print(f"   {city:<20}: {count:>3} studies")
-        
-        # Closest studies
-        print(f"\n⭐ Closest Studies to Bern:")
-        for i, study in enumerate(location_analysis['closest_studies'][:5], 1):
-            print(f"   {i}. {study['title']}")
-            print(f"      NCT: {study['nct_id']} | {study['phase']} | {study['status']}")
-            print(f"      Distance: {study['distance_km']:.0f}km")
-            print()
-        
-        print("="*80)
-        
 def main():
     """Main function to collect NET studies using simple API call."""
     
@@ -857,22 +638,45 @@ def main():
     api = ClinicalTrialsAPI(rate_limit_delay=1.0)
     collector = StudyCollector(api, OUTPUT_DIR)
     
-    logger.info("Starting STRICT NET study collection (Phase 2/3, completed studies only)")
-    logger.info('Query: AREA[ConditionSearch]("Neuroendocrine Tumour") AND (AREA[HasResults] true) AND (AREA[ReferencesModule]NOT MISSING) AND (AREA[Phase] ("PHASE2" OR "PHASE3")) AND (AREA[OverallStatus] ("COMPLETED" OR "ACTIVE_NOT_RECRUITING"))')
+    logger.info("Starting NET study collection with publication date filtering")
+    logger.info('Query: AREA[ConditionSearch](Neuroendocrine Tumors) AND (AREA[HasResults] true)')
     
     # Collect studies using simple API call
     try:
-        studies = collector.collect_net_studies_simple()
+        # First, collect all studies with the specified query
+        all_studies = collector.collect_net_studies_simple(filter_recent_publications=False)
         
-        if studies:
-            # Save all collected studies
-            collector.save_studies(studies, "net_studies_simple")
+        if all_studies:
+            logger.info(f"Collected {len(all_studies)} total studies")
             
-            # LOCATION ANALYSIS
-            logger.info("Analyzing study locations...")
-            location_analysis = collector.analyze_study_locations(studies)
-            collector.print_location_analysis(location_analysis)
+            # Filter for studies with publications newer than 2020
+            recent_studies = collector.filter_studies_with_recent_publications(all_studies)
             
+            if recent_studies:
+                # Save only the filtered studies with recent publications
+                collector.save_studies(recent_studies, "net_studies_recent_publications")
+                
+                print(f"\n" + "="*80)
+                print("STUDY COLLECTION AND FILTERING RESULTS")
+                print("="*80)
+                print(f"Total studies found: {len(all_studies)}")
+                print(f"Studies with publications from 2020 onwards: {len(recent_studies)}")
+                
+                # Show some examples
+                print(f"\nExamples of studies with recent publications:")
+                for i, study in enumerate(recent_studies[:5]):
+                    recent_pubs = [pub for pub in study.publications if pub.get('is_recent', False)]
+                    recent_dates = [pub.get('date') for pub in recent_pubs if pub.get('date')]
+                    print(f"  {i+1}. {study.nct_id}: {study.recent_publications_count} recent publications")
+                    if recent_dates:
+                        print(f"     Recent dates: {', '.join(str(d) for d in recent_dates[:3])}")
+                
+                # Use filtered studies for patient matching
+                studies = recent_studies
+            else:
+                print("No studies found with publications from 2020 onwards")
+                return
+                
             # QUICK PATIENT MATCHING
             logger.info("Starting quick patient matching against collected studies...")
             
@@ -918,10 +722,10 @@ def main():
             
             # Generate summary report
             print("\n" + "="*80)
-            print("STRICT NET STUDY COLLECTION SUMMARY")
+            print("NET STUDY COLLECTION SUMMARY")
             print("="*80)
             print(f"Total studies collected: {len(studies)}")
-            print('Query used: AREA[ConditionSearch]("Neuroendocrine Tumour") AND (AREA[HasResults] true) AND (AREA[ReferencesModule]NOT MISSING) AND (AREA[Phase] ("PHASE2" OR "PHASE3")) AND (AREA[OverallStatus] ("COMPLETED" OR "ACTIVE_NOT_RECRUITING"))')
+            print('Query used: AREA[ConditionSearch](Neuroendocrine Tumors) AND (AREA[HasResults] true)')
             print(f"Results saved to: {OUTPUT_DIR}")
             
             # Show some statistics
@@ -952,7 +756,7 @@ def main():
             print("="*80)
             
         else:
-            print("No studies found using simple API call.")
+            print("No studies found matching the criteria.")
             
     except Exception as e:
         logger.error(f"Error during study collection: {e}")
