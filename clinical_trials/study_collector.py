@@ -22,11 +22,59 @@ from dataclasses import dataclass, asdict
 # Add the current directory to Python path
 sys.path.append(str(Path(__file__).parent))
 
-from netTubo.clinical_trials.clinical_trials_matcher import ClinicalTrialsAPI
-
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+class ClinicalTrialsAPI:
+    """API wrapper for ClinicalTrials.gov"""
+    
+    BASE_URL = "https://clinicaltrials.gov/api/v2"
+    
+    def __init__(self, rate_limit_delay: float = 1.0):
+        """
+        Initialize the API wrapper.
+        
+        Args:
+            rate_limit_delay: Delay between API calls in seconds
+        """
+        self.rate_limit_delay = rate_limit_delay
+        self.last_request_time = 0.0
+        
+    def _rate_limit(self):
+        """Apply rate limiting between API calls."""
+        current_time = time.time()
+        time_since_last = current_time - self.last_request_time
+        
+        if time_since_last < self.rate_limit_delay:
+            sleep_time = self.rate_limit_delay - time_since_last
+            time.sleep(sleep_time)
+            
+        self.last_request_time = time.time()
+    
+    def make_request(self, endpoint: str, params: Dict = None) -> Optional[Dict]:
+        """
+        Make a request to the ClinicalTrials.gov API.
+        
+        Args:
+            endpoint: API endpoint (e.g., 'studies')
+            params: Query parameters
+            
+        Returns:
+            JSON response data or None if failed
+        """
+        self._rate_limit()
+        
+        url = f"{self.BASE_URL}/{endpoint}"
+        
+        try:
+            response = requests.get(url, params=params, timeout=30)
+            response.raise_for_status()
+            return response.json()
+            
+        except requests.exceptions.RequestException as e:
+            logger.error(f"API request failed: {e}")
+            return None
 
 @dataclass
 class StudyRecord:
@@ -423,52 +471,14 @@ def main():
                     if recent_dates:
                         print(f"     Recent dates: {', '.join(str(d) for d in recent_dates[:3])}")
                 
-                # Use filtered studies for patient matching
+                # Use filtered studies
                 studies = recent_studies
             else:
                 print("No studies found with publications from 2020 onwards")
                 return
                 
-            # QUICK PATIENT MATCHING
-            logger.info("Starting quick patient matching against collected studies...")
-            
-            # Load patient data and do quick matching
-            patient_data_file = "C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/data/NET Tubo v2.xlsx"
-            
-            try:
-                patient_matches = collector.batch_match_patients(studies, patient_data_file)
-                
-                if patient_matches:
-
-                    # Show quick summary
-                    print("\n" + "-"*60)
-                    print("QUICK PATIENT MATCHING RESULTS")
-                    print("-"*60)
-                    
-                    total_patients = len(patient_matches)
-                    patients_with_matches = sum(1 for data in patient_matches.values() if data['match_count'] > 0)
-                    total_matches = sum(data['match_count'] for data in patient_matches.values())
-                    avg_matches = total_matches / total_patients if total_patients > 0 else 0
-                    
-                    print(f"Patients processed: {total_patients}")
-                    print(f"Patients with relevant studies: {patients_with_matches}")
-                    print(f"Total study matches: {total_matches}")
-                    print(f"Average matches per patient: {avg_matches:.1f}")
-                    
-                    # Show examples
-                    print(f"\nExample matches (first 3 patients):")
-                    for i, (patient_id, data) in enumerate(list(patient_matches.items())[:3]):
-                        diagnosis = data['patient_data'].get('main_diagnosis_text', 'Not specified')[:50]
-                        print(f"  Patient {patient_id}: {data['match_count']} studies - {diagnosis}")
-                    
-                    print("-"*60)
-                    
-                else:
-                    print("No patient matches found.")
-                    
-            except Exception as e:
-                logger.error(f"Error in patient matching: {e}")
-                print("Quick patient matching failed - see logs for details")
+            # Study collection complete
+            logger.info("Study collection completed successfully")
             
             # Generate summary report
             print("\n" + "="*80)
