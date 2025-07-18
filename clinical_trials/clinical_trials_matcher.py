@@ -44,6 +44,22 @@ class LLMStudyMatcher:
         self.api_key = api_key or OPENROUTER_API_KEY
         self.model = model or OPENROUTER_MODEL
         self.base_url = OPENROUTER_API_URL
+        self.prompt_template = self._load_prompt_template()
+        
+    def _load_prompt_template(self) -> str:
+        """Load the prompt template from external file."""
+        prompt_file = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/prompts/clinical_trials_matching_prompt.txt")
+        try:
+            with open(prompt_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                logger.info(f"Successfully loaded prompt template from {prompt_file}")
+                return content
+        except Exception as e:
+            error_msg = f"ERROR: Could not load prompt template from {prompt_file}: {e}"
+            logger.error(error_msg)
+            print(error_msg)
+            print("Process stopped. Please ensure the prompt file exists and is accessible.")
+            sys.exit(1)
         
     def call_llm(self, prompt: str, max_retries: int = 3) -> str:
         """Call the LLM API with error handling and retries."""
@@ -131,53 +147,24 @@ class LLMStudyMatcher:
             publications_summary = f"Study has {pub_count} publications and posted results"
         
         # For LLM evaluation, we use the detailed description for comprehensive comparison
-        # Create prompt for LLM evaluation using detailed description
-        prompt = f"""
-You are a clinical research assistant specialized in matching patients with suitable clinical trials. You will receive information about:
-
-- A patient with a neuroendocrine tumor (NET)
-- A clinical study that has published results since 2020
-- The study includes at least one peer-reviewed scientific publication
-
-Your task is to decide if this specific study is **clinically relevant** for this specific patient.
-
-A study is considered **clinically relevant** only if all of the following conditions are met:
-
-1. The study explicitly includes NET patients or matches the tumor type and characteristics of this patient.
-2. The study's inclusion and exclusion criteria **do not rule the patient out** (e.g., age, ECOG, prior treatments, genetic markers).
-3. The intervention in the study is **potentially useful** for this patient’s treatment context.
-4. The study shows **published results** of good scientific quality (e.g., published in a peer-reviewed journal, meaningful results).
-
----
-
-## PATIENT DATA:
-- Main diagnosis: {main_diagnosis}
-- Clinical question: {clinical_question}
-- Prior therapies: {previous_therapies}
-- Relevant biomarkers: {biomarkers}
-- ECOG: {ecog}, Age: {age}
-
-## STUDY DATA:
-- NCT-ID: {nct_id}
-- Title: {title}
-- Phase: {phase}, Status: {status}
-- Intervention: {intervention}
-- Inclusion/exclusion criteria: {eligibility_criteria}
-- Summary: {summary}
-- Publications: {publications_summary}
-
----
-
-## TASK:
-
-Please return your answer in the **following exact JSON format**:
-
-```json
-{{
-  "relevant": "YES" or "NO",
-  "explanation": "[One short paragraph explaining your reasoning. Mention tumor fit, eligibility, treatment context, and publication quality.]"
-}}
-"""
+        # Create prompt for LLM evaluation using the external prompt template
+        prompt = self.prompt_template.format(
+            main_diagnosis=main_diagnosis,
+            clinical_question=clinical_question,
+            previous_therapies=previous_therapies,
+            biomarkers=biomarkers,
+            ecog=ecog,
+            age=age,
+            nct_id=nct_id,
+            title=title,
+            phase=phase,
+            status=status,
+            intervention=intervention,
+            eligibility_criteria=eligibility_criteria,
+            summary=summary,
+            publications_summary=publications_summary
+        )
+        
         try:
             llm_response = self.call_llm(prompt)
             
