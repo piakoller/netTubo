@@ -1,0 +1,241 @@
+================================================================================
+COLLECTED CLINICAL TRIALS REPORT
+================================================================================
+Collection Date: 2025-07-18 16:39:24
+Total Studies: 13
+Search Query: AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND AREA[PrimaryCompletionDate] RANGE[2020-01-01,MAX] AND AREA[OverallStatus](ACTIVE_NOT_RECRUITING) AND NOT AREA[Phase]Phase 1 AND (AREA[HasResults] false)
+Filter Criteria: Studies with results posted from 2020 onwards, excluding Phase 1, with publications
+--------------------------------------------------------------------------------
+
+1. Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangements (Fusions)
+   NCT ID: NCT02568267
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Breast Cancer; Cholangiocarcinoma; Colorectal Cancer; Head and Neck Neoplasms; Lymphoma, Large-Cell, Anaplastic; Melanoma; Neuroendocrine Tumors; Non-Small Cell Lung Cancer; Ovarian Cancer; Pancreatic Cancer; Papillary Thyroid Cancer; Primary Brain Tumors; Renal Cell Carcinoma; Sarcomas; Salivary Gland Cancers; Adult Solid Tumor
+   Intervention: Entrectinib
+   Sponsor: Hoffmann-La Roche
+   Start Date: 2015-11-19
+   Completion Date: 2025-12-31
+   Has Posted Results: False
+   Publications Count: 6
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02568267
+   Summary: This is an open-label, multicenter, global Phase 2 basket study of entrectinib (RXDX-101) for the treatment of patients with solid tumors that harbor an NTRK1/2/3, ROS1, or ALK gene fusion. Patients will be assigned to different baskets according to tumor type and gene fusion.
+   Locations: Dignity Health St Joseph's Hospital and Medical Center, Phoenix, United States; Mayo Clinic, Phoenix, United States; City of Hope Cancer Center, Duarte, United States
+              ... and 125 more locations
+----------------------------------------
+
+2. An Open Label Registry Study of Lutetium-177 (DOTA0, TYR3) Octreotate (Lu-DOTA-TATE) Treatment in Patients with Somatostatin Receptor Positive Tumours
+   NCT ID: NCT02236910
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Neuroendocrine Carcinoma
+   Intervention: Lu-DOTA-TATE
+   Sponsor: London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's
+   Start Date: 2014-07
+   Completion Date: 2025-12
+   Has Posted Results: False
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02236910
+   Summary: Lu-DOTA-TATE (Lutetium-177 octreotate) is a radiopharmaceutical that has been reported as being effective in controlling symptoms and increase quality of life; induce stable disease and extend progression free survival; induce a (good) partial remission and induce a complete remission in patients wi...
+   Locations: London Health Sciences Centre, London, Canada
+----------------------------------------
+
+3. Surgical Intervention and the NETest
+   NCT ID: NCT03012789
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: NA
+   Condition: Neuroendocrine Tumor; Gastroenteropancreatic
+   Intervention: Surgery
+   Sponsor: Wren Laboratories LLC
+   Start Date: 2017-05-15
+   Completion Date: 2026-06
+   Has Posted Results: False
+   Publications Count: 3
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03012789
+   Summary: The purpose of this study is to evaluate the effect of different surgical resections (R0, R1, R2) on circulating NET transcripts (PCR score or NETest). A drop in circulating NET levels will be correlated with surgical excision. Secondly, variation of circulating NET transcripts will be correlated to...
+   Locations: San Raffaele Hospital IRCCS, Milano, Italy
+----------------------------------------
+
+4. Optimizing the Interval Between Cycles of PRRT with 177lu-dotatate in Sstr2 Positive Tumors
+   NCT ID: NCT03454763
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors
+   Intervention: PRRT every 5 weeks; PRRT every 8-10 weeks
+   Sponsor: Istituto Romagnolo per lo Studio dei Tumori Dino Amadori IRST S.r.l. IRCCS
+   Start Date: 2016-05-26
+   Completion Date: 2025-01
+   Has Posted Results: False
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03454763
+   Summary: Randomized Phase II Trial in sstr2 Positive Tumors to Optimize the Interval Between Cycles of PRRT With 177lu-dotatate
+   Locations: Istituto Scientifico Romagnolo per lo Studio e la Cura dei Tumori (IRST), Meldola, Italy
+----------------------------------------
+
+5. Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors
+   NCT ID: NCT03333616
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Genitourinary Cancer; Adrenocortical Carcinoma; Non-urothelial Bladder; Non-urothelial Upper Tract; Penile Cancer; Non-adenocarcinoma Prostate Cancer; Refractory Germ-cell; High Grade Neuroendocrine Carcinoma/Small Cell Carcinoma
+   Intervention: Ipilimumab; Nivolumab
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2017-12-28
+   Completion Date: 2026-05-31
+   Has Posted Results: False
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03333616
+   Summary: This research study is studying a combination of drugs as a possible treatment for rare genitourinary malignancies among four cohorts, bladder or upper tract carcinoma with variant histology, adrenocortical carcinoma, other rare genitourinary carcinomas and any genitourinary carcinoma with neuroendo...
+   Locations: University of California, San Diego Moores Cancer Center, La Jolla, United States; Winship Cancer Institute, Emory University, Atlanta, United States; Beth Israel Deaconess Medical Center, Boston, United States
+              ... and 3 more locations
+----------------------------------------
+
+6. Gallium 68 Pentixafor in Patients With Neuroendocrine Tumors
+   NCT ID: NCT03335670
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: EARLY_PHASE1
+   Condition: Neuroendocrine Tumors
+   Intervention: [68Ga]Pentixafor
+   Sponsor: Yusuf Menda
+   Start Date: 2017-11-03
+   Completion Date: 2030-06-30
+   Has Posted Results: False
+   Publications Count: 3
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03335670
+   Summary: This study will evaluate how Gallium-68 Pentixafor is distributed in neuroendocrine tumor patients and if that distribution is consistent through repeated scans. This is an RDRC study - as such, the images obtained for this study cannot be used clinically or shared with treating oncologists.
+   Locations: Holden Comprehensive Cancer Center, Iowa City, United States
+----------------------------------------
+
+7. Agnostic Therapy in Rare Solid Tumors
+   NCT ID: NCT06638931
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Urachal Cancer; Parathyroid Carcinoma; Fibrolamellar Carcinoma; Angiosarcoma; Secretory Carcinoma of Breast; Anal Neoplasms; Metaplastic Breast Carcinoma; Translocation Renal Cell Carcinoma; Carcinosarcoma; Small Intestine Neoplasms; Cholangiocarcinoma; Sertoli-Leydig Cell Tumor; Adenoid Cystic Carcinoma; Mesothelioma; Neuroblastoma; Adrenal Gland Neoplasms; Penile Neoplasms; Apocrine Carcinoma; Fibrosarcoma; Cancer of Unknown Primary; Hemangioblastoma; Thyroid Neoplasms; Hepatoblastoma; Fallopian Tube Neoplasms; Leiomyosarcoma; Vaginal Neoplasms; Neurofibrosarcoma; Gallbladder Neoplasms; Osteosarcoma; Biliary Tract Neoplasms; Clear Cell Endometrial Cancer; Yolk Sac Tumor; Vulvar Neoplasms; Kaposi Sarcoma; Ovarian Epithelial Cancer; Soft Tissue Sarcoma; Urethral Neoplasms; Granulosa Cell Tumor; Primitive Neuroectodermal Tumor; Neuroendocrine Tumors; Trophoblastic Tumor
+   Intervention: Nivolumab
+   Sponsor: Instituto do Cancer do Estado de São Paulo
+   Start Date: 2024-07-01
+   Completion Date: 2028-05
+   Has Posted Results: False
+   Publications Count: 8
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT06638931
+   Summary: The ANTARES study is a phase II basket trial designed to evaluate the tissue-agnostic efficacy of the monoclonal anti-PD1 antibody, nivolumab, in patients with advanced or metastatic rare tumors.
+
+The study aims to treat rare malignancies with PD-L1 expression (CPS ≥ 10), regardless of the tumor's t...
+   Locations: Hospital São Rafael, Salvador, Brazil; Hospital São Carlos, Fortaleza, Brazil; Hospital Santa Cruz, Curitiba, Brazil
+              ... and 5 more locations
+----------------------------------------
+
+8. Multicenter Retrospective Database on Prognostic and Predictive Factors in Patients With Neuroendocrine Tumors
+   NCT ID: NCT05168631
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: N/A
+   Condition: Neuroendocrine Tumors; Carcinoma;Endocrine
+   Intervention: 
+   Sponsor: Latin American Cooperative Oncology Group
+   Start Date: 2020-05-16
+   Completion Date: 2025-03-15
+   Has Posted Results: False
+   Publications Count: 15
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05168631
+   Summary: Multicenter retrospective longitudinal analytical study of patients with neuroendocrine tumors.
+   Locations: Ensino E Terapia de Inovacao Clinica Amo - Etica, Salvador, Brazil; Universidade Federal do Ceará/HOSPITAL UNIVERSITARIO WALTER CANTIDIO, Fortaleza, Brazil; Hospital Sírio Libanês Brasília, Brasília, Brazil
+              ... and 4 more locations
+----------------------------------------
+
+9. Atezolizumab and Bevacizumab in Treating Patients With Rare Solid Tumors
+   NCT ID: NCT03074513
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Appendix Adenocarcinoma; Human Papillomavirus-Related Anal Squamous Cell Carcinoma; Human Papillomavirus-Related Cervical Squamous Cell Carcinoma; Human Papillomavirus-Related Squamous Cell Carcinoma of the Penis; Human Papillomavirus-Related Vulvar Squamous Cell Carcinoma; Neuroendocrine Carcinoma; Pancreatic Neuroendocrine Tumor; Recurrent Merkel Cell Carcinoma; Recurrent Nasopharynx Carcinoma; Recurrent Peritoneal Malignant Mesothelioma; Recurrent Pleural Malignant Mesothelioma; Stage III Merkel Cell Carcinoma AJCC v7; Stage III Nasopharyngeal Carcinoma AJCC v7; Stage III Pleural Malignant Mesothelioma AJCC v7; Stage IV Merkel Cell Carcinoma AJCC v7; Stage IV Nasopharyngeal Carcinoma AJCC v7; Stage IV Pleural Malignant Mesothelioma AJCC v7; Stage IVA Nasopharyngeal Carcinoma AJCC v7; Stage IVB Nasopharyngeal Carcinoma AJCC v7; Stage IVC Nasopharyngeal Carcinoma AJCC v7; Vaginal Squamous Cell Carcinoma, Not Otherwise Specified
+   Intervention: Atezolizumab; Bevacizumab; Laboratory Biomarker Analysis; Pharmacological Study
+   Sponsor: M.D. Anderson Cancer Center
+   Start Date: 2017-03-03
+   Completion Date: 2025-09-30
+   Has Posted Results: False
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03074513
+   Summary: This phase II trial studies how well atezolizumab and bevacizumab work in treating patients with rare solid tumors. Immunotherapy with monoclonal antibodies, such as atezolizumab and bevacizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells t...
+   Locations: M D Anderson Cancer Center, Houston, United States
+----------------------------------------
+
+10. Nivolumab and Temozolomide in Treating Patients With Recurrent or Refractory Small-Cell Lung Cancer or Advanced Neuroendocrine Cancer
+   NCT ID: NCT03728361
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Grade I Neuroendocrine Carcinoma; Grade II Neuroendocrine Carcinoma; Grade III Neuroendocrine Carcinoma; Metastatic Neuroendocrine Carcinoma; Neuroendocrine Carcinoma; Recurrent Small Cell Lung Carcinoma; Refractory Small Cell Lung Carcinoma; Lung Cancer Stage IV; Large Cell Neuroendocrine Carcinoma; Neuroendocrine Tumors; Small Cell Lung Cancer Metastatic; Small-cell Lung Cancer
+   Intervention: Nivolumab; Temozolomide
+   Sponsor: Dwight Owen
+   Start Date: 2018-12-31
+   Completion Date: 2026-10-31
+   Has Posted Results: False
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03728361
+   Summary: This phase II trial studies how well nivolumab and temozolomide work in treating patients with small-cell lung cancer that has come back or does not respond to treatment, or neuroendocrine cancer that has spread to other places in the body. Immunotherapy with monoclonal antibodies, such as nivolumab...
+   Locations: Ohio State University Comprehensive Cancer Center-COHORT 1, Columbus, United States; Ohio State University Comprehensive Cancer Center-COHORT 2, Columbus, United States
+----------------------------------------
+
+11. Nivolumab and Ipilimumab in Treating Patients With Rare Tumors
+   NCT ID: NCT02834013
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Acinar Cell Carcinoma; Adenoid Cystic Carcinoma; Adrenal Cortical Carcinoma; Adrenal Gland Pheochromocytoma; Anal Canal Neuroendocrine Carcinoma; Anal Canal Undifferentiated Carcinoma; Angiosarcoma; Apocrine Neoplasm; Appendix Mucinous Adenocarcinoma; Bartholin Gland Transitional Cell Carcinoma; Basal Cell Carcinoma; Bladder Adenocarcinoma; Breast Metaplastic Carcinoma; Cervical Adenocarcinoma; Cholangiocarcinoma; Chordoma; Colorectal Squamous Cell Carcinoma; Desmoid Fibromatosis; Endometrial Transitional Cell Carcinoma; Endometrioid Adenocarcinoma; Esophageal Neuroendocrine Carcinoma; Esophageal Undifferentiated Carcinoma; Extrahepatic Bile Duct Carcinoma; Extramammary Paget Disease; Fallopian Tube Adenocarcinoma; Fallopian Tube Transitional Cell Carcinoma; Fibromyxoid Tumor; Gallbladder Carcinoma; Gastric Neuroendocrine Carcinoma; Gastric Squamous Cell Carcinoma; Gastric Undifferentiated Carcinoma; Gastrointestinal Stromal Tumor; Gestational Trophoblastic Tumor; Giant Cell Carcinoma; Human Papillomavirus-Independent Cervical Adenocarcinoma, Clear Cell-Type; Intestinal Neuroendocrine Carcinoma; Intrahepatic Cholangiocarcinoma; Lung Neuroendocrine Tumor; Lung Sarcomatoid Carcinoma; Major Salivary Gland Carcinoma; Malignant Neoplasm of Unknown Primary; Malignant Odontogenic Neoplasm; Malignant Peripheral Nerve Sheath Tumor; Malignant Solid Neoplasm; Malignant Testicular Sex Cord-Stromal Tumor; Metastatic Pituitary Neuroendocrine Tumor; Minimally Invasive Lung Adenocarcinoma; Mixed Mesodermal (Mullerian) Tumor; Mucinous Adenocarcinoma; Mucinous Cystadenocarcinoma; Nasal Cavity Adenocarcinoma; Nasal Cavity Carcinoma; Nasopharyngeal Carcinoma; Nasopharyngeal Low Grade Papillary Adenocarcinoma; Nasopharyngeal Undifferentiated Carcinoma; Oral Cavity Carcinoma; Oropharyngeal Undifferentiated Carcinoma; Ovarian Adenocarcinoma; Ovarian Germ Cell Tumor; Ovarian Mucinous Adenocarcinoma; Ovarian Squamous Cell Carcinoma; Ovarian Transitional Cell Carcinoma; Pancreatic Acinar Cell Carcinoma; Pancreatic Neuroendocrine Carcinoma; Paraganglioma; Paranasal Sinus Adenocarcinoma; Paranasal Sinus Carcinoma; Parathyroid Gland Carcinoma; PEComa; Penile Squamous Cell Carcinoma; Peritoneal Mesothelial Neoplasm; Placental Choriocarcinoma; Primary Peritoneal High Grade Serous Adenocarcinoma; Pseudomyxoma Peritonei; Rare Disorder; Scrotal Squamous Cell Carcinoma; Seminal Vesicle Adenocarcinoma; Seminoma; Serous Cystadenocarcinoma; Small Intestinal Adenocarcinoma; Small Intestinal Squamous Cell Carcinoma; Spindle Cell Neoplasm; Teratoma With Somatic-Type Malignancy; Testicular Non-Seminomatous Germ Cell Tumor; Thyroid Gland Carcinoma; Tracheal Carcinoma; Transitional Cell Carcinoma; Ureter Adenocarcinoma; Ureter Squamous Cell Carcinoma; Urethral Adenocarcinoma; Urethral Squamous Cell Carcinoma; Vaginal Adenocarcinoma; Vaginal Squamous Cell Carcinoma, Not Otherwise Specified; Vulvar Carcinoma
+   Intervention: Biospecimen Collection; Computed Tomography; Echocardiography Test; Ipilimumab; Magnetic Resonance Imaging; Nivolumab
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2017-01-30
+   Completion Date: 2026-05-01
+   Has Posted Results: False
+   Publications Count: 5
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02834013
+   Summary: This phase II trial studies nivolumab and ipilimumab in treating patients with rare tumors. Immunotherapy with monoclonal antibodies, such as nivolumab and ipilimumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.
+
+This tri...
+   Locations: University of Alabama at Birmingham Cancer Center, Birmingham, United States; University of South Alabama Mitchell Cancer Institute, Mobile, United States; Anchorage Associates in Radiation Medicine, Anchorage, United States
+              ... and 1009 more locations
+----------------------------------------
+
+12. Study to Evaluate the Safety of Combining Two Radionuclide Therapies to Treat Mid-gut Neuroendocrine Tumors
+   NCT ID: NCT03044977
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: EARLY_PHASE1
+   Condition: Neuroendocrine Tumor, Malignant; Neuroendocrine Tumor Gastrointestinal, Hormone-Secreting
+   Intervention: 90Y-DOTA-3-Tyr-Octreotide; 131I-MIBG
+   Sponsor: David Bushnell
+   Start Date: 2017-05-07
+   Completion Date: 2027-12
+   Has Posted Results: False
+   Publications Count: 2
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03044977
+   Summary: This study is designed to identify the best tolerated doses of \[131\]Iodine-MIBG and \[90\]Yttrium-DOTATOC when co-administered to treat midgut neuroendocrine tumors. These drugs (131I-MIBG, 90Y-DOTATOC) are radioactive drugs, known as radionuclide therapy. Currently, the safest and best tolerated ...
+   Locations: Holden Comprehensive Cancer Center, Iowa City, United States
+----------------------------------------
+
+13. Personalized PRRT of Neuroendocrine Tumors
+   NCT ID: NCT02754297
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Carcinoid Tumor; Carcinoma, Neuroendocrine
+   Intervention: 177Lu-Octreotate
+   Sponsor: CHU de Quebec-Universite Laval
+   Start Date: 2016-04-12
+   Completion Date: 2029-04-12
+   Has Posted Results: False
+   Publications Count: 1
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02754297
+   Summary: In this study, peptide receptor radionuclide therapy (PRRT) with 177Lu-Octreotate (LuTate) will be personalized, i.e. administered activity of LuTate will be tailored for each patient to maximize absorbed radiation dose to tumor, while limiting that to healthy organs.
+
+The purpose of this study is t...
+   Locations: CHU de Québec - Université Laval, Quebec City, Canada
+----------------------------------------
+

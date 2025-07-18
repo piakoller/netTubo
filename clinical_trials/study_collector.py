@@ -122,8 +122,9 @@ class StudyCollector:
         # Query for NET studies with results posted from 2020 onwards, excluding Phase 1
         # Using simplified query syntax compatible with ClinicalTrials.gov API v2
         # query = 'AREA[Condition](Neuroendocrine Tumors) AND NOT AREA[Phase]Phase 1 AND AREA[ResultsFirstPostDate]RANGE[01/01/2020, MAX]'
-        query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND AREA[ResultsFirstPostDate]RANGE[01/01/2020, MAX] AND NOT AREA[Phase]Phase 1'
-        
+        # query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND AREA[ResultsFirstPostDate]RANGE[01/01/2020, MAX] AND NOT AREA[Phase]Phase 1'
+        query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND AREA[PrimaryCompletionDate] RANGE[2020-01-01,MAX] AND AREA[OverallStatus](ACTIVE_NOT_RECRUITING) AND NOT AREA[Phase]Phase 1 AND (AREA[HasResults] false)'
+
         logger.info(f"Using simple API call with query: {query}")
         
         try:
