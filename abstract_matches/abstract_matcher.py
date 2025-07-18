@@ -19,7 +19,7 @@ from docling.document_converter import DocumentConverter  # Using docling for PD
 from data_loader import load_patient_data
 from shared_logic import format_patient_data_for_prompt, PATIENT_FIELDS_FOR_PROMPT
 from config import OPENROUTER_API_KEY, OPENROUTER_API_URL, OPENROUTER_MODEL
-from clinical_trials_matcher import LLMStudyMatcher
+from netTubo.clinical_trials.clinical_trials_matcher import LLMStudyMatcher
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
