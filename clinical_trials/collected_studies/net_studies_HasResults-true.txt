@@ -1,0 +1,711 @@
+================================================================================
+COLLECTED CLINICAL TRIALS REPORT
+================================================================================
+Collection Date: 2025-07-22 13:46:39
+Total Studies: 37
+Studies with Publications: 13
+Studies without Publications: 24
+Search Query: AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND NOT (AREA[Phase]Phase 1) AND AREA[OverallStatus](ACTIVE_NOT_RECRUITING OR COMPLETED) AND (AREA[HasResults]true) AND AREA[PrimaryCompletionDate] RANGE[2020-01-01,MAX]
+Filter Criteria: Neuroendocrine tumor studies, excluding Phase 1
+--------------------------------------------------------------------------------
+
+1. Study to Assess the Efficacy and Safety of Lanreotide Autogel® in Chinese Participants With GEP-NETs
+   NCT ID: NCT04852679
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Gastroenteropancreatic Neuroendocrine Tumor
+   Intervention: Lanreotide autogel
+   Sponsor: Ipsen
+   Start Date: 2021-05-24
+   Completion Date: 2023-01-13
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04852679
+   Summary: This study will be conducted to support the registration of the lanreotide Autogel 120 mg formulation in China for the treatment of GEP-NETs and treatment of clinical symptoms of NETs.
+
+The study will include a screening period of up to 4 weeks followed by a 48-week intervention period. After comple...
+   Locations: Cancer Hospital Chinese Academy of Sciences, Beijing, China; Beijing Cancer Hospital, Beijing, China; Peking University Third Hospital, Beijing, China
+              ... and 11 more locations
+----------------------------------------
+
+2. Phase II Study of Pembrolizumab and Lenvatinib in Advanced Well-differentiated Neuroendocrine Tumors
+   NCT ID: NCT03290079
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Neuroendocrine Carcinoma; Neuroendocrine Cancer
+   Intervention: Pembrolizumab; Lenvatinib
+   Sponsor: H. Lee Moffitt Cancer Center and Research Institute
+   Start Date: 2017-12-15
+   Completion Date: 2024-05-13
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03290079
+   Summary: The purpose of this study is to:
+
+* Assess overall radiographic response rate (ORR)
+* Assess progression-free survival (PFS)
+* Test the safety and tolerability of Pembrolizumab in combination with lenvatinib
+   Locations: H. Lee Moffitt Cancer Center and Research Institute, Tampa, United States
+----------------------------------------
+
+3. Carfilzomib for the Treatment of Patients With Advanced Neuroendocrine Cancers
+   NCT ID: NCT02318784
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Cancer
+   Intervention: Carfilzomib
+   Sponsor: SCRI Development Innovations, LLC
+   Start Date: 2015-07-15
+   Completion Date: 2021-05-15
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02318784
+   Summary: The purpose of this study is to determine if carfilzomib is safe and effective in the treatment of patients with advanced neuroendocrine tumors.
+   Locations: Rocky Mountain Cancer Center, Denver, United States; Florida Cancer Specialists, Fort Myers, United States; Florida Hospital Cancer Institute, Orlando, United States
+              ... and 7 more locations
+----------------------------------------
+
+4. Dosimetry-Guided, Peptide Receptor Radiotherapy (PRRT) With 90Y-DOTA- tyr3-Octreotide (90Y-DOTATOC)
+   NCT ID: NCT03273712
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Meningioma; Neuroblastoma; Medulloblastoma
+   Intervention: 90Y-DOTA tyr3-Octreotide; 68Ga-DOTATOC PET Positron Emission Tomography (PET) whole body scan; Amino Acids
+   Sponsor: University of Iowa
+   Start Date: 2017-09-29
+   Completion Date: 2020-05-27
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03273712
+   Summary: This is a Phase 2 peptide receptor radionuclide therapy trial of 90Y-DOTATOC in patients with somatostatin receptor positive tumors.
+   Locations: University of Iowa Hospitals and Clinics, Iowa City, United States
+----------------------------------------
+
+5. Open Label Extension Study of Conatumumab and Ganitumab (AMG 479)
+   NCT ID: NCT01327612
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Advanced Solid Tumors; Carcinoid; Colorectal Cancer; Locally Advanced; Lymphoma; Metastatic Cancer; Non-Small Cell Lung Cancer; Sarcoma; Solid Tumors
+   Intervention: Modified FOLFOX6; Conatumumab; Ganitumab; Bevacizumab
+   Sponsor: Amgen
+   Start Date: 2011-03-03
+   Completion Date: 2020-02-05
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT01327612
+   Summary: The purpose of this protocol is to allow continued treatment with conatumumab and/or ganitumab, with or without chemotherapy, to participants who completed a separate Amgen-sponsored conatumumab or ganitumab study without disease progression whose previous studies were closed.
+   Locations: Research Site, Duarte, United States; Research Site, La Jolla, United States; Research Site, Denver, United States
+              ... and 9 more locations
+----------------------------------------
+
+6. Cabozantinib and Nivolumab for Carcinoid Tumors
+   NCT ID: NCT04197310
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Carcinoid Tumor; Carcinoid Tumor of GI System; Neuroendocrine Tumors
+   Intervention: Nivolumab; Cabozantinib
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2019-12-26
+   Completion Date: 2024-01-31
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04197310
+   Summary: This research study, is studying the combination of cabozantinib and nivolumab in treating advanced carcinoid tumors.
+
+- Carcinoid tumor is another term used to refer to neuroendocrine tumors that arise in organs such as the gastrointestinal tract, lungs, or thymus.
+   Locations: Boston Medical Center, Boston, United States; Dana Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+7. RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)
+   NCT ID: NCT02489903
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Small Cell Carcinoma; Carcinoma, Non-Small-Cell Lung; Neuroendocrine Tumors; Ovarian Epithelial Cancer
+   Intervention: RRx-001; Cisplatin; Etoposide; Carboplatin; Irinotecan; Vinorelbine; Doxil; Gemcitabine; Taxane; Paclitaxel; Nab-Paclitaxel; Pemetrexed
+   Sponsor: EpicentRx, Inc.
+   Start Date: 2015-06
+   Completion Date: 2021-12-06
+   Has Posted Results: True
+   Publications Count: 2
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02489903
+   Summary: This study is designed to explore the potential of the epigenetic agent RRx-001 to sensitize patients who previously received and now have failed a platinum based doublet regimen. RRx-001 is administered with autologous blood once weekly followed by or in combination with reintroduction of platinum-...
+   Locations: Stanford University, Palo Alto, United States; VA Connecticut Cancer Center, West Haven, United States; Memorial Hospital of South Bend, South Bend, United States
+              ... and 7 more locations
+----------------------------------------
+
+8. Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors
+   NCT ID: NCT01782443
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Carcinoid Tumor
+   Intervention: Ziv-aflibercept
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2013-02-13
+   Completion Date: 2021-12-26
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT01782443
+   Summary: This research study is a Phase II clinical trial, which tests the safety and effectiveness of an investigational drug to learn whether the drug works in treating a specific cancer. "Investigational" means that the drug, Ziv-aflibercept, is being studied. It also means that the FDA has not yet approv...
+   Locations: Massachusetts General Hospital, Boston, United States; Brigham and Women's Hospital, Boston, United States; Dana-Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+9. Randomized Trial of Topotecan With M6620, an ATR Kinase Inhibitor, in Small Cell Lung Cancers and Small Cell Cancers Outside of the Lungs
+   NCT ID: NCT03896503
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Extensive Stage Lung Small Cell Carcinoma; Extrapulmonary Small Cell Neuroendocrine Carcinoma; Limited Stage Lung Small Cell Carcinoma; Platinum-Resistant Lung Small Cell Carcinoma; Platinum-Sensitive Lung Small Cell Carcinoma; Recurrent Lung Small Cell Carcinoma
+   Intervention: Berzosertib; Biopsy Procedure; Biospecimen Collection; Computed Tomography; Topotecan Hydrochloride
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2019-12-30
+   Completion Date: 2026-03-31
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03896503
+   Summary: This phase II trial studies how well berzosertib (M6620) works when given in combination with topotecan hydrochloride (topotecan) compared with topotecan alone in treating patients with small cell lung cancer that has come back (relapsed), or small cell cancer that arises from a site other than the ...
+   Locations: Los Angeles General Medical Center, Los Angeles, United States; USC / Norris Comprehensive Cancer Center, Los Angeles, United States; USC Norris Oncology/Hematology-Newport Beach, Newport Beach, United States
+              ... and 30 more locations
+----------------------------------------
+
+10. Pembrolizumab-based Therapy in Previously Treated High Grade Neuroendocrine Carcinomas
+   NCT ID: NCT03136055
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: High Grade Malignant Neuroendocrine Carcinoma (Diagnosis)
+   Intervention: Pembrolizumab; Irinotecan; Paclitaxel
+   Sponsor: University of California, San Francisco
+   Start Date: 2017-06-20
+   Completion Date: 2021-10-31
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03136055
+   Summary: This is a pilot study of pembrolizumab-based therapy in previously treated extrapulmonary poorly differentiated neuroendocrine carcinoma
+   Locations: University of California, San Francisco, San Francisco, United States; Dana Farber Cancer Institute, Boston, United States; Memorial Sloan Kettering Cancer Center, New York, United States
+----------------------------------------
+
+11. AMT-PET in Monitoring Telotristat Etiprate Treatment in Participants With MetastaticNeuroendocrine Neoplasm
+   NCT ID: NCT03453489
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Carcinoid Syndrome; Metastatic Nonfunctional Well Differentiated Neuroendocrine Neoplasm
+   Intervention: Carbon C 11 Alpha-methyltryptophan; Laboratory Biomarker Analysis; Positron Emission Tomography; Telotristat Etiprate
+   Sponsor: Barbara Ann Karmanos Cancer Institute
+   Start Date: 2018-06-20
+   Completion Date: 2020-10-15
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03453489
+   Summary: This pilot trial studies how well telotristat etiprate works in treating participants with well differentiated neuroendocrine neoplasm that has spread to other places in the body and monitored by carbon C 11 alpha-methyltryptophan (AMT)-emission tomography (PET). Telotristat etiprate may stop the gr...
+   Locations: Wayne State University/Karmanos Cancer Institute, Detroit, United States
+----------------------------------------
+
+12. Impact of Ga-68 DOTATOC PET-CT Imaging in Management of Neuroendocrine Tumors
+   NCT ID: NCT02441062
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Carcinoid Tumors; Neuroblastoma; Medulloblastoma
+   Intervention: 68Ga-DOTATOC PET/CT
+   Sponsor: Sue O'Dorisio
+   Start Date: 2015-09
+   Completion Date: 2020-01-20
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02441062
+   Summary: Participants in this study have been diagnosed with a tumor such as a carcinoid, neuroendocrine tumor, neuroblastoma, Ewing's sarcoma, or brain tumor that has cells which carry somatostatin receptors.
+
+The purpose of this research study is to see if the tumor can be identified using a special proced...
+   Locations: University of Iowa Hospitals and Clinics, Iowa City, United States
+----------------------------------------
+
+13. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT03375320
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE3
+   Condition: Carcinoid Tumor; Functioning Pancreatic Neuroendocrine Tumor; Intermediate Grade Lung Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Neoplasm; Locally Advanced Digestive System Neuroendocrine Tumor G1; Locally Advanced Lung Neuroendocrine Neoplasm; Locally Advanced Pancreatic Neuroendocrine Tumor; Locally Advanced Unresectable Digestive System Neuroendocrine Neoplasm; Low Grade Lung Neuroendocrine Neoplasm; Lung Neuroendocrine Tumor; Lung Neuroendocrine Tumor G2; Metastatic Digestive System Neuroendocrine Neoplasm; Metastatic Digestive System Neuroendocrine Tumor G1; Metastatic Lung Neuroendocrine Neoplasm; Metastatic Lung Neuroendocrine Tumor; Metastatic Pancreatic Neuroendocrine Neoplasm; Metastatic Pancreatic Neuroendocrine Tumor; Metastatic Thymus Neuroendocrine Neoplasm; Neuroendocrine Neoplasm; Neuroendocrine Tumor G2; Non-Functioning Pancreatic Neuroendocrine Tumor; Pancreatic Serotonin-Producing Neuroendocrine Tumor; Thymus Neuroendocrine Tumor; Unresectable Digestive System Neuroendocrine Neoplasm; Unresectable Digestive System Neuroendocrine Tumor G1; Unresectable Lung Neuroendocrine Neoplasm; Unresectable Pancreatic Neuroendocrine Neoplasm; Unresectable Thymus Neuroendocrine Neoplasm
+   Intervention: Biospecimen Collection; Cabozantinib S-malate; Computed Tomography; Magnetic Resonance Imaging; Placebo Administration; Quality-of-Life Assessment; X-Ray Imaging
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2018-10-26
+   Completion Date: 2025-11-22
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03375320
+   Summary: This phase III trial studies cabozantinib to see how well it works compared with placebo in treating patients with neuroendocrine or carcinoid tumors that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). Cabozantinib is a chemotherap...
+   Locations: Katmai Oncology Group, Anchorage, United States; Kingman Regional Medical Center, Kingman, United States; Mayo Clinic Hospital in Arizona, Phoenix, United States
+              ... and 433 more locations
+----------------------------------------
+
+14. A Phase II Study of Ramucirumab With Somatostatin Analog Therapy in Patients With Advanced, Progressive Carcinoid Tumors
+   NCT ID: NCT02795858
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Carcinoid Tumors
+   Intervention: Ramucirumab; Somatostatin Analog
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2016-06-14
+   Completion Date: 2023-12-31
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02795858
+   Summary: This research study is evaluating the drug Ramucirumab as a possible treatment for Advanced, Progressive Carcinoid Tumors.
+   Locations: Massachusetts General Hospital, Boston, United States; Dana Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+15. A Study of LEE011 With Everolimus in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT03070301
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors
+   Intervention: LEE011; everolimus
+   Sponsor: Memorial Sloan Kettering Cancer Center
+   Start Date: 2017-02-27
+   Completion Date: 2024-01-31
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03070301
+   Summary: The purpose of this study is to test any good and bad effects of the combination of LEE011 with everolimus on the participant and the cancer.
+   Locations: Massachusetts General Hospital, Boston, United States; Dana Farber Cancer Institute, Boston, United States; Beth Israel Deaconess Medical Center, Boston, United States
+              ... and 2 more locations
+----------------------------------------
+
+16. Trial of Cabozantinib Plus Atezolizumab in Advanced and Progressive Neoplasms of the Endocrine System. The CABATEN Study
+   NCT ID: NCT04400474
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumor; Anaplastic Thyroid Cancer; Adenocarcinoma; Pheochromocytoma; Paraganglioma
+   Intervention: Cabozantinib 40 mg
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2020-10-07
+   Completion Date: 2023-12-15
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04400474
+   Summary: CABATEN is a multicohort phase II study of cabozantinib plus atezolizumab in advanced and progressive tumors from endocrine system.
+
+The primary objective is to assess the efficacy of cabozantinib plus atezolizumab combination by means of radiological objective response rate (ORR) evaluated followin...
+   Locations: Hospital Germans Trias i Pujol - ICO Badalona, Badalona, Spain; Hospital Duran i Reynals - ICO L'Hospitalet, L'Hospitalet de Llobregat, Spain; Hospital General Universitario Elche, Alicante, Spain
+              ... and 12 more locations
+----------------------------------------
+
+17. Next Generation Sequencing-Based Stratification of Front Line Treatment of HighGrade Neuroendocrine Carcinoma
+   NCT ID: NCT04452292
+   Status: COMPLETED
+   Phase: NA
+   Condition: Large-Cell Neuroendocrine Carcinoma
+   Intervention: Treatment Specific for Non-Small Cell Carcinoma/Adenocarcinoma; Treatment for Small Cell Lung Cancer
+   Sponsor: Charles Kunos
+   Start Date: 2021-09-14
+   Completion Date: 2023-03-14
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04452292
+   Summary: PRECISION-NEC is a single-center, open-label, pilot feasibility study of molecularly defined subtypes of metastatic high-grade neuroendocrine carcinoma (HG-NEC). The hypothesis is that HG-NEC (excluding small cell carcinoma) can be segregated based on mutational analysis and that next generation seq...
+   Locations: Markey Cancer Center, University of Kentucky, Lexington, United States
+----------------------------------------
+
+18. Dual-Tracer Theranostic PET
+   NCT ID: NCT05680675
+   Status: COMPLETED
+   Phase: NA
+   Condition: Neuroendocrine Tumors; Prostate Cancer
+   Intervention: Single-Tracer FDG PET/CT Exam; Single-Tracer Cu64-DOTATATE PET/CT Exam; Single-Tracer Ga68-DOTATATE PET/CT Exam; Single-Tracer PSMA PET/CT Exam
+   Sponsor: University of Utah
+   Start Date: 2022-12-08
+   Completion Date: 2024-06-04
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT05680675
+   Summary: This study is designed to obtain positron emission tomography with x-ray computed tomography (PET/CT) imaging data with each tracer pair, providing the imaging data needed to develop new simultaneous dual-tracer imaging techniques and processing algorithms for these tracer pairs.
+   Locations: Huntsman Cancer Institute, Salt Lake City, United States
+----------------------------------------
+
+19. Nutrition in Gastroenteropancreatic Neuroendocrine Tumor
+   NCT ID: NCT04986085
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Gastroenteropancreatic Neuroendocrine Tumor
+   Intervention: 
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2021-02-24
+   Completion Date: 2024-02-23
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04986085
+   Summary: It is well known that the prevalence of malnutrition or risk of malnutrition in cancer patients is high, as well as its impact on different parameters such as hospitalization, survival or response to certain treatments. In patients with gastroenteropancreatic (GEP) neuroendocrine tumors (NET), due t...
+   Locations: Hospital Universitario Virgen de la Arrixaca, El Palmar, Spain; Hospital Universitario Vall d´Hebron, Barcelona, Spain; Hospital Universitario Reina Sofia, Córdoba, Spain
+              ... and 13 more locations
+----------------------------------------
+
+20. Cabozantinib in Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT01466036
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Carcinoid Tumor; Pancreatic Neuroendocrine Tumor
+   Intervention: Cabozantinib
+   Sponsor: Dana-Farber Cancer Institute
+   Start Date: 2012-07
+   Completion Date: 2023-12
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT01466036
+   Summary: Cabozantinib works by blocking the growth of new blood vessels that feed a tumor. In addition to blocking the formation of new blood cells in tumors, cabozantinib also blocks pathways that may be responsible for allowing cancers cells to become resistant to other "anti-angiogenic" drugs. Cabozantini...
+   Locations: Massachusetts General Hospital, Boston, United States; Dana-Farber Cancer Institute, Boston, United States
+----------------------------------------
+
+21. Theranostics of Radiolabeled Somatostatin Antagonists 68Ga-DOTA-JR11 and 177Lu-DOTA-JR11 in Patients With Neuroendocrine Tumors
+   NCT ID: NCT02609737
+   Status: COMPLETED
+   Phase: NA
+   Condition: Neuroendocrine Tumors
+   Intervention: PET/CT Imaging; 68Ga-DOTA-JR11; 177Lu-DOTA-JR11
+   Sponsor: Memorial Sloan Kettering Cancer Center
+   Start Date: 2015-11-13
+   Completion Date: 2020-12-10
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02609737
+   Summary: This study has 3 steps and not everyone will have all 3 steps done. The overall goals are to see if a new experimental drug is safe to image (step 1) and treat neuroendocrine tumors (step 2 and 3).
+   Locations: Memorial Sloan Kettering Cancer Center, New York, United States
+----------------------------------------
+
+22. Post-Authorization Safety Study (PASS) of LysaKare® in Adult Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET) Patients
+   NCT ID: NCT04524442
+   Status: COMPLETED
+   Phase: PHASE4
+   Condition: Gastroenteropancreatic Neuroendocrine Tumors
+   Intervention: arginine/lysine
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2021-01-25
+   Completion Date: 2023-11-18
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04524442
+   Summary: The purpose of the study was to evaluate the effect of arginine/lysine solution administration on serum potassium levels. A systematic assessment of serum potassium levels was performed during infusion and up to 24 hours post start of infusion compared to baseline.
+   Locations: Istituto Europeo di Oncologia, Milan, Italy; Erasmus University Medical Center, Rotterdam, Netherlands; Gammed-Centrum Diagnostyczno-Lecznicze, Warsaw, Poland
+              ... and 4 more locations
+----------------------------------------
+
+23. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+   NCT ID: NCT03034200
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Recurrent Neuroendocrine Tumor; Metastatic Neuroendocrine Tumor
+   Intervention: ONC201
+   Sponsor: Peter Anderson
+   Start Date: 2017-08-02
+   Completion Date: 2023-05-19
+   Has Posted Results: True
+   Publications Count: 8
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03034200
+   Summary: The purpose of this study is to learn if a new drug, ONC201 can make tumors become smaller or go away completely. Investigators also want to learn if ONC201 can prevent new deposits of cancer from appearing in new places in participants (metastases). A phase 2 study of ONC201 in PC-PG (pheochromocyt...
+   Locations: Cleveland Clinic Pediatric and Taussig Cancer Institute, Case Comprehensive Cancer Center, Cleveland, United States
+----------------------------------------
+
+24. The Safety And Efficacy Of Sunitinib In Chinese Patients With Progressive Advanced Or Metastatic Well-Differentiated Unresectable Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT02282059
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Pancreatic Neuroendocrine Tumors
+   Intervention: sunitinib
+   Sponsor: Pfizer
+   Start Date: 2014-12-12
+   Completion Date: 2022-12-12
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02282059
+   Summary: This study is a multi-center, prospective, non-interventional (NI) study evaluating the safety and efficacy of sunitinib in Chinese patients with progressive, unresectable, advanced or metastatic well-differentiated, pancreatic neuroendocrine tumors(pNET). 100 adults with progressive advanced or met...
+   Locations: Oncology Department, The Second Affiliated Hospital of Anhui Medical University, Hefei, China; Department of Medical Oncology, Cancer Institute and Hospital, Chinese Academy of Medical Sciences, Beijing, China; SUN Yat-Sen University Cancer Center, Guangzhou, China
+              ... and 21 more locations
+----------------------------------------
+
+25. Testing Two Oral Drugs Combination (Cediranib and Olaparib) Compared to a Single Drug (Olaparib) for Men With Advanced Prostate Cancer
+   NCT ID: NCT02893917
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Advanced Prostate Adenocarcinoma With Neuroendocrine Differentiation; Castration-Resistant Prostate Carcinoma; Metastatic Prostate Adenocarcinoma With Neuroendocrine Differentiation; Metastatic Prostate Carcinoma; Prostate Adenocarcinoma With Neuroendocrine Differentiation; Stage IV Prostate Adenocarcinoma AJCC v7
+   Intervention: Cediranib; Olaparib
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2017-08-11
+   Completion Date: 2026-06-18
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02893917
+   Summary: This randomized phase II trial studies how well olaparib with or without cediranib works in treating patients with castration-resistant prostate cancer that has spread to other places in the body (metastatic). PARPs are proteins that help repair DNA mutations. PARP inhibitors, such as olaparib, can ...
+   Locations: UC San Diego Moores Cancer Center, La Jolla, United States; University of California Davis Comprehensive Cancer Center, Sacramento, United States; UC San Diego Medical Center - Hillcrest, San Diego, United States
+              ... and 13 more locations
+----------------------------------------
+
+26. Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET
+   NCT ID: NCT03972488
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE3
+   Condition: Gastro-enteropancreatic Neuroendocrine Tumor
+   Intervention: Lutathera; 30 mg Octreotide long acting repeatable (LAR) (Sandostatin LAR Depot); 2.5% Lys-Arg sterile amino acid solution; High dose 60 mg octreotide long-acting repeatable
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2020-01-08
+   Completion Date: 2027-10-29
+   Has Posted Results: True
+   Publications Count: 2
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03972488
+   Summary: The aim of NETTER-2 was to determine if Lutathera in combination with long-acting octreotide prolongs progression free survival (PFS) in gastroenteropancreatic neuroendocrine tumor (GEP-NET) patients with high proliferation rate tumors (G2 and G3), when given as a first line treatment compared to tr...
+   Locations: Yale Cancer Center, New Haven, United States; USF - H. Lee Moffitt Cancer Center and Research Institute, Tampa, United States; University of Iowa Hospitals and Clinics - Oncology, Iowa City, United States
+              ... and 37 more locations
+----------------------------------------
+
+27. Study to Allow Access to Pasireotide for Patients Benefiting From Pasireotide Treatment in Novartis-sponsored Studies
+   NCT ID: NCT01794793
+   Status: COMPLETED
+   Phase: PHASE4
+   Condition: Cushing's Disease; Acromegaly; Neuroendocrine Tumors; Pituitary Tumors; Ectopic ACTH Secreting (EAS) Tumors; Dumping Syndrome; Prostate Cancer; Melanoma Negative for bRAF; Melanoma Negative for nRAS
+   Intervention: Pasireotide; Cabergoline; Pasireotide LAR
+   Sponsor: RECORDATI GROUP
+   Start Date: 2013-06-10
+   Completion Date: 2023-07-25
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT01794793
+   Summary: The purpose of this study is to allow continued use of pasireotide in patients who are on pasireotide treatment in a Novartis-sponsored study and are benefiting from the treatment as judged by the investigator.
+   Locations: Ximed Research SC - SOM230B2412, La Jolla, United States; Cedars Sinai Medical Center Cedars Sinai 4, Los Angeles, United States; Stanford Universtiy Medical Center Stanford Hospital & Clinics, Stanford, United States
+              ... and 91 more locations
+----------------------------------------
+
+28. Real-world Evidence Study EvaLuating PAtient-Reported Outcomes With XERMELO
+   NCT ID: NCT03223428
+   Status: COMPLETED
+   Phase: N/A
+   Condition: Carcinoid Syndrome
+   Intervention: Xermelo
+   Sponsor: TerSera Therapeutics LLC
+   Start Date: 2017-06-22
+   Completion Date: 2022-01-14
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03223428
+   Summary: The primary objective of the study is to estimate the proportion of carcinoid syndrome (CS) patients who are satisfied with their overall symptom control, 6 months after initiating treatment with telotristat ethyl (XERMELO).
+   Locations: RTI-HS, Research Triangle Park, United States
+----------------------------------------
+
+29. Study of Pasireotide Long Acting Release (LAR) in Patients With Metastatic Neuroendocrine Tumors (NETs)
+   NCT ID: NCT01253161
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Carcinoid Tumors
+   Intervention: Pasireotide Long Acting Release (LAR)
+   Sponsor: H. Lee Moffitt Cancer Center and Research Institute
+   Start Date: 2011-02-01
+   Completion Date: 2023-03-02
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT01253161
+   Summary: The goal of this clinical research study is to learn if the study drug, Pasireotide LAR can shrink or slow the growth of Metastatic Neuroendocrine Carcinomas. The safety of this drug will also be studied. The patient's physical state, changes in the size of the tumor, and laboratory findings taken w...
+   Locations: Stanford Cancer Institute, Stanford, United States; H. Lee Moffitt Cancer Center and Research Institute, Tampa, United States
+----------------------------------------
+
+30. 3-arm Trial to Evaluate Pasireotide LAR/Everolimus Alone/in Combination in Patients With Lung/Thymus NET - LUNA Trial
+   NCT ID: NCT01563354
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Carcinoma of the Lung and Thymus
+   Intervention: Pasireotide LAR; Everolimus; Pasireotide LAR and Everolimus Combination
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2013-08-16
+   Completion Date: 2020-02-10
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT01563354
+   Summary: This was a multicenter, randomized, phase II study evaluating Everolimus or Pasireotide LAR alone or in combination in adult patients with advanced (unresectable or metastatic) neuroendocrine carcinoma of the lung and thymus
+   Locations: Novartis Investigative Site, Aarhus, Denmark; Novartis Investigative Site, Copenhagen N, Denmark; Novartis Investigative Site, Toulouse, France
+              ... and 33 more locations
+----------------------------------------
+
+31. Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs
+   NCT ID: NCT04711135
+   Status: ACTIVE_NOT_RECRUITING
+   Phase: PHASE2
+   Condition: Gastroenteropancreatic Neuroendocrine Tumors; Pheochromocytoma; Paraganglioma
+   Intervention: Lutetium [177Lu] oxodotreotide/dotatate
+   Sponsor: Advanced Accelerator Applications
+   Start Date: 2022-08-31
+   Completion Date: 2034-05-07
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT04711135
+   Summary: This is a multicenter, open-label, single-arm study to evaluate the safety and dosimetry of Lutathera in adolescent patients 12 to \<18 years old with somatostatin receptor positive GEP-NETs and PPGLs. The study will enroll at least 8 patients in the GEP-NET cohort and as many adolescents with PPGL ...
+   Locations: University of Kentucky, Lexington, United States; Cincinnati Children's Hospital, Cincinnati, United States; Children's Hospital of Philadelphia, Philadelphia, United States
+              ... and 4 more locations
+----------------------------------------
+
+32. A Study to Evaluate Patient Experience in the Therapy of Neuroendocrine Tumors Treated With Octreotide Long Acting Release Versus Lanreotide
+   NCT ID: NCT03289741
+   Status: COMPLETED
+   Phase: PHASE4
+   Condition: Neuroendocrine Tumors
+   Intervention: Octreotide; LAR Lanreotide; Questionnaires
+   Sponsor: Memorial Sloan Kettering Cancer Center
+   Start Date: 2017-09-19
+   Completion Date: 2023-04-10
+   Has Posted Results: True
+   Publications Count: 1
+   Has Publications: Yes
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03289741
+   Summary: This study is being done to evaluate differences in patient experience during treatment with octreotide LAR and lanreotide.
+   Locations: Memorial Sloan Kettering Basking Ridge, Basking Ridge, United States; Memorial Sloan Kettering Monmouth, Middletown, United States; Memorial Sloan Kettering Bergen, Montvale, United States
+              ... and 4 more locations
+----------------------------------------
+
+33. Sapanisertib in Treating Patients With Metastatic or Refractory Pancreatic Neuroendocrine Tumor That Cannot Be Removed by Surgery
+   NCT ID: NCT02893930
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Pancreatic Neuroendocrine Tumor G1; Pancreatic Neuroendocrine Tumor G2; Refractory Pancreatic Neuroendocrine Carcinoma
+   Intervention: Sapanisertib
+   Sponsor: National Cancer Institute (NCI)
+   Start Date: 2017-04-28
+   Completion Date: 2022-12-21
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02893930
+   Summary: This phase II trial studies how well sapanisertib works in treating patients with pancreatic neuroendocrine tumor that has spread to other places in the body (metastatic), does not respond to treatment (refractory), or cannot be surgically removed. Drugs such as sapanisertib may stop the growth or s...
+   Locations: Mayo Clinic Hospital in Arizona, Phoenix, United States; Mayo Clinic in Arizona, Scottsdale, United States; CHI Saint Vincent Cancer Center Hot Springs, Hot Springs, United States
+              ... and 402 more locations
+----------------------------------------
+
+34. Platinum-doublet Chemotherapy and Nivolumab for the Treatment of Subjects With Neuroendocrine Neoplasms (NENs) of the Gastroenteropancreatic (GEP) Tract or of Unknown (UK) Origin.
+   NCT ID: NCT03980925
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Neuroendocrine Tumors; Neuroendocrine Neoplasm; Gastroenteropancreatic Neuroendocrine Tumor
+   Intervention: Nivolumab; Carboplatin; Etoposide
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2019-10-11
+   Completion Date: 2023-06-09
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT03980925
+   Summary: This is a prospective, multi-centre, open label, non-randomized phase II study evaluating the efficacy and safety of nivolumab plus platinum-based chemotherapy in patients with advanced G3 NENs of the GEP tract or of UK origin.
+   Locations: Institut Català d'Oncologia Badalona, Badalona, Spain; Institut Català d'Oncologia l'Hospitalet, Hospitalet de Llobregat, Spain; Vall d'Hebron University Hospital, Barcelona, Spain
+              ... and 9 more locations
+----------------------------------------
+
+35. Regorafenib in Treating Patients With Advanced or Metastatic Neuroendocrine Tumors
+   NCT ID: NCT02259725
+   Status: COMPLETED
+   Phase: PHASE2
+   Condition: Gastrinoma; Glucagonoma; Insulinoma; Metastatic Gastrointestinal Carcinoid Tumor; Pancreatic Polypeptide Tumor; Pulmonary Carcinoid Tumor; Recurrent Gastrointestinal Carcinoid Tumor; Recurrent Islet Cell Carcinoma; Somatostatinoma
+   Intervention: regorafenib; laboratory biomarker analysis
+   Sponsor: University of Southern California
+   Start Date: 2016-08-16
+   Completion Date: 2020-08-20
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02259725
+   Summary: This phase II trial studies regorafenib in treating patients with neuroendocrine tumors that have spread from the primary site (place where it started) to other places in the body. Regorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.
+   Locations: Mayo Clinic in Arizona, Scottsdale, United States; USC Norris Comprehensive Cancer Center, Los Angeles, United States; Hoag Memorial Hospital Presbyterian, Newport Beach, United States
+              ... and 2 more locations
+----------------------------------------
+
+36. Phase IV Study of the Safety and Efficacy of Everolimus in Adult Patients With Progressive pNET in China
+   NCT ID: NCT02842749
+   Status: COMPLETED
+   Phase: PHASE4
+   Condition: Pancreatic Neuroendocrine Tumors
+   Intervention: everolimus
+   Sponsor: Novartis Pharmaceuticals
+   Start Date: 2016-03-14
+   Completion Date: 2024-02-22
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02842749
+   Summary: To evaluate safety and efficacy of everolimus (Afinitor®) in Chinese adult patients with local advanced or metastatic, well differentiated progressive pancreatic neuroendocrine tumors.
+   Locations: Novartis Investigative Site, Shanghai, China; Novartis Investigative Site, Beijing, China; Novartis Investigative Site, Beijing, China
+              ... and 2 more locations
+----------------------------------------
+
+37. Sequentiality of Everolimus and STZ-5FU in Advanced Pancreatic Neuroendocrine Tumor
+   NCT ID: NCT02246127
+   Status: COMPLETED
+   Phase: PHASE3
+   Condition: Neuroendocrine Tumors
+   Intervention: Drug: Everolimus; STZ-5FU
+   Sponsor: Grupo Espanol de Tumores Neuroendocrinos
+   Start Date: 2014-10-27
+   Completion Date: 2021-07-12
+   Has Posted Results: True
+   Publications Count: 0
+   Has Publications: No
+   Search Terms Matched: simple_net_search
+   URL: https://clinicaltrials.gov/study/NCT02246127
+   Summary: The purpose of this study is to compare streptozotocin (STZ) vs everolimus as first line treatment for advanced pNET and to elucidate which sequence of STZ based chemotherapy and the mammalian Target of Rapamycin (mTOR) inhibitor, everolimus, gives better results in terms of second Progression Free ...
+   Locations: Aarhus Aarhus University Hospital NET Centre (AUH-NET), Aarhus, Denmark; Rigshospitalet NET CoE, University of Copenhagen, Copenhagen, Denmark; Odense University Hospital, Odense, Denmark
+              ... and 34 more locations
+----------------------------------------
+

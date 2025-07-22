@@ -109,21 +109,21 @@ class StudyCollector:
         self.output_dir = output_dir
         self.output_dir.mkdir(exist_ok=True)
                
-    def collect_net_studies_simple(self) -> Tuple[List[StudyRecord], List[StudyRecord], str]:
+    def collect_net_studies_simple(self) -> Tuple[List[StudyRecord], str]:
         """
-        Simple API call to collect Neuroendocrine Tumor studies with posted results from 2020 onwards, excluding Phase 1.
+        Simple API call to collect Neuroendocrine Tumor studies, excluding Phase 1.
         
         Returns:
-            Tuple of (studies_with_publications, studies_without_publications, query_used)
+            Tuple of (all_studies, query_used)
         """
         all_studies = []
-        studies_without_publications = []  # Track filtered out studies
         
         # Query for NET studies with results posted from 2020 onwards, excluding Phase 1
-        # Using simplified query syntax compatible with ClinicalTrials.gov API v2
-        # query = 'AREA[Condition](Neuroendocrine Tumors) AND NOT AREA[Phase]Phase 1 AND AREA[ResultsFirstPostDate]RANGE[01/01/2020, MAX]'
-        # query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND AREA[ResultsFirstPostDate]RANGE[01/01/2020, MAX] AND NOT AREA[Phase]Phase 1'
-        query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND AREA[PrimaryCompletionDate] RANGE[2020-01-01,MAX] AND AREA[OverallStatus](ACTIVE_NOT_RECRUITING) AND NOT AREA[Phase]Phase 1 AND (AREA[HasResults] false)'
+        # AREA[HasResults]false
+        # query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND NOT (AREA[Phase]Phase 1) AND AREA[OverallStatus](ACTIVE_NOT_RECRUITING OR COMPLETED) AND (AREA[HasResults]false) AND AREA[PrimaryCompletionDate] RANGE[2020-01-01,MAX]'
+        
+        # AREA[HasResults]true
+        query = 'AREA[Condition](Neuroendocrine Tumors OR Carcinoma Neuroendocrine OR Carcinoid Tumor) AND NOT (AREA[Phase]Phase 1) AND AREA[OverallStatus](ACTIVE_NOT_RECRUITING OR COMPLETED) AND (AREA[HasResults]true)'
 
         logger.info(f"Using simple API call with query: {query}")
         
@@ -154,31 +154,30 @@ class StudyCollector:
             for study in studies:
                 study_record = self._process_study(study, "simple_net_search")
                 if study_record:
-                    if study_record.publications_count > 0:
-                        # Studies with publications
-                        all_studies.append(study_record)
-                        logger.debug(f"Added study: {study_record.nct_id} - {study_record.title[:50]}...")
-                    else:
-                        # Studies without publications
-                        studies_without_publications.append(study_record)
-                        logger.debug(f"Filtered out study {study_record.nct_id} (no publications)")
+                    # Add all studies regardless of publication status
+                    all_studies.append(study_record)
+                    logger.debug(f"Added study: {study_record.nct_id} - {study_record.title[:50]}...")
                     
         except requests.exceptions.RequestException as e:
             logger.error(f"API request failed: {e}")
-            return [], [], query
+            return [], query
         except Exception as e:
             logger.error(f"Error in simple NET search: {e}")
-            return [], [], query
+            return [], query
         
         logger.info(f"Collected {len(all_studies)} studies using simple API call")
         
-        # Log filtering statistics
+        # Log statistics
         total_from_api = len(studies) if 'studies' in locals() else 0
-        filtered_out = len(studies_without_publications)
-        if filtered_out > 0:
-            logger.info(f"Filtered out {filtered_out} studies with no publications")
+        studies_with_publications = sum(1 for study in all_studies if study.publications_count > 0)
+        studies_without_publications = sum(1 for study in all_studies if study.publications_count == 0)
         
-        return all_studies, studies_without_publications, query
+        if studies_with_publications > 0:
+            logger.info(f"Studies with publications: {studies_with_publications}")
+        if studies_without_publications > 0:
+            logger.info(f"Studies without publications: {studies_without_publications}")
+        
+        return all_studies, query
     
     def _process_study(self, study: Dict, search_term: str) -> Optional[StudyRecord]:
         """Process a single study and convert to StudyRecord."""
@@ -280,15 +279,27 @@ class StudyCollector:
             query_safe = re.sub(r'[-\s]+', '_', query_safe).strip('_')[:50]  # Limit length
             query_suffix = f"_query_{query_safe}"
         
+        # Calculate statistics
+        studies_with_publications = [study for study in studies if study.publications_count > 0]
+        studies_without_publications = [study for study in studies if study.publications_count == 0]
+        
         # Save as JSON
         json_file = self.output_dir / f"{filename_prefix}{query_suffix}_{timestamp}.json"
-        studies_data = [asdict(study) for study in studies]
+        studies_data = []
+        
+        for study in studies:
+            study_dict = asdict(study)
+            # Add publication status flag
+            study_dict['has_publications_flag'] = study.publications_count > 0
+            studies_data.append(study_dict)
         
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "collection_date": datetime.now().isoformat(),
                 "search_query": query,
                 "total_studies": len(studies),
+                "studies_with_publications": len(studies_with_publications),
+                "studies_without_publications": len(studies_without_publications),
                 "studies": studies_data
             }, f, indent=2, ensure_ascii=False)
         
@@ -306,15 +317,20 @@ class StudyCollector:
     
     def _generate_text_report(self, studies: List[StudyRecord], output_file: Path, query: str = None):
         """Generate a human-readable text report of collected studies."""
+        studies_with_publications = [study for study in studies if study.publications_count > 0]
+        studies_without_publications = [study for study in studies if study.publications_count == 0]
+        
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write("="*80 + "\n")
             f.write("COLLECTED CLINICAL TRIALS REPORT\n")
             f.write("="*80 + "\n")
             f.write(f"Collection Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write(f"Total Studies: {len(studies)}\n")
+            f.write(f"Studies with Publications: {len(studies_with_publications)}\n")
+            f.write(f"Studies without Publications: {len(studies_without_publications)}\n")
             if query:
                 f.write(f"Search Query: {query}\n")
-            f.write(f"Filter Criteria: Studies with results posted from 2020 onwards, excluding Phase 1, with publications\n")
+            f.write(f"Filter Criteria: Neuroendocrine tumor studies, excluding Phase 1\n")
             f.write("-"*80 + "\n\n")
             
             for i, study in enumerate(studies, 1):
@@ -329,6 +345,7 @@ class StudyCollector:
                 f.write(f"   Completion Date: {study.completion_date}\n")
                 f.write(f"   Has Posted Results: {study.has_posted_results}\n")
                 f.write(f"   Publications Count: {study.publications_count}\n")
+                f.write(f"   Has Publications: {'Yes' if study.publications_count > 0 else 'No'}\n")
                 f.write(f"   Search Terms Matched: {', '.join(study.search_terms_matched)}\n")
                 f.write(f"   URL: {study.url}\n")
                 
@@ -360,33 +377,33 @@ def main():
     collector = StudyCollector(api, OUTPUT_DIR)
     
     logger.info("Starting NET study collection")
-    logger.info('Query: AREA[Condition](Neuroendocrine Tumors) AND NOT AREA[Phase]Phase 1 AND AREA[ResultsFirstPostDate]RANGE[01/01/2020, MAX]')
+    logger.info('Query will be dynamically set in collect_net_studies_simple method')
     
     # Collect studies using simple API call
     try:
         # Collect all studies with the specified query
-        studies, studies_without_publications, query_used = collector.collect_net_studies_simple()
+        studies, query_used = collector.collect_net_studies_simple()
         
         if studies:
-            logger.info(f"Collected {len(studies)} studies with publications")
+            # Calculate statistics
+            studies_with_publications = [study for study in studies if study.publications_count > 0]
+            studies_without_publications = [study for study in studies if study.publications_count == 0]
             
-            # Save the studies with publications
-            collector.save_studies(studies, "net_studies_with_publications", query_used)
+            logger.info(f"Collected {len(studies)} studies total")
+            logger.info(f"Studies with publications: {len(studies_with_publications)}")
+            logger.info(f"Studies without publications: {len(studies_without_publications)}")
+            
+            # Save all studies in one file
+            collector.save_studies(studies, "net_studies_all", query_used)
             
             print(f"\n" + "="*80)
             print("STUDY COLLECTION RESULTS")
             print("="*80)
-            print(f"Total studies with publications: {len(studies)}")
+            print(f"Total studies collected: {len(studies)}")
+            print(f"Studies with publications: {len(studies_with_publications)}")
+            print(f"Studies without publications: {len(studies_without_publications)}")
             
-        if studies_without_publications:
-            logger.info(f"Collected {len(studies_without_publications)} studies without publications")
-            
-            # Save the studies without publications
-            collector.save_studies(studies_without_publications, "net_studies_without_publications", query_used)
-            
-            print(f"Total studies without publications: {len(studies_without_publications)}")
-            
-        if studies or studies_without_publications:
+        if studies:
             # Study collection complete
             logger.info("Study collection completed successfully")
             
@@ -394,17 +411,18 @@ def main():
             print("\n" + "="*80)
             print("NET STUDY COLLECTION SUMMARY")
             print("="*80)
-            print(f"Total studies with publications: {len(studies)}")
-            print(f"Total studies without publications: {len(studies_without_publications)}")
-            print(f"Total studies from API: {len(studies) + len(studies_without_publications)}")
+            print(f"Total studies: {len(studies)}")
+            print(f"Studies with publications: {len(studies_with_publications)}")
+            print(f"Studies without publications: {len(studies_without_publications)}")
             print(f'Query used: {query_used}')
             print(f"Results saved to: {OUTPUT_DIR}")
             
-            # Show some statistics for studies with publications
+            # Show some statistics
             if studies:
                 status_counts = {}
                 phase_counts = {}
                 results_counts = {"has_results": 0, "no_results": 0}
+                publication_counts = {"with_publications": 0, "without_publications": 0}
                 
                 for study in studies:
                     status_counts[study.status] = status_counts.get(study.status, 0) + 1
@@ -413,18 +431,27 @@ def main():
                         results_counts["has_results"] += 1
                     else:
                         results_counts["no_results"] += 1
+                    
+                    if study.publications_count > 0:
+                        publication_counts["with_publications"] += 1
+                    else:
+                        publication_counts["without_publications"] += 1
                 
-                print(f"\nStatus distribution (studies WITH publications):")
+                print(f"\nStatus distribution:")
                 for status, count in sorted(status_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
                     print(f"  {status}: {count}")
                 
-                print(f"\nPhase distribution (studies WITH publications):")
+                print(f"\nPhase distribution:")
                 for phase, count in sorted(phase_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
                     print(f"  {phase}: {count}")
                     
-                print(f"\nResults availability (studies WITH publications):")
+                print(f"\nResults availability:")
                 print(f"  Studies with posted results: {results_counts['has_results']}")
                 print(f"  Studies without posted results: {results_counts['no_results']}")
+                
+                print(f"\nPublication availability:")
+                print(f"  Studies with publications: {publication_counts['with_publications']}")
+                print(f"  Studies without publications: {publication_counts['without_publications']}")
             
             print("="*80)
             

@@ -1,0 +1,317 @@
+================================================================================
+CLINICAL TRIALS PUBLICATION FILTER REPORT
+================================================================================
+Filter Date: 2025-07-22 15:29:55
+Total Studies Analyzed: 37
+Studies Kept: 37
+Studies Removed: 0
+--------------------------------------------------------------------------------
+
+ANALYSIS STATISTICS:
+Studies with listed publications: 13
+Studies with results publications: 6
+Studies with posted results on ClinicalTrials.gov: 37
+Web searches performed: 31
+Studies with additional publications found: 0
+
+--------------------------------------------------------------------------------
+
+KEPT STUDIES (37):
+==================================================
+1. Study to Assess the Efficacy and Safety of Lanreotide Autogel® in Chinese Participants With GEP-NETs
+   NCT ID: NCT04852679
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+2. Phase II Study of Pembrolizumab and Lenvatinib in Advanced Well-differentiated Neuroendocrine Tumors
+   NCT ID: NCT03290079
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+3. Carfilzomib for the Treatment of Patients With Advanced Neuroendocrine Cancers
+   NCT ID: NCT02318784
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+4. Dosimetry-Guided, Peptide Receptor Radiotherapy (PRRT) With 90Y-DOTA- tyr3-Octreotide (90Y-DOTATOC)
+   NCT ID: NCT03273712
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+5. Open Label Extension Study of Conatumumab and Ganitumab (AMG 479)
+   NCT ID: NCT01327612
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+6. Cabozantinib and Nivolumab for Carcinoid Tumors
+   NCT ID: NCT04197310
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+7. RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)
+   NCT ID: NCT02489903
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   Analysis: Found 2 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 33569311; PMID: 31231122
+----------------------------------------
+8. Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors
+   NCT ID: NCT01782443
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 36395401
+----------------------------------------
+9. Randomized Trial of Topotecan With M6620, an ATR Kinase Inhibitor, in Small Cell Lung Cancers and Small Cell Cancers Outside of the Lungs
+   NCT ID: NCT03896503
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+10. Pembrolizumab-based Therapy in Previously Treated High Grade Neuroendocrine Carcinomas
+   NCT ID: NCT03136055
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+11. AMT-PET in Monitoring Telotristat Etiprate Treatment in Participants With MetastaticNeuroendocrine Neoplasm
+   NCT ID: NCT03453489
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+12. Impact of Ga-68 DOTATOC PET-CT Imaging in Management of Neuroendocrine Tumors
+   NCT ID: NCT02441062
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 23587853
+----------------------------------------
+13. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT03375320
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 33152282
+----------------------------------------
+14. A Phase II Study of Ramucirumab With Somatostatin Analog Therapy in Patients With Advanced, Progressive Carcinoid Tumors
+   NCT ID: NCT02795858
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+15. A Study of LEE011 With Everolimus in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT03070301
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 33640871
+----------------------------------------
+16. Trial of Cabozantinib Plus Atezolizumab in Advanced and Progressive Neoplasms of the Endocrine System. The CABATEN Study
+   NCT ID: NCT04400474
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+17. Next Generation Sequencing-Based Stratification of Front Line Treatment of HighGrade Neuroendocrine Carcinoma
+   NCT ID: NCT04452292
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 34141612
+----------------------------------------
+18. Dual-Tracer Theranostic PET
+   NCT ID: NCT05680675
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+19. Nutrition in Gastroenteropancreatic Neuroendocrine Tumor
+   NCT ID: NCT04986085
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+20. Cabozantinib in Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT01466036
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+21. Theranostics of Radiolabeled Somatostatin Antagonists 68Ga-DOTA-JR11 and 177Lu-DOTA-JR11 in Patients With Neuroendocrine Tumors
+   NCT ID: NCT02609737
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+22. Post-Authorization Safety Study (PASS) of LysaKare® in Adult Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET) Patients
+   NCT ID: NCT04524442
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+23. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+   NCT ID: NCT03034200
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   Analysis: Found 8 listed publication(s); Listed publications appear to contain results
+   Sources: PMID: 23390247; PMID: 25927855; PMID: 25681273; PMID: 27602582; PMID: 29626752
+----------------------------------------
+24. The Safety And Efficacy Of Sunitinib In Chinese Patients With Progressive Advanced Or Metastatic Well-Differentiated Unresectable Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT02282059
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+25. Testing Two Oral Drugs Combination (Cediranib and Olaparib) Compared to a Single Drug (Olaparib) for Men With Advanced Prostate Cancer
+   NCT ID: NCT02893917
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results
+   Sources: PMID: 36256912
+----------------------------------------
+26. Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET
+   NCT ID: NCT03972488
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 2
+   Analysis: Found 2 listed publication(s); Listed publications appear to contain results
+   Sources: PMID: 38851203
+----------------------------------------
+27. Study to Allow Access to Pasireotide for Patients Benefiting From Pasireotide Treatment in Novartis-sponsored Studies
+   NCT ID: NCT01794793
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+28. Real-world Evidence Study EvaLuating PAtient-Reported Outcomes With XERMELO
+   NCT ID: NCT03223428
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results
+   Sources: PMID: 36262750
+----------------------------------------
+29. Study of Pasireotide Long Acting Release (LAR) in Patients With Metastatic Neuroendocrine Tumors (NETs)
+   NCT ID: NCT01253161
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Web search performed; No publications with results found
+   Sources: PMID: 25376618
+----------------------------------------
+30. 3-arm Trial to Evaluate Pasireotide LAR/Everolimus Alone/in Combination in Patients With Lung/Thymus NET - LUNA Trial
+   NCT ID: NCT01563354
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results
+   Sources: PMID: 29074099
+----------------------------------------
+31. Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs
+   NCT ID: NCT04711135
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+32. A Study to Evaluate Patient Experience in the Therapy of Neuroendocrine Tumors Treated With Octreotide Long Acting Release Versus Lanreotide
+   NCT ID: NCT03289741
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results
+   Sources: PMID: 35724357
+----------------------------------------
+33. Sapanisertib in Treating Patients With Metastatic or Refractory Pancreatic Neuroendocrine Tumor That Cannot Be Removed by Surgery
+   NCT ID: NCT02893930
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+34. Platinum-doublet Chemotherapy and Nivolumab for the Treatment of Subjects With Neuroendocrine Neoplasms (NENs) of the Gastroenteropancreatic (GEP) Tract or of Unknown (UK) Origin.
+   NCT ID: NCT03980925
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+35. Regorafenib in Treating Patients With Advanced or Metastatic Neuroendocrine Tumors
+   NCT ID: NCT02259725
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+36. Phase IV Study of the Safety and Efficacy of Everolimus in Adult Patients With Progressive pNET in China
+   NCT ID: NCT02842749
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+37. Sequentiality of Everolimus and STZ-5FU in Advanced Pancreatic Neuroendocrine Tumor
+   NCT ID: NCT02246127
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   Analysis: Web search performed; No publications with results found
+   Sources: 
+----------------------------------------
+
