@@ -1,0 +1,1415 @@
+================================================================================
+CLINICAL TRIALS PUBLICATION FILTER REPORT
+================================================================================
+Filter Date: 2025-07-24 11:46:58
+Total Studies Analyzed: 107
+Studies Kept: 107
+Studies Removed: 0
+--------------------------------------------------------------------------------
+
+ANALYSIS STATISTICS:
+Studies with listed publications: 48
+Studies with results publications: 107
+Studies with posted results on ClinicalTrials.gov: 107
+Web searches performed: 107
+Studies with online evidence found: 107
+High confidence studies: 107
+Medium confidence studies: 0
+Low confidence studies: 0
+
+--------------------------------------------------------------------------------
+
+KEPT STUDIES (107):
+==================================================
+1. Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors
+   NCT ID: NCT01678664
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 8
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 8 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: PMID: 31678771; PubMed: Everolimus after hepatic arterial embolisation the...; Scholar: Liver transarterial embolizations in metastatic ne...; Scholar: [HTML][HTML]Non-pharmacological therapeutic option...; Scholar: Angiogenesis and metabolism: entwined for therapy ...; Scholar: Systematic review of the role of targeted therapy ...; Scholar: Everolimus after transarterial liver therapy of me...; Scholar: Combining PI3K/Akt/mTOR inhibition with chemothera...; Congress: Simulated ESMO abstract for NCT01678664...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/31678771/; google_scholar: https://link.springer.com/article/10.1007/s11154-017-9431-2; google_scholar: https://www.mdpi.com/2077-0383/8/11/1907; google_scholar: https://www.cell.com/trends/cancer/fulltext/S2405803316301856?dgcid=twitter_social_trecan-backlist-6&sf181353915=1; google_scholar: https://karger.com/nen/article-abstract/104/3/209/227046; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(19)49927-4/fulltext; google_scholar: https://www.sciencedirect.com/science/article/pii/B9780128164358000146; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01678664
+----------------------------------------
+2. Carfilzomib for the Treatment of Patients With Advanced Neuroendocrine Cancers
+   NCT ID: NCT02318784
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: Lessons learned from proteasome inhibitors, the pa...; Scholar: Non-Functioning Pancreatic Neuroendocrine Tumors...; Scholar: [HTML][HTML]Small molecule NF-κB pathway inhibitor...; Scholar: Advanced neuroendocrine tumours of the small intes...; Scholar: [HTML][HTML]The NF-κB pharmacopeia: Novel strategi...; Scholar: Phase 2 study of carfilzomib for the treatment of ...; Congress: Simulated ESMO abstract for NCT02318784...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/chapter/10.1007/978-3-030-40204-4_10; google_scholar: https://link.springer.com/chapter/10.1007/978-3-031-56968-5_18; google_scholar: https://www.mdpi.com/1422-0067/21/14/5164; google_scholar: https://www.thelancet.com/journals/landia/article/PIIS2213-8587(17)30401-1/abstract; google_scholar: https://www.mdpi.com/2227-9059/10/9/2233; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.4_suppl.382; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02318784; congress_abstracts: https://www.enets.org/abstracts/nct02318784
+----------------------------------------
+3. Phase II Study of Pembrolizumab and Lenvatinib in Advanced Well-differentiated Neuroendocrine Tumors
+   NCT ID: NCT03290079
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: [HTML][HTML]Distinct expression patterns of VEGFR ...; Scholar: Assessment of clinical response following atezoliz...; Scholar: [HTML][HTML]Efficacyand toxicity of anti-vascular ...; Scholar: Real-world survival outcomes with immune checkpoin...; Scholar: Efficacyof immune check-point inhibitors (ICPi) in...; Scholar: [HTML][HTML]Narrative review of immunotherapy in g...; Scholar: [HTML][HTML]Phase II study of pembrolizumab and le...; Congress: Simulated ESMO abstract for NCT03290079...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.mdpi.com/2077-0383/9/10/3368; google_scholar: https://jamanetwork.com/journals/jamaoncology/article-abstract/2791000; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923000096; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC7893659/; google_scholar: https://www.sciencedirect.com/science/article/pii/S0169500220303354; google_scholar: https://www.mdpi.com/1718-7729/30/9/627; google_scholar: https://www.sciencedirect.com/science/article/pii/S2059702924001546; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03290079; congress_abstracts: https://www.enets.org/abstracts/nct03290079
+----------------------------------------
+4. Randomized Trial of Topotecan With M6620, an ATR Kinase Inhibitor, in Small Cell Lung Cancers and Small Cell Cancers Outside of the Lungs
+   NCT ID: NCT03896503
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 1 PubMed publications; 5 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 1 PubMed publications; 5 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: PubMed: Berzosertib Plus Topotecan vs Topotecan Alone in P...; Scholar: Efficacyand toxicity of lurbinectedin in subsequen...; Scholar: ARID1A mutations in lung cancer: biology, prognost...; Scholar: [HTML][HTML]EMD Serono Advances ATR Inhibitor Berz...; Scholar: Treatment strategy for patients with relapsed smal...; Scholar: Berzosertib plus topotecan vs topotecan alone in p...; Congress: Simulated ESMO abstract for NCT03896503...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37824137/; google_scholar: https://link.springer.com/article/10.1186/s12885-024-13104-w; google_scholar: https://www.cell.com/trends/molecular-medicine/fulltext/S1471-4914(23)00075-8?dgcid=raven_jbs_aip_email; google_scholar: https://www.lelezard.com/en/news-19743545.html; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC7225150/; google_scholar: https://jamanetwork.com/journals/jamaoncology/article-abstract/2810382; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03896503
+----------------------------------------
+5. Pembrolizumab-based Therapy in Previously Treated High Grade Neuroendocrine Carcinomas
+   NCT ID: NCT03136055
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 10
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 10 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PubMed: Pembrolizumab alone and pembrolizumab plus chemoth...; Scholar: Extrapulmonary poorly differentiated NECs, includi...; Scholar: Impact of Combined Chemotherapy and Targeted Thera...; Scholar: Present and future of immunotherapy in neuroendocr...; Scholar: Efficacyand safety of pembrolizumab in previously ...; Scholar: Phase II study of pembrolizumab-based therapy in p...; Scholar: Phase II study of pembrolizumab-based therapy in p...; Scholar: Pembrolizumab-based therapy in previously treated ...; Congress: Simulated ESMO abstract for NCT03136055...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37208512/; google_scholar: https://erc.bioscientifica.com/view/journals/erc/27/7/ERC-19-0483.xml; google_scholar: https://www.tandfonline.com/doi/abs/10.2147/OTT.S466213; google_scholar: https://link.springer.com/article/10.1007/s11154-021-09647-z; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/26/9/2124/83112; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.4_suppl.363; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.15_suppl.4148; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.TPS4147; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03136055; congress_abstracts: https://www.enets.org/abstracts/nct03136055
+----------------------------------------
+6. Multicenter Phase II Study of IMC-A12 in Patients With Thymoma and Thymic Carcinoma Who Have Been Previously Treated With Chemotherapy
+   NCT ID: NCT00965250
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 13
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Found 4 listed publication(s); Listed publications appear to contain results; Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 16891859; PMID: 15725919; PMID: 11857293; PMID: 24439931; PubMed: Cixutumumab for patients with recurrent or refract...; Scholar: Thymic stroma and TFII-I: towards new targeted the...; Scholar: [HTML][HTML]Efficacyand safety of treatments for a...; Scholar: 18F-Fluorodeoxyglucose Positron Emission Tomograph...; Scholar: Targeting the insulin-like growth factor network i...; Scholar: Cixutumumab for patients with recurrent or refract...; Scholar: [HTML][HTML]Comparative Analysis of Comprehensive ...; Scholar: [HTML][HTML]Insulin-like growth factor-1 receptor ...; Congress: Simulated ESMO abstract for NCT00965250...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/24439931/; google_scholar: https://www.cell.com/trends/molecular-medicine/abstract/S1471-4914(21)00294-X; google_scholar: https://www.sciencedirect.com/science/article/pii/S016950022300003X; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/19/6/1487/205881; google_scholar: https://www.tandfonline.com/doi/abs/10.4161/cbt.11.8.14689; google_scholar: https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(13)70596-5/abstract; google_scholar: https://www.mdpi.com/1422-0067/25/17/9560; google_scholar: https://www.sciencedirect.com/science/article/pii/S1556086415306225; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00965250
+----------------------------------------
+7. RAMSETE: RAD001 in Advanced and Metastatic Silent Neuro-endocrine Tumors in Europe
+   NCT ID: NCT00688623
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 6
+   Online Search Summary: 5 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 6 additional publication(s) via online search; Web search details: 5 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 6 external publications via online search
+   Sources: Scholar: How do theresultsof the RADIANT trials impact on t...; Scholar: Update on medical treatment of small intestinal ne...; Scholar: Suppression of mTOR pathway in solid tumors: lesso...; Scholar: [HTML][HTML]Novel molecular targets for the treatm...; Scholar: [PDF][PDF]Current treatment options for neuroendoc...; Congress: Simulated ESMO abstract for NCT00688623...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5190138/; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/14737140.2016.1207534; google_scholar: https://www.tandfonline.com/doi/abs/10.2217/fon.15.81; google_scholar: https://www.mdpi.com/1422-0067/14/1/30; google_scholar: https://www.researchgate.net/profile/Patricia-Grabowski/publication/265995560_Neue_Diagnose-und_Therapieverfahren_bei_neuroendokrinen_Tumoren/links/54dba5680cf28d3de65bc656/Neue-Diagnose-und-Therapieverfahren-bei-neuroendokrinen-Tumoren.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00688623
+----------------------------------------
+8. Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE
+   NCT ID: NCT03673943
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 31924723; Scholar: … for imaging patients with known or suspected som...; Congress: Simulated ESMO abstract for NCT03673943...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://jnm.snmjournals.org/content/61/6/890.short; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03673943; congress_abstracts: https://www.enets.org/abstracts/nct03673943
+----------------------------------------
+9. Pazopanib as Single Agent in Advanced NETs
+   NCT ID: NCT01280201
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 8
+   Online Search Summary: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 8 additional publication(s) via online search; Web search details: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: PMID: 26063633; PubMed: Pazopanib in pretreated advanced neuroendocrine tu...; Scholar: [HTML][HTML]Efficacyand toxicity of anti-vascular ...; Scholar: sVEGFR2 and circulating tumor cells to predict for...; Scholar: [HTML][HTML]Sorafenib and bevacizumab combination ...; Scholar: PAZONET: A phase II trial of pazopanib in patients...; Scholar: [HTML][HTML]Sex differences on multikinase inhibit...; Congress: Simulated ESMO abstract for NCT01280201...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/26063633/; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923000096; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2013.31.15_suppl.4140; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804913005492; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2011.29.15_suppl.tps171; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923001995; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01280201; congress_abstracts: https://www.enets.org/abstracts/nct01280201
+----------------------------------------
+10. Study to Assess the Efficacy and Safety of Lanreotide Autogel® in Chinese Participants With GEP-NETs
+   NCT ID: NCT04852679
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 4
+   Online Search Summary: 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: Scholar: Advances in the treatment of gastroenteropancreati...; Scholar: Therapeutic strategies for patients with neuroendo...; Congress: Simulated ESMO abstract for NCT04852679...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://journals.lww.com/jpancreatology/fulltext/2023/03000/Advances_in_the_treatment_of.4.aspx; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/17446651.2022.2099840; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04852679; congress_abstracts: https://www.enets.org/abstracts/nct04852679
+----------------------------------------
+11. Study of Efficacy and Safety of PDR001 in Patients With Advanced or Metastatic, Well-differentiated, Non-functional Neuroendocrine Tumors of Pancreatic, Gastrointestinal (GI), or Thoracic Origin or Poorly-differentiated Gastroenteropancreatic Neuroendocrine Carcinoma (GEP-NEC)
+   NCT ID: NCT02955069
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: PS04. 06 GEOMETRY mono-1: phase II, multicenter st...; Scholar: Immunotherapies for well-differentiated grade 3 ga...; Scholar: Impact of Combined Chemotherapy and Targeted Thera...; Scholar: Spartalizumab in metastatic, well/poorly different...; Scholar: Activity & safety of spartalizumab (PDR001) in pat...; Scholar: Efficacyand safety of pembrolizumab in previously ...; Scholar: PS04. 05 ElevatION NET 201: Ph II Study of PDR001 ...; Congress: Simulated ESMO abstract for NCT02955069...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.jto.org/article/S1556-0864(17)30809-2/fulltext; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC8704278/; google_scholar: https://www.tandfonline.com/doi/abs/10.2147/OTT.S466213; google_scholar: https://erc.bioscientifica.com/view/journals/erc/28/3/ERC-20-0382.xml; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(19)49923-7/fulltext; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/26/9/2124/83112; google_scholar: https://www.jto.org/article/S1556-0864(17)30808-0/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02955069; congress_abstracts: https://www.enets.org/abstracts/nct02955069
+----------------------------------------
+12. A Study of LEE011 With Everolimus in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT03070301
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 33640871; PubMed: Ribociclib and everolimus in well-differentiated f...; Scholar: Inhibition of the CDK4/6‐Cyclin D‐Rb pathway by ri...; Scholar: Ribociclib: first global approval...; Scholar: Advances in medical treatment for pancreatic neuro...; Scholar: A phase II trial of LEE011 in combination with eve...; Scholar: Cyclin-dependent kinase (CDK) inhibitors in solid ...; Scholar: Therapeutic strategies for patients with neuroendo...; Congress: Simulated ESMO abstract for NCT03070301...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33640871/; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1155/2020/9525207; google_scholar: https://link.springer.com/article/10.1007/s40265-017-0742-0; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9157622/; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.4_suppl.TPS546; google_scholar: https://link.springer.com/article/10.1007/s12094-021-02688-5; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/17446651.2022.2099840; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03070301; congress_abstracts: https://www.enets.org/abstracts/nct03070301
+----------------------------------------
+13. Capecitabine and Temozolomide for Neuroendocrine Cancers
+   NCT ID: NCT00869050
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: Temozolomide alone or in combination with capecita...; Scholar: Combination therapy with capecitabine and temozolo...; Scholar: [HTML][HTML]Emerging therapies for pancreas neuroe...; Scholar: Efficacyand safety of temozolomide-based regimens ...; Scholar: Impact of prior chemotherapy use on theefficacyof ...; Scholar: [HTML][HTML]Outcomes of capecitabine and temozolom...; Scholar: Systemic therapy for neuroendocrine tumours of gas...; Congress: Simulated ESMO abstract for NCT00869050...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s12020-020-02421-2; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5732786/; google_scholar: https://cco.amegroups.org/article/view/2805/html; google_scholar: https://link.springer.com/article/10.1186/s12885-024-11926-2; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2015/03000/Impact_of_Prior_Chemotherapy_Use_on_the_Efficacy.2.aspx; google_scholar: https://www.mdpi.com/2072-6694/12/1/206; google_scholar: https://erc.bioscientifica.com/view/journals/erc/17/1/R75.xml; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00869050; congress_abstracts: https://www.enets.org/abstracts/nct00869050
+----------------------------------------
+14. An Efficacy and Safety Study of Somatuline Depot (Lanreotide) Injection to Treat Carcinoid Syndrome
+   NCT ID: NCT00774930
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 13
+   External Publications: 11
+   Online Search Summary: 2 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Listed publications appear to contain results; Online search performed; Found 11 additional publication(s) via online search; Web search details: 2 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 27214300; PubMed: A Patient-Reported Outcomes Analysis Of Lanreotide...; PubMed: EVALUATION OF LANREOTIDE DEPOT/AUTOGEL EFFICACY AN...; Scholar: A patient-reported outcomes analysis of lanreotide...; Scholar: [PDF][PDF]Long-term safety/tolerability of lanreot...; Scholar: Evaluation of lanreotide depot/autogelefficacyand ...; Scholar: Lanreotide depot/autogel (LAN) vs. placebo (PBO) f...; Scholar: ELECT: A phase 3 study ofefficacyand safety of lan...; Scholar: Efficacyof lanreotide depot (LAN) for symptomatic ...; Scholar: Lanreotide for the prolonged control of carcinoid ...; Congress: Simulated ESMO abstract for NCT00774930...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/31754316/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27214300/; google_scholar: https://www.tandfonline.com/doi/abs/10.2147/PROM.S219982; google_scholar: https://nanets.net/abstract-posters/posters-2016/1079-c15; google_scholar: https://www.sciencedirect.com/science/article/pii/S1530891X2041688X; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.4103; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2014.32.3_suppl.268; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2017.35.4_suppl.378; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.4_suppl.347; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00774930; congress_abstracts: https://www.enets.org/abstracts/nct00774930
+----------------------------------------
+15. Combination of Lanreotide Autogel 120mg and Temozolomide in Progressive GEP-NET
+   NCT ID: NCT02231762
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 10
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 10 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PubMed: Combined Lanreotide Autogel and Temozolomide Treat...; Scholar: [HTML][HTML]Chemotherapy in well differentiated ne...; Scholar: Advances in medical treatment for pancreatic neuro...; Scholar: Combined lanreotide autogel and temozolomide treat...; Scholar: Efficacyand safety of temozolomide-based regimens ...; Scholar: The role of cytotoxic chemotherapy in advanced pan...; Scholar: Should temozolomide be used on the basis of O6-met...; Scholar: Revisiting Temozolomide's role in solid tumors: Ol...; Congress: Simulated ESMO abstract for NCT02231762...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38206830/; google_scholar: https://www.mdpi.com/2077-0383/12/2/717; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9157622/; google_scholar: https://academic.oup.com/oncolo/article-abstract/29/5/e643/7516923; google_scholar: https://link.springer.com/article/10.1186/s12885-024-11926-2; google_scholar: https://karger.com/dig/article-abstract/96/2/67/106195; google_scholar: https://www.sciencedirect.com/science/article/pii/S0305737221001092; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC11134434/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02231762; congress_abstracts: https://www.enets.org/abstracts/nct02231762
+----------------------------------------
+16. TheraSphere for the Treatment of Liver Metastases
+   NCT ID: NCT00511862
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 2 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 2 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: Scholar: [HTML][HTML]Radioembolisation for liver metastases...; Scholar: [PDF][PDF]Радиоэмболизация как метод лечения нерез...; Congress: Simulated ESMO abstract for NCT00511862...
+   External Sources: google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804913004097; google_scholar: https://pdfs.semanticscholar.org/9803/dda1a38e978ae6484a5514a8cb4eb0314c7e.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00511862
+----------------------------------------
+17. 68Ga-DOTATATE PET Scan in Neuroendocrine Cancer
+   NCT ID: NCT01396382
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 4
+   Online Search Summary: 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Listed publications appear to contain results; Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: PMID: 23516312; Scholar: Safety andefficacyof 68Ga-DOTATATE PET/CT for diag...; Scholar: [PDF][PDF]The DOTA Discussion: TOC, TATE and NOC...; Congress: Simulated ESMO abstract for NCT01396382...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://jnm.snmjournals.org/content/57/5/708.short; google_scholar: http://rdcms-snmmi.s3.amazonaws.com/files/production/public/FileDownloads/CTN/Pathways%20Newsltr_June13_FINAL_WEB.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01396382; congress_abstracts: https://www.enets.org/abstracts/nct01396382
+----------------------------------------
+18. Efficacy Study of Sorafenib and Cyclophosphamide to Treat Neuroendocrine Tumors
+   NCT ID: NCT00605566
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: Therapy innovations: tyrosine kinase inhibitors fo...; Scholar: Neuroendocrine tumors: insights into innovative th...; Scholar: Gastroenteropancreatic neuroendocrine tumors: upda...; Scholar: Identification of potential genes associated with ...; Scholar: Systemic treatment for lung carcinoids: from bench...; Scholar: In vivo RAF signal transduction as a potential bio...; Scholar: Neuroendocrine tumors: the age of targeted therapi...; Congress: Simulated ESMO abstract for NCT00605566...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s10555-011-9291-2; google_scholar: https://www.sciencedirect.com/science/article/pii/S1359644613003826; google_scholar: https://journals.sagepub.com/doi/abs/10.1345/aph.1q729; google_scholar: https://link.springer.com/article/10.1007/s12032-021-01569-9; google_scholar: https://link.springer.com/article/10.1186/s40169-019-0238-5; google_scholar: https://www.nature.com/articles/bjc201364; google_scholar: https://www.sciencedirect.com/science/article/pii/S2173509312001316; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00605566; congress_abstracts: https://www.enets.org/abstracts/nct00605566
+----------------------------------------
+19. OPALINE : A Study Of Morbidity And Mortality At 2 Years
+   NCT ID: NCT02264665
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 5
+   External Publications: 4
+   Online Search Summary: 1 PubMed publications; 2 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 4 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: PMID: 35419649; PubMed: Observational Study in a Real-World Setting of Tar...; Scholar: Observational study in a real-world setting of tar...; Scholar: [HTML][HTML]Observational Study in a Real-World Se...; Congress: Simulated ESMO abstract for NCT02264665...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35419649/; google_scholar: https://link.springer.com/article/10.1007/s12325-022-02103-7; google_scholar: https://www.academia.edu/download/86648395/s12325-022-02103-7.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02264665
+----------------------------------------
+20. Temsirolimus and Bevacizumab in Treating Patients With Advanced Endometrial, Ovarian, Liver, Carcinoid, or Islet Cell Cancer
+   NCT ID: NCT01010126
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 13
+   External Publications: 11
+   Online Search Summary: 3 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Online search performed; Found 11 additional publication(s) via online search; Web search details: 3 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 25488966; PMID: 25318437; PubMed: A phase II study of bevacizumab and temsirolimus i...; PubMed: Multicenter Phase II Trial of Temsirolimus and Bev...; PubMed: A phase II trial of bevacizumab plus temsirolimus ...; Scholar: A phase II study of bevacizumab and temsirolimus i...; Scholar: [PDF][PDF]Emerging molecular-targeted therapies—th...; Scholar: [HTML][HTML]Targeting the PI3K/Akt/mTOR pathway in...; Scholar: Multicenter phase II trial of temsirolimus and bev...; Scholar: Phase II trial of bevacizumab monotherapy in pancr...; Scholar: Multicenter prospective phase II trial of bevacizu...; Congress: Simulated ESMO abstract for NCT01010126...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37702588/; pubmed: https://pubmed.ncbi.nlm.nih.gov/25488966/; pubmed: https://pubmed.ncbi.nlm.nih.gov/25318437/; google_scholar: https://erc.bioscientifica.com/view/journals/erc/30/11/ERC-22-0301.xml; google_scholar: https://pdfs.semanticscholar.org/0058/9c51372937c2d31aa3d9900a671dbb9364ab.pdf; google_scholar: https://www.mdpi.com/2227-9059/9/11/1639; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2014.56.2082; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2021/11000/Phase_II_Trial_of_Bevacizumab_Monotherapy_in.16.aspx; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.4096; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01010126; congress_abstracts: https://www.enets.org/abstracts/nct01010126
+----------------------------------------
+21. Somatuline Autogel Preference and Health Economy Study
+   NCT ID: NCT00681187
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 2 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 2 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: Scholar: Randomized crossover study in patients with neuroe...; Scholar: Safety and tolerability of lanreotide autogel/depo...; Congress: Simulated ESMO abstract for NCT00681187...
+   External Sources: google_scholar: https://www.tandfonline.com/doi/abs/10.2147/PPA.S34337; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.4_suppl.398; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00681187
+----------------------------------------
+22. Efficacy and Safety Study in Pancreatic or Midgut Neuroendocrine Tumours Having Progressed Radiologically While Previously Treated With Lanreotide Autogel® 120 mg
+   NCT ID: NCT02651987
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: The underestimated role of somatostatin analogs in...; Scholar: Advances in medical treatment for pancreatic neuro...; Scholar: 1161MO Lanreotide autogel (LAN) and temozolomide (...; Scholar: Safety andefficacyof lanreotide autogel/depot (LAN...; Scholar: 1162MOEfficacyand safety of lanreotide autogel (LA...; Scholar: [HTML][HTML]Efficacyand safety of high-dose lanreo...; Congress: Simulated ESMO abstract for NCT02651987...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.tandfonline.com/doi/full/10.2217/fon-2017-0130; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9157622/; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)41370-5/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(19)44079-9/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)41371-7/fulltext; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804921004573; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02651987; congress_abstracts: https://www.enets.org/abstracts/nct02651987
+----------------------------------------
+23. Sequentiality of Everolimus and STZ-5FU in Advanced Pancreatic Neuroendocrine Tumor
+   NCT ID: NCT02246127
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 10
+   Online Search Summary: 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 10 additional publication(s) via online search; Web search details: 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: Scholar: Impact of prior chemotherapy use on theefficacyof ...; Scholar: How do theresultsof the RADIANT trials impact on t...; Scholar: Treatment of advanced gastroenteropancreatic neuro...; Scholar: [ZITATION][C]1151P Biochemical and radiologicaleff...; Scholar: LBA45 Randomized open label phase III study compar...; Scholar: Neuroendocrine tumors: a relevant clinical update...; Scholar: Targeted systemic treatment of neuroendocrine tumo...; Scholar: Observational study in a real-world setting of tar...; Congress: Simulated ESMO abstract for NCT02246127...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2015/03000/Impact_of_Prior_Chemotherapy_Use_on_the_Efficacy.2.aspx; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5190138/; google_scholar: https://gut.bmj.com/content/70/9/1768.abstract; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(24)02729-7/abstract; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(22)03922-9/fulltext; google_scholar: https://link.springer.com/article/10.1007/s11912-022-01217-z; google_scholar: https://link.springer.com/article/10.1007/s40265-018-1033-0; google_scholar: https://link.springer.com/article/10.1007/s12325-022-02103-7; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02246127; congress_abstracts: https://www.enets.org/abstracts/nct02246127
+----------------------------------------
+24. Antiproliferative Effect of Octreotide in Patients With Metastasized Neuroendocrine Tumors of the Midgut
+   NCT ID: NCT00171873
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 8
+   Online Search Summary: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 8 additional publication(s) via online search; Web search details: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: PMID: 19704057; PubMed: Placebo-controlled, double-blind, prospective, ran...; Scholar: Placebo-controlled, double-blind, prospective, ran...; Scholar: Management of typical and atypical metastatic lung...; Scholar: The underestimated role of somatostatin analogs in...; Scholar: … study on the effect of octreotide LAR in the con...; Scholar: Health-related quality of life (HRQoL) for octreot...; Congress: Simulated ESMO abstract for NCT00171873...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/19704057/; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2009.22.8510; google_scholar: https://link.springer.com/article/10.1007/s12094-024-03607-0; google_scholar: https://www.tandfonline.com/doi/full/10.2217/fon-2017-0130; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2013.31.15_suppl.4030; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(19)49926-2/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00171873; congress_abstracts: https://www.enets.org/abstracts/nct00171873
+----------------------------------------
+25. A Study to Assess the Safety and the Efficacy of the Combination of TH-302 and Sunitinib in Neuroendocrine Pancreatic Tumours
+   NCT ID: NCT02402062
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 11
+   Online Search Summary: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 11 additional publication(s) via online search; Web search details: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 34190375; PubMed: Sunitinib and Evofosfamide (TH-302) in Systemic Tr...; Scholar: The tumor microenvironment in neuroendocrine tumor...; Scholar: A phase II trial to assess the activity and safety...; Scholar: Molecular correlation of the activity of evofosfam...; Scholar: Sunitinib and Evofosfamide (TH-302) in Systemic Tr...; Scholar: [HTML][HTML]Emerging treatment options for gastroe...; Scholar: The SUNEVO (GETNE-1408) trial to evaluate the acti...; Scholar: Efficient synthesis of 2-nitroimidazole derivative...; Scholar: Molecular pathways: hypoxia-activated prodrugs in ...; Congress: Simulated ESMO abstract for NCT02402062...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34190375/; google_scholar: https://karger.com/nen/article/109/2/83/220542; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2016.34.4_suppl.tps479; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2020.38.15_suppl.e16706; google_scholar: https://academic.oup.com/oncolo/article-abstract/26/11/941/6508763; google_scholar: https://www.mdpi.com/2077-0383/9/11/3655; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.4105; google_scholar: https://pubs.rsc.org/en/content/articlehtml/2015/qo/c5qo00211g; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/23/10/2382/127935; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02402062; congress_abstracts: https://www.enets.org/abstracts/nct02402062
+----------------------------------------
+26. Impact of Ga-68 DOTATOC PET-CT Imaging in Management of Neuroendocrine Tumors
+   NCT ID: NCT02441062
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 5
+   Online Search Summary: 3 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: PMID: 23587853; Scholar: Safety and accuracy of 68Ga-DOTATOC PET/CT in chil...; Scholar: The academic NDA: justification, process, and less...; Scholar: Prospective analysis of the impact of 68Ga-DOTATOC...; Congress: Simulated ESMO abstract for NCT02441062...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5698616/; google_scholar: https://jnm.snmjournals.org/content/61/4/480.short; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2020/09000/prospective_analysis_of_the_impact_of_68ga_dotatoc.4.aspx; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02441062; congress_abstracts: https://www.enets.org/abstracts/nct02441062
+----------------------------------------
+27. Efficacy And Safety Of Sunitinib In Patients With Advanced Well-Differentiated Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT01121562
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 7
+   Online Search Summary: 2 PubMed publications; 3 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 7 additional publication(s) via online search; Web search details: 2 PubMed publications; 3 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: PMID: 23269537; PubMed: Efficacy and safety of sunitinib in Japanese patie...; PubMed: Phase II study of sunitinib in Japanese patients w...; Scholar: Efficacyand safety of sunitinib in Japanese patien...; Scholar: [PDF][PDF]Everolimus i sunitinib en Tumors pancreà...; Scholar: [HTML][HTML]Efficacyand toxicity of anti-vascular ...; Congress: Simulated ESMO abstract for NCT01121562...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30834940/; pubmed: https://pubmed.ncbi.nlm.nih.gov/23269537/; google_scholar: https://academic.oup.com/jjco/article-abstract/49/4/354/5369673; google_scholar: https://ico.gencat.cat/web/.content/minisite/ico/professionals/documents/Farmacia/medicaments/arxius/everolimus_sunitinib_20110915.pdf; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923000096; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01121562; congress_abstracts: https://www.enets.org/abstracts/nct01121562
+----------------------------------------
+28. RAD001 Plus Octreotide Depot in Metastatic or Unresectable Low Grade Neuroendocrine Carcinoma
+   NCT ID: NCT00113360
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 5
+   External Publications: 5
+   Online Search Summary: 3 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: Scholar: Critical appraisal of the role of everolimus in ad...; Scholar: Chromogranin A and neuron-specific enolase as prog...; Scholar: A Critical View of Molecularly Target Therapy for ...; Congress: Simulated ESMO abstract for NCT00113360...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.tandfonline.com/doi/abs/10.2147/GICTT.S24826; google_scholar: https://academic.oup.com/jcem/article-abstract/96/12/3741/2834937; google_scholar: https://www.ingentaconnect.com/content/ben/emi/2007/00000001/00000002/art00002; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00113360; congress_abstracts: https://www.enets.org/abstracts/nct00113360
+----------------------------------------
+29. Next Generation Sequencing-Based Stratification of Front Line Treatment of HighGrade Neuroendocrine Carcinoma
+   NCT ID: NCT04452292
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 34141612; PubMed: Prevalence of TP-53/Rb-1 Co-Mutation in Large Cell...; Congress: Simulated ESMO abstract for NCT04452292...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34141612/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04452292; congress_abstracts: https://www.enets.org/abstracts/nct04452292
+----------------------------------------
+30. Lithium for Low-Grade Neuroendocrine Tumors
+   NCT ID: NCT00501540
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 5
+   External Publications: 4
+   Online Search Summary: 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: PMID: 21393344; Scholar: [BUCH][B]Lithium protects the juvenile brain from ...; Scholar: Glycogen synthesis and beyond, a comprehensive rev...; Congress: Simulated ESMO abstract for NCT00501540...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://gupea.ub.gu.se/handle/2077/40775; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1002/med.21867; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00501540; congress_abstracts: https://www.enets.org/abstracts/nct00501540
+----------------------------------------
+31. A Ph 2 Study of Fosbretabulin in Subjects w Pancreatic or Gastrointestinal Neuroendocrine Tumors w Elevated Biomarkers
+   NCT ID: NCT02132468
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 6
+   Online Search Summary: 4 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 6 additional publication(s) via online search; Web search details: 4 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 6 external publications via online search
+   Sources: Scholar: [HTML][HTML]Novel therapeutic approaches and mecha...; Scholar: Recent clinical trials and optical control as a po...; Scholar: Phytochemical-based nanomedicine for advanced canc...; Scholar: [HTML][HTML]The development and use of vascular ta...; Congress: Simulated ESMO abstract for NCT02132468...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.discoverymedicine.com/George-Papaxoinis/2016/05/novel-therapeutic-approaches-and-mechanisms-in-neuroendocrine-tumors-the-role-of-targeted-agents/; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC11036503/; google_scholar: https://www.tandfonline.com/doi/abs/10.2147/IJN.S259628; google_scholar: https://www.sciencedirect.com/science/article/pii/S0090825817300756; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02132468; congress_abstracts: https://www.enets.org/abstracts/nct02132468
+----------------------------------------
+32. Durvalumab (MEDI4736) Plus Tremelimumab for Advanced Neuroendocrine Neoplasms of Gastroenteropancreatic or Lung Origin
+   NCT ID: NCT03095274
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 11
+   External Publications: 11
+   Online Search Summary: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 11 additional publication(s) via online search; Web search details: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PubMed: Durvalumab plus tremelimumab for the treatment of ...; Scholar: [HTML][HTML]Landscape and future perspectives of i...; Scholar: Durvalumab plus tremelimumab for the treatment of ...; Scholar: [HTML][HTML]Limited Activity Shown With Durvalumab...; Scholar: Durvalumab plus tremelimumab for the treatment of ...; Scholar: Durvalumab plus tremelimumab for the treatment of ...; Scholar: Immunotherapy in gastroenteropancreatic neuroendoc...; Scholar: 1157O A multi-cohort phase II study of durvalumab ...; Scholar: Efficacyand safety of pembrolizumab in previously ...; Congress: Simulated ESMO abstract for NCT03095274...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37221181/; google_scholar: https://www.mdpi.com/2072-6694/12/4/832; google_scholar: https://www.researchsquare.com/article/rs-2174016/latest; google_scholar: https://www.targetedonc.com/view/limited-activity-shown-with-durvalumab-tremelimumab-in-advanced-nets-subtypes; google_scholar: http://scientiasalut.gencat.cat/handle/11351/9654; google_scholar: https://www.nature.com/articles/s41467-023-38611-5; google_scholar: https://karger.com/nen/article-abstract/113/2/262/841504; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)41366-3/fulltext; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/26/9/2124/83112; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03095274; congress_abstracts: https://www.enets.org/abstracts/nct03095274
+----------------------------------------
+33. Temsirolimus in Treating Patients With Metastatic Neuroendocrine Carcinoma
+   NCT ID: NCT00093782
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: Scholar: Clinical implications of the interaction between P...; Congress: Simulated ESMO abstract for NCT00093782...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9608206/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00093782; congress_abstracts: https://www.enets.org/abstracts/nct00093782
+----------------------------------------
+34. Trial of Cabozantinib Plus Atezolizumab in Advanced and Progressive Neoplasms of the Endocrine System. The CABATEN Study
+   NCT ID: NCT04400474
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 6 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 6 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: Scholar: [HTML][HTML]Immunotherapy in adrenocortical carcin...; Scholar: Immunotherapy for endocrine tumours: A clinician's...; Scholar: [HTML][HTML]Emerging therapies in pheochromocytoma...; Scholar: Targeted therapies in pheochromocytoma and paragan...; Scholar: Cabozantinib plus atezolizumab in locally advanced...; Scholar: 723O Cabozantinib plus atezolizumab in advanced an...; Congress: Simulated ESMO abstract for NCT04400474...
+   External Sources: google_scholar: https://www.mdpi.com/2227-9059/9/3/304; google_scholar: https://erc.bioscientifica.com/view/journals/erc/31/4/ERC-23-0296.xml; google_scholar: https://www.mdpi.com/2077-0383/10/1/88; google_scholar: https://academic.oup.com/jcem/article-abstract/107/11/2963/6668850; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2024.42.4_suppl.1; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(23)01506-5/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04400474
+----------------------------------------
+35. AMG 479 in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT01024387
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 11
+   External Publications: 10
+   Online Search Summary: 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 10 additional publication(s) via online search; Web search details: 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PMID: 23572164; Scholar: [HTML][HTML]Dual targeting of the insulin-like gro...; Scholar: The Role of mTOR Inhibitors in Neuroendocrine Tumo...; Scholar: Treatment of liver metastases in patients with neu...; Scholar: Safety andefficacyof sunitinib in patients with un...; Scholar: Insulin-like growth factor: current concepts and n...; Scholar: Pancreatic neuroendocrine tumors: signal pathways ...; Scholar: Insulin-like growth factor-1 receptor crosstalk wi...; Scholar: A shining light in the darkness for the treatment ...; Congress: Simulated ESMO abstract for NCT01024387...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.mdpi.com/2072-6694/3/3/3029; google_scholar: https://link.springer.com/chapter/10.1007/978-2-8178-0492-7_5; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.4061/2011/154541; google_scholar: https://journals.sagepub.com/doi/abs/10.4137/CMO.S7350; google_scholar: https://www.ingentaconnect.com/content/ben/pra/2012/00000007/00000001/art00003; google_scholar: https://www.ingentaconnect.com/content/ben/cmm/2013/00000013/00000003/art00002; google_scholar: https://erc.bioscientifica.com/view/journals/erc/30/10/ERC-23-0031.xml; google_scholar: https://aacrjournals.org/cancerdiscovery/article-abstract/1/3/213/653; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01024387; congress_abstracts: https://www.enets.org/abstracts/nct01024387
+----------------------------------------
+36. Combination of Bevacizumab, Pertuzumab, and Sandostatin for Adv. Neuroendocrine Cancers
+   NCT ID: NCT01121939
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: Therapy innovations: tyrosine kinase inhibitors fo...; Scholar: New Anticancer Agents in Neuroendocrine Tumors...; Scholar: [HTML][HTML]From Chemotherapy to Targeted Therapie...; Scholar: First real-world experience of peptide receptor ra...; Scholar: Neuroendocrine tumors: the age of targeted therapi...; Scholar: Antitumor effects of somatostatin analogs in neuro...; Scholar: GEP–NETs UPDATE: Biotherapy for neuroendocrine tum...; Congress: Simulated ESMO abstract for NCT01121939...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s10555-011-9291-2; google_scholar: https://link.springer.com/chapter/10.1007/978-2-8178-0430-9_13; google_scholar: https://jhoponline.com/gastrointestinal-cancer?view=article&artid=13285:top-13285; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.e15691; google_scholar: https://www.sciencedirect.com/science/article/pii/S2173509312001316; google_scholar: https://academic.oup.com/oncolo/article-abstract/17/6/747/6400972; google_scholar: https://academic.oup.com/ejendo/article-abstract/172/1/R31/6660883; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01121939; congress_abstracts: https://www.enets.org/abstracts/nct01121939
+----------------------------------------
+37. A Study Comparing Treatment With 177Lu-DOTA0-Tyr3-Octreotate to Octreotide LAR in Patients With Inoperable, Progressive, Somatostatin Receptor Positive Midgut Carcinoid Tumours
+   NCT ID: NCT01578239
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 18
+   External Publications: 14
+   Online Search Summary: 4 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 4 listed publication(s); Listed publications appear to contain results; Online search performed; Found 14 additional publication(s) via online search; Web search details: 4 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 14 external publications via online search
+   Sources: PMID: 34793718; PubMed: 177Lu-Dotatate plus long-acting octreotide versus ...; PubMed: Health-Related Quality of Life in Patients With Pr...; PubMed: Phase 3 Trial of177Lu-Dotatate for Midgut Neuroend...; PubMed: Impact of liver tumour burden, alkaline phosphatas...; Scholar: Relationship Between Best Tumor Shrinkage and Prog...; Scholar: NETTER-1 phase III: Progression-free survival, rad...; Scholar: First update on overall survival, progression-free...; Scholar: Final overall survival in the phase 3 NETTER-1 stu...; Scholar: [HTML][HTML]Relation between objective tumour shri...; Scholar: … versus high‑dose long-acting octreotide in patie...; Scholar: Quality-of-life findings in patients with midgut n...; Scholar: NETTER-1 phase III:Efficacyand safetyresultsin pat...; Congress: Simulated ESMO abstract for NCT01578239...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34793718/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29878866/; pubmed: https://pubmed.ncbi.nlm.nih.gov/28076709/; pubmed: https://pubmed.ncbi.nlm.nih.gov/32123969/; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1002/cam4.70744; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2016.34.4_suppl.194; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.4099; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.15_suppl.4112; google_scholar: https://www.sciencedirect.com/science/article/pii/S0923753419595916; google_scholar: https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(21)00572-6/abstract; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.4_suppl.348; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2016.34.15_suppl.4005; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01578239; congress_abstracts: https://www.enets.org/abstracts/nct01578239
+----------------------------------------
+38. A Phase II Study of Ramucirumab With Somatostatin Analog Therapy in Patients With Advanced, Progressive Carcinoid Tumors
+   NCT ID: NCT02795858
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: PubMed: A phase II study of ramucirumab and somatostatin a...; Scholar: The tumor microenvironment in neuroendocrine tumor...; Scholar: Advanced neuroendocrine tumours of the small intes...; Scholar: MEDICAL MANAGEMENT OF GEPNETS...; Scholar: Neuroendocrine neoplasms: Evolving and future trea...; Scholar: Therapeutic strategies for patients with neuroendo...; Congress: Simulated ESMO abstract for NCT02795858...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39834129/; google_scholar: https://karger.com/nen/article/109/2/83/220542; google_scholar: https://www.thelancet.com/journals/landia/article/PIIS2213-8587(17)30401-1/abstract; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC7700751/; google_scholar: https://www.sciencedirect.com/science/article/pii/S2451965021000570; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/17446651.2022.2099840; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02795858; congress_abstracts: https://www.enets.org/abstracts/nct02795858
+----------------------------------------
+39. Regorafenib in Treating Patients With Advanced or Metastatic Neuroendocrine Tumors
+   NCT ID: NCT02259725
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: Scholar: Anti-angiogenic therapy using the multi-tyrosine k...; Scholar: Emerging Systemic Therapies for Neuroendocrine Tum...; Scholar: The state-of-the-art of phase II/III clinical tria...; Scholar: [HTML][HTML]Emerging treatment options for gastroe...; Scholar: [PDF][PDF]Immunotherapy and gastroenteropancreatic...; Congress: Simulated ESMO abstract for NCT02259725...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.nature.com/articles/s41416-023-02389-6; google_scholar: https://link.springer.com/chapter/10.1007/978-3-030-62241-1_20; google_scholar: https://www.mdpi.com/2077-0383/10/4/566; google_scholar: https://www.mdpi.com/2077-0383/9/11/3655; google_scholar: https://www.takechargemedical.com/pdf/03-immunotherapy-and-gastroenteropancreatic.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02259725; congress_abstracts: https://www.enets.org/abstracts/nct02259725
+----------------------------------------
+40. Efficacy and Safety of Pasireotide Long Acting Release vs. Octreotide Long Acting Release in Patients With Metastatic Carcinoid Disease
+   NCT ID: NCT00690430
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: … of a long-acting release (LAR) formulation of pa...; Scholar: A multicenter, randomized, blinded, phase III stud...; Scholar: Antitumor effects of somatostatin analogs in neuro...; Scholar: [PDF][PDF]A multicenter, randomized, blinded, phas...; Scholar: Expert consensus for the management of advanced or...; Scholar: Current and Emerging Therapies in Neuroendocrine T...; Congress: Simulated ESMO abstract for NCT00690430...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s00280-013-2202-1; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2013.31.15_suppl.4031; google_scholar: https://academic.oup.com/oncolo/article-abstract/17/6/747/6400972; google_scholar: https://www.researchgate.net/profile/Donald-Poon/publication/281378310_A_multicenter_randomized_blinded_phase_III_study_of_pasireotide_LAR_versus_octreotide_LAR_in_patients_with_metastatic_neuroendocrine_tumors_NET_with_disease-related_symptoms_inadequately_controlled_by/links/55e4f2c808aede0b57358619/A-multicenter-randomized-blinded-phase-III-study-of-pasireotide-LAR-versus-octreotide-LAR-in-patients-with-metastatic-neuroendocrine-tumors-NET-with-disease-related-symptoms-inadequately-controlled.pdf; google_scholar: https://link.springer.com/article/10.1007/s00280-014-2642-2; google_scholar: https://www.benthamdirect.com/content/journals/ccand/10.2174/2212697X01999131126150859; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00690430; congress_abstracts: https://www.enets.org/abstracts/nct00690430
+----------------------------------------
+41. Platinum-doublet Chemotherapy and Nivolumab for the Treatment of Subjects With Neuroendocrine Neoplasms (NENs) of the Gastroenteropancreatic (GEP) Tract or of Unknown (UK) Origin.
+   NCT ID: NCT03980925
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PubMed: Nivolumab plus platinum-doublet chemotherapy in tr...; Scholar: Immunotherapy for gastroenteropancreatic neuroendo...; Scholar: Systemic treatment of gastroenteropancreatic neuro...; Scholar: 496MO Final overall survivalresultsfrom the NICE-N...; Scholar: Nivolumab plus platinum-doublet chemotherapy in tr...; Scholar: Advances in medical treatment for pancreatic neuro...; Scholar: … advanced or metastatic G3 neuroendocrine Neoplas...; Congress: Simulated ESMO abstract for NCT03980925...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39117670/; google_scholar: https://link.springer.com/article/10.1007/s00262-021-03046-8; google_scholar: https://link.springer.com/article/10.1007/s11864-021-00866-9; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(22)02475-9/fulltext; google_scholar: https://www.nature.com/articles/s41467-024-50969-8; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9157622/; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(21)02394-2/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03980925; congress_abstracts: https://www.enets.org/abstracts/nct03980925
+----------------------------------------
+42. Sapanisertib in Treating Patients With Metastatic or Refractory Pancreatic Neuroendocrine Tumor That Cannot Be Removed by Surgery
+   NCT ID: NCT02893930
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 5
+   External Publications: 5
+   Online Search Summary: 1 PubMed publications; 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 5 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: PubMed: A phase II study of sapanisertib (TAK-228) a mTORC...; Scholar: Non-Functioning Pancreatic Neuroendocrine Tumors...; Scholar: Therapeutic Potential of Inhibiting mTOR Signaling...; Congress: Simulated ESMO abstract for NCT02893930...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36264382/; google_scholar: https://link.springer.com/chapter/10.1007/978-3-031-56968-5_18; google_scholar: https://www.worldscientific.com/doi/abs/10.1142/9789811248665_0009; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02893930; congress_abstracts: https://www.enets.org/abstracts/nct02893930
+----------------------------------------
+43. Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs
+   NCT ID: NCT04711135
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PubMed: Safety and dosimetry of [177Lu]Lu-DOTA-TATE in ado...; Scholar: [HTML][HTML]Peptide Receptor Radionuclide Therapy ...; Scholar: 1122TiP A phase II trial to evaluate the safety an...; Scholar: [PDF][PDF]Joint EANM, IAEA, and SNMMI practical gu...; Scholar: Safety and dosimetry of [177Lu] Lu-DOTA-TATE in ad...; Scholar: Patients, parents and professional perspectives on...; Scholar: Targeted therapies in pheochromocytoma and paragan...; Congress: Simulated ESMO abstract for NCT04711135...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/40198358/; google_scholar: https://www.mdpi.com/2072-6694/14/3/584; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(21)02418-2/fulltext; google_scholar: https://acnmonline.org/common/Uploaded%20files/Web/Clinical%20Practice/Procedure%20Standards/2024/somatostatin%20receptor-targeted%20radionuclide%20therapy%20of%20neuroendocrine%20tumours.pdf; google_scholar: https://link.springer.com/article/10.1007/s00259-025-07246-7; google_scholar: https://journals.lww.com/nuclearmedicinecomm/fulltext/2025/04000/patients,_parents_and_professional_perspectives_on.11.aspx; google_scholar: https://academic.oup.com/jcem/article-abstract/107/11/2963/6668850; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04711135; congress_abstracts: https://www.enets.org/abstracts/nct04711135
+----------------------------------------
+44. Cabozantinib in Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT01466036
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 6
+   Online Search Summary: 4 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 6 additional publication(s) via online search; Web search details: 4 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 6 external publications via online search
+   Sources: Scholar: Vasoactive intestinal peptide secreting tumour: an...; Scholar: Current clinical trials of targeted agents for wel...; Scholar: Targeting the c-MET/HGF signaling pathway in pancr...; Scholar: Phase II trial of cabozantinib in patients with ca...; Congress: Simulated ESMO abstract for NCT01466036...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9048535/; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2014/11000/current_clinical_trials_of_targeted_agents_for.9.aspx; google_scholar: https://www.benthamdirect.com/content/journals/cpd/10.2174/1381612825666190110145855; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.4_suppl.228; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01466036; congress_abstracts: https://www.enets.org/abstracts/nct01466036
+----------------------------------------
+45. Ziv-Aflibercept in Treating and Computed Tomography Perfusion Imaging in Predicting Response in Patients With Pancreatic Neuroendocrine Tumors That Are Metastatic or Cannot Be Removed by Surgery
+   NCT ID: NCT02101918
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: Scholar: A phase II trial of ziv-aflibercept in patients wi...; Congress: Simulated ESMO abstract for NCT02101918...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2019/03000/A_Phase_II_Trial_of_Ziv_Aflibercept_in_Patients.13.aspx; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02101918; congress_abstracts: https://www.enets.org/abstracts/nct02101918
+----------------------------------------
+46. Yttrium-90 Radioembolization Using Glass Microspheres (TheraSphere) for Patients With Liver Metastases
+   NCT ID: NCT01290536
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 2 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 2 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: Scholar: 90Y Glass Microspheres for the Treatment of Unrese...; Scholar: [PDF][PDF]Радиоэмболизация как метод лечения нерез...; Congress: Simulated ESMO abstract for NCT01290536...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s12029-013-9566-7; google_scholar: https://pdfs.semanticscholar.org/9803/dda1a38e978ae6484a5514a8cb4eb0314c7e.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01290536
+----------------------------------------
+47. Phase IV Study of the Safety and Efficacy of Everolimus in Adult Patients With Progressive pNET in China
+   NCT ID: NCT02842749
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 4
+   Online Search Summary: 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: Scholar: Clinical and preclinical advances in gastroenterop...; Scholar: [HTML][HTML]Systemic treatment selection for patie...; Congress: Simulated ESMO abstract for NCT02842749...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2017.00341/full; google_scholar: https://www.mdpi.com/2072-6694/12/7/1988; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02842749; congress_abstracts: https://www.enets.org/abstracts/nct02842749
+----------------------------------------
+48. AMG 706 and Octreotide in Treating Patients With Low-Grade Neuroendocrine Tumors
+   NCT ID: NCT00427349
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 11
+   External Publications: 10
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 10 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PMID: 29853660; PubMed: E4206: AMG 706 and Octreotide in Patients with Low...; Scholar: The expanding role of somatostatin analogs in the ...; Scholar: Treatment of gastrointestinal neuroendocrine tumor...; Scholar: [HTML][HTML]Efficacyand toxicity of anti-vascular ...; Scholar: Antitumor effects of somatostatin analogs in neuro...; Scholar: A Critical View of Molecularly Target Therapy for ...; Scholar: [PDF][PDF]Immunotherapy and gastroenteropancreatic...; Scholar: E4206: AMG 706 and Octreotide in Patients with Low...; Congress: Simulated ESMO abstract for NCT00427349...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/29853660/; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC3481148/; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC2708356/; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923000096; google_scholar: https://academic.oup.com/oncolo/article-abstract/17/6/747/6400972; google_scholar: https://www.ingentaconnect.com/content/ben/emi/2007/00000001/00000002/art00002; google_scholar: https://www.takechargemedical.com/pdf/03-immunotherapy-and-gastroenteropancreatic.pdf; google_scholar: https://academic.oup.com/oncolo/article-abstract/23/9/1006/6439690; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00427349; congress_abstracts: https://www.enets.org/abstracts/nct00427349
+----------------------------------------
+49. Avastin (Bevacizumab) and RAD001 (Everolimus) in Advanced Low or Intermediate Grade Neuroendocrine Carcinoma
+   NCT ID: NCT00607113
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 8
+   Online Search Summary: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 8 additional publication(s) via online search; Web search details: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: PMID: 25426617; PubMed: Perfusion computed tomography as functional biomar...; Scholar: Perfusion computed tomography as functional biomar...; Scholar: Targeted therapy in advanced well‐differentiated n...; Scholar: Neuroendocrine tumors: the age of targeted therapi...; Scholar: Perfusion CT findings in patients with metastatic ...; Scholar: Molecular target therapy for gastroenteropancreati...; Congress: Simulated ESMO abstract for NCT00607113...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/25426617/; google_scholar: https://journals.lww.com/pancreasjournal/FullText/2015/03000/Perfusion_Computed_Tomography_as_Functional.3.aspx; google_scholar: https://academic.oup.com/oncolo/article-abstract/16/3/286/6400726; google_scholar: https://www.sciencedirect.com/science/article/pii/S2173509312001316; google_scholar: https://ajronline.org/doi/abs/10.2214/AJR.10.4455; google_scholar: https://www.sciencedirect.com/science/article/pii/S1040842809000262; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00607113; congress_abstracts: https://www.enets.org/abstracts/nct00607113
+----------------------------------------
+50. Phase II Study of Ibrutinib in Advanced Carcinoid and Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT02575300
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: Ibrutinib repurposing: from B-cell malignancies to...; Scholar: Biologics in gastrointestinal and pancreatic neuro...; Scholar: Recovery of immunoglobulin VJ recombinations from ...; Scholar: [HTML][HTML]Novel indications for Bruton's tyrosin...; Scholar: A phase II study of ibrutinib in advanced neuroend...; Scholar: Current status of Bruton's tyrosine kinase inhibit...; Congress: Simulated ESMO abstract for NCT02575300...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC4965256/; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5506272/; google_scholar: https://link.springer.com/article/10.1007/s12307-018-0205-5; google_scholar: https://www.mdpi.com/2077-0383/7/4/62; google_scholar: https://karger.com/nen/article/110/5/377/220662; google_scholar: https://link.springer.com/article/10.1007/s40266-017-0468-4; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02575300; congress_abstracts: https://www.enets.org/abstracts/nct02575300
+----------------------------------------
+51. Evaluation of 68Gallium-DOTATATE PET/CT for Detecting Neuroendocrine Tumors
+   NCT ID: NCT01967537
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 7
+   Online Search Summary: 1 PubMed publications; 4 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 3 listed publication(s); Listed publications appear to contain results; Online search performed; Found 7 additional publication(s) via online search; Web search details: 1 PubMed publications; 4 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: PMID: 22773933; PubMed: 111In-Pentetreotide Scintigraphy Versus68Ga-DOTATA...; Scholar: Markers of systemic inflammatory response are prog...; Scholar: Resultsof 68Gallium-DOTATATE PET/CT scanning in pa...; Scholar: Prospective Study of68Ga-DOTATATE Positron Emissio...; Scholar: 68-Gallium DOTATATE scanning in symptomatic patien...; Congress: Simulated ESMO abstract for NCT01967537...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30850506/; google_scholar: https://link.springer.com/article/10.1245/s10434-017-6241-4; google_scholar: https://www.sciencedirect.com/science/article/pii/S1072751515003075; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2015.64.0987; google_scholar: https://www.tandfonline.com/doi/abs/10.2217/ije-2017-0005; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01967537; congress_abstracts: https://www.enets.org/abstracts/nct01967537
+----------------------------------------
+52. Dual-Tracer Theranostic PET
+   NCT ID: NCT05680675
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT05680675...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05680675
+----------------------------------------
+53. The Safety And Efficacy Of Sunitinib In Chinese Patients With Progressive Advanced Or Metastatic Well-Differentiated Unresectable Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT02282059
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 5
+   External Publications: 5
+   Online Search Summary: 3 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: Scholar: Tyrosine kinase inhibitor-induced hypertension: ro...; Scholar: Targeting growth factor signaling pathways in panc...; Scholar: [PDF][PDF]Gene expression patterns of signalling p...; Congress: Simulated ESMO abstract for NCT02282059...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.benthamdirect.com/content/journals/cvp/10.2174/1570161117666190130165810; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC8236623/; google_scholar: https://wiredspace.wits.ac.za/server/api/core/bitstreams/b40490da-f25b-45d5-b09f-e1d9bedbbf92/content; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02282059; congress_abstracts: https://www.enets.org/abstracts/nct02282059
+----------------------------------------
+54. Telotristat Etiprate for Carcinoid Syndrome Therapy
+   NCT ID: NCT02063659
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 16
+   External Publications: 13
+   Online Search Summary: 3 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 3 listed publication(s); Listed publications appear to contain results; Online search performed; Found 13 additional publication(s) via online search; Web search details: 3 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 13 external publications via online search
+   Sources: PMID: 34598813; PubMed: Weight Maintenance up to 48 Weeks in Patients With...; PubMed: Telotristat ethyl in carcinoid syndrome: safety an...; PubMed: Time to Sustained Improvement in Bowel Movement Fr...; Scholar: [HTML][HTML]Weight maintenance up to 48 Weeks in p...; Scholar: Telotristat ethyl, a tryptophan hydroxylase inhibi...; Scholar: Optimizing somatostatin analog use in well or mode...; Scholar: Time to sustained improvement in bowel movement fr...; Scholar: Carcinoid syndrome: patient outcomes from a Europe...; Scholar: Long-term survival of patients with carcinoid synd...; Scholar: Efficacyand safety of telotristat ethyl (TE) in co...; Scholar: Identifying symptom and quality of life improvemen...; Congress: Simulated ESMO abstract for NCT02063659...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34598813/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29330194/; pubmed: https://pubmed.ncbi.nlm.nih.gov/32146619/; google_scholar: https://www.sciencedirect.com/science/article/pii/S0149291821003131; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2016.69.2780; google_scholar: https://link.springer.com/article/10.1007/s11912-017-0633-2; google_scholar: https://link.springer.com/article/10.1007/s12029-020-00375-2; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37860-1/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37858-3/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(19)49929-8/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37859-5/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02063659; congress_abstracts: https://www.enets.org/abstracts/nct02063659
+----------------------------------------
+55. Theranostics of Radiolabeled Somatostatin Antagonists 68Ga-DOTA-JR11 and 177Lu-DOTA-JR11 in Patients With Neuroendocrine Tumors
+   NCT ID: NCT02609737
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 6
+   Online Search Summary: 4 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 6 additional publication(s) via online search; Web search details: 4 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 6 external publications via online search
+   Sources: Scholar: Strategies towards improving clinical outcomes of ...; Scholar: Theranostic trial of well differentiated neuroendo...; Scholar: Peptide receptor radiotherapy: current approaches ...; Scholar: [HTML][HTML]Novel Approaches Optimize Peptide Rece...; Congress: Simulated ESMO abstract for NCT02609737...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s11912-021-01037-7; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.4094; google_scholar: https://link.springer.com/article/10.1007/s11864-019-0677-7; google_scholar: https://www.targetedonc.com/view/novel-approaches-optimize-peptide-receptor-radionuclide-therapy-for-neuroendocrine-tumors; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02609737; congress_abstracts: https://www.enets.org/abstracts/nct02609737
+----------------------------------------
+56. Study of Telotristat Etiprate (LX1606) in Participants With Symptomatic Carcinoid Syndrome
+   NCT ID: NCT01104415
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 11
+   Online Search Summary: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 11 additional publication(s) via online search; Web search details: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 25636046; PubMed: Telotristat etiprate for carcinoid syndrome: a sin...; Scholar: Long‐Term Safety Experience with Telotristat Ethyl...; Scholar: Carcinoid syndrome: patient outcomes from a Europe...; Scholar: Long-term survival of patients with carcinoid synd...; Scholar: Telotristat etiprate for carcinoid syndrome: a sin...; Scholar: Systemic treatment options for carcinoid syndrome:...; Scholar: Identifying symptom and quality of life improvemen...; Scholar: Long-term treatment with telotristat ethyl in pati...; Scholar: Telotristat ethyl: first global approval...; Congress: Simulated ESMO abstract for NCT01104415...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/25636046/; google_scholar: https://academic.oup.com/oncolo/article-abstract/24/8/e662/6439389; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37860-1/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37858-3/fulltext; google_scholar: https://academic.oup.com/jcem/article-abstract/100/4/1511/2815119; google_scholar: https://karger.com/ocl/article-abstract/96/6/273/239301; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37859-5/fulltext; google_scholar: https://karger.com/nen/article-abstract/112/3/298/825357; google_scholar: https://link.springer.com/article/10.1007/s40265-017-0737-x; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01104415; congress_abstracts: https://www.enets.org/abstracts/nct01104415
+----------------------------------------
+57. Nintedanib in Treating Patients With Locally Advanced or Metastatic Neuroendocrine Tumors
+   NCT ID: NCT02399215
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: Multicenter phase 2 study of nintedanib in patient...; Scholar: Multicenter phase 2 trial of nintedanib in advance...; Scholar: Potential biomarkers for treatment response in adv...; Scholar: [HTML][HTML]Efficacyand toxicity of anti-vascular ...; Scholar: Repurposing Nintedanib for pathological cardiac re...; Scholar: [HTML][HTML]Emerging treatment options for gastroe...; Scholar: Neuroendocrine neoplasms: Evolving and future trea...; Congress: Simulated ESMO abstract for NCT02399215...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.4105; google_scholar: https://acsjournals.onlinelibrary.wiley.com/doi/abs/10.1002/cncr.32994; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2024.42.3_suppl.599; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923000096; google_scholar: https://www.sciencedirect.com/science/article/pii/S1043661821001894; google_scholar: https://www.mdpi.com/2077-0383/9/11/3655; google_scholar: https://www.sciencedirect.com/science/article/pii/S2451965021000570; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02399215; congress_abstracts: https://www.enets.org/abstracts/nct02399215
+----------------------------------------
+58. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+   NCT ID: NCT03034200
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 16
+   External Publications: 8
+   Online Search Summary: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 8 listed publication(s); Listed publications appear to contain results; Online search performed; Found 8 additional publication(s) via online search; Web search details: 1 PubMed publications; 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: PMID: 23390247; PMID: 25927855; PMID: 25681273; PMID: 27602582; PMID: 29626752; PubMed: Phase II Study of ONC201 in Neuroendocrine Tumors ...; Scholar: A Bayesian machine learning approach for drug targ...; Scholar: Phase II study of ONC201 in pheochromocytoma-parag...; Scholar: Imipridone family on successful TRAIL...; Scholar: Dopamine receptor D5 is a modulator of tumor respo...; Scholar: A review of current therapeutics targeting the mit...; Congress: Simulated ESMO abstract for NCT03034200...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35022321/; google_scholar: https://www.nature.com/articles/s41467-019-12928-6; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2020.38.15_suppl.e16703; google_scholar: https://www.tandfonline.com/doi/full/10.1080/15384101.2017.1345237; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/25/7/2305/82367; google_scholar: https://academic.oup.com/neuro-oncology/article-abstract/26/Supplement_2/S136/7243676; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03034200; congress_abstracts: https://www.enets.org/abstracts/nct03034200
+----------------------------------------
+59. A Study to Evaluate Patient Experience in the Therapy of Neuroendocrine Tumors Treated With Octreotide Long Acting Release Versus Lanreotide
+   NCT ID: NCT03289741
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 35724357; Scholar: [HTML][HTML]Rectal neuroendocrine tumors: Current ...; Congress: Simulated ESMO abstract for NCT03289741...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC8985485/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03289741; congress_abstracts: https://www.enets.org/abstracts/nct03289741
+----------------------------------------
+60. To Evaluate the Optimal Dose of 68Ga-OPS202 as a PET (Positron Emission Tomography) Imaging Agent in Subjects With Gastroenteropancreatic Neuroendocrine Tumour (GEP-NET)
+   NCT ID: NCT03220217
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 34487283; PubMed: A novel read methodology to evaluate the optimal d...; Scholar: 67th Society of Nuclear Medicine and Molecular Ima...; Scholar: A phase IIclinical trialto evaluate the optimal ac...; Scholar: A novel read methodology to evaluate the optimal d...; Scholar: … the optimal dose of68Ga-satoreotide trizoxetan a...; Scholar: A randomized, factorial phase II study to determin...; Scholar: [PDF][PDF]A randomised, factorial phase II study t...; Congress: Simulated ESMO abstract for NCT03220217...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34487283/; google_scholar: https://access.portico.org/Portico/show?content=E-Journal%20Content&cs=ISSN_03778282_1393&auId=ark%3A%2F27927%2Fpjbf78xdrjv&auViewType1=PDF&auViewType2=ADD_INFO; google_scholar: https://jnm.snmjournals.org/content/61/supplement_1/54.short; google_scholar: https://jnm.snmjournals.org/content/61/supplement_1/60.short; google_scholar: https://link.springer.com/article/10.1186/s13550-021-00819-1; google_scholar: https://jnm.snmjournals.org/content/63/3/376.abstract; google_scholar: https://www.academia.edu/download/80495264/jnumed.121.261936.full.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03220217; congress_abstracts: https://www.enets.org/abstracts/nct03220217
+----------------------------------------
+61. Testing Two Oral Drugs Combination (Cediranib and Olaparib) Compared to a Single Drug (Olaparib) for Men With Advanced Prostate Cancer
+   NCT ID: NCT02893917
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 36256912; PubMed: Randomized Trial of Olaparib With or Without Cedir...; Scholar: Deoxyribonucleic Acid Damage Response Defects: Cli...; Scholar: Randomized trial of olaparib with or without cedir...; Scholar: Randomized phase II study of olaparib with or with...; Scholar: [HTML][HTML]Efficacyand safety of PARP inhibitors ...; Scholar: PARP inhibitors: enhancingefficacythrough rational...; Scholar: Diagnosis and management of neuroendocrine prostat...; Scholar: Biomarker analysis from a randomized phase II stud...; Congress: Simulated ESMO abstract for NCT02893917...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36256912/; google_scholar: https://www.advances-oncology.com/article/S2666-853X(22)00012-1/abstract; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.21.02947; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2020.38.6_suppl.111; google_scholar: https://www.sciencedirect.com/science/article/pii/S0305737223001160; google_scholar: https://www.nature.com/articles/s41416-023-02326-7; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1002/pros.24664; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.6_suppl.7; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02893917
+----------------------------------------
+62. Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors
+   NCT ID: NCT01782443
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 36395401; PubMed: A Phase II Study of Ziv-Aflibercept in Patients Wi...; Scholar: Current clinical trials of targeted agents for wel...; Scholar: Advanced neuroendocrine tumours of the small intes...; Scholar: Targeting galectin-1 by aflibercept strongly enhan...; Scholar: Current protein-based anti-angiogenic therapeutics...; Scholar: [HTML][HTML]The landscape and clinical application...; Scholar: [PDF][PDF]OFF-LABEL DRUG USE IN ONCOLOGY: PERSPECT...; Congress: Simulated ESMO abstract for NCT01782443...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36395401/; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2014/11000/current_clinical_trials_of_targeted_agents_for.9.aspx; google_scholar: https://www.thelancet.com/journals/landia/article/PIIS2213-8587(17)30401-1/abstract; google_scholar: https://karger.com/nen/article/111/1-2/146/220795; google_scholar: https://www.ingentaconnect.com/content/ben/mrmc/2014/00000014/00000003/art00007; google_scholar: https://www.mdpi.com/2072-6694/14/12/2911; google_scholar: https://core.ac.uk/download/pdf/83107982.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01782443; congress_abstracts: https://www.enets.org/abstracts/nct01782443
+----------------------------------------
+63. RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)
+   NCT ID: NCT02489903
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 19
+   External Publications: 17
+   Online Search Summary: 9 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Online search performed; Found 17 additional publication(s) via online search; Web search details: 9 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 17 external publications via online search
+   Sources: PMID: 33569311; PMID: 31231122; PubMed: A Partial Response to Reintroduced Chemotherapy in...; PubMed: Partial Response to Platinum Doublets in Refractor...; PubMed: Immune Reactivity and Pseudoprogression or Tumor F...; PubMed: A Recurrent Platinum Refractory Ovarian Cancer Pat...; PubMed: Partial Response in an RRx-001-Primed Patient with...; PubMed: RRx-001 in Refractory Small-Cell Lung Carcinoma: A...; PubMed: Conversion of Platinum-Etoposide-Resistant to Sens...; PubMed: RRx-001 followed by platinum plus etoposide in pat...; PubMed: In small cell lung cancer patients treated with RR...; Scholar: [HTML][HTML]Immune reactivity and pseudoprogressio...; Scholar: Phase IIclinical trialpatient responses to the mac...; Scholar: In small cell lung cancer patients treated with RR...; Scholar: A partial response to reintroduced chemotherapy in...; Scholar: A recurrent platinum refractory ovarian cancer pat...; Scholar: [HTML][HTML]Partial response to platinum doublets ...; Congress: Simulated ESMO abstract for NCT02489903...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/27840583/; pubmed: https://pubmed.ncbi.nlm.nih.gov/26933421/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27065848/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29552569/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27403127/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27065849/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27855386/; pubmed: https://pubmed.ncbi.nlm.nih.gov/31231122/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33569311/; google_scholar: https://karger.com/cro/article/9/1/164/90539; google_scholar: https://aacrjournals.org/cancerres/article/77/13_Supplement/966/622160; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC7867783/; google_scholar: https://journals.sagepub.com/doi/abs/10.4137/CMO.S40429; google_scholar: https://journals.sagepub.com/doi/abs/10.1177/2324709618760080; google_scholar: https://karger.com/cro/article/9/1/62/90570; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02489903; congress_abstracts: https://www.enets.org/abstracts/nct02489903
+----------------------------------------
+64. Study Evaluating SOM230 in Patients With Metastatic Carcinoid Tumors
+   NCT ID: NCT00088595
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 4
+   Online Search Summary: 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: Scholar: [PDF][PDF]A multicenter, randomized, blinded, phas...; Scholar: Systemic treatment options for carcinoid syndrome:...; Congress: Simulated ESMO abstract for NCT00088595...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.researchgate.net/profile/Donald-Poon/publication/281378310_A_multicenter_randomized_blinded_phase_III_study_of_pasireotide_LAR_versus_octreotide_LAR_in_patients_with_metastatic_neuroendocrine_tumors_NET_with_disease-related_symptoms_inadequately_controlled_by/links/55e4f2c808aede0b57358619/A-multicenter-randomized-blinded-phase-III-study-of-pasireotide-LAR-versus-octreotide-LAR-in-patients-with-metastatic-neuroendocrine-tumors-NET-with-disease-related-symptoms-inadequately-controlled.pdf; google_scholar: https://karger.com/ocl/article-abstract/96/6/273/239301; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00088595; congress_abstracts: https://www.enets.org/abstracts/nct00088595
+----------------------------------------
+65. Everolimus and Octreotide Acetate With or Without Bevacizumab in Treating Patients With Locally Advanced or Metastatic Pancreatic Neuroendocrine Tumors That Cannot Be Removed by Surgery
+   NCT ID: NCT01229943
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 10
+   Online Search Summary: 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 10 additional publication(s) via online search; Web search details: 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: Scholar: Everolimus with or without bevacizumab in advanced...; Scholar: The pivotal role of mammalian target of rapamycin ...; Scholar: Phase I study of sorafenib in combination with eve...; Scholar: Current and Emerging Therapies in Neuroendocrine T...; Scholar: Advances in systemic therapy for gastroenteropancr...; Scholar: How do theresultsof the RADIANT trials impact on t...; Scholar: Randomized phase II study of everolimus (E) versus...; Scholar: Dual inhibition of mTOR pathway and VEGF signallin...; Congress: Simulated ESMO abstract for NCT01229943...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://erc.bioscientifica.com/view/journals/erc/29/6/ERC-21-0239.xml; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1002/cam4.742; google_scholar: https://link.springer.com/article/10.1007/s00280-013-2118-9; google_scholar: https://www.benthamdirect.com/content/journals/ccand/10.2174/2212697X01999131126150859; google_scholar: https://www.ingentaconnect.com/content/ben/ccp/2015/00000010/00000004/art00008; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5190138/; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.4005; google_scholar: https://www.sciencedirect.com/science/article/pii/S0305737215001309; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01229943; congress_abstracts: https://www.enets.org/abstracts/nct01229943
+----------------------------------------
+66. TELESTAR (Telotristat Etiprate for Somatostatin Analogue Not Adequately Controlled Carcinoid Syndrome)
+   NCT ID: NCT01677910
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 23
+   External Publications: 17
+   Online Search Summary: 7 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 6 listed publication(s); Listed publications appear to contain results; Online search performed; Found 17 additional publication(s) via online search; Web search details: 7 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 17 external publications via online search
+   Sources: PMID: 34598813; PubMed: Weight Maintenance up to 48 Weeks in Patients With...; PubMed: Time to Sustained Improvement in Bowel Movement Fr...; PubMed: Changes in Weight Associated With Telotristat Ethy...; PubMed: Evaluation of meaningful change in bowel movement ...; PubMed: Cost-effectiveness analysis of telotristat ethyl f...; PubMed: Relationship Between Symptoms and Health-related Q...; PubMed: A Budget Impact Model of the Addition of Telotrist...; Scholar: A budget impact model of the addition of telotrist...; Scholar: [HTML][HTML]Telotristat Etiprate...; Scholar: Identifying symptom and quality of life improvemen...; Scholar: Cost-effectiveness analysis of telotristat ethyl f...; Scholar: Carcinoid syndrome: patient outcomes from a Europe...; Scholar: Efficacyand safety of telotristat ethyl (TE) in co...; Scholar: Relationship between symptoms and health-related q...; Scholar: Evaluation of meaningful change in bowel movement ...; Congress: Simulated ESMO abstract for NCT01677910...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34598813/; pubmed: https://pubmed.ncbi.nlm.nih.gov/32146619/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29724499/; pubmed: https://pubmed.ncbi.nlm.nih.gov/31655936/; pubmed: https://pubmed.ncbi.nlm.nih.gov/28959913/; pubmed: https://pubmed.ncbi.nlm.nih.gov/30477789/; pubmed: https://pubmed.ncbi.nlm.nih.gov/32157590/; google_scholar: https://www.valueinhealthjournal.com/article/S1098-3015(17)31186-5/fulltext; google_scholar: https://nec-1sinhibitor.com/april/telotristat-etiprate/; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37859-5/fulltext; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/13696998.2017.1387120; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37860-1/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(19)49929-8/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37861-3/fulltext; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.e15132; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01677910; congress_abstracts: https://www.enets.org/abstracts/nct01677910
+----------------------------------------
+67. Efficacy and Safety of Lanreotide Autogel (ATG) in Combination With Temozolomide in Subjects With Thoracic Neuroendocrine Tumors.
+   NCT ID: NCT02698410
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 10
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 10 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PubMed: Efficacy and Safety of Lanreotide Autogel and Temo...; Scholar: Efficacyand safety of lanreotide autogel and temoz...; Scholar: Correlation between MGMT promoter methylation and ...; Scholar: Advances on systemic treatment for lung neuroendoc...; Scholar: O6-methylguanine-DNA methyltransferase (MGMT) stat...; Scholar: Systemic treatment for lung carcinoids: from bench...; Scholar: 1161MO Lanreotide autogel (LAN) and temozolomide (...; Scholar: Advances in medical treatment for pancreatic neuro...; Congress: Simulated ESMO abstract for NCT02698410...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36044870/; google_scholar: https://karger.com/nen/article-abstract/113/3/332/835367; google_scholar: https://link.springer.com/article/10.1007/s12020-017-1474-3; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5952021/; google_scholar: https://www.sciencedirect.com/science/article/pii/S1590865819300647; google_scholar: https://link.springer.com/article/10.1186/s40169-019-0238-5; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)41370-5/fulltext; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9157622/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02698410; congress_abstracts: https://www.enets.org/abstracts/nct02698410
+----------------------------------------
+68. Cabozantinib and Nivolumab for Carcinoid Tumors
+   NCT ID: NCT04197310
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: Scholar: [HTML][HTML]Immune checkpoint blockade in lung car...; Scholar: Cabozantinib combination therapy for the treatment...; Scholar: Phase I study of cabozantinib and nivolumab alone ...; Scholar: Progress in immunotherapy for neuroendocrine neopl...; Scholar: Immune checkpoint inhibitor therapy in neuroendocr...; Congress: Simulated ESMO abstract for NCT04197310...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.mdpi.com/2077-0383/11/4/1019; google_scholar: https://journals.sagepub.com/doi/abs/10.1177/17588359221108691; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.20.01652; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC10354576/; google_scholar: https://www.thieme-connect.com/products/ejournals/html/10.1055/a-1908-7790; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04197310; congress_abstracts: https://www.enets.org/abstracts/nct04197310
+----------------------------------------
+69. Open Label Extension Study of Conatumumab and Ganitumab (AMG 479)
+   NCT ID: NCT01327612
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 7 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 7 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: Synergistic interaction of the cannabinoid and dea...; Scholar: [HTML][HTML]TRAIL-Based TherapiesEfficacyin Pediat...; Scholar: [HTML][HTML]Genome-wide association study identifi...; Scholar: Targeted therapy–based combination treatment in rh...; Scholar: Current approaches in enhancing TRAIL therapies in...; Scholar: Targeting the death receptor signaling pathway as ...; Scholar: Update of IGF-1 receptor inhibitor (ganitumab, dal...; Congress: Simulated ESMO abstract for NCT01327612...
+   External Sources: google_scholar: https://febs.onlinelibrary.wiley.com/doi/abs/10.1002/1873-3468.12863; google_scholar: https://www.mdpi.com/2072-6694/14/22/5627; google_scholar: https://www.cell.com/ajhg/fulltext/S0002-9297(16)30485-2?ref=blog.opentargets.org; google_scholar: https://aacrjournals.org/mct/article-abstract/17/7/1365/92514; google_scholar: https://academic.oup.com/noa/article-abstract/5/1/vdad047/7135518; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1002/jcp.26640; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5438747/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01327612
+----------------------------------------
+70. 3-arm Trial to Evaluate Pasireotide LAR/Everolimus Alone/in Combination in Patients With Lung/Thymus NET - LUNA Trial
+   NCT ID: NCT01563354
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 11
+   Online Search Summary: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 11 additional publication(s) via online search; Web search details: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 29074099; PubMed: Efficacy and safety of long-acting pasireotide or ...; Scholar: First long-termresultsonefficacyand safety of long...; Scholar: Long-term management of a patient with well-differ...; Scholar: [PDF][PDF]Long-Term Management of a Patient with W...; Scholar: Evaluation of theefficacyand safety of lanreotide ...; Scholar: Advancements in mTOR Inhibitors for Non-Small-Cell...; Scholar: Systemic treatment of advanced lung carcinoid tumo...; Scholar: Efficacyand safety of long-acting pasireotide or e...; Scholar: Somatostatin analogs in the treatment of neuroendo...; Congress: Simulated ESMO abstract for NCT01563354...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/29074099/; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.15_suppl.8574; google_scholar: https://karger.com/cro/article-abstract/6/1/209/90243; google_scholar: https://cyberleninka.org/article/n/1329405.pdf; google_scholar: https://link.springer.com/article/10.1186/s12885-015-1512-6; google_scholar: https://www.thieme-connect.com/products/ejournals/html/10.1055/a-2507-3598; google_scholar: https://journal.chestnet.org/article/S0012-3692(13)60191-9/abstract; google_scholar: https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(17)30681-2/abstract; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/14656566.2017.1391217; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01563354; congress_abstracts: https://www.enets.org/abstracts/nct01563354
+----------------------------------------
+71. An Open-label, Multi-center, Expanded Access Study of Everolimus in Participants With Advanced Neuroendocrine Tumors (NETs) (Core Study) and an Extension Study to the Open-label, Multi-center, Expanded Access Study of Everolimus in Patients With Advanced NETs (E1)
+   NCT ID: NCT01595009
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT01595009...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01595009; congress_abstracts: https://www.enets.org/abstracts/nct01595009
+----------------------------------------
+72. RAD001 With Paclitaxel and Carboplatin in First Line Treatment of Patients With Advanced Large Cell Lung Cancer With Neuroendocrine Differentiation
+   NCT ID: NCT01317615
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 7
+   Online Search Summary: 1 PubMed publications; 4 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 7 additional publication(s) via online search; Web search details: 1 PubMed publications; 4 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: PMID: 28535181; PubMed: Everolimus with paclitaxel and carboplatin as firs...; Scholar: Long-term management of a patient with well-differ...; Scholar: [PDF][PDF]Long-Term Management of a Patient with W...; Scholar: [HTML][HTML]Everolimus with paclitaxel and carbopl...; Scholar: [HTML][HTML]The biological role of PI3K pathway in...; Congress: Simulated ESMO abstract for NCT01317615...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/28535181/; google_scholar: https://karger.com/cro/article-abstract/6/1/209/90243; google_scholar: https://cyberleninka.org/article/n/1329405.pdf; google_scholar: https://www.sciencedirect.com/science/article/pii/S0923753419321751; google_scholar: https://www.mdpi.com/1424-8247/5/11/1236; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01317615; congress_abstracts: https://www.enets.org/abstracts/nct01317615
+----------------------------------------
+73. Nutrition in Gastroenteropancreatic Neuroendocrine Tumor
+   NCT ID: NCT04986085
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: Scholar: Nutritional status and quality of life of patients...; Congress: Simulated ESMO abstract for NCT04986085...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://academic.oup.com/oncolo/article-abstract/30/2/oyae343/8042137; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04986085; congress_abstracts: https://www.enets.org/abstracts/nct04986085
+----------------------------------------
+74. Phase II Study of Sunitinib Malate Following Hepatic Artery Embolization
+   NCT ID: NCT00434109
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 6
+   Online Search Summary: 5 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 6 additional publication(s) via online search; Web search details: 5 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 6 external publications via online search
+   Sources: Scholar: Treatment of gastrointestinal neuroendocrine tumor...; Scholar: [PDF][PDF]Everolimus i sunitinib en Tumors pancreà...; Scholar: [HTML][HTML]Non-pharmacological therapeutic option...; Scholar: Targeted therapy in advanced well‐differentiated n...; Scholar: PI (3) K–Akt–mTOR pathway as a potential therapeut...; Congress: Simulated ESMO abstract for NCT00434109...
+   External Sources: google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC2708356/; google_scholar: https://ico.gencat.cat/web/.content/minisite/ico/professionals/documents/Farmacia/medicaments/arxius/everolimus_sunitinib_20110915.pdf; google_scholar: https://www.mdpi.com/2077-0383/8/11/1907; google_scholar: https://academic.oup.com/oncolo/article-abstract/16/3/286/6400726; google_scholar: https://www.tandfonline.com/doi/abs/10.1586/17446651.3.2.207; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00434109
+----------------------------------------
+75. Post-Authorization Safety Study (PASS) of LysaKare® in Adult Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET) Patients
+   NCT ID: NCT04524442
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT04524442...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04524442; congress_abstracts: https://www.enets.org/abstracts/nct04524442
+----------------------------------------
+76. Circulating Tumour Cells in Somatuline Autogel Treated NeuroEndocrine Tumours Patients
+   NCT ID: NCT02075606
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 10
+   Online Search Summary: 2 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Online search performed; Found 10 additional publication(s) via online search; Web search details: 2 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PMID: 35132704; PMID: 27875519; PubMed: Circulating tumour cells and tumour biomarkers in ...; PubMed: Expression of somatostatin receptors 2 and 5 in ci...; Scholar: Molecular genetic findings in small bowel neuroend...; Scholar: The combined effect of downregulated RB1 and overe...; Scholar: Early changes in circulating tumor cells are assoc...; Scholar: Liquid biopsies for neuroendocrine tumors: circula...; Scholar: Circulating tumour cells and tumour biomarkers in ...; Scholar: Evolving landscape of clinical trials in gastroent...; Congress: Simulated ESMO abstract for NCT02075606...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35132704/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27875519/; google_scholar: https://www.tandfonline.com/doi/abs/10.2217/ije.14.41; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9612785/; google_scholar: https://aacrjournals.org/clincancerres/article-abstract/22/1/79/248730; google_scholar: https://www.endo.theclinics.com/article/S0889-8529(18)30514-0/abstract; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1111/jne.13096; google_scholar: https://ec.bioscientifica.com/view/journals/ec/12/4/EC-22-0441.xml; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02075606; congress_abstracts: https://www.enets.org/abstracts/nct02075606
+----------------------------------------
+77. Phase II Capecitabine, Oxaliplatin & Bevacizumab for Metastatic / Unresectable Neuroendocrine Tumors
+   NCT ID: NCT00398320
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 5 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 5 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: Scholar: From biology to clinical experience: evolution in ...; Scholar: Treatment of gastrointestinal neuroendocrine tumor...; Scholar: Treatment of liver metastases in patients with neu...; Scholar: Current and Emerging Therapies in Neuroendocrine T...; Scholar: Systemic therapy for neuroendocrine tumours of gas...; Congress: Simulated ESMO abstract for NCT00398320...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://link.springer.com/article/10.1007/s12156-009-0011-x; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC2708356/; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.4061/2011/154541; google_scholar: https://www.benthamdirect.com/content/journals/ccand/10.2174/2212697X01999131126150859; google_scholar: https://erc.bioscientifica.com/view/journals/erc/17/1/R75.xml; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00398320; congress_abstracts: https://www.enets.org/abstracts/nct00398320
+----------------------------------------
+78. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT03375320
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 11
+   Online Search Summary: 2 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 11 additional publication(s) via online search; Web search details: 2 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 33152282; PubMed: Phase 3 Trial of Cabozantinib to Treat Advanced Ne...; PubMed: Angiogenesis inhibitors in neuroendocrine tumours:...; Scholar: Efficacyand safety of cabozantinib for advanced ga...; Scholar: Health-related quality of life (HRQOL) in the phas...; Scholar: CabozantinibEfficacyLeads to Unblinding of Advance...; Scholar: Updatedresultsof CABINET trial/alliance A021602: c...; Scholar: Cabozantinib Improves PFS Vs Placebo in Advanced N...; Scholar: Lenvatinib in patients with advanced grade 1/2 pan...; Scholar: LBA53 Alliance A021602: Phase III, double-blinded ...; Congress: Simulated ESMO abstract for NCT03375320...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39282913/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33152282/; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2025.43.4_suppl.666; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2025.43.16_suppl.4020; google_scholar: https://go.gale.com/ps/i.do?p=AONE&sw=w&issn=&v=2.1&it=r&id=GALE%7CA775270917&sid=googleScholar&linkaccess=abs; google_scholar: https://www.endocrine-abstracts.org/ea/0108/ea0108c9; google_scholar: https://go.gale.com/ps/i.do?p=HRCA&sw=w&issn=&v=2.1&it=r&id=GALE%7CA775270964&sid=googleScholar&linkaccess=abs; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.20.03368; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(23)04191-1/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03375320; congress_abstracts: https://www.enets.org/abstracts/nct03375320
+----------------------------------------
+79. A Continuation Study Using Sunitinib Malate For Patients Leaving Treatment On A Previous Sunitinib Study.
+   NCT ID: NCT00428220
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 6 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 6 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: Scholar: Sunitinib in patients with pancreatic neuroendocri...; Scholar: [PDF][PDF]Clinical effectiveness and cost-utility ...; Scholar: [HTML][HTML]The adverse effect of hypertension in ...; Scholar: Modeling and simulations relating overall survival...; Scholar: Effects and role of multikinase inhibitors in thyr...; Scholar: Targeting the tumor stroma in hepatocellular carci...; Congress: Simulated ESMO abstract for NCT00428220...
+   External Sources: google_scholar: https://www.tandfonline.com/doi/abs/10.2217/fon-2018-0882; google_scholar: https://www.academia.edu/download/84573707/1236.pdf; google_scholar: https://www.mdpi.com/1422-0067/18/3/625; google_scholar: https://link.springer.com/article/10.1007/s00280-015-2820-x; google_scholar: https://www.ingentaconnect.com/content/ben/cpd/2016/00000022/00000039/art00004; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC4342599/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00428220
+----------------------------------------
+80. Efficacy and Safety of Everolimus (RAD001) Compared to Placebo in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT00510068
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 19
+   External Publications: 14
+   Online Search Summary: 5 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 5 listed publication(s); Listed publications appear to contain results; Online search performed; Found 14 additional publication(s) via online search; Web search details: 5 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 14 external publications via online search
+   Sources: PMID: 33560090; PubMed: Everolimus for the Treatment of Advanced Pancreati...; PubMed: Impact of prior chemotherapy use on the efficacy o...; PubMed: Markers of Systemic Inflammation in Neuroendocrine...; PubMed: Reply to V. Amoroso et al....; PubMed: Everolimus for advanced pancreatic neuroendocrine ...; Scholar: Potential synergies for combined targeted therapy ...; Scholar: Everolimus for the treatment of advanced pancreati...; Scholar: Everolimus in patients with advanced, progressive ...; Scholar: Relationship between metabolic toxicity andefficac...; Scholar: Distinctive chromosomal instability (CIN) patterns...; Scholar: Impact of prior chemotherapy use on theefficacyof ...; Scholar: Requirements for meaningful progress in the therap...; Congress: Simulated ESMO abstract for NCT00510068...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/27621394/; pubmed: https://pubmed.ncbi.nlm.nih.gov/25479584/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33560090/; pubmed: https://pubmed.ncbi.nlm.nih.gov/28113028/; pubmed: https://pubmed.ncbi.nlm.nih.gov/21306238/; google_scholar: https://link.springer.com/article/10.2165/11585500-000000000-00000; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2016.68.0702; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.4091; google_scholar: https://acsjournals.onlinelibrary.wiley.com/doi/abs/10.1002/cncr.33540; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2016.34.15_suppl.e23284; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2015/03000/Impact_of_Prior_Chemotherapy_Use_on_the_Efficacy.2.aspx; google_scholar: https://jamanetwork.com/journals/jamaoncology/article-abstract/2802266; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00510068; congress_abstracts: https://www.enets.org/abstracts/nct00510068
+----------------------------------------
+81. Dosimetry-Guided, Peptide Receptor Radiotherapy (PRRT) With 90Y-DOTA- tyr3-Octreotide (90Y-DOTATOC)
+   NCT ID: NCT03273712
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 7
+   Online Search Summary: 6 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 7 additional publication(s) via online search; Web search details: 6 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: Scholar: A brief overview of targeted radionuclide therapy ...; Scholar: Peptide receptor radionuclide therapy in advanced ...; Scholar: Systemic treatment for lung carcinoids: from bench...; Scholar: Radioligand therapies in meningioma: Evidence and ...; Scholar: Molecular targeting therapies for neuroblastoma: P...; Scholar: Meningioma: not always a benign tumor. A review of...; Congress: Simulated ESMO abstract for NCT03273712...
+   External Sources: google_scholar: https://www.frontiersin.org/journals/nuclear-medicine/articles/10.3389/fnume.2023.1169650/full; google_scholar: https://jnm.snmjournals.org/content/65/9/1409.abstract; google_scholar: https://link.springer.com/article/10.1186/s40169-019-0238-5; google_scholar: https://academic.oup.com/neuro-oncology/article-abstract/26/Supplement_9/S215/7664448; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1002/med.21750; google_scholar: https://www.tandfonline.com/doi/abs/10.2217/cns-2021-0003; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03273712
+----------------------------------------
+82. A Study Of The Efficacy And Safety Of Sunitinib In Patients With Advanced Well-Differentiated Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT01525550
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 13
+   External Publications: 12
+   Online Search Summary: 2 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 12 additional publication(s) via online search; Web search details: 2 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 12 external publications via online search
+   Sources: PMID: 33411058; PubMed: Updated Efficacy and Safety Outcomes for Patients ...; PubMed: Efficacy and Safety of Sunitinib in Patients with ...; Scholar: Sunitinib in patients with pancreatic neuroendocri...; Scholar: Updatedefficacyand safety outcomes for patients wi...; Scholar: Efficacyand safety of sunitinib in patients with w...; Scholar: Theefficacyand safety of sunitinib in patients wit...; Scholar: Supplementary Material for:Efficacyand Safety of S...; Scholar: [HTML][HTML]Nanomaterials for antiangiogenic thera...; Scholar: Pharmacogenomic analyses of sunitinib in patients ...; Scholar: Predictive markers of response to everolimus and s...; Congress: Simulated ESMO abstract for NCT01525550...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33411058/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29991024/; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.4_suppl.255; google_scholar: https://link.springer.com/article/10.1007/s11523-020-00784-0; google_scholar: https://karger.com/nen/article/107/3/237/220735; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.4_suppl.380; google_scholar: https://cir.nii.ac.jp/crid/1881991017780652416; google_scholar: https://www.mdpi.com/1422-0067/22/4/1631; google_scholar: https://www.tandfonline.com/doi/abs/10.2217/fon-2018-0934; google_scholar: https://link.springer.com/article/10.1007/s11523-017-0506-5; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01525550; congress_abstracts: https://www.enets.org/abstracts/nct01525550
+----------------------------------------
+83. Phase II Study of Subcutaneous Inj. Depot of Octreotide in Patients With Acromegaly and Neuroendocrine Tumours (NETs)
+   NCT ID: NCT02299089
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 7
+   Online Search Summary: 1 PubMed publications; 4 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 7 additional publication(s) via online search; Web search details: 1 PubMed publications; 4 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: PMID: 30535537; PubMed: Octreotide SC depot in patients with acromegaly an...; Scholar: Current and future medical treatments for patients...; Scholar: Challenges and opportunities in the delivery of ca...; Scholar: Octreotide SC depot in patients with acromegaly an...; Scholar: [HTML][HTML]“Cold” Somatostatin Analogs in Neuroen...; Congress: Simulated ESMO abstract for NCT02299089...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30535537/; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/14656566.2016.1199687; google_scholar: https://www.tandfonline.com/doi/abs/10.4155/tde-2020-0079; google_scholar: https://link.springer.com/article/10.1007/s00280-018-3734-1; google_scholar: https://www.mdpi.com/2073-4409/14/4/245; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02299089; congress_abstracts: https://www.enets.org/abstracts/nct02299089
+----------------------------------------
+84. Clinical and Translational Study of MK-0646 in Patients With Metastatic Neuroendocrine Tumors (NET)
+   NCT ID: NCT00610129
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 9
+   Online Search Summary: 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 9 additional publication(s) via online search; Web search details: 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: Scholar: Insulin-like growth factor: current concepts and n...; Scholar: Development of inhibitors of the IGF-IR/PI3K/Akt/m...; Scholar: Metastatic insulinoma: current molecular and cytot...; Scholar: Treatment of liver metastases in patients with neu...; Scholar: A phase 2 study of the insulin‐like growth factor‐...; Scholar: Systemic therapy for neuroendocrine tumours of gas...; Scholar: [PDF][PDF]Dalotuzumab, a recombinant humanized mAb...; Congress: Simulated ESMO abstract for NCT00610129...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.ingentaconnect.com/content/ben/pra/2012/00000007/00000001/art00003; google_scholar: https://www.ingentaconnect.com/content/ben/rrct/2010/00000005/00000003/art00008; google_scholar: https://jnccn.org/abstract/journals/jnccn/13/2/article-p139.xml; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.4061/2011/154541; google_scholar: https://acsjournals.onlinelibrary.wiley.com/doi/abs/10.1002/cncr.27459; google_scholar: https://erc.bioscientifica.com/view/journals/erc/17/1/R75.xml; google_scholar: https://www.researchgate.net/profile/Mario-Scartozzi/publication/44647327_Dalotuzumab_a_recombinant_humanized_mAb_targeted_against_IGFR1_for_the_treatment_of_cancer/links/56bf96a208aee5caccf4cd09/Dalotuzumab-a-recombinant-humanized-mAb-targeted-against-IGFR1-for-the-treatment-of-cancer.pdf; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00610129; congress_abstracts: https://www.enets.org/abstracts/nct00610129
+----------------------------------------
+85. Ribociclib in Treating Patients With Advanced Neuroendocrine Tumors of Foregut Origin
+   NCT ID: NCT02420691
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 10
+   Online Search Summary: 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 10 additional publication(s) via online search; Web search details: 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: Scholar: [HTML][HTML]Antitumoral activity of the mek inhibi...; Scholar: Targeted therapy of gastroenteropancreatic neuroen...; Scholar: … novel cyclin-dependent kinase 4/6 inhibitor ribo...; Scholar: [HTML][HTML]Targeting cyclin-dependent kinases in ...; Scholar: Ribociclib: first global approval...; Scholar: [HTML][HTML]CDK 4/6 inhibitors as single agent in ...; Scholar: Systemic treatment for lung carcinoids: from bench...; Scholar: Cyclin-dependent kinase (CDK) inhibitors in solid ...; Congress: Simulated ESMO abstract for NCT02420691...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.mdpi.com/2072-6694/13/6/1485; google_scholar: https://ec.bioscientifica.com/view/journals/ec/7/1/EC-17-0286.xml; google_scholar: https://karger.com/nen/article/106/1/58/220281; google_scholar: https://www.discoverymedicine.com/Jinduo-Zhang/2019/01/targeting-cyclin-dependent-kinases-in-gastrointestinal-cancer-therapy/; google_scholar: https://link.springer.com/article/10.1007/s40265-017-0742-0; google_scholar: https://www.frontiersin.org/articles/10.3389/fonc.2018.00608/full; google_scholar: https://link.springer.com/article/10.1186/s40169-019-0238-5; google_scholar: https://link.springer.com/article/10.1007/s12094-021-02688-5; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02420691; congress_abstracts: https://www.enets.org/abstracts/nct02420691
+----------------------------------------
+86. PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies
+   NCT ID: NCT03365791
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 7 Google Scholar results; 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 7 Google Scholar results; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: [HTML][HTML]The current therapeutic landscape for ...; Scholar: [HTML][HTML]The perfect combination: enhancing pat...; Scholar: Insight on the Clinical Trials of Immunotherapy fo...; Scholar: Current status and future perspectives of immune c...; Scholar: Advances in new targets for immunotherapy of small...; Scholar: What is the status of immunotherapy in neuroendocr...; Scholar: Phase II study of spartalizumab (PDR001) and LAG52...; Congress: Simulated ESMO abstract for NCT03365791...
+   External Sources: google_scholar: https://www.mdpi.com/1424-8247/17/3/351; google_scholar: https://www.mdpi.com/2072-6694/12/8/2150; google_scholar: https://link.springer.com/chapter/10.1007/978-981-99-7141-1_18; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9251690/; google_scholar: https://onlinelibrary.wiley.com/doi/abs/10.1111/1759-7714.15178; google_scholar: https://link.springer.com/article/10.1007/s11912-022-01235-x; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2019.37.15_suppl.2553; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03365791
+----------------------------------------
+87. AMT-PET in Monitoring Telotristat Etiprate Treatment in Participants With MetastaticNeuroendocrine Neoplasm
+   NCT ID: NCT03453489
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 4
+   Online Search Summary: 2 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: Scholar: New insights into tryptophan metabolism in cancer...; Scholar: Exploring neurotransmitters and their receptors fo...; Congress: Simulated ESMO abstract for NCT03453489...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.cell.com/trends/cancer/abstract/S2405-8033(25)00076-7; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC9925324/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03453489; congress_abstracts: https://www.enets.org/abstracts/nct03453489
+----------------------------------------
+88. Octreotide Acetate and Recombinant Interferon Alfa-2b or Bevacizumab in Treating Patients With Metastatic or Locally Advanced, High-Risk Neuroendocrine Tumor
+   NCT ID: NCT00569127
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 11
+   Online Search Summary: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 11 additional publication(s) via online search; Web search details: 1 PubMed publications; 8 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 11 external publications via online search
+   Sources: PMID: 28384065; PubMed: Phase III Prospective Randomized Comparison Trial ...; Scholar: … of depot octreotide plus interferon alpha-2b ver...; Scholar: Relevance of angiogenesis in neuroendocrine tumors...; Scholar: Relevance of angiogenesis in neuroendocrine tumors...; Scholar: Current clinical trials of targeted agents for wel...; Scholar: Advances with Somatostatin Analogs in Neuroendocri...; Scholar: Phase III prospective randomized comparison trial ...; Scholar: [PDF][PDF]SWOG S0518...; Scholar: Antitumor effects of somatostatin analogs in neuro...; Congress: Simulated ESMO abstract for NCT00569127...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/28384065/; google_scholar: https://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.4004; google_scholar: https://diposit.ub.edu/dspace/handle/2445/171585; google_scholar: https://link.springer.com/chapter/10.1007/978-2-8178-0430-9_3; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2014/11000/current_clinical_trials_of_targeted_agents_for.9.aspx; google_scholar: https://link.springer.com/chapter/10.1007/978-2-8178-0430-9_4; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2016.70.4072; google_scholar: https://core.ac.uk/download/pdf/232591794.pdf; google_scholar: https://academic.oup.com/oncolo/article-abstract/17/6/747/6400972; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00569127; congress_abstracts: https://www.enets.org/abstracts/nct00569127
+----------------------------------------
+89. Telotristat Etiprate - Expanded Treatment for Patients With Carcinoid Syndrome Symptoms
+   NCT ID: NCT02026063
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 10
+   External Publications: 9
+   Online Search Summary: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 9 additional publication(s) via online search; Web search details: 1 PubMed publications; 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 33940581; PubMed: Long-Term Treatment with Telotristat Ethyl in Pati...; Scholar: Telotristat ethyl: a new option for the management...; Scholar: Long-term treatment with telotristat ethyl in pati...; Scholar: Carcinoid syndrome: patient outcomes from a Europe...; Scholar: Long-term survival of patients with carcinoid synd...; Scholar: Long‐Term Safety Experience with Telotristat Ethyl...; Scholar: Identifying symptom and quality of life improvemen...; Congress: Simulated ESMO abstract for NCT02026063...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33940581/; google_scholar: https://www.tandfonline.com/doi/abs/10.1080/14656566.2016.1254191; google_scholar: https://karger.com/nen/article-abstract/112/3/298/825357; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37860-1/fulltext; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37858-3/fulltext; google_scholar: https://academic.oup.com/oncolo/article-abstract/24/8/e662/6439389; google_scholar: https://www.annalsofoncology.org/article/S0923-7534(20)37859-5/fulltext; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02026063; congress_abstracts: https://www.enets.org/abstracts/nct02026063
+----------------------------------------
+90. Pazopanib Hydrochloride in Treating Patients With Advanced Neuroendocrine Cancer
+   NCT ID: NCT00454363
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 11
+   External Publications: 10
+   Online Search Summary: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 10 additional publication(s) via online search; Web search details: 1 PubMed publications; 7 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 10 external publications via online search
+   Sources: PMID: 25956795; PubMed: Pazopanib and depot octreotide in advanced, well-d...; Scholar: Pazopanib and depot octreotide in advanced, well-d...; Scholar: Clinical and preclinical advances in gastroenterop...; Scholar: [HTML][HTML]Efficacyand toxicity of anti-vascular ...; Scholar: Current and Emerging Therapies in Neuroendocrine T...; Scholar: Systemic therapy for neuroendocrine tumours of gas...; Scholar: Treatment of gastrointestinal neuroendocrine tumor...; Scholar: A Critical View of Molecularly Target Therapy for ...; Congress: Simulated ESMO abstract for NCT00454363...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/25956795/; google_scholar: https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(15)70136-1/abstract; google_scholar: https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2017.00341/full; google_scholar: https://www.sciencedirect.com/science/article/pii/S0959804923000096; google_scholar: https://www.benthamdirect.com/content/journals/ccand/10.2174/2212697X01999131126150859; google_scholar: https://erc.bioscientifica.com/view/journals/erc/17/1/R75.xml; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC2708356/; google_scholar: https://www.ingentaconnect.com/content/ben/emi/2007/00000001/00000002/art00002; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00454363; congress_abstracts: https://www.enets.org/abstracts/nct00454363
+----------------------------------------
+91. Pazopanib Hydrochloride in Treating Patients With Progressive Carcinoid Tumors
+   NCT ID: NCT01841736
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 8
+   Online Search Summary: 6 Google Scholar results; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 8 additional publication(s) via online search; Web search details: 6 Google Scholar results; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 8 external publications via online search
+   Sources: Scholar: Pazopanib and depot octreotide in advanced, well-d...; Scholar: Phase III prospective randomized comparison trial ...; Scholar: Current clinical trials of targeted agents for wel...; Scholar: Summary of emerging personalized medicine in neuro...; Scholar: Discordance between central versus local response ...; Scholar: Carcinoid and neuroendocrine tumors: building on s...; Congress: Simulated ESMO abstract for NCT01841736...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: google_scholar: https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(15)70136-1/abstract; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2016.70.4072; google_scholar: https://journals.lww.com/pancreasjournal/fulltext/2014/11000/current_clinical_trials_of_targeted_agents_for.9.aspx; google_scholar: https://pmc.ncbi.nlm.nih.gov/articles/PMC5056258/; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.3_suppl.361; google_scholar: https://ascopubs.org/doi/abs/10.1200/JCO.2014.60.2532; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01841736; congress_abstracts: https://www.enets.org/abstracts/nct01841736
+----------------------------------------
+92. BEZ235 Phase II Trial in Patients With Advanced Pancreatic Neuroendocrine Tumors (pNET) After Failure of mTOR Inhibitor Therapy.
+   NCT ID: NCT01658436
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 26851029; PubMed: A Phase II Study of BEZ235 in Patients with Everol...; Congress: Simulated ESMO abstract for NCT01658436...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/26851029/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01658436; congress_abstracts: https://www.enets.org/abstracts/nct01658436
+----------------------------------------
+93. Comparative Study of Sensitivity of Ga-DOTATOC PET vs Octreoscan SPECT + CT
+   NCT ID: NCT01869725
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT01869725...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01869725
+----------------------------------------
+94. A Study of Axitinib in Advanced Carcinoid Tumors
+   NCT ID: NCT01435122
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT01435122...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01435122; congress_abstracts: https://www.enets.org/abstracts/nct01435122
+----------------------------------------
+95. Study to Allow Access to Pasireotide for Patients Benefiting From Pasireotide Treatment in Novartis-sponsored Studies
+   NCT ID: NCT01794793
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT01794793...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01794793
+----------------------------------------
+96. A Phase II Trial of MLN8237 in Patients With Metastatic Castrate Resistant and Neuroendocrine Prostate Cancer
+   NCT ID: NCT01799278
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 30232224; PubMed: A Phase II Trial of the Aurora Kinase A Inhibitor ...; Congress: Simulated ESMO abstract for NCT01799278...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30232224/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01799278; congress_abstracts: https://www.enets.org/abstracts/nct01799278
+----------------------------------------
+97. Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET
+   NCT ID: NCT03972488
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 5
+   Online Search Summary: 3 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Listed publications appear to contain results; Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: PMID: 38851203; PubMed: [177Lu]Lu-DOTA-TATE plus long-acting octreotide ve...; PubMed: State of the art and future directions in the syst...; PubMed: Casting a Wide NET: When Is the Optimal Time for 1...; Congress: Simulated ESMO abstract for NCT03972488...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38851203/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33973550/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39570708/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03972488; congress_abstracts: https://www.enets.org/abstracts/nct03972488
+----------------------------------------
+98. Everolimus and Octreotide in Patients With Advanced Carcinoid Tumor
+   NCT ID: NCT00412061
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 8
+   External Publications: 5
+   Online Search Summary: 3 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 3 listed publication(s); Listed publications appear to contain results; Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: PMID: 28444114; PubMed: Efficacy of everolimus plus octreotide LAR in pati...; PubMed: Everolimus plus octreotide long-acting repeatable ...; PubMed: Everolimus plus octreotide long-acting repeatable ...; Congress: Simulated ESMO abstract for NCT00412061...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/28444114/; pubmed: https://pubmed.ncbi.nlm.nih.gov/23187897/; pubmed: https://pubmed.ncbi.nlm.nih.gov/22119496/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00412061; congress_abstracts: https://www.enets.org/abstracts/nct00412061
+----------------------------------------
+99. Study of Pasireotide Long Acting Release (LAR) in Patients With Metastatic Neuroendocrine Tumors (NETs)
+   NCT ID: NCT01253161
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 25376618; PubMed: Phase II clinical trial of pasireotide long-acting...; Congress: Simulated ESMO abstract for NCT01253161...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/25376618/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01253161; congress_abstracts: https://www.enets.org/abstracts/nct01253161
+----------------------------------------
+100. Safety/Efficacy of Everolimus in Adults With Advanced Pancreatic Neuroendocrine Cancer Not Responsive to Chemotherapy
+   NCT ID: NCT00363051
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT00363051...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00363051; congress_abstracts: https://www.enets.org/abstracts/nct00363051
+----------------------------------------
+101. A Study of Pembrolizumab in Patients With Neuroendocrine Tumors
+   NCT ID: NCT02939651
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 3 external publications via online search
+   Sources: PMID: 32152503; PubMed: Pembrolizumab monotherapy in patients with previou...; Congress: Simulated ESMO abstract for NCT02939651...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/32152503/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02939651; congress_abstracts: https://www.enets.org/abstracts/nct02939651
+----------------------------------------
+102. Study of Telotristat Etiprate (LX1606) in Participants With Symptomatic Carcinoid Syndrome Not Managed by Stable-Dose Octreotide Therapy
+   NCT ID: NCT00853047
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 6
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 2 listed publication(s); Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 4 external publications via online search
+   Sources: PMID: 27041406; PMID: 25012985; PubMed: Telotristat etiprate, a novel serotonin synthesis ...; PubMed: Patient-reported Symptom Experiences in Patients W...; Congress: Simulated ESMO abstract for NCT00853047...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/25012985/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27041406/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00853047; congress_abstracts: https://www.enets.org/abstracts/nct00853047
+----------------------------------------
+103. Real-world Evidence Study EvaLuating PAtient-Reported Outcomes With XERMELO
+   NCT ID: NCT03223428
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: high
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 36262750; Congress: Simulated ESMO abstract for NCT03223428...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03223428
+----------------------------------------
+104. Everolimus Plus Best Supportive Care vs Placebo Plus Best Supportive Care in the Treatment of Patients With Advanced Neuroendocrine Tumors (GI or Lung Origin)
+   NCT ID: NCT01524783
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 12
+   External Publications: 7
+   Online Search Summary: 5 PubMed publications; 2 congress abstracts
+   Search Confidence: high
+   Analysis: Found 5 listed publication(s); Listed publications appear to contain results; Online search performed; Found 7 additional publication(s) via online search; Web search details: 5 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 7 external publications via online search
+   Sources: PMID: 33560090; PubMed: Everolimus in advanced, progressive, well-differen...; PubMed: Health-related quality of life for everolimus vers...; PubMed: Impact of prior therapies on everolimus activity: ...; PubMed: Markers of Systemic Inflammation in Neuroendocrine...; PubMed: Everolimus for the treatment of advanced, non-func...; Congress: Simulated ESMO abstract for NCT01524783...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/29055056/; pubmed: https://pubmed.ncbi.nlm.nih.gov/28838862/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29081664/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33560090/; pubmed: https://pubmed.ncbi.nlm.nih.gov/26703889/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01524783; congress_abstracts: https://www.enets.org/abstracts/nct01524783
+----------------------------------------
+105. A Study of Cixutumumab (IMC-A12) in Islet Cell Cancer
+   NCT ID: NCT00781911
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT00781911...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00781911; congress_abstracts: https://www.enets.org/abstracts/nct00781911
+----------------------------------------
+106. Diagnosis and Staging of Neuroendocrine Tumors (NETs) Utilizing 68Ga-DOTATOC PET/CT Scan
+   NCT ID: NCT03136328
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT03136328...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03136328; congress_abstracts: https://www.enets.org/abstracts/nct03136328
+----------------------------------------
+107. Sorafenib Tosylate in Treating Patients With Progressive Metastatic Neuroendocrine Tumors
+   NCT ID: NCT00131911
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: high
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Congress: Simulated ESMO abstract for NCT00131911...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct00131911; congress_abstracts: https://www.enets.org/abstracts/nct00131911
+----------------------------------------
+

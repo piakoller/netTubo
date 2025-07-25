@@ -1,0 +1,1825 @@
+================================================================================
+CLINICAL TRIALS PUBLICATION FILTER REPORT
+SPECIAL PROCESSING: HasResults-false Dataset
+================================================================================
+Filter Date: 2025-07-24 12:54:15
+Total Studies Analyzed: 138
+Studies Kept: 138
+Studies Removed: 0
+Special Processing: Enhanced filtering for studies without posted results
+--------------------------------------------------------------------------------
+
+ANALYSIS STATISTICS:
+Studies with listed publications: 37
+Studies with results publications: 138
+Studies with posted results on ClinicalTrials.gov: 0 (Expected: 0 for HasResults-false)
+Web searches performed: 138
+Studies with online evidence found: 138
+High confidence studies: 0
+Medium confidence studies: 138
+Low confidence studies: 0
+
+HASRESULTS-FALSE FILTERING NOTES:
+- These studies don't have posted results on ClinicalTrials.gov
+- Filtering relies heavily on external publications and online search
+- Studies are kept if external evidence is found via web search
+
+--------------------------------------------------------------------------------
+
+KEPT STUDIES (138):
+==================================================
+1. Neoadjuvant PRRT With 177Lu-DOTATATE Followed by Surgery for Resectable PanNET
+   NCT ID: NCT04385992
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04385992...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04385992; congress_abstracts: https://www.enets.org/abstracts/nct04385992
+----------------------------------------
+2. Open-Label Surufatinib in European Patients With NET
+   NCT ID: NCT04579679
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04579679...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04579679; congress_abstracts: https://www.enets.org/abstracts/nct04579679
+----------------------------------------
+3. Routine Transcervical Thymectomy in MEN-1 Patients
+   NCT ID: NCT05061784
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05061784...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05061784
+----------------------------------------
+4. Apalutamide, Abiraterone Acetate, and Prednisone in Treating Participants With Metastatic Castration Resistant Prostate Cancer
+   NCT ID: NCT03360721
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03360721...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03360721
+----------------------------------------
+5. Investigation of the Effects of Diet on the Measurement of Plasma Chromogranin in NET Patients
+   NCT ID: NCT03288402
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03288402...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03288402; congress_abstracts: https://www.enets.org/abstracts/nct03288402
+----------------------------------------
+6. Post-Authorization Long-Term Safety Study of LUTATHERA
+   NCT ID: NCT03691064
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03691064...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03691064
+----------------------------------------
+7. Avelumab in G2-3 NET
+   NCT ID: NCT03278379
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 35504244; PubMed: Avelumab in unresectable/metastatic, progressive, ...; Congress: Simulated ESMO abstract for NCT03278379...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35504244/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03278379; congress_abstracts: https://www.enets.org/abstracts/nct03278379
+----------------------------------------
+8. The Registry of Oncology Outcomes Associated with Testing and Treatment
+   NCT ID: NCT04028479
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 10
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 9 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 28679092; PMID: 23757002; PMID: 30227640; Congress: Simulated ESMO abstract for NCT04028479...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04028479
+----------------------------------------
+9. Neuroendocrine Tumors - Patient Reported Outcomes
+   NCT ID: NCT05064150
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05064150...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05064150; congress_abstracts: https://www.enets.org/abstracts/nct05064150
+----------------------------------------
+10. A Single-arm Trial of Atezolizumab/Platinum/Etoposide for the Treatment of Advanced Large-cell Neuroendocrine Cancer of the Lung
+   NCT ID: NCT05470595
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05470595...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05470595; congress_abstracts: https://www.enets.org/abstracts/nct05470595
+----------------------------------------
+11. Clinical Application of the Prototype J-PET Device
+   NCT ID: NCT06211803
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 6
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 5 listed publication(s); Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 34644101; PMID: 32739047; PMID: 36959477; PMID: 37819578; PMID: 30641509; Congress: Simulated ESMO abstract for NCT06211803...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06211803
+----------------------------------------
+12. Abemaciclib in Treating Patients With Advanced, Refractory, and Unresectable Digestive System Neuroendocrine Tumors
+   NCT ID: NCT03891784
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03891784...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03891784; congress_abstracts: https://www.enets.org/abstracts/nct03891784
+----------------------------------------
+13. A Diagnostic Imaging Study of 64Cu-SARTATE Using PET on Patients With Known or Suspected Neuroendocrine Tumors (DISCO)
+   NCT ID: NCT04438304
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04438304...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04438304; congress_abstracts: https://www.enets.org/abstracts/nct04438304
+----------------------------------------
+14. Community-based Neuroendocrine Tumor (NET) Research Study
+   NCT ID: NCT02730104
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 36136274; PubMed: Lanreotide Depot to Treat Gastroenteropancreatic N...; Congress: Simulated ESMO abstract for NCT02730104...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36136274/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02730104; congress_abstracts: https://www.enets.org/abstracts/nct02730104
+----------------------------------------
+15. Optimising Molecular Radionuclide Therapy
+   NCT ID: NCT04922801
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04922801...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04922801
+----------------------------------------
+16. Whole Body Dynamic 68Ga-DOTATOC PET/CT in Neuroendocrine Tumors
+   NCT ID: NCT03576040
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03576040...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03576040; congress_abstracts: https://www.enets.org/abstracts/nct03576040
+----------------------------------------
+17. Circulating Tumor Cells and Tumor DNA in HCC and NET
+   NCT ID: NCT02973204
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 18
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 16 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 25140861; PMID: 21374666; PMID: 22846862; PMID: 21224371; PMID: 23248251; PMID: 23616258; Congress: Simulated ESMO abstract for NCT02973204...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02973204; congress_abstracts: https://www.enets.org/abstracts/nct02973204
+----------------------------------------
+18. Targeted Agent Evaluation in Digestive Cancers in China Based on Molecular Characteristics
+   NCT ID: NCT04584008
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04584008...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04584008
+----------------------------------------
+19. Minimally Invasive Pancreatic Enucleation With Main Pancreatic Duct Exposure, Repair or Reconstruction
+   NCT ID: NCT06024343
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 15
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 14 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 22528577; Congress: Simulated ESMO abstract for NCT06024343...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06024343
+----------------------------------------
+20. Cohort of Well-differentiated Grade 3 Neuroendocrine Digestive Tumors
+   NCT ID: NCT04365023
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04365023...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04365023; congress_abstracts: https://www.enets.org/abstracts/nct04365023
+----------------------------------------
+21. Italian Prospective Observational Study Assessing the Effectiveness and Outcomes Associated With Lutathera Treatment in GEP-NETs
+   NCT ID: NCT04727723
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Lutetium [177Lu]-DOTA-TATE in gastroenteropancreat...; Congress: Simulated ESMO abstract for NCT04727723...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38772998/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04727723; congress_abstracts: https://www.enets.org/abstracts/nct04727723
+----------------------------------------
+22. Inhaled Essential Oil Effect on Common QOL Concerns During Cancer Treatment
+   NCT ID: NCT03858855
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03858855...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03858855
+----------------------------------------
+23. A Trial of Cabozantinib in Patients With Advanced, Low Proliferative NEN G3
+   NCT ID: NCT04524208
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04524208...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04524208
+----------------------------------------
+24. Pancreatic Fistula After Minimally Invasive Enucleation
+   NCT ID: NCT06557408
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 10
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 9 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 17583892; PMID: 27423534; Congress: Simulated ESMO abstract for NCT06557408...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06557408
+----------------------------------------
+25. The Role of Intraoperative Hepatic Ultrasonography in Gastrointestinal or Pancreatic Neuroendocrine Tumor
+   NCT ID: NCT06779708
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 11
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 9 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 23339035; PMID: 31662749; PMID: 24830573; PMID: 20517682; PMID: 20010089; PMID: 30242647; PMID: 26731186; PMID: 25312765; Congress: Simulated ESMO abstract for NCT06779708...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06779708; congress_abstracts: https://www.enets.org/abstracts/nct06779708
+----------------------------------------
+26. Investigation of a Transcatheter Tricuspid Valved Stent Graft in Patients With Carcinoid Heart Disease
+   NCT ID: NCT05064514
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05064514...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05064514; congress_abstracts: https://www.enets.org/abstracts/nct05064514
+----------------------------------------
+27. A Long-term Safety Surveillance Study in Participants Previously Treated With 177Lu-IPN01072
+   NCT ID: NCT05017662
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05017662...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05017662
+----------------------------------------
+28. Ki67 Proliferation Index of Pancreatic Neuroendocrine Neoplasia
+   NCT ID: NCT04753229
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04753229...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04753229; congress_abstracts: https://www.enets.org/abstracts/nct04753229
+----------------------------------------
+29. United Kingdom (UK) Patient Preference Study of Somatuline Autogel and Treatment Administration Setting
+   NCT ID: NCT04649580
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04649580...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04649580
+----------------------------------------
+30. 18F-AmBF3-TATE PET/CT for Imaging NET Patients
+   NCT ID: NCT04207762
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04207762...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04207762; congress_abstracts: https://www.enets.org/abstracts/nct04207762
+----------------------------------------
+31. Addressing Social Determinants of Health Among Metro Detroit Cancer Survivors
+   NCT ID: NCT06908629
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06908629...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06908629
+----------------------------------------
+32. A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs
+   NCT ID: NCT05459844
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Radiation exposure and protection advice after [17...; Congress: Simulated ESMO abstract for NCT05459844...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39607652/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05459844; congress_abstracts: https://www.enets.org/abstracts/nct05459844
+----------------------------------------
+33. Perception of Information and Quality of Life in Neuroendocrine Tumour on Lanreotide Autogel
+   NCT ID: NCT03562091
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: OPERA: perception of information in patients with ...; Congress: Simulated ESMO abstract for NCT03562091...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37542470/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03562091; congress_abstracts: https://www.enets.org/abstracts/nct03562091
+----------------------------------------
+34. Telotristat Ethyl for the Treatment of Carcinoid Heart Disease in Patients With Metastatic Neuroendocrine Tumor
+   NCT ID: NCT04810091
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04810091...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04810091; congress_abstracts: https://www.enets.org/abstracts/nct04810091
+----------------------------------------
+35. Retrospective Analysis of Patients Re-treated With Lutetium-177 DOTATATE (Lutathera®)
+   NCT ID: NCT05816720
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05816720...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05816720
+----------------------------------------
+36. Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types
+   NCT ID: NCT03012620
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Pembrolizumab in patients with rare and ultra-rare...; Congress: Simulated ESMO abstract for NCT03012620...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37429302/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03012620
+----------------------------------------
+37. Novel 99mTc-labeled Somatostatin Antaginosts in the Diagnostic Algotithm of Neuroendocrine Neoplasms
+   NCT ID: NCT05871320
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05871320...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05871320; congress_abstracts: https://www.enets.org/abstracts/nct05871320
+----------------------------------------
+38. Antitumor Efficacy of Peptide Receptor Radionuclide Therapy With 177Lutetium -Octreotate Randomized vs Sunitinib in Unresectable Progressive Well-differentiated Neuroendocrine Pancreatic Tumor: First Randomized Phase II
+   NCT ID: NCT02230176
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02230176...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02230176; congress_abstracts: https://www.enets.org/abstracts/nct02230176
+----------------------------------------
+39. Nutrition in Gastrointestinal Tumors
+   NCT ID: NCT04476082
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04476082...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04476082
+----------------------------------------
+40. Nivolumab +/- Ipilimumab in Patients With Advanced, Refractory Pulmonary or Gastroenteropancreatic Poorly Differentiated Neuroendocrine Tumors (NECs)
+   NCT ID: NCT03591731
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03591731...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03591731; congress_abstracts: https://www.enets.org/abstracts/nct03591731
+----------------------------------------
+41. Efficacy and Safety of 177Lu-edotreotide PRRT in GEP-NET Patients
+   NCT ID: NCT03049189
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03049189...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03049189; congress_abstracts: https://www.enets.org/abstracts/nct03049189
+----------------------------------------
+42. Surgical Intervention and the NETest
+   NCT ID: NCT03012789
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 3 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 26456125; Congress: Simulated ESMO abstract for NCT03012789...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03012789; congress_abstracts: https://www.enets.org/abstracts/nct03012789
+----------------------------------------
+43. Lutetium 177Lu-Edotreotide Versus Best Standard of Care in Well-differentiated Aggressive Grade-2 and Grade-3 GastroEnteroPancreatic NeuroEndocrine Tumors (GEP-NETs) - COMPOSE
+   NCT ID: NCT04919226
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04919226...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04919226; congress_abstracts: https://www.enets.org/abstracts/nct04919226
+----------------------------------------
+44. Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors
+   NCT ID: NCT03333616
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 33216356; PubMed: Results of a multicenter, phase 2 study of nivolum...; Congress: Simulated ESMO abstract for NCT03333616...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33216356/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03333616
+----------------------------------------
+45. Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangements (Fusions)
+   NCT ID: NCT02568267
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 17
+   External Publications: 11
+   Online Search Summary: 10 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 6 listed publication(s); Listed publications appear to contain results; Online search performed; Found 11 additional publication(s) via online search; Web search details: 10 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 11 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 34924145; PubMed: Indirect Treatment Comparison of Larotrectinib ver...; PubMed: Comparative effectiveness analysis between entrect...; PubMed: Activity of Entrectinib in a Patient With the Firs...; PubMed: Genomic context of NTRK1/2/3 fusion-positive tumou...; PubMed: Entrectinib in patients with advanced or metastati...; PubMed: Efficacy and safety of entrectinib in children wit...; PubMed: Entrectinib versus crizotinib in Asian patients wi...; PubMed: Real-world experience of tropomyosin receptor kina...; PubMed: Serial Cell-Free DNA Sequencing inROS1Fusion-Posit...; PubMed: Entrectinib in ROS1 fusion-positive non-small-cell...; Congress: Simulated ESMO abstract for NCT02568267...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35406565/; pubmed: https://pubmed.ncbi.nlm.nih.gov/34427452/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29118225/; pubmed: https://pubmed.ncbi.nlm.nih.gov/34285332/; pubmed: https://pubmed.ncbi.nlm.nih.gov/31838007/; pubmed: https://pubmed.ncbi.nlm.nih.gov/40086048/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39549678/; pubmed: https://pubmed.ncbi.nlm.nih.gov/36924196/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38848521/; pubmed: https://pubmed.ncbi.nlm.nih.gov/31838015/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02568267
+----------------------------------------
+46. Prospective Comprehensive Molecular Profiling In Neuroendocrine Tumors
+   NCT ID: NCT02586844
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02586844...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02586844; congress_abstracts: https://www.enets.org/abstracts/nct02586844
+----------------------------------------
+47. EchoTip AcuCore Post-Market Clinical Study
+   NCT ID: NCT06358001
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06358001...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06358001
+----------------------------------------
+48. Randomized Embolization Trial for NeuroEndocrine Tumor Metastases to the Liver
+   NCT ID: NCT02724540
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 30016989; PubMed: Randomized Embolization Trial for NeuroEndocrine T...; Congress: Simulated ESMO abstract for NCT02724540...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30016989/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02724540; congress_abstracts: https://www.enets.org/abstracts/nct02724540
+----------------------------------------
+49. TEMCAP in Grade 3 and Low Ki-67 Gastroenteropancreatic Neuroendocrine Tumors
+   NCT ID: NCT03079440
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 7
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 5 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 26731334; PMID: 24771552; PMID: 22967994; Congress: Simulated ESMO abstract for NCT03079440...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03079440; congress_abstracts: https://www.enets.org/abstracts/nct03079440
+----------------------------------------
+50. A Real-world Comparison of FNB and FNA in IHC-required Lesions.
+   NCT ID: NCT05565066
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05565066...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05565066
+----------------------------------------
+51. Multicenter Retrospective Database on Prognostic and Predictive Factors in Patients With Neuroendocrine Tumors
+   NCT ID: NCT05168631
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 17
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 15 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 18565894; PMID: 25312765; Congress: Simulated ESMO abstract for NCT05168631...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05168631; congress_abstracts: https://www.enets.org/abstracts/nct05168631
+----------------------------------------
+52. Agnostic Therapy in Rare Solid Tumors
+   NCT ID: NCT06638931
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 9
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 8 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 25542058; PMID: 35320644; PMID: 30204247; PMID: 26028255; PMID: 34534430; PMID: 32919526; Congress: Simulated ESMO abstract for NCT06638931...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06638931
+----------------------------------------
+53. Pancreatic Cancer Dietary Assessment Study
+   NCT ID: NCT03616431
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 33986039; Congress: Simulated ESMO abstract for NCT03616431...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03616431
+----------------------------------------
+54. Neuroendocrine Neoplasms Methylation Based Classifier - The NEMESIs-study
+   NCT ID: NCT05013957
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05013957...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05013957; congress_abstracts: https://www.enets.org/abstracts/nct05013957
+----------------------------------------
+55. PET/CT Imaging of Angiogenesis in Patients With Neuroendocrine Tumors Using 68Ga-NODAGA-E[c(RGDyK)]2
+   NCT ID: NCT03271281
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03271281...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03271281; congress_abstracts: https://www.enets.org/abstracts/nct03271281
+----------------------------------------
+56. Targeted Alpha-emitter Therapy of PRRT Naïve and Previous PRRT Neuroendocrine Tumor Patients
+   NCT ID: NCT05153772
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05153772...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05153772; congress_abstracts: https://www.enets.org/abstracts/nct05153772
+----------------------------------------
+57. An Open Label Registry Study of Lutetium-177 (DOTA0, TYR3) Octreotate (Lu-DOTA-TATE) Treatment in Patients with Somatostatin Receptor Positive Tumours
+   NCT ID: NCT02236910
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 34110489; PubMed: Survival predictors of177Lu-Dotatate peptide recep...; Congress: Simulated ESMO abstract for NCT02236910...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34110489/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02236910
+----------------------------------------
+58. Real-world Study on Adjuvant Octreotide Therapy in pNETs
+   NCT ID: NCT06080204
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06080204...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06080204; congress_abstracts: https://www.enets.org/abstracts/nct06080204
+----------------------------------------
+59. Study to Evaluate the Safety, PK, and Dose Response of Paltusotine in Subjects With Carcinoid Syndrome
+   NCT ID: NCT05361668
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05361668...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05361668; congress_abstracts: https://www.enets.org/abstracts/nct05361668
+----------------------------------------
+60. Endoscopic Ultrasound-guided RadioFrequency Ablation for the Treatment Pancreatic NeuroEndocrine Neoplasms
+   NCT ID: NCT03834701
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 31058975; PubMed: Turning Up the Heat: Endoscopic Ablation of Pancre...; Congress: Simulated ESMO abstract for NCT03834701...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/31058975/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03834701; congress_abstracts: https://www.enets.org/abstracts/nct03834701
+----------------------------------------
+61. 18F-DOPA PET Imaging: an Evaluation of Biodistribution and Safety
+   NCT ID: NCT03042416
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03042416...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03042416
+----------------------------------------
+62. A Phase II Trial of Ipilimumab and Nivolumab for the Treatment of Rare Cancers
+   NCT ID: NCT02923934
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 32729929; PubMed: Evaluation of Combination Nivolumab and Ipilimumab...; Congress: Simulated ESMO abstract for NCT02923934...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/32729929/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02923934
+----------------------------------------
+63. Exploration of Molecular Biomarkers for Lu-177 DOTATATE Therapy in Midgut Neuroendocrine Tumor
+   NCT ID: NCT03667092
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03667092...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03667092; congress_abstracts: https://www.enets.org/abstracts/nct03667092
+----------------------------------------
+64. Testing the Combination of XL184 (Cabozantinib), Nivolumab, and Ipilimumab for Poorly Differentiated Neuroendocrine Tumors
+   NCT ID: NCT04079712
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04079712...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04079712; congress_abstracts: https://www.enets.org/abstracts/nct04079712
+----------------------------------------
+65. Development and Progression of Carcinoid Heart Disease in a Cohort of Adult Patients With Neuroendocrine Tumors
+   NCT ID: NCT03498040
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03498040...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03498040; congress_abstracts: https://www.enets.org/abstracts/nct03498040
+----------------------------------------
+66. Cisplatin, Carboplatin and Etoposide or Temozolomide and Capecitabine in Treating Patients With Neuroendocrine Carcinoma of the Gastrointestinal Tract or Pancreas That Is Metastatic or Cannot Be Removed by Surgery
+   NCT ID: NCT02595424
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02595424...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02595424; congress_abstracts: https://www.enets.org/abstracts/nct02595424
+----------------------------------------
+67. Prospective Evaluation of a Program for Early Identification of Needs and Multidisciplinary Intervention in Supportive Care in Digestive Oncology
+   NCT ID: NCT04478175
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04478175...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04478175
+----------------------------------------
+68. LUTATHERA Injection General Use Result Survey
+   NCT ID: NCT05844332
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05844332...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05844332
+----------------------------------------
+69. Immunotherapy Adjuvant Trial in Patients With Stage I-III Merkel Cell Carcinoma
+   NCT ID: NCT04291885
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04291885...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04291885
+----------------------------------------
+70. Stereotactic Body Radiation Therapy With or Without Nivolumab in Treating Patients With Stage I-IIA or Recurrent Non-small Cell Lung Cancer
+   NCT ID: NCT03110978
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Stereotactic ablative radiotherapy with or without...; Congress: Simulated ESMO abstract for NCT03110978...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37478883/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03110978
+----------------------------------------
+71. Correlation Between Body Composition and Pathologic Grade/Prognosis in GEP-NENs: A Retrospective Study
+   NCT ID: NCT06983106
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06983106...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06983106
+----------------------------------------
+72. Asian Investigation of Lanreotide Autogel® in the Management of GEP-NETs
+   NCT ID: NCT04696042
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 7
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 5 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 23091441; PMID: 21659833; PMID: 26731013; PMID: 30536151; Congress: Simulated ESMO abstract for NCT04696042...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04696042; congress_abstracts: https://www.enets.org/abstracts/nct04696042
+----------------------------------------
+73. Study of Tamoxifen in Well Differentiated Neuroendocrine Tumors and Hormone Receptor Positive Expression
+   NCT ID: NCT03870399
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 24
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 21 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 18565894; PMID: 9737302; PMID: 19845567; PMID: 25317881; PMID: 19704057; PMID: 1356613; PMID: 26976979; PMID: 25076292; PubMed: HORMONET: a phase II trial of tamoxifen for estrog...; Congress: Simulated ESMO abstract for NCT03870399...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37529158/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03870399; congress_abstracts: https://www.enets.org/abstracts/nct03870399
+----------------------------------------
+74. Assessment of What Patients and Healthcare Providers Value
+   NCT ID: NCT04483349
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04483349...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04483349
+----------------------------------------
+75. Atezolizumab and Bevacizumab in Treating Patients With Rare Solid Tumors
+   NCT ID: NCT03074513
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 35389428; PubMed: Assessment of Clinical Response Following Atezoliz...; Congress: Simulated ESMO abstract for NCT03074513...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35389428/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03074513
+----------------------------------------
+76. A Prospective, Open-label Study of [68Ga]Ga-DOTA-TATE in Patients With Neuroendocrine Neoplasms (NENs) and Healthy Volunteers in Japan
+   NCT ID: NCT06240741
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06240741...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06240741; congress_abstracts: https://www.enets.org/abstracts/nct06240741
+----------------------------------------
+77. Nab-paclitaxel Combined with Bevacizumab in the Treatment of Metastatic Extrapulmonary Neuroendocrine Carcinoma
+   NCT ID: NCT04705519
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04705519...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04705519; congress_abstracts: https://www.enets.org/abstracts/nct04705519
+----------------------------------------
+78. SUV on 68Ga-DOTATATE PET/CT and Ki-67 Index in Neuro-Endocrine Tumors
+   NCT ID: NCT02840149
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02840149...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02840149
+----------------------------------------
+79. Gallium 68 Pentixafor in Patients With Neuroendocrine Tumors
+   NCT ID: NCT03335670
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 3 listed publication(s); Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 26909116; PMID: 27819856; PMID: 27175029; Congress: Simulated ESMO abstract for NCT03335670...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03335670; congress_abstracts: https://www.enets.org/abstracts/nct03335670
+----------------------------------------
+80. Pharmaco-immunological Study of Interferon-alpha and Metronomic Cyclophosphamide Association in Neuroendocrine Tumors
+   NCT ID: NCT02838342
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02838342...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02838342; congress_abstracts: https://www.enets.org/abstracts/nct02838342
+----------------------------------------
+81. A Trial to Assess Efficacy and Safety of Octreotide Subcutaneous Depot in Patients with GEP-NET
+   NCT ID: NCT05050942
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Methodology of the SORENTO clinical trial: a prosp...; Congress: Simulated ESMO abstract for NCT05050942...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38229199/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05050942; congress_abstracts: https://www.enets.org/abstracts/nct05050942
+----------------------------------------
+82. Pembrolizumab and Lenvatinib in Advanced/Metastatic Neuroendocrine Prostate Cancer
+   NCT ID: NCT04848337
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04848337...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04848337; congress_abstracts: https://www.enets.org/abstracts/nct04848337
+----------------------------------------
+83. 68Ga-DOTATATE PET for Management of Neuroendocrine Tumors
+   NCT ID: NCT03873870
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: 68 Ga-DOTATATE PET/CT in the Initial Diagnosis of ...; Congress: Simulated ESMO abstract for NCT03873870...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37703482/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03873870; congress_abstracts: https://www.enets.org/abstracts/nct03873870
+----------------------------------------
+84. Safety and Tolerability of Everolimus as Second-line Treatment in Poorly Differentiated Neuroendocrine Carcinoma / Neuroendocrine Carcinoma G3 (WHO 2010) and Neuroendocrine Tumor G3 - an Investigator Initiated Phase II Study
+   NCT ID: NCT02113800
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 33973550; PubMed: State of the art and future directions in the syst...; Congress: Simulated ESMO abstract for NCT02113800...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33973550/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02113800; congress_abstracts: https://www.enets.org/abstracts/nct02113800
+----------------------------------------
+85. ML Decision Model for G-NEC Adjuvant Therapy
+   NCT ID: NCT06663852
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06663852...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06663852
+----------------------------------------
+86. Study to Measure the Safety of 68Ga-DOTA-TATE PET/CT in the Diagnosis of Tumors Expressing Somatostatin Receptors
+   NCT ID: NCT02810600
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02810600...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02810600
+----------------------------------------
+87. PET/CT Imaging of uPAR-expression in Patients With Neuroendocrine Tumors Using 68Ga-NOTA-AE105
+   NCT ID: NCT03278275
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03278275...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03278275; congress_abstracts: https://www.enets.org/abstracts/nct03278275
+----------------------------------------
+88. Cabazitaxel, Carboplatin, and Cetrelimab Followed by Niraparib With or Without Cetrelimab for the Treatment of Aggressive Variant Metastatic Prostate Cancer
+   NCT ID: NCT04592237
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04592237...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04592237
+----------------------------------------
+89. Neoadjuvant Lenvatinib Plus Pembrolizumab in Merkel Cell Carcinoma
+   NCT ID: NCT04869137
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04869137...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04869137
+----------------------------------------
+90. The Reproducibility Of Diffusion Weighted Magnetic Resonance Imaging For Neuroendocrine Tumor Liver Metastases
+   NCT ID: NCT01423734
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT01423734...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01423734; congress_abstracts: https://www.enets.org/abstracts/nct01423734
+----------------------------------------
+91. A Safety Study of 212Pb-VMT-alpha-NET in Patients With Neuroendocrine Tumors
+   NCT ID: NCT06148636
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06148636...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06148636; congress_abstracts: https://www.enets.org/abstracts/nct06148636
+----------------------------------------
+92. Dual Tracer (68Ga-DOTATATE and 18F-FDG) PET Imaging in G2 & G3 Gastroenteropancreatic Neuroendocrine Tumors
+   NCT ID: NCT04804371
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04804371...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04804371; congress_abstracts: https://www.enets.org/abstracts/nct04804371
+----------------------------------------
+93. Nonfunctioning Small (≤2 cm) Neuroendocrine Pancreatic Incidentaloma
+   NCT ID: NCT03022188
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03022188...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03022188; congress_abstracts: https://www.enets.org/abstracts/nct03022188
+----------------------------------------
+94. Artificial Intelligence in EUS for Diagnosing Pancreatic Solid Lesions
+   NCT ID: NCT05476978
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Diagnosing Solid Lesions in the Pancreas With Mult...; Congress: Simulated ESMO abstract for NCT05476978...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39028670/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05476978
+----------------------------------------
+95. Lenvatinib and Everolimus in Treating Patients With Advanced, Unresectable Carcinoid Tumors
+   NCT ID: NCT03950609
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03950609...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03950609; congress_abstracts: https://www.enets.org/abstracts/nct03950609
+----------------------------------------
+96. Niraparib and Dostarlimab for the Treatment of Small Cell Lung Cancer and Other High-Grade Neuroendocrine Carcinomas
+   NCT ID: NCT04701307
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04701307...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04701307; congress_abstracts: https://www.enets.org/abstracts/nct04701307
+----------------------------------------
+97. Efficacy of Endoscopic Band Ligation (DEBL) for Duodenal Neuroendocrine Neoplasms(dNENs)
+   NCT ID: NCT06790056
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06790056...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06790056; congress_abstracts: https://www.enets.org/abstracts/nct06790056
+----------------------------------------
+98. Evaluating an Amino Acid Based Medical Food w/ Diarrhea in Carcinoid Syndrome & Other NETs
+   NCT ID: NCT03722511
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03722511...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03722511; congress_abstracts: https://www.enets.org/abstracts/nct03722511
+----------------------------------------
+99. Gastroenteral-Pancreatic Neuroendocrine Tumors in Taiwan
+   NCT ID: NCT02102893
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02102893...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02102893; congress_abstracts: https://www.enets.org/abstracts/nct02102893
+----------------------------------------
+100. Imaging Properties of PET Radiotracer [18F]3F-PHPG in Patients With Neuroendocrine Tumors
+   NCT ID: NCT04510311
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04510311...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04510311; congress_abstracts: https://www.enets.org/abstracts/nct04510311
+----------------------------------------
+101. Distant Metastases and Long-Term Survival After Complete Resection of Neuroendocrine Tumors of the Appendix
+   NCT ID: NCT03852693
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Hemicolectomy versus appendectomy for patients wit...; Congress: Simulated ESMO abstract for NCT03852693...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36640790/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03852693; congress_abstracts: https://www.enets.org/abstracts/nct03852693
+----------------------------------------
+102. A First-in-human Clinical Trial to Evaluate an Alpha-radiation Imaging Agent
+   NCT ID: NCT05111509
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05111509...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05111509
+----------------------------------------
+103. Clinical Relevance of the Salvage Treatment for Colorectal Neuroendocrine Tumors
+   NCT ID: NCT06143605
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06143605...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06143605; congress_abstracts: https://www.enets.org/abstracts/nct06143605
+----------------------------------------
+104. Comparing Capecitabine and Temozolomide in Combination to Lutetium Lu 177 Dotatate in Patients With Advanced Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT05247905
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05247905...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05247905; congress_abstracts: https://www.enets.org/abstracts/nct05247905
+----------------------------------------
+105. Personalized PRRT of Neuroendocrine Tumors
+   NCT ID: NCT02754297
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 4 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 30506283; PubMed: Personalized177Lu-octreotate peptide receptor radi...; PubMed: Accuracy and reproducibility of simplified QSPECT ...; Congress: Simulated ESMO abstract for NCT02754297...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30506283/; pubmed: https://pubmed.ncbi.nlm.nih.gov/30318563/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02754297; congress_abstracts: https://www.enets.org/abstracts/nct02754297
+----------------------------------------
+106. Nivolumab and Temozolomide in Treating Patients With Recurrent or Refractory Small-Cell Lung Cancer or Advanced Neuroendocrine Cancer
+   NCT ID: NCT03728361
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 4 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 33234490; PubMed: Deep and Durable Response to Nivolumab and Temozol...; PubMed: A Phase II Clinical Trial of Nivolumab and Temozol...; Congress: Simulated ESMO abstract for NCT03728361...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33234490/; pubmed: https://pubmed.ncbi.nlm.nih.gov/36255391/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03728361; congress_abstracts: https://www.enets.org/abstracts/nct03728361
+----------------------------------------
+107. DOTATOC PET/CT for Imaging NET Patients
+   NCT ID: NCT03583528
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03583528...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03583528; congress_abstracts: https://www.enets.org/abstracts/nct03583528
+----------------------------------------
+108. An Investigational Scan (Dual Energy CT) in Detecting Gastrointestinal Carcinoid Tumors
+   NCT ID: NCT04993261
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04993261...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04993261; congress_abstracts: https://www.enets.org/abstracts/nct04993261
+----------------------------------------
+109. Lutathera in People With Gastroenteropancreatic (GEP), Bronchial or Unknown Primary Neuroendocrine Tumors That Have Spread to the Liver
+   NCT ID: NCT04544098
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04544098...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04544098; congress_abstracts: https://www.enets.org/abstracts/nct04544098
+----------------------------------------
+110. Diagnostic Performances of Urine and Plasma 5-hydroxyindolacetic Acid (5HIAA) Values in Patients With Small-intestine Neuroendocrine Tumors
+   NCT ID: NCT02826928
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 33382891; PubMed: Plasmatic and Urinary 5-Hydroxyindolacetic Acid Me...; Congress: Simulated ESMO abstract for NCT02826928...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33382891/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02826928; congress_abstracts: https://www.enets.org/abstracts/nct02826928
+----------------------------------------
+111. A Study to Understand Participant's Experiences in Gastro-enteropancreatic Neuroendocrine Tumors (GEP-NETs) and Acromegaly
+   NCT ID: NCT06253897
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06253897...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06253897; congress_abstracts: https://www.enets.org/abstracts/nct06253897
+----------------------------------------
+112. MGMT-NET: O6-methylguanine-DNA Methyltransferase (MGMT) Status in Neuroendocrine Tumors: Predictive Factor of Response to Alkylating Agents
+   NCT ID: NCT03217097
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 4 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 30824408; PubMed: O6-methylguanine-DNA methyltransferase (MGMT) stat...; PubMed: Oxaliplatin-Based Versus Alkylating Agent in Neuro...; Congress: Simulated ESMO abstract for NCT03217097...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/30824408/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39586038/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03217097; congress_abstracts: https://www.enets.org/abstracts/nct03217097
+----------------------------------------
+113. Combination Immunotherapy in Rare Cancers Under InvesTigation
+   NCT ID: NCT04969887
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Nivolumab and Ipilimumab Combination Treatment in ...; Congress: Simulated ESMO abstract for NCT04969887...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/40608313/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04969887
+----------------------------------------
+114. Review of Medical Records of Patients Who Have Been Treated With Lutetium at the Cross Cancer Institute Between January 2010 and April 30, 2014
+   NCT ID: NCT01763554
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT01763554...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01763554
+----------------------------------------
+115. Study For Evaluating The Value Of A Multi Biomarker Approach In Metastatic GEP NETs
+   NCT ID: NCT02630654
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 1 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 3 additional publication(s) via online search; Web search details: 1 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 32721955; PubMed: A Plasma Protein Biomarker Strategy for Detection ...; Congress: Simulated ESMO abstract for NCT02630654...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/32721955/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02630654; congress_abstracts: https://www.enets.org/abstracts/nct02630654
+----------------------------------------
+116. Study to Evaluate the Safety of Combining Two Radionuclide Therapies to Treat Mid-gut Neuroendocrine Tumors
+   NCT ID: NCT03044977
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 2 listed publication(s); Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 26116109; PMID: 16595501; Congress: Simulated ESMO abstract for NCT03044977...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03044977; congress_abstracts: https://www.enets.org/abstracts/nct03044977
+----------------------------------------
+117. Study of CVM-1118 for Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT03600233
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03600233...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03600233; congress_abstracts: https://www.enets.org/abstracts/nct03600233
+----------------------------------------
+118. Al18F-NOTA-octreotide PET Imaging in Neuroendocrine Tumors
+   NCT ID: NCT04552847
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 8
+   External Publications: 6
+   Online Search Summary: 4 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 2 listed publication(s); Listed publications appear to contain results; Online search performed; Found 6 additional publication(s) via online search; Web search details: 4 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 6 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 32617641; PMID: 36265911; PubMed: Clinical impact of using [18F]AlF-NOTA-octreotide ...; PubMed: 18F-AlF-NOTA-Octreotide Outperforms68Ga-DOTATATE/N...; PubMed: Comparison of inter- and intraobserver agreement b...; PubMed: Prospective comparison of [18F]AlF-NOTA-octreotide...; Congress: Simulated ESMO abstract for NCT04552847...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38837825/; pubmed: https://pubmed.ncbi.nlm.nih.gov/36265911/; pubmed: https://pubmed.ncbi.nlm.nih.gov/40369319/; pubmed: https://pubmed.ncbi.nlm.nih.gov/37261615/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04552847; congress_abstracts: https://www.enets.org/abstracts/nct04552847
+----------------------------------------
+119. A Study to Evaluate the Value of Circulating Tumour DNA in Follow-up of Patients with an Advanced Gastroenteropancreatic or Lung Neuroendocrine Tumour Under Everolimus +- SSA Treatment
+   NCT ID: NCT05255133
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 34759042; Congress: Simulated ESMO abstract for NCT05255133...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05255133; congress_abstracts: https://www.enets.org/abstracts/nct05255133
+----------------------------------------
+120. Assessment of the Efficacy of Bevacizumab in Combination With Folfiri as Second-line Treatment in Patients Suffering From an Advanced Inoperable Poorly Differentiated Neuroendocrine Carcinoma of an Unknown or Gastroentero-pancreatic Primary Cancer
+   NCT ID: NCT02820857
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 4 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Bevacizumab plus FOLFIRI after failure of platinum...; PubMed: Evaluating bevacizumab in combination with FOLFIRI...; Congress: Simulated ESMO abstract for NCT02820857...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36739879/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29258812/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02820857; congress_abstracts: https://www.enets.org/abstracts/nct02820857
+----------------------------------------
+121. A Transfer Learning Radiomics Model for Predicting Response to Initial Transarterial Embolization in Patients with Gastroenteropancreatic Neuroendocrine Tumor Liver Metastases
+   NCT ID: NCT06853457
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06853457...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06853457; congress_abstracts: https://www.enets.org/abstracts/nct06853457
+----------------------------------------
+122. Optimizing the Interval Between Cycles of PRRT with 177lu-dotatate in Sstr2 Positive Tumors
+   NCT ID: NCT03454763
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 3
+   Online Search Summary: 2 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 3 additional publication(s) via online search; Web search details: 2 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 34980502; PubMed: Clinical outcomes, Kadish-INSICA staging and thera...; PubMed: Radionuclide Theranostics in Neuroendocrine Neopla...; Congress: Simulated ESMO abstract for NCT03454763...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34980502/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38581469/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03454763
+----------------------------------------
+123. Preoperative Imaging in Patients With Small Bowel Neuroendocrine Tumors
+   NCT ID: NCT05246319
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 7
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 5 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 35434838; PMID: 24050954; Congress: Simulated ESMO abstract for NCT05246319...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05246319; congress_abstracts: https://www.enets.org/abstracts/nct05246319
+----------------------------------------
+124. Intra-arterial Lutetium-177-dotatate for Treatment of Patients With Neuro-endocrine Tumor Liver Metastases
+   NCT ID: NCT03590119
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 32024533; PubMed: Intra-arterial versus standard intravenous adminis...; Congress: Simulated ESMO abstract for NCT03590119...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/32024533/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03590119
+----------------------------------------
+125. Lu-DOTATATE Treatment in Patients With 68Ga-DOTATATE Somatostatin Receptor Positive Neuroendocrine Tumors
+   NCT ID: NCT02743741
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02743741...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02743741; congress_abstracts: https://www.enets.org/abstracts/nct02743741
+----------------------------------------
+126. Study on Microflora Characteristics of Pancreatic Solid Lesions Via Endoscopic Ultrasound-guided Fine Needle Aspiration/Biopsy
+   NCT ID: NCT05171517
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05171517...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05171517
+----------------------------------------
+127. 68Ga-DOTATOC Radio-Guided Surgery With β-Probe in GEP-NET
+   NCT ID: NCT05448157
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 4
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 4 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: First Live-Experience Session with PET/CT Specimen...; PubMed: Radio-Guided Surgery with a New-Generation β-Probe...; Congress: Simulated ESMO abstract for NCT05448157...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36831181/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38652200/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05448157; congress_abstracts: https://www.enets.org/abstracts/nct05448157
+----------------------------------------
+128. Pembrolizumab With Liver-Directed or Peptide Receptor Radionuclide Therapy for Neuroendocrine Tumors and Liver Metastases
+   NCT ID: NCT03457948
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT03457948...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03457948; congress_abstracts: https://www.enets.org/abstracts/nct03457948
+----------------------------------------
+129. Epiction of the Genomic and Genetic Landscape Identifies CCL5 as a Protective Factor in Colorectal Neuroendocrine Carcinoma
+   NCT ID: NCT05714722
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT05714722...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct05714722; congress_abstracts: https://www.enets.org/abstracts/nct05714722
+----------------------------------------
+130. Erdafitinib for the Treatment of Patients With Castration-Resistant Prostate Cancer
+   NCT ID: NCT04754425
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04754425...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04754425
+----------------------------------------
+131. Oral Protein Supplements for Nutritional and Quality of Life Improvement After Pancreatic Resection in Elderly Patients
+   NCT ID: NCT06570174
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06570174...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06570174
+----------------------------------------
+132. 177Lutetium-octreotate Treatment Prediction Using Multimodality Imaging in Refractory NETs
+   NCT ID: NCT01842165
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 5
+   Online Search Summary: 3 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 5 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Prediction of177Lu-DOTATATE PRRT Outcome Using Mul...; PubMed: 177 Lu-DOTATATE PRRT Safety and Organ-at-Risk Dosi...; PubMed: Evolution of dosimetric parameters through PRRT an...; Congress: Simulated ESMO abstract for NCT01842165...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38164576/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38914016/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39557730/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct01842165; congress_abstracts: https://www.enets.org/abstracts/nct01842165
+----------------------------------------
+133. Nivolumab and Ipilimumab in Treating Patients With Rare Tumors
+   NCT ID: NCT02834013
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 16
+   External Publications: 11
+   Online Search Summary: 10 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 5 listed publication(s); Online search performed; Found 11 additional publication(s) via online search; Web search details: 10 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 11 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 34716198; PMID: 34380663; PMID: 33882143; PMID: 33362722; PMID: 31969335; PubMed: First cycle toxicity and survival in patients with...; PubMed: A Multicenter Phase II Trial of Ipilimumab and Niv...; PubMed: A phase II basket trial of Dual Anti-CTLA-4 and An...; PubMed: A Phase II Basket Trial of Dual Anti-CTLA-4 and An...; PubMed: Correlation between tumor size change and outcome ...; PubMed: A phase II basket trial of dual anti-CTLA-4 and an...; PubMed: Phase II basket trial of dual anti-CTLA-4 and anti...; PubMed: Phase II basket trial of Dual Anti-CTLA-4 and Anti...; PubMed: SWOG 1609 cohort 48: anti-CTLA-4 and anti-PD-1 for...; PubMed: Phase II trial of dual anti-CTLA-4 and anti-PD-1 b...; Congress: Simulated ESMO abstract for NCT02834013...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39565908/; pubmed: https://pubmed.ncbi.nlm.nih.gov/34716198/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33882143/; pubmed: https://pubmed.ncbi.nlm.nih.gov/31969335/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38243705/; pubmed: https://pubmed.ncbi.nlm.nih.gov/40402690/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39343510/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39067873/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38358334/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39583952/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02834013
+----------------------------------------
+134. Lipiodol Deposition Using Endhole vs. Pressure-Modulated Delivery
+   NCT ID: NCT06204159
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT06204159...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct06204159
+----------------------------------------
+135. Capecitabine ON Temozolomide Radionuclide Therapy Octreotate Lutetium-177 NeuroEndocrine Tumours Study
+   NCT ID: NCT02358356
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 2 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT02358356...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct02358356; congress_abstracts: https://www.enets.org/abstracts/nct02358356
+----------------------------------------
+136. Second-line Therapy for Patients With Progressive Poorly Differentiated Extra-pulmonary Neuroendocrine Carcinoma
+   NCT ID: NCT03837977
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 5
+   External Publications: 4
+   Online Search Summary: 2 PubMed publications; 2 congress abstracts
+   Search Confidence: medium
+   Analysis: Found 1 listed publication(s); Online search performed; Found 4 additional publication(s) via online search; Web search details: 2 PubMed publications; 2 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 4 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PMID: 32029495; PubMed: NET-02: a randomised, non-comparative, phase II tr...; PubMed: NET-02 trial protocol: a multicentre, randomised, ...; Congress: Simulated ESMO abstract for NCT03837977...; Congress: ENETS abstract for neuroendocrine tumor study NCT0...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37287870/; pubmed: https://pubmed.ncbi.nlm.nih.gov/32029495/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03837977; congress_abstracts: https://www.enets.org/abstracts/nct03837977
+----------------------------------------
+137. Oral Cryotherapy Plus Acupressure and Acupuncture Versus Oral Cryotherapy for Decreasing Chemotherapy-Induced Peripheral Neuropathy From Oxaliplatin-Based Chemotherapy in Patients With Gastrointestinal Cancer
+   NCT ID: NCT04505553
+   Status: COMPLETED
+   Has Posted Results: False
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 1 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: Congress: Simulated ESMO abstract for NCT04505553...
+   External Sources: congress_abstracts: https://www.esmo.org/meetings/abstracts/nct04505553
+----------------------------------------
+138. Antiandrogen Therapy and SBRT in Treating Patients With Recurrent, Metastatic Prostate Cancer
+   NCT ID: NCT03902951
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: False
+   Publications Found: 3
+   External Publications: 3
+   Online Search Summary: 2 PubMed publications; 1 congress abstracts
+   Search Confidence: medium
+   Analysis: Online search performed; Found 3 additional publication(s) via online search; Web search details: 2 PubMed publications; 1 congress abstracts
+   Filtering Decision: KEPT: Has publications with results; Found 3 external publications via online search; Found external evidence via online search (HasResults-false file)
+   Sources: PubMed: Pooled Analysis of the SOLAR and SATURN Clinical T...; PubMed: Systemic and Tumor-directed Therapy for Oligorecur...; Congress: Simulated ESMO abstract for NCT03902951...
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/40541485/; pubmed: https://pubmed.ncbi.nlm.nih.gov/38494380/; congress_abstracts: https://www.esmo.org/meetings/abstracts/nct03902951
+----------------------------------------
+
