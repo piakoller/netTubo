@@ -24,11 +24,11 @@ class OnlineResultChecker:
     Performs external web searches for clinical trial results using HTTP requests.
     """
     
-    def __init__(self, rate_limit_delay: float = 2.0, scrape_content: bool = True, max_content_length: int = 2000):
+    def __init__(self, rate_limit_delay: float = 2.0, scrape_content: bool = True, max_content_length: int = None):
         self.rate_limit_delay = rate_limit_delay
         self.last_request_time = 0.0
         self.scrape_content = scrape_content
-        self.max_content_length = max_content_length
+        self.max_content_length = max_content_length  # None means no limit
         
         # Setup HTTP session with headers
         self.session = requests.Session()
@@ -82,12 +82,6 @@ class OnlineResultChecker:
             # Extract content based on source
             if 'onclive.com' in url:
                 content_text = self._extract_onclive_content(soup)
-            elif 'enets.org' in url:
-                content_text = self._extract_enets_content(soup)
-            elif 'annalsofoncology.org' in url:
-                content_text = self._extract_annals_content(soup)
-            elif 'ascopubs.org' in url or 'asco.org' in url:
-                content_text = self._extract_asco_content(soup)
             else:
                 # Generic content extraction
                 content_text = self._extract_generic_content(soup)
@@ -98,9 +92,8 @@ class OnlineResultChecker:
             # Create summary (first 500 characters)
             summary = content_text[:500] + "..." if len(content_text) > 500 else content_text
             
-            # Limit full content
-            if len(content_text) > self.max_content_length:
-                content_text = content_text[:self.max_content_length] + "..."
+            # Keep full content without truncation
+            # Remove the artificial length limit to preserve complete article content
             
             return {
                 'content': content_text,
@@ -114,6 +107,18 @@ class OnlineResultChecker:
 
     def _extract_onclive_content(self, soup: BeautifulSoup) -> str:
         """Extract content specifically from Onclive articles."""
+        # First try the specific Onclive content div
+        onclive_content = soup.select_one('.blockText_blockContent__TbCXh')
+        if onclive_content:
+            # Remove ads, sidebars, and navigation from the content
+            for unwanted in onclive_content.select('.ad, .sidebar, .navigation, .related, .comments'):
+                unwanted.decompose()
+            
+            text_content = onclive_content.get_text(separator=' ', strip=True)
+            if len(text_content) > 200:  # Ensure we got substantial content
+                return text_content
+        
+        # Fallback to other common Onclive selectors
         content_selectors = [
             '.article-content',
             '.content-body',
@@ -139,58 +144,6 @@ class OnlineResultChecker:
                     return text_content
         
         # Fallback to generic extraction
-        return self._extract_generic_content(soup)
-
-    def _extract_enets_content(self, soup: BeautifulSoup) -> str:
-        """Extract content specifically from ENETS articles."""
-        content_selectors = [
-            '.abstract-content',
-            '.abstract-text',
-            '.content',
-            '.article-content',
-            'main'
-        ]
-        
-        for selector in content_selectors:
-            content_elem = soup.select_one(selector)
-            if content_elem:
-                return content_elem.get_text(separator=' ', strip=True)
-        
-        return self._extract_generic_content(soup)
-
-    def _extract_annals_content(self, soup: BeautifulSoup) -> str:
-        """Extract content specifically from Annals of Oncology articles."""
-        content_selectors = [
-            '.article-full-text',
-            '.article-body',
-            '.fulltext',
-            '.abstract',
-            '.article-content',
-            'main'
-        ]
-        
-        for selector in content_selectors:
-            content_elem = soup.select_one(selector)
-            if content_elem:
-                return content_elem.get_text(separator=' ', strip=True)
-        
-        return self._extract_generic_content(soup)
-
-    def _extract_asco_content(self, soup: BeautifulSoup) -> str:
-        """Extract content specifically from ASCO articles."""
-        content_selectors = [
-            '.abstract-content',
-            '.article-content',
-            '.fulltext-view',
-            '.abstract',
-            'main'
-        ]
-        
-        for selector in content_selectors:
-            content_elem = soup.select_one(selector)
-            if content_elem:
-                return content_elem.get_text(separator=' ', strip=True)
-        
         return self._extract_generic_content(soup)
 
     def _extract_generic_content(self, soup: BeautifulSoup) -> str:
@@ -343,118 +296,114 @@ class OnlineResultChecker:
 
     def search_congress_abstracts(self, nct_id: str, study_title: str) -> Tuple[bool, Dict]:
         """Search for congress abstracts from key sources."""
-        logger.info(f"Searching congress abstracts for {nct_id}")
+        logger.info(f"Searching congress abstracts for {nct_id} - No sources configured")
         
         abstracts = []
-        abstracts.extend(self._search_bing(nct_id, 'ascopubs.org', 'ASCO'))
-        abstracts.extend(self._search_annals_oncology_direct(nct_id))
-        
-        # Always search ENETS
-        abstracts.extend(self._search_enets_direct(nct_id))
+        # All congress abstract sources have been removed
         
         result_data = {
             'abstracts_found': len(abstracts),
             'abstracts': sorted(abstracts, key=lambda x: x.get('relevance_score', 0), reverse=True),
             'search_successful': True,
-            'sources_searched': ['ASCO', 'Annals of Oncology', 'ENETS']
+            'sources_searched': []
         }
         
         logger.info(f"Found {len(abstracts)} congress abstracts for {nct_id}")
         return len(abstracts) > 0, result_data
 
-    def _search_enets_direct(self, nct_id: str) -> List[Dict]:
-        """Direct search of ENETS website."""
-        abstracts = []
-        try:
-            search_url = f"https://www.enets.org/abstract-library/search/{urllib.parse.quote(nct_id)}.html"
-            response = self._make_request_with_session(search_url)
-            
-            if response:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                for div in soup.select('.abstract-item, .search-result, article')[:3]:
-                    title_tag = div.select_one('h1, h2, h3, h4, .title, .abstract-title')
-                    link_tag = div.select_one('a[href*="abstract"], a[href*="congress"], a')
-                    
-                    if title_tag and link_tag:
-                        title = title_tag.get_text(strip=True)
-                        url = urllib.parse.urljoin("https://www.enets.org/", link_tag.get('href', ''))
-                        snippet_tag = div.select_one('.abstract-text, .summary, p')
-                        snippet = snippet_tag.get_text(strip=True)[:200] if snippet_tag else ""
-                        
-                        full_text = f"{title} {snippet}"
-                        if self._has_results_content(full_text):
-                            # Scrape full content from the article
-                            scraped_data = self._scrape_article_content(url, 'ENETS')
-                            
-                            abstracts.append({
-                                'title': title,
-                                'url': url,
-                                'source': 'ENETS',
-                                'abstract_text': snippet,
-                                'relevance_score': self._calculate_relevance_score(full_text, nct_id),
-                                'full_content': scraped_data['content'],
-                                'content_summary': scraped_data['summary'],
-                                'content_scraped': scraped_data['scraped_successfully']
-                            })
-        except Exception as e:
-            logger.warning(f"ENETS search failed: {e}")
-        
-        return abstracts
-
     def _search_annals_oncology_direct(self, nct_id: str) -> List[Dict]:
-        """Direct search of Annals of Oncology website."""
+        """Direct search of Annals of Oncology website - REMOVED."""
+        logger.info("Annals of Oncology search has been removed")
+        return []
+
+    def _search_google_scholar(self, nct_id: str, source_name: str) -> List[Dict]:
+        """Search Google Scholar for academic publications."""
         articles = []
-        try:
-            search_url = f"https://www.annalsofoncology.org/action/doSearch?type=quicksearch&text1={urllib.parse.quote(nct_id)}&field1=AllField"
-            response = self._make_request_with_session(search_url)
-            
-            if response:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                
-                # Look for search results in various containers
-                result_containers = soup.select('.search-result, .result-item, .article-item, .search-hit')
-                
-                for container in result_containers[:3]:  # Limit to first 3 results
-                    try:
-                        # Get title
-                        title_elem = container.select_one('h3 a, .result-title a, .article-title a, h2 a, h4 a')
-                        if not title_elem:
-                            continue
-                            
-                        title = title_elem.get_text(strip=True)
-                        url = title_elem.get('href', '')
-                        
-                        # Make URL absolute if needed
-                        if url and not url.startswith('http'):
-                            url = urllib.parse.urljoin("https://www.annalsofoncology.org/", url)
-                        
-                        # Get abstract/snippet
-                        snippet_elem = container.select_one('.abstract, .summary, .result-summary, p')
-                        snippet = snippet_elem.get_text(strip=True)[:200] if snippet_elem else ""
-                        
-                        full_text = f"{title} {snippet}"
-                        if self._has_results_content(full_text) or nct_id.lower() in full_text.lower():
-                            # Scrape full content from the article
-                            scraped_data = self._scrape_article_content(url, 'Annals of Oncology')
-                            
-                            articles.append({
-                                'title': title,
-                                'url': url,
-                                'source': 'Annals of Oncology',
-                                'abstract_text': snippet,
-                                'relevance_score': self._calculate_relevance_score(full_text, nct_id),
-                                'full_content': scraped_data['content'],
-                                'content_summary': scraped_data['summary'],
-                                'content_scraped': scraped_data['scraped_successfully']
-                            })
-                    except Exception as e:
-                        logger.debug(f"Error processing Annals result: {e}")
-                        continue
-                        
-        except Exception as e:
-            logger.warning(f"Annals of Oncology search failed: {e}")
         
-        logger.info(f"Found {len(articles)} Annals of Oncology articles for {nct_id}")
+        # Use different search strategies for better results
+        search_queries = [
+            f'"{nct_id}" clinical trial',
+            f'{nct_id} study results',
+            f'{nct_id} efficacy safety'
+        ]
+        
+        for search_query in search_queries:
+            scholar_url = f"https://scholar.google.com/scholar?q={urllib.parse.quote(search_query)}"
+            
+            logger.info(f"Searching {source_name} via Google Scholar: {search_query}")
+            
+            content = self._get_page_content(scholar_url)
+            if not content:
+                continue
+            
+            soup = BeautifulSoup(content, 'html.parser')
+            
+            # Parse Google Scholar results
+            result_items = soup.select('.gs_ri')
+            
+            for result in result_items[:5]:  # Limit to first 5 results per query
+                try:
+                    # Get title and URL from the main link
+                    title_link = result.select_one('.gs_rt a, .gs_rt')
+                    if not title_link:
+                        continue
+                    
+                    title = title_link.get_text(strip=True)
+                    url = title_link.get('href', '') if title_link.name == 'a' else ""
+                    
+                    # If no direct URL, try to find PDF or other links
+                    if not url:
+                        pdf_link = result.select_one('.gs_ggs .gs_ctg2')
+                        if pdf_link and pdf_link.get('href'):
+                            url = pdf_link.get('href', '')
+                    
+                    # Get snippet from the result description
+                    snippet_elem = result.select_one('.gs_rs')
+                    snippet = snippet_elem.get_text(strip=True) if snippet_elem else ""
+                    
+                    # Get citation info
+                    citation_elem = result.select_one('.gs_a')
+                    citation = citation_elem.get_text(strip=True) if citation_elem else ""
+                    
+                    full_text = f"{title} {snippet} {citation}"
+                    
+                    # Check relevance
+                    is_relevant = (self._has_results_content(full_text) or 
+                                 nct_id.lower() in full_text.lower() or
+                                 any(term in full_text.lower() for term in ['trial', 'study', 'clinical', 'efficacy', 'safety']))
+                    
+                    if is_relevant and title not in [a['title'] for a in articles]:  # Avoid duplicates
+                        # Scrape full content from the article if URL is available
+                        scraped_data = {'content': '', 'summary': '', 'scraped_successfully': False}
+                        if url and url.startswith('http'):
+                            scraped_data = self._scrape_article_content(url, source_name)
+                        
+                        article_data = {
+                            'title': title,
+                            'url': url if url else scholar_url,
+                            'source': f"{source_name} (via Google Scholar)",
+                            'abstract_text': snippet,
+                            'citation_info': citation,
+                            'relevance_score': self._calculate_relevance_score(full_text, nct_id),
+                            'full_content': scraped_data['content'],
+                            'content_summary': scraped_data['summary'],
+                            'content_scraped': scraped_data['scraped_successfully']
+                        }
+                        
+                        articles.append(article_data)
+                        
+                except Exception as e:
+                    logger.debug(f"Error processing Google Scholar result: {e}")
+                    continue
+            
+            # Add delay between queries to avoid being blocked
+            time.sleep(3)
+            
+            # Stop if we have enough results
+            if len(articles) >= 10:
+                break
+        
+        logger.info(f"Found {len(articles)} {source_name} articles via Google Scholar")
         return articles
 
     def search_onclive_enhanced(self, nct_id: str, study_title: str) -> Tuple[bool, Dict]:
@@ -470,6 +419,21 @@ class OnlineResultChecker:
         }
         
         logger.info(f"Found {len(articles)} Onclive articles for {nct_id}")
+        return len(articles) > 0, result_data
+
+    def search_google_scholar_enhanced(self, nct_id: str, study_title: str) -> Tuple[bool, Dict]:
+        """Search Google Scholar for academic publications."""
+        logger.info(f"Searching Google Scholar for {nct_id}")
+        
+        articles = self._search_google_scholar(nct_id, 'Google Scholar')
+        
+        result_data = {
+            'articles_found': len(articles),
+            'articles': sorted(articles, key=lambda x: x.get('relevance_score', 0), reverse=True),
+            'search_successful': True
+        }
+        
+        logger.info(f"Found {len(articles)} Google Scholar articles for {nct_id}")
         return len(articles) > 0, result_data
 
     def _create_search_result_dict(self, articles: List[Dict]) -> Dict:
@@ -557,21 +521,22 @@ class OnlineResultChecker:
         logger.info(f"Found {len(publications)} PubMed publications for {nct_id}")
         return len(publications) > 0, result_data
 
-    def set_content_scraping(self, enabled: bool, max_length: int = 2000):
+    def set_content_scraping(self, enabled: bool, max_length: int = None):
         """Enable or disable content scraping functionality."""
         self.scrape_content = enabled
-        self.max_content_length = max_length
-        logger.info(f"Content scraping {'enabled' if enabled else 'disabled'}")
+        self.max_content_length = max_length  # None means no limit
+        length_msg = "unlimited" if max_length is None else str(max_length)
+        logger.info(f"Content scraping {'enabled' if enabled else 'disabled'}, max length: {length_msg}")
 
     def search_for_study_results(self, nct_id: str, study_title: str, progress_callback=None) -> Dict:
         logger.info(f"Comprehensive search for study results: {nct_id}")
         results = {
             'nct_id': nct_id, 'study_title': study_title, 'search_timestamp': time.time(),
-            'pubmed': {}, 'congress_abstracts': {}, 'onclive': {}
+            'pubmed': {}, 'congress_abstracts': {}, 'onclive': {}, 'google_scholar': {}
         }
         
         # Track progress through the search sources
-        total_sources = 3
+        total_sources = 4
         completed_sources = 0
         
         def update_progress(source_name: str):
@@ -601,11 +566,18 @@ class OnlineResultChecker:
             logger.error(f"Onclive search failed: {e}")
             update_progress("Onclive")
             
+        try:
+            _, results['google_scholar'] = self.search_google_scholar_enhanced(nct_id, study_title)
+            update_progress("Google Scholar")
+        except Exception as e:
+            logger.error(f"Google Scholar search failed: {e}")
+            update_progress("Google Scholar")
+            
         return results
 
 if __name__ == "__main__":
-    # Simplified to use HTTP requests only with content scraping enabled
-    checker = OnlineResultChecker(rate_limit_delay=2.0, scrape_content=True, max_content_length=1500)
+    # Simplified to use HTTP requests only with unlimited content scraping
+    checker = OnlineResultChecker(rate_limit_delay=2.0, scrape_content=True, max_content_length=None)
     
     nct_id_example = "NCT03049189"
     title_example = "A Study of 177Lu-Edotreotide Versus Everolimus in GEP-NET (COMPETE)"
@@ -627,14 +599,14 @@ if __name__ == "__main__":
                 total_scraped += scraped_count
                 total_items += len(items)
                 
-                print(f"{source.capitalize()}: Found {count} results, {scraped_count} scraped.")
-                print(f"  - Example: {items[0]['title'][:70]}... ({items[0]['url']})")
+                print(f"{source.replace('_', ' ').title()}: Found {count} results, {scraped_count} scraped.")
+                print(f"  - Example: {items[0]['title'][:70]}... ({items[0]['url'][:50]}...)")
                 
                 if items[0].get('content_scraped'):
                     summary = items[0].get('content_summary', '')
                     print(f"  - Content: {summary[:100]}...")
             else:
-                print(f"{source.capitalize()}: Found {count} results.")
+                print(f"{source.replace('_', ' ').title()}: Found {count} results.")
     
     print(f"\nOverall: {total_scraped}/{total_items} articles had content successfully scraped.")
     

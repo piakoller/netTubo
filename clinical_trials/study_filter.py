@@ -62,15 +62,20 @@ class FilteringResult:
 class StudyFilter:
     """Filters studies based on publication availability and content analysis."""
     
-    def __init__(self, rate_limit_delay: float = 2.0):
+    def __init__(self, rate_limit_delay: float = 2.0, save_incremental: bool = True, incremental_save_interval: int = 5):
         """
         Initialize the study filter.
         
         Args:
             rate_limit_delay: Delay between web searches in seconds
+            save_incremental: Whether to save intermediate results during processing
+            incremental_save_interval: How many studies to process before saving intermediate results
         """
         self.rate_limit_delay = rate_limit_delay
         self.last_request_time = 0.0
+        self.save_incremental = save_incremental
+        self.incremental_save_interval = incremental_save_interval
+        
         # Initialize the online search module with content scraping enabled
         self.online_checker = OnlineResultChecker(
             rate_limit_delay=rate_limit_delay,
@@ -78,6 +83,101 @@ class StudyFilter:
             max_content_length=2000
         )
         
+    def _save_incremental_results(self, processed_studies: List[Dict], current_index: int, total_studies: int, 
+                                 output_dir: Path, base_filename: str, is_hasresults_false: bool = False):
+        """
+        Save incremental results during processing.
+        
+        Args:
+            processed_studies: List of studies processed so far
+            current_index: Current study index being processed
+            total_studies: Total number of studies to process
+            output_dir: Output directory for files
+            base_filename: Base filename for output files
+            is_hasresults_false: Whether processing HasResults-false file
+        """
+        if not self.save_incremental:
+            return
+            
+        try:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            suffix = "_hasresults_false" if is_hasresults_false else ""
+            
+            # Separate processed studies into kept and removed
+            kept_studies = [s for s in processed_studies if s.get('filtering_result', {}).get('study_kept', False)]
+            removed_studies = [s for s in processed_studies if not s.get('filtering_result', {}).get('study_kept', False)]
+            
+            # Calculate current statistics
+            current_stats = {
+                'processed_so_far': len(processed_studies),
+                'total_studies': total_studies,
+                'progress_percent': (len(processed_studies) / total_studies * 100) if total_studies > 0 else 0,
+                'kept_studies': len(kept_studies),
+                'removed_studies': len(removed_studies),
+                'last_updated': datetime.now().isoformat(),
+                'processing_status': 'IN_PROGRESS' if len(processed_studies) < total_studies else 'COMPLETED'
+            }
+            
+            # Save incremental kept studies
+            if kept_studies:
+                incremental_kept_file = output_dir / f"{base_filename}{suffix}_INCREMENTAL_kept.json"
+                
+                incremental_data = {
+                    "processing_status": current_stats['processing_status'],
+                    "last_updated": current_stats['last_updated'],
+                    "progress": f"{current_stats['processed_so_far']}/{current_stats['total_studies']} ({current_stats['progress_percent']:.1f}%)",
+                    "filter_date": datetime.now().isoformat(),
+                    "filter_version": "2.1_incremental",
+                    "special_processing": "HasResults-false enhanced filtering" if is_hasresults_false else "Standard filtering",
+                    "incremental_results": {
+                        "total_processed": current_stats['processed_so_far'],
+                        "studies_kept": current_stats['kept_studies'],
+                        "studies_removed": current_stats['removed_studies']
+                    },
+                    "studies": kept_studies
+                }
+                
+                with open(incremental_kept_file, 'w', encoding='utf-8') as f:
+                    json.dump(incremental_data, f, indent=2, ensure_ascii=False)
+            
+            # Save incremental progress report
+            progress_file = output_dir / f"{base_filename}{suffix}_INCREMENTAL_progress.txt"
+            
+            with open(progress_file, 'w', encoding='utf-8') as f:
+                f.write("="*80 + "\n")
+                f.write("INCREMENTAL FILTERING PROGRESS REPORT\n")
+                if is_hasresults_false:
+                    f.write("SPECIAL PROCESSING: HasResults-false Dataset\n")
+                f.write("="*80 + "\n")
+                f.write(f"Last Updated: {current_stats['last_updated']}\n")
+                f.write(f"Status: {current_stats['processing_status']}\n")
+                f.write(f"Progress: {current_stats['processed_so_far']}/{current_stats['total_studies']} ({current_stats['progress_percent']:.1f}%)\n")
+                f.write(f"Studies Kept: {current_stats['kept_studies']}\n")
+                f.write(f"Studies Removed: {current_stats['removed_studies']}\n")
+                f.write("-"*80 + "\n\n")
+                
+                if kept_studies:
+                    f.write(f"RECENTLY KEPT STUDIES (Last 5):\n")
+                    f.write("="*40 + "\n")
+                    for study in kept_studies[-5:]:  # Show last 5 kept studies
+                        f.write(f"• {study.get('brief_title', study.get('title', 'No title'))}\n")
+                        f.write(f"  NCT ID: {study.get('nct_id', '')}\n")
+                        analysis = study.get('publication_analysis', {})
+                        f.write(f"  Publications: {analysis.get('total_publications_found', 0)}\n")
+                        f.write(f"  Summary: {analysis.get('web_results_summary', 'N/A')[:100]}\n")
+                        f.write("-"*30 + "\n")
+                
+                if len(processed_studies) < total_studies:
+                    remaining = total_studies - len(processed_studies)
+                    est_time_remaining = remaining * 10  # Rough estimate: 10 seconds per study
+                    f.write(f"\nESTIMATED REMAINING:\n")
+                    f.write(f"Studies left to process: {remaining}\n")
+                    f.write(f"Estimated time remaining: ~{est_time_remaining//60} minutes\n")
+                    f.write(f"Check this file periodically for updates.\n")
+                
+        except Exception as e:
+            logger.warning(f"Failed to save incremental results: {e}")
+
     def _rate_limit(self):
         """Apply rate limiting between web searches."""
         current_time = time.time()
@@ -452,6 +552,33 @@ class StudyFilter:
         total_studies = len(studies)
         logger.info(f"Starting analysis of {total_studies} studies")
         
+        # Prepare for incremental saving
+        output_dir = None
+        base_filename = ""
+        if self.save_incremental:
+            # Extract output directory info from input filename for incremental saves
+            input_path = Path(input_filename) if input_filename else Path("unknown")
+            output_dir = input_path.parent / "filtered_results"
+            output_dir.mkdir(exist_ok=True)
+            base_filename = input_path.stem
+            
+            # Create initial progress file
+            initial_progress_file = output_dir / f"{base_filename}{'_hasresults_false' if is_hasresults_false else ''}_INCREMENTAL_progress.txt"
+            with open(initial_progress_file, 'w', encoding='utf-8') as f:
+                f.write("="*80 + "\n")
+                f.write("FILTERING STARTED - INCREMENTAL PROGRESS TRACKING\n")
+                f.write("="*80 + "\n")
+                f.write(f"Start Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"Total Studies to Process: {total_studies}\n")
+                f.write(f"Incremental Save Interval: Every {self.incremental_save_interval} studies\n")
+                if is_hasresults_false:
+                    f.write("Special Processing: HasResults-false Dataset\n")
+                f.write("-"*80 + "\n")
+                f.write("Processing will begin shortly...\n")
+                f.write("This file will be updated periodically with progress.\n")
+        
+        processed_studies = []
+        
         for i, study in enumerate(studies, 1):
             analysis_stats['total_analyzed'] += 1
             
@@ -569,13 +696,47 @@ class StudyFilter:
                 removed_studies.append(study)
                 analysis_stats['removed_studies'] += 1
                 logger.info(f"Removing study {study.get('nct_id', '')}: {analysis.analysis_notes}")
+            
+            # Add to processed studies for incremental saving
+            processed_studies.append(study)
+            
+            # Save incremental results at intervals
+            if self.save_incremental and output_dir and (i % self.incremental_save_interval == 0 or i == total_studies):
+                print(f" [Saving...]", end='', flush=True)
+                self._save_incremental_results(
+                    processed_studies, i, total_studies, 
+                    output_dir, base_filename, is_hasresults_false
+                )
         
         # Print completion message
         print(f"\nCompleted analysis of {total_studies} studies")
         
+        # Clean up incremental files if processing completed successfully
+        if self.save_incremental and output_dir:
+            self._cleanup_incremental_files(output_dir, base_filename, is_hasresults_false)
+        
         return filtered_studies, removed_studies, analysis_stats
     
-    def save_filtered_results(self, filtered_studies: List[Dict], removed_studies: List[Dict], 
+    def _cleanup_incremental_files(self, output_dir: Path, base_filename: str, is_hasresults_false: bool = False):
+        """Clean up incremental files after successful completion."""
+        try:
+            suffix = "_hasresults_false" if is_hasresults_false else ""
+            
+            # List of incremental files to clean up
+            incremental_files = [
+                output_dir / f"{base_filename}{suffix}_INCREMENTAL_kept.json",
+                output_dir / f"{base_filename}{suffix}_INCREMENTAL_progress.txt"
+            ]
+            
+            for file_path in incremental_files:
+                if file_path.exists():
+                    file_path.unlink()
+                    logger.info(f"Cleaned up incremental file: {file_path.name}")
+                    
+        except Exception as e:
+            logger.warning(f"Failed to clean up incremental files: {e}")
+
+    def save_filtered_results(self, filtered_studies: List[Dict], removed_studies: List[Dict],
                             analysis_stats: Dict, output_dir: Path, original_file: str):
         """Save filtered results to files."""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -793,8 +954,12 @@ def main():
     OUTPUT_DIR = input_file.parent / "filtered_results"
     OUTPUT_DIR.mkdir(exist_ok=True)
     
-    # Initialize filter
-    study_filter = StudyFilter(rate_limit_delay=2.0)
+    # Initialize filter with incremental saving enabled
+    study_filter = StudyFilter(
+        rate_limit_delay=2.0, 
+        save_incremental=True, 
+        incremental_save_interval=5  # Save every 5 studies
+    )
     
     logger.info(f"Loading studies from: {input_file}")
     

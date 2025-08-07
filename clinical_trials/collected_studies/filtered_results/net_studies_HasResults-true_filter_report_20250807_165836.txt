@@ -1,0 +1,596 @@
+================================================================================
+CLINICAL TRIALS PUBLICATION FILTER REPORT
+================================================================================
+Filter Date: 2025-08-07 16:58:36
+Total Studies Analyzed: 37
+Studies Kept: 37
+Studies Removed: 0
+--------------------------------------------------------------------------------
+
+ANALYSIS STATISTICS:
+Studies with listed publications: 13
+Studies with results publications: 28
+Studies with posted results on ClinicalTrials.gov: 37
+Web searches performed: 37
+Studies with online evidence found: 27
+High confidence studies: 28
+Medium confidence studies: 9
+Low confidence studies: 0
+
+--------------------------------------------------------------------------------
+
+KEPT STUDIES (37):
+==================================================
+1. Study to Assess the Efficacy and Safety of Lanreotide Autogel® in Chinese Participants With GEP-NETs
+   NCT ID: NCT04852679
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. European Commission Approves Perioperative Nivolumab and … [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: European Commission Approves Perioperative Nivolum... [📄]
+----------------------------------------
+2. Phase II Study of Pembrolizumab and Lenvatinib in Advanced Well-differentiated Neuroendocrine Tumors
+   NCT ID: NCT03290079
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. OncLive Polls Spotlight Phase 3 Breast Cancer Studies … [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: OncLive Polls Spotlight Phase 3 Breast Cancer Stud... [📄]
+----------------------------------------
+3. Carfilzomib for the Treatment of Patients With Advanced Neuroendocrine Cancers
+   NCT ID: NCT02318784
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+4. Dosimetry-Guided, Peptide Receptor Radiotherapy (PRRT) With 90Y-DOTA- tyr3-Octreotide (90Y-DOTATOC)
+   NCT ID: NCT03273712
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+5. Open Label Extension Study of Conatumumab and Ganitumab (AMG 479)
+   NCT ID: NCT01327612
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+6. Cabozantinib and Nivolumab for Carcinoid Tumors
+   NCT ID: NCT04197310
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+7. RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)
+   NCT ID: NCT02489903
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 11
+   External Publications: 9
+   Online Search Summary: 9 PubMed publications (9 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 9 items (9 with scraped content)
+       1. Partial Response to Platinum Doublets in Refractory EGFR-Pos... [Content: 2003 chars]
+       2. A Partial Response to Reintroduced Chemotherapy in a Resista... [Content: 2003 chars]
+       3. A Recurrent Platinum Refractory Ovarian Cancer Patient With ... [Content: 2003 chars]
+       ... and 6 more items
+   Analysis: Found 2 listed publication(s); Online search performed; Found 9 additional publication(s) via online search; Web search details: 9 PubMed publications (9 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 9 external publications via online search
+   Sources: PMID: 33569311; PMID: 31231122; PubMed: Partial Response to Platinum Doublets in Refractor... [📄]; PubMed: A Partial Response to Reintroduced Chemotherapy in... [📄]; PubMed: A Recurrent Platinum Refractory Ovarian Cancer Pat... [📄]; PubMed: Immune Reactivity and Pseudoprogression or Tumor F... [📄]; PubMed: Partial Response in an RRx-001-Primed Patient with... [📄]; PubMed: RRx-001 in Refractory Small-Cell Lung Carcinoma: A... [📄]; PubMed: Conversion of Platinum-Etoposide-Resistant to Sens... [📄]; PubMed: RRx-001 followed by platinum plus etoposide in pat... [📄]; PubMed: In small cell lung cancer patients treated with RR... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/26933421/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27840583/; pubmed: https://pubmed.ncbi.nlm.nih.gov/29552569/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27065848/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27403127/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27065849/; pubmed: https://pubmed.ncbi.nlm.nih.gov/27855386/; pubmed: https://pubmed.ncbi.nlm.nih.gov/31231122/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33569311/
+----------------------------------------
+8. Ziv-Aflibercept for Advanced Progressive Carcinoid Tumors
+   NCT ID: NCT01782443
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. A Phase II Study of Ziv-Aflibercept in Patients With Advance... [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 36395401; PubMed: A Phase II Study of Ziv-Aflibercept in Patients Wi... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36395401/
+----------------------------------------
+9. Randomized Trial of Topotecan With M6620, an ATR Kinase Inhibitor, in Small Cell Lung Cancers and Small Cell Cancers Outside of the Lungs
+   NCT ID: NCT03896503
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Berzosertib Plus Topotecan vs Topotecan Alone in Patients Wi... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PubMed: Berzosertib Plus Topotecan vs Topotecan Alone in P... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37824137/
+----------------------------------------
+10. Pembrolizumab-based Therapy in Previously Treated High Grade Neuroendocrine Carcinomas
+   NCT ID: NCT03136055
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Pembrolizumab alone and pembrolizumab plus chemotherapy in p... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PubMed: Pembrolizumab alone and pembrolizumab plus chemoth... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/37208512/
+----------------------------------------
+11. AMT-PET in Monitoring Telotristat Etiprate Treatment in Participants With MetastaticNeuroendocrine Neoplasm
+   NCT ID: NCT03453489
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. Dr Wermke on the Efficacy and Safety of Obrixtamig With … [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: Dr Wermke on the Efficacy and Safety of Obrixtamig... [📄]
+----------------------------------------
+12. Impact of Ga-68 DOTATOC PET-CT Imaging in Management of Neuroendocrine Tumors
+   NCT ID: NCT02441062
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. First-Line Ivonescimab Plus Chemo Improves PFS in … [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 23587853; Onclive: First-Line Ivonescimab Plus Chemo Improves PFS in ... [📄]
+----------------------------------------
+13. Testing Cabozantinib in Patients With Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT03375320
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 6
+   Online Search Summary: 2 PubMed publications (2 scraped); 4 Onclive articles (4 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 2 items (2 with scraped content)
+       1. Phase 3 Trial of Cabozantinib to Treat Advanced Neuroendocri... [Content: 2003 chars]
+       2. Angiogenesis inhibitors in neuroendocrine tumours: finally c... [Content: 2003 chars]
+     - Onclive: 4 items (4 with scraped content)
+       1. FDA Approval of Cabozantinib for Pancreatic and Extra … [Content: 2003 chars]
+       2. OncLive’s July EMA Regulatory Recap: Key EU Approvals in … [Content: 2003 chars]
+       3. Cabozantinib Confers PFS Benefit in Previously … [Content: 2003 chars]
+       ... and 1 more items
+   Analysis: Found 1 listed publication(s); Online search performed; Found 6 additional publication(s) via online search; Web search details: 2 PubMed publications (2 scraped); 4 Onclive articles (4 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 6 external publications via online search
+   Sources: PMID: 33152282; PubMed: Phase 3 Trial of Cabozantinib to Treat Advanced Ne... [📄]; PubMed: Angiogenesis inhibitors in neuroendocrine tumours:... [📄]; Onclive: FDA Approval of Cabozantinib for Pancreatic and Ex... [📄]; Onclive: OncLive’s July EMA Regulatory Recap: Key EU Approv... [📄]; Onclive: Cabozantinib Confers PFS Benefit in Previously … [📄]; Onclive: FDA Approves Cabozantinib for Pancreatic and Extra... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39282913/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33152282/
+----------------------------------------
+14. A Phase II Study of Ramucirumab With Somatostatin Analog Therapy in Patients With Advanced, Progressive Carcinoid Tumors
+   NCT ID: NCT02795858
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. A phase II study of ramucirumab and somatostatin analog ther... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PubMed: A phase II study of ramucirumab and somatostatin a... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39834129/
+----------------------------------------
+15. A Study of LEE011 With Everolimus in Patients With Advanced Neuroendocrine Tumors
+   NCT ID: NCT03070301
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Ribociclib and everolimus in well-differentiated foregut neu... [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 33640871; PubMed: Ribociclib and everolimus in well-differentiated f... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/33640871/
+----------------------------------------
+16. Trial of Cabozantinib Plus Atezolizumab in Advanced and Progressive Neoplasms of the Endocrine System. The CABATEN Study
+   NCT ID: NCT04400474
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+17. Next Generation Sequencing-Based Stratification of Front Line Treatment of HighGrade Neuroendocrine Carcinoma
+   NCT ID: NCT04452292
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications (1 scraped); 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Prevalence of TP-53/Rb-1 Co-Mutation in Large Cell Neuroendo... [Content: 2003 chars]
+     - Onclive: 1 items (1 with scraped content)
+       1. Olverembatinib Demonstrates Efficacy and Safety in … [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped); 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: PMID: 34141612; PubMed: Prevalence of TP-53/Rb-1 Co-Mutation in Large Cell... [📄]; Onclive: Olverembatinib Demonstrates Efficacy and Safety in... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/34141612/
+----------------------------------------
+18. Dual-Tracer Theranostic PET
+   NCT ID: NCT05680675
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 2 Onclive articles (2 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 2 items (2 with scraped content)
+       1. Consolidation Durvalumab Improves PFS in … [Content: 2003 chars]
+       2. OncLive State of the Science Summit | Hematologic Malignanci... [Content: 874 chars]
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 2 Onclive articles (2 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: Onclive: Consolidation Durvalumab Improves PFS in … [📄]; Onclive: OncLive State of the Science Summit | Hematologic ... [📄]
+----------------------------------------
+19. Nutrition in Gastroenteropancreatic Neuroendocrine Tumor
+   NCT ID: NCT04986085
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+20. Cabozantinib in Advanced Pancreatic Neuroendocrine and Carcinoid Tumors
+   NCT ID: NCT01466036
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+21. Theranostics of Radiolabeled Somatostatin Antagonists 68Ga-DOTA-JR11 and 177Lu-DOTA-JR11 in Patients With Neuroendocrine Tumors
+   NCT ID: NCT02609737
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. Tambiciclib Plus Zanubrutinib Delivers Responses in … [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: Tambiciclib Plus Zanubrutinib Delivers Responses i... [📄]
+----------------------------------------
+22. Post-Authorization Safety Study (PASS) of LysaKare® in Adult Gastroenteropancreatic Neuroendocrine Tumor (GEP-NET) Patients
+   NCT ID: NCT04524442
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. Pembrolizumab Maintains Survival Benefits in 4-year Follow-U... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: Pembrolizumab Maintains Survival Benefits in 4-yea... [📄]
+----------------------------------------
+23. Phase 2 Study of ONC201 in Neuroendocrine Tumors
+   NCT ID: NCT03034200
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 9
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Phase II Study of ONC201 in Neuroendocrine Tumors including ... [Content: 2003 chars]
+   Analysis: Found 8 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 23390247; PMID: 25927855; PMID: 25681273; PMID: 27602582; PMID: 29626752; PubMed: Phase II Study of ONC201 in Neuroendocrine Tumors ... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/35022321/
+----------------------------------------
+24. The Safety And Efficacy Of Sunitinib In Chinese Patients With Progressive Advanced Or Metastatic Well-Differentiated Unresectable Pancreatic Neuroendocrine Tumors
+   NCT ID: NCT02282059
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. Dostarlimab Plus Chemo With Maintenance Niraparib Generates ... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: Dostarlimab Plus Chemo With Maintenance Niraparib ... [📄]
+----------------------------------------
+25. Testing Two Oral Drugs Combination (Cediranib and Olaparib) Compared to a Single Drug (Olaparib) for Men With Advanced Prostate Cancer
+   NCT ID: NCT02893917
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 3
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications (1 scraped); 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Randomized Trial of Olaparib With or Without Cediranib for M... [Content: 2003 chars]
+     - Onclive: 1 items (1 with scraped content)
+       1. Cediranib Plus Olaparib Elicits rPFS Benefit in Metastatic [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped); 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: PMID: 36256912; PubMed: Randomized Trial of Olaparib With or Without Cedir... [📄]; Onclive: Cediranib Plus Olaparib Elicits rPFS Benefit in Me... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36256912/
+----------------------------------------
+26. Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET
+   NCT ID: NCT03972488
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 7
+   External Publications: 5
+   Online Search Summary: 3 PubMed publications (3 scraped); 2 Onclive articles (2 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 3 items (3 with scraped content)
+       1. [177Lu]Lu-DOTA-TATE plus long-acting octreotide versus high‑... [Content: 2003 chars]
+       2. State of the art and future directions in the systemic treat... [Content: 2003 chars]
+       3. Casting a Wide NET: When Is the Optimal Time for 177Lu-Dotat... [Content: 2003 chars]
+     - Onclive: 2 items (2 with scraped content)
+       1. Multivariate Analysis Provides Additional Insight on Efficac... [Content: 2003 chars]
+       2. First-Line Lutetium Lu 177 Dotatate Plus Octreotide Improves [Content: 2003 chars]
+   Analysis: Found 2 listed publication(s); Listed publications appear to contain results; Online search performed; Found 5 additional publication(s) via online search; Web search details: 3 PubMed publications (3 scraped); 2 Onclive articles (2 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 5 external publications via online search
+   Sources: PMID: 38851203; PubMed: [177Lu]Lu-DOTA-TATE plus long-acting octreotide ve... [📄]; PubMed: State of the art and future directions in the syst... [📄]; PubMed: Casting a Wide NET: When Is the Optimal Time for 1... [📄]; Onclive: Multivariate Analysis Provides Additional Insight ... [📄]; Onclive: First-Line Lutetium Lu 177 Dotatate Plus Octreotid... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/38851203/; pubmed: https://pubmed.ncbi.nlm.nih.gov/33973550/; pubmed: https://pubmed.ncbi.nlm.nih.gov/39570708/
+----------------------------------------
+27. Study to Allow Access to Pasireotide for Patients Benefiting From Pasireotide Treatment in Novartis-sponsored Studies
+   NCT ID: NCT01794793
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+28. Real-world Evidence Study EvaLuating PAtient-Reported Outcomes With XERMELO
+   NCT ID: NCT03223428
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: high
+   Source Breakdown:
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Web search details: No additional publications found
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov
+   Sources: PMID: 36262750
+----------------------------------------
+29. Study of Pasireotide Long Acting Release (LAR) in Patients With Metastatic Neuroendocrine Tumors (NETs)
+   NCT ID: NCT01253161
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Phase II clinical trial of pasireotide long-acting repeatabl... [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 25376618; PubMed: Phase II clinical trial of pasireotide long-acting... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/25376618/
+----------------------------------------
+30. 3-arm Trial to Evaluate Pasireotide LAR/Everolimus Alone/in Combination in Patients With Lung/Thymus NET - LUNA Trial
+   NCT ID: NCT01563354
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Efficacy and safety of long-acting pasireotide or everolimus... [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 29074099; PubMed: Efficacy and safety of long-acting pasireotide or ... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/29074099/
+----------------------------------------
+31. Study to Evaluate Safety and Dosimetry of Lutathera in Adolescent Patients With GEP-NETs and PPGLs
+   NCT ID: NCT04711135
+   Status: ACTIVE_NOT_RECRUITING
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 2
+   Online Search Summary: 1 PubMed publications (1 scraped); 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Safety and dosimetry of [177Lu]Lu-DOTA-TATE in adolescent pa... [Content: 2003 chars]
+     - Onclive: 1 items (1 with scraped content)
+       1. Dr Halperin on the FDA Approval of Lutetium Lu 177 Dotatate [Content: 2003 chars]
+   Analysis: Online search performed; Found 2 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped); 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 2 external publications via online search
+   Sources: PubMed: Safety and dosimetry of [177Lu]Lu-DOTA-TATE in ado... [📄]; Onclive: Dr Halperin on the FDA Approval of Lutetium Lu 177... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/40198358/
+----------------------------------------
+32. A Study to Evaluate Patient Experience in the Therapy of Neuroendocrine Tumors Treated With Octreotide Long Acting Release Versus Lanreotide
+   NCT ID: NCT03289741
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 2
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. Dr. Raj on Injection Site Pain With Octreotide Long-Acting [Content: 2003 chars]
+   Analysis: Found 1 listed publication(s); Listed publications appear to contain results; Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PMID: 35724357; Onclive: Dr. Raj on Injection Site Pain With Octreotide Lon... [📄]
+----------------------------------------
+33. Sapanisertib in Treating Patients With Metastatic or Refractory Pancreatic Neuroendocrine Tumor That Cannot Be Removed by Surgery
+   NCT ID: NCT02893930
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. A phase II study of sapanisertib (TAK-228) a mTORC1/2 inhibi... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PubMed: A phase II study of sapanisertib (TAK-228) a mTORC... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/36264382/
+----------------------------------------
+34. Platinum-doublet Chemotherapy and Nivolumab for the Treatment of Subjects With Neuroendocrine Neoplasms (NENs) of the Gastroenteropancreatic (GEP) Tract or of Unknown (UK) Origin.
+   NCT ID: NCT03980925
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 PubMed publications (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Pubmed: 1 items (1 with scraped content)
+       1. Nivolumab plus platinum-doublet chemotherapy in treatment-na... [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 PubMed publications (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: PubMed: Nivolumab plus platinum-doublet chemotherapy in tr... [📄]
+   External Sources: pubmed: https://pubmed.ncbi.nlm.nih.gov/39117670/
+----------------------------------------
+35. Regorafenib in Treating Patients With Advanced or Metastatic Neuroendocrine Tumors
+   NCT ID: NCT02259725
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. ASCO 2025: Top Data Highlights from 5/31 - onclive.com [Content: 335 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: ASCO 2025: Top Data Highlights from 5/31 - onclive... [📄]
+----------------------------------------
+36. Phase IV Study of the Safety and Efficacy of Everolimus in Adult Patients With Progressive pNET in China
+   NCT ID: NCT02842749
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 0
+   External Publications: 0
+   Online Search Summary: No additional publications found
+   Search Confidence: medium
+   Source Breakdown:
+   Analysis: Online search performed; Web search details: No additional publications found; No publications with results found
+   Filtering Decision: KEPT: Has posted results on ClinicalTrials.gov
+   Sources: 
+----------------------------------------
+37. Sequentiality of Everolimus and STZ-5FU in Advanced Pancreatic Neuroendocrine Tumor
+   NCT ID: NCT02246127
+   Status: COMPLETED
+   Has Posted Results: True
+   Publications Found: 1
+   External Publications: 1
+   Online Search Summary: 1 Onclive articles (1 scraped)
+   Search Confidence: high
+   Source Breakdown:
+     - Onclive: 1 items (1 with scraped content)
+       1. GSK’227 Earns FDA Breakthrough Therapy … [Content: 2003 chars]
+   Analysis: Online search performed; Found 1 additional publication(s) via online search; Web search details: 1 Onclive articles (1 scraped)
+   Filtering Decision: KEPT: Has publications with results; Has posted results on ClinicalTrials.gov; Found 1 external publications via online search
+   Sources: Onclive: GSK’227 Earns FDA Breakthrough Therapy … [📄]
+----------------------------------------
+
