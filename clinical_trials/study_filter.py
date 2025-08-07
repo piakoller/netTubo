@@ -44,6 +44,8 @@ class PublicationAnalysis:
     online_search_results: Dict
     web_results_summary: str
     external_sources_found: List[str]
+    # Add detailed source overview with scraping information
+    source_overview: Dict
     
 @dataclass
 class FilteringResult:
@@ -69,8 +71,12 @@ class StudyFilter:
         """
         self.rate_limit_delay = rate_limit_delay
         self.last_request_time = 0.0
-        # Initialize the online search module
-        self.online_checker = OnlineResultChecker(rate_limit_delay=rate_limit_delay)
+        # Initialize the online search module with content scraping enabled
+        self.online_checker = OnlineResultChecker(
+            rate_limit_delay=rate_limit_delay,
+            scrape_content=True,
+            max_content_length=2000
+        )
         
     def _rate_limit(self):
         """Apply rate limiting between web searches."""
@@ -146,56 +152,167 @@ class StudyFilter:
         
         return has_results_publications, publications_count, publication_sources
     
-    def search_web_for_publications(self, nct_id: str, study_title: str) -> Tuple[int, List[str], Dict, str]:
+    def search_web_for_publications(self, nct_id: str, study_title: str) -> Tuple[int, List[str], Dict, str, Dict]:
         """
         Search the web for additional publications using the NCT ID and online search module.
         
         Returns:
-            Tuple of (additional_publications_found, sources_found, search_results, results_summary)
+            Tuple of (additional_publications_found, sources_found, search_results, results_summary, source_overview)
         """
         logger.info(f"Performing online search for {nct_id}")
         
         try:
-            # Use the OnlineResultChecker to search for publications
-            search_results = self.online_checker.search_for_study_results(nct_id, study_title)
+            # Define progress callback for search sources
+            def search_progress(completed, total, source_name):
+                print(f" [{source_name}]", end='', flush=True)
             
-            # Extract information from the search results
+            # Use the OnlineResultChecker to search for publications
+            search_results = self.online_checker.search_for_study_results(nct_id, study_title, progress_callback=search_progress)
+            
+            # Extract information from the search results with detailed source overview
             additional_count = 0
             sources_found = []
             results_summary = ""
+            source_overview = {
+                'pubmed': {'count': 0, 'items': [], 'scraped': 0},
+                'onclive': {'count': 0, 'items': [], 'scraped': 0},
+                'congress_abstracts': {'count': 0, 'items': [], 'scraped': 0},
+                'asco': {'count': 0, 'items': [], 'scraped': 0},
+                'enets': {'count': 0, 'items': [], 'scraped': 0},
+                'annals_oncology': {'count': 0, 'items': [], 'scraped': 0},
+                'clinicaltrials_gov': {'count': 0, 'items': [], 'scraped': 0}
+            }
             
             if search_results:
                 # Check PubMed results
                 pubmed_results = search_results.get('pubmed', {})
                 if pubmed_results.get('publications_found', 0) > 0:
-                    additional_count += pubmed_results['publications_found']
-                    sources_found.extend([f"PubMed: {pub['title'][:50]}..." for pub in pubmed_results.get('publications', [])])
+                    count = pubmed_results['publications_found']
+                    additional_count += count
+                    publications = pubmed_results.get('publications', [])
+                    
+                    source_overview['pubmed']['count'] = count
+                    source_overview['pubmed']['scraped'] = sum(1 for pub in publications if pub.get('content_scraped', False))
+                    
+                    for pub in publications:
+                        title_snippet = pub['title'][:50] + "..." if len(pub['title']) > 50 else pub['title']
+                        scraped_indicator = " [📄]" if pub.get('content_scraped') else ""
+                        sources_found.append(f"PubMed: {title_snippet}{scraped_indicator}")
+                        source_overview['pubmed']['items'].append({
+                            'title': pub['title'],
+                            'url': pub.get('url', ''),
+                            'pmid': pub.get('pmid', ''),
+                            'content_scraped': pub.get('content_scraped', False),
+                            'content_length': len(pub.get('full_content', ''))
+                        })
                 
-                # Check Google Scholar results
-                scholar_results = search_results.get('google_scholar', {})
-                if scholar_results.get('publications_found', 0) > 0:
-                    additional_count += scholar_results['publications_found']
-                    sources_found.extend([f"Scholar: {pub['title'][:50]}..." for pub in scholar_results.get('publications', [])])
-                
-                # Check congress/conference results
+                # Check congress/conference results (includes ASCO, ENETS, Annals)
                 congress_results = search_results.get('congress_abstracts', {})
                 if congress_results.get('abstracts_found', 0) > 0:
-                    additional_count += congress_results['abstracts_found']
-                    sources_found.extend([f"Congress: {abs['title'][:50]}..." for abs in congress_results.get('abstracts', [])])
+                    count = congress_results['abstracts_found']
+                    additional_count += count
+                    abstracts = congress_results.get('abstracts', [])
+                    
+                    source_overview['congress_abstracts']['count'] = count
+                    source_overview['congress_abstracts']['scraped'] = sum(1 for abs in abstracts if abs.get('content_scraped', False))
+                    
+                    # Break down by specific sources within congress abstracts
+                    for abs_item in abstracts:
+                        source = abs_item.get('source', 'Congress')
+                        title_snippet = abs_item['title'][:50] + "..." if len(abs_item['title']) > 50 else abs_item['title']
+                        scraped_indicator = " [📄]" if abs_item.get('content_scraped') else ""
+                        sources_found.append(f"{source}: {title_snippet}{scraped_indicator}")
+                        
+                        # Add to specific source overview
+                        source_key = source.lower().replace(' ', '_').replace('(', '').replace(')', '').replace('via_bing', '')
+                        if 'asco' in source_key:
+                            source_overview['asco']['count'] += 1
+                            if abs_item.get('content_scraped'):
+                                source_overview['asco']['scraped'] += 1
+                            source_overview['asco']['items'].append({
+                                'title': abs_item['title'],
+                                'url': abs_item.get('url', ''),
+                                'content_scraped': abs_item.get('content_scraped', False),
+                                'content_length': len(abs_item.get('full_content', ''))
+                            })
+                        elif 'enets' in source_key:
+                            source_overview['enets']['count'] += 1
+                            if abs_item.get('content_scraped'):
+                                source_overview['enets']['scraped'] += 1
+                            source_overview['enets']['items'].append({
+                                'title': abs_item['title'],
+                                'url': abs_item.get('url', ''),
+                                'content_scraped': abs_item.get('content_scraped', False),
+                                'content_length': len(abs_item.get('full_content', ''))
+                            })
+                        elif 'annals' in source_key:
+                            source_overview['annals_oncology']['count'] += 1
+                            if abs_item.get('content_scraped'):
+                                source_overview['annals_oncology']['scraped'] += 1
+                            source_overview['annals_oncology']['items'].append({
+                                'title': abs_item['title'],
+                                'url': abs_item.get('url', ''),
+                                'content_scraped': abs_item.get('content_scraped', False),
+                                'content_length': len(abs_item.get('full_content', ''))
+                            })
+                
+                # Check Onclive results
+                onclive_results = search_results.get('onclive', {})
+                if onclive_results.get('articles_found', 0) > 0:
+                    count = onclive_results['articles_found']
+                    additional_count += count
+                    articles = onclive_results.get('articles', [])
+                    
+                    source_overview['onclive']['count'] = count
+                    source_overview['onclive']['scraped'] = sum(1 for art in articles if art.get('content_scraped', False))
+                    
+                    for art in articles:
+                        title_snippet = art['title'][:50] + "..." if len(art['title']) > 50 else art['title']
+                        scraped_indicator = " [📄]" if art.get('content_scraped') else ""
+                        sources_found.append(f"Onclive: {title_snippet}{scraped_indicator}")
+                        source_overview['onclive']['items'].append({
+                            'title': art['title'],
+                            'url': art.get('url', ''),
+                            'content_scraped': art.get('content_scraped', False),
+                            'content_length': len(art.get('full_content', ''))
+                        })
                 
                 # Check ClinicalTrials.gov additional info
                 ct_results = search_results.get('clinicaltrials_gov', {})
                 if ct_results.get('additional_info_found', False):
                     sources_found.append(f"ClinicalTrials.gov: {ct_results.get('info_type', 'Additional information')}")
+                    source_overview['clinicaltrials_gov']['count'] = 1
                 
-                # Create summary
+                # Create summary with scraping info
                 summary_parts = []
                 if pubmed_results.get('publications_found', 0) > 0:
-                    summary_parts.append(f"{pubmed_results['publications_found']} PubMed publications")
-                if scholar_results.get('publications_found', 0) > 0:
-                    summary_parts.append(f"{scholar_results['publications_found']} Google Scholar results")
+                    pub_count = pubmed_results['publications_found']
+                    scraped_count = source_overview['pubmed']['scraped']
+                    summary_parts.append(f"{pub_count} PubMed publications ({scraped_count} scraped)")
+                    
                 if congress_results.get('abstracts_found', 0) > 0:
-                    summary_parts.append(f"{congress_results['abstracts_found']} congress abstracts")
+                    abs_count = congress_results['abstracts_found']
+                    scraped_count = source_overview['congress_abstracts']['scraped']
+                    
+                    # Break down congress by specific sources
+                    congress_details = []
+                    if source_overview['asco']['count'] > 0:
+                        congress_details.append(f"ASCO: {source_overview['asco']['count']} ({source_overview['asco']['scraped']} scraped)")
+                    if source_overview['enets']['count'] > 0:
+                        congress_details.append(f"ENETS: {source_overview['enets']['count']} ({source_overview['enets']['scraped']} scraped)")
+                    if source_overview['annals_oncology']['count'] > 0:
+                        congress_details.append(f"Annals: {source_overview['annals_oncology']['count']} ({source_overview['annals_oncology']['scraped']} scraped)")
+                    
+                    if congress_details:
+                        summary_parts.append(f"Congress abstracts: {'; '.join(congress_details)}")
+                    else:
+                        summary_parts.append(f"{abs_count} congress abstracts ({scraped_count} scraped)")
+                        
+                if onclive_results.get('articles_found', 0) > 0:
+                    art_count = onclive_results['articles_found']
+                    scraped_count = source_overview['onclive']['scraped']
+                    summary_parts.append(f"{art_count} Onclive articles ({scraped_count} scraped)")
+                    
                 if ct_results.get('additional_info_found', False):
                     summary_parts.append("additional ClinicalTrials.gov info")
                 
@@ -203,11 +320,11 @@ class StudyFilter:
             else:
                 results_summary = "Online search failed or returned no results"
             
-            return additional_count, sources_found, search_results, results_summary
+            return additional_count, sources_found, search_results, results_summary, source_overview
             
         except Exception as e:
             logger.error(f"Error in online search for {nct_id}: {e}")
-            return 0, [], {}, f"Search failed: {str(e)}"
+            return 0, [], {}, f"Search failed: {str(e)}", {}
     
     def _extract_year_from_study(self, title: str) -> Optional[int]:
         """Extract year from study title or return None."""
@@ -237,7 +354,7 @@ class StudyFilter:
         
         # Step 2: Perform online search for additional publications
         web_search_performed = True
-        additional_count, web_sources, online_results, web_summary = self.search_web_for_publications(nct_id, title)
+        additional_count, web_sources, online_results, web_summary, source_overview = self.search_web_for_publications(nct_id, title)
         
         # Step 3: Determine final publication status
         total_publications = listed_count + additional_count
@@ -291,7 +408,8 @@ class StudyFilter:
             analysis_notes=analysis_notes,
             online_search_results=online_results or {},
             web_results_summary=web_summary,
-            external_sources_found=external_sources
+            external_sources_found=external_sources,
+            source_overview=source_overview or {}
         )
     
     def filter_studies(self, studies: List[Dict], keep_unpublished: bool = False, input_filename: str = "") -> Tuple[List[Dict], List[Dict], Dict]:
@@ -331,8 +449,16 @@ class StudyFilter:
             'hasresults_false_processing': is_hasresults_false
         }
         
-        for study in studies:
+        total_studies = len(studies)
+        logger.info(f"Starting analysis of {total_studies} studies")
+        
+        for i, study in enumerate(studies, 1):
             analysis_stats['total_analyzed'] += 1
+            
+            # Print progress
+            progress_percent = (i / total_studies) * 100
+            nct_id = study.get('nct_id', 'Unknown')
+            print(f"\rProgress: [{i:4d}/{total_studies:4d}] ({progress_percent:5.1f}%) - Analyzing {nct_id}...", end='', flush=True)
             
             # Check if study has posted results on ClinicalTrials.gov
             has_posted_results = study.get('has_posted_results', False)
@@ -443,6 +569,9 @@ class StudyFilter:
                 removed_studies.append(study)
                 analysis_stats['removed_studies'] += 1
                 logger.info(f"Removing study {study.get('nct_id', '')}: {analysis.analysis_notes}")
+        
+        # Print completion message
+        print(f"\nCompleted analysis of {total_studies} studies")
         
         return filtered_studies, removed_studies, analysis_stats
     
@@ -591,10 +720,34 @@ class StudyFilter:
                     
                     analysis = study.get('publication_analysis', {})
                     filtering = study.get('filtering_result', {})
+                    source_overview = analysis.get('source_overview', {})
+                    
                     f.write(f"   Publications Found: {analysis.get('total_publications_found', 0)}\n")
                     f.write(f"   External Publications: {analysis.get('additional_publications_found', 0)}\n")
                     f.write(f"   Online Search Summary: {analysis.get('web_results_summary', 'N/A')}\n")
                     f.write(f"   Search Confidence: {filtering.get('search_confidence', 'N/A')}\n")
+                    
+                    # Add detailed source breakdown
+                    f.write(f"   Source Breakdown:\n")
+                    if source_overview:
+                        for source, details in source_overview.items():
+                            if details.get('count', 0) > 0:
+                                count = details['count']
+                                scraped = details.get('scraped', 0)
+                                source_name = source.replace('_', ' ').title()
+                                f.write(f"     - {source_name}: {count} items ({scraped} with scraped content)\n")
+                                
+                                # Show specific items if available
+                                items = details.get('items', [])
+                                for i, item in enumerate(items[:3], 1):  # Show first 3 items
+                                    title_short = item['title'][:60] + "..." if len(item['title']) > 60 else item['title']
+                                    scraped_info = f" [Content: {item.get('content_length', 0)} chars]" if item.get('content_scraped') else " [No content]"
+                                    f.write(f"       {i}. {title_short}{scraped_info}\n")
+                                if len(items) > 3:
+                                    f.write(f"       ... and {len(items) - 3} more items\n")
+                    else:
+                        f.write(f"     - No external sources found\n")
+                    
                     f.write(f"   Analysis: {analysis.get('analysis_notes', 'N/A')}\n")
                     f.write(f"   Filtering Decision: {filtering.get('filtering_reason', 'N/A')}\n")
                     f.write(f"   Sources: {'; '.join(analysis.get('publication_sources', []))}\n")
@@ -685,6 +838,33 @@ def main():
         print(f"High confidence studies: {analysis_stats['high_confidence_studies']}")
         print(f"Medium confidence studies: {analysis_stats['medium_confidence_studies']}")
         print(f"Low confidence studies: {analysis_stats['low_confidence_studies']}")
+        
+        # Add source overview statistics
+        print(f"\nSource Overview (with content scraping):")
+        print("=" * 50)
+        source_stats = {
+            'pubmed': {'total': 0, 'scraped': 0},
+            'onclive': {'total': 0, 'scraped': 0}, 
+            'asco': {'total': 0, 'scraped': 0},
+            'enets': {'total': 0, 'scraped': 0},
+            'annals_oncology': {'total': 0, 'scraped': 0}
+        }
+        
+        # Collect statistics from all studies
+        for study in filtered_studies + removed_studies:
+            analysis = study.get('publication_analysis', {})
+            source_overview = analysis.get('source_overview', {})
+            
+            for source, details in source_overview.items():
+                if source in source_stats and details.get('count', 0) > 0:
+                    source_stats[source]['total'] += details.get('count', 0)
+                    source_stats[source]['scraped'] += details.get('scraped', 0)
+        
+        for source, stats in source_stats.items():
+            if stats['total'] > 0:
+                source_name = source.replace('_', ' ').title()
+                scrape_percent = (stats['scraped'] / stats['total'] * 100) if stats['total'] > 0 else 0
+                print(f"{source_name:15}: {stats['total']:3d} items, {stats['scraped']:3d} scraped ({scrape_percent:4.1f}%)")
         
         if analysis_stats.get('hasresults_false_processing', False):
             print(f"\nNote: Enhanced filtering applied for HasResults-false dataset")
