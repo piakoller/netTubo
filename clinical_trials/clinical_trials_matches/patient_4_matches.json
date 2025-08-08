@@ -1,0 +1,863 @@
+{
+  "patient_id": "4",
+  "patient_diagnosis": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n08/2015 Start Somatuline\n06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.",
+  "patient_clinical_question": "Weitere Therapie, Everolimus oder PRRT?",
+  "matching_date": "2025-08-08 14:40:45",
+  "total_matches_found": 15,
+  "matches": [
+    {
+      "nct_id": "NCT03278379",
+      "title": "Avelumab in G2-3 NET",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The study explicitly includes Grade 2 NETs of pancreatic origin, matching the patient's diagnosis. The inclusion criteria allow for patients who have received prior somatostatin analogue therapy (which the patient has) and up to two prior lines of systemic therapy, and the ECOG performance status requirement of 0-2 is likely met. Avelumab represents a different treatment approach than Everolimus or PRRT, offering a potential alternative for this patient, and the study has published results, indicating good scientific quality.",
+      "condition": "Neuroendocrine Tumors",
+      "intervention": "Avelumab",
+      "sponsor": "Sunnybrook Health Sciences Centre",
+      "start_date": "2017-11-15",
+      "completion_date": "2023-07-06",
+      "primary_outcome": "Overall response rate (ORR)",
+      "secondary_outcome": "Disease control rate (DCR); Duration of response; Progression-free survival (PFS); Overall survival (OS); Rates of treatment-emergent adverse events as defined by National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) v4.03; ORR by irRECIST version 1.1; DCR by irRECIST version 1.1; Duration of response by irRECIST version 1.1; PFS by irRECIST version 1.1; OS at 1 year; OS at 2 years; PFS at 1 year; PFS at 2 years",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (males or females), aged 18 years or older with pathologically confirmed, advanced (unresectable or metastatic) neuroendocrine tumour from a gastroenteropancreatic or lung source. Both participants with functional NETs and those with nonfunctional NETs shall be eligible for this study.\n* Histologically confirmed, WHO Grade 2-3, well-differentiated NETs of gastroenteropancreatic or lung origin.\n* Has received 0,1 or 2 prior lines of systemic therapy (chemotherapy, PRRT, targeted therapies such as everolimus or sunitinib). Somatostatin analogues are not considered a line of therapy for the purposes of this criterion.\n* Radiological documentation of disease progression within 24 weeks of study enrolment. Disease progression must be demonstrated on two scans less than one year apart.\n\n  * Participants previously treated with any systemic therapies are eligible to enroll if disease progression is documented during or after their last treatment.\n* Measurable disease as assessed by CT scan of the chest, abdomen and pelvis which is suitable for accurate repeated measurements (according to RECIST v1.1).\n* ECOG performance status 0-2.\n* Adequate bone marrow function (ANC \\> 1.5 x 109/L; Platelets \\>100 x109/L; haemoglobin \\> 90 g9/L).\n* Adequate liver function defined by a total bilirubin level ≤1.5xULN and AST and ALT levels ≤2.5xULN for participants (or AST and ALT levels ≤ 5xULN for participants with documented metastatic disease to the liver).\n* Adequate renal function defined by an estimated creatinine clearance ≥ 30 mL/min according to the Cockcroft-Gault formula (or local institutional standard method).\n* Willing and able to comply with all study requirements, including timing and/or nature of treatment and required assessments.\n* Signed, written informed consent.\n* Evidence of post-menopausal status, or negative urine or serum pregnancy test for female pre-menopausal participants (within approximately 14 days prior to enrolment). Women will be considered post-menopausal if they have been amenorrhoeic for 12 months without an alternative medical explanation.\n* Highly effective contraception for both male and female participants if the risk of conception exists (note: The effects of the IP on the developing human fetus are unknown; thus, women of childbearing potential and men able to father a child must agree to use 2 highly effective contraceptions, defined as methods with a failure rate of less than 1% per year. Highly effective contraception is required at least 28 days prior, throughout and for at least 60 days after avelumab treatment.)\n\nExclusion Criteria:\n\n* Grade 1 NET or Grade 3 poorly-differentiated neuroendocrine carcinoma, or mixed adenoneuroendocrine carcinomas (MANEC)\n* NETs confirmed to be from primaries other than the gastrointestinal tract, pancreas, or lung\n* Prior use of PD-1, PD-L1 or CTLA-4 inhibitors\n* Life expectancy of ≤3 months\n* Concurrent treatment with other anticancer therapy (except somatostatin analogues for the purposes of functional control). Participants on somatostatin analogues for anti-proliferative therapy should have this therapy ceased, and would be eligible for enrolment if they have not received somatostatin analogues in the past 14 days.\n* Active autoimmune disease that might deteriorate when receiving an immunostimulatory agent, with exception to:\n* Subjects with diabetes type I, vitiligo, psoriasis, hypo- or hyperthyroid disease not requiring immunosuppressive treatment are eligible\n* Active infection requiring systemic therapy.\n* History of primary autoimmunodeficiency\n* Current use of immunosuppressive medication, EXCEPT for the following: a. intranasal, inhaled, topical steroids, or local steroid injection (e.g., intra-articular injection); b. Systemic corticosteroids at physiologic doses ≤ 10 mg/day of prednisone or equivalent; c. Steroids as premedication for hypersensitivity reactions (e.g., CT scan premedication).\n* Prior organ transplantation, including allogeneic stem cell transplantation\n* Clinically significant (i.e., active) cardiovascular disease: cerebral vascular accident/stroke (\\< 6 months prior to enrollment), myocardial infarction (\\< 6 months prior to enrollment), unstable angina, congestive heart failure (≥ New York Heart Association Classification Class II), or serious cardiac arrhythmia requiring medication.\n* Major surgery in the 2 weeks prior to randomization. Surgery with intent to debulk metastatic disease is allowed, as long as there is sufficient residual disease for RECIST measurements (see inclusion criteria 5).\n* Participants with prior or concurrent malignancy except for the following: adequately treated basal cell or squamous cell skin cancer, or other adequately treated in situ cancer, or any other cancer from which the patient has been disease free for three years.\n* All participants with brain metastases and any of the following:\n\n  * They have not received local treatment to known brain metastases\n  * They have been clinically unstable in the 2 weeks prior to enrolment\n  * Requirement for treatment with systemic steroids exceeding the equivalent of 10mg oral prednisone per day\n  * Ongoing neurological symptoms related to brain metastases\n  * Leptomeningeal metastases\n* Pregnancy, lactation, or inadequate contraception.\n* Significant acute or chronic infections including, among others:\n\n  * Known history of positive test for human immunodeficiency virus (HIV) or known acquired immunodeficiency syndrome (AIDS)\n  * Positive test for HBV surface antigen and / or confirmatory HCV RNA (if anti-HCV antibody tested positive)\n  * Active tuberculosis\n  * Testing for these diseases is not mandatory unless clinically indicated.\n* Known prior severe hypersensitivity to investigational product or any component in its formulations, including known severe hypersensitivity reactions to monoclonal antibodies (NCI CTCAE v4.03 Grade ≥ 3)\n* Persisting toxicity related to prior therapy of Grade \\>1 NCI-CTCAE v 4.03; however, alopecia, sensory neuropathy Grade ≤ 2, or other Grade ≤ 2 not constituting a safety risk based on investigator's judgment are acceptable.\n* Known alcohol or drug abuse\n* Other severe acute or chronic medical conditions including colitis, inflammatory bowel disease, pneumonitis, pulmonary fibrosis or psychiatric conditions including recent (within the past year) or active suicidal ideation or behavior; or laboratory abnormalities that may increase the risk associated with study participation or study treatment administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this study.\n* Any psychiatric condition that would prohibit the understanding or rendering of informed consent\n* Vaccination within 4 weeks of the first dose of avelumab and while on trial, except for administration of inactivated vaccines\n* Inability to obtain sufficient tumour tissue (whether archival or fresh) for PD-L1 testing. A core biopsy, endoscopic biopsy or surgical resection specimen shall be considered adequate tissue; a fine needle aspirate/biopsy will be considered insufficient tissue.\n* Prior treatment for study indication with:\n\n  * Peptide Receptor Radiouclide Therapy (PRRT) administered within 3 months of enrolment\n  * Hepatic intra-arterial embolization, radio-frequency ablation, or cryoablation within 4 weeks of enrolment",
+      "brief_summary": "This is a single-center, single-arm, open-label, phase II trial to evaluate the efficacy and safety of avelumab in subjects with unresectable or metastatic, Grade 2-3, well-differentiated neuroendocrine.tumour.",
+      "detailed_description": "",
+      "locations": [
+        "Sunnybrook Health Sciences Centre, Toronto, Canada"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03278379",
+      "publications": {
+        "nct_id": "NCT03278379",
+        "study_title": "Avelumab in G2-3 NET",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "35504244",
+            "citation": "Chan DL, Rodriguez-Freixinos V, Doherty M, Wasson K, Iscoe N, Raskin W, Hallet J, Myrehaug S, Law C, Thawer A, Nguyen K, Singh S. Avelumab in unresectable/metastatic, progressive, grade 2-3 neuroendocrine neoplasms (NENs): Combined results from NET-001 and NET-002 trials. Eur J Cancer. 2022 Jul;169:74-81. doi: 10.1016/j.ejca.2022.03.029. Epub 2022 May 2.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35504244/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT02973204",
+      "title": "Circulating Tumor Cells and Tumor DNA in HCC and NET",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. It explicitly includes patients with NET, and the patient has a NET diagnosis. The patient's case of pancreatic NET with liver metastases aligns with one of the study's patient cohorts (pancreatic NET before Everolimus treatment), and the clinical question directly addresses whether Everolimus is a suitable next step. The study has 16 publications, indicating good scientific quality and published results. While the patient's prior Somatuline treatment isn't specifically addressed in the inclusion/exclusion criteria, it doesn't explicitly exclude them, and the study focuses on patients *before* starting treatment with Everolimus, which is a relevant consideration for this patient.",
+      "condition": "Carcinoma, Hepatocellular; Neuroendocrine Tumors",
+      "intervention": "Sorafenib; Radiofrequency ablation (RFA) or surgery; Everolimus; Lanreotide",
+      "sponsor": "University of Aarhus",
+      "start_date": "2016-11",
+      "completion_date": "2020-01-08",
+      "primary_outcome": "Concordance between specific DNA mutations found in patient biopsies and plasma circulating tumor DNA",
+      "secondary_outcome": "Flow cytometry for detection and quantification of CTC in peripheral blood (absolute and relative counts); Correlations between mutations found in circulating tumor DNA and amount of circulating tumor cells and treatment response according to RECIST criteria; Correlations between mutations found in circulating tumor DNA and amount of circulating tumor cells and survival; Correlations between mutations fund in circulating DNA and circulating tumor cells",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* one of the above mentioned diseases\n* planed surgery, RFA, Somatostatin Analogue, Sorafenib or Everolimus treatment\n* signed informed consent\n\nExclusion Criteria:\n\n* age below 18, concomitant invasive cancer (not skin cancer) and planed emigration of Denmark.",
+      "brief_summary": "Background Treatment and control of cancer is associated with high costs, to patients in the form of side effects and discomfort during investigations, to society in the form of expensive drugs and studies.\n\nCirculating tumor cells (CTC) has received great attention as a cancer biomarker in trying to estimate future course in patients with breast cancer, colon cancer and prostate cancer. CTC is believed to be a crucial step in cancer spreading to the bloodstream and giving rise to metastases. Detection of circulating tumor DNA (ctDNA) specifically adds specificity to the analysis of the CTC.\n\nThe investigators would like to with molecular biological methods predict which patients requires special monitoring and individualized therapy and explore these tests as clinical decision support.\n\nPurpose and method\n\nIn a blood sample from patients with neuro-endocrine tumor (NET) and hepatocellular carcinoma (HCC), the investigators will by cell separation, flow cytometry and DNA sequencing and digital polymerase chain reaction (PCR):\n\n1. Identify and isolate the CTC and investigate these for tumor-specific mutations.\n2. Quantify ctDNA and analyze this for specific mutations, which in the past has been found frequent in NET and HCC.\n3. Compare findings of mutations on CTC and ctDNA with mutations in tissue biopsies.\n\nThe results are compared with the clinical data on disease course, including the effect of treatment and survival.\n\nSubjects 40 Patients with small intestinal/unknown primary NET before treatment with somatostatin analogues 30 patients with pancreatic NET before treatment with Everolimus 30 patients with presumed radically treated HCC 30 patients with HCC in treatment with Sorafenib A blood sample will be taken prior to the start of treatment, after 1 month after start of treatment and thereafter every 3.-6. month for up to two years.\n\nPerspectives In several cancer types molecular diagnostics have had significant influence in treatment and control strategy. The goal is in future to be able to take advantage of a so-called \"liquid biopsy\" as clinical decision support. The study will bring new knowledge to this growing field of research.",
+      "detailed_description": "",
+      "locations": [
+        "Department of Hepatology and Gastroenterology, Aarhus, Denmark"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02973204",
+      "publications": {
+        "nct_id": "NCT02973204",
+        "study_title": "Circulating Tumor Cells and Tumor DNA in HCC and NET",
+        "publications_found": 16,
+        "publications": [
+          {
+            "pmid": "25140861",
+            "citation": "Janson ET, Sorbye H, Welin S, Federspiel B, Gronbaek H, Hellman P, Ladekarl M, Langer SW, Mortensen J, Schalin-Jantti C, Sundin A, Sundlov A, Thiis-Evensen E, Knigge U. Nordic guidelines 2014 for diagnosis and treatment of gastroenteropancreatic neuroendocrine neoplasms. Acta Oncol. 2014 Oct;53(10):1284-97. doi: 10.3109/0284186X.2014.941999. Epub 2014 Aug 20.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25140861/"
+          },
+          {
+            "pmid": "21374666",
+            "citation": "Bruix J, Sherman M; American Association for the Study of Liver Diseases. Management of hepatocellular carcinoma: an update. Hepatology. 2011 Mar;53(3):1020-2. doi: 10.1002/hep.24199. No abstract available.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21374666/"
+          },
+          {
+            "pmid": "22846862",
+            "citation": "Zhang Y, Li J, Cao L, Xu W, Yin Z. Circulating tumor cells in hepatocellular carcinoma: detection techniques, clinical implications, and future perspectives. Semin Oncol. 2012 Aug;39(4):449-60. doi: 10.1053/j.seminoncol.2012.05.012.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22846862/"
+          },
+          {
+            "pmid": "21224371",
+            "citation": "Khan MS, Tsigani T, Rashid M, Rabouhans JS, Yu D, Luong TV, Caplin M, Meyer T. Circulating tumor cells and EpCAM expression in neuroendocrine tumors. Clin Cancer Res. 2011 Jan 15;17(2):337-45. doi: 10.1158/1078-0432.CCR-10-1776. Epub 2011 Jan 11.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21224371/"
+          },
+          {
+            "pmid": "23248251",
+            "citation": "Khan MS, Kirkwood A, Tsigani T, Garcia-Hernandez J, Hartley JA, Caplin ME, Meyer T. Circulating tumor cells as prognostic markers in neuroendocrine tumors. J Clin Oncol. 2013 Jan 20;31(3):365-72. doi: 10.1200/JCO.2012.44.2905. Epub 2012 Dec 17.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23248251/"
+          },
+          {
+            "pmid": "23616258",
+            "citation": "Schulze K, Gasch C, Staufer K, Nashan B, Lohse AW, Pantel K, Riethdorf S, Wege H. Presence of EpCAM-positive circulating tumor cells as biomarker for systemic disease strongly correlates to survival in patients with hepatocellular carcinoma. Int J Cancer. 2013 Nov;133(9):2165-71. doi: 10.1002/ijc.28230. Epub 2013 Jun 11.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23616258/"
+          },
+          {
+            "pmid": "25009297",
+            "citation": "Guo W, Yang XR, Sun YF, Shen MN, Ma XL, Wu J, Zhang CY, Zhou Y, Xu Y, Hu B, Zhang X, Zhou J, Fan J. Clinical significance of EpCAM mRNA-positive circulating tumor cells in hepatocellular carcinoma by an optimized negative enrichment and qRT-PCR-based platform. Clin Cancer Res. 2014 Sep 15;20(18):4794-805. doi: 10.1158/1078-0432.CCR-14-0251. Epub 2014 Jul 9.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25009297/"
+          },
+          {
+            "pmid": "24185511",
+            "citation": "Francis JM, Kiezun A, Ramos AH, Serra S, Pedamallu CS, Qian ZR, Banck MS, Kanwar R, Kulkarni AA, Karpathakis A, Manzo V, Contractor T, Philips J, Nickerson E, Pho N, Hooshmand SM, Brais LK, Lawrence MS, Pugh T, McKenna A, Sivachenko A, Cibulskis K, Carter SL, Ojesina AI, Freeman S, Jones RT, Voet D, Saksena G, Auclair D, Onofrio R, Shefler E, Sougnez C, Grimsby J, Green L, Lennon N, Meyer T, Caplin M, Chung DC, Beutler AS, Ogino S, Thirlwell C, Shivdasani R, Asa SL, Harris CR, Getz G, Kulke M, Meyerson M. Somatic mutation of CDKN1B in small intestine neuroendocrine tumors. Nat Genet. 2013 Dec;45(12):1483-6. doi: 10.1038/ng.2821. Epub 2013 Nov 3.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24185511/"
+          },
+          {
+            "pmid": "21252315",
+            "citation": "Jiao Y, Shi C, Edil BH, de Wilde RF, Klimstra DS, Maitra A, Schulick RD, Tang LH, Wolfgang CL, Choti MA, Velculescu VE, Diaz LA Jr, Vogelstein B, Kinzler KW, Hruban RH, Papadopoulos N. DAXX/ATRX, MEN1, and mTOR pathway genes are frequently altered in pancreatic neuroendocrine tumors. Science. 2011 Mar 4;331(6021):1199-203. doi: 10.1126/science.1200609. Epub 2011 Jan 20.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21252315/"
+          },
+          {
+            "pmid": "24148618",
+            "citation": "Marinoni I, Kurrer AS, Vassella E, Dettmer M, Rudolph T, Banz V, Hunger F, Pasquinelli S, Speel EJ, Perren A. Loss of DAXX and ATRX are associated with chromosome instability and reduced survival of patients with pancreatic neuroendocrine tumors. Gastroenterology. 2014 Feb;146(2):453-60.e5. doi: 10.1053/j.gastro.2013.10.020. Epub 2013 Oct 19.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24148618/"
+          },
+          {
+            "pmid": "25900181",
+            "citation": "Pipinikas CP, Dibra H, Karpathakis A, Feber A, Novelli M, Oukrif D, Fusai G, Valente R, Caplin M, Meyer T, Teschendorff A, Bell C, Morris TJ, Salomoni P, Luong TV, Davidson B, Beck S, Thirlwell C. Epigenetic dysregulation and poorer prognosis in DAXX-deficient pancreatic neuroendocrine tumours. Endocr Relat Cancer. 2015 Jun;22(3):L13-8. doi: 10.1530/ERC-15-0108. Epub 2015 Apr 21. No abstract available.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25900181/"
+          },
+          {
+            "pmid": "19496710",
+            "citation": "Rimassa L, Santoro A. Sorafenib therapy in advanced hepatocellular carcinoma: the SHARP trial. Expert Rev Anticancer Ther. 2009 Jun;9(6):739-45. doi: 10.1586/era.09.41.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19496710/"
+          },
+          {
+            "pmid": "25822088",
+            "citation": "Schulze K, Imbeaud S, Letouze E, Alexandrov LB, Calderaro J, Rebouissou S, Couchy G, Meiller C, Shinde J, Soysouvanh F, Calatayud AL, Pinyol R, Pelletier L, Balabaud C, Laurent A, Blanc JF, Mazzaferro V, Calvo F, Villanueva A, Nault JC, Bioulac-Sage P, Stratton MR, Llovet JM, Zucman-Rossi J. Exome sequencing of hepatocellular carcinomas identifies new mutational signatures and potential therapeutic targets. Nat Genet. 2015 May;47(5):505-511. doi: 10.1038/ng.3252. Epub 2015 Mar 30.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25822088/"
+          },
+          {
+            "pmid": "24705333",
+            "citation": "Newman AM, Bratman SV, To J, Wynne JF, Eclov NC, Modlin LA, Liu CL, Neal JW, Wakelee HA, Merritt RE, Shrager JB, Loo BW Jr, Alizadeh AA, Diehn M. An ultrasensitive method for quantitating circulating tumor DNA with broad patient coverage. Nat Med. 2014 May;20(5):548-54. doi: 10.1038/nm.3519. Epub 2014 Apr 6.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24705333/"
+          },
+          {
+            "pmid": "25103305",
+            "citation": "Sorensen BS, Wu L, Wei W, Tsai J, Weber B, Nexo E, Meldgaard P. Monitoring of epidermal growth factor receptor tyrosine kinase inhibitor-sensitizing and resistance mutations in the plasma DNA of patients with advanced non-small cell lung cancer during treatment with erlotinib. Cancer. 2014 Dec 15;120(24):3896-901. doi: 10.1002/cncr.28964. Epub 2014 Aug 7.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25103305/"
+          },
+          {
+            "pmid": "25991462",
+            "citation": "Neychev V, Steinberg SM, Cottle-Delisle C, Merkel R, Nilubol N, Yao J, Meltzer P, Pacak K, Marx S, Kebebew E. Mutation-targeted therapy with sunitinib or everolimus in patients with advanced low-grade or intermediate-grade neuroendocrine tumours of the gastrointestinal tract and pancreas with or without cytoreductive surgery: protocol for a phase II clinical trial. BMJ Open. 2015 May 19;5(5):e008248. doi: 10.1136/bmjopen-2015-008248.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25991462/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT05459844",
+      "title": "A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The patient has a G2 pancreatic NET with liver metastases, which falls within the study's inclusion criteria for G1/G2 GEP-NETs. While the patient's prior therapies and ECOG status are not fully specified, the study requires prior Octreotide LAR treatment with progression, which the patient received, and an ECOG of 0 or 1, which is plausible. The study compares Lutetium[177Lu] Oxodotreotide to Octreotide LAR, directly addressing the clinical question of whether to pursue PRRT (Lutetium[177Lu] Oxodotreotide) versus continuing Octreotide. The study is a Phase 3 trial with published results, indicating good scientific quality.",
+      "condition": "Neuroendocrine Tumors",
+      "intervention": "Lutetium[177Lu] Oxodotreotide Injection; Octreotide LAR",
+      "sponsor": "Sinotau Pharmaceutical Group",
+      "start_date": "2022-08-31",
+      "completion_date": "2028-12",
+      "primary_outcome": "Progression Free Survival (PFS) assessed by BIRC",
+      "secondary_outcome": "Progression Free Survival (PFS) assessed by investigator; Objective Response Rate (ORR) assessed by investigator; Objective Response Rate (ORR) assessed by BIRC; Duration of Response (DoR) assessed by investigator; Duration of Response (DoR) assessed by BIRC; Time to Tumour Progression (TTP) assessed by investigator; Time to Tumour Progression (TTP) assessed by BIRC; Disease Control Rate (DCR) assessed by investigator; Disease Control Rate (DCR) assessed by BIRC; 20-month Progression-Free Survival rate assessed by BIRC; 20-month Progression-Free Survival rate assessed by investigator; Overall Survival (OS); Change From Baseline in the EORTC QLQ-C30 Questionnaire; Change From Baseline in the EORTC Quality of Life Questionnaire - Neuroendocrine Carcinoid Module (EORTC QLQ-GINET21); Number of Participants With Adverse Events",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Ability to understand and willingness to sign a written informed consent document.\n2. Aged 18 years or older.\n3. Histopathologically confirmed low and moderate grade (G1 or G2) unresectable locally advanced or metastatic GEP-NET (based on the fifth edition of the WHO classification and grading criteria for neuroendocrine tumors of the digestive system in 2019, to be centrally confirmed).\n4. Previously received fixed-dose Octreotide LAR (20-30 mg/3-4 weeks) for at least 12 weeks of continuous treatment with disease progression.\n5. Presence of disease progression prior to randomization (time point of disease progression limited to 1 year prior to randomization and no other antitumor therapy received after progression).\n6. Presence of at least 1 measurable site of disease (based on RECIST 1.1).\n7. All target lesions (based on RECIST 1.1) at baseline must be confirmed as somatostatin receptor positive by 68Ga-Dotatate PET/CT .\n8. ECOG score of 0 or 1.\n9. Subjects of childbearing potential voluntarily use an effective method of contraception, such as condoms, oral or injectable contraceptives, IUDs, etc., during treatment and within 4 months (men) or 7 months (women) of the last use of the trial drug.\n\nExclusion Criteria:\n\n1. Serum creatinine \\>150 μmol/L (1.7 mg/dL) or creatinine clearance \\<50 ml/min (Cockcroft Gault formula).\n2. Hemoglobin \\<80g/L, or white blood cell count \\<2.0×10\\^9/L, or platelets \\<75×10\\^9/L.\n3. Serum total bilirubin \\> 3 × upper limit of normal (ULN).\n4. Serum albumin \\<30g/L.\n5. alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2.5×ULN.\n6. international normalized ratio (INR) \\> 1.5 or partially activated prothrombin time (APTT) \\> 1.5 x ULN.\n7. Positive human immunodeficiency virus (HIV) antibody.\n8. Positive for hepatitis B virus (HBV) surface antigen (HBsAg) and positive for HBV DNA (≥1×10\\^4 copies/ml or judged positive by research center criteria), or positive for hepatitis C virus (HCV) antibodies.\n9. Pregnant or lactating females.\n10. Received peptide receptor radionuclide therapy(PRRT) prior to randomization.\n11. Received Octreotide LAR at a dose strength \\>30 mg/3-4 weeks (increasing dose or frequency) within 12 weeks prior to randomization.\n12. Any patient receiving treatment with short-acting Octreotide, which cannot be interrupted for 24 h before and 24 h after the administration of Lutetium\\[177Lu\\] Oxodotreotide Injection, or any patient receiving treatment with Octreotide LAR, which cannot be interrupted for at least 6 weeks before the administration of Lutetium\\[177Lu\\] Oxodotreotide Injection.\n13. Received systemic antitumor therapy such as targeted therapy, immunotherapy, antitumor herbal therapy, chemotherapy within 4 weeks prior to randomization.\n14. Participated in other drug clinical trials within 4 weeks prior to randomization and received treatment with the corresponding trial drug.\n15. Received the following treatments within 12 weeks prior to randomization, including but not limited to surgery (except biopsy), radical radiotherapy, hepatic artery interventional embolization, cryoablation of liver metastases, or radiofrequency ablation.\n16. Received external beam radiation therapy for bone metastases within 2 weeks prior to randomization\n17. Toxicity of prior antitumor therapy has not returned to ≤ grade 1 levels (except for alopecia)\n18. Known brain metastases, unless these metastases have been treated and stabilized for at least 24 weeks, prior to enrollment in the study.\n19. Uncontrolled congestive heart failure, including baseline left ventricular ejection fraction (LVEF) \\<50%.\n20. uncontrolled diabetes mellitus, including baseline fasting glucose \\> 2 x ULN.\n21. Any clinically significant active infection.\n22. Known other malignancies (except for those without recurrence within 5 years after adequate treatment)\n23. Known hypersensitivity to Lutetium\\[177Lu\\] Oxodotreotide Injection or oxytetracycline acetate microsphere components and their excipients.\n24. Known to be unsuitable for enhanced CT or MRI contrast imaging due to allergic reaction or renal insufficiency.\n25. Any other disease, mental status or surgical condition that is uncontrolled, may interfere with study completion (including poor compliance) or is inappropriate for the use of the investigational drug.\n26. Other treatment options (e.g., chemotherapy, targeted therapy) that, in the opinion of the investigator, are more appropriate for the patient than the treatment provided in the study based on the patient's disease characteristics, i.e., the investigational drug is not the best therapeutic agent for clinical practice.",
+      "brief_summary": "This was a multicenter, stratified, open, randomized, comparator-controlled, parallel-group phase III study comparing treatment with Lutetium\\[177Lu\\] Oxodotreotide Injection to high dose (60 mg) Octreotide LAR in patients with unresectable or metastatic, progressive, well differentiated (G1 and G2), somatostatin receptor positive gastroenteropancreatic neuroendocrine tumours.",
+      "detailed_description": "After the screening period, participants who signed the ICF and were eligible for the study in accordance with the entry criteria were randomly assigned to treatment either Lutetium\\[177Lu\\] Oxodotreotide Injection or Octreotide LAR. Participant randomization was performed according to a centralized permuted block randomization scheme with a balanced ratio (1:1) between the 2 treatment groups, stratified by primary site of tumor (pancreatic or non-pancreatic), NET pathological grading (G1 or G2) and by the length of time that a participant was on a constant dose of Octreotide (=\\< 6 versus \\> 6 months). Objective tumor assessment in both groups was performed every 12+/-1 weeks from the randomization date according to RECIST Criteria until progression was centrally confirmed: any participants with progressive disease ceased the treatment/assessment period and proceeded to the long-term follow-up period for evaluation of survival and long-term safety.",
+      "locations": [
+        "Chinese PLA General Hospital, Beijing, China",
+        "The First Afilliated Hospital of Fujian Medical University, Fuzhou, China",
+        "The First Affiliated Hospital of Xiamen University, Xiamen, China",
+        "The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, China",
+        "The First Affiliated Hospital of Jinan University, Guangzhou, China",
+        "Henan Provincial People's Hospital, Zhengzhou, China",
+        "The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China",
+        "Union Hospital Tongji Medical College Huazhong University of Science and Technology, Wuhan, China",
+        "Tongji Hospital affiliated to Tongji Medical College of Huazhong University of Science & Technology, Wuhan, China",
+        "Nanjing First Hospital, Nanjing, China",
+        "The first hospital of Jilin University, Changchun, China",
+        "The First Affiliated Hospital of AFMU, Xi'an, China",
+        "The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China",
+        "Qilu Hospital of Shandong University, Jinan, China",
+        "Fudan University Shanghai Cancer Center, Shanghai, China",
+        "Zhongshan Hospital, Fudan University, China",
+        "The First Affiliated Hospital of Shanxi Medical University, Taiyuan, China",
+        "West China Hospital of Sichuan University, Chengdu, China",
+        "Affiliated Hospital of Southwest Medical University, Luzhou, China",
+        "Mianyang Central Hospital, Mianyang, China",
+        "Tianjin Medical University Cancer Institute & Hospital, Tianjin, China",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, China",
+        "Zhejiang Cancer Hospital, Hangzhou, China"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05459844",
+      "publications": null
+    },
+    {
+      "nct_id": "NCT03012620",
+      "title": "Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study is clinically relevant for the patient. The study explicitly includes 'rare malignant neuroendocrine tumour' patients, specifically those refractory to prior lines of treatment, which aligns with the patient's history of progressing disease on Somatuline. The inclusion criteria regarding metastatic disease and prior therapy (refractory after 2 lines for poorly differentiated, 4 lines for well differentiated, 2 lines for carcinoid) do not appear to rule out this patient, although the exact number of prior lines is unspecified. Pembrolizumab represents a potentially useful treatment option to consider alongside Everolimus or PRRT. The study is a Phase 2 trial with published results, indicating good scientific quality.",
+      "condition": "Sarcoma; Ovarian Neoplasm; Central Nervous System Neoplasm; Thyroid Neoplasm; Carcinoma, Neuroendocrine; Neoplasms, Germ Cell and Embryonal; NK/T-cell Lymphoma",
+      "intervention": "Pembrolizumab",
+      "sponsor": "UNICANCER",
+      "start_date": "2017-07-05",
+      "completion_date": "2023-12-14",
+      "primary_outcome": "Objective response rate",
+      "secondary_outcome": "Progression-free survival; Overall survival; Best response; Response duration; Time to response; Frequency and severity of adverse events; Objective response rate in subgroups of subjects with high versus low expression (cutoff set at the median for the population measured) of different immune markers (PD-L1, CD4+, FOXP3+, Fas-L, OX40, VEGF, CD31; CD34); Progression-free survival in subgroups of subjects with high versus low expression (cutoff set at the median for the population measured) of different immune markers (PD-L1, CD4+, FOXP3+, Fas-L, OX40, VEGF, CD31; CD34); Overall survival in subgroups of subjects with high versus low expression (cutoff set at the median for the population measured) of different immune markers (PD-L1, CD4+, FOXP3+, Fas-L, OX40, VEGF, CD31; CD34)",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient information sheet and written informed consent form signed.\n2. Histologically confirmed diagnosis of a pathology corresponding to one of the following selected cancer types:\n\n   * Rare sarcoma: Alveolar soft part sarcoma, Chordoma, Dedifferentiated chondrosarcoma, epithelioid sarcoma, sarcoma with loss of INI1, malignant rhabdoid tumours, myxoid liposarcoma, angiosarcoma of the scalp, radiation induced sarcomas.From the 51st patient included in this cohort, only the following histological types will be selected: Alveolar soft part sarcoma, Chordoma, SMARCA4-malignant rhabdoid tumours and Desmoplastic small-round-cell tumor.\n   * Rare ovarian cancer: recurrent or relapsed; sex cord tumour, germ cell tumour (immature teratoma, non seminomatous germ cell \\& dysgerminoma), low-grade serous carcinoma, mucinous carcinoma, clear cell adenocarcinoma, small cell carcinoma, and carcinosarcoma - with histological confirmation following review by members of the Tumeurs Malignes Rares Gynécologiques (TMRG) network (French rare gynaecological tumour group).From the 51st patient included in this cohort, only the following histological types will be selected: teratoma, low-grade serous carcinoma and ovarian small cell carcinoma hypercalcemic type (SCOOHT).\n   * Primary central nervous system lymphoma (PCNSL): refractory primary intraocular and CNS lymphoma.From the 51st patient included in this cohort, only CNS lymphoma will be selected.\n   * Rare thyroid cancer: differentiated thyroid carcinoma (Papillary, follicular, Hurthle cell (oncocytic), poorly differentiated thyroid carcinoma), medullary thyroid carcinoma, anaplastic thyroid carcinoma.\n   * Rare malignant neuroendocrine tumour: poorly differentiated tumours refractory after 2 lines of chemotherapy, well differentiated tumours refractory after 4 lines of treatment, carcinoid tumours after 2 lines of treatment.\n   * Germ-cell cancer progressing after standard therapy.\n   * Natural killer T-cell lymphoma: extranodal NK/T-cell lymphoma regardless of localization that is resistant or refractory to prior L-asparaginase therapy.\n3. Metastatic disease or unresectable locally advanced malignancy that is resistant or refractory to standard therapy or for which standard therapy does not exist or is not considered appropriate by the Investigator.\n4. Aged ≥18 years old for cohort 2 to 7 and aged ≥15 years old for patients included in cohort 1 (rare sarcoma).\n5. Measurable disease according to RECIST v1.1 guidelines for solid tumours; or International primary central nervous system lymphoma cooperative group (IPCG) response criteria for patients in the PCNSL cohort. For patients with germ-cell cancer measurable disease is defined as measurable according to RECIST v1.1 and / or abnormal levels of alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG) and lactate dehydrogenase (LDH). For patients with NK/T-cell lymphoma measurable disease is defined as focal uptake in at least one nodal or extra-nodal site with a Lugano 5-PS score of 4 or 5.\n6. Able to provide a Formalin-fixed/paraffin-embedded (FFPE) biopsy sample of a metastatic site or primitive tumour tissue.\n\n   Note: Patients for whom suitable archived biopsy material is not available must be willing to undergo a biopsy of a tumour lesion prior to study entry, unless this is medically contraindicated (e.g. site inaccessible or patient safety concerns).\n7. Patients must have a mandatory treatment-free interval of at least 21 days following previous systemic anti-cancer treatments.\n8. Patients who have received previous systemic anticancer treatment and/or radiotherapy should have recovered from any treatment related toxicity, to a level of ≤ grade 1 (according to NCI-CTCAE criteria, v 4.0) with the exception of Grade 2 alopecia.\n9. Adequate hematologic function (absolute neutrophil count (ANC) ≥1.0 x10⁹/L, platelets ≥100 x10⁹/L, haemoglobin ≥9 g/L) measured within 14 days of treatment initiation.\n10. Adequate renal function (creatinine clearance ≥50 mL/min using the Modification of Diet in Renal Disease (MDRD) or CKI EPI method) measured within 14 days of treatment initiation.\n11. Adequate hepatic function (serum bilirubin ≤1.5 x the reference upper limit of normal (ULN) unless due to Gilbert's syndrome; aspartate aminotransferase(ASAT) and alanine aminotransferase (ALAT) ≤2.5 x ULN) measured within 14 days of treatment initiation. For patients with documented liver metastasis ASAT/ALAT ≤ 5 x ULN is acceptable.\n12. Strictly normal blood levels of calcium and magnesium, measured within 14 days of treatment initiation.\n13. Eastern Cooperative Oncology Group (ECOG) Performance Status of ≤1.\n14. Estimated life expectancy ≥90 days.\n15. Patients who are sexually active must agree to use a medically accepted method of contraception (e.g. implants, injectables, combined oral contraceptives, some intrauterine devices or vasectomized partner, for participating women; condoms for participating men) or practice complete abstinence, beginning 14 days before the first administration of the investigational product (IP), while on treatment and for at least 5 months after the last administration of IP for female patients, and 7 months after the last administration of IP for male patients.\n16. Women of childbearing potential must have a negative urine or serum pregnancy test within 72 hours prior to the first administration of IP. If urine test results are positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n17. Women who are breastfeeding should discontinue nursing prior to the first administration of IP and for at least 120 days after the last administration of IP.\n18. Patients must be affiliated to a Social Security System or equivalent.\n\nExclusion Criteria:\n\n1. Prior treatment with an anti-PD1 or anti-PD-L1 antibody\n2. Eligible, and willing, to participate in a clinical trial of an alternative anticancer therapy targeting their disease which is open to accrual in France.\n3. Concurrent steroid medication at a dose greater than prednisone 10 mg/day or equivalent. For patients with PCNSL or germ-cell cancer, concurrent steroid medication at a dose greater than prednisone 20 mg/day or equivalent.\n4. Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.\n5. History of (non-infectious) pneumonitis that required steroids, or current pneumonitis.\n6. History of severe hypersensitivity reaction to any monoclonal antibody therapy\n7. Radiotherapy (except for brain and extremities) within 21 days prior to the first administration of IP.\n8. Treatment with other investigational drugs or participation in another clinical trial within 21 days prior to the first administration of IP or concomitantly with the trial.\n9. Has known symptomatic central nervous system (CNS) metastases. Patients with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment.\n10. Has known carcinomatous meningitis or a history of leptomeningeal disease, except for patients with primary CNS lymphoma.\n11. Serum creatinine \\>1.5 x ULN or glomerular filtration rate (GFR) \\<50 ml/min.\n12. Other malignancies within the past 5 years other than basal cell skin cancer or in situ carcinoma of the cervix.\n13. Active serious infections in particular if requiring systemic antibiotic or antimicrobial therapy.\n14. Active or chronic hepatitis B, hepatitis C and/or human immunodeficiency virus (HIV) infection (HIV 1/2 antibodies), or a known history of active Tuberculosis bacillus.\n15. Has received a live vaccine within 30 days of planned start of study treatment. Note: Seasonal influenza vaccines for injection are generally inactivated vaccines and are allowed.\n16. Active alcohol or drug abuse.\n17. Psychological, familial, sociological or geographical factors potentially hampering compliance with the study protocol and follow-up schedule.\n18. Any condition which in the Investigator's opinion makes it undesirable for the subject to participate in the trial or which would jeopardize compliance with the protocol.",
+      "brief_summary": "This is a Phase 2, non-randomised, open-label, multicentric study to investigate the efficacy and safety of pembrolizumab monotherapy in 7 cohorts of patients with specific rare cancers who have unresectable locally advanced or metastatic disease, which is resistant or refractory to standard therapy, or for which standard therapy does not exist, or is not considered appropriate, and for which no other experimental treatment options are available, in order to identify subsets of patients that may benefit from treatment",
+      "detailed_description": "The study plans to enrol up to 350 patients in total. Eligible patients who have provided their written informed consent for study participation will be assigned to one of 7 cohorts determined by indication:\n\n* Cohort 1: Rare sarcoma\n* Cohort 2: Rare ovarian cancer\n* Cohort 3: Primary central nervous system lymphomas\n* Cohort 4: Rare thyroid cancer\n* Cohort 5: Rare malignant neuroendocrine cancer\n* Cohort 6: Germ-cell cancer\n* Cohort 7: NK/T-cell lymphoma\n\nBetween 20 and 50 patients will be enrolled in each cohort with the exception of the cohort 1 for which up to 80 patients may be enrolled (extension introduced under amendment 5 of this protocol). Following the amendment 6, up to a maximum of 50 additional patients may be included in the Sarcoma (cohort 1), Rare ovarian cancer (cohort 2) or Primary central nervous system lymphoma (cohort 3) cohorts, within the limit of 350 patients to be included in total.\n\nThe study will use a two-stage Bayesian enrichment design. The first stage treats all patients from the different cohorts with the investigational product and identifies possibly sensitive indications. The second stage will compare outcomes among subsets of patients in the identified cohorts to distinguish between subpopulations of patients who may benefit from the treatment and patients for whom there is no evidence of efficacy.\n\nAll participants who reach the maximum treatment duration per protocol and stop the pembrolizumab with a clinical benefit (prolonged stable disease, partial or complete response), may be eligible for up to an additional 1 year (approximately 17 cycles) of pembrolizumab treatment if they progress during the follow-up period. This retreatment is termed the Second course or Re-challenge.\n\nThe second pembrolizumab course will continue until 12 months of retreatment, progression or until the end of the study, whichever occurs first.",
+      "locations": [
+        "Gustave Roussy Cancer Campus, Villejuif, France"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03012620",
+      "publications": null
+    },
+    {
+      "nct_id": "NCT02724540",
+      "title": "Randomized Embolization Trial for NeuroEndocrine Tumor Metastases to the Liver",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The study explicitly includes patients with neuroendocrine tumors, matching the patient's diagnosis. The inclusion criteria regarding liver metastases (≥ 1.0 cm) and tumor burden seem potentially met given the patient's history of liver metastases, although precise measurements are missing. The patient is currently on somatostatin analogues, fitting the inclusion criteria regarding symptom control or progressive disease. The interventions (embolization techniques) offer alternative local therapies to consider alongside Everolimus or PRRT, addressing the clinical question. Finally, the study is completed, has published results, and a peer-reviewed publication, indicating good scientific quality.",
+      "condition": "Neuroendocrine Tumor, Malignant; Liver Metastases",
+      "intervention": "Bland Embolization; Transarterial chemoembolization; Drug Eluting Beads Embolization",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "start_date": "2016-03",
+      "completion_date": "2024-11-08",
+      "primary_outcome": "Abdominal MRI/Triple Phase CT",
+      "secondary_outcome": "Number of Adverse Events",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Participants 18 years and older;\n* Biopsy-proven neuroendocrine tumor.\n* Measurable metastasis to liver with at least one dimension ≥ 1.0 cm.\n* Tumor burden dominant in the liver AND liver tumor burden less than or equal to 70% of the total liver volume by visual estimate.\n* Not a candidate for surgical resection based on unresectability, anatomy, anesthesia risk, patient preference.\n* Symptoms uncontrolled by somatostatin analogues OR morphologically progressive tumor by RECIST 1.1 criteria in the liver OR baseline tumor burden \\>25% of the liver volume.\n* There must be no plans for the patient to receive other concomitant therapy while on this protocol treatment (other than somatostatin analogs or bone-strengthening agents).\n* Performance status 0-2 on Zubrod/ECOG Performance Scale;\n* Serum creatinine \\< 2.0 mg/dL;\n* Serum Bilirubin ≤ 2.0 mg/dL\n* Serum albumin ≥ 3.0 g/dL\n* Platelet count \\> 50 thousands/uL (corrected if needed)\n* INR ≤ 1.5 (corrected if needed)\n* All patients must be informed of the investigational nature of this study and must sign a study specific informed consent in accordance with institutional and federal guidelines prior to study entry.\n\nExclusion Criteria:\n\n* Pregnant or lactating women may not participate due to the embryotoxic effects of protocol treatment. Women/men of reproductive potential may not participate unless they have agreed to use an effective contraceptive method.\n* Prior hepatic arterial therapy or hepatic radiation therapy. Prior surgical resection or ablation of liver metastases is acceptable. Patients must be at least one month beyond prior chemotherapy, PRRT, ablation or surgery, and have recovered from all therapy-associated toxicities.\n* Active infection (Symptomatic bacterial and fungal infection - newly diagnosed and/or requiring treatment);\n* Choledochoenteric anastomosis; transpapillary biliary stent, or sphincterotomy of duodenal papilla\n* Absolute contraindication to intravenous iodinated contrast (Hx of significant previous contrast reaction, not mitigated by appropriate pre-medication).\n* Contraindications to arteriography and selective visceral catheterization:\n\n  1. severe allergy or intolerance to contrast media, narcotics, sedatives, or atropine.\n  2. bleeding diathesis not correctable by usual forms of therapy.\n  3. severe peripheral vascular disease precluding catheterization.\n* Contraindications to hepatic artery embolization:\n\n  1. portal vein occlusion without hepatopedal collateral flow demonstrated by angiography; or portal hypertension with hepatofugal flow.\n  2. hepatic encephalopathy.",
+      "brief_summary": "The primary aim of this trial is to estimate the duration of hepatic progression-free survival (HPFS) in participants treated with bland embolization (BE), transcatheter arterial Lipiodol chemoembolization (TACE), and embolization by drug-eluting beads (DEB). The primary hypothesis is that chemoembolization will be nearly twice as durable as bland embolization; thatis, the hazard ratio for HPFS will be 1.76 or better.",
+      "detailed_description": "",
+      "locations": [
+        "University of California San Francisco, San Francisco, United States",
+        "Stanford University, Standford, United States",
+        "Moffitt Cancer Center, Tampa, United States",
+        "Mount Sinai School of Medicine, New York, United States",
+        "Memorial Sloan Kettering Cancer Center, New York, United States",
+        "Oregon Health & Science University, Portland, United States",
+        "Hospital of the University of Pennsylvania, Philadelphia, United States",
+        "University of Pittsburgh Medical Center, Pittsburgh, United States",
+        "MD Anderson Cancer Center, Houston, United States",
+        "Medical College of Wisconsin, Milwaukee, United States",
+        "Hospital Italiano de Buenos Aires, Buenos Aires, Argentina",
+        "Sunnybrook Health Sciences Centre, Toronto, Canada",
+        "Ospedale San Raffaele, Milan, Italy"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02724540",
+      "publications": {
+        "nct_id": "NCT02724540",
+        "study_title": "Randomized Embolization Trial for NeuroEndocrine Tumor Metastases to the Liver",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "30016989",
+            "citation": "Chen JX, Wileyto EP, Soulen MC. Randomized Embolization Trial for NeuroEndocrine Tumor Metastases to the Liver (RETNET): study protocol for a randomized controlled trial. Trials. 2018 Jul 17;19(1):390. doi: 10.1186/s13063-018-2782-5.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30016989/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT03079440",
+      "title": "TEMCAP in Grade 3 and Low Ki-67 Gastroenteropancreatic Neuroendocrine Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The study explicitly includes patients with pancreatic neuroendocrine tumors, matching the patient's diagnosis. While the patient's ECOG and age are unknown, the study allows for ECOG 0-2. The patient's tumor is G2, but the study focuses on G3 tumors with Ki-67 <60%, and the patient's Ki-67 is not specified, meaning they may be eligible. The intervention, TEMCAP, is a chemotherapy regimen that could be considered as an alternative to Everolimus or PRRT, addressing the clinical question. Finally, the study has published results in peer-reviewed journals, indicating good scientific quality.",
+      "condition": "Neuroendocrine Tumors; Neuroendocrine Carcinoma; Temozolomide; Capecitabine",
+      "intervention": "TEMCAP",
+      "sponsor": "Asan Medical Center",
+      "start_date": "2017-05-15",
+      "completion_date": "2022-11-15",
+      "primary_outcome": "Response rate",
+      "secondary_outcome": "Progression-free survival; Overall survival; Toxicity (Adverse events graded by National Cancer Institute-Common Terminology Criteria version 4.03)",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 19 years and older\n* Histologically confirmed neuroendocrine tumors of gastrointestinal tract or pancreas\n* Unresectable or metastatic disease\n* Grade 3 according to the 2010 WHO classification (Ki-67 labeling index \\> 20% or \\> 20 mitoses per 10 high power field)\n* Ki-67 labeling index \\< 60%\n* At least one measurable lesion according to the Response Evaluation Criteria in Solid Tumors version 1.1\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 \\~ 2\n* Adequate bone marrow function as defined by platelets ≥ 100 x 109/L and neutrophils ≥ 1.5 x 109/L\n* Adequate renal function, with serum creatinine \\< 1.5 x upper limit of normal (ULN)\n* Adequate hepatic function with serum total bilirubin \\< 2 mg/dL, alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\< 2.5 x ULN\n* No other malignant disease apart from non-melanotic skin cancer or carcinoma in situ of the uterine cervix or any other non life-threatening cancer (i.e., prostate or thyroid cancer) except where treated with curative intent \\> 5 years previously without evidence of relapse\n* Written informed consent to the study\n\nExclusion Criteria:\n\n* Medical or psychiatric conditions that compromise the patient's ability to give informed consent or to complete the protocol or a history of non-compliance\n* Last dose of radiotherapy received within 4 weeks before the start of study treatment, excluding palliative radiotherapy\n* Obstruction of gastrointestinal tract\n* Active gastrointestinal bleeding\n* Myocardial infarction within 6 months prior to the study medication, and other clinically significant heart disease (e.g., unstable angina, congestive heart failure or uncontrolled hypertension)\n* Evidence of severe or uncontrolled systemic disease or any concurrent condition which in the investigator's opinion makes it undesirable for the patient to participate in the study or which would jeopardise compliance with the protocol\n* Female subjects who are pregnant or lactating, or males and females of reproductive potential not willing or not able to employ a highly effective method of birth control/contraception to prevent pregnancy from 2 weeks before receiving study drug until 3 months after receiving the last dose of study drug. A highly effective method of contraception is defined as having a low failure rate (\\< 1% per year) when used consistently and correctly.",
+      "brief_summary": "GI tract including pancreas is the one of most common primary sites of neuroendocrine tumors. Current grading of neuroendocrine tumors are based on the 2010 WHO classification. This classifies grade 3 tumors as the neuroendocrine tumor with mitosis \\> 20 per 10 high power field or Ki-67 labeling index \\> 20%. Etoposide-based chemotherapy, mostly as the combination with cisplatin, has been the mainstay of the treatment for patients with grade 3 neuroendocrine tumors. However, a recent large retrospective analysis has suggested this regimen may not be effective in relatively low Ki-67 labeling index. Therefore, the investigators designed a clinical trial testing temozolomide-capecitabine combination, which has been mostly investigated in well differentiated (ie., grade 1 or 2) neuroendocrine tumors, in patients with grade 3 and low Ki-67 gastroenteropancreatic neuroendocrine tumors.",
+      "detailed_description": "",
+      "locations": [
+        "Asan Medical Center, University of Ulsan College of Medicine, Republic of"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03079440",
+      "publications": {
+        "nct_id": "NCT03079440",
+        "study_title": "TEMCAP in Grade 3 and Low Ki-67 Gastroenteropancreatic Neuroendocrine Tumors",
+        "publications_found": 5,
+        "publications": [
+          {
+            "pmid": "26731334",
+            "citation": "Garcia-Carbonero R, Sorbye H, Baudin E, Raymond E, Wiedenmann B, Niederle B, Sedlackova E, Toumpanakis C, Anlauf M, Cwikla JB, Caplin M, O'Toole D, Perren A; Vienna Consensus Conference participants. ENETS Consensus Guidelines for High-Grade Gastroenteropancreatic Neuroendocrine Tumors and Neuroendocrine Carcinomas. Neuroendocrinology. 2016;103(2):186-94. doi: 10.1159/000443172. Epub 2016 Jan 5. No abstract available.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26731334/"
+          },
+          {
+            "pmid": "24771552",
+            "citation": "Sorbye H, Strosberg J, Baudin E, Klimstra DS, Yao JC. Gastroenteropancreatic high-grade neuroendocrine carcinoma. Cancer. 2014 Sep 15;120(18):2814-23. doi: 10.1002/cncr.28721. Epub 2014 Apr 25.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24771552/"
+          },
+          {
+            "pmid": "22967994",
+            "citation": "Sorbye H, Welin S, Langer SW, Vestermark LW, Holt N, Osterlund P, Dueland S, Hofsli E, Guren MG, Ohrling K, Birkemeyer E, Thiis-Evensen E, Biagini M, Gronbaek H, Soveri LM, Olsen IH, Federspiel B, Assmus J, Janson ET, Knigge U. Predictive and prognostic factors for treatment and survival in 305 patients with advanced gastrointestinal neuroendocrine carcinoma (WHO G3): the NORDIC NEC study. Ann Oncol. 2013 Jan;24(1):152-60. doi: 10.1093/annonc/mds276. Epub 2012 Sep 11.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22967994/"
+          },
+          {
+            "pmid": "20824724",
+            "citation": "Strosberg JR, Fine RL, Choi J, Nasir A, Coppola D, Chen DT, Helm J, Kvols L. First-line chemotherapy with capecitabine and temozolomide in patients with metastatic pancreatic endocrine carcinomas. Cancer. 2011 Jan 15;117(2):268-75. doi: 10.1002/cncr.25425. Epub 2010 Sep 7.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20824724/"
+          },
+          {
+            "pmid": "21456005",
+            "citation": "Welin S, Sorbye H, Sebjornsen S, Knappskog S, Busch C, Oberg K. Clinical effect of temozolomide-based chemotherapy in poorly differentiated endocrine carcinoma after progression on first-line chemotherapy. Cancer. 2011 Oct 15;117(20):4617-22. doi: 10.1002/cncr.26124. Epub 2011 Mar 31.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21456005/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT05168631",
+      "title": "Multicenter Retrospective Database on Prognostic and Predictive Factors in Patients With Neuroendocrine Tumors",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "N/A",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The study explicitly includes patients with neuroendocrine tumors, matching the patient's diagnosis of a pancreatic NET with liver metastases. The inclusion criteria of metastatic or inoperable disease aligns with the patient's condition. While the study is retrospective and doesn't offer a direct treatment, identifying prognostic and predictive factors could inform the decision between Everolimus or PRRT, addressing the clinical question. The presence of 15 publications indicates good scientific quality and reported results.",
+      "condition": "Neuroendocrine Tumors; Carcinoma;Endocrine",
+      "intervention": "",
+      "sponsor": "Latin American Cooperative Oncology Group",
+      "start_date": "2020-05-16",
+      "completion_date": "2025-03-15",
+      "primary_outcome": "Overall survival",
+      "secondary_outcome": "Response rate per RECIST 1.1;; Progression-free survival by RECIST 1.1 from D1 of each treatment;; Symptom control time; Incidence of complications of the disease and/or treatments, defined by adverse events",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 18 years or older and with histologically confirmed neuroendocrine tumors;\n* Metastatic or inoperable disease;\n* Patients with clinical information about the therapies received, including exclusive palliative care.\n\nExclusion Criteria:\n\n* Lack of data on survival outcomes and/or details on treatments received.",
+      "brief_summary": "Multicenter retrospective longitudinal analytical study of patients with neuroendocrine tumors.",
+      "detailed_description": "",
+      "locations": [
+        "Ensino E Terapia de Inovacao Clinica Amo - Etica, Salvador, Brazil",
+        "Universidade Federal do Ceará/HOSPITAL UNIVERSITARIO WALTER CANTIDIO, Fortaleza, Brazil",
+        "Hospital Sírio Libanês Brasília, Brasília, Brazil",
+        "Hospital Moinhos de Vento, Porto Alegre, Brazil",
+        "Fundacao Antonio Prudente - Ac Camargo Center, São Paulo, Brazil",
+        "Hospital Alemão Oswaldo Cruz, São Paulo, Brazil",
+        "Instituto Nacional de Enfermedades Neoplàsicas, Surquillo, Peru"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05168631",
+      "publications": {
+        "nct_id": "NCT05168631",
+        "study_title": "Multicenter Retrospective Database on Prognostic and Predictive Factors in Patients With Neuroendocrine Tumors",
+        "publications_found": 15,
+        "publications": [
+          {
+            "pmid": "18565894",
+            "citation": "Yao JC, Hassan M, Phan A, Dagohoy C, Leary C, Mares JE, Abdalla EK, Fleming JB, Vauthey JN, Rashid A, Evans DB. One hundred years after \"carcinoid\": epidemiology of and prognostic factors for neuroendocrine tumors in 35,825 cases in the United States. J Clin Oncol. 2008 Jun 20;26(18):3063-72. doi: 10.1200/JCO.2007.15.4377.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18565894/"
+          },
+          {
+            "pmid": "25312765",
+            "citation": "Hallet J, Law CH, Cukier M, Saskin R, Liu N, Singh S. Exploring the rising incidence of neuroendocrine tumors: a population-based analysis of epidemiology, metastatic presentation, and outcomes. Cancer. 2015 Feb 15;121(4):589-97. doi: 10.1002/cncr.29099. Epub 2014 Oct 13.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25312765/"
+          },
+          {
+            "pmid": "28448665",
+            "citation": "Dasari A, Shen C, Halperin D, Zhao B, Zhou S, Xu Y, Shih T, Yao JC. Trends in the Incidence, Prevalence, and Survival Outcomes in Patients With Neuroendocrine Tumors in the United States. JAMA Oncol. 2017 Oct 1;3(10):1335-1342. doi: 10.1001/jamaoncol.2017.0589.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28448665/"
+          },
+          {
+            "pmid": "27759713",
+            "citation": "Raj N, Valentino E, Capanu M, Tang LH, Basturk O, Untch BR, Allen PJ, Klimstra DS, Reidy-Lagunes D. Treatment Response and Outcomes of Grade 3 Pancreatic Neuroendocrine Neoplasms Based on Morphology: Well Differentiated Versus Poorly Differentiated. Pancreas. 2017 Mar;46(3):296-301. doi: 10.1097/MPA.0000000000000735.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27759713/"
+          },
+          {
+            "pmid": "25723112",
+            "citation": "Basturk O, Yang Z, Tang LH, Hruban RH, Adsay V, McCall CM, Krasinskas AM, Jang KT, Frankel WL, Balci S, Sigel C, Klimstra DS. The high-grade (WHO G3) pancreatic neuroendocrine tumor category is morphologically and biologically heterogenous and includes both well differentiated and poorly differentiated neoplasms. Am J Surg Pathol. 2015 May;39(5):683-90. doi: 10.1097/PAS.0000000000000408.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25723112/"
+          },
+          {
+            "pmid": "28955403",
+            "citation": "de M Rego JF, de Medeiros RSS, Braghiroli MI, Galvao B, Neto JEB, Munhoz RR, Guerra J, Nonogaki S, Kimura L, Pfiffer TE, de Castro G Jr, Hoff PM, Filho DR, Costa FP, Riechelmann RP. Expression of ERCC1, Bcl-2, Lin28a, and Ki-67 as biomarkers of response to first-line platinum-based chemotherapy in patients with high-grade extrapulmonary neuroendocrine carcinomas or small cell lung cancer. Ecancermedicalscience. 2017 Sep 11;11:767. doi: 10.3332/ecancer.2017.767. eCollection 2017.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28955403/"
+          },
+          {
+            "pmid": "26482044",
+            "citation": "Tang LH, Untch BR, Reidy DL, O'Reilly E, Dhall D, Jih L, Basturk O, Allen PJ, Klimstra DS. Well-Differentiated Neuroendocrine Tumors with a Morphologically Apparent High-Grade Component: A Pathway Distinct from Poorly Differentiated Neuroendocrine Carcinomas. Clin Cancer Res. 2016 Feb 15;22(4):1011-7. doi: 10.1158/1078-0432.CCR-15-0548. Epub 2015 Oct 19.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26482044/"
+          },
+          {
+            "pmid": "28018101",
+            "citation": "Crippa S, Partelli S, Belfiori G, Palucci M, Muffatti F, Adamenko O, Cardinali L, Doglioni C, Zamboni G, Falconi M. Management of neuroendocrine carcinomas of the pancreas (WHO G3): A tailored approach between proliferation and morphology. World J Gastroenterol. 2016 Dec 7;22(45):9944-9953. doi: 10.3748/wjg.v22.i45.9944.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28018101/"
+          },
+          {
+            "pmid": "28456055",
+            "citation": "Girardi DM, Silva ACB, Rego JFM, Coudry RA, Riechelmann RP. Unraveling molecular pathways of poorly differentiated neuroendocrine carcinomas of the gastroenteropancreatic system: A systematic review. Cancer Treat Rev. 2017 May;56:28-35. doi: 10.1016/j.ctrv.2017.04.002. Epub 2017 Apr 17.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28456055/"
+          },
+          {
+            "pmid": "27259015",
+            "citation": "Tang LH, Basturk O, Sue JJ, Klimstra DS. A Practical Approach to the Classification of WHO Grade 3 (G3) Well-differentiated Neuroendocrine Tumor (WD-NET) and Poorly Differentiated Neuroendocrine Carcinoma (PD-NEC) of the Pancreas. Am J Surg Pathol. 2016 Sep;40(9):1192-202. doi: 10.1097/PAS.0000000000000662.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27259015/"
+          },
+          {
+            "pmid": "29629316",
+            "citation": "Oberg K. Management of functional neuroendocrine tumors of the pancreas. Gland Surg. 2018 Feb;7(1):20-27. doi: 10.21037/gs.2017.10.08.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29629316/"
+          },
+          {
+            "pmid": "27594907",
+            "citation": "Mota JM, Sousa LG, Riechelmann RP. Complications from carcinoid syndrome: review of the current evidence. Ecancermedicalscience. 2016 Aug 8;10:662. doi: 10.3332/ecancer.2016.662. eCollection 2016.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27594907/"
+          },
+          {
+            "pmid": "28194228",
+            "citation": "Riechelmann RP, Weschenfelder RF, Costa FP, Andrade AC, Osvaldt AB, Quidute AR, Dos Santos A, Hoff AA, Gumz B, Buchpiguel C, Vilhena Pereira BS, Lourenco Junior DM, da Rocha Filho DR, Fonseca EA, Riello Mello EL, Makdissi FF, Waechter FL, Carnevale FC, Coura-Filho GB, de Paulo GA, Girotto GC, Neto JE, Glasberg J, Casali-da-Rocha JC, Rego JF, de Meirelles LR, Hajjar L, Menezes M, Bronstein MD, Sapienza MT, Fragoso MC, Pereira MA, Barros M, Forones NM, do Amaral PC, de Medeiros RS, Araujo RL, Bezerra RO, Peixoto RD, Aguiar S Jr, Ribeiro U Jr, Pfiffer T, Hoff PM, Coutinho AK. Guidelines for the management of neuroendocrine tumours by the Brazilian gastrointestinal tumour group. Ecancermedicalscience. 2017 Jan 26;11:716. doi: 10.3332/ecancer.2017.716. eCollection 2017.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28194228/"
+          },
+          {
+            "pmid": "19097774",
+            "citation": "Eisenhauer EA, Therasse P, Bogaerts J, Schwartz LH, Sargent D, Ford R, Dancey J, Arbuck S, Gwyther S, Mooney M, Rubinstein L, Shankar L, Dodd L, Kaplan R, Lacombe D, Verweij J. New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1). Eur J Cancer. 2009 Jan;45(2):228-47. doi: 10.1016/j.ejca.2008.10.026.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19097774/"
+          },
+          {
+            "pmid": "7165009",
+            "citation": "Oken MM, Creech RH, Tormey DC, Horton J, Davis TE, McFadden ET, Carbone PP. Toxicity and response criteria of the Eastern Cooperative Oncology Group. Am J Clin Oncol. 1982 Dec;5(6):649-55. No abstract available.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7165009/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT06638931",
+      "title": "Agnostic Therapy in Rare Solid Tumors",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The inclusion criteria specifically list \"Pure or mixed neuroendocrine tumors with neuroendocrine component\", directly encompassing the patient's diagnosis of a pancreatic NET. While the patient's ECOG and age are not specified, the study requires an ECOG of 0 or 1 and age over 18, which are plausible for this patient. The patient has progressed on somatuline and is considering Everolimus or PRRT, meaning they have progressed on prior treatment and could meet the inclusion criterion of progression after standard treatment. The study has published results in peer-reviewed journals, indicating good scientific quality, and nivolumab represents a potentially useful alternative treatment option given the patient's progression.",
+      "condition": "Urachal Cancer; Parathyroid Carcinoma; Fibrolamellar Carcinoma; Angiosarcoma; Secretory Carcinoma of Breast; Anal Neoplasms; Metaplastic Breast Carcinoma; Translocation Renal Cell Carcinoma; Carcinosarcoma; Small Intestine Neoplasms; Cholangiocarcinoma; Sertoli-Leydig Cell Tumor; Adenoid Cystic Carcinoma; Mesothelioma; Neuroblastoma; Adrenal Gland Neoplasms; Penile Neoplasms; Apocrine Carcinoma; Fibrosarcoma; Cancer of Unknown Primary; Hemangioblastoma; Thyroid Neoplasms; Hepatoblastoma; Fallopian Tube Neoplasms; Leiomyosarcoma; Vaginal Neoplasms; Neurofibrosarcoma; Gallbladder Neoplasms; Osteosarcoma; Biliary Tract Neoplasms; Clear Cell Endometrial Cancer; Yolk Sac Tumor; Vulvar Neoplasms; Kaposi Sarcoma; Ovarian Epithelial Cancer; Soft Tissue Sarcoma; Urethral Neoplasms; Granulosa Cell Tumor; Primitive Neuroectodermal Tumor; Neuroendocrine Tumors; Trophoblastic Tumor",
+      "intervention": "Nivolumab",
+      "sponsor": "Instituto do Cancer do Estado de São Paulo",
+      "start_date": "2024-07-01",
+      "completion_date": "2028-05",
+      "primary_outcome": "Primary Objective; Primary Endpoint",
+      "secondary_outcome": "Objective Response Rate (ORR); Subgroup Analysis Based on PD-L1 Expression and CPS:; Correlation of Clinical Outcomes with Biomarker Assessments; Overall Survival (OS); Progression-Free Survival (PFS)",
+      "eligibility_criteria": "Inclusion Criteria\n\n1. Age 18 years or older.\n2. Patients with immunohistochemistry for PD-L1 with a combined positive score (CPS) of 10 or higher.\n3. Patients with progression or intolerance to already approved and accessible treatments for the specific neoplasm and population.\n4. Documented disease progression radiologically after the last routine treatment.\n5. Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n6. Measurable lesion per RECIST v1.1. Lesions previously treated with radiotherapy can only be used as target lesions if they are confirmed to be progressing by imaging before enrollment.\n7. Male participants must meet at least one of the following conditions:\n\n   1. Considered infertile;\n   2. No fertile partner;\n   3. Has a fertile partner who agrees to follow contraceptive guidance throughout the study period and for at least 6 months after the last dose of Nivolumab;\n\n      and\n   4. Agrees to abstain from sperm donation throughout the study period and for at least 6 months after the last dose of Nivolumab.\n8. Female participants must meet at least one of the following conditions:\n\n   1. Considered infertile;\n   2. Agrees to follow contraceptive guidance throughout the study period and for at least 6 months after the last dose of Nivolumab;\n9. Estimated life expectancy greater than 12 weeks, as determined by the investigator or delegated sub-investigator.\n10. Preserved organ functions defined by:\n\n    * Absolute neutrophil count ≥ 1,000;\n    * Hemoglobin ≥ 8.0 g/dL (patients may receive transfusions to reach this level);\n    * Platelet count ≥ 100,000;\n    * Total bilirubin ≤ 1.5 × Upper Limit of Normal (ULN), or ≤ 3.0 × ULN for patients with Gilbert's syndrome;\n    * Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT) ≤ 2.5 × ULN (≤ 5 × ULN in the presence of liver metastases);\n    * Creatinine clearance \\> 30 mL/min (estimated by Cockcroft-Gault).\n11. Diagnosis of rare cancer (List I) confirmed by histopathological examination, with the possibility of including other types of rare tumors (incidence of less than 6 in every 100,000) after careful evaluation and approval by the study board.\n\n    * List I:\n\n      * Urachal adenocarcinoma\n      * Parathyroid carcinoma\n      * Nasopharyngeal epithelial tumors\n      * Fibrolamellar carcinoma of any primary site\n      * Angiosarcoma of any primary site\n      * Secretory breast carcinoma\n      * Anal cancer\n      * Metaplastic breast carcinoma\n      * Chromophobe renal carcinoma, Microphthalmia-associated Transcription Factor (MiT) family translocation renal carcinoma; renal carcinoma with Fumarate Hydratase (FH) or Succinate Dehydrogenase (SDH) deficiency\n      * Carcinosarcoma of any primary site\n      * Small intestine cancer\n      * Cholangiocarcinoma\n      * Sertoli-Leydig cell tumors\n      * Cervical cancer of non-epidermoid histology\n      * Tracheal epithelial tumors\n      * Non-cystadenoma salivary gland tumors\n      * Mesothelioma of any site\n      * Neuroblastoma\n      * Adrenal cancer\n      * Penile cancer\n      * Apocrine carcinoma\n      * Fibrosarcoma of any primary site\n      * Cancer of unknown primary site\n      * Hemangioblastoma of any primary site\n      * Thyroid cancer\n      * Hepatoblastoma\n      * Fallopian tube cancer\n      * Leiomyosarcoma of any primary site\n      * Vaginal cancer\n      * Neurofibrosarcoma of any primary site\n      * Gallbladder cancer\n      * Osteosarcoma of any primary site\n      * Bile duct cancer\n      * Clear cell endometrial carcinoma\n      * Yolk sac tumor of any primary site\n      * Non-epidermoid bladder cancer\n      * Vulvar cancer\n      * Kaposi's sarcoma\n      * Epithelial ovarian cancer\n      * Soft tissue sarcoma\n      * Urethral cancer\n      * Granulosa cell tumor of any primary site\n      * Cystadenoma carcinoma\n      * Primitive neuroectodermal tumor of any primary site\n      * Pure or mixed neuroendocrine tumors with neuroendocrine component\n      * Trophoblastic tumor\n\nExclusion Criteria\n\n1. Previous treatment lines with immunotherapy (immune checkpoint inhibitors).\n2. Pregnant or breastfeeding individuals.\n3. Limiting comorbidity, in the opinion of the investigator.\n4. Active infection.\n5. Major surgery within the last 4 weeks.\n6. Functional class II or greater heart failure.\n7. Myocardial infarction or stroke within the last 6 months.\n8. History of pulmonary fibrosis or pneumonitis.\n9. Autoimmune diseases, except for patients with vitiligo and/or controlled thyroid/hypothyroidism without the use of immunosuppressors.\n10. Second invasive primary tumor diagnosed in the last 3 years and/or with active disease, except for localized skin tumors (non-melanoma) that have been treated with curative intent.\n11. Patients with prolonged QT interval.\n12. Uncontrolled Central Nervous System (CNS) metastases. Patients who have previously received local treatment, such as radiotherapy, will be eligible if clinical and radiological stability is demonstrated in the 2 weeks prior to the start of treatment. Patients must not be using corticosteroids for managing CNS disease.\n13. Presence of meningeal carcinomatosis.\n14. Worsening renal and liver function in the 14 days prior to enrollment.\n15. History of solid organ transplantation with or without immunosuppression.\n16. Patients with untreated acquired immunodeficiency. Immunocompromised patients may be included as long as they do not have active opportunistic disease and/or active infection, after thorough clinical evaluation by the investigator or sub-investigator. HIV-positive patients must have documented undetectable viral load prior to inclusion.\n17. Chronic use of corticosteroids at doses greater than 10 mg/day of prednisone or equivalent. Patients with adrenal insufficiency of non-autoimmune etiology (e.g., previous bilateral adrenalectomy) may be included if they are clinically compensated with 10 mg/day of prednisone or equivalent or less.",
+      "brief_summary": "The ANTARES study is a phase II basket trial designed to evaluate the tissue-agnostic efficacy of the monoclonal anti-PD1 antibody, nivolumab, in patients with advanced or metastatic rare tumors.\n\nThe study aims to treat rare malignancies with PD-L1 expression (CPS ≥ 10), regardless of the tumor's tissue type or location. Patients who have not responded to standard treatments will be included, and treatment will last for up to 12 months. The study will assess objective response, progression-free survival, and biomarkers such as PD-L1, ctDNA, and microvesicles, in a multicenter collaborative effort to provide innovative therapeutic options for this underrepresented population",
+      "detailed_description": "The ANTARES study is a phase II \"basket\" trial designed to evaluate the tissue-agnostic efficacy of the monoclonal anti-PD1 antibody, nivolumab, in patients with advanced or metastatic rare tumors. A \"basket\" trial is an innovative type of clinical trial where patients with different types of cancers, but sharing a common molecular feature (in this case, PD-L1 expression), are treated with the same therapy, regardless of the tumor's site of origin. This approach allows for the evaluation of treatments targeting specific molecular characteristics, independent of the primary cancer type.\n\nRare tumors, as defined by the World Health Organization (WHO), have an incidence of fewer than six cases per 100,000 people per year. Although each rare cancer type is individually uncommon, collectively they account for 25-30% of all malignancies and are often underrepresented in clinical trials due to recruitment challenges and limited funding. As a result, patients with rare cancers generally have a poorer prognosis compared to those with more common tumors.\n\nIn this study, patients with advanced or refractory rare malignancies expressing PD-L1, with a combined positive score (CPS) of ≥10, will be treated with nivolumab. Treatment will be administered until disease progression or for a maximum duration of 12 months, aiming to assess the efficacy and safety of this tissue-agnostic immunotherapy approach. Efficacy will be measured according to RECIST v1.1 criteria, with objective response as the primary endpoint. Additionally, the study will assess response biomarkers, including PD-L1, circulating tumor DNA (ctDNA), and microvesicles, to better understand the correlation between biomarker expression and clinical outcomes.\n\nThis multicenter trial, with an estimated duration of four years, will be conducted at Institute of Cancer of the State of São Paulo (ICESP) and other partner institutions. The study aims to overcome existing barriers in rare cancer treatment by offering an innovative approach that explores the potential of personalized therapies based on molecular characteristics, rather than the tumor's primary site",
+      "locations": [
+        "Hospital São Rafael, Salvador, Brazil",
+        "Hospital São Carlos, Fortaleza, Brazil",
+        "Hospital Santa Cruz, Curitiba, Brazil",
+        "IDOR Recife, Recife, Brazil",
+        "Instituto D'or de Pesquisa e Ensino, Sao Paulo, Brazil",
+        "Instituto do Câncer do Estado de São Paulo - ICESP, São Paulo, Brazil",
+        "DF Star, Brasília, Brazil",
+        "Instituto D'Or de Pesquisa e Ensino, Rio De Janeiro, Brazil"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06638931",
+      "publications": {
+        "nct_id": "NCT06638931",
+        "study_title": "Agnostic Therapy in Rare Solid Tumors",
+        "publications_found": 8,
+        "publications": [
+          {
+            "pmid": "25542058",
+            "citation": "Bogaerts J, Sydes MR, Keat N, McConnell A, Benson A, Ho A, Roth A, Fortpied C, Eng C, Peckitt C, Coens C, Pettaway C, Arnold D, Hall E, Marshall E, Sclafani F, Hatcher H, Earl H, Ray-Coquard I, Paul J, Blay JY, Whelan J, Panageas K, Wheatley K, Harrington K, Licitra L, Billingham L, Hensley M, McCabe M, Patel PM, Carvajal R, Wilson R, Glynne-Jones R, McWilliams R, Leyvraz S, Rao S, Nicholson S, Filiaci V, Negrouk A, Lacombe D, Dupont E, Pauporte I, Welch JJ, Law K, Trimble T, Seymour M. Clinical trial designs for rare diseases: studies developed and discussed by the International Rare Cancers Initiative. Eur J Cancer. 2015 Feb;51(3):271-81. doi: 10.1016/j.ejca.2014.10.027. Epub 2014 Dec 24.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25542058/"
+          },
+          {
+            "pmid": "35320644",
+            "citation": "Cortes J, Kim SB, Chung WP, Im SA, Park YH, Hegg R, Kim MH, Tseng LM, Petry V, Chung CF, Iwata H, Hamilton E, Curigliano G, Xu B, Huang CS, Kim JH, Chiu JWY, Pedrini JL, Lee C, Liu Y, Cathcart J, Bako E, Verma S, Hurvitz SA; DESTINY-Breast03 Trial Investigators. Trastuzumab Deruxtecan versus Trastuzumab Emtansine for Breast Cancer. N Engl J Med. 2022 Mar 24;386(12):1143-1154. doi: 10.1056/NEJMoa2115022.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35320644/"
+          },
+          {
+            "pmid": "30204247",
+            "citation": "DuBois SG, Laetsch TW, Federman N, Turpin BK, Albert CM, Nagasubramanian R, Anderson ME, Davis JL, Qamoos HE, Reynolds ME, Cruickshank S, Cox MC, Hawkins DS, Mascarenhas L, Pappo AS. The use of neoadjuvant larotrectinib in the management of children with locally advanced TRK fusion sarcomas. Cancer. 2018 Nov 1;124(21):4241-4247. doi: 10.1002/cncr.31701. Epub 2018 Sep 11.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30204247/"
+          },
+          {
+            "pmid": "26028255",
+            "citation": "Le DT, Uram JN, Wang H, Bartlett BR, Kemberling H, Eyring AD, Skora AD, Luber BS, Azad NS, Laheru D, Biedrzycki B, Donehower RC, Zaheer A, Fisher GA, Crocenzi TS, Lee JJ, Duffy SM, Goldberg RM, de la Chapelle A, Koshiji M, Bhaijee F, Huebner T, Hruban RH, Wood LD, Cuka N, Pardoll DM, Papadopoulos N, Kinzler KW, Zhou S, Cornish TC, Taube JM, Anders RA, Eshleman JR, Vogelstein B, Diaz LA Jr. PD-1 Blockade in Tumors with Mismatch-Repair Deficiency. N Engl J Med. 2015 Jun 25;372(26):2509-20. doi: 10.1056/NEJMoa1500596. Epub 2015 May 30.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26028255/"
+          },
+          {
+            "pmid": "34534430",
+            "citation": "Li BT, Smit EF, Goto Y, Nakagawa K, Udagawa H, Mazieres J, Nagasaka M, Bazhenova L, Saltos AN, Felip E, Pacheco JM, Perol M, Paz-Ares L, Saxena K, Shiga R, Cheng Y, Acharyya S, Vitazka P, Shahidi J, Planchard D, Janne PA; DESTINY-Lung01 Trial Investigators. Trastuzumab Deruxtecan in HER2-Mutant Non-Small-Cell Lung Cancer. N Engl J Med. 2022 Jan 20;386(3):241-251. doi: 10.1056/NEJMoa2112431. Epub 2021 Sep 18.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34534430/"
+          },
+          {
+            "pmid": "32919526",
+            "citation": "Marabelle A, Fakih M, Lopez J, Shah M, Shapira-Frommer R, Nakagawa K, Chung HC, Kindler HL, Lopez-Martin JA, Miller WH Jr, Italiano A, Kao S, Piha-Paul SA, Delord JP, McWilliams RR, Fabrizio DA, Aurora-Garg D, Xu L, Jin F, Norwood K, Bang YJ. Association of tumour mutational burden with outcomes in patients with advanced solid tumours treated with pembrolizumab: prospective biomarker analysis of the multicohort, open-label, phase 2 KEYNOTE-158 study. Lancet Oncol. 2020 Oct;21(10):1353-1365. doi: 10.1016/S1470-2045(20)30445-9. Epub 2020 Sep 10.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32919526/"
+          },
+          {
+            "pmid": "30955977",
+            "citation": "Mok TSK, Wu YL, Kudaba I, Kowalski DM, Cho BC, Turna HZ, Castro G Jr, Srimuninnimit V, Laktionov KK, Bondarenko I, Kubota K, Lubiniecki GM, Zhang J, Kush D, Lopes G; KEYNOTE-042 Investigators. Pembrolizumab versus chemotherapy for previously untreated, PD-L1-expressing, locally advanced or metastatic non-small-cell lung cancer (KEYNOTE-042): a randomised, open-label, controlled, phase 3 trial. Lancet. 2019 May 4;393(10183):1819-1830. doi: 10.1016/S0140-6736(18)32409-7. Epub 2019 Apr 4.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30955977/"
+          },
+          {
+            "pmid": "32101663",
+            "citation": "Schmid P, Cortes J, Pusztai L, McArthur H, Kummel S, Bergh J, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Foukakis T, Fasching PA, Cardoso F, Untch M, Jia L, Karantza V, Zhao J, Aktan G, Dent R, O'Shaughnessy J; KEYNOTE-522 Investigators. Pembrolizumab for Early Triple-Negative Breast Cancer. N Engl J Med. 2020 Feb 27;382(9):810-821. doi: 10.1056/NEJMoa1910549.",
+            "type": "BACKGROUND",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT02236910",
+      "title": "An Open Label Registry Study of Lutetium-177 (DOTA0, TYR3) Octreotate (Lu-DOTA-TATE) Treatment in Patients with Somatostatin Receptor Positive Tumours",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The patient has a somatostatin receptor positive NET of the pancreas with liver metastases, which aligns with the study's inclusion criteria for patients with somatostatin receptor positive tumors. The patient's prior treatment with somatuline doesn't explicitly exclude them, and the study is evaluating Lu-DOTA-TATE as a potential therapy, which is a reasonable consideration given the patient's progression on somatuline and the question of whether to pursue Everolimus or PRRT. The study has published results, indicating good scientific quality.",
+      "condition": "Neuroendocrine Carcinoma",
+      "intervention": "Lu-DOTA-TATE",
+      "sponsor": "London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's",
+      "start_date": "2014-07",
+      "completion_date": "2025-12",
+      "primary_outcome": "Tumour response measured by RECIST criteria",
+      "secondary_outcome": "Progression Free Survival; Quality of Life Response Changes",
+      "eligibility_criteria": "Inclusion Criteria:\n\nGroup A: Primary therapy subjects will be included in the study if they meet all of the following general criteria:\n\n1. Male or female ≥ 14 - 90 years of age. If female of child-bearing potential and outside of the window of 10 days since the first day of the last menstrual period, a negative pregnancy test is required.\n2. Presence of somatostatin receptor positive tumour(s) (either histologically or Octreoscan image proven), with at least 1 tumour site reliably evaluable by CT or MRI of at least 1.5 cm (smallest dimension) with respect to RECIST criteria (the target lesion).\n3. Presence of somatostatin receptors on (at least) the target lesion demonstrated by uptake of OctreoScan® at least equal to liver uptake within 12 weeks of enrollment.\n4. Life expectancy greater than 26 weeks from enrollment.\n5. Serum creatinine ≤ 130 μmol/L, and a measured glomerular filtration rate (GFR) using plasma clearance of ≥50 mL/min measured within 2 weeks of enrollment.\n6. Haemoglobin concentration ≥ 90 g/L; white blood cell count (WBC) ≥ 3 x 109/L; platelets ≥ 100 x 109/L measured within 2 weeks of enrollment.\n7. Liver function tests (serum albumin, total bilirubin, alanine amniotransferase (ALT),aspartate aminotransferase (AST) and alkaline phosphatase) ≤ 3 X the limit of normal.\n8. Eastern Cooperative Oncology Group (ECOG) Performance Scale Score ≤ 2 measured within 2 weeks of enrollment.\n9. Provide written informed consent prior to enrollment.\n10. Ki 67 \\< 20%, unless patients has been treated with chemotherapy and lesions are stable (Ki 67 \\< 30%)\n\nGroup B: Secondary therapy subjects will be included in the study if they meet all of the following general criteria:\n\n1. Male or female ≥ 14 - 90 years of age. If female of child-bearing potential and outside of the window of 10 days since the first day of the last menstrual period, a negative pregnancy test is required.\n2. Have received Lu-DOTA-TATE treatment at the London Health Sciences Centre under the Special Access Programed or other radionuclide therapy for neuroendocrine tumor.\n3. Provide written informed consent prior to enrollment.\n\nExclusion Criteria:\n\nGroup A: Primary therapy subjects will be excluded from the study if they meet any of the following criteria:\n\n1. Potential for surgery with curative intent. Local surgery for symptomatic relief permitted as long as target lesion unaffected.\n2. Surgery, radiation therapy, radioisotope therapy, change in Sandostatin LAR therapy dosage, cytotoxic chemotherapy, embolization or other investigative therapy \\[interferons, mammalian target of rapamycin (mTOR) inhibitors\\] within 12 weeks of enrollment. Localized external beam irradiation permitted as long as target lesion unaffected.\n3. Known brain metastases unless these metastases have been treated or stable (confirmed by CT) for ≥ 6 months prior to enrollment\n4. Uncontrolled diabetes mellitus defined as fasting glucose ≥ 3 X the upper limit of normal within 12 weeks of enrollment.\n5. Another significant medical, psychiatric or surgical condition uncontrolled by treatment, which may interfere with completion or conduct of the study (such as urinary incontinence, co-existing malignancies).\n6. Pregnancy.\n7. Breast feeding.\n8. Prior radiation therapy to more than 25% of the bone marrow.\n\nGroup B: Secondary therapy subjects will be excluded from the study if they meet any of the following criteria:\n\n1. Another significant medical, psychiatric or surgical condition uncontrolled by treatment, which may interfere with completion or conduct of the study (such as urinary incontinence, co-existing malignancies).\n2. Pregnancy.\n3. Breast feeding.",
+      "brief_summary": "Lu-DOTA-TATE (Lutetium-177 octreotate) is a radiopharmaceutical that has been reported as being effective in controlling symptoms and increase quality of life; induce stable disease and extend progression free survival; induce a (good) partial remission and induce a complete remission in patients with a somatostatin receptor positive tumour.\n\nThe purpose of this study is to assess the efficacy of Lu-DOTA-TATE by measuring progression free survival and overall survival. This study will also asses the safety of Lu-DOTA-TATE, and the quality of life of the patients treated with Lu-DOTA-TATE.",
+      "detailed_description": "Neuroendocrine (NET) tumours have secretory and metabolic pathways not typically found in other cancers that can be utilized for molecular imaging and therapeutic targeting. The most important is somatostatin. Somatostatin receptors are useful tools in the diagnosis and treatment of NET tumours because the somatostatin analogue octreotate can be radiolabeled with lutetium-177 for imaging and therapy.\n\nIn selected populations of patients, radioisotope therapy in expert hands has been shown to be a safe and effective palliative therapy with stable disease, progression free survival benefit, symptom control and improvements in quality of life. Lutetium-177 (DOTA0, Tyr3) octreotate has been used in a significant number of clinical studies shown to be safe and effective as a therapeutic agent in patients with NET tumours. The investigators intend to further confirm these benefits with lutetium-177 octreotate, which could form the basis for a national registry study leading to registration of this therapeutic intervention.",
+      "locations": [
+        "London Health Sciences Centre, London, Canada"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02236910",
+      "publications": {
+        "nct_id": "NCT02236910",
+        "study_title": "An Open Label Registry Study of Lutetium-177 (DOTA0, TYR3) Octreotate (Lu-DOTA-TATE) Treatment in Patients with Somatostatin Receptor Positive Tumours",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "34110489",
+            "citation": "Swiha MM, Sutherland DEK, Sistani G, Khatami A, Abazid RM, Mujoomdar A, Wiseman DP, Romsa JG, Reid RH, Laidley DT. Survival predictors of 177Lu-Dotatate peptide receptor radionuclide therapy (PRRT) in patients with progressive well-differentiated neuroendocrine tumors (NETS). J Cancer Res Clin Oncol. 2022 Jan;148(1):225-236. doi: 10.1007/s00432-021-03672-w. Epub 2021 Jun 10.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34110489/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT02923934",
+      "title": "A Phase II Trial of Ipilimumab and Nivolumab for the Treatment of Rare Cancers",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study is clinically relevant for the patient. The study explicitly includes neuroendocrine tumors, including pancreatic NETs, which matches the patient's diagnosis. While the patient's ECOG and age are not specified, the inclusion criteria of ECOG 1 and age >=18 do not immediately rule them out. The patient has progressed on somatuline and is considering Everolimus or PRRT, making immunotherapy with Ipilimumab and Nivolumab a potentially useful alternative treatment option. The study is completed and has published results, indicating good scientific quality.",
+      "condition": "Gastrointestinal Cancer; Neuroendocrine Tumours; Malignant Female Reproductive System Neoplasm",
+      "intervention": "Ipilimumab; Nivolumab",
+      "sponsor": "Olivia Newton-John Cancer Research Institute",
+      "start_date": "2017-08-22",
+      "completion_date": "2023-12-12",
+      "primary_outcome": "To determine the clinical efficacy of the combination treatment of ipilimumab with nivolumab in rare cancers.",
+      "secondary_outcome": "To identify whether a common predictive biomarker or immune signature can be identified in responding patients that can occur irrespective of tumour type.",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed Written Informed Consent\n\n   * Subjects must be willing and able to comply with scheduled visits, treatment schedule, laboratory testing, and other requirements of the study\n2. Target Population\n\n   * Histologically confirmed Upper GI malignancies (Cholangiocarcinoma/ duodenal carcinoma - collect MSI (microsatellite instability) status); Neuroendocrine tumours (inc. pancreatic, bronchial and intestinal carcinoid tumours) and Rare Gynaecological tumours (including but will not be limited to: vaginal or vulval carcinomas, clear cell carcinoma of the ovary, low grade serous ovarian cancer, mixed Mullarian tumours (carcinosarcoma), sarcomas of the female genital tract and granulosa cell tumours).\n   * Eastern Cooperative Oncology Group (ECOG) performance status of 1\n   * Prior systemic therapy is permitted if it was completed at least 4 weeks prior to enrolment, and all related adverse events have either returned to baseline or stabilized or subjects are not suitable for, or if declining established standard therapies.\n   * Prior radiotherapy must have been completed at least 2 weeks prior to study drug administration.\n   * Measurable disease by CT or MRI per RECIST 1.1 criteria\n   * Tumour tissue from an unresectable or metastatic site of disease must be provided for biomarker analyses. If an insufficient amount of tumour tissue from an unresectable or metastatic site is available prior to the start of the screening phase, subjects must consent to allow the acquisition of additional tumour tissue for performance of biomarker analyses.\n   * Screening laboratory values must meet the following criteria and should be obtained within 14 days prior to randomization:\n\n     * WBC (white blood cells) \\> or = to 2000/μL\n     * Neutrophils \\> or = to 1500/μL\n     * Platelets \\> or = to 100 x103/μL\n     * Hemoglobin \\> 9.0 g/dL\n     * Serum creatinine \\< or = to 1.5 x ULN or creatinine clearance (CrCl) 40 mL/min (using the Cockcroft-Gault formula)\n     * AST/ALT (aspartate transaminase/alanine transaminase) \\< or = to 3 x ULN\n     * Total Bilirubin \\< or = to 1.5 x ULN (Upper limit of normal) (except subjects with Gilbert Syndrome, who can have total bilirubin \\< 3.0 mg/dL).\n   * Subject Re-enrolment: This study permits the re-enrolment of a subject that has discontinued the study as a pre-treatment failure (i.e. subject has not been treated) after obtaining agreement from the medical monitor prior to re enrolling a subject. If re-enrolled, the subject must be re-consented.\n3. Age and Reproductive Status\n\n   * Men and women, \\> or = to 18 years of age\n   * Women of childbearing potential (WOCBP) must use method(s) of contraception. WOCBP should therefore use an adequate method to avoid pregnancy for 23 weeks (30 days plus the time required for Nivolumab to undergo five half lives) after the last dose of investigational drug.\n   * Women must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 24 hours prior to the start of investigational product.\n   * Women must not be breastfeeding\n   * Men who are sexually active with WOCBP must use any contraceptive method with a failure rate of less than 1 percent per year. Men that are sexually active with WOCBP must follow instructions for birth control when the half life of the investigational drug is greater than 24 hours, contraception should be continued for a period of 90 days plus the time required for the investigational drug to undergo five half lives. The half life of nivolumab and ipilimumab is up to 25 days and 18 days, respectively. Given the blinded nature of the study, men who are sexually active with WOCBP must continue contraception for 31 weeks (90 days plus the time required for nivolumab to undergo five half lives) after the last dose of investigational drug.\n   * Women who are not of childbearing potential (i.e. who are postmenopausal or surgically sterile and azoospermic men do not require contraception.\n\nExclusion Criteria:\n\n1. Target Disease Exceptions\n\n   * Active brain metastases or leptomeningeal metastases. Subjects with brain metastases are eligible if these have been treated and there is no magnetic resonance imaging (MRI except where contraindicated in which CT scan is acceptable) evidence of progression for at least 8 weeks after treatment is complete and within 28 days prior to first dose of study drug administration. Cases should be discussed with the medical monitor. There must also be no requirement for immunosuppressive doses of systemic corticosteroids (\\> 10 mg/day prednisone equivalents) for at least 2 weeks prior to study drug administration.\n2. Medical History and Concurrent Diseases\n\n   * Prior combination treatment directed against the PD-1/PDL1 (Programmed Death Ligand 1) axis (anti PD 1, anti PD-L1, anti PD L2), and anti CTLA 4 antibody. Prior monotherapy with these agents or other immune-stimulating/regulating agents is permitted.\n   * Any serious or uncontrolled medical disorder that, in the opinion of the investigator, may increase the risk associated with study participation or study drug administration, impair the ability of the subject to receive protocol therapy, or interfere with the interpretation of study results.\n   * Prior malignancy active within the previous 3 years except for locally curable cancers that have been apparently cured, such as basal or squamous cell skin cancer, superficial bladder cancer, or carcinoma in situ of the prostate, cervix, or breast.\n   * Subjects with active, known or suspected autoimmune disease. Subjects with vitiligo, type I diabetes mellitus, residual hypothyroidism due to autoimmune condition only requiring hormone replacement, psoriasis not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enroll.\n   * Subjects with a condition requiring systemic treatment with either corticosteroids (\\> 10 mg daily prednisone equivalents) or other immunosuppressive medications within 14 days of study drug administration. Inhaled or topical steroids, and adrenal replacement doses \\> 10 mg daily prednisone equivalents are permitted in the absence of active autoimmune disease.\n3. Physical and Laboratory Test Findings\n\n   * Any positive test result for hepatitis B virus or hepatitis C virus indicating acute or chronic infection\n   * Known history of testing positive for human immunodeficiency virus (HIV) or known acquired immunodeficiency syndrome (AIDS).\n4. Allergies and Adverse Drug Reaction\n\n   * History of allergy to study drug components.\n   * History of severe hypersensitivity reaction to any monoclonal antibody.\n5. Sex and Reproductive Status\n\n   * WOCBP who are pregnant or breastfeeding\n   * Women with a positive pregnancy test at enrolment or prior to administration of study medication.\n6. Other Exclusion Criteria\n\n   * Prisoners or subjects who are involuntarily incarcerated\n   * Subjects who are compulsorily detained for treatment of either a psychiatric or physical (e.g. infectious disease) illness.",
+      "brief_summary": "The three tumour streams that will be studied in this protocol are: (i) upper GI malignancies (comprising intra-hepatic/extra-hepatic cholangiocarcinomas,gall bladder cancers and duodenal cancers).); (ii) neuroendocrine tumours (inc. Pancreatic, bronchial and intestinal carcinoid tumours) and (iii) rare gynaecological tumours (including but will not be limited to: vaginal or vulval carcinomas, clear cell carcinoma of the ovary, low grade serous ovarian cancer, mixed mullarian tumours (carcinosarcoma), sarcomas of the female genital tract and granulosa cell tumours).\n\nThe role of immunotherapy is being defined in more common cancer types, however because of their rarity, the efficacy of immunotherapy for these cancers is poorly defined.\n\nThis protocol provides an important opportunity to establish whether the combination of nivolumab \\& ipilimumab has efficacy in these cancers.",
+      "detailed_description": "This is a phase 2 clinical trial of nivolumab combined with ipilimumab in subjects with rare cancers. This study will allow an evaluation of the clinical benefit, as measured by progression free survival (PFS) and overall survival (OS), provided by nivolumab combined with ipilimumab. If the safety profile is acceptable and clinically efficacy is seen, this study would support the use of nivolumab combined with ipilimumab in subjects with these cancers.\n\nStudy Rationale Clinically advanced rare cancers pose a significant clinical challenge because evidence based treatments are seldom available for patients suffering from these malignancies. Despite little evidence that shows clinical benefit, these patients are often treated with chemotherapeutic agents that are used in patients with more common malignancies that arise from the same anatomical site. Furthermore, because of small numbers, they are often excluded from clinical trials with newer agents. The rare care project has defined a rare malignancy as a cancer with an incidence of less than 6/100000/year. It is estimated that 42,000 people are diagnosed with a form of rare or less common cancer in Australia every year (www.canceraustralia.gov.au). The cancer specific survival of patients diagnosed with a rare malignancy is significantly lower than with common cancers highlighting the need to improve management and treatment of these patients. Given the recent success of cancer immunotherapy with checkpoint regulators such as ipilimumab and nivolumab in a whole range of different cancer types, it can be postulated that these agents could be beneficial in rare cancers and improve the overall outlook of patients with these conditions. It is proposed here that patient cohorts which fall within three distinct tumour streams will be examined, with all patients receiving ipilimumab and nivolumab as combination immunotherapy. The three tumour streams are defined as: upper GI malignancies (comprising intra-hepatic/ extra-hepatic cholangiocarcinomas,gall bladder cancers and duodenal cancers).); neuroendocrine tumours (inc. Pancreatic, bronchial and intestinal carcinoid tumours) and rare gynaecological tumours (including but will not be limited to: vaginal or vulval carcinomas, clear cell carcinoma of the ovary, low grade serous ovarian cancer, mixed mullarian tumours (carcinosarcoma), sarcomas of the female genital tract and granulosa cell tumours). Although overall response rates for individual tumour types will not be established due to sample size (target 20 patients per tumour stream, n=60 total), descriptive information of individual patient responses will guide immune-directed therapies to responsive rare tumour types and may be broadened to tumour streams.",
+      "locations": [
+        "Border Medical Oncology Unit, Albury, Australia",
+        "Blacktown Hospital, Sydney, Australia",
+        "Monash Health, Clayton, Australia",
+        "Austin Health, Heidelberg, Australia",
+        "Peter MacCallum Cancer Centre, Melbourne, Australia"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02923934",
+      "publications": {
+        "nct_id": "NCT02923934",
+        "study_title": "A Phase II Trial of Ipilimumab and Nivolumab for the Treatment of Rare Cancers",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "32729929",
+            "citation": "Klein O, Kee D, Nagrial A, Markman B, Underhill C, Michael M, Jackett L, Lum C, Behren A, Palmer J, Tebbutt NC, Carlino MS, Cebon J. Evaluation of Combination Nivolumab and Ipilimumab Immunotherapy in Patients With Advanced Biliary Tract Cancers: Subgroup Analysis of a Phase 2 Nonrandomized Clinical Trial. JAMA Oncol. 2020 Sep 1;6(9):1405-1409. doi: 10.1001/jamaoncol.2020.2814.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32729929/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT03074513",
+      "title": "Atezolizumab and Bevacizumab in Treating Patients With Rare Solid Tumors",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study is clinically relevant for the patient. The study explicitly includes a 'Neuroendocrine tumors, pancreatic basket' and a 'Neuroendocrine tumors, extrapancreatic basket', matching the patient's diagnosis of a pancreatic NET. The patient's G2 NET falls within the grade 1 or 2 inclusion criteria. While the patient's ECOG and age are unknown, the study's inclusion criteria regarding performance status (ECOG 0 or 1) and lab values do not immediately rule the patient out, assuming they meet those requirements. Atezolizumab and bevacizumab represent a different treatment approach (immunotherapy/anti-angiogenesis) than somatuline or PRRT, offering a potentially useful alternative. The study has published results, indicating good scientific quality.",
+      "condition": "Appendix Adenocarcinoma; Human Papillomavirus-Related Anal Squamous Cell Carcinoma; Human Papillomavirus-Related Cervical Squamous Cell Carcinoma; Human Papillomavirus-Related Squamous Cell Carcinoma of the Penis; Human Papillomavirus-Related Vulvar Squamous Cell Carcinoma; Neuroendocrine Carcinoma; Pancreatic Neuroendocrine Tumor; Recurrent Merkel Cell Carcinoma; Recurrent Nasopharynx Carcinoma; Recurrent Peritoneal Malignant Mesothelioma; Recurrent Pleural Malignant Mesothelioma; Stage III Merkel Cell Carcinoma AJCC v7; Stage III Nasopharyngeal Carcinoma AJCC v7; Stage III Pleural Malignant Mesothelioma AJCC v7; Stage IV Merkel Cell Carcinoma AJCC v7; Stage IV Nasopharyngeal Carcinoma AJCC v7; Stage IV Pleural Malignant Mesothelioma AJCC v7; Stage IVA Nasopharyngeal Carcinoma AJCC v7; Stage IVB Nasopharyngeal Carcinoma AJCC v7; Stage IVC Nasopharyngeal Carcinoma AJCC v7; Vaginal Squamous Cell Carcinoma, Not Otherwise Specified",
+      "intervention": "Atezolizumab; Bevacizumab; Laboratory Biomarker Analysis; Pharmacological Study",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "start_date": "2017-03-03",
+      "completion_date": "2025-09-30",
+      "primary_outcome": "Objective response",
+      "secondary_outcome": "Objective response; Progression free survival; Duration of response; Overall survival; Progression free survival; Duration of response; Incidence of adverse events; Change in targeted vital signs; Change in targeted clinical laboratory test results",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent form\n* Ability to comply with the study protocol, in the investigator's judgment\n* Measurable disease according to Response Evaluation Criteria in Solid Tumors (RECIST) version (v) 1.1; previously irradiated lesions can be considered as measurable disease only if progressive disease has been unequivocally documented at that site since radiation; the pleural mesothelioma cohort will require measurable disease according to modified RECIST\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n* Absolute neutrophil count (ANC) \\>= 1.5 x 10\\^9/L without granulocyte colony-stimulating factor support, obtained within 14 days prior to initiation of study treatment\n* Lymphocyte count \\>= 0.5 x 10\\^9/L, obtained within 14 days prior to initiation of study treatment\n* Platelet count \\>= 100 x 10\\^9/L without transfusion, obtained within 14 days prior to initiation of study treatment\n* White blood cell (WBC) count \\>= 2500/ul, obtained within 14 days prior to initiation of study treatment\n* Hemoglobin \\>= 90 g/L (patients may be transfused to meet this criterion), obtained within 14 days prior to initiation of study treatment\n* Aspartate aminotransferase (AST), alanine aminotransferase (ALT), and alkaline phosphatase (ALP) =\\< 2.5 x upper limit of normal (ULN), obtained within 14 days prior to initiation of study treatment, with the following exceptions: patients with documented liver metastases: AST and ALT =\\< 5 x ULN; patients with documented liver or bone metastases: alkaline phosphatase (ALP) =\\< 5 x ULN\n* Serum bilirubin 1.5 x ULN, obtained within 14 days prior to initiation of study treatment\n* Serum creatinine =\\< 1.5 x ULN, obtained within 14 days prior to initiation of study treatment\n* Serum albumin \\>= 2.5 g/dL, obtained within 14 days prior to initiation of study treatment\n* For patients not receiving therapeutic anticoagulation: international normalized ratio (INR) or activated partial thromboplastin time (aPTT) =\\< 1.5 x ULN, obtained within 14 days prior to initiation of study treatment\n* For patients receiving therapeutic anticoagulation: stable anticoagulant regimen\n* For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use a contraceptive method with a failure rate of \\< 1% per year during the treatment period and for 6 months after the last dose of study treatment\n* A woman is considered to be of childbearing potential if she is postmenarchal, has not reached a postmenopausal state (\\>= 12 continuous months of amenorrhea with no identified cause other than menopause), and has not undergone surgical sterilization (removal of ovaries and/or uterus); examples of contraceptive methods with a failure rate of \\< 1% per year include bilateral tubal ligation, male sterilization, hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices, and copper intrauterine devices; the reliability of sexual abstinence should be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the patient; periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not acceptable methods of contraception\n* Appendiceal adenocarcinoma basket\n\n  * Metastatic appendiceal adenocarcinoma\n  * Not considered candidate for curative surgery\n* Nasopharyngeal carcinoma basket\n\n  * Metastatic or locally recurrent disease not amenable to curative intent treatment\n  * Any number of prior therapies, including 0\n* Human papilloma virus-associated cancers\n\n  * Histologically proven squamous carcinoma of the anal canal, penile, vaginal, vulva, or refractory cervical cancer with progression or intolerance to at least one treatment regimen including cisplatin, oxaliplatin or carboplatin will be enrolled; human papilloma virus (HPV) confirmation is not required\n  * Patients must have metastatic disease not amenable to surgical resection\n  * If human immunodeficiency virus (HIV)+ positive, all patients infected with human immunodeficiency virus (HIV) and CD4+ T cell count \\> 400 cells/mm\\^3 may be eligible for study\n  * Patients co-infected with hepatitis B virus and/or hepatitis C virus may be included in this study provided that their liver function tests remain within the limits listed above; patients must be followed by a hepatologist during the course of this study\n* Merkel cell carcinoma basket\n\n  * Metastatic or locally recurrent disease not amenable to curative intent treatment\n  * Prior treatment with CD137 agonists or immune checkpoint blockade therapies, including anti-CTLA-4, anti-PD-1, and anti-PD-L1 therapeutic antibodies\n  * Any number of prior therapies\n* Neuroendocrine tumors, pancreatic basket\n\n  * Grade 1 or grade 2 (or described as low grade, intermediate grade, well differentiated, or moderately differentiated) according to reviewing pathologist\n  * Progressive disease over the preceding 12 months\n  * Any number of prior therapies, including 0\n  * Patients using a somatostatin analogue for symptom control must be on stable doses for 56 days prior to enrollment\n* Neuroendocrine tumors, extrapancreatic basket\n\n  * Grade 1 or grade 2 (or described as low grade, intermediate grade, well differentiated, or moderately differentiated; typical or atypical carcinoid if originating in lung) according to reviewing pathologist\n  * Progressive disease over the preceding 12 months\n  * Any number of prior therapies, including 0\n  * Patients using a somatostatin analogue for symptom control must be on stable doses for 56 days prior to enrollment\n* Peritoneal mesothelioma basket\n\n  * Refractory or intolerant to platinum and pemetrexed systemic therapy\n  * Any number of prior therapies\n* Pleural mesothelioma basket\n\n  * Metastatic or locally recurrent disease not amenable to curative intent treatment\n  * Refractory to platinum and pemetrexed systemic therapy\n  * Any number of prior therapies\n\nExclusion Criteria:\n\n* Treatment for the studied cancer within 28 days prior to initiation of study treatment\n* Treatment with investigational therapy within 28 days prior to initiation of study treatment\n* History of severe allergic, anaphylactic, or other hypersensitivity reactions to chimeric or humanized antibodies or fusion proteins\n* Known hypersensitivity to biopharmaceutical agents produced in Chinese hamster ovary cells\n* Known allergy or hypersensitivity to any component of the atezolizumab formulation\n* Known allergy or hypersensitivity to any component of the bevacizumab formulation\n* Active or history of autoimmune disease or immune deficiency, including, but not limited to, myasthenia gravis, myositis, autoimmune hepatitis, systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, antiphospholipid antibody syndrome, Wegener granulomatosis, Sjogren's syndrome, Guillain-Barre syndrome, or multiple sclerosis, with the following exceptions: patients with a history of autoimmune-related hypothyroidism who are on thyroid replacement hormone are eligible for the study; patients with controlled type 1 diabetes mellitus who are on an insulin regimen are eligible for the study; patients with eczema, psoriasis, lichen simplex chronicus, or vitiligo with dermatologic manifestations only (e.g., patients with psoriatic arthritis are excluded) are eligible for the study provided all of following conditions are met:\n\n  * Rash must cover \\< 10% of body surface area\n  * Disease is well controlled at baseline and requires only low-potency topical corticosteroids\n  * No occurrence of acute exacerbations of the underlying condition requiring psoralen plus ultraviolet A radiation, methotrexate, retinoids, biologic agents, oral calcineurin inhibitors, or high potency or oral corticosteroids within the previous 12 months\n* Prior allogeneic stem cell or solid organ transplantation\n* History of idiopathic pulmonary fibrosis, organizing pneumonia (e.g., bronchiolitis obliterans), drug-induced pneumonitis, or idiopathic pneumonitis, or evidence of active pneumonitis on screening chest computed tomography (CT) scan; (history of radiation pneumonitis in the radiation field \\[fibrosis\\] is permitted)\n* Positive HIV test at screening (except in cohort 3, HPV-associated cancers)\n* Except in cohort 3, HPV-associated cancers, active hepatitis B virus (HBV) infection (chronic or acute), defined as having a positive hepatitis B surface antigen (HBsAg) test at screening; patients with a past or resolved HBV infection, defined as having a negative HBsAg test and a positive total hepatitis B core antibody (HBcAb) test and negative HBV deoxyribonucleic acid (DNA) test at screening, are eligible for the study\n* Except in cohort 3, HPV-associated cancers active hepatitis C virus (HCV) infection, defined as having a positive HCV antibody test followed by a positive HCV RNA test at screening; the HCV RNA test will be performed only for patients who have a positive HCV antibody test\n* Active tuberculosis\n* Severe infection within 4 weeks prior to initiation of study treatment, including, but not limited to, hospitalization for complications of infection, bacteremia, or severe pneumonia\n* Treatment with therapeutic oral or IV antibiotics within 2 weeks prior to initiation of study treatment; patients receiving prophylactic antibiotics (e.g., to prevent a urinary tract infection or chronic obstructive pulmonary disease exacerbation) are eligible for the study\n* Significant cardiovascular disease, such as New York Heart Association cardiac disease (class II or greater), myocardial infarction, or cerebrovascular accident within 3 months prior to initiation of study treatment, unstable arrhythmia, or unstable angina\n* Major surgical procedure other than for diagnosis within 4 weeks prior to initiation of study treatment, or anticipation of need for a major surgical procedure during the course of the study\n* Treatment with a live, attenuated vaccine within 4 weeks prior to initiation of study treatment, or anticipation of need for such a vaccine during the course of the study, or up to 5 months following the anticipated last dose of atezolizumab\n* Malignancies other than the disease under study within 5 years prior to cycle 1, day 1, with the exception of those with a negligible risk of metastasis or death and with expected curative outcome (such as adequately treated carcinoma in situ of the cervix, basal or squamous cell skin cancer, or ductal carcinoma in situ treated surgically with curative intent) or undergoing active surveillance per standard-of-care management (e.g., chronic lymphocytic leukemia Rai stage 0)\n* Any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding that contraindicates the use of an investigational drug, may affect the interpretation of the results, or may render the patient at high risk from treatment complications\n* Except for cohort 4, Merkel cell carcinoma, prior treatment with CD137 agonists or immune checkpoint blockade therapies, including anti-CTLA-4, anti-PD-1, and anti-PD-L1 therapeutic antibodies\n* Treatment with systemic immunostimulatory agents (including, but not limited to, interferon and interleukin 2 \\[IL-2\\]) within 4 weeks or five half-lives of the drug (whichever is longer) prior to initiation of study treatment\n* Treatment with systemic immunosuppressive medication (including, but not limited to, corticosteroids, cyclophosphamide, azathioprine, methotrexate, thalidomide, and anti-TNF-· agents) within 2 weeks prior to initiation of study treatment, or anticipation of need for systemic immunosuppressive medication during the course of the study, with the following exceptions: patients who received low-dose immunosuppressant medication are eligible for the study; patients who received mineralocorticoids (e.g., fludrocortisone), corticosteroids for chronic obstructive pulmonary disease (COPD) or asthma, or low-dose corticosteroids for orthostatic hypotension or adrenal insufficiency are eligible for the study\n* Pregnant or breastfeeding, or intending to become pregnant during the study; women of childbearing potential must have a negative serum pregnancy test result within 14 days prior to initiation of study treatment\n* Inadequately controlled hypertension (defined as systolic blood pressure \\> 150 mmHg and/or diastolic blood pressure \\> 100 mmHg); anti-hypertensive therapy to maintain a systolic blood pressure \\< 150 mmHg and/or diastolic blood pressure \\< 100 mmHg is permitted\n* Prior history of hypertensive crisis or hypertensive encephalopathy\n* History of stroke or transient ischemic attack within 6 months prior to cycle 1, day 1\n* Significant vascular disease (e.g., aortic aneurysm requiring surgical repair or recent peripheral arterial thrombosis) within 6 months prior to cycle 1, day 1\n* Patients with a baseline electrocardiography (ECG) demonstrating a corrected QT (QTc) \\> 460 ms\n* Evidence of bleeding diathesis or clinically significant coagulopathy (in the absence of therapeutic anticoagulation)\n* Current or recent (within 10 calendar days prior to cycle 1, day 1) use of dipyramidole, ticlopidine, clopidogrel, or cilostazol\n* Core biopsy or other minor surgical procedure, excluding placement of a vascular access device, within 7 calendar days prior to the first dose of bevacizumab\n* History of abdominal or tracheoesophageal fistula or gastrointestinal perforation within 6 months prior to cycle 1, day 1\n* Clinical signs or symptoms of gastrointestinal obstruction or requirement for routine parenteral hydration, parenteral nutrition, or tube feeding\n* Evidence of abdominal free air not explained by paracentesis or recent surgical procedure\n* Serious, non-healing or dehiscing wound, active ulcer, or untreated bone fracture\n* Proteinuria, as demonstrated by urine dipstick or \\> 1.0 g of protein in a 24-hour urine collection; all patients with \\>= 2+ protein on dipstick urinalysis at baseline must undergo a 24-hour urine collection for protein\n* Appendiceal adenocarcinoma basket\n\n  * Complete or partial bowel obstruction\n* Epstein-Barr virus-associated nasopharyngeal carcinoma basket:\n\n  * None\n* Human papilloma virus-associated cancers basket\n\n  * None\n* Merkel cell carcinoma basket:\n\n  * None\n* Neuroendocrine tumors, pancreatic basket:\n\n  * Grade 3, poorly differentiated neuroendocrine carcinoma\n  * Large cell or small cell histology\n* Neuroendocrine tumors, extrapancreatic basket:\n\n  * Grade 3, poorly differentiated neuroendocrine carcinoma\n  * Large cell or small cell histology\n* Peritoneal mesothelioma basket:\n\n  * None\n* Pleural mesothelioma basket:\n\n  * None",
+      "brief_summary": "This phase II trial studies how well atezolizumab and bevacizumab work in treating patients with rare solid tumors. Immunotherapy with monoclonal antibodies, such as atezolizumab and bevacizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.",
+      "detailed_description": "PRIMARY OBJECTIVES:\n\nI. To evaluate the efficacy of atezolizumab when given in combination with bevacizumab (atezo bev).\n\nSECONDARY OBJECTIVES:\n\nI. To evaluate the efficacy of atezo bev. II. To evaluate the safety of atezo + bev.\n\nEXPLORATORY BIOMARKER OBJECTIVES:\n\nI. To identify biomarkers that are predictive of response to atezo bev (i.e., predictive biomarkers), are associated with progression to a more severe disease state (i.e., prognostic biomarkers), are associated with resistance to atezo bev, are associated with susceptibility to developing adverse events, can provide evidence of study treatment activity, or can increase the knowledge and understanding of disease biology.\n\nOUTLINE:\n\nPatients receive atezolizumab and bevacizumab intravenously (IV) over 60 minutes on day 1. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up every 3 months.",
+      "locations": [
+        "M D Anderson Cancer Center, Houston, United States"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03074513",
+      "publications": {
+        "nct_id": "NCT03074513",
+        "study_title": "Atezolizumab and Bevacizumab in Treating Patients With Rare Solid Tumors",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "35389428",
+            "citation": "Halperin DM, Liu S, Dasari A, Fogelman D, Bhosale P, Mahvash A, Estrella JS, Rubin L, Morani AC, Knafl M, Overeem TA, Fu SC, Solis LM, Parra Cuentas E, Verma A, Chen HL, Gite S, Subashchandrabose P, Dervin S, Schulze K, Darbonne WC, Yun C, Wistuba II, Futreal PA, Woodman SE, Yao JC. Assessment of Clinical Response Following Atezolizumab and Bevacizumab Treatment in Patients With Neuroendocrine Tumors: A Nonrandomized Clinical Trial. JAMA Oncol. 2022 Jun 1;8(6):904-909. doi: 10.1001/jamaoncol.2022.0212.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35389428/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT02113800",
+      "title": "Safety and Tolerability of Everolimus as Second-line Treatment in Poorly Differentiated Neuroendocrine Carcinoma / Neuroendocrine Carcinoma G3 (WHO 2010) and Neuroendocrine Tumor G3 - an Investigator Initiated Phase II Study",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study is clinically relevant for the patient. The patient has a G2 NET with liver metastases, and the study includes NET G2 patients who have progressed. The intervention, Everolimus, is being considered as a potential next step in the patient's treatment. While the patient's ECOG and age are unknown, the study's criteria are not immediately exclusionary based on the provided information. The study is a completed Phase II trial with published results, indicating good scientific quality.",
+      "condition": "Poorly Differentiated Malignant Neuroendocrine Carcinoma; Neuroendocrine Carcinoma, Grade 3; Neuroendocrine Carcinoma, Grade 1 [Well-differentiated Neuroendocrine Carcinoma] That Switched to G3; Neuroendocrine Carcinoma, Grade 2 [Moderately Differentiated Neuroendocrine Carcinoma] That Switched to G3; Neuroendocrine Tumor, Grade 3 and Disease Progression as Measured by Response Evaluation Criteria in Solid Tumors (RECIST 1.1.)",
+      "intervention": "Everolimus (Afinitor®)",
+      "sponsor": "AIO-Studien-gGmbH",
+      "start_date": "2015-08",
+      "completion_date": "2020-04",
+      "primary_outcome": "Incidence of adverse events (AEs)",
+      "secondary_outcome": "Progression free survival (PFS); Objective response rate (ORR); Disease control rate (DCR); Duration of response (DR); Overall Survival (OS); Quality of life; chromogranin A & B; Time to Progression (TTP); neuron-specific enolase; progastrin releasing peptide; Correlation mTOR pathway components in tumor tissue to tumor response",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed written informed consent\n2. Male or female ≥ 18 years of age\n3. Patients with poorly differentiated neuroendocrine carcinoma, neuroendocrine carcinoma G3 (NEC - G3 according to WHO 2010) or well or moderately differentiated neuroendocrine carcinoma (NET - G1 / G2) that switched to G3 (confirmed by histology) or neuroendocrine tumor G3 (NET G3) and disease progression as measured by RECIST 1.1\n4. Progression during or after treatment with first-line platinbased chemotherapy. In NET G3 that switched from NET G2 the line of therapy is determined from the time of revised histology (confirming a G3 NEN)\n5. Measurable disease according to RECIST 1.1\n6. Performance Status according to Eastern Cooperative Oncology Group (ECOG) status 0 - 2 (Karnofsky Performance status ≥ 80%)\n7. Women of child-bearing potential must have a negative pregnancy test\n8. Laboratory requirements:\n\n   * Hematology\n\n     * Absolute neutrophil count ≥ 1.5 x 109/L\n     * Platelet count ≥ 100 x 10\\^9/L\n     * Leukocyte count ≥ 3.0 x 10\\^9/L\n     * Hemoglobin ≥ 9 g/dL or 5.59 mmol/L\n   * Hepatic Function\n\n     * Total bilirubin ≤ 1.5 time the upper limit normal (ULN)\n     * Aspartate Aminotransferase (AST) ≤ 3 x ULN in absence of liver metastases, or ≤ 5 x ULN in presence of liver metastases\n     * Alanine Aminotransferase (ALT) ≤ 3 x ULN in absence of liver metastases, or ≤ 5 x ULN in presence of liver metastases\n   * Renal Function\n\n     * Creatinine clearance ≥ 50 mL/min according to cockroft-Gault formula\n   * Metabolic Function\n\n     * Magnesium ≥ lower limit of normal\n     * Calcium ≥ lower limit of normal\n   * Others:\n\n     * CRP (PCT if CRP is elevated to exclude infection)\n     * negative urinary screening test for leukocytes and nitrite (U - stix) to exclude urinary tract infection\n\nExclusion Criteria:\n\n1. Known or suspected allergy or hypersensitivity reaction to any of the components of study treatment or their excipients.\n2. Previous therapy with mTOR inhibitor\n3. Radiotherapy :\n\n   * Concurrent radiotherapy involving target lesions used for this study.\n   * Concurrent palliative radiation (but radiation for non-target lesions is allowed if other target lesions are available outside the involved field)\n   * previous pre-operative or post-operative radiotherapy within 3 months before study treatment\n4. History of other malignant tumors within the last 5 years, except basal cell carcinoma or curatively excised cervical carcinoma in situ\n5. Known brain metastases unless adequately treated (surgery or radiotherapy) with no evidence of progression and neurologically stable off anticonvulsants and steroids\n6. Clinically significant cardiovascular disease (including myocardial infarction, unstable angina, symptomatic congestive heart failure, serious uncontrolled cardiac arrhythmia) ≤ 1 year before enrolment\n7. Inadequate pulmonary function according to the Investigator's judgment, history of interstitial lung disease e.g. pneumonitis or pulmonary fibrosis or evidence of interstitial lung disease on baseline chest CT scan\n8. Known active Hepatitis B Virus (HBV), Hepatitis C Virus (HCV) or HIV infection\n9. Serious concomitant disease or medical condition that in the judgment of the investigator renders the patient at high risk from treatment complication\n10. Any systemic disease requiring oral intake of corticosteroids (except for replacement therapy of corticosteroids - hydrocortisone in case of adrenal or pituitary insufficiency)\n11. Hearing loss ≥ Grade 3 (CTCAE v4.03)\n12. Patient pregnant or breast feeding, or planning to become pregnant within 8 weeks after the end of treatment\n13. Patient (male or female) is not willing to use highly effective methods of contraception (per institutional standard) during treatment and for 8 weeks (male or female) after the end of treatment.\n14. Concurrent treatment with other experimental drugs or participation in another clinical trial with any investigational drug within 28 days prior to treatment start\n15. Concurrent treatment with inhibitors (e.g. itraconazole, ketoconazole) and inducers (e.g. phenytoin, rifampicin) of Cytochrome P450 3A4 (CYP3A4) and / or the multidrug efflux pump P-glycoprotein (PgP).\n16. Known drug abuse/alcohol abuse\n17. Peripheral polyneuropathy ≥ Grade 2 (CTCAE v4.03)\n18. Active chronic inflammatory bowel disease\n19. Any condition which might interfere with study objectives (e.g. infections) or would limit the patient's ability to complete the study in the opinion of the investigator\n20. Patient who has been incarcerated or involuntarily institutionalized by court order or by the authorities. (AMG §40, Abs. 1 No. 4)\n21. Affected persons who might be dependent on the sponsor or the investigator",
+      "brief_summary": "The study is designed as an open-label, prospective, single arm, multicenter study of everolimus in histologically confirmed, neuroendocrine carcinoma G3 /neuroendocrine tumor G3 after failure of first-line platin-based chemotherapy (open-label pilot study).\n\nThe aim of this study is to provide a second line therapy to patients with any type of platinum based first line chemotherapy, to gather data on disease control rate and progression free survival.",
+      "detailed_description": "As more efficient drugs are urgently needed for the treatment of neuroendocrine tumors the investigator evaluated phosphorylated Mammalian target of rapamycin (mTOR) and effectors in a series of NEC G3 at the Charité Center. Everolimus showed antiproliferative effects in bronchial NET.\n\nIn a second approach the data of this study should be the basis to generate another study to further explore everolimus as maintenance therapy in NEC G3/ NET G3.",
+      "locations": [
+        "Charité-Universitätsmedizin, Medizinische Klinik m. S. Hepatologie und Gastroenterologie, Germany"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02113800",
+      "publications": {
+        "nct_id": "NCT02113800",
+        "study_title": "Safety and Tolerability of Everolimus as Second-line Treatment in Poorly Differentiated Neuroendocrine Carcinoma / Neuroendocrine Carcinoma G3 (WHO 2010) and Neuroendocrine Tumor G3 - an Investigator Initiated Phase II Study",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "33973550",
+            "citation": "Jungels C, Deleporte A. State of the art and future directions in the systemic treatment of neuroendocrine neoplasms. Curr Opin Oncol. 2021 Jul 1;33(4):378-385. doi: 10.1097/CCO.0000000000000740.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33973550/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT02754297",
+      "title": "Personalized PRRT of Neuroendocrine Tumors",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The study explicitly includes patients with progressive NET, which aligns with the patient's diagnosis of a pancreatic NET with liver metastases and documented progression on Somatuline. The inclusion criteria regarding prior therapies are met as the patient's prior treatment isn't restrictive. The patient's tumor expresses somatostatin receptors (based on the DOTATOC PET scan), fulfilling a key inclusion criterion. PRRT with 177Lu-Octreotate is a reasonable therapeutic option being considered for this patient, and the study's personalized approach could be beneficial. Finally, the study has published results, indicating good scientific quality.",
+      "condition": "Neuroendocrine Tumors; Carcinoid Tumor; Carcinoma, Neuroendocrine",
+      "intervention": "177Lu-Octreotate",
+      "sponsor": "CHU de Quebec-Universite Laval",
+      "start_date": "2016-04-12",
+      "completion_date": "2029-04-12",
+      "primary_outcome": "Objective response rate (ORR)",
+      "secondary_outcome": "Progression-free survival (PFS); Overall survival (OS); Symptomatic response rate; Quality of life response; Biochemical response; Safety determined by type, frequency and severity of adverse events per CTCAE version 4.03 and type, frequency and severity of laboratory toxicities per CTCAE version 4.03",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Patient suffering from a progressive and/or symptomatic NET (any site);\n* Patient ineligible to, or refusing a potentially curative treatment such as surgical resection;\n* Patient who did not respond, is intolerant or refuses other indicated and available palliative treatments;\n* Demonstration of overexpression of somatostatin receptor by tumor lesions by scintigraphic imaging (Octreoscan or 68Ga positron emission tomography.\n\nExclusion Criteria:\n\n* Pregnancy;\n* Breastfeeding;.\n* Very limited survival prognosis (i.e. less than a few weeks, because of the NET disease or any other condition) or Eastern Cooperative Oncology Group (ECOG) 4 performance status;\n* Inability to obtain informed consent of the participant.",
+      "brief_summary": "In this study, peptide receptor radionuclide therapy (PRRT) with 177Lu-Octreotate (LuTate) will be personalized, i.e. administered activity of LuTate will be tailored for each patient to maximize absorbed radiation dose to tumor, while limiting that to healthy organs.\n\nThe purpose of this study is to:\n\n* Assess the objective (radiological), symptomatic and biochemical response rates following an induction course of personalized PRRT;\n* Assess the overall, the disease-specific, and the progression-free survival following P-PRRT;\n* Correlate therapeutic response and survival with tumor absorbed radiation dose;\n* Evaluate the acute, subacute and chronic adverse events following P-PRRT;\n* Correlate toxicity (i.e. occurence and severity of adverse events) with absorbed radiation doses to organs at risk;\n* Optimize the quantitative SPECT imaging-based dosimetry methods in a subset of 20 patients (sub-study funded by the Canadian Institutes of Health Research).\n\nThis study also has a compassionate purpose, which is to provide access to PRRT to patients.",
+      "detailed_description": "A prospective, single-center, non-comparative, open phase 2 study. In this study, personalized peptide receptor radionuclide therapy (P-PRRT) with 177Lu-Octreotate (LuTate) will be administered to patients with progressive and/or symptomatic inoperable neuroendocrine tumors (NET) of any origin expressing the somatostatin receptor.\n\nThe primary objective to assess the objective response rate at 3 months following a four-cycle induction course of P-PRRT will be assessed for at least the first 85 participants.\n\nThis study as a compassionate aim to provide access to personalized PRRT patients at CHU de Québec - Université Laval center, and therefore this study has no pre-determined recruitment period duration or limited number of participants, and may remain open as long as necessary to fulfill this aim.\n\nThe study will continue until all participants have completed a minimum follow-up of 5 years. Interim analyses will be conducted annually.",
+      "locations": [
+        "CHU de Québec - Université Laval, Quebec City, Canada"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02754297",
+      "publications": {
+        "nct_id": "NCT02754297",
+        "study_title": "Personalized PRRT of Neuroendocrine Tumors",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "30506283",
+            "citation": "Del Prete M, Buteau FA, Arsenault F, Saighi N, Bouchard LO, Beaulieu A, Beauregard JM. Personalized 177Lu-octreotate peptide receptor radionuclide therapy of neuroendocrine tumours: initial results from the P-PRRT trial. Eur J Nucl Med Mol Imaging. 2019 Mar;46(3):728-742. doi: 10.1007/s00259-018-4209-7. Epub 2018 Nov 30.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30506283/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT03728361",
+      "title": "Nivolumab and Temozolomide in Treating Patients With Recurrent or Refractory Small-Cell Lung Cancer or Advanced Neuroendocrine Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study is clinically relevant for the patient. The study explicitly includes patients with neuroendocrine tumors (NET) in Cohort 2, matching the patient's diagnosis. The inclusion criteria appear to not rule out the patient based on the limited information available (ECOG 0-1, adequate organ function are likely met, stable somatostatin analogue use is allowed). The combination of nivolumab and temozolomide represents a potentially useful alternative treatment option to Everolimus or PRRT, given the patient's progression on somatuline. The study has published results, indicating good scientific quality.",
+      "condition": "Grade I Neuroendocrine Carcinoma; Grade II Neuroendocrine Carcinoma; Grade III Neuroendocrine Carcinoma; Metastatic Neuroendocrine Carcinoma; Neuroendocrine Carcinoma; Recurrent Small Cell Lung Carcinoma; Refractory Small Cell Lung Carcinoma; Lung Cancer Stage IV; Large Cell Neuroendocrine Carcinoma; Neuroendocrine Tumors; Small Cell Lung Cancer Metastatic; Small-cell Lung Cancer",
+      "intervention": "Nivolumab; Temozolomide",
+      "sponsor": "Dwight Owen",
+      "start_date": "2018-12-31",
+      "completion_date": "2026-10-31",
+      "primary_outcome": "Objective response rate (ORR) as measured by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria",
+      "secondary_outcome": "Incidence of adverse events graded according to Common Terminology Criteria for Adverse Events (CTCAE) version 5.0; Progression-free survival (PFS); Central nervous system (CNS) PFS; Overall survival (OS) of patients",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Be willing and able to provide written informed consent/assent for the trial\n* For Cohort 1: Have histologically or cytologically-documented diagnosis of advanced (metastatic and/or unresectable) small cell lung cancer and have progressed or recurred after platinum-based chemotherapy with immunotherapy. Eligible patients will be defined as follows:\n\n  * Sensitive disease: Patients who had one previous line of chemotherapy and relapsed after \\> 90 days of completion of treatment\n  * Refractory disease: Patients with no response to first-line chemotherapy or progression \\< 90 days after completing treatment.\n  * For cohort 1: maximum of 2 prior lines of therapy is allowed (ie second or third line treatment)\n* For Cohort 2: Have histologically or cytologically-documented diagnosis of advanced (metastatic and/or unresectable) neuroendocrine tumor/carcinoma of any grade (World Health Organization \\[WHO\\] Grade 1-3) of any origin, in any line of therapy (ie both treatment na?ve and pre-treated patients allowed), and have clinical or biochemical or radiographic progression in the 12 months prior to study registration. Concomitant use of a somatostatin analogue is allowed, as long as patients have been on a stable dose for at least 2 months\n* Have measurable disease based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1.\n* For Cohort 1: Availability of a recent formalin-fixed, paraffin-embedded (FFPE) tumor tissue block. A recently obtained archival FFPE tumor tissue block from a primary or metastatic tumor resection or biopsy can be provided if it was obtained within 1 year of trial screening. Patients with tumor specimens older than 1 year may still be eligible if deemed so by study sponsor. For Cohort 2: archival tissue as above is preferred, but not required for trial entry. Verification of tumor burden in the biopsy is encouraged. For optimal biomarker results, tumor content should be \\> 30% of total tissue area\n* Be willing to provide peripheral blood samples at screening and day 1 of cycles 1, 2 and 3 as well as at progressive disease for correlative studies\n* Have a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) performance scale\n* Life expectancy greater than 3 months\n* Ability to swallow and retain oral medication\n* Absolute neutrophil count (ANC) \\>= 1,500 /mcL (performed within 28 days of treatment initiation)\n* Platelets \\>= 100,000 / mcL (performed within 28 days of treatment initiation)\n* Serum creatinine =\\< 2.0 x upper limit of normal (ULN) OR measured or calculated creatinine clearance (CrCl) (glomerular filtration rate \\[GFR\\] can also be used in place of creatinine or CrCl) \\>= 50 mL/min as estimated by Cockcroft and Gault formula for subject with creatinine levels \\> 2 X institutional ULN (performed within 28 days of treatment initiation)\n\n  * Creatinine clearance should be calculated per institutional standard\n* Serum total bilirubin =\\< 1.5 x ULN OR direct bilirubin =\\< ULN for subjects with total bilirubin levels \\> 1.5 ULN (performed within 28 days of treatment initiation)\n* Aspartate aminotransferase (AST) (serum glutamic-oxaloacetic transaminase \\[SGOT\\]) and Alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase \\[SGPT\\]) =\\< 2.5 x ULN OR =\\< 5 x ULN for subjects with liver metastases (performed within 28 days of treatment initiation)\n\n  * Both values must be in the specified range\n* Albumin \\>= 2.5 mg/dL (performed within 28 days of treatment initiation)\n* International normalized ratio (INR) or prothrombin time (PT) =\\< 1.5 x ULN unless subject is receiving anticoagulant therapy as long as PT or partial thromboplastin time (PTT) is within therapeutic range of intended use of anticoagulants (performed within 28 days of treatment initiation)\n* Activated partial thromboplastin time (aPTT) =\\< 1.5 x ULN unless subject is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulants (performed within 28 days of treatment initiation)\n* Female subject of childbearing potential should have a negative urine or serum pregnancy within 72 hours prior to receiving the first dose of study medication. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required\n* Female subjects of childbearing potential should be willing to use 2 methods of birth control or be surgically sterile, or abstain from heterosexual activity and not donate eggs for the course of the study through 120 days after the last dose of study medication. Subjects should agree to ongoing pregnancy testing during the course of the study and after the end of study therapy. Female subjects of childbearing potential are those who have not been surgically sterilized or have not been free from menses for \\> 1 year\n\nExclusion Criteria:\n\n* Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks of the first dose of treatment\n* Has received prior temozolomide therapy\n* Prior immunotherapy with checkpoint inhibitors (including antibodies to PD-1, PD-L1, is allowed only in Cohort 1 and must have been given in combination with chemotherapy as part of first line treatment. Prior CTLA-4 therapy is excluded in both cohorts.\n* Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of trial treatment\n* Has a known history of active TB (Bacillus Tuberculosis)\n* Hypersensitivity to nivolumab or temozolomide or any of their excipients\n* Has had prior chemotherapy, targeted small molecule therapy, or radiation therapy within 2 weeks prior to study day 1 or who has not recovered (i.e., =\\< grade 1 or at baseline) from adverse events due to a previously administered agent\n\n  * Note: Subjects with =\\< grade 2 neuropathy due to chemotherapy are an exception to this criterion and may qualify for the study\n  * Note: If subject received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting therapy\n* Has a known additional malignancy that is progressing or requires active treatment\n* Has symptomatic central nervous system (CNS) metastases and/or carcinomatous meningitis. Subjects with asymptomatic lesions will be eligible if considered appropriate by the treating physician. Subjects with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least two weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not requiring steroids (or are on a stable or decreasing dose of steroids equivalent to 10 mg prednisone or less) for at least 7 days prior to trial treatment. This exception does not include carcinomatous meningitis which is excluded regardless of clinical stability\n* Has active autoimmune disease, including myasthenic syndrome, which has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment\n* Has an active infection requiring systemic therapy\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject?s participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator\n* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial\n* Is pregnant or breastfeeding, or expecting to conceive within the projected duration of the trial, starting with the pre-screening or screening visit through 5 months after the last dose of trial treatment\n* Has a known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies)\n* Has known active hepatitis B (e.g., hepatitis B surface antigen \\[HBsAg\\] reactive) or hepatitis C (e.g., hepatitis C virus \\[HCV\\] ribonucleic acid \\[RNA\\] \\[qualitative\\] is detected)\n* Any condition which in the Investigator?s opinion deems the participant an unsuitable candidate to receive study drug",
+      "brief_summary": "This phase II trial studies how well nivolumab and temozolomide work in treating patients with small-cell lung cancer that has come back or does not respond to treatment, or neuroendocrine cancer that has spread to other places in the body. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Drugs used in chemotherapy, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving nivolumab and temozolomide may work better in treating patients with small-cell lung cancer and neuroendocrine cancer.",
+      "detailed_description": "PRIMARY OBJECTIVES:\n\nI. To evaluate the efficacy (using response rate per RECIST v1.1) of nivolumab and temozolomide for the treatment of patients with either small cell lung cancer that have progressed or recurred after prior platinum-based chemotherapy and immunotherapy (cohort 1), or progressive metastatic neuroendocrine carcinoma of any grade or primary site in any line of therapy (cohort 2).\n\nSECONDARY OBJECTIVES:\n\nI. To evaluate the safety profile and toxicity of combination nivolumab and temozolomide as per Common Terminology Criteria for Adverse Events (CTCAE) version (v.) 5.0.\n\nII. To evaluate the progression free survival (PFS) and overall survival (OS) of patients treated with combination nivolumab and temozolomide.\n\nIII. To evaluate the central nervous system (CNS) PFS of patients with small cell lung cancer (SCLC) treated with nivolumab and temozolomide.\n\nEXPLORATORY OBJECTIVES:\n\nI. To determine whether treatment with nivolumab and temozolomide leads to a decrease in immune-suppressive cell populations (ie myeloid-derived suppressor cells \\[MDSC\\]) in peripheral blood.\n\nII. To determine whether objective response rate (ORR), PFS, OS vary by tumor O6-methylguanine deoxyribonucleic acid (DNA) methyltransferase (MGMT) methylation at baseline.\n\nIII. To determine whether baseline tumor mutational burden is predictive of response to therapy in patients with SCLC treated with nivolumab and temozolomide.\n\nIV. To determine whether changes in blood based mutation burden during treatment may predict clinical benefit.\n\nV. To determine whether a composite immune and tumor cell staining score can be developed with or without PD-L1 by immunohistochemistry (IHC) to predict response in the SCLC cohort.\n\nOUTLINE:\n\nPatients receive nivolumab intravenously (IV) on day 1 of a 28 day cycle. Patients also receive temozolomide orally (PO) on days 1-5. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up at 30 days, every 8 weeks for 12 months, then every 12 weeks thereafter.",
+      "locations": [
+        "Ohio State University Comprehensive Cancer Center-COHORT 1, Columbus, United States",
+        "Ohio State University Comprehensive Cancer Center-COHORT 2, Columbus, United States"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03728361",
+      "publications": {
+        "nct_id": "NCT03728361",
+        "study_title": "Nivolumab and Temozolomide in Treating Patients With Recurrent or Refractory Small-Cell Lung Cancer or Advanced Neuroendocrine Cancer",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "33234490",
+            "citation": "Owen DH, Benner B, Pilcher C, Good L, Savardekar H, Norman R, Ghattas C, Shah M, Konda B, Verschraegen CF, Wesolowski R, Behbehani GK, Carson WE, Otterson GA. Deep and Durable Response to Nivolumab and Temozolomide in Small-Cell Lung Cancer Associated With an Early Decrease in Myeloid-Derived Suppressor Cells. Clin Lung Cancer. 2021 Jul;22(4):e487-e497. doi: 10.1016/j.cllc.2020.10.018. Epub 2020 Nov 2.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33234490/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    },
+    {
+      "nct_id": "NCT03217097",
+      "title": "MGMT-NET: O6-methylguanine-DNA Methyltransferase (MGMT) Status in Neuroendocrine Tumors: Predictive Factor of Response to Alkylating Agents",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "dataset_source": "HasResults-false",
+      "has_posted_results": false,
+      "relevance_score": 1.0,
+      "relevance_explanation": "This study appears clinically relevant for the patient. The study explicitly includes duodeno-pancreatic NETs, which matches the patient's diagnosis of a pancreatic NET. The inclusion criteria allow for prior treatment with somatostatin analogs (the patient received Somatuline), and the study doesn't explicitly exclude patients based on age or ECOG performance status (though these are not specified in the patient data). The intervention, oxaliplatin-based chemotherapy, is a potential alternative to everolimus or PRRT being considered for the patient. Finally, the study is completed, has published results, and the publication suggests a potential predictive biomarker (MGMT) to guide treatment choice, making it a scientifically sound study.",
+      "condition": "Neuroendocrine Tumors",
+      "intervention": "Oxaliplatin-based chemotherapy; Alkylating-based chemotherapy",
+      "sponsor": "Hospices Civils de Lyon",
+      "start_date": "2018-10-16",
+      "completion_date": "2022-04-25",
+      "primary_outcome": "Objective Response (OR) in patients treated with alkylating-based chemotherapy",
+      "secondary_outcome": "Objective Response (OR) in patients treated with oxaliplatin-based chemotherapy; Progression Free Survival (PFS) in patients treated with alkylating-based chemotherapy; Progression Free Survival (PFS) in patients treated with oxaliplatin-based chemotherapy; Overall Survival (OS) in patients treated with alkylating-based chemotherapy; Overall Survival (OS) in patients treated with oxaliplatin-based chemotherapy; Objective Response (OR) assessed by immunochemistry on tissue",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Age greater than or equal to 18 years;\n* Patient presenting well-differentiated advanced grade 1-3 (locally/metastatic) duodeno-pancreatic or thoracic (lung or thymus) or unknown primitive NETs, not curable with surgery.\n* Patients must have measurable disease using the RECIST v1.1 criteria;\n* Indication for cytotoxic systemic chemotherapy validated by the dedicated Multidisciplinary Tumor Board;\n* MRI or TAP CT scan with contrast agents within 4 weeks +/- 1 week before beginning of treatment;\n* Tumor tissue available (fresh frozen or paraffin-embedded) in order to search for the methyl guanine methyltransferase (MGMT) status;\n* Patients with childbearing potential should use effective contraception during the study and the following 6 months;\n* Covered by a Healthcare System where applicable, and/or in compliance with the recommendations of the national laws in force relating to biomedical research;\n* Subject able to understand and willing to sign a written informed consent document;\n* Signed written informed consent obtained prior to any study-specific screening procedures.\n\nPrevious treatments such as surgery, radiofrequency ablation, transarterial liver embolization, somatostatin analogs, interferon, everolimus or other targeted therapy, peptide receptor radionuclide treatment (PRRT) and chemotherapy (platin-etoposide, folfiri, paclitaxel or docetaxel) are allowed.\n\nExclusion Criteria:\n\n* Previous chemotherapy using Oxaliplatin or ALKY (streptozotocin, dacarbazin or temozolomide). Other chemotherapy (platin-etoposide, folfiri, paclitaxel or docetaxel) are allowed;\n* Pregnant or breastfeeding;\n* Men and women of childbearing age potential not using medically accepted contraceptive measures, as judged by the investigator;\n* Contraindication to any drug contained in the chemotherapy regimen;\n* Any significant disease which, in the investigator's opinion, excludes the patient from the study;\n* Under any administrative or legal supervision.",
+      "brief_summary": "Neuroendocrine tumors (NET) are rare but their incidence is growing. Alkylating agents (ALKY) are one of the main systemic treatments used, at least for advanced duodeno-pancreatic NETs, with a response rate of 30 to 40% and a median progression-free survival of 4 to 18 months. Chemotherapy is one of the few therapeutic weapons, along with everolimus, somatostatin analogs, and metabolic radiotherapy, for lung NETs, called typical and atypical carcinoids, even if the level of proof of efficacy for these treatments is lower than for duodeno-pancreatic NETs. Considering the available retrospective data, O6-Methylguanine-DNA methyltransferase (MGMT) appears to be a predictive factor of the response to ALKY. Oxaliplatin (OX) has demonstrated an interesting activity, with response rates between 17% and 30%. In a first retrospective study we showed that Gemox is effective in NET, and more recently that its activity is similar to that of ALKYs, but without being influenced by the MGMT status. Prospective studies are needed but our data suggests that ALKY should be offered first to patients with methylated MGMT tumors while Oxaliplatin-based chemotherapy should be offered first to patients with unmethylated MGMT tumors.\n\nIn this project, we wish to evaluate the contribution of the MGMT methylation, evaluated in the tumor, in predicting the Objective Response (OR) in patients treated with ALKY and to evaluate a treatment with alkylating agents versus Oxaliplatin in patients with a duodeno-pancreatic or lung or unknown primitive NET.",
+      "detailed_description": "",
+      "locations": [
+        "Hôpital Sud - CHU Amiens, Amiens, France",
+        "CHU d'Angers, Angers, France",
+        "Hôpital Estaing, CHU de Clermont-Ferrand, France",
+        "Hôpital Beaujon - APHP, Clichy, France",
+        "Hôpital François Mitterrand - CHU Dijon Bourgogne, Dijon, France",
+        "Centre Oscar Lambret, Lille, France",
+        "Hôpital Claude Hurriet - CHRU Lille, Lille, France",
+        "Hôpital Edouard Herriot - Hospices Civils de Lyon, Lyon, France",
+        "Hôpital Privé Jean Mermoz, Lyon, France",
+        "Institut Paoli Calmettes, Marseille, France",
+        "Hôpital Saint Louis - APHP, Paris, France",
+        "Hôpital Cochin - APHP, Paris, France",
+        "CH Annecy Genevois, Pringy, France",
+        "Hôpital Robert Debré - CHU Reims, Reims, France",
+        "Hôpital Nord - CHU Saint Etienne, Saint-Priest-en-Jarez, France",
+        "Institut de Cancérologie de la Loire, Saint-Priest-en-Jarez, France",
+        "Hôpital Rangueil - CHU Toulouse, Toulouse, France",
+        "Hôpital Trousseau - CHU Tours, Tours, France",
+        "Institut Gustave Roussy, Villejuif, France"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03217097",
+      "publications": {
+        "nct_id": "NCT03217097",
+        "study_title": "MGMT-NET: O6-methylguanine-DNA Methyltransferase (MGMT) Status in Neuroendocrine Tumors: Predictive Factor of Response to Alkylating Agents",
+        "publications_found": 1,
+        "publications": [
+          {
+            "pmid": "30824408",
+            "citation": "Lemelin A, Barritault M, Hervieu V, Payen L, Peron J, Couvelard A, Cros J, Scoazec JY, Bin S, Villeneuve L, Lombard-Bohas C, Walter T; MGMT-NET investigators. O6-methylguanine-DNA methyltransferase (MGMT) status in neuroendocrine tumors: a randomized phase II study (MGMT-NET). Dig Liver Dis. 2019 Apr;51(4):595-599. doi: 10.1016/j.dld.2019.02.001. Epub 2019 Feb 14.",
+            "type": "DERIVED",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30824408/"
+          }
+        ],
+        "status": "from_study_data"
+      }
+    }
+  ]
+}

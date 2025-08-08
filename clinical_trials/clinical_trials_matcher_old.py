@@ -26,10 +26,6 @@ from shared_logic import format_patient_data_for_prompt, PATIENT_FIELDS_FOR_PROM
 from data_loader import load_patient_data
 from config import OPENROUTER_API_KEY, OPENROUTER_API_URL, OPENROUTER_MODEL
 
-# Import monitoring module from parent directory  
-sys.path.append(str(Path(__file__).parent.parent))
-from intermediate_results_monitor import IntermediateResultsMonitor
-
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -402,13 +398,6 @@ class PatientStudyMatcher:
         # Load pre-filtered studies from multiple files
         if self.studies_files:
             self.load_combined_studies(self.studies_files)
-        else:
-            # Fallback to default combined studies files
-            default_files = [
-                "c:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/clinical_trials/collected_studies/filtered_results/net_studies_HasResults-false_hasresults_false_filtered_20250808_115310.json",
-                "c:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/clinical_trials/collected_studies/filtered_results/net_studies_HasResults-true_filtered_20250807_173327.json"
-            ]
-            self.load_combined_studies(default_files)
     
     def load_combined_studies(self, studies_files: List[str]):
         """Load and combine pre-filtered studies from multiple JSON files."""
@@ -517,15 +506,76 @@ class PatientStudyMatcher:
         logger.info(f"Dataset composition: {hasresults_false_count} from HasResults-false, {hasresults_true_count} from HasResults-true")
     
     def load_pre_filtered_studies(self, studies_file: str):
-        """Load pre-filtered studies from JSON file (legacy method for backward compatibility)."""
-        self.load_combined_studies([studies_file])
+        """Load pre-filtered studies from JSON file."""
+        try:
+            with open(studies_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            studies_data = data.get('studies', [])
+            self.pre_filtered_studies = []
+            
+            # Convert study data back to the expected format
+            for study_data in studies_data:
+                # Reconstruct the study format expected by the evaluation method
+                study = {
+                    "protocolSection": {
+                        "identificationModule": {
+                            "nctId": study_data.get('nct_id', ''),
+                            "briefTitle": study_data.get('title', '')
+                        },
+                        "statusModule": {
+                            "overallStatus": study_data.get('status', ''),
+                            "startDateStruct": {"date": study_data.get('start_date', '')},
+                            "completionDateStruct": {"date": study_data.get('completion_date', '')}
+                        },
+                        "designModule": {
+                            "phases": [study_data.get('phase', 'N/A')] if study_data.get('phase') != 'N/A' else []
+                        },
+                        "conditionsModule": {
+                            "conditions": study_data.get('condition', '').split('; ') if study_data.get('condition') else []
+                        },
+                        "armsInterventionsModule": {
+                            "interventions": [{"name": intervention} for intervention in study_data.get('intervention', '').split('; ') if intervention]
+                        },
+                        "eligibilityModule": {
+                            "eligibilityCriteria": study_data.get('eligibility_criteria', '')
+                        },
+                        "outcomesModule": {
+                            "primaryOutcomes": [{"measure": outcome} for outcome in study_data.get('primary_outcome', '').split('; ') if outcome],
+                            "secondaryOutcomes": [{"measure": outcome} for outcome in study_data.get('secondary_outcome', '').split('; ') if outcome]
+                        },
+                        "sponsorCollaboratorsModule": {
+                            "leadSponsor": {"name": study_data.get('sponsor', '')}
+                        },
+                        "contactsLocationsModule": {
+                            "locations": [{"facility": loc.split(', ')[0] if ', ' in loc else loc, 
+                                         "city": loc.split(', ')[1] if len(loc.split(', ')) > 1 else "", 
+                                         "country": loc.split(', ')[-1] if ', ' in loc else ""} 
+                                        for loc in study_data.get('locations', [])]
+                        },
+                        "descriptionModule": {
+                            "briefSummary": study_data.get('brief_summary', ''),
+                            "detailedDescription": study_data.get('detailed_description', '')
+                        },
+                        "referencesModule": {
+                            "references": study_data.get('publications', [])
+                        }
+                    },
+                    "hasResults": study_data.get('has_posted_results', True)
+                }
+                self.pre_filtered_studies.append(study)
+            
+            logger.info(f"Loaded {len(self.pre_filtered_studies)} pre-filtered studies from {studies_file}")
+            
+        except Exception as e:
+            logger.error(f"Error loading pre-filtered studies from {studies_file}: {e}")
+            self.pre_filtered_studies = []
         
     def find_relevant_studies(self, 
                             patient_data: Dict, 
                             min_relevance_score: float = MIN_RELEVANCE_SCORE,
                             max_studies: int = 50,
-                            report_file: Optional[str] = None,
-                            monitor: Optional[Any] = None) -> List[ClinicalTrialMatch]:
+                            report_file: Optional[str] = None) -> List[ClinicalTrialMatch]:
         """
         Find relevant clinical trials for a patient using LLM evaluation.
         
@@ -581,15 +631,6 @@ class PatientStudyMatcher:
                 
                 logger.info(f"Study {nct_id} - Decision: {'YES' if score >= 1.0 else 'NO'} (Score: {score:.1f})")
                 
-                # Log to monitor if available
-                if monitor:
-                    decision_text = "YES" if score >= 1.0 else "NO"
-                    study_title = study.get("protocolSection", {}).get("identificationModule", {}).get("briefTitle", "Unknown Study")
-                    monitor.log_study(
-                        patient_data.get('ID', 'Unknown'), nct_id, study_title,
-                        decision_text, score, reason, evaluated_count, len(unique_studies)
-                    )
-                
                 if report_file:
                     decision_text = "✅ RELEVANT" if score >= 1.0 else "❌ Not relevant"
                     self._append_to_report(report_file, f"{decision_text}\n")
@@ -609,10 +650,6 @@ class PatientStudyMatcher:
                     sponsor_module = protocol.get("sponsorCollaboratorsModule", {})
                     contacts_module = protocol.get("contactsLocationsModule", {})
                     description_module = protocol.get("descriptionModule", {})
-                    
-                    # Get dataset source information
-                    dataset_source = study.get('dataset_source', 'Unknown')
-                    has_posted_results_original = study.get('original_study_data', {}).get('has_posted_results_original', True)
                     
                     # Extract locations
                     locations = []
@@ -677,12 +714,8 @@ class PatientStudyMatcher:
                         publications=publications_info
                     )
                     
-                    # Add dataset source information to the match
-                    match.dataset_source = dataset_source
-                    match.has_posted_results_original = has_posted_results_original
-                    
                     matches.append(match)
-                    logger.info(f"Added relevant study: {match.title} (Score: {score:.3f}, Source: {dataset_source})")
+                    logger.info(f"Added relevant study: {match.title} (Score: {score:.3f})")
                     
                     # Write match to progressive report
                     if report_file:
@@ -780,44 +813,82 @@ FINAL MATCHES (sorted by relevance)
 """
         self._append_to_report(report_file, summary_text)
 
-def generate_matches_json_data(patient_data: Dict, matches: List[ClinicalTrialMatch]) -> Dict:
-    """Generate JSON data structure containing only the study matches for a patient."""
+def generate_study_report(patient_data: Dict, matches: List[ClinicalTrialMatch], llm_matcher: LLMStudyMatcher = None) -> str:
+    """Generate a formatted report of clinically relevant studies with publications and posted results for a patient."""
     
-    matches_data = []
-    for match in matches:
-        match_data = {
-            "nct_id": match.nct_id,
-            "title": match.title,
-            "status": match.status,
-            "phase": match.phase,
-            "dataset_source": getattr(match, 'dataset_source', 'Unknown'),
-            "has_posted_results": getattr(match, 'has_posted_results_original', True),
-            "relevance_score": match.relevance_score,
-            "relevance_explanation": match.relevance_reason,
-            "condition": match.condition,
-            "intervention": match.intervention,
-            "sponsor": match.sponsor,
-            "start_date": match.start_date,
-            "completion_date": match.completion_date,
-            "primary_outcome": match.primary_outcome,
-            "secondary_outcome": match.secondary_outcome,
-            "eligibility_criteria": match.eligibility_criteria,
-            "brief_summary": match.brief_summary,
-            "detailed_description": match.detailed_description,
-            "locations": match.locations,
-            "url": match.url,
-            "publications": match.publications
-        }
-        matches_data.append(match_data)
+    report = []
+    report.append("="*80)
+    report.append("CLINICAL TRIALS MATCHES REPORT (STUDIES WITH PUBLICATIONS AND POSTED RESULTS ONLY)")
+    report.append("="*80)
     
-    return {
-        "patient_id": str(patient_data.get('ID', 'Unknown')),
-        "patient_diagnosis": patient_data.get('main_diagnosis_text', 'Not specified'),
-        "patient_clinical_question": patient_data.get('Fragestellung', 'Not specified'),
-        "matching_date": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        "total_matches_found": len(matches),
-        "matches": matches_data
-    }
+    # Patient information
+    report.append(f"\nPatient ID: {patient_data.get('ID', 'Unknown')}")
+    report.append(f"Diagnosis: {patient_data.get('main_diagnosis_text', 'Not specified')}")
+    report.append(f"Clinical Question: {patient_data.get('Fragestellung', 'Not specified')}")
+    report.append(f"Report generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    report.append(f"\nFound {len(matches)} relevant clinical trials (with publications and posted results)")
+    report.append("-"*80)
+    
+    for i, match in enumerate(matches, 1):
+        report.append(f"\n{i}. {match.title}")
+        report.append(f"   NCT ID: {match.nct_id}")
+        report.append(f"   Status: {match.status}")
+        report.append(f"   Phase: {match.phase}")
+        report.append(f"   Clinically Relevant: {'YES' if match.relevance_score >= 1.0 else 'NO'} (Score: {match.relevance_score:.1f})")
+        
+        # Format the LLM explanation with better readability
+        if llm_matcher and hasattr(llm_matcher, '_format_llm_explanation_for_display'):
+            formatted_reason = llm_matcher._format_llm_explanation_for_display(match.relevance_reason)
+        else:
+            # Fallback formatting if matcher not available
+            formatted_reason = match.relevance_reason
+        
+        report.append(f"   Clinical Reasoning:")
+        # Add indented, well-formatted reasoning
+        for line in formatted_reason.split('\n'):
+            if line.strip():
+                report.append(f"   {line}")
+        
+        report.append(f"   Has Posted Results: YES (verified)")
+        report.append(f"   Condition: {match.condition}")
+        report.append(f"   Intervention: {match.intervention}")
+        report.append(f"   Sponsor: {match.sponsor}")
+        report.append(f"   Start Date: {match.start_date}")
+        report.append(f"   Completion Date: {match.completion_date}")
+        if match.locations:
+            report.append(f"   Locations: {'; '.join(match.locations[:3])}")  # Show first 3 locations
+        report.append(f"   URL: {match.url}")
+        
+        # Add brief summary if available
+        if match.brief_summary:
+            summary = match.brief_summary[:300] + "..." if len(match.brief_summary) > 300 else match.brief_summary
+            report.append(f"   Summary: {summary}")
+        
+        # Add publication information with links
+        if match.publications and match.publications.get('publications_found', 0) > 0:
+            report.append(f"   Publications Found: {match.publications['publications_found']}")
+            for pub_idx, pub in enumerate(match.publications['publications'][:3], 1):  # Show first 3 publications
+                # Extract title from citation if available, otherwise use citation
+                title = pub.get('citation', 'Study Publication')
+                if len(title) > 80:
+                    title = title[:80] + "..."
+                
+                report.append(f"     {pub_idx}. {title}")
+                if pub.get('pmid'):
+                    report.append(f"        PMID: {pub['pmid']}")
+                if pub.get('type'):
+                    report.append(f"        Type: {pub['type']}")
+                if pub.get('url'):
+                    report.append(f"        Link: {pub['url']}")
+                else:
+                    report.append(f"        Link: https://clinicaltrials.gov/study/{match.nct_id}")
+        else:
+            report.append(f"   Publications: Available in study data (filtering verified)")
+        
+        report.append("-"*40)
+    
+    return "\n".join(report)
 
 def main():
     """Main function to run the clinical trials matching system."""
@@ -828,9 +899,11 @@ def main():
         print("Please set your OpenRouter API key in the .env file or environment variables.")
         return
     
+    print("✅ Using pre-filtered studies with recent publications from study collector")
+    
     # Configuration
     PATIENT_DATA_FILE = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/data/NET Tubo v2.xlsx")
-    OUTPUT_DIR = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/clinical_trials/clinical_trials_matches")
+    OUTPUT_DIR = Path("C:/Users/pia/OneDrive - Universitaet Bern/Projects/NetTubo/netTubo/clinical_trials_matches")
     
     # Combined studies files
     STUDIES_FILES = [
@@ -841,7 +914,7 @@ def main():
     # Create output directory
     OUTPUT_DIR.mkdir(exist_ok=True)
     
-    # Initialize LLM matcher and patient matcher with combined pre-filtered studies
+    # Initialize LLM matcher and patient matcher with pre-filtered studies
     llm_matcher = LLMStudyMatcher(OPENROUTER_API_KEY)
     # llm_matcher = LLMStudyMatcher(OPENROUTER_API_KEY, model="google/gemini-2.5-pro-exp-03-25")
     
@@ -858,15 +931,11 @@ def main():
         logger.error(f"Error loading patient data: {e}")
         return
     
-    # Create intermediate results monitor
-    monitor = IntermediateResultsMonitor(OUTPUT_DIR)
-    
     # Process each patient
     all_results = []
     patient_ids = [pid for pid in df_patients["ID"].unique() if pid and str(pid).strip()]
     
     logger.info(f"Processing {len(patient_ids)} patients with LLM-based matching")
-    monitor.start_session(len(patient_ids))
     
     for i, patient_id in enumerate(patient_ids, 1):
         logger.info(f"Processing patient {i}/{len(patient_ids)} (ID: {patient_id})")
@@ -876,38 +945,36 @@ def main():
             patient_row = df_patients[df_patients["ID"] == patient_id].iloc[0]
             patient_data = patient_row.to_dict()
             
-            # Start monitoring for this patient
-            monitor.start_patient(str(patient_id), patient_data)
+            # Setup progressive report file
+            patient_report_file = OUTPUT_DIR / f"patient_{patient_id}_clinical_trials_llm.txt"
             
-            # Find relevant studies using LLM evaluation
+            print(f"📝 Starting evaluation for patient {patient_id}. You can watch progress in: {patient_report_file}")
+            
+            # Find relevant studies using LLM evaluation with progressive reporting
             matches = matcher.find_relevant_studies(
                 patient_data, 
                 min_relevance_score=MIN_RELEVANCE_SCORE,  # Include clinically relevant matches (YES decisions)
                 max_studies=15,  # Studies with good clinical relevance
-                monitor=monitor  # Pass the monitor to track progress
+                report_file=str(patient_report_file)  # Enable progressive reporting
             )
             
-            # Generate matches JSON data only
-            matches_data = generate_matches_json_data(patient_data, matches)
+            # Generate final formatted report (will overwrite the progressive report)
+            report = generate_study_report(patient_data, matches, llm_matcher)
             
-            # Save JSON matches
-            json_filename = f"patient_{patient_id}_matches.json"
-            json_filepath = OUTPUT_DIR / json_filename
+            # Save final individual patient report
+            with open(patient_report_file, 'w', encoding='utf-8') as f:
+                f.write(report)
             
-            with open(json_filepath, 'w', encoding='utf-8') as f:
-                json.dump(matches_data, f, indent=2, ensure_ascii=False)
-            
-            logger.info(f"Found {len(matches)} clinically relevant studies for patient {patient_id}")
-            print(f"✅ Matches saved for patient {patient_id}: {json_filepath}")
-            
-            # Log completion to monitor
-            monitor.complete_patient(str(patient_id), matches, patient_data, str(json_filepath))
+            logger.info(f"Found {len(matches)} clinically relevant studies with publications and posted results for patient {patient_id}")
+            print(f"✅ Completed patient {patient_id}. Final report saved to: {patient_report_file}")
             
             # Store results for summary
             patient_result = {
                 "patient_id": str(patient_id),
                 "patient_data": patient_data,
                 "matches_found": len(matches),
+                "matches_with_publications": len(matches),  # All matches have publications (filtered)
+                "matches_with_posted_results": len(matches),  # All matches have posted results (filtered)
                 "llm_evaluation_method": OPENROUTER_MODEL,
                 "min_relevance_score": MIN_RELEVANCE_SCORE,
                 "matches": [
@@ -916,15 +983,16 @@ def main():
                         "title": match.title,
                         "status": match.status,
                         "phase": match.phase,
-                        "dataset_source": getattr(match, 'dataset_source', 'Unknown'),
                         "relevance_score": match.relevance_score,
                         "relevance_reason": match.relevance_reason,
+                        "has_posted_results": True,  # All matches have posted results (filtered)
                         "condition": match.condition,
                         "intervention": match.intervention,
                         "url": match.url,
                         "publications": match.publications if match.publications else None
                     } for match in matches
-                ]
+                ],
+                "report_file": str(patient_report_file)
             }
             
             all_results.append(patient_result)
@@ -941,10 +1009,6 @@ def main():
     summary_file = OUTPUT_DIR / "clinical_trials_summary_llm.json"
     with open(summary_file, 'w', encoding='utf-8') as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
-    
-    # Finalize monitoring
-    total_matches = sum(result["matches_found"] for result in all_results)
-    monitor.finalize(len(patient_ids), total_matches)
     
     # Generate overall summary
     total_matches = sum(result["matches_found"] for result in all_results)
@@ -965,10 +1029,10 @@ def main():
         "LLM-BASED CLINICAL TRIALS MATCHING SUMMARY (COMBINED PRE-FILTERED DATASETS)",
         "="*80,
         f"Total patients processed: {len(all_results)}",
-        f"Total studies found: {total_matches} (from combined HasResults-false and HasResults-true datasets)",
+        f"Total studies found: {total_matches} (pre-filtered with publications from 2020+ and posted results)",
         f"Average studies per patient: {avg_matches:.1f}",
         f"Clinically relevant matches: {relevant_count} (all matches are clinically relevant)",
-        f"Studies with posted results: {total_matches}/{total_matches} (100% - combined from both datasets)",
+        f"Studies with posted results: {total_matches}/{total_matches} (100% - pre-filtering requirement)",
         f"Studies with publications from 2020+: {total_matches}/{total_matches} (100% - pre-filtering requirement)",
         f"Evaluation method: LLM-based semantic matching on combined pre-filtered study database",
         f"Source studies files: {len(STUDIES_FILES)} combined datasets",

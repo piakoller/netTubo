@@ -1,0 +1,275 @@
+{
+  "session_id": "20250808_140517",
+  "start_time": "2025-08-08T14:05:17.992106",
+  "status": "completed",
+  "total_patients": 5,
+  "completed_patients": 5,
+  "patients": {
+    "1": {
+      "patient_id": "1",
+      "start_time": "2025-08-08T14:05:17.997622",
+      "status": "completed",
+      "diagnosis": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G1 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Resektion der Lebermetastasen in Segment VI und Ablation der Läsion in Segment VIII. Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.\n01/2017 V.a. neue Lebermetastase\n02/2017 Start Somatoline\n02/2018 CT Abdomen: stable disease\n03/2019 CT Abdomen: V.a. gering progrediente Lebermetastasen. ",
+      "clinical_question": "Weitere Therapie?",
+      "studies_evaluated": [],
+      "matches_found": 0,
+      "total_studies": 0,
+      "end_time": "2025-08-08T14:14:29.634867",
+      "final_matches_count": 15,
+      "output_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials\\clinical_trials_matches\\patient_1_matches.json",
+      "processing_duration_seconds": 551.64,
+      "matches_summary": [
+        {
+          "nct_id": "NCT03278379",
+          "title": "Avelumab in G2-3 NET",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02730104",
+          "title": "Community-based Neuroendocrine Tumor (NET) Research Study",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02973204",
+          "title": "Circulating Tumor Cells and Tumor DNA in HCC and NET",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT03012620",
+          "title": "Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT03012789",
+          "title": "Surgical Intervention and the NETest",
+          "score": 1.0,
+          "phase": "NA",
+          "status": "ACTIVE_NOT_RECRUITING"
+        }
+      ]
+    },
+    "2": {
+      "patient_id": "2",
+      "start_time": "2025-08-08T14:14:31.641804",
+      "status": "completed",
+      "diagnosis": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G3 NET, Ki67 48%.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+      "clinical_question": "Weitere Therapie?",
+      "studies_evaluated": [],
+      "matches_found": 0,
+      "total_studies": 0,
+      "end_time": "2025-08-08T14:23:08.497442",
+      "final_matches_count": 15,
+      "output_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials\\clinical_trials_matches\\patient_2_matches.json",
+      "processing_duration_seconds": 516.86,
+      "matches_summary": [
+        {
+          "nct_id": "NCT03278379",
+          "title": "Avelumab in G2-3 NET",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02973204",
+          "title": "Circulating Tumor Cells and Tumor DNA in HCC and NET",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT03012620",
+          "title": "Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT03012789",
+          "title": "Surgical Intervention and the NETest",
+          "score": 1.0,
+          "phase": "NA",
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "nct_id": "NCT03333616",
+          "title": "Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING"
+        }
+      ]
+    },
+    "3": {
+      "patient_id": "3",
+      "start_time": "2025-08-08T14:23:10.503447",
+      "status": "completed",
+      "diagnosis": "NET des Dünndarms mit Lymphknoten und Lebermetastasen (ED 2015)\nKoloskopie bei unklaren abdominellen Beschwerden 06/2015: Tumor im Ileum 25 cm oberhalb der Ileozökalklappe. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Ileums 40 x 40 x 70 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n07/2015 DOTATOC PET: geringe Speicherung der Leberläsionen.\n07/2015 Hemicolektomie rechts und Ileumteilresektion mit Lymphadenektomie.",
+      "clinical_question": "Weitere Therapie, Everolimus oder PRRT?",
+      "studies_evaluated": [],
+      "matches_found": 0,
+      "total_studies": 0,
+      "end_time": "2025-08-08T14:31:49.539658",
+      "final_matches_count": 15,
+      "output_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials\\clinical_trials_matches\\patient_3_matches.json",
+      "processing_duration_seconds": 519.04,
+      "matches_summary": [
+        {
+          "nct_id": "NCT03278379",
+          "title": "Avelumab in G2-3 NET",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02973204",
+          "title": "Circulating Tumor Cells and Tumor DNA in HCC and NET",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT03012620",
+          "title": "Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02724540",
+          "title": "Randomized Embolization Trial for NeuroEndocrine Tumor Metastases to the Liver",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT05168631",
+          "title": "Multicenter Retrospective Database on Prognostic and Predictive Factors in Patients With Neuroendocr...",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "ACTIVE_NOT_RECRUITING"
+        }
+      ]
+    },
+    "4": {
+      "patient_id": "4",
+      "start_time": "2025-08-08T14:31:51.563909",
+      "status": "completed",
+      "diagnosis": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n08/2015 Start Somatuline\n06/2016 DOTATOC PET: Progress der Lebermetastasen, starke Speicherung der Leberläsionen.",
+      "clinical_question": "Weitere Therapie, Everolimus oder PRRT?",
+      "studies_evaluated": [],
+      "matches_found": 0,
+      "total_studies": 0,
+      "end_time": "2025-08-08T14:40:45.053531",
+      "final_matches_count": 15,
+      "output_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials\\clinical_trials_matches\\patient_4_matches.json",
+      "processing_duration_seconds": 533.49,
+      "matches_summary": [
+        {
+          "nct_id": "NCT03278379",
+          "title": "Avelumab in G2-3 NET",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02973204",
+          "title": "Circulating Tumor Cells and Tumor DNA in HCC and NET",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT05459844",
+          "title": "A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patien...",
+          "score": 1.0,
+          "phase": "PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "nct_id": "NCT03012620",
+          "title": "Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02724540",
+          "title": "Randomized Embolization Trial for NeuroEndocrine Tumor Metastases to the Liver",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    "5": {
+      "patient_id": "5",
+      "start_time": "2025-08-08T14:40:47.061038",
+      "status": "completed",
+      "diagnosis": "NET des Pankreas mit Lymphknoten und Lebermetastasen (ED 2015)\nCT bei unklaren abdominellen Beschwerden 06/2015: Tumor im Pankreas. G2 NET.\n07/2015 CT staging Thorax/Abdomen: Primärtumor des Pankreas 20 x 40 x 30 mm. V.a. Lymphknotenmetastasen lokoregionär. V.a. Lebermetastasen in Segment VI und VIII.\n\n06/2015 DOTATOC PET: starke Speicherung der Läsionen.",
+      "clinical_question": "Weitere Therapie, Somatuline oder PRRT?",
+      "studies_evaluated": [],
+      "matches_found": 0,
+      "total_studies": 0,
+      "end_time": "2025-08-08T14:56:24.847929",
+      "final_matches_count": 15,
+      "output_file": "C:\\Users\\pia\\OneDrive - Universitaet Bern\\Projects\\NetTubo\\netTubo\\clinical_trials\\clinical_trials_matches\\patient_5_matches.json",
+      "processing_duration_seconds": 937.79,
+      "matches_summary": [
+        {
+          "nct_id": "NCT03278379",
+          "title": "Avelumab in G2-3 NET",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT02730104",
+          "title": "Community-based Neuroendocrine Tumor (NET) Research Study",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT04727723",
+          "title": "Italian Prospective Observational Study Assessing the Effectiveness and Outcomes Associated With Lut...",
+          "score": 1.0,
+          "phase": "N/A",
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "nct_id": "NCT03012620",
+          "title": "Secured Access to Pembrolizumab for Patients With Selected Rare Cancer Types",
+          "score": 1.0,
+          "phase": "PHASE2",
+          "status": "COMPLETED"
+        },
+        {
+          "nct_id": "NCT03012789",
+          "title": "Surgical Intervention and the NETest",
+          "score": 1.0,
+          "phase": "NA",
+          "status": "ACTIVE_NOT_RECRUITING"
+        }
+      ]
+    }
+  },
+  "session_start_time": "2025-08-08T14:05:17.995105",
+  "end_time": "2025-08-08T14:56:24.867932",
+  "total_patients_processed": 5,
+  "total_matches_found": 75,
+  "session_duration_seconds": 3066.87,
+  "summary": {
+    "patients_processed": 5,
+    "matches_found": 75,
+    "avg_matches_per_patient": 15.0,
+    "completed_successfully": 5
+  }
+}
